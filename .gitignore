@@ -1,4 +1,6 @@
 *.pyc
+tmp/
+writeup.md
 .cache/
 env/
 .DS_Store
