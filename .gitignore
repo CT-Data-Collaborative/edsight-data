@@ -1,5 +1,6 @@
 *.pyc
 tmp/
+crawls/
 writeup.md
 .cache/
 env/
