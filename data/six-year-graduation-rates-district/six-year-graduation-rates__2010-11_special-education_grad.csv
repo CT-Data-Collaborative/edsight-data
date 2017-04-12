@@ -1,274 +1,183 @@
-"Six-Year Graduation Rates, 2010-11"
-"All Districts, Special Education Status"
-
-"",,,"Graduates",
-"District","Special Education Status","Six-Year Cohort Count","Graduation Count","Graduation Rate"
-"Amistad Academy District","Non-Special Education",26,18,69.2
-"Ansonia School District","Non-Special Education",165,133,80.6
-"Ansonia School District","Special Education",22,13,59.1
-"Avon School District","Non-Special Education",230,225,97.8
-"Avon School District","Special Education",25,25,100.0
-"Berlin School District","Non-Special Education",232,222,95.7
-"Berlin School District","Special Education",30,27,90.0
-"Bethel School District","Non-Special Education",223,217,97.3
-"Bethel School District","Special Education",27,23,85.2
-"Bloomfield School District","Non-Special Education",155,134,86.5
-"Bloomfield School District","Special Education",28,20,71.4
-"Bolton School District","Non-Special Education","*","*","*"
-"Bolton School District","Special Education","*","*","*"
-"Branford School District","Non-Special Education",248,241,97.2
-"Branford School District","Special Education",36,29,80.6
-"Bridgeport School District","Non-Special Education",1232,856,69.5
-"Bridgeport School District","Special Education",173,80,46.2
-"Bristol School District","Non-Special Education",628,529,84.2
-"Bristol School District","Special Education",76,59,77.6
-"Brookfield School District","Non-Special Education",253,244,96.4
-"Brookfield School District","Special Education",11,10,90.9
-"Canton School District","Non-Special Education",103,99,96.1
-"Canton School District","Special Education",17,16,94.1
-"Capitol Region Education Council","Non-Special Education",272,242,89.0
-"Capitol Region Education Council","Special Education",32,23,71.9
-"Cheshire School District","Non-Special Education",334,330,98.8
-"Cheshire School District","Special Education",41,36,87.8
-"Clinton School District","Non-Special Education",126,120,95.2
-"Clinton School District","Special Education",19,18,94.7
-"Colchester School District","Non-Special Education",223,216,96.9
-"Colchester School District","Special Education",27,24,88.9
-"Common Ground High School District","Non-Special Education",30,27,90.0
-"Common Ground High School District","Special Education",8,7,87.5
-"Connecticut Technical High School System","Non-Special Education",2146,2023,94.3
-"Connecticut Technical High School System","Special Education",184,175,95.1
-"Coventry School District","Non-Special Education",133,127,95.5
-"Coventry School District","Special Education",20,13,65.0
-"Cromwell School District","Non-Special Education",147,145,98.6
-"Cromwell School District","Special Education",23,16,69.6
-"Danbury School District","Non-Special Education",680,572,84.1
-"Danbury School District","Special Education",76,59,77.6
-"Darien School District","Non-Special Education",291,283,97.3
-"Darien School District","Special Education",36,34,94.4
-"Derby School District","Non-Special Education",114,94,82.5
-"Derby School District","Special Education",8,6,75.0
-"East Granby School District","Non-Special Education",69,68,98.6
-"East Granby School District","Special Education",7,6,85.7
-"East Haddam School District","Non-Special Education","*","*","*"
-"East Haddam School District","Special Education","*","*","*"
-"East Hampton School District","Non-Special Education",125,118,94.4
-"East Hampton School District","Special Education",14,9,64.3
-"East Hartford School District","Non-Special Education",514,450,87.5
-"East Hartford School District","Special Education",80,60,75.0
-"East Haven School District","Non-Special Education",272,241,88.6
-"East Haven School District","Special Education",29,19,65.5
-"East Lyme School District","Non-Special Education",289,282,97.6
-"East Lyme School District","Special Education",36,36,100.0
-"East Windsor School District","Non-Special Education",77,69,89.6
-"East Windsor School District","Special Education",12,12,100.0
-"Eastern Connecticut Regional Educational Service Center (EASTCONN)","Non-Special Education",57,"*","*"
-"Eastern Connecticut Regional Educational Service Center (EASTCONN)","Special Education",7,"*","*"
-"Ellington School District","Non-Special Education",164,157,95.7
-"Ellington School District","Special Education",17,17,100.0
-"Enfield School District","Non-Special Education",464,413,89.0
-"Enfield School District","Special Education",53,40,75.5
-"Explorations District","Non-Special Education",21,15,71.4
-"Explorations District","Special Education",9,6,66.7
-"Fairfield School District","Non-Special Education",597,584,97.8
-"Fairfield School District","Special Education",56,49,87.5
-"Farmington School District","Non-Special Education",306,294,96.1
-"Farmington School District","Special Education",29,28,96.6
-"Glastonbury School District","Non-Special Education",480,475,99.0
-"Glastonbury School District","Special Education",70,62,88.6
-"Granby School District","Non-Special Education",180,177,98.3
-"Granby School District","Special Education",13,13,100.0
-"Greenwich School District","Non-Special Education",568,560,98.6
-"Greenwich School District","Special Education",64,57,89.1
-"Griswold School District","Non-Special Education",178,158,88.8
-"Griswold School District","Special Education",22,11,50.0
-"Groton School District","Non-Special Education",300,255,85.0
-"Groton School District","Special Education",33,19,57.6
-"Guilford School District","Non-Special Education",245,236,96.3
-"Guilford School District","Special Education",26,24,92.3
-"Hamden School District","Non-Special Education",507,454,89.5
-"Hamden School District","Special Education",72,59,81.9
-"Hartford School District","Non-Special Education",1322,966,73.1
-"Hartford School District","Special Education",268,152,56.7
-"Killingly School District","Non-Special Education",168,130,77.4
-"Killingly School District","Special Education",27,16,59.3
-"Lebanon School District","Non-Special Education",143,135,94.4
-"Lebanon School District","Special Education",17,14,82.4
-"Ledyard School District","Non-Special Education",207,193,93.2
-"Ledyard School District","Special Education",24,22,91.7
-"Lisbon School District","Special Education","*","*","*"
-"Litchfield School District","Non-Special Education",88,85,96.6
-"Litchfield School District","Special Education",7,7,100.0
-"Madison School District","Non-Special Education",287,283,98.6
-"Madison School District","Special Education",30,26,86.7
-"Manchester School District","Non-Special Education",452,361,79.9
-"Manchester School District","Special Education",78,52,66.7
-"Meriden School District","Non-Special Education",526,412,78.3
-"Meriden School District","Special Education",91,59,64.8
-"Middletown School District","Non-Special Education",294,248,84.4
-"Middletown School District","Special Education",51,34,66.7
-"Milford School District","Non-Special Education",419,393,93.8
-"Milford School District","Special Education",74,61,82.4
-"Monroe School District","Non-Special Education",341,340,99.7
-"Monroe School District","Special Education",25,21,84.0
-"Montville School District","Non-Special Education",180,159,88.3
-"Montville School District","Special Education",25,21,84.0
-"Naugatuck School District","Non-Special Education",322,280,87.0
-"Naugatuck School District","Special Education",46,35,76.1
-"New Britain School District","Non-Special Education",631,396,62.8
-"New Britain School District","Special Education",112,65,58.0
-"New Canaan School District","Non-Special Education",280,278,99.3
-"New Canaan School District","Special Education",31,29,93.5
-"New Fairfield School District","Non-Special Education",216,205,94.9
-"New Fairfield School District","Special Education",24,22,91.7
-"New Haven School District","Non-Special Education",1276,905,70.9
-"New Haven School District","Special Education",149,96,64.4
-"New London School District","Non-Special Education",215,163,75.8
-"New London School District","Special Education",48,21,43.8
-"New Milford School District","Non-Special Education",345,321,93.0
-"New Milford School District","Special Education",54,37,68.5
-"Newington School District","Non-Special Education",372,344,92.5
-"Newington School District","Special Education",40,24,60.0
-"Newtown School District","Non-Special Education",397,383,96.5
-"Newtown School District","Special Education",48,45,93.8
-"North Branford School District","Non-Special Education",166,161,97.0
-"North Branford School District","Special Education",30,24,80.0
-"North Haven School District","Non-Special Education",278,250,89.9
-"North Haven School District","Special Education",29,21,72.4
-"North Stonington School District","Non-Special Education",61,55,90.2
-"North Stonington School District","Special Education",6,6,100.0
-"Norwalk School District","Non-Special Education",774,684,88.4
-"Norwalk School District","Special Education",116,99,85.3
-"Norwich Free Academy District","Non-Special Education",534,459,86.0
-"Norwich Free Academy District","Special Education",85,61,71.8
-"Norwich School District","Non-Special Education",26,10,38.5
-"Norwich School District","Special Education",15,6,40.0
-"Old Saybrook School District","Non-Special Education",111,"*","*"
-"Old Saybrook School District","Special Education",10,"*","*"
-"Oxford School District","Non-Special Education",144,141,97.9
-"Oxford School District","Special Education",11,8,72.7
-"Plainfield School District","Non-Special Education",192,175,91.1
-"Plainfield School District","Special Education",38,30,78.9
-"Plainville School District","Non-Special Education",204,187,91.7
-"Plainville School District","Special Education",29,24,82.8
-"Plymouth School District","Non-Special Education",130,126,96.9
-"Plymouth School District","Special Education",9,9,100.0
-"Portland School District","Non-Special Education",88,75,85.2
-"Portland School District","Special Education",9,8,88.9
-"Putnam School District","Non-Special Education",56,53,94.6
-"Putnam School District","Special Education",18,11,61.1
-"Regional School District 01","Non-Special Education",122,106,86.9
-"Regional School District 01","Special Education",16,14,87.5
-"Regional School District 04","Non-Special Education",148,136,91.9
-"Regional School District 04","Special Education",23,17,73.9
-"Regional School District 05","Non-Special Education",369,348,94.3
-"Regional School District 05","Special Education",41,38,92.7
-"Regional School District 06","Non-Special Education",89,80,89.9
-"Regional School District 06","Special Education",15,13,86.7
-"Regional School District 07","Non-Special Education",184,182,98.9
-"Regional School District 07","Special Education",25,21,84.0
-"Regional School District 08","Non-Special Education",238,216,90.8
-"Regional School District 08","Special Education",29,23,79.3
-"Regional School District 09","Non-Special Education",183,183,100.0
-"Regional School District 09","Special Education",37,33,89.2
-"Regional School District 10","Non-Special Education",160,160,100.0
-"Regional School District 10","Special Education",15,11,73.3
-"Regional School District 11","Non-Special Education","*","*","*"
-"Regional School District 11","Special Education","*","*","*"
-"Regional School District 12","Non-Special Education",81,70,86.4
-"Regional School District 12","Special Education",12,11,91.7
-"Regional School District 13","Non-Special Education",125,119,95.2
-"Regional School District 13","Special Education",15,13,86.7
-"Regional School District 14","Non-Special Education",201,196,97.5
-"Regional School District 14","Special Education",17,15,88.2
-"Regional School District 15","Non-Special Education",349,333,95.4
-"Regional School District 15","Special Education",39,35,89.7
-"Regional School District 16","Non-Special Education",182,166,91.2
-"Regional School District 16","Special Education",16,14,87.5
-"Regional School District 17","Non-Special Education",158,150,94.9
-"Regional School District 17","Special Education",22,20,90.9
-"Regional School District 18","Non-Special Education",121,120,99.2
-"Regional School District 18","Special Education",14,11,78.6
-"Regional School District 19","Non-Special Education",247,222,89.9
-"Regional School District 19","Special Education",37,29,78.4
-"Ridgefield School District","Non-Special Education",385,379,98.4
-"Ridgefield School District","Special Education",48,44,91.7
-"Rocky Hill School District","Non-Special Education",169,156,92.3
-"Rocky Hill School District","Special Education",7,7,100.0
-"Seymour School District","Non-Special Education",178,157,88.2
-"Seymour School District","Special Education",11,7,63.6
-"Shelton School District","Non-Special Education",368,349,94.8
-"Shelton School District","Special Education",28,19,67.9
-"Simsbury School District","Non-Special Education",329,321,97.6
-"Simsbury School District","Special Education",30,26,86.7
-"Somers School District","Non-Special Education",131,129,98.5
-"Somers School District","Special Education",13,11,84.6
-"South Windsor School District","Non-Special Education",378,356,94.2
-"South Windsor School District","Special Education",47,39,83.0
-"Southington School District","Non-Special Education",480,462,96.3
-"Southington School District","Special Education",61,53,86.9
-"Stafford School District","Non-Special Education",122,107,87.7
-"Stafford School District","Special Education",13,10,76.9
-"Stamford Academy District","Non-Special Education",42,"*","*"
-"Stamford Academy District","Special Education",9,"*","*"
-"Stamford School District","Non-Special Education",1066,961,90.2
-"Stamford School District","Special Education",119,98,82.4
-"Stonington School District","Non-Special Education",184,179,97.3
-"Stonington School District","Special Education",28,22,78.6
-"Stratford School District","Non-Special Education",515,479,93.0
-"Stratford School District","Special Education",58,47,81.0
-"Suffield School District","Non-Special Education",202,197,97.5
-"Suffield School District","Special Education",12,12,100.0
-"The Bridge Academy District","Non-Special Education","*","*","*"
-"The Bridge Academy District","Special Education","*","*","*"
-"The Gilbert School District","Non-Special Education",62,"*","*"
-"The Gilbert School District","Special Education",7,"*","*"
-"Thomaston School District","Non-Special Education",79,76,96.2
-"Thomaston School District","Special Education",25,21,84.0
-"Thompson School District","Non-Special Education",89,"*","*"
-"Thompson School District","Special Education",6,"*","*"
-"Tolland School District","Non-Special Education",208,197,94.7
-"Tolland School District","Special Education",16,16,100.0
-"Torrington School District","Non-Special Education",252,212,84.1
-"Torrington School District","Special Education",32,23,71.9
-"Trumbull School District","Non-Special Education",466,463,99.4
-"Trumbull School District","Special Education",37,35,94.6
-"Unified School District #1","Non-Special Education",534,"*","*"
-"Unified School District #1","Special Education",206,"*","*"
-"Unified School District #2","Non-Special Education",12,7,58.3
-"Unified School District #2","Special Education",19,10,52.6
-"Vernon School District","Non-Special Education",261,223,85.4
-"Vernon School District","Special Education",30,22,73.3
-"Wallingford School District","Non-Special Education",495,451,91.1
-"Wallingford School District","Special Education",65,54,83.1
-"Waterbury School District","Non-Special Education",1129,793,70.2
-"Waterbury School District","Special Education",171,111,64.9
-"Waterford School District","Non-Special Education",254,237,93.3
-"Waterford School District","Special Education",17,15,88.2
-"Watertown School District","Non-Special Education",215,204,94.9
-"Watertown School District","Special Education",31,20,64.5
-"West Hartford School District","Non-Special Education",728,693,95.2
-"West Hartford School District","Special Education",101,83,82.2
-"West Haven School District","Non-Special Education",418,303,72.5
-"West Haven School District","Special Education",38,25,65.8
-"Westbrook School District","Non-Special Education",68,66,97.1
-"Westbrook School District","Special Education",7,6,85.7
-"Weston School District","Non-Special Education",182,182,100.0
-"Weston School District","Special Education",13,11,84.6
-"Westport School District","Non-Special Education",419,415,99.0
-"Westport School District","Special Education",55,51,92.7
-"Wethersfield School District","Non-Special Education",281,267,95.0
-"Wethersfield School District","Special Education",24,19,79.2
-"Wilton School District","Non-Special Education",279,279,100.0
-"Wilton School District","Special Education",26,24,92.3
-"Windham School District","Non-Special Education",212,150,70.8
-"Windham School District","Special Education",46,32,69.6
-"Windsor Locks School District","Non-Special Education",122,110,90.2
-"Windsor Locks School District","Special Education",12,10,83.3
-"Windsor School District","Non-Special Education",307,274,89.3
-"Windsor School District","Special Education",42,32,76.2
-"Wolcott School District","Non-Special Education",207,197,95.2
-"Wolcott School District","Special Education",18,17,94.4
-"Woodstock Academy District","Non-Special Education",275,262,95.3
-"Woodstock Academy District","Special Education",24,22,91.7
-
+<html><head><title>VMware vFabric tc Runtime 2.8.0.RELEASE/7.0.30.A.RELEASE - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 500 - Unable to find local session...</h1><HR size="1" noshade="noshade"><p><b>type</b> Exception report</p><p><b>message</b> <u>Unable to find local session...</u></p><p><b>description</b> <u>The server encountered an internal error that prevented it from fulfilling this request.</u></p><p><b>exception</b> <pre>java.lang.IllegalStateException: Unable to find local session...
+	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:187)
+	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:218)
+	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:206)
+	com.sas.svcs.webapp.servlet.filters.LocalPlatformServicesFilter.onDoFilter(LocalPlatformServicesFilter.java:96)
+	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
+	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:311)
+	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:116)
+	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.web.filters.TgtKeepAliveFilter.doFilterInternal(TgtKeepAliveFilter.java:59)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:45)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.web.filters.SessionIdentifierFilter.doFilterInternal(SessionIdentifierFilter.java:38)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:182)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.session.jasig.SingleSignOutFilter.doFilterInternal(SingleSignOutFilter.java:60)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.web.filters.RevokableTokenLogoutFilter.doFilter(RevokableTokenLogoutFilter.java:38)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.web.filters.CsrfRefererCheckerFilter.doFilterInternal(CsrfRefererCheckerFilter.java:469)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.framework.webapp.servlet.ApplicationNameFilter.onDoFilter(ApplicationNameFilter.java:46)
+	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:173)
+	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	com.sas.services.storedprocess.webapp.SPFilter.onDoFilter(SPFilter.java:268)
+	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
+	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	com.sas.servlet.filters.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:62)
+	com.sas.framework.webapp.servlet.SanitizingRequestFilter.onDoFilter(SanitizingRequestFilter.java:86)
+	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
+	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+</pre></p><p><b>root cause</b> <pre>com.sas.svcs.authentication.helper.TrustedAuthenticationException: com.sas.services.ServiceException: com.sas.services.connection.LoginException:The user &quot;EdSightPublic&quot; could not log on to the server &quot;sdemeta.sys.services.ct.gov:8561&quot;. No valid identity could be found for the authentication domain &quot;DefaultAuth&quot;.  com.sas.services.ServiceException:The application could not log on to the server &quot;sdemeta.sys.services.ct.gov:8561&quot;.  com.sas.services.connection.FatalConnectionFactoryException:The application could not log on to the server &quot;sdemeta.sys.services.ct.gov:8561&quot;.  org.omg.CORBA.COMM_FAILURE:The application could not log on to the server &quot;sdemeta.sys.services.ct.gov:8561&quot;.  java.net.BindException:Address already in use: connect  
+	com.sas.svcs.authentication.helper.TrustedUserFactory.create(TrustedUserFactory.java:97)
+	com.sas.svcs.authentication.helper.UserSessionFactory.createAndLockLocalSession(UserSessionFactory.java:386)
+	com.sas.svcs.authentication.helper.UserSessionFactory.createLockAndSaveLocalSession(UserSessionFactory.java:354)
+	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:176)
+	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:218)
+	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:206)
+	com.sas.svcs.webapp.servlet.filters.LocalPlatformServicesFilter.onDoFilter(LocalPlatformServicesFilter.java:96)
+	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
+	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:311)
+	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:116)
+	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.web.filters.TgtKeepAliveFilter.doFilterInternal(TgtKeepAliveFilter.java:59)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:45)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.web.filters.SessionIdentifierFilter.doFilterInternal(SessionIdentifierFilter.java:38)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:182)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.session.jasig.SingleSignOutFilter.doFilterInternal(SingleSignOutFilter.java:60)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.web.filters.RevokableTokenLogoutFilter.doFilter(RevokableTokenLogoutFilter.java:38)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.web.filters.CsrfRefererCheckerFilter.doFilterInternal(CsrfRefererCheckerFilter.java:469)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.framework.webapp.servlet.ApplicationNameFilter.onDoFilter(ApplicationNameFilter.java:46)
+	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:173)
+	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	com.sas.services.storedprocess.webapp.SPFilter.onDoFilter(SPFilter.java:268)
+	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
+	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	com.sas.servlet.filters.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:62)
+	com.sas.framework.webapp.servlet.SanitizingRequestFilter.onDoFilter(SanitizingRequestFilter.java:86)
+	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
+	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+</pre></p><p><b>root cause</b> <pre>com.sas.services.ServiceException: com.sas.services.connection.LoginException:The user &quot;EdSightPublic&quot; could not log on to the server &quot;sdemeta.sys.services.ct.gov:8561&quot;. No valid identity could be found for the authentication domain &quot;DefaultAuth&quot;.  com.sas.services.ServiceException:The application could not log on to the server &quot;sdemeta.sys.services.ct.gov:8561&quot;.  com.sas.services.connection.FatalConnectionFactoryException:The application could not log on to the server &quot;sdemeta.sys.services.ct.gov:8561&quot;.  org.omg.CORBA.COMM_FAILURE:The application could not log on to the server &quot;sdemeta.sys.services.ct.gov:8561&quot;.  java.net.BindException:Address already in use: connect  
+	com.sas.services.information.OMIServer.attemptConnection(OMIServer.java:1390)
+	com.sas.services.information.OMIServer.connect(OMIServer.java:384)
+	com.sas.services.information.InformationService.makeServer(InformationService.java:3406)
+	com.sas.services.information.InformationService.connect(InformationService.java:3252)
+	com.sas.services.information.InformationServiceProxy.connect(InformationServiceProxy.java:1535)
+	com.sas.services.user.UserContext.initializeFromSubject(UserContext.java:2698)
+	com.sas.services.user.UserService.newAuthenticatedUser(UserService.java:2311)
+	com.sas.services.user.UserService.newRemoteUser(UserService.java:2201)
+	com.sas.services.user.UserServiceProxy.newRemoteUser(UserServiceProxy.java:1303)
+	com.sas.services.user.SubjectAuthenticator.newAuthenticatedUser(SubjectAuthenticator.java:150)
+	com.sas.services.user.SubjectAuthenticator.newAuthenticatedUser(SubjectAuthenticator.java:60)
+	com.sas.svcs.authentication.helper.TrustedUserFactory.create(TrustedUserFactory.java:86)
+	com.sas.svcs.authentication.helper.UserSessionFactory.createAndLockLocalSession(UserSessionFactory.java:386)
+	com.sas.svcs.authentication.helper.UserSessionFactory.createLockAndSaveLocalSession(UserSessionFactory.java:354)
+	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:176)
+	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:218)
+	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:206)
+	com.sas.svcs.webapp.servlet.filters.LocalPlatformServicesFilter.onDoFilter(LocalPlatformServicesFilter.java:96)
+	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
+	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:311)
+	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:116)
+	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.web.filters.TgtKeepAliveFilter.doFilterInternal(TgtKeepAliveFilter.java:59)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:45)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.web.filters.SessionIdentifierFilter.doFilterInternal(SessionIdentifierFilter.java:38)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:182)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.session.jasig.SingleSignOutFilter.doFilterInternal(SingleSignOutFilter.java:60)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.web.filters.RevokableTokenLogoutFilter.doFilter(RevokableTokenLogoutFilter.java:38)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.web.filters.CsrfRefererCheckerFilter.doFilterInternal(CsrfRefererCheckerFilter.java:469)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.framework.webapp.servlet.ApplicationNameFilter.onDoFilter(ApplicationNameFilter.java:46)
+	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:173)
+	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	com.sas.services.storedprocess.webapp.SPFilter.onDoFilter(SPFilter.java:268)
+	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
+	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	com.sas.servlet.filters.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:62)
+	com.sas.framework.webapp.servlet.SanitizingRequestFilter.onDoFilter(SanitizingRequestFilter.java:86)
+	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
+	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+</pre></p><p><b>note</b> <u>The full stack trace of the root cause is available in the VMware vFabric tc Runtime 2.8.0.RELEASE/7.0.30.A.RELEASE logs.</u></p><HR size="1" noshade="noshade"><h3>VMware vFabric tc Runtime 2.8.0.RELEASE/7.0.30.A.RELEASE</h3></body></html>

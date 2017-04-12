@@ -1,498 +1,160 @@
-<html><head><title>VMware vFabric tc Runtime 2.8.0.RELEASE/7.0.30.A.RELEASE - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 500 - Unable to find local session...</h1><HR size="1" noshade="noshade"><p><b>type</b> Exception report</p><p><b>message</b> <u>Unable to find local session...</u></p><p><b>description</b> <u>The server encountered an internal error that prevented it from fulfilling this request.</u></p><p><b>exception</b> <pre>java.lang.IllegalStateException: Unable to find local session...
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:187)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:218)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:206)
-	com.sas.svcs.webapp.servlet.filters.LocalPlatformServicesFilter.onDoFilter(LocalPlatformServicesFilter.java:96)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:311)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:116)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.TgtKeepAliveFilter.doFilterInternal(TgtKeepAliveFilter.java:59)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:45)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.SessionIdentifierFilter.doFilterInternal(SessionIdentifierFilter.java:38)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:182)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.session.jasig.SingleSignOutFilter.doFilterInternal(SingleSignOutFilter.java:60)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.RevokableTokenLogoutFilter.doFilter(RevokableTokenLogoutFilter.java:38)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.CsrfRefererCheckerFilter.doFilterInternal(CsrfRefererCheckerFilter.java:469)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.framework.webapp.servlet.ApplicationNameFilter.onDoFilter(ApplicationNameFilter.java:46)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:173)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.services.storedprocess.webapp.SPFilter.onDoFilter(SPFilter.java:268)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.servlet.filters.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:62)
-	com.sas.framework.webapp.servlet.SanitizingRequestFilter.onDoFilter(SanitizingRequestFilter.java:86)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-</pre></p><p><b>root cause</b> <pre>com.sas.svcs.authentication.helper.TrustedAuthenticationException: com.sas.svcs.authentication.helper.TrustedAuthenticationException: javax.security.auth.login.LoginException: The application could not log on to the server &quot;sdemeta.sys.services.ct.gov:8561&quot;.
-	com.sas.svcs.authentication.helper.TrustedUserFactory.create(TrustedUserFactory.java:97)
-	com.sas.svcs.authentication.helper.UserSessionFactory.createAndLockLocalSession(UserSessionFactory.java:386)
-	com.sas.svcs.authentication.helper.UserSessionFactory.createLockAndSaveLocalSession(UserSessionFactory.java:354)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:176)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:218)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:206)
-	com.sas.svcs.webapp.servlet.filters.LocalPlatformServicesFilter.onDoFilter(LocalPlatformServicesFilter.java:96)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:311)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:116)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.TgtKeepAliveFilter.doFilterInternal(TgtKeepAliveFilter.java:59)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:45)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.SessionIdentifierFilter.doFilterInternal(SessionIdentifierFilter.java:38)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:182)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.session.jasig.SingleSignOutFilter.doFilterInternal(SingleSignOutFilter.java:60)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.RevokableTokenLogoutFilter.doFilter(RevokableTokenLogoutFilter.java:38)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.CsrfRefererCheckerFilter.doFilterInternal(CsrfRefererCheckerFilter.java:469)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.framework.webapp.servlet.ApplicationNameFilter.onDoFilter(ApplicationNameFilter.java:46)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:173)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.services.storedprocess.webapp.SPFilter.onDoFilter(SPFilter.java:268)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.servlet.filters.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:62)
-	com.sas.framework.webapp.servlet.SanitizingRequestFilter.onDoFilter(SanitizingRequestFilter.java:86)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-</pre></p><p><b>root cause</b> <pre>com.sas.svcs.authentication.helper.TrustedAuthenticationException: javax.security.auth.login.LoginException: The application could not log on to the server &quot;sdemeta.sys.services.ct.gov:8561&quot;.
-	com.sas.svcs.authentication.helper.TrustedSubjectFactory.create(TrustedSubjectFactory.java:54)
-	com.sas.svcs.authentication.helper.TrustedUserFactory.create(TrustedUserFactory.java:84)
-	com.sas.svcs.authentication.helper.UserSessionFactory.createAndLockLocalSession(UserSessionFactory.java:386)
-	com.sas.svcs.authentication.helper.UserSessionFactory.createLockAndSaveLocalSession(UserSessionFactory.java:354)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:176)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:218)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:206)
-	com.sas.svcs.webapp.servlet.filters.LocalPlatformServicesFilter.onDoFilter(LocalPlatformServicesFilter.java:96)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:311)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:116)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.TgtKeepAliveFilter.doFilterInternal(TgtKeepAliveFilter.java:59)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:45)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.SessionIdentifierFilter.doFilterInternal(SessionIdentifierFilter.java:38)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:182)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.session.jasig.SingleSignOutFilter.doFilterInternal(SingleSignOutFilter.java:60)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.RevokableTokenLogoutFilter.doFilter(RevokableTokenLogoutFilter.java:38)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.CsrfRefererCheckerFilter.doFilterInternal(CsrfRefererCheckerFilter.java:469)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.framework.webapp.servlet.ApplicationNameFilter.onDoFilter(ApplicationNameFilter.java:46)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:173)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.services.storedprocess.webapp.SPFilter.onDoFilter(SPFilter.java:268)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.servlet.filters.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:62)
-	com.sas.framework.webapp.servlet.SanitizingRequestFilter.onDoFilter(SanitizingRequestFilter.java:86)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-</pre></p><p><b>root cause</b> <pre>javax.security.auth.login.LoginException: The application could not log on to the server &quot;sdemeta.sys.services.ct.gov:8561&quot;.
-	com.sas.services.security.login.SasLoginModule.attemptConnection(SasLoginModule.java:816)
-	com.sas.services.security.login.SasLoginModule.attemptConnection(SasLoginModule.java:675)
-	com.sas.services.security.login.TrustedLoginModule.doLogin(TrustedLoginModule.java:167)
-	com.sas.services.security.login.TrustedLoginModule.login(TrustedLoginModule.java:126)
-	sun.reflect.GeneratedMethodAccessor792.invoke(Unknown Source)
-	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	java.lang.reflect.Method.invoke(Method.java:606)
-	javax.security.auth.login.LoginContext.invoke(LoginContext.java:762)
-	javax.security.auth.login.LoginContext.access$000(LoginContext.java:203)
-	javax.security.auth.login.LoginContext$4.run(LoginContext.java:690)
-	javax.security.auth.login.LoginContext$4.run(LoginContext.java:688)
-	java.security.AccessController.doPrivileged(Native Method)
-	javax.security.auth.login.LoginContext.invokePriv(LoginContext.java:687)
-	javax.security.auth.login.LoginContext.login(LoginContext.java:595)
-	com.sas.svcs.authentication.helper.TrustedSubjectFactory.create(TrustedSubjectFactory.java:49)
-	com.sas.svcs.authentication.helper.TrustedUserFactory.create(TrustedUserFactory.java:84)
-	com.sas.svcs.authentication.helper.UserSessionFactory.createAndLockLocalSession(UserSessionFactory.java:386)
-	com.sas.svcs.authentication.helper.UserSessionFactory.createLockAndSaveLocalSession(UserSessionFactory.java:354)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:176)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:218)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:206)
-	com.sas.svcs.webapp.servlet.filters.LocalPlatformServicesFilter.onDoFilter(LocalPlatformServicesFilter.java:96)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:311)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:116)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.TgtKeepAliveFilter.doFilterInternal(TgtKeepAliveFilter.java:59)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:45)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.SessionIdentifierFilter.doFilterInternal(SessionIdentifierFilter.java:38)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:182)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.session.jasig.SingleSignOutFilter.doFilterInternal(SingleSignOutFilter.java:60)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.RevokableTokenLogoutFilter.doFilter(RevokableTokenLogoutFilter.java:38)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.CsrfRefererCheckerFilter.doFilterInternal(CsrfRefererCheckerFilter.java:469)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.framework.webapp.servlet.ApplicationNameFilter.onDoFilter(ApplicationNameFilter.java:46)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:173)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.services.storedprocess.webapp.SPFilter.onDoFilter(SPFilter.java:268)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.servlet.filters.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:62)
-	com.sas.framework.webapp.servlet.SanitizingRequestFilter.onDoFilter(SanitizingRequestFilter.java:86)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-</pre></p><p><b>root cause</b> <pre>com.sas.services.connection.FatalConnectionFactoryException: The application could not log on to the server &quot;sdemeta.sys.services.ct.gov:8561&quot;.
-	com.sas.services.connection.ClusterEnvelope.getConnection(ClusterEnvelope.java:240)
-	com.sas.services.connection.AggregationKernel.doGetConnection(AggregationKernel.java:242)
-	com.sas.services.connection.ConnectionFactoryKernel.getConnection(ConnectionFactoryKernel.java:325)
-	com.sas.services.connection.ConnectionFactoryShell.getConnection(ConnectionFactoryShell.java:69)
-	com.sas.services.connection.ConnectionFactoryShell.getConnection(ConnectionFactoryShell.java:51)
-	com.sas.services.security.login.SasLoginModule.attemptConnection(SasLoginModule.java:703)
-	com.sas.services.security.login.SasLoginModule.attemptConnection(SasLoginModule.java:675)
-	com.sas.services.security.login.TrustedLoginModule.doLogin(TrustedLoginModule.java:167)
-	com.sas.services.security.login.TrustedLoginModule.login(TrustedLoginModule.java:126)
-	sun.reflect.GeneratedMethodAccessor792.invoke(Unknown Source)
-	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	java.lang.reflect.Method.invoke(Method.java:606)
-	javax.security.auth.login.LoginContext.invoke(LoginContext.java:762)
-	javax.security.auth.login.LoginContext.access$000(LoginContext.java:203)
-	javax.security.auth.login.LoginContext$4.run(LoginContext.java:690)
-	javax.security.auth.login.LoginContext$4.run(LoginContext.java:688)
-	java.security.AccessController.doPrivileged(Native Method)
-	javax.security.auth.login.LoginContext.invokePriv(LoginContext.java:687)
-	javax.security.auth.login.LoginContext.login(LoginContext.java:595)
-	com.sas.svcs.authentication.helper.TrustedSubjectFactory.create(TrustedSubjectFactory.java:49)
-	com.sas.svcs.authentication.helper.TrustedUserFactory.create(TrustedUserFactory.java:84)
-	com.sas.svcs.authentication.helper.UserSessionFactory.createAndLockLocalSession(UserSessionFactory.java:386)
-	com.sas.svcs.authentication.helper.UserSessionFactory.createLockAndSaveLocalSession(UserSessionFactory.java:354)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:176)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:218)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:206)
-	com.sas.svcs.webapp.servlet.filters.LocalPlatformServicesFilter.onDoFilter(LocalPlatformServicesFilter.java:96)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:311)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:116)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.TgtKeepAliveFilter.doFilterInternal(TgtKeepAliveFilter.java:59)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:45)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.SessionIdentifierFilter.doFilterInternal(SessionIdentifierFilter.java:38)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:182)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.session.jasig.SingleSignOutFilter.doFilterInternal(SingleSignOutFilter.java:60)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.RevokableTokenLogoutFilter.doFilter(RevokableTokenLogoutFilter.java:38)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.CsrfRefererCheckerFilter.doFilterInternal(CsrfRefererCheckerFilter.java:469)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.framework.webapp.servlet.ApplicationNameFilter.onDoFilter(ApplicationNameFilter.java:46)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:173)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.services.storedprocess.webapp.SPFilter.onDoFilter(SPFilter.java:268)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.servlet.filters.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:62)
-	com.sas.framework.webapp.servlet.SanitizingRequestFilter.onDoFilter(SanitizingRequestFilter.java:86)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-</pre></p><p><b>root cause</b> <pre>org.omg.CORBA.COMM_FAILURE: The application could not log on to the server &quot;sdemeta.sys.services.ct.gov:8561&quot;.  vmcid: 0x0  minor code: 1  completed: No
-	com.sas.iom.orb.brg.Engine$5.run(Engine.java:3736)
-	java.security.AccessController.doPrivileged(Native Method)
-	com.sas.iom.orb.brg.Engine.flowConnect(Engine.java:3757)
-	com.sas.iom.orb.brg.Engine.flow(Engine.java:697)
-	com.sas.iom.orb.brg.Engine.initClient(Engine.java:661)
-	com.sas.iom.orb.brg.ORBImpl.uri_to_object(ORBImpl.java:119)
-	com.sas.services.connection.ClusterEnvelope.createObject(ClusterEnvelope.java:293)
-	com.sas.services.connection.ClusterEnvelope.getConnection(ClusterEnvelope.java:78)
-	com.sas.services.connection.AggregationKernel.doGetConnection(AggregationKernel.java:242)
-	com.sas.services.connection.ConnectionFactoryKernel.getConnection(ConnectionFactoryKernel.java:325)
-	com.sas.services.connection.ConnectionFactoryShell.getConnection(ConnectionFactoryShell.java:69)
-	com.sas.services.connection.ConnectionFactoryShell.getConnection(ConnectionFactoryShell.java:51)
-	com.sas.services.security.login.SasLoginModule.attemptConnection(SasLoginModule.java:703)
-	com.sas.services.security.login.SasLoginModule.attemptConnection(SasLoginModule.java:675)
-	com.sas.services.security.login.TrustedLoginModule.doLogin(TrustedLoginModule.java:167)
-	com.sas.services.security.login.TrustedLoginModule.login(TrustedLoginModule.java:126)
-	sun.reflect.GeneratedMethodAccessor792.invoke(Unknown Source)
-	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	java.lang.reflect.Method.invoke(Method.java:606)
-	javax.security.auth.login.LoginContext.invoke(LoginContext.java:762)
-	javax.security.auth.login.LoginContext.access$000(LoginContext.java:203)
-	javax.security.auth.login.LoginContext$4.run(LoginContext.java:690)
-	javax.security.auth.login.LoginContext$4.run(LoginContext.java:688)
-	java.security.AccessController.doPrivileged(Native Method)
-	javax.security.auth.login.LoginContext.invokePriv(LoginContext.java:687)
-	javax.security.auth.login.LoginContext.login(LoginContext.java:595)
-	com.sas.svcs.authentication.helper.TrustedSubjectFactory.create(TrustedSubjectFactory.java:49)
-	com.sas.svcs.authentication.helper.TrustedUserFactory.create(TrustedUserFactory.java:84)
-	com.sas.svcs.authentication.helper.UserSessionFactory.createAndLockLocalSession(UserSessionFactory.java:386)
-	com.sas.svcs.authentication.helper.UserSessionFactory.createLockAndSaveLocalSession(UserSessionFactory.java:354)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:176)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:218)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:206)
-	com.sas.svcs.webapp.servlet.filters.LocalPlatformServicesFilter.onDoFilter(LocalPlatformServicesFilter.java:96)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:311)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:116)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.TgtKeepAliveFilter.doFilterInternal(TgtKeepAliveFilter.java:59)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:45)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.SessionIdentifierFilter.doFilterInternal(SessionIdentifierFilter.java:38)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:182)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.session.jasig.SingleSignOutFilter.doFilterInternal(SingleSignOutFilter.java:60)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.RevokableTokenLogoutFilter.doFilter(RevokableTokenLogoutFilter.java:38)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.CsrfRefererCheckerFilter.doFilterInternal(CsrfRefererCheckerFilter.java:469)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.framework.webapp.servlet.ApplicationNameFilter.onDoFilter(ApplicationNameFilter.java:46)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:173)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.services.storedprocess.webapp.SPFilter.onDoFilter(SPFilter.java:268)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.servlet.filters.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:62)
-	com.sas.framework.webapp.servlet.SanitizingRequestFilter.onDoFilter(SanitizingRequestFilter.java:86)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-</pre></p><p><b>root cause</b> <pre>java.net.BindException: Address already in use: connect
-	sun.nio.ch.Net.connect0(Native Method)
-	sun.nio.ch.Net.connect(Net.java:465)
-	sun.nio.ch.Net.connect(Net.java:457)
-	sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
-	com.sas.iom.orb.brg.Engine$5.run(Engine.java:3688)
-	java.security.AccessController.doPrivileged(Native Method)
-	com.sas.iom.orb.brg.Engine.flowConnect(Engine.java:3757)
-	com.sas.iom.orb.brg.Engine.flow(Engine.java:697)
-	com.sas.iom.orb.brg.Engine.initClient(Engine.java:661)
-	com.sas.iom.orb.brg.ORBImpl.uri_to_object(ORBImpl.java:119)
-	com.sas.services.connection.ClusterEnvelope.createObject(ClusterEnvelope.java:293)
-	com.sas.services.connection.ClusterEnvelope.getConnection(ClusterEnvelope.java:78)
-	com.sas.services.connection.AggregationKernel.doGetConnection(AggregationKernel.java:242)
-	com.sas.services.connection.ConnectionFactoryKernel.getConnection(ConnectionFactoryKernel.java:325)
-	com.sas.services.connection.ConnectionFactoryShell.getConnection(ConnectionFactoryShell.java:69)
-	com.sas.services.connection.ConnectionFactoryShell.getConnection(ConnectionFactoryShell.java:51)
-	com.sas.services.security.login.SasLoginModule.attemptConnection(SasLoginModule.java:703)
-	com.sas.services.security.login.SasLoginModule.attemptConnection(SasLoginModule.java:675)
-	com.sas.services.security.login.TrustedLoginModule.doLogin(TrustedLoginModule.java:167)
-	com.sas.services.security.login.TrustedLoginModule.login(TrustedLoginModule.java:126)
-	sun.reflect.GeneratedMethodAccessor792.invoke(Unknown Source)
-	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	java.lang.reflect.Method.invoke(Method.java:606)
-	javax.security.auth.login.LoginContext.invoke(LoginContext.java:762)
-	javax.security.auth.login.LoginContext.access$000(LoginContext.java:203)
-	javax.security.auth.login.LoginContext$4.run(LoginContext.java:690)
-	javax.security.auth.login.LoginContext$4.run(LoginContext.java:688)
-	java.security.AccessController.doPrivileged(Native Method)
-	javax.security.auth.login.LoginContext.invokePriv(LoginContext.java:687)
-	javax.security.auth.login.LoginContext.login(LoginContext.java:595)
-	com.sas.svcs.authentication.helper.TrustedSubjectFactory.create(TrustedSubjectFactory.java:49)
-	com.sas.svcs.authentication.helper.TrustedUserFactory.create(TrustedUserFactory.java:84)
-	com.sas.svcs.authentication.helper.UserSessionFactory.createAndLockLocalSession(UserSessionFactory.java:386)
-	com.sas.svcs.authentication.helper.UserSessionFactory.createLockAndSaveLocalSession(UserSessionFactory.java:354)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:176)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:218)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:206)
-	com.sas.svcs.webapp.servlet.filters.LocalPlatformServicesFilter.onDoFilter(LocalPlatformServicesFilter.java:96)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:311)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:116)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.TgtKeepAliveFilter.doFilterInternal(TgtKeepAliveFilter.java:59)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:45)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.SessionIdentifierFilter.doFilterInternal(SessionIdentifierFilter.java:38)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:182)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.session.jasig.SingleSignOutFilter.doFilterInternal(SingleSignOutFilter.java:60)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.RevokableTokenLogoutFilter.doFilter(RevokableTokenLogoutFilter.java:38)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.CsrfRefererCheckerFilter.doFilterInternal(CsrfRefererCheckerFilter.java:469)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.framework.webapp.servlet.ApplicationNameFilter.onDoFilter(ApplicationNameFilter.java:46)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:173)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.services.storedprocess.webapp.SPFilter.onDoFilter(SPFilter.java:268)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.servlet.filters.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:62)
-	com.sas.framework.webapp.servlet.SanitizingRequestFilter.onDoFilter(SanitizingRequestFilter.java:86)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-</pre></p><p><b>note</b> <u>The full stack trace of the root cause is available in the VMware vFabric tc Runtime 2.8.0.RELEASE/7.0.30.A.RELEASE logs.</u></p><HR size="1" noshade="noshade"><h3>VMware vFabric tc Runtime 2.8.0.RELEASE/7.0.30.A.RELEASE</h3></body></html>
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+    
+
+
+<head>
+    <meta charset="UTF-8" />
+    <title>
+    	
+    		
+    		
+    			SAS&reg; Logon Manager
+    		
+    	
+    </title>
+    <link type="text/css" rel="stylesheet" href="themes/default/css/bootstrap.css" />
+    <link type="text/css" rel="stylesheet" href="themes/default/css/sas.css" />
+</head>
+
+
+
+<body id="cas">
+	<div id="page">
+		
+
+<div class="banner row">
+    <div class="about">
+        <ul class="unstyled"><li>
+            <a href="#about-modal" data-toggle="modal">
+                About
+            </a>
+        </li></ul>
+    </div>
+    <div id="about-modal" class="modal hide fade">
+        <div class="modal-header">
+            <a href="#" class="close" data-dismiss="modal">&times;</a>
+            <h3>About</h3>
+        </div>
+        <div class="modal-body">
+            <p>Version: 9.4</p>
+            <h4>Copyright Information</h4>
+            <p align="center">
+Copyright (c) 2002 - 2013 by SAS Institute Inc., Cary, NC, USA<br/>
+All rights reserved.<br/>
+<br/>
+This software is protected by copyright laws and international treaties.<br/>
+<br/>
+U.S. GOVERNMENT RESTRICTED RIGHTS<br/>
+Use, duplication, or disclosure of this software and related<br/>
+documentation by the U.S. government is subject to the<br/>
+Agreement with SAS Institute and the restrictions set forth<br/>
+in FAR 52.227-19, Commercial Computer Software<br/>
+- Restricted Rights (June 1987).
+            </p>
+        </div>
+    </div>
+    <div class="header">
+        <div class="title">
+        	<h1>
+        		
+		    		
+		    		
+		    			Sign In to SAS<sup>&reg;</sup>
+		    		
+    			
+        	</h1>
+       	</div>
+        <div class="logo"><img src="themes/default/images/logo.png" /></div>
+    </div>
+</div>
+
+
+		<div class="content row">
+			
+                <form id="fm1" class="form-stacked" onSubmit="return setSubmitUrl(this);" action="/SASLogon/login;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=C4BE534BA7023E2D25D576F277C37505.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1?service=http://edsight.ct.gov/SASStoredProcess/j_spring_cas_security_check" method="post">
+				<fieldset>
+					
+					
+					
+                        <legend>Sign In to SAS<sup>&reg;</sup></legend>
+					<div class="clearfix">
+                            <label for="username"><span class="accesskey">U</span>ser ID:</label>
+						
+							
+							
+                                    
+                                    <input id="username" name="username" class="required" tabindex="1" accesskey="u" type="text" value="" size="25" autocomplete="off"/>
+							
+						
+					</div>
+					<div class="clearfix">
+                            <label for="password"><span class="accesskey">P</span>assword:</label>
+						
+                            
+                            <input id="password" name="password" class="required" tabindex="2" accesskey="p" type="password" value="" size="25" autocomplete="off"/>
+					</div>
+				</fieldset>
+				<input type="hidden" name="lt" value="LT-7730-V7YLJf6dud6r3zCt2JQ0mh2JVVp7hi" />
+				<input type="hidden" name="execution" value="e1s1" />
+				<input type="hidden" name="_eventId" value="submit" />
+                    <div class="submitb"><input id="Logon" type="submit" value="Sign In" onClick="this.disabled=true;this.form.submit();" tabindex="3" /></div>
+			</form>
+			
+				<div class="customizations" id="custom-logon-message">
+                  	
+
+
+<p>
+
+</p>
+
+
+ 
+ 
+				</div>
+			
+
+			<div class="copyright">
+				Copyright &copy; 2002 - 2013 by SAS Institute Inc., Cary, NC USA
+			</div>
+		</div>
+	</div>
+	
+<script type="text/javascript" src="/SASLogon/js/jquery.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=C4BE534BA7023E2D25D576F277C37505.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
+<script type="text/javascript" src="/SASLogon/js/bootstrap-modal.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=C4BE534BA7023E2D25D576F277C37505.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
+
+	<script type="text/javascript">
+            $("#username").focus();
+            
+            function setSubmitUrl(form)
+            {
+            	var urlHash = decodeURIComponent(window.location.hash);
+            	
+            	if (urlHash && urlHash.indexOf("#") === -1)
+            		urlHash = "#" + urlHash;
+            	
+            	form.action = form.action + urlHash;
+            	return true;
+            }
+    </script>
+</body>
+
+</html>
+
+
+

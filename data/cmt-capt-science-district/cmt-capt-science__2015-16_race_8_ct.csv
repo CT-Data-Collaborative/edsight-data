@@ -1,13 +1,160 @@
-"CMT/CAPT Science Assessment, 2015-16"
-"State of Connecticut, Grade 8, Race/Ethnicity"
 
-"",,,,,,"Below Basic",,"Basic",,"Proficient",,"Goal",,"Advanced",,"At or Above Goal",,""
-"District","Race/Ethnicity","Total Numberof Students","Total NumberTested","ParticipationRate","Total Number with Scored Tests","Count","%","Count","%","Count","%","Count","%","Count","%","Count","%","AverageSS"
-"State of Connecticut","American Indian or Alaska Native",99,98,99.0,98,28,28.6,"*","*",23,23.5,32,32.7,"*","*","*","*",238
-"State of Connecticut","Asian",1934,1925,99.5,1925,125,6.5,89,4.6,188,9.8,911,47.3,612,31.8,1523,79.1,277
-"State of Connecticut","Black or African American",5147,5088,98.9,5088,1684,33.1,857,16.8,1088,21.4,1259,24.7,200,3.9,1459,28.7,223
-"State of Connecticut","Hispanic/Latino of any race",8637,8525,98.7,8523,2691,31.6,1210,14.2,1756,20.6,2472,29.0,394,4.6,2866,33.6,226
-"State of Connecticut","Native Hawaiian or Other Pacific Islander",26,26,100.0,26,6,23.1,"*","*",7,26.9,10,38.5,"*","*","*","*",243
-"State of Connecticut","Two or More Races",933,923,98.9,923,101,10.9,69,7.5,149,16.1,433,46.9,171,18.5,604,65.4,260
-"State of Connecticut","White",23350,23120,99.0,23117,1299,5.6,1322,5.7,3106,13.4,12072,52.2,5318,23.0,17390,75.2,269
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+    
+
+
+<head>
+    <meta charset="UTF-8" />
+    <title>
+    	
+    		
+    		
+    			SAS&reg; Logon Manager
+    		
+    	
+    </title>
+    <link type="text/css" rel="stylesheet" href="themes/default/css/bootstrap.css" />
+    <link type="text/css" rel="stylesheet" href="themes/default/css/sas.css" />
+</head>
+
+
+
+<body id="cas">
+	<div id="page">
+		
+
+<div class="banner row">
+    <div class="about">
+        <ul class="unstyled"><li>
+            <a href="#about-modal" data-toggle="modal">
+                About
+            </a>
+        </li></ul>
+    </div>
+    <div id="about-modal" class="modal hide fade">
+        <div class="modal-header">
+            <a href="#" class="close" data-dismiss="modal">&times;</a>
+            <h3>About</h3>
+        </div>
+        <div class="modal-body">
+            <p>Version: 9.4</p>
+            <h4>Copyright Information</h4>
+            <p align="center">
+Copyright (c) 2002 - 2013 by SAS Institute Inc., Cary, NC, USA<br/>
+All rights reserved.<br/>
+<br/>
+This software is protected by copyright laws and international treaties.<br/>
+<br/>
+U.S. GOVERNMENT RESTRICTED RIGHTS<br/>
+Use, duplication, or disclosure of this software and related<br/>
+documentation by the U.S. government is subject to the<br/>
+Agreement with SAS Institute and the restrictions set forth<br/>
+in FAR 52.227-19, Commercial Computer Software<br/>
+- Restricted Rights (June 1987).
+            </p>
+        </div>
+    </div>
+    <div class="header">
+        <div class="title">
+        	<h1>
+        		
+		    		
+		    		
+		    			Sign In to SAS<sup>&reg;</sup>
+		    		
+    			
+        	</h1>
+       	</div>
+        <div class="logo"><img src="themes/default/images/logo.png" /></div>
+    </div>
+</div>
+
+
+		<div class="content row">
+			
+                <form id="fm1" class="form-stacked" onSubmit="return setSubmitUrl(this);" action="/SASLogon/login;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=2C8A994005A7974564F8F4656447E2B1.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1?service=http://edsight.ct.gov/SASStoredProcess/j_spring_cas_security_check" method="post">
+				<fieldset>
+					
+					
+					
+                        <legend>Sign In to SAS<sup>&reg;</sup></legend>
+					<div class="clearfix">
+                            <label for="username"><span class="accesskey">U</span>ser ID:</label>
+						
+							
+							
+                                    
+                                    <input id="username" name="username" class="required" tabindex="1" accesskey="u" type="text" value="" size="25" autocomplete="off"/>
+							
+						
+					</div>
+					<div class="clearfix">
+                            <label for="password"><span class="accesskey">P</span>assword:</label>
+						
+                            
+                            <input id="password" name="password" class="required" tabindex="2" accesskey="p" type="password" value="" size="25" autocomplete="off"/>
+					</div>
+				</fieldset>
+				<input type="hidden" name="lt" value="LT-9006-7KqscbWzYskPjNkPdNSp4Ftn65J7b7" />
+				<input type="hidden" name="execution" value="e1s1" />
+				<input type="hidden" name="_eventId" value="submit" />
+                    <div class="submitb"><input id="Logon" type="submit" value="Sign In" onClick="this.disabled=true;this.form.submit();" tabindex="3" /></div>
+			</form>
+			
+				<div class="customizations" id="custom-logon-message">
+                  	
+
+
+<p>
+
+</p>
+
+
+ 
+ 
+				</div>
+			
+
+			<div class="copyright">
+				Copyright &copy; 2002 - 2013 by SAS Institute Inc., Cary, NC USA
+			</div>
+		</div>
+	</div>
+	
+<script type="text/javascript" src="/SASLogon/js/jquery.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=2C8A994005A7974564F8F4656447E2B1.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
+<script type="text/javascript" src="/SASLogon/js/bootstrap-modal.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=2C8A994005A7974564F8F4656447E2B1.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
+
+	<script type="text/javascript">
+            $("#username").focus();
+            
+            function setSubmitUrl(form)
+            {
+            	var urlHash = decodeURIComponent(window.location.hash);
+            	
+            	if (urlHash && urlHash.indexOf("#") === -1)
+            		urlHash = "#" + urlHash;
+            	
+            	form.action = form.action + urlHash;
+            	return true;
+            }
+    </script>
+</body>
+
+</html>
+
+
 

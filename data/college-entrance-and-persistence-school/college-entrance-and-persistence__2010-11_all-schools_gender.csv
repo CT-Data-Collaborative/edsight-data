@@ -1,462 +1,245 @@
-"College Entrance and Persistence, 2010-11"
-"All Districts"
-
-"Notes:"
-"* In this report, year means graduating class of that school year."
-"* College entrance refers to the percent of high school graduates from the year who enrolled in college any time during the first year after high school."
-"* College persistence refers to the percent of students who enrolled in college the first year after high school and returned for a second year (Freshman to Sophomore persistence)."
-
-"District","District Code","School","Gender","Entrance(%)","Persistence(%)"
-"Ansonia School District","=""0020011""","Ansonia High School","Female",72.5,94.0
-"Ansonia School District","=""0020011""","Ansonia High School","Male",50.0,77.8
-"Avon School District","=""0040011""","Avon High School","Female",83.0,95.5
-"Avon School District","=""0040011""","Avon High School","Male",86.0,94.9
-"Berlin School District","=""0070011""","Berlin High School","Female",84.9,97.0
-"Berlin School District","=""0070011""","Berlin High School","Male",82.2,87.7
-"Bethel School District","=""0090011""","Bethel High School","Female",82.9,93.5
-"Bethel School District","=""0090011""","Bethel High School","Male",78.9,87.2
-"Bloomfield School District","=""0110011""","Bloomfield High School","Female",79.2,86.0
-"Bloomfield School District","=""0110011""","Bloomfield High School","Male",73.1,83.7
-"Bloomfield School District","=""0110011""","The Big Picture High School","Female",*,*
-"Bloomfield School District","=""0110011""","The Big Picture High School","Male",*,*
-"Bolton School District","=""0120011""","Bolton High School","Female",97.7,92.9
-"Bolton School District","=""0120011""","Bolton High School","Male",72.0,*
-"Branford School District","=""0140011""","Branford High School","Female",80.9,88.7
-"Branford School District","=""0140011""","Branford High School","Male",75.2,93.2
-"Bridgeport School District","=""0150011""","Bassick High School","Female",44.9,64.6
-"Bridgeport School District","=""0150011""","Bassick High School","Male",45.3,77.4
-"Bridgeport School District","=""0150011""","Central High School","Female",71.3,85.6
-"Bridgeport School District","=""0150011""","Central High School","Male",59.9,76.7
-"Bridgeport School District","=""0150011""","Harding High School","Female",59.0,79.2
-"Bridgeport School District","=""0150011""","Harding High School","Male",42.4,66.7
-"Bristol School District","=""0170011""","Bristol Central High School","Female",71.0,93.9
-"Bristol School District","=""0170011""","Bristol Central High School","Male",60.9,78.2
-"Bristol School District","=""0170011""","Bristol Eastern High School","Female",75.0,82.9
-"Bristol School District","=""0170011""","Bristol Eastern High School","Male",68.2,83.5
-"Bristol School District","=""0170011""","Community/Vocational Program","Female",*,*
-"Bristol School District","=""0170011""","Community/Vocational Program","Male",*,*
-"Brookfield School District","=""0180011""","Brookfield High School","Female",86.0,91.3
-"Brookfield School District","=""0180011""","Brookfield High School","Male",73.3,87.9
-"Canton School District","=""0230011""","Canton High School","Female",84.6,90.9
-"Canton School District","=""0230011""","Canton High School","Male",63.5,92.5
-"Cheshire School District","=""0250011""","Cheshire High School","Female",90.8,95.9
-"Cheshire School District","=""0250011""","Cheshire High School","Male",87.4,93.4
-"Cheshire School District","=""0250011""","Humiston School","Female",*,*
-"Cheshire School District","=""0250011""","Humiston School","Male",*,*
-"Clinton School District","=""0270011""","The Morgan School","Female",74.7,89.3
-"Clinton School District","=""0270011""","The Morgan School","Male",65.2,86.0
-"Colchester School District","=""0280011""","Bacon Academy","Female",81.3,93.0
-"Colchester School District","=""0280011""","Bacon Academy","Male",79.0,83.0
-"Coventry School District","=""0320011""","Coventry High School","Female",77.8,88.9
-"Coventry School District","=""0320011""","Coventry High School","Male",50.8,90.9
-"Cromwell School District","=""0330011""","Cromwell High School","Female",86.5,90.9
-"Cromwell School District","=""0330011""","Cromwell High School","Male",70.0,89.8
-"Danbury School District","=""0340011""","Alternative Center For Excellence","Female",*,*
-"Danbury School District","=""0340011""","Alternative Center For Excellence","Male",*,*
-"Danbury School District","=""0340011""","Danbury High School","Female",70.6,91.9
-"Danbury School District","=""0340011""","Danbury High School","Male",68.5,86.0
-"Darien School District","=""0350011""","Darien High School","Female",87.4,97.1
-"Darien School District","=""0350011""","Darien High School","Male",75.8,95.0
-"Derby School District","=""0370011""","Derby High School","Female",70.2,87.9
-"Derby School District","=""0370011""","Derby High School","Male",48.8,100.0
-"East Granby School District","=""0400011""","East Granby High School","Female",85.0,97.1
-"East Granby School District","=""0400011""","East Granby High School","Male",80.0,89.3
-"East Haddam School District","=""0410011""","Nathan Hale-Ray High School","Female",80.0,100.0
-"East Haddam School District","=""0410011""","Nathan Hale-Ray High School","Male",52.4,86.4
-"East Hampton School District","=""0420011""","East Hampton High School","Female",90.5,91.2
-"East Hampton School District","=""0420011""","East Hampton High School","Male",68.2,82.2
-"East Hampton School District","=""0420011""","The Learning Center at East Hampton","Male",*,*
-"East Hartford School District","=""0430011""","Connecticut IB Academy","Female",*,*
-"East Hartford School District","=""0430011""","Connecticut IB Academy","Male",*,*
-"East Hartford School District","=""0430011""","East Hartford High School","Female",71.0,75.8
-"East Hartford School District","=""0430011""","East Hartford High School","Male",54.8,82.6
-"East Hartford School District","=""0430011""","Stevens Alternate High school","Female",16.7,*
-"East Hartford School District","=""0430011""","Stevens Alternate High school","Male",31.4,*
-"East Hartford School District","=""0430011""","Woodland School","Male",*,*
-"East Haven School District","=""0440011""","East Haven High School","Female",76.3,88.3
-"East Haven School District","=""0440011""","East Haven High School","Male",63.1,85.7
-"East Haven School District","=""0440011""","Pathways","Female",*,*
-"East Haven School District","=""0440011""","Pathways","Male",*,*
-"East Lyme School District","=""0450011""","East Lyme High School","Female",86.6,91.5
-"East Lyme School District","=""0450011""","East Lyme High School","Male",77.4,89.2
-"East Windsor School District","=""0470011""","East Windsor High School","Female",64.9,91.7
-"East Windsor School District","=""0470011""","East Windsor High School","Male",53.5,87.0
-"Ellington School District","=""0480011""","Ellington High School","Female",86.6,94.0
-"Ellington School District","=""0480011""","Ellington High School","Male",79.7,89.8
-"Enfield School District","=""0490011""","Enfield High School","Female",84.3,90.7
-"Enfield School District","=""0490011""","Enfield High School","Male",71.1,92.8
-"Enfield School District","=""0490011""","Enfield Transitional Learning Academy","Male",*,*
-"Enfield School District","=""0490011""","Enrico Fermi High School","Female",76.3,86.7
-"Enfield School District","=""0490011""","Enrico Fermi High School","Male",70.7,83.9
-"Fairfield School District","=""0510011""","Fairfield Ludlowe High School","Female",83.1,96.1
-"Fairfield School District","=""0510011""","Fairfield Ludlowe High School","Male",79.9,95.9
-"Fairfield School District","=""0510011""","Fairfield Warde High School","Female",86.1,94.6
-"Fairfield School District","=""0510011""","Fairfield Warde High School","Male",76.1,91.4
-"Farmington School District","=""0520011""","Farmington High School","Female",86.1,95.6
-"Farmington School District","=""0520011""","Farmington High School","Male",82.0,92.4
-"Glastonbury School District","=""0540011""","Glastonbury High School","Female",90.2,96.8
-"Glastonbury School District","=""0540011""","Glastonbury High School","Male",77.1,95.5
-"Granby School District","=""0560011""","Granby Memorial High School","Female",89.7,97.4
-"Granby School District","=""0560011""","Granby Memorial High School","Male",88.1,85.4
-"Greenwich School District","=""0570011""","Greenwich High School","Female",86.1,94.5
-"Greenwich School District","=""0570011""","Greenwich High School","Male",73.3,91.8
-"Griswold School District","=""0580011""","Griswold High School","Female",76.1,80.0
-"Griswold School District","=""0580011""","Griswold High School","Male",56.4,84.1
-"Groton School District","=""0590011""","Robert E. Fitch High School","Female",84.8,87.0
-"Groton School District","=""0590011""","Robert E. Fitch High School","Male",69.1,83.5
-"Guilford School District","=""0600011""","Guilford High School","Female",83.1,93.8
-"Guilford School District","=""0600011""","Guilford High School","Male",81.0,88.8
-"Hamden School District","=""0620011""","Hamden High School","Female",79.4,89.8
-"Hamden School District","=""0620011""","Hamden High School","Male",67.5,91.1
-"Hartford School District","=""0640011""","Bulkeley High School","Female",55.8,76.1
-"Hartford School District","=""0640011""","Bulkeley High School","Male",43.7,64.4
-"Hartford School District","=""0640011""","Capital Preparatory Magnet School","Female",*,*
-"Hartford School District","=""0640011""","Capital Preparatory Magnet School","Male",*,*
-"Hartford School District","=""0640011""","Classical Magnet School","Female",89.6,93.0
-"Hartford School District","=""0640011""","Classical Magnet School","Male",71.4,88.0
-"Hartford School District","=""0640011""","Culinary Arts Academy","Female",46.2,*
-"Hartford School District","=""0640011""","Culinary Arts Academy","Male",31.8,*
-"Hartford School District","=""0640011""","HPHS Academy of Engineering and Green Technology","Female",60.0,*
-"Hartford School District","=""0640011""","HPHS Academy of Engineering and Green Technology","Male",40.3,74.2
-"Hartford School District","=""0640011""","HPHS Academy of Nursing and Health Science","Female",55.8,70.8
-"Hartford School District","=""0640011""","HPHS Academy of Nursing and Health Science","Male",31.8,*
-"Hartford School District","=""0640011""","HPHS Law and Government Academy","Female",67.4,67.7
-"Hartford School District","=""0640011""","HPHS Law and Government Academy","Male",47.2,*
-"Hartford School District","=""0640011""","OPPortunity High School","Female",*,*
-"Hartford School District","=""0640011""","OPPortunity High School","Male",*,*
-"Hartford School District","=""0640011""","Pathways Academy of Technology and Design","Female",76.9,90.0
-"Hartford School District","=""0640011""","Pathways Academy of Technology and Design","Male",78.7,78.4
-"Hartford School District","=""0640011""","Sports and Medical Sciences Academy","Female",67.7,92.9
-"Hartford School District","=""0640011""","Sports and Medical Sciences Academy","Male",65.7,69.6
-"Hartford School District","=""0640011""","University High School of Science and Engineering","Female",79.3,91.3
-"Hartford School District","=""0640011""","University High School of Science and Engineering","Male",85.4,85.7
-"Hartford School District","=""0640011""","Weaver High School","Female",43.5,66.7
-"Hartford School District","=""0640011""","Weaver High School","Male",36.2,68.0
-"Killingly School District","=""0690011""","Killingly High School","Female",47.7,90.2
-"Killingly School District","=""0690011""","Killingly High School","Male",55.9,72.7
-"Lebanon School District","=""0710011""","Lyman Memorial High School","Female",80.3,88.5
-"Lebanon School District","=""0710011""","Lyman Memorial High School","Male",60.6,86.0
-"Ledyard School District","=""0720011""","Ledyard High School","Female",75.7,81.5
-"Ledyard School District","=""0720011""","Ledyard High School","Male",59.0,87.1
-"Lisbon School District","=""0730011""","Community Connection - The Big Picture High School","Female",*,*
-"Lisbon School District","=""0730011""","Community Connection - The Big Picture High School","Male",*,*
-"Litchfield School District","=""0740011""","Litchfield High School","Female",85.4,92.7
-"Litchfield School District","=""0740011""","Litchfield High School","Male",82.1,81.3
-"Madison School District","=""0760011""","Daniel Hand High School","Female",87.8,95.6
-"Madison School District","=""0760011""","Daniel Hand High School","Male",83.4,96.8
-"Manchester School District","=""0770011""","Manchester High School","Female",75.1,87.5
-"Manchester School District","=""0770011""","Manchester High School","Male",58.4,82.9
-"Manchester School District","=""0770011""","Manchester Regional Academy","Female",*,*
-"Manchester School District","=""0770011""","Manchester Regional Academy","Male",*,*
-"Manchester School District","=""0770011""","Manchester Transition Center","Male",*,*
-"Meriden School District","=""0800011""","Francis T. Maloney High School","Female",69.6,78.1
-"Meriden School District","=""0800011""","Francis T. Maloney High School","Male",59.8,82.1
-"Meriden School District","=""0800011""","Orville H. Platt High School","Female",63.6,82.7
-"Meriden School District","=""0800011""","Orville H. Platt High School","Male",55.0,72.7
-"Middletown School District","=""0830011""","Middletown High School","Female",75.7,86.6
-"Middletown School District","=""0830011""","Middletown High School","Male",69.3,86.4
-"Milford School District","=""0840011""","Jonathan Law High School","Female",75.9,92.9
-"Milford School District","=""0840011""","Jonathan Law High School","Male",70.1,96.7
-"Milford School District","=""0840011""","Joseph A. Foran High School","Female",83.8,92.7
-"Milford School District","=""0840011""","Joseph A. Foran High School","Male",75.9,93.2
-"Monroe School District","=""0850011""","Masuk High School","Female",87.2,96.5
-"Monroe School District","=""0850011""","Masuk High School","Male",80.6,95.5
-"Montville School District","=""0860011""","Montville High School","Female",79.7,88.9
-"Montville School District","=""0860011""","Montville High School","Male",68.1,76.6
-"Montville School District","=""0860011""","Palmer Academy","Female",*,*
-"Montville School District","=""0860011""","Palmer Academy","Male",*,*
-"Naugatuck School District","=""0880011""","Naugatuck High School","Female",72.3,87.5
-"Naugatuck School District","=""0880011""","Naugatuck High School","Male",62.7,90.9
-"New Britain School District","=""0890011""","Academic Extension Center","Male",*,*
-"New Britain School District","=""0890011""","New Britain High School","Female",63.7,78.1
-"New Britain School District","=""0890011""","New Britain High School","Male",51.9,81.7
-"New Britain School District","=""0890011""","New Britain Transition Center","Female",*,*
-"New Britain School District","=""0890011""","New Britain Transition Center","Male",*,*
-"New Canaan School District","=""0900011""","New Canaan High School","Female",78.7,98.3
-"New Canaan School District","=""0900011""","New Canaan High School","Male",79.0,93.5
-"New Fairfield School District","=""0910011""","New Fairfield High School","Female",84.1,94.7
-"New Fairfield School District","=""0910011""","New Fairfield High School","Male",76.5,87.5
-"New Haven School District","=""0930011""","Cooperative High School","Female",73.0,71.7
-"New Haven School District","=""0930011""","Cooperative High School","Male",61.3,*
-"New Haven School District","=""0930011""","High School In The Community","Female",74.2,82.6
-"New Haven School District","=""0930011""","High School In The Community","Male",54.2,*
-"New Haven School District","=""0930011""","Hill Regional Career High School","Female",85.0,85.9
-"New Haven School District","=""0930011""","Hill Regional Career High School","Male",72.0,88.9
-"New Haven School District","=""0930011""","Hyde School of Health, Science and Sports Medicine","Female",*,*
-"New Haven School District","=""0930011""","Hyde School of Health, Science and Sports Medicine","Male",64.0,*
-"New Haven School District","=""0930011""","James Hillhouse High School","Female",72.2,81.4
-"New Haven School District","=""0930011""","James Hillhouse High School","Male",50.0,75.0
-"New Haven School District","=""0930011""","Metropolitan Business Academy","Female",*,*
-"New Haven School District","=""0930011""","Metropolitan Business Academy","Male",*,*
-"New Haven School District","=""0930011""","New Haven Academy","Female",72.4,100.0
-"New Haven School District","=""0930011""","New Haven Academy","Male",57.1,*
-"New Haven School District","=""0930011""","Polly T. McCabe Center","Female",*,*
-"New Haven School District","=""0930011""","Riverside Education Academy","Female",36.4,*
-"New Haven School District","=""0930011""","Riverside Education Academy","Male",40.0,*
-"New Haven School District","=""0930011""","Sound School","Female",84.6,81.8
-"New Haven School District","=""0930011""","Sound School","Male",62.1,*
-"New Haven School District","=""0930011""","Wilbur Cross High School","Female",59.4,72.6
-"New Haven School District","=""0930011""","Wilbur Cross High School","Male",44.6,56.8
-"Newington School District","=""0940011""","Newington High School","Female",88.4,95.2
-"Newington School District","=""0940011""","Newington High School","Male",76.1,82.1
-"New London School District","=""0950011""","New London Clinical Day Program","Male",*,*
-"New London School District","=""0950011""","New London High School","Female",56.6,74.4
-"New London School District","=""0950011""","New London High School","Male",56.4,82.5
-"New Milford School District","=""0960011""","Litchfield Hills Transition Center","Male",*,*
-"New Milford School District","=""0960011""","New Milford High School","Female",81.7,91.6
-"New Milford School District","=""0960011""","New Milford High School","Male",67.8,91.8
-"Newtown School District","=""0970011""","Newtown High School","Female",89.1,93.6
-"Newtown School District","=""0970011""","Newtown High School","Male",81.0,87.3
-"North Branford School District","=""0990011""","North Branford High School","Female",83.7,92.2
-"North Branford School District","=""0990011""","North Branford High School","Male",75.8,94.4
-"North Haven School District","=""1010011""","North Haven High School","Female",83.0,93.7
-"North Haven School District","=""1010011""","North Haven High School","Male",79.7,90.4
-"North Stonington School District","=""1020011""","Wheeler High School","Female",85.7,83.3
-"North Stonington School District","=""1020011""","Wheeler High School","Male",60.6,80.0
-"Norwalk School District","=""1030011""","Brien McMahon High School","Female",73.9,94.0
-"Norwalk School District","=""1030011""","Brien McMahon High School","Male",76.0,86.8
-"Norwalk School District","=""1030011""","Norwalk High School","Female",78.8,88.5
-"Norwalk School District","=""1030011""","Norwalk High School","Male",69.2,84.9
-"Norwalk School District","=""1030011""","Norwalk Pathways Academy at Briggs","Female",*,*
-"Norwalk School District","=""1030011""","Norwalk Pathways Academy at Briggs","Male",*,*
-"Norwich School District","=""1040011""","Deborah-Tennant Zinewicz  School","Male",*,*
-"Norwich School District","=""1040011""","Thames River Academy","Female",*,*
-"Norwich School District","=""1040011""","Thames River Academy","Male",*,*
-"Old Saybrook School District","=""1060011""","Old Saybrook Senior High School","Female",91.2,96.2
-"Old Saybrook School District","=""1060011""","Old Saybrook Senior High School","Male",85.7,95.8
-"Oxford School District","=""1080011""","Oxford High School","Female",79.7,93.2
-"Oxford School District","=""1080011""","Oxford High School","Male",78.7,88.1
-"Plainfield School District","=""1090011""","Plainfield High School","Female",66.7,90.8
-"Plainfield School District","=""1090011""","Plainfield High School","Male",46.3,72.7
-"Plainville School District","=""1100011""","Plainville High School","Female",73.4,90.0
-"Plainville School District","=""1100011""","Plainville High School","Male",69.0,81.2
-"Plymouth School District","=""1110011""","Terryville High School","Female",70.2,90.0
-"Plymouth School District","=""1110011""","Terryville High School","Male",54.8,72.5
-"Portland School District","=""1130011""","Portland High School","Female",86.8,93.9
-"Portland School District","=""1130011""","Portland High School","Male",62.8,81.5
-"Putnam School District","=""1160011""","Helping Hands","Male",*,*
-"Putnam School District","=""1160011""","Putnam High School","Female",76.7,82.6
-"Putnam School District","=""1160011""","Putnam High School","Male",34.4,*
-"Ridgefield School District","=""1180011""","Ridgefield High School","Female",88.0,95.3
-"Ridgefield School District","=""1180011""","Ridgefield High School","Male",83.8,94.7
-"Ridgefield School District","=""1180011""","Ridgefield Transition Program","Female",*,*
-"Ridgefield School District","=""1180011""","Ridgefield Transition Program","Male",*,*
-"Rocky Hill School District","=""1190011""","Rocky Hill High School","Female",83.9,93.2
-"Rocky Hill School District","=""1190011""","Rocky Hill High School","Male",78.5,87.1
-"Seymour School District","=""1240011""","Seymour High School","Female",80.2,92.3
-"Seymour School District","=""1240011""","Seymour High School","Male",79.7,84.1
-"Shelton School District","=""1260011""","Shelton High School","Female",77.7,96.5
-"Shelton School District","=""1260011""","Shelton High School","Male",73.0,85.4
-"Simsbury School District","=""1280011""","Simsbury High School","Female",82.5,97.0
-"Simsbury School District","=""1280011""","Simsbury High School","Male",78.9,94.5
-"Somers School District","=""1290011""","Somers High School","Female",76.8,94.3
-"Somers School District","=""1290011""","Somers High School","Male",79.7,90.9
-"Southington School District","=""1310011""","Southington High School","Female",84.0,90.7
-"Southington School District","=""1310011""","Southington High School","Male",77.1,88.2
-"South Windsor School District","=""1320011""","South Windsor High School","Female",87.4,93.1
-"South Windsor School District","=""1320011""","South Windsor High School","Male",79.4,90.6
-"Stafford School District","=""1340011""","Stafford High School","Female",61.9,92.3
-"Stafford School District","=""1340011""","Stafford High School","Male",72.0,88.9
-"Stamford School District","=""1350011""","Stamford High School","Female",74.9,90.1
-"Stamford School District","=""1350011""","Stamford High School","Male",72.0,82.7
-"Stamford School District","=""1350011""","The Academy of Information Technology","Female",85.7,97.6
-"Stamford School District","=""1350011""","The Academy of Information Technology","Male",83.5,90.1
-"Stamford School District","=""1350011""","Westhill High School","Female",72.3,88.2
-"Stamford School District","=""1350011""","Westhill High School","Male",67.9,89.3
-"Stonington School District","=""1370011""","Stonington High School","Female",90.4,96.5
-"Stonington School District","=""1370011""","Stonington High School","Male",74.5,85.5
-"Stratford School District","=""1380011""","Bunnell High School","Female",83.6,93.5
-"Stratford School District","=""1380011""","Bunnell High School","Male",66.2,80.2
-"Stratford School District","=""1380011""","Secondary STEPS Program","Male",*,*
-"Stratford School District","=""1380011""","Stratford High School","Female",75.4,84.3
-"Stratford School District","=""1380011""","Stratford High School","Male",66.7,79.7
-"Stratford School District","=""1380011""","Strive-Stratford","Female",*,*
-"Stratford School District","=""1380011""","Strive-Stratford","Male",*,*
-"Suffield School District","=""1390011""","Suffield High School","Female",88.2,89.5
-"Suffield School District","=""1390011""","Suffield High School","Male",74.4,90.6
-"Thomaston School District","=""1400011""","Thomaston High School","Female",76.1,85.7
-"Thomaston School District","=""1400011""","Thomaston High School","Male",65.4,91.2
-"Thompson School District","=""1410011""","Tourtellotte Memorial High School","Female",70.8,88.2
-"Thompson School District","=""1410011""","Tourtellotte Memorial High School","Male",56.8,85.7
-"Tolland School District","=""1420011""","Tolland High School","Female",84.0,94.4
-"Tolland School District","=""1420011""","Tolland High School","Male",84.2,83.3
-"Torrington School District","=""1430011""","Torrington High School","Female",78.7,87.1
-"Torrington School District","=""1430011""","Torrington High School","Male",59.4,86.8
-"Trumbull School District","=""1440011""","Trumbull High School","Female",86.2,94.5
-"Trumbull School District","=""1440011""","Trumbull High School","Male",78.8,91.4
-"Vernon School District","=""1460011""","Next Step Program (AACBP)","Female",*,*
-"Vernon School District","=""1460011""","Next Step Program (AACBP)","Male",*,*
-"Vernon School District","=""1460011""","Rockville High School","Female",75.4,89.5
-"Vernon School District","=""1460011""","Rockville High School","Male",61.5,80.6
-"Wallingford School District","=""1480011""","A.R.T.S. Academy","Female",*,*
-"Wallingford School District","=""1480011""","Lyman Hall High School","Female",76.2,93.8
-"Wallingford School District","=""1480011""","Lyman Hall High School","Male",62.6,88.3
-"Wallingford School District","=""1480011""","Mark T. Sheehan High School","Female",86.9,93.5
-"Wallingford School District","=""1480011""","Mark T. Sheehan High School","Male",68.1,93.8
-"Wallingford School District","=""1480011""","Multi-Vocational Life Skills Program","Female",*,*
-"Wallingford School District","=""1480011""","Multi-Vocational Life Skills Program","Male",*,*
-"Waterbury School District","=""1510011""","Crosby High School","Female",62.4,78.4
-"Waterbury School District","=""1510011""","Crosby High School","Male",43.9,75.9
-"Waterbury School District","=""1510011""","Enlightenment School","Female",*,*
-"Waterbury School District","=""1510011""","Enlightenment School","Male",*,*
-"Waterbury School District","=""1510011""","John F. Kennedy High School","Female",69.9,89.9
-"Waterbury School District","=""1510011""","John F. Kennedy High School","Male",56.1,75.7
-"Waterbury School District","=""1510011""","State Street School","Female",*,*
-"Waterbury School District","=""1510011""","State Street School","Male",*,*
-"Waterbury School District","=""1510011""","Waterbury Arts Magnet School (High)","Female",73.9,92.2
-"Waterbury School District","=""1510011""","Waterbury Arts Magnet School (High)","Male",71.1,84.4
-"Waterbury School District","=""1510011""","Wilby High School","Female",52.5,74.2
-"Waterbury School District","=""1510011""","Wilby High School","Male",40.5,68.1
-"Waterford School District","=""1520011""","Waterford High School","Female",83.6,85.7
-"Waterford School District","=""1520011""","Waterford High School","Male",75.2,79.5
-"Watertown School District","=""1530011""","Watertown High School","Female",81.5,90.7
-"Watertown School District","=""1530011""","Watertown High School","Male",67.0,81.3
-"Westbrook School District","=""1540011""","Westbrook High School","Female",86.7,92.3
-"Westbrook School District","=""1540011""","Westbrook High School","Male",76.2,90.6
-"West Hartford School District","=""1550011""","Achieve","Female",*,*
-"West Hartford School District","=""1550011""","Achieve","Male",*,*
-"West Hartford School District","=""1550011""","Conard High School","Female",86.6,93.2
-"West Hartford School District","=""1550011""","Conard High School","Male",80.9,92.1
-"West Hartford School District","=""1550011""","Hall High School","Female",83.6,94.3
-"West Hartford School District","=""1550011""","Hall High School","Male",81.2,90.2
-"West Hartford School District","=""1550011""","WAAVE (W Hartford Applied Academic/Voc'l Experience)","Female",*,*
-"West Haven School District","=""1560011""","West Haven High School","Female",74.7,81.9
-"West Haven School District","=""1560011""","West Haven High School","Male",58.0,87.2
-"Weston School District","=""1570011""","Weston High School","Female",89.8,95.9
-"Weston School District","=""1570011""","Weston High School","Male",84.5,98.6
-"Westport School District","=""1580011""","Staples High School","Female",82.2,96.6
-"Westport School District","=""1580011""","Staples High School","Male",76.2,95.8
-"Wethersfield School District","=""1590011""","Wethersfield High School","Female",81.1,90.8
-"Wethersfield School District","=""1590011""","Wethersfield High School","Male",77.3,88.1
-"Wilton School District","=""1610011""","Wilton High School","Female",86.3,96.0
-"Wilton School District","=""1610011""","Wilton High School","Male",88.5,97.1
-"Windham School District","=""1630011""","Partial Day Program","Male",*,*
-"Windham School District","=""1630011""","Windham High School","Female",66.7,87.9
-"Windham School District","=""1630011""","Windham High School","Male",56.0,74.5
-"Windsor School District","=""1640011""","Windsor High School","Female",83.3,85.8
-"Windsor School District","=""1640011""","Windsor High School","Male",63.5,84.0
-"Windsor Locks School District","=""1650011""","Windsor Locks High School","Female",61.4,88.6
-"Windsor Locks School District","=""1650011""","Windsor Locks High School","Male",60.7,94.6
-"Wolcott School District","=""1660011""","Wolcott High School","Female",84.8,92.1
-"Wolcott School District","=""1660011""","Wolcott High School","Male",64.0,85.9
-"Regional School District 01","=""2010012""","Housatonic Valley Regional High School","Female",69.4,100.0
-"Regional School District 01","=""2010012""","Housatonic Valley Regional High School","Male",50.0,80.0
-"Regional School District 04","=""2040012""","Valley Regional High School","Female",73.4,89.4
-"Regional School District 04","=""2040012""","Valley Regional High School","Male",66.3,94.7
-"Regional School District 05","=""2050012""","Amity Regional High School","Female",86.1,96.1
-"Regional School District 05","=""2050012""","Amity Regional High School","Male",80.4,93.3
-"Regional School District 06","=""2060012""","Wamogo Regional High School","Female",73.6,84.6
-"Regional School District 06","=""2060012""","Wamogo Regional High School","Male",71.1,96.3
-"Regional School District 07","=""2070012""","Northwestern Regional High School","Female",79.2,91.3
-"Regional School District 07","=""2070012""","Northwestern Regional High School","Male",67.1,92.7
-"Regional School District 07","=""2070012""","STEP","Female",*,*
-"Regional School District 07","=""2070012""","STEP","Male",*,*
-"Regional School District 08","=""2080012""","RHAM High School","Female",90.2,96.0
-"Regional School District 08","=""2080012""","RHAM High School","Male",79.5,90.3
-"Regional School District 09","=""2090012""","Joel Barlow High School","Female",84.9,96.7
-"Regional School District 09","=""2090012""","Joel Barlow High School","Male",77.4,89.0
-"Regional School District 10","=""2100012""","Lewis S. Mills High School","Female",90.5,94.7
-"Regional School District 10","=""2100012""","Lewis S. Mills High School","Male",75.3,91.0
-"Regional School District 11","=""2110012""","Parish Hill High School","Female",*,*
-"Regional School District 11","=""2110012""","Parish Hill High School","Male",*,*
-"Regional School District 12","=""2120012""","Shepaug Valley High School","Female",71.1,88.9
-"Regional School District 12","=""2120012""","Shepaug Valley High School","Male",65.1,82.1
-"Regional School District 13","=""2130012""","Coginchaug Regional High School","Female",92.2,94.9
-"Regional School District 13","=""2130012""","Coginchaug Regional High School","Male",84.8,94.6
-"Regional School District 14","=""2140012""","Nonnewaug High School","Female",85.8,89.0
-"Regional School District 14","=""2140012""","Nonnewaug High School","Male",74.0,89.6
-"Regional School District 15","=""2150012""","Pomperaug Regional High School","Female",84.7,97.4
-"Regional School District 15","=""2150012""","Pomperaug Regional High School","Male",81.0,91.3
-"Regional School District 16","=""2160012""","Woodland Regional High School","Female",86.8,88.6
-"Regional School District 16","=""2160012""","Woodland Regional High School","Male",64.4,89.3
-"Regional School District 17","=""2170012""","Haddam-Killingworth High School","Female",80.0,91.7
-"Regional School District 17","=""2170012""","Haddam-Killingworth High School","Male",70.2,89.4
-"Regional School District 18","=""2180012""","Lyme-Old Lyme High School","Female",82.7,91.9
-"Regional School District 18","=""2180012""","Lyme-Old Lyme High School","Male",66.1,75.7
-"Regional School District 19","=""2190012""","E. O. Smith High School","Female",80.8,94.1
-"Regional School District 19","=""2190012""","E. O. Smith High School","Male",66.1,93.9
-"Capitol Region Education Council","=""2410014""","Farmington Valley Regional Diagnostic Center","Female",*,*
-"Capitol Region Education Council","=""2410014""","Farmington Valley Regional Diagnostic Center","Male",*,*
-"Capitol Region Education Council","=""2410014""","Great Path Academy at MCC","Female",67.2,76.7
-"Capitol Region Education Council","=""2410014""","Great Path Academy at MCC","Male",69.6,71.9
-"Capitol Region Education Council","=""2410014""","Greater Hartford Academy of  the Arts High School - Full Time","Female",84.4,81.5
-"Capitol Region Education Council","=""2410014""","Greater Hartford Academy of  the Arts High School - Full Time","Male",*,*
-"Capitol Region Education Council","=""2410014""","John J. Allison Polaris Center","Female",*,*
-"Capitol Region Education Council","=""2410014""","John J. Allison Polaris Center","Male",*,*
-"Capitol Region Education Council","=""2410014""","Metropolitan Learning Center for Global and International Studies","Female",92.5,85.7
-"Capitol Region Education Council","=""2410014""","Metropolitan Learning Center for Global and International Studies","Male",66.7,89.3
-"Capitol Region Education Council","=""2410014""","River Street School","Male",*,*
-"Capitol Region Education Council","=""2410014""","Soundbridge","Female",*,*
-"Capitol Region Education Council","=""2410014""","Soundbridge","Male",*,*
-"Education Connection","=""2420014""","GFLC/ACCESS School","Female",*,*
-"Education Connection","=""2420014""","GFLC/ACCESS School","Male",*,*
-"Cooperative Educational Services","=""2430014""","Developmental Learning Center (DLC)","Male",*,*
-"Cooperative Educational Services","=""2430014""","RISE Transitional Program","Female",*,*
-"Cooperative Educational Services","=""2430014""","RISE Transitional Program","Male",*,*
-"Cooperative Educational Services","=""2430014""","Therapeutic Day Program","Male",*,*
-"Area Cooperative Educational Services","=""2440014""","Whitney High School East","Female",*,*
-"Area Cooperative Educational Services","=""2440014""","Whitney High School East","Male",*,*
-"Area Cooperative Educational Services","=""2440014""","Whitney High School North","Female",*,*
-"Area Cooperative Educational Services","=""2440014""","Whitney High School North","Male",*,*
-"Area Cooperative Educational Services","=""2440014""","Whitney High School West","Female",*,*
-"Area Cooperative Educational Services","=""2440014""","Whitney High School West","Male",*,*
-"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Arts at the Capitol Theater Magnet School (ACT)","Female",*,*
-"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Arts at the Capitol Theater Magnet School (ACT)","Male",*,*
-"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","EastConn Special Education","Male",*,*
-"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Quinebaug Middle College","Female",*,*
-"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Quinebaug Middle College","Male",*,*
-"Common Ground High School District","=""2680013""","Common Ground High School","Female",39.1,*
-"Common Ground High School District","=""2680013""","Common Ground High School","Male",*,*
-"The Bridge Academy District","=""2690013""","The Bridge Academy","Female",*,*
-"The Bridge Academy District","=""2690013""","The Bridge Academy","Male",*,*
-"Explorations District","=""2720013""","Explorations","Female",*,*
-"Explorations District","=""2720013""","Explorations","Male",*,*
-"Amistad Academy District","=""2790013""","Amistad Academy","Female",*,*
-"Amistad Academy District","=""2790013""","Amistad Academy","Male",*,*
-"Stamford Academy District","=""2820013""","Stamford Academy","Female",*,*
-"Stamford Academy District","=""2820013""","Stamford Academy","Male",*,*
-"Unified School District #1","=""3360015""","Corrigan/Radgowski Correctional Institution","Male",*,*
-"Unified School District #1","=""3360015""","Manson Youth Institution","Male",*,*
-"Unified School District #1","=""3360015""","York Correctional Institution","Female",*,*
-"Department of Mental Health and Addiction Services","=""3370015""","Connecticut Valley Hospital","Female",*,*
-"Department of Mental Health and Addiction Services","=""3370015""","Connecticut Valley Hospital","Male",*,*
-"Unified School District #2","=""3470015""","Walter G. Cady School","Male",*,*
-"Connecticut Technical High School System","=""9000016""","A. I. Prince Technical High School","Female",65.8,73.1
-"Connecticut Technical High School System","=""9000016""","A. I. Prince Technical High School","Male",39.3,62.5
-"Connecticut Technical High School System","=""9000016""","Bullard-Havens Technical High School","Female",75.6,81.5
-"Connecticut Technical High School System","=""9000016""","Bullard-Havens Technical High School","Male",46.4,82.2
-"Connecticut Technical High School System","=""9000016""","E. C. Goodwin Technical High School","Female",42.9,*
-"Connecticut Technical High School System","=""9000016""","E. C. Goodwin Technical High School","Male",32.3,76.2
-"Connecticut Technical High School System","=""9000016""","Eli Whitney Technical High School","Female",57.5,73.9
-"Connecticut Technical High School System","=""9000016""","Eli Whitney Technical High School","Male",38.3,69.6
-"Connecticut Technical High School System","=""9000016""","Ella T. Grasso Southeastern Technical High School","Female",45.3,66.7
-"Connecticut Technical High School System","=""9000016""","Ella T. Grasso Southeastern Technical High School","Male",31.3,66.7
-"Connecticut Technical High School System","=""9000016""","Emmett O'Brien Technical High School","Female",42.9,*
-"Connecticut Technical High School System","=""9000016""","Emmett O'Brien Technical High School","Male",46.2,69.4
-"Connecticut Technical High School System","=""9000016""","H. C. Wilcox Technical High School","Female",50.7,82.4
-"Connecticut Technical High School System","=""9000016""","H. C. Wilcox Technical High School","Male",34.5,71.1
-"Connecticut Technical High School System","=""9000016""","H. H. Ellis Technical High School","Female",38.7,*
-"Connecticut Technical High School System","=""9000016""","H. H. Ellis Technical High School","Male",32.1,74.1
-"Connecticut Technical High School System","=""9000016""","Henry Abbott Technical High School","Female",66.7,81.3
-"Connecticut Technical High School System","=""9000016""","Henry Abbott Technical High School","Male",31.1,75.0
-"Connecticut Technical High School System","=""9000016""","Howell Cheney Technical High School","Female",*,*
-"Connecticut Technical High School System","=""9000016""","Howell Cheney Technical High School","Male",38.6,86.4
-"Connecticut Technical High School System","=""9000016""","Norwich Technical High School","Female",52.9,*
-"Connecticut Technical High School System","=""9000016""","Norwich Technical High School","Male",32.9,76.0
-"Connecticut Technical High School System","=""9000016""","Oliver Wolcott Technical High School","Female",42.4,68.0
-"Connecticut Technical High School System","=""9000016""","Oliver Wolcott Technical High School","Male",42.9,72.5
-"Connecticut Technical High School System","=""9000016""","Platt Technical High School","Female",54.1,75.8
-"Connecticut Technical High School System","=""9000016""","Platt Technical High School","Male",37.7,87.8
-"Connecticut Technical High School System","=""9000016""","Vinal Technical High School","Female",41.7,*
-"Connecticut Technical High School System","=""9000016""","Vinal Technical High School","Male",30.3,70.4
-"Connecticut Technical High School System","=""9000016""","W. F. Kaynor Technical High School","Female",60.8,83.9
-"Connecticut Technical High School System","=""9000016""","W. F. Kaynor Technical High School","Male",40.0,81.6
-"Connecticut Technical High School System","=""9000016""","Windham Technical High School","Female",61.0,76.0
-"Connecticut Technical High School System","=""9000016""","Windham Technical High School","Male",35.4,67.9
-"Norwich Free Academy District","=""9010022""","Norwich Free Academy","Female",77.5,91.3
-"Norwich Free Academy District","=""9010022""","Norwich Free Academy","Male",68.2,83.3
-"The Gilbert School District","=""9020022""","The Gilbert School","Female",89.7,91.4
-"The Gilbert School District","=""9020022""","The Gilbert School","Male",70.0,*
-"Woodstock Academy District","=""9030022""","Woodstock Academy","Female",85.8,92.9
-"Woodstock Academy District","=""9030022""","Woodstock Academy","Male",73.9,84.8
-
+<html><head><title>VMware vFabric tc Runtime 2.8.0.RELEASE/7.0.30.A.RELEASE - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 500 - Unable to find local session...</h1><HR size="1" noshade="noshade"><p><b>type</b> Exception report</p><p><b>message</b> <u>Unable to find local session...</u></p><p><b>description</b> <u>The server encountered an internal error that prevented it from fulfilling this request.</u></p><p><b>exception</b> <pre>java.lang.IllegalStateException: Unable to find local session...
+	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:187)
+	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:218)
+	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:206)
+	com.sas.svcs.webapp.servlet.filters.LocalPlatformServicesFilter.onDoFilter(LocalPlatformServicesFilter.java:96)
+	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
+	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:311)
+	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:116)
+	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.web.filters.TgtKeepAliveFilter.doFilterInternal(TgtKeepAliveFilter.java:59)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:45)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.web.filters.SessionIdentifierFilter.doFilterInternal(SessionIdentifierFilter.java:38)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:182)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.session.jasig.SingleSignOutFilter.doFilterInternal(SingleSignOutFilter.java:60)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.web.filters.RevokableTokenLogoutFilter.doFilter(RevokableTokenLogoutFilter.java:38)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.web.filters.CsrfRefererCheckerFilter.doFilterInternal(CsrfRefererCheckerFilter.java:469)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.framework.webapp.servlet.ApplicationNameFilter.onDoFilter(ApplicationNameFilter.java:46)
+	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:173)
+	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	com.sas.services.storedprocess.webapp.SPFilter.onDoFilter(SPFilter.java:268)
+	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
+	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	com.sas.servlet.filters.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:62)
+	com.sas.framework.webapp.servlet.SanitizingRequestFilter.onDoFilter(SanitizingRequestFilter.java:86)
+	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
+	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+</pre></p><p><b>root cause</b> <pre>com.sas.svcs.authentication.helper.TrustedAuthenticationException: com.sas.svcs.authentication.helper.TrustedAuthenticationException: javax.security.auth.login.LoginException: The application could not log on to the server &quot;sdemeta.sys.services.ct.gov:8561&quot;.
+	com.sas.svcs.authentication.helper.TrustedUserFactory.create(TrustedUserFactory.java:97)
+	com.sas.svcs.authentication.helper.UserSessionFactory.createAndLockLocalSession(UserSessionFactory.java:386)
+	com.sas.svcs.authentication.helper.UserSessionFactory.createLockAndSaveLocalSession(UserSessionFactory.java:354)
+	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:176)
+	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:218)
+	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:206)
+	com.sas.svcs.webapp.servlet.filters.LocalPlatformServicesFilter.onDoFilter(LocalPlatformServicesFilter.java:96)
+	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
+	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:311)
+	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:116)
+	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.web.filters.TgtKeepAliveFilter.doFilterInternal(TgtKeepAliveFilter.java:59)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:45)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.web.filters.SessionIdentifierFilter.doFilterInternal(SessionIdentifierFilter.java:38)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:182)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.session.jasig.SingleSignOutFilter.doFilterInternal(SingleSignOutFilter.java:60)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.web.filters.RevokableTokenLogoutFilter.doFilter(RevokableTokenLogoutFilter.java:38)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.web.filters.CsrfRefererCheckerFilter.doFilterInternal(CsrfRefererCheckerFilter.java:469)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.framework.webapp.servlet.ApplicationNameFilter.onDoFilter(ApplicationNameFilter.java:46)
+	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:173)
+	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	com.sas.services.storedprocess.webapp.SPFilter.onDoFilter(SPFilter.java:268)
+	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
+	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	com.sas.servlet.filters.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:62)
+	com.sas.framework.webapp.servlet.SanitizingRequestFilter.onDoFilter(SanitizingRequestFilter.java:86)
+	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
+	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+</pre></p><p><b>root cause</b> <pre>com.sas.svcs.authentication.helper.TrustedAuthenticationException: javax.security.auth.login.LoginException: The application could not log on to the server &quot;sdemeta.sys.services.ct.gov:8561&quot;.
+	com.sas.svcs.authentication.helper.TrustedSubjectFactory.create(TrustedSubjectFactory.java:54)
+	com.sas.svcs.authentication.helper.TrustedUserFactory.create(TrustedUserFactory.java:84)
+	com.sas.svcs.authentication.helper.UserSessionFactory.createAndLockLocalSession(UserSessionFactory.java:386)
+	com.sas.svcs.authentication.helper.UserSessionFactory.createLockAndSaveLocalSession(UserSessionFactory.java:354)
+	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:176)
+	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:218)
+	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:206)
+	com.sas.svcs.webapp.servlet.filters.LocalPlatformServicesFilter.onDoFilter(LocalPlatformServicesFilter.java:96)
+	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
+	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:311)
+	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:116)
+	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.web.filters.TgtKeepAliveFilter.doFilterInternal(TgtKeepAliveFilter.java:59)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:45)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.web.filters.SessionIdentifierFilter.doFilterInternal(SessionIdentifierFilter.java:38)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:182)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.session.jasig.SingleSignOutFilter.doFilterInternal(SingleSignOutFilter.java:60)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.web.filters.RevokableTokenLogoutFilter.doFilter(RevokableTokenLogoutFilter.java:38)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.web.filters.CsrfRefererCheckerFilter.doFilterInternal(CsrfRefererCheckerFilter.java:469)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.framework.webapp.servlet.ApplicationNameFilter.onDoFilter(ApplicationNameFilter.java:46)
+	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:173)
+	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	com.sas.services.storedprocess.webapp.SPFilter.onDoFilter(SPFilter.java:268)
+	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
+	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	com.sas.servlet.filters.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:62)
+	com.sas.framework.webapp.servlet.SanitizingRequestFilter.onDoFilter(SanitizingRequestFilter.java:86)
+	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
+	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+</pre></p><p><b>root cause</b> <pre>javax.security.auth.login.LoginException: The application could not log on to the server &quot;sdemeta.sys.services.ct.gov:8561&quot;.
+	com.sas.services.security.login.TrustedLoginModule.generatePassword(TrustedLoginModule.java:356)
+	com.sas.services.security.login.TrustedLoginModule.doLogin(TrustedLoginModule.java:165)
+	com.sas.services.security.login.TrustedLoginModule.login(TrustedLoginModule.java:126)
+	sun.reflect.GeneratedMethodAccessor742.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:606)
+	javax.security.auth.login.LoginContext.invoke(LoginContext.java:762)
+	javax.security.auth.login.LoginContext.access$000(LoginContext.java:203)
+	javax.security.auth.login.LoginContext$4.run(LoginContext.java:690)
+	javax.security.auth.login.LoginContext$4.run(LoginContext.java:688)
+	java.security.AccessController.doPrivileged(Native Method)
+	javax.security.auth.login.LoginContext.invokePriv(LoginContext.java:687)
+	javax.security.auth.login.LoginContext.login(LoginContext.java:595)
+	com.sas.svcs.authentication.helper.TrustedSubjectFactory.create(TrustedSubjectFactory.java:49)
+	com.sas.svcs.authentication.helper.TrustedUserFactory.create(TrustedUserFactory.java:84)
+	com.sas.svcs.authentication.helper.UserSessionFactory.createAndLockLocalSession(UserSessionFactory.java:386)
+	com.sas.svcs.authentication.helper.UserSessionFactory.createLockAndSaveLocalSession(UserSessionFactory.java:354)
+	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:176)
+	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:218)
+	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:206)
+	com.sas.svcs.webapp.servlet.filters.LocalPlatformServicesFilter.onDoFilter(LocalPlatformServicesFilter.java:96)
+	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
+	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:311)
+	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:116)
+	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.web.filters.TgtKeepAliveFilter.doFilterInternal(TgtKeepAliveFilter.java:59)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:45)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.web.filters.SessionIdentifierFilter.doFilterInternal(SessionIdentifierFilter.java:38)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:182)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.session.jasig.SingleSignOutFilter.doFilterInternal(SingleSignOutFilter.java:60)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.web.filters.RevokableTokenLogoutFilter.doFilter(RevokableTokenLogoutFilter.java:38)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.web.filters.CsrfRefererCheckerFilter.doFilterInternal(CsrfRefererCheckerFilter.java:469)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.framework.webapp.servlet.ApplicationNameFilter.onDoFilter(ApplicationNameFilter.java:46)
+	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:173)
+	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	com.sas.services.storedprocess.webapp.SPFilter.onDoFilter(SPFilter.java:268)
+	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
+	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	com.sas.servlet.filters.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:62)
+	com.sas.framework.webapp.servlet.SanitizingRequestFilter.onDoFilter(SanitizingRequestFilter.java:86)
+	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
+	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+</pre></p><p><b>note</b> <u>The full stack trace of the root cause is available in the VMware vFabric tc Runtime 2.8.0.RELEASE/7.0.30.A.RELEASE logs.</u></p><HR size="1" noshade="noshade"><h3>VMware vFabric tc Runtime 2.8.0.RELEASE/7.0.30.A.RELEASE</h3></body></html>

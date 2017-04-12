@@ -1,660 +1,160 @@
-"Six-Year Graduation Rates, 2011-12"
-"All Districts, Race/Ethnicity"
 
-"",,,"Graduates",
-"District","Race/Ethnicity","Six-Year Cohort Count","Graduation Count","Graduation Rate"
-"Amistad Academy District","Black","*","*","*"
-"Amistad Academy District","Hispanic","*","*","*"
-"Ansonia School District","Black",38,28,73.7
-"Ansonia School District","Hispanic",44,33,75.0
-"Ansonia School District","Asian","*","*","*"
-"Ansonia School District","Hawaiian or Pacific Islander","*","*","*"
-"Ansonia School District","White",116,104,89.7
-"Avon School District","Black",6,6,100.0
-"Avon School District","Hispanic",8,7,87.5
-"Avon School District","Asian",14,14,100.0
-"Avon School District","Hawaiian or Pacific Islander","*","*","*"
-"Avon School District","White",251,246,98.0
-"Avon School District","Two or More Races","*","*","*"
-"Berlin School District","Black","*","*","*"
-"Berlin School District","Hispanic",17,16,94.1
-"Berlin School District","Asian","*","*","*"
-"Berlin School District","White",219,215,98.2
-"Berlin School District","Two or More Races",11,11,100.0
-"Bethel School District","Black","*","*","*"
-"Bethel School District","Hispanic",25,24,96.0
-"Bethel School District","Asian",9,9,100.0
-"Bethel School District","White",196,191,97.4
-"Bethel School District","Two or More Races","*","*","*"
-"Bloomfield School District","Black",169,154,91.1
-"Bloomfield School District","Hispanic",17,15,88.2
-"Bloomfield School District","White",7,6,85.7
-"Bolton School District","Black","*","*","*"
-"Bolton School District","White",68,65,95.6
-"Bolton School District","Two or More Races","*","*","*"
-"Branford School District","Black","*","*","*"
-"Branford School District","Hispanic",10,10,100.0
-"Branford School District","Asian",10,9,90.0
-"Branford School District","White",232,221,95.3
-"Branford School District","Two or More Races","*","*","*"
-"Bridgeport School District","Black",492,379,77.0
-"Bridgeport School District","Hispanic",586,381,65.0
-"Bridgeport School District","Asian","*","*","*"
-"Bridgeport School District","Hawaiian or Pacific Islander","*","*","*"
-"Bridgeport School District","White",83,54,65.1
-"Bridgeport School District","Indian or Alaska Native",67,62,92.5
-"Bristol School District","Black",40,35,87.5
-"Bristol School District","Hispanic",93,76,81.7
-"Bristol School District","Asian",19,18,94.7
-"Bristol School District","White",462,418,90.5
-"Bristol School District","Two or More Races","*","*","*"
-"Bristol School District","Indian or Alaska Native","*","*","*"
-"Brookfield School District","Black",8,8,100.0
-"Brookfield School District","Hispanic",7,7,100.0
-"Brookfield School District","Asian",9,9,100.0
-"Brookfield School District","White",229,226,98.7
-"Canton School District","Black","*","*","*"
-"Canton School District","Hispanic",6,6,100.0
-"Canton School District","Asian","*","*","*"
-"Canton School District","White",106,105,99.1
-"Canton School District","Two or More Races","*","*","*"
-"Capitol Region Education Council","Black",133,116,87.2
-"Capitol Region Education Council","Hispanic",77,62,80.5
-"Capitol Region Education Council","Asian",7,7,100.0
-"Capitol Region Education Council","White",109,86,78.9
-"Capitol Region Education Council","Two or More Races","*","*","*"
-"Capitol Region Education Council","Indian or Alaska Native","*","*","*"
-"Cheshire School District","Black",10,10,100.0
-"Cheshire School District","Hispanic",8,8,100.0
-"Cheshire School District","Asian",35,35,100.0
-"Cheshire School District","White",354,347,98.0
-"Clinton School District","Black","*","*","*"
-"Clinton School District","Hispanic",6,"*","*"
-"Clinton School District","Asian",7,7,100.0
-"Clinton School District","White",105,99,94.3
-"Clinton School District","Two or More Races","*","*","*"
-"Clinton School District","Indian or Alaska Native","*","*","*"
-"Colchester School District","Black",11,11,100.0
-"Colchester School District","Hispanic",11,10,90.9
-"Colchester School District","Asian","*","*","*"
-"Colchester School District","White",214,211,98.6
-"Colchester School District","Two or More Races","*","*","*"
-"Colchester School District","Indian or Alaska Native","*","*","*"
-"Common Ground High School District","Black",8,8,100.0
-"Common Ground High School District","Hispanic",15,14,93.3
-"Common Ground High School District","White","*","*","*"
-"Common Ground High School District","Two or More Races","*","*","*"
-"Connecticut Technical High School System","Black",366,349,95.4
-"Connecticut Technical High School System","Hispanic",741,709,95.7
-"Connecticut Technical High School System","Asian","*","*","*"
-"Connecticut Technical High School System","Hawaiian or Pacific Islander","*","*","*"
-"Connecticut Technical High School System","White",1348,1315,97.6
-"Connecticut Technical High School System","Two or More Races",21,21,100.0
-"Connecticut Technical High School System","Indian or Alaska Native",31,29,93.5
-"Coventry School District","Black","*","*","*"
-"Coventry School District","Hispanic","*","*","*"
-"Coventry School District","Asian","*","*","*"
-"Coventry School District","White",137,127,92.7
-"Coventry School District","Two or More Races","*","*","*"
-"Cromwell School District","Black",10,8,80.0
-"Cromwell School District","Hispanic",9,8,88.9
-"Cromwell School District","Asian","*","*","*"
-"Cromwell School District","White",129,124,96.1
-"Cromwell School District","Indian or Alaska Native","*","*","*"
-"Danbury School District","Black",88,76,86.4
-"Danbury School District","Hispanic",236,184,78.0
-"Danbury School District","Asian","*","*","*"
-"Danbury School District","White",375,335,89.3
-"Danbury School District","Two or More Races","*","*","*"
-"Darien School District","Black","*","*","*"
-"Darien School District","Hispanic","*","*","*"
-"Darien School District","Asian",12,12,100.0
-"Darien School District","White",286,279,97.6
-"Derby School District","Black",19,9,47.4
-"Derby School District","Hispanic",27,19,70.4
-"Derby School District","Hawaiian or Pacific Islander","*","*","*"
-"Derby School District","White",64,60,93.8
-"Derby School District","Two or More Races","*","*","*"
-"East Granby School District","Black","*","*","*"
-"East Granby School District","Hispanic","*","*","*"
-"East Granby School District","Asian","*","*","*"
-"East Granby School District","White",52,50,96.2
-"East Granby School District","Two or More Races","*","*","*"
-"East Haddam School District","Black","*","*","*"
-"East Haddam School District","Hispanic","*","*","*"
-"East Haddam School District","White",100,94,94.0
-"East Hampton School District","Black","*","*","*"
-"East Hampton School District","Hispanic","*","*","*"
-"East Hampton School District","Asian","*","*","*"
-"East Hampton School District","White",152,146,96.1
-"East Hampton School District","Two or More Races","*","*","*"
-"East Hartford School District","Black",176,155,88.1
-"East Hartford School District","Hispanic",215,168,78.1
-"East Hartford School District","Asian",41,39,95.1
-"East Hartford School District","White",143,124,86.7
-"East Hartford School District","Two or More Races","*","*","*"
-"East Hartford School District","Indian or Alaska Native","*","*","*"
-"East Haven School District","Black","*","*","*"
-"East Haven School District","Hispanic",26,21,80.8
-"East Haven School District","Asian",12,11,91.7
-"East Haven School District","White",175,130,74.3
-"East Haven School District","Two or More Races","*","*","*"
-"East Lyme School District","Black","*","*","*"
-"East Lyme School District","Hispanic",12,12,100.0
-"East Lyme School District","Asian",14,14,100.0
-"East Lyme School District","White",268,251,93.7
-"East Lyme School District","Indian or Alaska Native","*","*","*"
-"East Windsor School District","Black",11,10,90.9
-"East Windsor School District","Hispanic",8,7,87.5
-"East Windsor School District","Asian","*","*","*"
-"East Windsor School District","White",63,56,88.9
-"East Windsor School District","Two or More Races","*","*","*"
-"Eastern Connecticut Regional Educational Service Center (EASTCONN)","Black","*","*","*"
-"Eastern Connecticut Regional Educational Service Center (EASTCONN)","Hispanic","*","*","*"
-"Eastern Connecticut Regional Educational Service Center (EASTCONN)","Asian","*","*","*"
-"Eastern Connecticut Regional Educational Service Center (EASTCONN)","White",76,62,81.6
-"Eastern Connecticut Regional Educational Service Center (EASTCONN)","Two or More Races","*","*","*"
-"Ellington School District","Black","*","*","*"
-"Ellington School District","Hispanic",6,6,100.0
-"Ellington School District","Asian","*","*","*"
-"Ellington School District","White",178,166,93.3
-"Ellington School District","Two or More Races",7,6,85.7
-"Elm City College Preparatory School District","Black","*","*","*"
-"Elm City College Preparatory School District","Hispanic","*","*","*"
-"Enfield School District","Black",27,19,70.4
-"Enfield School District","Hispanic",22,20,90.9
-"Enfield School District","Asian",11,11,100.0
-"Enfield School District","White",443,392,88.5
-"Enfield School District","Two or More Races","*","*","*"
-"Enfield School District","Indian or Alaska Native","*","*","*"
-"Explorations District","Hispanic","*","*","*"
-"Explorations District","White","*","*","*"
-"Fairfield School District","Black",18,17,94.4
-"Fairfield School District","Hispanic",68,62,91.2
-"Fairfield School District","Asian",28,26,92.9
-"Fairfield School District","White",546,532,97.4
-"Fairfield School District","Two or More Races",26,25,96.2
-"Fairfield School District","Indian or Alaska Native",6,6,100.0
-"Farmington School District","Black",21,20,95.2
-"Farmington School District","Hispanic",8,7,87.5
-"Farmington School District","Asian",18,18,100.0
-"Farmington School District","White",258,249,96.5
-"Glastonbury School District","Black",23,22,95.7
-"Glastonbury School District","Hispanic",33,30,90.9
-"Glastonbury School District","Asian",32,32,100.0
-"Glastonbury School District","White",415,406,97.8
-"Glastonbury School District","Two or More Races","*","*","*"
-"Glastonbury School District","Indian or Alaska Native","*","*","*"
-"Granby School District","Black","*","*","*"
-"Granby School District","Hispanic","*","*","*"
-"Granby School District","Asian","*","*","*"
-"Granby School District","White",178,175,98.3
-"Granby School District","Two or More Races","*","*","*"
-"Greenwich School District","Black",19,17,89.5
-"Greenwich School District","Hispanic",96,85,88.5
-"Greenwich School District","Asian",46,46,100.0
-"Greenwich School District","White",472,458,97.0
-"Greenwich School District","Two or More Races",8,8,100.0
-"Griswold School District","Black",6,"*","*"
-"Griswold School District","Hispanic","*","*","*"
-"Griswold School District","Asian","*","*","*"
-"Griswold School District","Hawaiian or Pacific Islander","*","*","*"
-"Griswold School District","White",169,149,88.2
-"Griswold School District","Two or More Races","*","*","*"
-"Griswold School District","Indian or Alaska Native","*","*","*"
-"Groton School District","Black",42,33,78.6
-"Groton School District","Hispanic",39,26,66.7
-"Groton School District","Asian",23,23,100.0
-"Groton School District","Hawaiian or Pacific Islander","*","*","*"
-"Groton School District","White",232,200,86.2
-"Groton School District","Two or More Races","*","*","*"
-"Groton School District","Indian or Alaska Native",6,"*","*"
-"Guilford School District","Black","*","*","*"
-"Guilford School District","Hispanic",15,15,100.0
-"Guilford School District","Asian",9,9,100.0
-"Guilford School District","White",258,253,98.1
-"Guilford School District","Two or More Races","*","*","*"
-"Hamden School District","Black",184,164,89.1
-"Hamden School District","Hispanic",70,57,81.4
-"Hamden School District","Asian",33,31,93.9
-"Hamden School District","White",224,210,93.8
-"Hamden School District","Two or More Races","*","*","*"
-"Hamden School District","Indian or Alaska Native","*","*","*"
-"Hartford School District","Black",590,487,82.5
-"Hartford School District","Hispanic",632,416,65.8
-"Hartford School District","Asian",36,30,83.3
-"Hartford School District","Hawaiian or Pacific Islander","*","*","*"
-"Hartford School District","White",93,84,90.3
-"Hartford School District","Two or More Races",33,23,69.7
-"Hartford School District","Indian or Alaska Native","*","*","*"
-"Killingly School District","Black",8,7,87.5
-"Killingly School District","Hispanic",10,6,60.0
-"Killingly School District","Asian","*","*","*"
-"Killingly School District","White",160,139,86.9
-"Killingly School District","Two or More Races","*","*","*"
-"Killingly School District","Indian or Alaska Native","*","*","*"
-"Lebanon School District","Hispanic","*","*","*"
-"Lebanon School District","White",125,114,91.2
-"Lebanon School District","Indian or Alaska Native","*","*","*"
-"Ledyard School District","Black",10,10,100.0
-"Ledyard School District","Hispanic",12,10,83.3
-"Ledyard School District","Asian",11,11,100.0
-"Ledyard School District","White",165,157,95.2
-"Ledyard School District","Indian or Alaska Native",12,9,75.0
-"Lisbon School District","Hawaiian or Pacific Islander","*","*","*"
-"Lisbon School District","White","*","*","*"
-"Lisbon School District","Two or More Races","*","*","*"
-"Litchfield School District","Black","*","*","*"
-"Litchfield School District","Hispanic","*","*","*"
-"Litchfield School District","White",98,97,99.0
-"Madison School District","Black","*","*","*"
-"Madison School District","Hispanic","*","*","*"
-"Madison School District","Asian",11,11,100.0
-"Madison School District","White",314,307,97.8
-"Madison School District","Two or More Races","*","*","*"
-"Manchester School District","Black",101,78,77.2
-"Manchester School District","Hispanic",121,92,76.0
-"Manchester School District","Asian",26,22,84.6
-"Manchester School District","White",255,215,84.3
-"Manchester School District","Two or More Races","*","*","*"
-"Manchester School District","Indian or Alaska Native","*","*","*"
-"Meriden School District","Black",83,59,71.1
-"Meriden School District","Hispanic",275,188,68.4
-"Meriden School District","Asian",15,14,93.3
-"Meriden School District","Hawaiian or Pacific Islander","*","*","*"
-"Meriden School District","White",235,197,83.8
-"Meriden School District","Two or More Races",12,8,66.7
-"Meriden School District","Indian or Alaska Native","*","*","*"
-"Middletown School District","Black",87,74,85.1
-"Middletown School District","Hispanic",45,34,75.6
-"Middletown School District","Asian",17,"*","*"
-"Middletown School District","White",186,161,86.6
-"Middletown School District","Two or More Races",7,"*","*"
-"Milford School District","Black",32,31,96.9
-"Milford School District","Hispanic",31,24,77.4
-"Milford School District","Asian","*","*","*"
-"Milford School District","White",425,394,92.7
-"Milford School District","Indian or Alaska Native","*","*","*"
-"Monroe School District","Black","*","*","*"
-"Monroe School District","Hispanic",15,15,100.0
-"Monroe School District","Asian","*","*","*"
-"Monroe School District","White",312,311,99.7
-"Montville School District","Black","*","*","*"
-"Montville School District","Hispanic",13,11,84.6
-"Montville School District","Asian",17,17,100.0
-"Montville School District","White",168,146,86.9
-"Montville School District","Two or More Races",9,9,100.0
-"Montville School District","Indian or Alaska Native","*","*","*"
-"Naugatuck School District","Black",28,24,85.7
-"Naugatuck School District","Hispanic",60,48,80.0
-"Naugatuck School District","Asian",13,13,100.0
-"Naugatuck School District","White",257,225,87.5
-"Naugatuck School District","Two or More Races","*","*","*"
-"Naugatuck School District","Indian or Alaska Native","*","*","*"
-"New Britain School District","Black",106,85,80.2
-"New Britain School District","Hispanic",335,199,59.4
-"New Britain School District","Asian","*","*","*"
-"New Britain School District","White",200,154,77.0
-"New Britain School District","Two or More Races","*","*","*"
-"New Canaan School District","Black","*","*","*"
-"New Canaan School District","Hispanic",13,12,92.3
-"New Canaan School District","Asian",8,8,100.0
-"New Canaan School District","Hawaiian or Pacific Islander","*","*","*"
-"New Canaan School District","White",295,294,99.7
-"New Canaan School District","Two or More Races","*","*","*"
-"New Canaan School District","Indian or Alaska Native",6,6,100.0
-"New Fairfield School District","Black","*","*","*"
-"New Fairfield School District","Hispanic",12,12,100.0
-"New Fairfield School District","Asian","*","*","*"
-"New Fairfield School District","White",213,209,98.1
-"New Fairfield School District","Two or More Races","*","*","*"
-"New Haven School District","Black",654,510,78.0
-"New Haven School District","Hispanic",429,294,68.5
-"New Haven School District","Asian",24,20,83.3
-"New Haven School District","White",211,183,86.7
-"New Haven School District","Two or More Races","*","*","*"
-"New Haven School District","Indian or Alaska Native","*","*","*"
-"New London School District","Black",74,50,67.6
-"New London School District","Hispanic",102,70,68.6
-"New London School District","Asian","*","*","*"
-"New London School District","White",47,35,74.5
-"New London School District","Two or More Races","*","*","*"
-"New London School District","Indian or Alaska Native",6,"*","*"
-"New Milford School District","Black","*","*","*"
-"New Milford School District","Hispanic",27,25,92.6
-"New Milford School District","Asian",17,17,100.0
-"New Milford School District","White",335,311,92.8
-"New Milford School District","Two or More Races","*","*","*"
-"Newington School District","Black",8,7,87.5
-"Newington School District","Hispanic",30,27,90.0
-"Newington School District","Asian",21,19,90.5
-"Newington School District","White",265,248,93.6
-"Newington School District","Two or More Races",11,11,100.0
-"Newtown School District","Black","*","*","*"
-"Newtown School District","Hispanic","*","*","*"
-"Newtown School District","Asian",20,18,90.0
-"Newtown School District","White",371,358,96.5
-"North Branford School District","Black",8,6,75.0
-"North Branford School District","Hispanic","*","*","*"
-"North Branford School District","Asian","*","*","*"
-"North Branford School District","White",146,136,93.2
-"North Haven School District","Black",10,9,90.0
-"North Haven School District","Hispanic",21,17,81.0
-"North Haven School District","Asian",23,23,100.0
-"North Haven School District","White",229,219,95.6
-"North Haven School District","Two or More Races",7,7,100.0
-"North Stonington School District","White",52,48,92.3
-"North Stonington School District","Two or More Races","*","*","*"
-"North Stonington School District","Indian or Alaska Native","*","*","*"
-"Norwalk School District","Black",211,186,88.2
-"Norwalk School District","Hispanic",296,242,81.8
-"Norwalk School District","Asian",40,37,92.5
-"Norwalk School District","White",311,289,92.9
-"Norwalk School District","Two or More Races","*","*","*"
-"Norwalk School District","Indian or Alaska Native","*","*","*"
-"Norwich Free Academy District","Black",25,18,72.0
-"Norwich Free Academy District","Hispanic",61,48,78.7
-"Norwich Free Academy District","Asian","*","*","*"
-"Norwich Free Academy District","Hawaiian or Pacific Islander","*","*","*"
-"Norwich Free Academy District","White",436,388,89.0
-"Norwich Free Academy District","Two or More Races",95,87,91.6
-"Norwich Free Academy District","Indian or Alaska Native",13,11,84.6
-"Norwich School District","Black",17,6,35.3
-"Norwich School District","Hispanic",11,"*","*"
-"Norwich School District","Asian","*","*","*"
-"Norwich School District","White",37,14,37.8
-"Norwich School District","Two or More Races","*","*","*"
-"Old Saybrook School District","Black","*","*","*"
-"Old Saybrook School District","Hispanic","*","*","*"
-"Old Saybrook School District","Asian",8,8,100.0
-"Old Saybrook School District","White",133,130,97.7
-"Oxford School District","Black",8,6,75.0
-"Oxford School District","Hispanic","*","*","*"
-"Oxford School District","Asian","*","*","*"
-"Oxford School District","White",130,120,92.3
-"Plainfield School District","Black",7,6,85.7
-"Plainfield School District","Hispanic",7,7,100.0
-"Plainfield School District","Asian","*","*","*"
-"Plainfield School District","White",182,164,90.1
-"Plainfield School District","Indian or Alaska Native","*","*","*"
-"Plainville School District","Black",13,11,84.6
-"Plainville School District","Hispanic",17,15,88.2
-"Plainville School District","Asian","*","*","*"
-"Plainville School District","Hawaiian or Pacific Islander","*","*","*"
-"Plainville School District","White",160,152,95.0
-"Plainville School District","Two or More Races","*","*","*"
-"Plainville School District","Indian or Alaska Native","*","*","*"
-"Plymouth School District","Black","*","*","*"
-"Plymouth School District","Hispanic","*","*","*"
-"Plymouth School District","Asian","*","*","*"
-"Plymouth School District","White",132,119,90.2
-"Plymouth School District","Indian or Alaska Native","*","*","*"
-"Portland School District","Black","*","*","*"
-"Portland School District","Hispanic","*","*","*"
-"Portland School District","White",83,79,95.2
-"Portland School District","Two or More Races","*","*","*"
-"Putnam School District","Black","*","*","*"
-"Putnam School District","Hispanic","*","*","*"
-"Putnam School District","Asian","*","*","*"
-"Putnam School District","White",60,57,95.0
-"Putnam School District","Two or More Races","*","*","*"
-"Putnam School District","Indian or Alaska Native","*","*","*"
-"Regional School District 01","Black","*","*","*"
-"Regional School District 01","Hispanic",6,"*","*"
-"Regional School District 01","Asian","*","*","*"
-"Regional School District 01","White",127,123,96.9
-"Regional School District 01","Two or More Races","*","*","*"
-"Regional School District 04","Black","*","*","*"
-"Regional School District 04","Hispanic","*","*","*"
-"Regional School District 04","Asian","*","*","*"
-"Regional School District 04","White",152,142,93.4
-"Regional School District 04","Two or More Races","*","*","*"
-"Regional School District 05","Black",13,12,92.3
-"Regional School District 05","Hispanic","*","*","*"
-"Regional School District 05","Asian",45,45,100.0
-"Regional School District 05","White",362,354,97.8
-"Regional School District 05","Indian or Alaska Native","*","*","*"
-"Regional School District 06","Hispanic","*","*","*"
-"Regional School District 06","White",85,81,95.3
-"Regional School District 06","Two or More Races","*","*","*"
-"Regional School District 07","Hispanic","*","*","*"
-"Regional School District 07","Asian","*","*","*"
-"Regional School District 07","White",199,190,95.5
-"Regional School District 08","Black","*","*","*"
-"Regional School District 08","Hispanic","*","*","*"
-"Regional School District 08","Asian",7,7,100.0
-"Regional School District 08","White",282,266,94.3
-"Regional School District 09","Black","*","*","*"
-"Regional School District 09","Hispanic",9,9,100.0
-"Regional School District 09","Asian",6,6,100.0
-"Regional School District 09","White",219,215,98.2
-"Regional School District 09","Two or More Races","*","*","*"
-"Regional School District 10","Hispanic",10,10,100.0
-"Regional School District 10","Asian","*","*","*"
-"Regional School District 10","White",212,207,97.6
-"Regional School District 10","Two or More Races","*","*","*"
-"Regional School District 11","Hispanic","*","*","*"
-"Regional School District 11","White","*","*","*"
-"Regional School District 12","Black","*","*","*"
-"Regional School District 12","Hispanic","*","*","*"
-"Regional School District 12","White",66,56,84.8
-"Regional School District 12","Two or More Races","*","*","*"
-"Regional School District 13","Hispanic","*","*","*"
-"Regional School District 13","Asian","*","*","*"
-"Regional School District 13","White",135,132,97.8
-"Regional School District 13","Two or More Races","*","*","*"
-"Regional School District 14","Black","*","*","*"
-"Regional School District 14","Hispanic","*","*","*"
-"Regional School District 14","Asian","*","*","*"
-"Regional School District 14","White",189,187,98.9
-"Regional School District 14","Indian or Alaska Native","*","*","*"
-"Regional School District 15","Black","*","*","*"
-"Regional School District 15","Hispanic",13,12,92.3
-"Regional School District 15","Asian",14,14,100.0
-"Regional School District 15","White",295,286,96.9
-"Regional School District 15","Indian or Alaska Native","*","*","*"
-"Regional School District 16","Black","*","*","*"
-"Regional School District 16","Hispanic",9,8,88.9
-"Regional School District 16","Asian","*","*","*"
-"Regional School District 16","White",180,173,96.1
-"Regional School District 16","Two or More Races","*","*","*"
-"Regional School District 17","Black","*","*","*"
-"Regional School District 17","Hispanic",6,6,100.0
-"Regional School District 17","Asian","*","*","*"
-"Regional School District 17","White",181,171,94.5
-"Regional School District 18","Hispanic","*","*","*"
-"Regional School District 18","Asian","*","*","*"
-"Regional School District 18","White",96,94,97.9
-"Regional School District 18","Two or More Races","*","*","*"
-"Regional School District 19","Black","*","*","*"
-"Regional School District 19","Hispanic",10,8,80.0
-"Regional School District 19","Asian",19,17,89.5
-"Regional School District 19","White",266,249,93.6
-"Regional School District 19","Two or More Races","*","*","*"
-"Regional School District 19","Indian or Alaska Native","*","*","*"
-"Ridgefield School District","Black","*","*","*"
-"Ridgefield School District","Hispanic",16,15,93.8
-"Ridgefield School District","Asian",10,10,100.0
-"Ridgefield School District","White",412,411,99.8
-"Ridgefield School District","Two or More Races","*","*","*"
-"Rocky Hill School District","Black","*","*","*"
-"Rocky Hill School District","Hispanic",16,13,81.3
-"Rocky Hill School District","Asian",14,14,100.0
-"Rocky Hill School District","White",165,159,96.4
-"Rocky Hill School District","Indian or Alaska Native","*","*","*"
-"Seymour School District","Black","*","*","*"
-"Seymour School District","Hispanic",12,9,75.0
-"Seymour School District","Asian","*","*","*"
-"Seymour School District","White",136,125,91.9
-"Shelton School District","Black","*","*","*"
-"Shelton School District","Hispanic",31,27,87.1
-"Shelton School District","Asian",16,16,100.0
-"Shelton School District","White",359,344,95.8
-"Shelton School District","Indian or Alaska Native","*","*","*"
-"Simsbury School District","Black","*","*","*"
-"Simsbury School District","Hispanic",23,23,100.0
-"Simsbury School District","Asian",23,23,100.0
-"Simsbury School District","White",343,337,98.3
-"Simsbury School District","Two or More Races","*","*","*"
-"Somers School District","Black","*","*","*"
-"Somers School District","Hispanic","*","*","*"
-"Somers School District","Asian","*","*","*"
-"Somers School District","White",129,127,98.4
-"Somers School District","Two or More Races","*","*","*"
-"Somers School District","Indian or Alaska Native","*","*","*"
-"South Windsor School District","Black",22,21,95.5
-"South Windsor School District","Hispanic","*","*","*"
-"South Windsor School District","Asian",29,28,96.6
-"South Windsor School District","White",312,305,97.8
-"South Windsor School District","Indian or Alaska Native","*","*","*"
-"Southington School District","Black","*","*","*"
-"Southington School District","Hispanic",17,17,100.0
-"Southington School District","Asian",23,23,100.0
-"Southington School District","White",441,425,96.4
-"Southington School District","Indian or Alaska Native","*","*","*"
-"Stafford School District","Black","*","*","*"
-"Stafford School District","Hispanic","*","*","*"
-"Stafford School District","Asian","*","*","*"
-"Stafford School District","White",134,120,89.6
-"Stamford Academy District","Black",35,24,68.6
-"Stamford Academy District","Hispanic","*","*","*"
-"Stamford Academy District","White","*","*","*"
-"Stamford School District","Black",283,255,90.1
-"Stamford School District","Hispanic",335,278,83.0
-"Stamford School District","Asian","*","*","*"
-"Stamford School District","White",486,460,94.7
-"Stamford School District","Two or More Races","*","*","*"
-"Stonington School District","Hispanic","*","*","*"
-"Stonington School District","White","*","*","*"
-"Stratford School District","Black",147,130,88.4
-"Stratford School District","Hispanic",140,116,82.9
-"Stratford School District","Asian",14,12,85.7
-"Stratford School District","White",271,257,94.8
-"Stratford School District","Two or More Races","*","*","*"
-"Stratford School District","Indian or Alaska Native","*","*","*"
-"Suffield School District","Black",7,"*","*"
-"Suffield School District","Hispanic",6,"*","*"
-"Suffield School District","Asian",7,7,100.0
-"Suffield School District","White",186,173,93.0
-"The Bridge Academy District","Black",23,21,91.3
-"The Bridge Academy District","Hispanic","*","*","*"
-"The Bridge Academy District","Two or More Races","*","*","*"
-"The Gilbert School District","Black","*","*","*"
-"The Gilbert School District","Hispanic",10,10,100.0
-"The Gilbert School District","White",76,71,93.4
-"The Gilbert School District","Two or More Races","*","*","*"
-"Thomaston School District","Hispanic","*","*","*"
-"Thomaston School District","Asian","*","*","*"
-"Thomaston School District","White",89,83,93.3
-"Thompson School District","Black","*","*","*"
-"Thompson School District","Hispanic","*","*","*"
-"Thompson School District","White",97,86,88.7
-"Thompson School District","Indian or Alaska Native","*","*","*"
-"Tolland School District","Black","*","*","*"
-"Tolland School District","Hispanic","*","*","*"
-"Tolland School District","Asian",6,6,100.0
-"Tolland School District","White",218,214,98.2
-"Torrington School District","Black",30,26,86.7
-"Torrington School District","Hispanic",44,34,77.3
-"Torrington School District","Asian",9,9,100.0
-"Torrington School District","White",217,182,83.9
-"Torrington School District","Two or More Races","*","*","*"
-"Torrington School District","Indian or Alaska Native","*","*","*"
-"Trumbull School District","Black",35,34,97.1
-"Trumbull School District","Hispanic",38,37,97.4
-"Trumbull School District","Asian",28,26,92.9
-"Trumbull School District","White",441,435,98.6
-"Unified School District #1","Black",336,10,3.0
-"Unified School District #1","Hispanic",254,"*","*"
-"Unified School District #1","Asian","*","*","*"
-"Unified School District #1","White",146,9,6.2
-"Unified School District #1","Two or More Races",8,"*","*"
-"Unified School District #1","Indian or Alaska Native","*","*","*"
-"Unified School District #2","Black",10,"*","*"
-"Unified School District #2","Hispanic",11,"*","*"
-"Unified School District #2","White","*","*","*"
-"Unified School District #2","Two or More Races","*","*","*"
-"Vernon School District","Black",33,24,72.7
-"Vernon School District","Hispanic",23,19,82.6
-"Vernon School District","Asian",20,20,100.0
-"Vernon School District","White",185,162,87.6
-"Wallingford School District","Black","*","*","*"
-"Wallingford School District","Hispanic",57,52,91.2
-"Wallingford School District","Asian",19,18,94.7
-"Wallingford School District","White",452,420,92.9
-"Wallingford School District","Two or More Races","*","*","*"
-"Waterbury School District","Black",386,269,69.7
-"Waterbury School District","Hispanic",550,325,59.1
-"Waterbury School District","Asian",25,20,80.0
-"Waterbury School District","White",293,232,79.2
-"Waterbury School District","Two or More Races","*","*","*"
-"Waterbury School District","Indian or Alaska Native","*","*","*"
-"Waterford School District","Black","*","*","*"
-"Waterford School District","Hispanic",18,15,83.3
-"Waterford School District","Asian",12,12,100.0
-"Waterford School District","White",203,192,94.6
-"Waterford School District","Indian or Alaska Native","*","*","*"
-"Watertown School District","Black","*","*","*"
-"Watertown School District","Hispanic",6,"*","*"
-"Watertown School District","Asian",6,"*","*"
-"Watertown School District","White",215,201,93.5
-"Watertown School District","Two or More Races","*","*","*"
-"Watertown School District","Indian or Alaska Native","*","*","*"
-"West Hartford School District","Black",68,64,94.1
-"West Hartford School District","Hispanic",148,133,89.9
-"West Hartford School District","Asian",75,74,98.7
-"West Hartford School District","White",446,436,97.8
-"West Hartford School District","Two or More Races","*","*","*"
-"West Hartford School District","Indian or Alaska Native","*","*","*"
-"West Haven School District","Black",91,65,71.4
-"West Haven School District","Hispanic",95,72,75.8
-"West Haven School District","Asian",14,12,85.7
-"West Haven School District","White",181,141,77.9
-"West Haven School District","Two or More Races","*","*","*"
-"West Haven School District","Indian or Alaska Native","*","*","*"
-"Westbrook School District","Hispanic","*","*","*"
-"Westbrook School District","Asian","*","*","*"
-"Westbrook School District","White",79,75,94.9
-"Weston School District","Black","*","*","*"
-"Weston School District","Hispanic",7,7,100.0
-"Weston School District","Asian","*","*","*"
-"Weston School District","White",176,176,100.0
-"Weston School District","Two or More Races","*","*","*"
-"Westport School District","Black",7,6,85.7
-"Westport School District","Hispanic",20,19,95.0
-"Westport School District","Asian",22,22,100.0
-"Westport School District","White",376,372,98.9
-"Westport School District","Two or More Races","*","*","*"
-"Westport School District","Indian or Alaska Native","*","*","*"
-"Wethersfield School District","Black",17,16,94.1
-"Wethersfield School District","Hispanic",35,30,85.7
-"Wethersfield School District","Asian","*","*","*"
-"Wethersfield School District","White",225,212,94.2
-"Wethersfield School District","Indian or Alaska Native","*","*","*"
-"Wilton School District","Black","*","*","*"
-"Wilton School District","Hispanic","*","*","*"
-"Wilton School District","Asian",16,16,100.0
-"Wilton School District","White",285,283,99.3
-"Windham School District","Black",9,9,100.0
-"Windham School District","Hispanic",110,77,70.0
-"Windham School District","Asian","*","*","*"
-"Windham School District","White",58,50,86.2
-"Windham School District","Indian or Alaska Native","*","*","*"
-"Windsor Locks School District","Black",13,13,100.0
-"Windsor Locks School District","Hispanic",11,9,81.8
-"Windsor Locks School District","Asian",15,14,93.3
-"Windsor Locks School District","White",109,104,95.4
-"Windsor School District","Black",149,135,90.6
-"Windsor School District","Hispanic",44,35,79.5
-"Windsor School District","Asian",17,"*","*"
-"Windsor School District","White",101,97,96.0
-"Windsor School District","Two or More Races",6,"*","*"
-"Wolcott School District","Black","*","*","*"
-"Wolcott School District","Hispanic",14,11,78.6
-"Wolcott School District","Asian","*","*","*"
-"Wolcott School District","Hawaiian or Pacific Islander","*","*","*"
-"Wolcott School District","White",196,190,96.9
-"Woodstock Academy District","Hispanic",7,"*","*"
-"Woodstock Academy District","Asian",8,"*","*"
-"Woodstock Academy District","White",271,261,96.3
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+    
+
+
+<head>
+    <meta charset="UTF-8" />
+    <title>
+    	
+    		
+    		
+    			SAS&reg; Logon Manager
+    		
+    	
+    </title>
+    <link type="text/css" rel="stylesheet" href="themes/default/css/bootstrap.css" />
+    <link type="text/css" rel="stylesheet" href="themes/default/css/sas.css" />
+</head>
+
+
+
+<body id="cas">
+	<div id="page">
+		
+
+<div class="banner row">
+    <div class="about">
+        <ul class="unstyled"><li>
+            <a href="#about-modal" data-toggle="modal">
+                About
+            </a>
+        </li></ul>
+    </div>
+    <div id="about-modal" class="modal hide fade">
+        <div class="modal-header">
+            <a href="#" class="close" data-dismiss="modal">&times;</a>
+            <h3>About</h3>
+        </div>
+        <div class="modal-body">
+            <p>Version: 9.4</p>
+            <h4>Copyright Information</h4>
+            <p align="center">
+Copyright (c) 2002 - 2013 by SAS Institute Inc., Cary, NC, USA<br/>
+All rights reserved.<br/>
+<br/>
+This software is protected by copyright laws and international treaties.<br/>
+<br/>
+U.S. GOVERNMENT RESTRICTED RIGHTS<br/>
+Use, duplication, or disclosure of this software and related<br/>
+documentation by the U.S. government is subject to the<br/>
+Agreement with SAS Institute and the restrictions set forth<br/>
+in FAR 52.227-19, Commercial Computer Software<br/>
+- Restricted Rights (June 1987).
+            </p>
+        </div>
+    </div>
+    <div class="header">
+        <div class="title">
+        	<h1>
+        		
+		    		
+		    		
+		    			Sign In to SAS<sup>&reg;</sup>
+		    		
+    			
+        	</h1>
+       	</div>
+        <div class="logo"><img src="themes/default/images/logo.png" /></div>
+    </div>
+</div>
+
+
+		<div class="content row">
+			
+                <form id="fm1" class="form-stacked" onSubmit="return setSubmitUrl(this);" action="/SASLogon/login;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=15AAEE74A1642D80E875D190130A9DE4.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1?service=http://edsight.ct.gov/SASStoredProcess/j_spring_cas_security_check" method="post">
+				<fieldset>
+					
+					
+					
+                        <legend>Sign In to SAS<sup>&reg;</sup></legend>
+					<div class="clearfix">
+                            <label for="username"><span class="accesskey">U</span>ser ID:</label>
+						
+							
+							
+                                    
+                                    <input id="username" name="username" class="required" tabindex="1" accesskey="u" type="text" value="" size="25" autocomplete="off"/>
+							
+						
+					</div>
+					<div class="clearfix">
+                            <label for="password"><span class="accesskey">P</span>assword:</label>
+						
+                            
+                            <input id="password" name="password" class="required" tabindex="2" accesskey="p" type="password" value="" size="25" autocomplete="off"/>
+					</div>
+				</fieldset>
+				<input type="hidden" name="lt" value="LT-10693-7f6uHxkxC73LdZiQ2wdFwF6lp1iBwi" />
+				<input type="hidden" name="execution" value="e1s1" />
+				<input type="hidden" name="_eventId" value="submit" />
+                    <div class="submitb"><input id="Logon" type="submit" value="Sign In" onClick="this.disabled=true;this.form.submit();" tabindex="3" /></div>
+			</form>
+			
+				<div class="customizations" id="custom-logon-message">
+                  	
+
+
+<p>
+
+</p>
+
+
+ 
+ 
+				</div>
+			
+
+			<div class="copyright">
+				Copyright &copy; 2002 - 2013 by SAS Institute Inc., Cary, NC USA
+			</div>
+		</div>
+	</div>
+	
+<script type="text/javascript" src="/SASLogon/js/jquery.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=15AAEE74A1642D80E875D190130A9DE4.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
+<script type="text/javascript" src="/SASLogon/js/bootstrap-modal.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=15AAEE74A1642D80E875D190130A9DE4.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
+
+	<script type="text/javascript">
+            $("#username").focus();
+            
+            function setSubmitUrl(form)
+            {
+            	var urlHash = decodeURIComponent(window.location.hash);
+            	
+            	if (urlHash && urlHash.indexOf("#") === -1)
+            		urlHash = "#" + urlHash;
+            	
+            	form.action = form.action + urlHash;
+            	return true;
+            }
+    </script>
+</body>
+
+</html>
+
+
 

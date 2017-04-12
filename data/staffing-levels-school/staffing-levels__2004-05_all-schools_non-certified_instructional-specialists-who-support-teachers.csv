@@ -3,10 +3,6 @@
 
 
 
-
-
-
-
 <!DOCTYPE html>
 
 
@@ -15,7 +11,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
     
-
+    
 
 <head>
     <meta charset="UTF-8" />
@@ -33,9 +29,9 @@
 
 
 
-<body id="cas">
-	<div id="page">
-		
+    <body id="cas">
+        <div id="page">
+            
 
 <div class="banner row">
     <div class="about">
@@ -84,77 +80,42 @@ in FAR 52.227-19, Commercial Computer Software<br/>
 </div>
 
 
-		<div class="content row">
-			
-                <form id="fm1" class="form-stacked" onSubmit="return setSubmitUrl(this);" action="/SASLogon/login;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=F0C35B2CFFD2AEFC91A0D98DAE10B541.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1?service=http://edsight.ct.gov/SASStoredProcess/j_spring_cas_security_check" method="post">
-				<fieldset>
-					
-					
-					
-                        <legend>Sign In to SAS<sup>&reg;</sup></legend>
-					<div class="clearfix">
-                            <label for="username"><span class="accesskey">U</span>ser ID:</label>
-						
-							
-							
-                                    
-                                    <input id="username" name="username" class="required" tabindex="1" accesskey="u" type="text" value="" size="25" autocomplete="off"/>
-							
-						
-					</div>
-					<div class="clearfix">
-                            <label for="password"><span class="accesskey">P</span>assword:</label>
-						
-                            
-                            <input id="password" name="password" class="required" tabindex="2" accesskey="p" type="password" value="" size="25" autocomplete="off"/>
-					</div>
-				</fieldset>
-				<input type="hidden" name="lt" value="LT-13918-Ub5i3scodVN4GwRf1QrbgV636MWJiN" />
-				<input type="hidden" name="execution" value="e1s1" />
-				<input type="hidden" name="_eventId" value="submit" />
-                    <div class="submitb"><input id="Logon" type="submit" value="Sign In" onClick="this.disabled=true;this.form.submit();" tabindex="3" /></div>
-			</form>
-			
-				<div class="customizations" id="custom-logon-message">
-                  	
+            <div class="content row">
+                <div id="msg" class="alert-message message-box success">
+                	
+                		
+                			<h2>Public access has been denied.</h2>
+		                    <p>Public users are not allowed to access this SAS application. The current user has been signed out.</p>
+                		
+                		
+                		
+                    
+                    
+           				<p>For increased security, close your browser.</p>
+           			
+                </div>
+                
+	            	<div class="customizations" id="custom-logoff-message">
+	               		
 
 
 <p>
-
 </p>
 
 
  
- 
-				</div>
-			
 
-			<div class="copyright">
-				Copyright &copy; 2002 - 2013 by SAS Institute Inc., Cary, NC USA
-			</div>
-		</div>
-	</div>
-	
-<script type="text/javascript" src="/SASLogon/js/jquery.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=F0C35B2CFFD2AEFC91A0D98DAE10B541.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-<script type="text/javascript" src="/SASLogon/js/bootstrap-modal.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=F0C35B2CFFD2AEFC91A0D98DAE10B541.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
+	                </div>
+	            
+	            
+            </div>
+        </div>
+        
+<script type="text/javascript" src="/SASLogon/js/jquery.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=D8C696DEA0509362D27542224A7165BF.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
+<script type="text/javascript" src="/SASLogon/js/bootstrap-modal.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=D8C696DEA0509362D27542224A7165BF.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
 
-	<script type="text/javascript">
-            $("#username").focus();
-            
-            function setSubmitUrl(form)
-            {
-            	var urlHash = decodeURIComponent(window.location.hash);
-            	
-            	if (urlHash && urlHash.indexOf("#") === -1)
-            		urlHash = "#" + urlHash;
-            	
-            	form.action = form.action + urlHash;
-            	return true;
-            }
-    </script>
-</body>
+    </body>
 
 </html>
-
 
 

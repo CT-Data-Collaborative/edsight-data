@@ -1,136 +1,160 @@
-"College Entrance and Persistence, 2007-08"
-"All Districts"
 
-"Notes:"
-"* In this report, year means graduating class of that school year."
-"* College entrance refers to the percent of high school graduates from the year who enrolled in college any time during the first year after high school."
-"* College persistence refers to the percent of students who enrolled in college the first year after high school and returned for a second year (Freshman to Sophomore persistence)."
 
-"District","District Code","School","English Learner Status","Entrance(%)","Persistence(%)"
-"Ansonia School District","=""0020011""","Ansonia High School","English Language Learners",*,*
-"Avon School District","=""0040011""","Avon High School","English Language Learners",*,*
-"Berlin School District","=""0070011""","Berlin High School","English Language Learners",*,*
-"Bethel School District","=""0090011""","Bethel High School","English Language Learners",*,*
-"Bloomfield School District","=""0110011""","Bloomfield High School","English Language Learners",*,*
-"Branford School District","=""0140011""","Branford High School","English Language Learners",*,*
-"Bridgeport School District","=""0150011""","Bassick High School","English Language Learners",*,*
-"Bridgeport School District","=""0150011""","Central High School","English Language Learners",45.2,*
-"Bridgeport School District","=""0150011""","Harding High School","English Language Learners",14.3,*
-"Bristol School District","=""0170011""","Bristol Central High School","English Language Learners",*,*
-"Bristol School District","=""0170011""","Bristol Eastern High School","English Language Learners",*,*
-"Brookfield School District","=""0180011""","Brookfield High School","English Language Learners",*,*
-"Cheshire School District","=""0250011""","Cheshire High School","English Language Learners",*,*
-"Colchester School District","=""0280011""","Bacon Academy","English Language Learners",*,*
-"Cromwell School District","=""0330011""","Cromwell High School","English Language Learners",*,*
-"Danbury School District","=""0340011""","Danbury High School","English Language Learners",30.6,*
-"Darien School District","=""0350011""","Darien High School","English Language Learners",*,*
-"Derby School District","=""0370011""","Derby High School","English Language Learners",*,*
-"East Hampton School District","=""0420011""","East Hampton High School","English Language Learners",*,*
-"East Hartford School District","=""0430011""","East Hartford High School","English Language Learners",48.4,*
-"East Hartford School District","=""0430011""","Stevens Alternate High school","English Language Learners",*,*
-"East Haven School District","=""0440011""","East Haven High School","English Language Learners",*,*
-"East Windsor School District","=""0470011""","East Windsor High School","English Language Learners",*,*
-"Enfield School District","=""0490011""","Enrico Fermi High School","English Language Learners",*,*
-"Fairfield School District","=""0510011""","Fairfield Ludlowe High School","English Language Learners",*,*
-"Fairfield School District","=""0510011""","Fairfield Warde High School","English Language Learners",*,*
-"Granby School District","=""0560011""","Granby Memorial High School","English Language Learners",*,*
-"Greenwich School District","=""0570011""","Greenwich High School","English Language Learners",28.6,*
-"Groton School District","=""0590011""","Robert E. Fitch High School","English Language Learners",*,*
-"Guilford School District","=""0600011""","Guilford High School","English Language Learners",*,*
-"Hamden School District","=""0620011""","Hamden High School","English Language Learners",84.0,81.0
-"Hartford School District","=""0640011""","Bulkeley High School Lower School","English Language Learners",57.1,80.0
-"Hartford School District","=""0640011""","Capital Preparatory Magnet School","English Language Learners",*,*
-"Hartford School District","=""0640011""","Hartford Public High School","English Language Learners",32.0,*
-"Hartford School District","=""0640011""","Pathways Academy of Technology and Design","English Language Learners",*,*
-"Hartford School District","=""0640011""","Sports and Medical Sciences Academy","English Language Learners",*,*
-"Hartford School District","=""0640011""","University High School of Science and Engineering","English Language Learners",*,*
-"Hartford School District","=""0640011""","Weaver High School","English Language Learners",*,*
-"Killingly School District","=""0690011""","Killingly High School","English Language Learners",*,*
-"Ledyard School District","=""0720011""","Ledyard High School","English Language Learners",*,*
-"Manchester School District","=""0770011""","Manchester High School","English Language Learners",*,*
-"Meriden School District","=""0800011""","Francis T. Maloney High School","English Language Learners",*,*
-"Meriden School District","=""0800011""","Orville H. Platt High School","English Language Learners",*,*
-"Middletown School District","=""0830011""","Middletown High School","English Language Learners",*,*
-"Milford School District","=""0840011""","Jonathan Law High School","English Language Learners",*,*
-"Milford School District","=""0840011""","Joseph A. Foran High School","English Language Learners",*,*
-"Montville School District","=""0860011""","Montville High School","English Language Learners",*,*
-"Naugatuck School District","=""0880011""","Naugatuck High School","English Language Learners",*,*
-"New Britain School District","=""0890011""","New Britain High School","English Language Learners",49.2,86.7
-"New Canaan School District","=""0900011""","New Canaan High School","English Language Learners",*,*
-"New Haven School District","=""0930011""","Cooperative High School","English Language Learners",*,*
-"New Haven School District","=""0930011""","High School In The Community","English Language Learners",*,*
-"New Haven School District","=""0930011""","Hill Regional Career High School","English Language Learners",*,*
-"New Haven School District","=""0930011""","James Hillhouse High School","English Language Learners",*,*
-"New Haven School District","=""0930011""","New Haven Academy","English Language Learners",*,*
-"New Haven School District","=""0930011""","Riverside Education Academy","English Language Learners",*,*
-"New Haven School District","=""0930011""","Sound School","English Language Learners",*,*
-"New Haven School District","=""0930011""","Wilbur Cross High School","English Language Learners",31.9,*
-"Newington School District","=""0940011""","Newington High School","English Language Learners",*,*
-"New London School District","=""0950011""","New London High School","English Language Learners",*,*
-"New Milford School District","=""0960011""","New Milford High School","English Language Learners",*,*
-"North Branford School District","=""0990011""","North Branford High School","English Language Learners",*,*
-"North Haven School District","=""1010011""","North Haven High School","English Language Learners",*,*
-"Norwalk School District","=""1030011""","Brien McMahon High School","English Language Learners",*,*
-"Norwalk School District","=""1030011""","Norwalk High School","English Language Learners",*,*
-"Old Saybrook School District","=""1060011""","Old Saybrook Senior High School","English Language Learners",*,*
-"Plainfield School District","=""1090011""","Plainfield High School","English Language Learners",*,*
-"Plainville School District","=""1100011""","Plainville High School","English Language Learners",*,*
-"Putnam School District","=""1160011""","Putnam High School","English Language Learners",*,*
-"Ridgefield School District","=""1180011""","Ridgefield High School","English Language Learners",*,*
-"Rocky Hill School District","=""1190011""","Rocky Hill High School","English Language Learners",*,*
-"Seymour School District","=""1240011""","Seymour High School","English Language Learners",*,*
-"Shelton School District","=""1260011""","Shelton High School","English Language Learners",*,*
-"Simsbury School District","=""1280011""","Simsbury High School","English Language Learners",*,*
-"Southington School District","=""1310011""","Southington High School","English Language Learners",*,*
-"South Windsor School District","=""1320011""","South Windsor High School","English Language Learners",*,*
-"Stamford School District","=""1350011""","Stamford High School","English Language Learners",55.9,*
-"Stamford School District","=""1350011""","The Academy of Information Technology","English Language Learners",*,*
-"Stamford School District","=""1350011""","Westhill High School","English Language Learners",43.2,*
-"Stonington School District","=""1370011""","Stonington High School","English Language Learners",*,*
-"Stratford School District","=""1380011""","Stratford High School","English Language Learners",*,*
-"Torrington School District","=""1430011""","Torrington High School","English Language Learners",*,*
-"Trumbull School District","=""1440011""","Trumbull High School","English Language Learners",*,*
-"Vernon School District","=""1460011""","Rockville High School","English Language Learners",*,*
-"Wallingford School District","=""1480011""","Lyman Hall High School","English Language Learners",*,*
-"Waterbury School District","=""1510011""","Crosby High School","English Language Learners",30.4,*
-"Waterbury School District","=""1510011""","John F. Kennedy High School","English Language Learners",50.0,*
-"Waterbury School District","=""1510011""","State Street School","English Language Learners",*,*
-"Waterbury School District","=""1510011""","Waterbury Arts Magnet School (High)","English Language Learners",*,*
-"Waterbury School District","=""1510011""","Wilby High School","English Language Learners",*,*
-"Waterford School District","=""1520011""","Waterford High School","English Language Learners",*,*
-"Watertown School District","=""1530011""","Watertown High School","English Language Learners",*,*
-"West Hartford School District","=""1550011""","Conard High School","English Language Learners",*,*
-"West Hartford School District","=""1550011""","Hall High School","English Language Learners",*,*
-"West Haven School District","=""1560011""","West Haven High School","English Language Learners",*,*
-"Weston School District","=""1570011""","Weston High School","English Language Learners",*,*
-"Westport School District","=""1580011""","Staples High School","English Language Learners",*,*
-"Wethersfield School District","=""1590011""","Wethersfield High School","English Language Learners",*,*
-"Wilton School District","=""1610011""","Wilton High School","English Language Learners",*,*
-"Windham School District","=""1630011""","Windham High School","English Language Learners",53.3,*
-"Windsor School District","=""1640011""","Windsor High School","English Language Learners",*,*
-"Windsor Locks School District","=""1650011""","Windsor Locks High School","English Language Learners",*,*
-"Wolcott School District","=""1660011""","Wolcott High School","English Language Learners",*,*
-"Regional School District 04","=""2040012""","Valley Regional High School","English Language Learners",*,*
-"Regional School District 05","=""2050012""","Amity Regional High School","English Language Learners",*,*
-"Regional School District 06","=""2060012""","Wamogo Regional High School","English Language Learners",*,*
-"Regional School District 09","=""2090012""","Joel Barlow High School","English Language Learners",*,*
-"Regional School District 14","=""2140012""","Nonnewaug High School","English Language Learners",*,*
-"Regional School District 16","=""2160012""","Woodland Regional High School","English Language Learners",*,*
-"Regional School District 19","=""2190012""","E. O. Smith High School","English Language Learners",*,*
-"Capitol Region Education Council","=""2410014""","Great Path Academy at MCC","English Language Learners",*,*
-"Area Cooperative Educational Services","=""2440014""","Whitney High School North","English Language Learners",*,*
-"Area Cooperative Educational Services","=""2440014""","Whitney High School West","English Language Learners",*,*
-"Connecticut Technical High School System","=""9000016""","A. I. Prince Technical High School","English Language Learners",*,*
-"Connecticut Technical High School System","=""9000016""","Bullard-Havens Technical High School","English Language Learners",*,*
-"Connecticut Technical High School System","=""9000016""","E. C. Goodwin Technical High School","English Language Learners",*,*
-"Connecticut Technical High School System","=""9000016""","Eli Whitney Technical High School","English Language Learners",*,*
-"Connecticut Technical High School System","=""9000016""","Ella T. Grasso Southeastern Technical High School","English Language Learners",*,*
-"Connecticut Technical High School System","=""9000016""","Emmett O'Brien Technical High School","English Language Learners",*,*
-"Connecticut Technical High School System","=""9000016""","H. C. Wilcox Technical High School","English Language Learners",*,*
-"Connecticut Technical High School System","=""9000016""","Henry Abbott Technical High School","English Language Learners",*,*
-"Connecticut Technical High School System","=""9000016""","Howell Cheney Technical High School","English Language Learners",*,*
-"Connecticut Technical High School System","=""9000016""","J. M. Wright Technical High School","English Language Learners",*,*
-"Connecticut Technical High School System","=""9000016""","Windham Technical High School","English Language Learners",*,*
-"Norwich Free Academy District","=""9010022""","Norwich Free Academy","English Language Learners",*,*
-"The Gilbert School District","=""9020022""","The Gilbert School","English Language Learners",*,*
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+    
+
+
+<head>
+    <meta charset="UTF-8" />
+    <title>
+    	
+    		
+    		
+    			SAS&reg; Logon Manager
+    		
+    	
+    </title>
+    <link type="text/css" rel="stylesheet" href="themes/default/css/bootstrap.css" />
+    <link type="text/css" rel="stylesheet" href="themes/default/css/sas.css" />
+</head>
+
+
+
+<body id="cas">
+	<div id="page">
+		
+
+<div class="banner row">
+    <div class="about">
+        <ul class="unstyled"><li>
+            <a href="#about-modal" data-toggle="modal">
+                About
+            </a>
+        </li></ul>
+    </div>
+    <div id="about-modal" class="modal hide fade">
+        <div class="modal-header">
+            <a href="#" class="close" data-dismiss="modal">&times;</a>
+            <h3>About</h3>
+        </div>
+        <div class="modal-body">
+            <p>Version: 9.4</p>
+            <h4>Copyright Information</h4>
+            <p align="center">
+Copyright (c) 2002 - 2013 by SAS Institute Inc., Cary, NC, USA<br/>
+All rights reserved.<br/>
+<br/>
+This software is protected by copyright laws and international treaties.<br/>
+<br/>
+U.S. GOVERNMENT RESTRICTED RIGHTS<br/>
+Use, duplication, or disclosure of this software and related<br/>
+documentation by the U.S. government is subject to the<br/>
+Agreement with SAS Institute and the restrictions set forth<br/>
+in FAR 52.227-19, Commercial Computer Software<br/>
+- Restricted Rights (June 1987).
+            </p>
+        </div>
+    </div>
+    <div class="header">
+        <div class="title">
+        	<h1>
+        		
+		    		
+		    		
+		    			Sign In to SAS<sup>&reg;</sup>
+		    		
+    			
+        	</h1>
+       	</div>
+        <div class="logo"><img src="themes/default/images/logo.png" /></div>
+    </div>
+</div>
+
+
+		<div class="content row">
+			
+                <form id="fm1" class="form-stacked" onSubmit="return setSubmitUrl(this);" action="/SASLogon/login;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=274DE0221442AC471D944ADDC337AE78.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1?service=http://edsight.ct.gov/SASStoredProcess/j_spring_cas_security_check" method="post">
+				<fieldset>
+					
+					
+					
+                        <legend>Sign In to SAS<sup>&reg;</sup></legend>
+					<div class="clearfix">
+                            <label for="username"><span class="accesskey">U</span>ser ID:</label>
+						
+							
+							
+                                    
+                                    <input id="username" name="username" class="required" tabindex="1" accesskey="u" type="text" value="" size="25" autocomplete="off"/>
+							
+						
+					</div>
+					<div class="clearfix">
+                            <label for="password"><span class="accesskey">P</span>assword:</label>
+						
+                            
+                            <input id="password" name="password" class="required" tabindex="2" accesskey="p" type="password" value="" size="25" autocomplete="off"/>
+					</div>
+				</fieldset>
+				<input type="hidden" name="lt" value="LT-9568-Vd1NUQev3Sp7VYjTpxwRM37XBerUog" />
+				<input type="hidden" name="execution" value="e1s1" />
+				<input type="hidden" name="_eventId" value="submit" />
+                    <div class="submitb"><input id="Logon" type="submit" value="Sign In" onClick="this.disabled=true;this.form.submit();" tabindex="3" /></div>
+			</form>
+			
+				<div class="customizations" id="custom-logon-message">
+                  	
+
+
+<p>
+
+</p>
+
+
+ 
+ 
+				</div>
+			
+
+			<div class="copyright">
+				Copyright &copy; 2002 - 2013 by SAS Institute Inc., Cary, NC USA
+			</div>
+		</div>
+	</div>
+	
+<script type="text/javascript" src="/SASLogon/js/jquery.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=274DE0221442AC471D944ADDC337AE78.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
+<script type="text/javascript" src="/SASLogon/js/bootstrap-modal.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=274DE0221442AC471D944ADDC337AE78.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
+
+	<script type="text/javascript">
+            $("#username").focus();
+            
+            function setSubmitUrl(form)
+            {
+            	var urlHash = decodeURIComponent(window.location.hash);
+            	
+            	if (urlHash && urlHash.indexOf("#") === -1)
+            		urlHash = "#" + urlHash;
+            	
+            	form.action = form.action + urlHash;
+            	return true;
+            }
+    </script>
+</body>
+
+</html>
+
+
 

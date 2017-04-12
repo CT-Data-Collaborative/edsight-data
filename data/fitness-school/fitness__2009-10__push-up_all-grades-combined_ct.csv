@@ -26,7 +26,7 @@ function SAS_toggleLog() {
 </form>
 <div id="SASLog" style="display:none; text-align:left;">
 <h2>SAS Log</h2>
-<pre>1                                                                                                                        The SAS System                                                                                            17:00 Tuesday, April 11, 2017
+<pre>1                                                                                                                        The SAS System                                                                                          10:59 Wednesday, April 12, 2017
 
 <font color=blue>NOTE: Copyright (c) 2002-2012 by SAS Institute Inc., Cary, NC, USA. 
 NOTE: SAS (r) Proprietary Software 9.4 (TS1M2) 
@@ -44,15 +44,15 @@ NOTE: Additional host information:
  X64_DSRV12 WIN 6.2.9200  Server
 
 NOTE: SAS Initialization used (Total process time):
-      real time           0.01 seconds
-      cpu time            0.01 seconds
+      real time           0.00 seconds
+      cpu time            0.00 seconds
       
 NOTE: The autoexec file, D:\SASConfig94\Lev1\SASApp\StoredProcessServer\autoexec.sas, was executed at server initialization.
 </font>
 &gt;&gt;&gt; SAS Macro Variables:
 
- ARMLOG=StoredProcessServer/PerfLogs/arm_sassrv_08APR17x14x41x07_4688.log
- CURRENTTIME=08APR17:14:41:07
+ ARMLOG=StoredProcessServer/PerfLogs/arm_sassrv_12APR17x09x04x57_4720.log
+ CURRENTTIME=12APR17:09:04:57
  SERVERCLASS=StoredProcessServer
  _APSLIST=_srvname,_rmthost,_htcook,_username,_srvport,_reqmeth,_subgroup,_htua,_grade,_grafloc,_version,_year,_url,_rmtaddr,_reqencoding,_district,_userlocale,_program,_result,_metaperson,_metau
      ser,_metafolder,_client,_SECUREUSERNAME
@@ -60,13 +60,13 @@ NOTE: The autoexec file, D:\SASConfig94\Lev1\SASApp\StoredProcessServer\autoexec
  _DISTRICT=State of Connecticut
  _GRADE=All Grades Combined
  _GRAFLOC=/sasweb/graph
- _HTCOOK=1fc2dae290ceccd1789c0e0db17caeed_Cluster1=ABDB82B4823128CA05AE014C491D2933.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1
+ _HTCOOK=1fc2dae290ceccd1789c0e0db17caeed_Cluster1=F68D833CDE476D059AD155B09B552E90.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1
  _HTUA=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
  _METAFOLDER=/CTDOE/EdSight/Release/Reporting/Public/Reports/StoredProcesses/
  _METAPERSON=EdSightPublic
  _METAUSER=EdSightPublic@sdemeta.sys.services.ct.gov
  _PROGRAM=/CTDOE/EdSight/Release/Reporting/Public/Reports/StoredProcesses/PhysicalFitnessTestExport
- _REPLAY="&amp;_URL?_sessionid=195DF5EF-48DF-4A57-8F6B-3CCACB67FDB5&amp;_program=replay&amp;_entry=&amp;_TMPCAT.."
+ _REPLAY="&amp;_URL?_sessionid=E0DDC70D-2241-475D-AB15-CCC919A56CC9&amp;_program=replay&amp;_entry=&amp;_TMPCAT.."
  _REQENCODING=UTF-8
  _REQMETH=GET
  _RESULT=STREAM
@@ -76,7 +76,7 @@ NOTE: The autoexec file, D:\SASConfig94\Lev1\SASApp\StoredProcessServer\autoexec
  _SRVNAME=edsight.ct.gov
  _SRVPORT=80
  _SUBGROUP=Push Up
- _TMPCAT=APSWORK.TCAT0210
+ _TMPCAT=APSWORK.TCAT008C
  _URL=/SASStoredProcess/do
  _USERLOCALE=en_US
  _USERNAME=EdSightPublic
@@ -147,7 +147,7 @@ NOTE: The autoexec file, D:\SASConfig94\Lev1\SASApp\StoredProcessServer\autoexec
 60         run;
 <font color=blue>
 NOTE: DATA statement used (Total process time):
-      real time           0.01 seconds
+      real time           0.00 seconds
       cpu time            0.00 seconds
       
 
@@ -3688,7 +3688,7 @@ NOTE: DATA statement used (Total process time):
 NOTE: There were 0 observations read from the data set WORK.T2.
 NOTE: The data set WORK.T3 has 5 observations and 8 variables.
 NOTE: PROCEDURE TRANSPOSE used (Total process time):
-      real time           0.00 seconds
+      real time           0.01 seconds
       cpu time            0.00 seconds
       
 
@@ -3696,7 +3696,7 @@ NOTE: PROCEDURE TRANSPOSE used (Total process time):
 NOTE: There were 5 observations read from the data set WORK.T3.
 NOTE: The data set WORK.T4 has 1 observations and 9 variables.
 NOTE: DATA statement used (Total process time):
-      real time           0.01 seconds
+      real time           0.00 seconds
       cpu time            0.00 seconds
       
 
@@ -3712,14 +3712,14 @@ NOTE: DATA statement used (Total process time):
 
 NOTE: The data set WORK.TITLE_PRINT has 5 observations and 1 variables.
 NOTE: DATA statement used (Total process time):
-      real time           0.00 seconds
-      cpu time            0.00 seconds
+      real time           0.01 seconds
+      cpu time            0.01 seconds
       
 
 
 NOTE: There were 5 observations read from the data set WORK.TITLE_PRINT.
 NOTE: PROCEDURE REPORT used (Total process time):
-      real time           0.01 seconds
+      real time           0.00 seconds
       cpu time            0.00 seconds
 </font>                                                                                          The SAS System
 
@@ -3729,16 +3729,16 @@ NOTE: PROCEDURE REPORT used (Total process time):
 NOTE: There were 1 observations read from the data set WORK.T4.
 NOTE: The data set WORK.T4 has 1 observations and 9 variables.
 NOTE: PROCEDURE SORT used (Total process time):
-      real time           0.00 seconds
-      cpu time            0.00 seconds
+      real time           0.01 seconds
+      cpu time            0.01 seconds
       
 
 
 NOTE: There were 1 observations read from the data set WORK.T4.
 NOTE: The data set WORK.T5 has 1 observations and 10 variables.
 NOTE: DATA statement used (Total process time):
-      real time           0.01 seconds
-      cpu time            0.01 seconds
+      real time           0.00 seconds
+      cpu time            0.00 seconds
       
 
 

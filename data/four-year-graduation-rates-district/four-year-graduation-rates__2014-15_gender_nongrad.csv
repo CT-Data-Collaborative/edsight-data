@@ -1,278 +1,160 @@
-"Four-Year Graduation Rates, 2014-15"
-"All Districts, Gender"
 
-"",,,"Non-Graduates",,,
-"District","Gender","Four-Year Cohort Count","Still Enrolled Count","Still Enrolled Rate","Other Count","Other Rate"
-"Amistad Academy District","Female",16,"*","*","*","*"
-"Amistad Academy District","Male",13,"*","*","*","*"
-"Ansonia School District","Female",74,7,9.5,"*","*"
-"Ansonia School District","Male",98,10,10.2,"*","*"
-"Avon School District","Female",138,"*","*","*","*"
-"Avon School District","Male",110,"*","*","*","*"
-"Berlin School District","Female",96,"*","*","*","*"
-"Berlin School District","Male",114,"*","*","*","*"
-"Bethel School District","Female",108,"*","*","*","*"
-"Bethel School District","Male",110,"*","*","*","*"
-"Bloomfield School District","Female",100,"*","*","*","*"
-"Bloomfield School District","Male",76,"*","*","*","*"
-"Bolton School District","Female",28,"*","*","*","*"
-"Bolton School District","Male",48,"*","*","*","*"
-"Branford School District","Female",130,"*","*",6,4.6
-"Branford School District","Male",123,"*","*",8,6.5
-"Bridgeport Achievement First District","Female",17,"*","*","*","*"
-"Bridgeport Achievement First District","Male",14,"*","*","*","*"
-"Bridgeport School District","Female",601,52,8.7,137,22.8
-"Bridgeport School District","Male",587,88,15.0,156,26.6
-"Bristol School District","Female",308,12,3.9,29,9.4
-"Bristol School District","Male",339,28,8.3,52,15.3
-"Brookfield School District","Female",126,"*","*","*","*"
-"Brookfield School District","Male",109,"*","*","*","*"
-"Canton School District","Female",53,"*","*","*","*"
-"Canton School District","Male",79,"*","*","*","*"
-"Capitol Region Education Council","Female",193,"*","*",10,5.2
-"Capitol Region Education Council","Male",130,"*","*",7,5.4
-"Cheshire School District","Female",196,"*","*","*","*"
-"Cheshire School District","Male",196,"*","*","*","*"
-"Clinton School District","Female",74,"*","*","*","*"
-"Clinton School District","Male",88,"*","*","*","*"
-"Colchester School District","Female",123,"*","*","*","*"
-"Colchester School District","Male",105,"*","*","*","*"
-"Common Ground High School District","Female",17,"*","*","*","*"
-"Common Ground High School District","Male",20,"*","*","*","*"
-"Connecticut Technical High School System","Female",958,"*","*",32,3.3
-"Connecticut Technical High School System","Male",1510,"*","*",23,1.5
-"Coventry School District","Female",60,"*","*","*","*"
-"Coventry School District","Male",57,"*","*","*","*"
-"Cromwell School District","Female",62,"*","*","*","*"
-"Cromwell School District","Male",66,"*","*","*","*"
-"Danbury School District","Female",378,26,6.9,39,10.3
-"Danbury School District","Male",394,54,13.7,58,14.7
-"Darien School District","Female",182,"*","*","*","*"
-"Darien School District","Male",152,"*","*","*","*"
-"Derby School District","Female",54,"*","*","*","*"
-"Derby School District","Male",48,"*","*","*","*"
-"East Granby School District","Female",30,"*","*","*","*"
-"East Granby School District","Male",31,"*","*","*","*"
-"East Haddam School District","Female",52,"*","*","*","*"
-"East Haddam School District","Male",61,"*","*","*","*"
-"East Hampton School District","Female",69,"*","*","*","*"
-"East Hampton School District","Male",58,"*","*","*","*"
-"East Hartford School District","Female",276,10,3.6,14,5.1
-"East Hartford School District","Male",290,16,5.5,28,9.7
-"East Haven School District","Female",119,"*","*",23,19.3
-"East Haven School District","Male",125,"*","*",26,20.8
-"East Lyme School District","Female",129,"*","*","*","*"
-"East Lyme School District","Male",145,"*","*","*","*"
-"East Windsor School District","Female",37,"*","*","*","*"
-"East Windsor School District","Male",53,"*","*","*","*"
-"Eastern Connecticut Regional Educational Service Center (EASTCONN)","Female",40,"*","*","*","*"
-"Eastern Connecticut Regional Educational Service Center (EASTCONN)","Male",32,"*","*","*","*"
-"Ellington School District","Female",101,"*","*","*","*"
-"Ellington School District","Male",105,"*","*","*","*"
-"Elm City College Preparatory School District","Female","*","*","*","*","*"
-"Elm City College Preparatory School District","Male","*","*","*","*","*"
-"Enfield School District","Female",206,8,3.9,12,5.8
-"Enfield School District","Male",186,7,3.8,25,13.4
-"Explorations District","Female",14,"*","*","*","*"
-"Explorations District","Male",9,"*","*","*","*"
-"Fairfield School District","Female",378,"*","*",7,1.9
-"Fairfield School District","Male",339,"*","*",10,2.9
-"Farmington School District","Female",162,"*","*","*","*"
-"Farmington School District","Male",173,"*","*","*","*"
-"Glastonbury School District","Female",258,"*","*","*","*"
-"Glastonbury School District","Male",266,"*","*","*","*"
-"Granby School District","Female",88,"*","*","*","*"
-"Granby School District","Male",77,"*","*","*","*"
-"Greenwich School District","Female",317,7,2.2,"*","*"
-"Greenwich School District","Male",330,17,5.2,"*","*"
-"Griswold School District","Female",79,"*","*","*","*"
-"Griswold School District","Male",69,"*","*","*","*"
-"Groton School District","Female",143,"*","*",16,11.2
-"Groton School District","Male",129,"*","*",9,7.0
-"Guilford School District","Female",142,"*","*","*","*"
-"Guilford School District","Male",132,"*","*","*","*"
-"Hamden School District","Female",226,"*","*",14,6.2
-"Hamden School District","Male",239,"*","*",17,7.1
-"Hartford School District","Female",727,63,8.7,121,16.6
-"Hartford School District","Male",757,109,14.4,150,19.8
-"Killingly School District","Female",104,8,7.7,11,10.6
-"Killingly School District","Male",99,13,13.1,15,15.2
-"Learn","Female",90,"*","*","*","*"
-"Learn","Male",86,"*","*","*","*"
-"Lebanon School District","Female",58,"*","*","*","*"
-"Lebanon School District","Male",37,"*","*","*","*"
-"Ledyard School District","Female",115,"*","*","*","*"
-"Ledyard School District","Male",118,"*","*","*","*"
-"Litchfield School District","Female",30,"*","*","*","*"
-"Litchfield School District","Male",40,"*","*","*","*"
-"Madison School District","Female",160,"*","*","*","*"
-"Madison School District","Male",149,"*","*","*","*"
-"Manchester School District","Female",232,11,4.7,25,10.8
-"Manchester School District","Male",222,18,8.1,33,14.9
-"Meriden School District","Female",302,17,5.6,51,16.9
-"Meriden School District","Male",324,32,9.9,63,19.4
-"Middletown School District","Female",165,8,4.8,"*","*"
-"Middletown School District","Male",150,16,10.7,"*","*"
-"Milford School District","Female",228,10,4.4,6,2.6
-"Milford School District","Male",231,17,7.4,9,3.9
-"Monroe School District","Female",154,"*","*","*","*"
-"Monroe School District","Male",167,"*","*","*","*"
-"Montville School District","Female",86,"*","*","*","*"
-"Montville School District","Male",93,"*","*","*","*"
-"Naugatuck School District","Female",159,"*","*",10,6.3
-"Naugatuck School District","Male",178,"*","*",22,12.4
-"New Britain School District","Female",330,29,8.8,63,19.1
-"New Britain School District","Male",330,43,13.0,72,21.8
-"New Canaan School District","Female",151,"*","*","*","*"
-"New Canaan School District","Male",156,"*","*","*","*"
-"New Fairfield School District","Female",138,"*","*","*","*"
-"New Fairfield School District","Male",126,"*","*","*","*"
-"New Haven School District","Female",734,46,6.3,121,16.5
-"New Haven School District","Male",751,73,9.7,130,17.3
-"New London School District","Female",93,"*","*",11,11.8
-"New London School District","Male",109,"*","*",24,22.0
-"New Milford School District","Female",185,"*","*",8,4.3
-"New Milford School District","Male",186,"*","*",15,8.1
-"Newington School District","Female",168,"*","*",7,4.2
-"Newington School District","Male",190,"*","*",10,5.3
-"Newtown School District","Female",228,"*","*","*","*"
-"Newtown School District","Male",225,"*","*","*","*"
-"North Branford School District","Female",88,"*","*","*","*"
-"North Branford School District","Male",78,"*","*","*","*"
-"North Haven School District","Female",149,6,4.0,"*","*"
-"North Haven School District","Male",147,8,5.4,"*","*"
-"North Stonington School District","Female",26,"*","*","*","*"
-"North Stonington School District","Male",25,"*","*","*","*"
-"Norwalk School District","Female",467,10,2.1,34,7.3
-"Norwalk School District","Male",409,15,3.7,32,7.8
-"Norwich Free Academy District","Female",305,"*","*",23,7.5
-"Norwich Free Academy District","Male",285,"*","*",41,14.4
-"Old Saybrook School District","Female",71,"*","*","*","*"
-"Old Saybrook School District","Male",55,"*","*","*","*"
-"Oxford School District","Female",67,"*","*","*","*"
-"Oxford School District","Male",58,"*","*","*","*"
-"Plainfield School District","Female",79,6,7.6,6,7.6
-"Plainfield School District","Male",89,7,7.9,12,13.5
-"Plainville School District","Female",77,"*","*",7,9.1
-"Plainville School District","Male",105,"*","*",9,8.6
-"Plymouth School District","Female",59,"*","*","*","*"
-"Plymouth School District","Male",62,"*","*","*","*"
-"Portland School District","Female",49,"*","*","*","*"
-"Portland School District","Male",43,"*","*","*","*"
-"Putnam School District","Female",25,"*","*","*","*"
-"Putnam School District","Male",40,"*","*","*","*"
-"Regional School District 01","Female",45,"*","*","*","*"
-"Regional School District 01","Male",42,"*","*","*","*"
-"Regional School District 04","Female",81,"*","*","*","*"
-"Regional School District 04","Male",101,"*","*","*","*"
-"Regional School District 05","Female",209,"*","*","*","*"
-"Regional School District 05","Male",208,"*","*","*","*"
-"Regional School District 06","Female",46,"*","*","*","*"
-"Regional School District 06","Male",41,"*","*","*","*"
-"Regional School District 07","Female",74,"*","*","*","*"
-"Regional School District 07","Male",69,"*","*","*","*"
-"Regional School District 08","Female",119,"*","*","*","*"
-"Regional School District 08","Male",150,"*","*","*","*"
-"Regional School District 09","Female",129,"*","*","*","*"
-"Regional School District 09","Male",127,"*","*","*","*"
-"Regional School District 10","Female",98,"*","*","*","*"
-"Regional School District 10","Male",93,"*","*","*","*"
-"Regional School District 11","Female",22,"*","*","*","*"
-"Regional School District 11","Male",29,"*","*","*","*"
-"Regional School District 12","Female",34,"*","*","*","*"
-"Regional School District 12","Male",38,"*","*","*","*"
-"Regional School District 13","Female",77,6,7.8,"*","*"
-"Regional School District 13","Male",77,7,9.1,"*","*"
-"Regional School District 14","Female",116,"*","*","*","*"
-"Regional School District 14","Male",73,"*","*","*","*"
-"Regional School District 15","Female",154,"*","*","*","*"
-"Regional School District 15","Male",139,"*","*","*","*"
-"Regional School District 16","Female",101,"*","*","*","*"
-"Regional School District 16","Male",66,"*","*","*","*"
-"Regional School District 17","Female",87,"*","*","*","*"
-"Regional School District 17","Male",81,"*","*","*","*"
-"Regional School District 18","Female",36,"*","*","*","*"
-"Regional School District 18","Male",53,"*","*","*","*"
-"Regional School District 19","Female",133,7,5.3,"*","*"
-"Regional School District 19","Male",159,10,6.3,"*","*"
-"Ridgefield School District","Female",222,"*","*","*","*"
-"Ridgefield School District","Male",224,"*","*","*","*"
-"Rocky Hill School District","Female",108,"*","*","*","*"
-"Rocky Hill School District","Male",88,"*","*","*","*"
-"Seymour School District","Female",64,"*","*","*","*"
-"Seymour School District","Male",84,"*","*","*","*"
-"Shelton School District","Female",188,"*","*","*","*"
-"Shelton School District","Male",182,"*","*","*","*"
-"Simsbury School District","Female",183,7,3.8,"*","*"
-"Simsbury School District","Male",199,7,3.5,"*","*"
-"Somers School District","Female",60,"*","*","*","*"
-"Somers School District","Male",70,"*","*","*","*"
-"South Windsor School District","Female",169,"*","*",8,4.7
-"South Windsor School District","Male",186,"*","*",7,3.8
-"Southington School District","Female",245,"*","*",8,3.3
-"Southington School District","Male",274,"*","*",8,2.9
-"Stafford School District","Female",58,"*","*","*","*"
-"Stafford School District","Male",34,"*","*","*","*"
-"Stamford Academy District","Female",25,9,36.0,8,32.0
-"Stamford Academy District","Male",23,6,26.1,9,39.1
-"Stamford School District","Female",578,22,3.8,47,8.1
-"Stamford School District","Male",639,44,6.9,38,5.9
-"Stonington School District","Female",108,"*","*","*","*"
-"Stonington School District","Male",92,"*","*","*","*"
-"Stratford School District","Female",277,11,4.0,15,5.4
-"Stratford School District","Male",258,10,3.9,9,3.5
-"Suffield School District","Female",112,"*","*","*","*"
-"Suffield School District","Male",100,"*","*","*","*"
-"The Bridge Academy District","Female",20,"*","*","*","*"
-"The Bridge Academy District","Male",12,"*","*","*","*"
-"The Gilbert School District","Female",34,"*","*","*","*"
-"The Gilbert School District","Male",56,"*","*","*","*"
-"Thomaston School District","Female",24,"*","*","*","*"
-"Thomaston School District","Male",39,"*","*","*","*"
-"Thompson School District","Female",26,"*","*","*","*"
-"Thompson School District","Male",44,"*","*","*","*"
-"Tolland School District","Female",101,"*","*","*","*"
-"Tolland School District","Male",111,"*","*","*","*"
-"Torrington School District","Female",126,"*","*",10,7.9
-"Torrington School District","Male",156,"*","*",16,10.3
-"Trumbull School District","Female",271,"*","*","*","*"
-"Trumbull School District","Male",263,"*","*","*","*"
-"Unified School District #1","Female",23,"*","*",22,95.7
-"Unified School District #1","Male",389,"*","*",308,79.2
-"Unified School District #2","Female",10,"*","*",7,70.0
-"Unified School District #2","Male",32,"*","*",21,65.6
-"Vernon School District","Female",117,"*","*",15,12.8
-"Vernon School District","Male",127,"*","*",13,10.2
-"Wallingford School District","Female",264,"*","*",8,3.0
-"Wallingford School District","Male",238,"*","*",14,5.9
-"Waterbury School District","Female",691,22,3.2,163,23.6
-"Waterbury School District","Male",653,50,7.7,178,27.3
-"Waterford School District","Female",108,"*","*","*","*"
-"Waterford School District","Male",108,"*","*","*","*"
-"Watertown School District","Female",102,"*","*","*","*"
-"Watertown School District","Male",103,"*","*","*","*"
-"West Hartford School District","Female",373,11,2.9,11,2.9
-"West Hartford School District","Male",365,17,4.7,11,3.0
-"West Haven School District","Female",209,"*","*",32,15.3
-"West Haven School District","Male",215,"*","*",44,20.5
-"Westbrook School District","Female",36,"*","*","*","*"
-"Westbrook School District","Male",42,"*","*","*","*"
-"Weston School District","Female",73,"*","*","*","*"
-"Weston School District","Male",94,"*","*","*","*"
-"Westport School District","Female",248,"*","*","*","*"
-"Westport School District","Male",214,"*","*","*","*"
-"Wethersfield School District","Female",136,7,5.1,"*","*"
-"Wethersfield School District","Male",148,8,5.4,"*","*"
-"Wilton School District","Female",153,"*","*","*","*"
-"Wilton School District","Male",177,"*","*","*","*"
-"Windham School District","Female",61,"*","*",7,11.5
-"Windham School District","Male",69,"*","*",9,13.0
-"Windsor Locks School District","Female",57,"*","*","*","*"
-"Windsor Locks School District","Male",74,"*","*","*","*"
-"Windsor School District","Female",146,7,4.8,7,4.8
-"Windsor School District","Male",164,14,8.5,9,5.5
-"Wolcott School District","Female",92,"*","*","*","*"
-"Wolcott School District","Male",88,"*","*","*","*"
-"Woodstock Academy District","Female",149,"*","*","*","*"
-"Woodstock Academy District","Male",137,"*","*","*","*"
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+    
+
+
+<head>
+    <meta charset="UTF-8" />
+    <title>
+    	
+    		
+    		
+    			SAS&reg; Logon Manager
+    		
+    	
+    </title>
+    <link type="text/css" rel="stylesheet" href="themes/default/css/bootstrap.css" />
+    <link type="text/css" rel="stylesheet" href="themes/default/css/sas.css" />
+</head>
+
+
+
+<body id="cas">
+	<div id="page">
+		
+
+<div class="banner row">
+    <div class="about">
+        <ul class="unstyled"><li>
+            <a href="#about-modal" data-toggle="modal">
+                About
+            </a>
+        </li></ul>
+    </div>
+    <div id="about-modal" class="modal hide fade">
+        <div class="modal-header">
+            <a href="#" class="close" data-dismiss="modal">&times;</a>
+            <h3>About</h3>
+        </div>
+        <div class="modal-body">
+            <p>Version: 9.4</p>
+            <h4>Copyright Information</h4>
+            <p align="center">
+Copyright (c) 2002 - 2013 by SAS Institute Inc., Cary, NC, USA<br/>
+All rights reserved.<br/>
+<br/>
+This software is protected by copyright laws and international treaties.<br/>
+<br/>
+U.S. GOVERNMENT RESTRICTED RIGHTS<br/>
+Use, duplication, or disclosure of this software and related<br/>
+documentation by the U.S. government is subject to the<br/>
+Agreement with SAS Institute and the restrictions set forth<br/>
+in FAR 52.227-19, Commercial Computer Software<br/>
+- Restricted Rights (June 1987).
+            </p>
+        </div>
+    </div>
+    <div class="header">
+        <div class="title">
+        	<h1>
+        		
+		    		
+		    		
+		    			Sign In to SAS<sup>&reg;</sup>
+		    		
+    			
+        	</h1>
+       	</div>
+        <div class="logo"><img src="themes/default/images/logo.png" /></div>
+    </div>
+</div>
+
+
+		<div class="content row">
+			
+                <form id="fm1" class="form-stacked" onSubmit="return setSubmitUrl(this);" action="/SASLogon/login;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=869E4D232BD56F5FEDAF627395077A41.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1?service=http://edsight.ct.gov/SASStoredProcess/j_spring_cas_security_check" method="post">
+				<fieldset>
+					
+					
+					
+                        <legend>Sign In to SAS<sup>&reg;</sup></legend>
+					<div class="clearfix">
+                            <label for="username"><span class="accesskey">U</span>ser ID:</label>
+						
+							
+							
+                                    
+                                    <input id="username" name="username" class="required" tabindex="1" accesskey="u" type="text" value="" size="25" autocomplete="off"/>
+							
+						
+					</div>
+					<div class="clearfix">
+                            <label for="password"><span class="accesskey">P</span>assword:</label>
+						
+                            
+                            <input id="password" name="password" class="required" tabindex="2" accesskey="p" type="password" value="" size="25" autocomplete="off"/>
+					</div>
+				</fieldset>
+				<input type="hidden" name="lt" value="LT-9797-9RSyAAb6BMUYjNyZEweqmCoaTrLLz1" />
+				<input type="hidden" name="execution" value="e1s1" />
+				<input type="hidden" name="_eventId" value="submit" />
+                    <div class="submitb"><input id="Logon" type="submit" value="Sign In" onClick="this.disabled=true;this.form.submit();" tabindex="3" /></div>
+			</form>
+			
+				<div class="customizations" id="custom-logon-message">
+                  	
+
+
+<p>
+
+</p>
+
+
+ 
+ 
+				</div>
+			
+
+			<div class="copyright">
+				Copyright &copy; 2002 - 2013 by SAS Institute Inc., Cary, NC USA
+			</div>
+		</div>
+	</div>
+	
+<script type="text/javascript" src="/SASLogon/js/jquery.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=869E4D232BD56F5FEDAF627395077A41.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
+<script type="text/javascript" src="/SASLogon/js/bootstrap-modal.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=869E4D232BD56F5FEDAF627395077A41.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
+
+	<script type="text/javascript">
+            $("#username").focus();
+            
+            function setSubmitUrl(form)
+            {
+            	var urlHash = decodeURIComponent(window.location.hash);
+            	
+            	if (urlHash && urlHash.indexOf("#") === -1)
+            		urlHash = "#" + urlHash;
+            	
+            	form.action = form.action + urlHash;
+            	return true;
+            }
+    </script>
+</body>
+
+</html>
+
+
 

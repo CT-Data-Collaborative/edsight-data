@@ -1,204 +1,99 @@
-"Six-Year Graduation Rates, 2012-13"
-"All Districts, All Schools, All Students"
-
-"",,,"Non-Graduates",,,
-"District","School","Six-Year Cohort Count","Still Enrolled Count","Still Enrolled Rate","Other Count","Other Rate"
-"Amistad Academy District","Amistad Academy",23,"*","*","*","*"
-"Ansonia School District","Ansonia High School",205,7,3.4,26,12.7
-"Avon School District","Avon High School",259,"*","*","*","*"
-"Berlin School District","Berlin High School",263,"*","*","*","*"
-"Bethel School District","Bethel High School",233,"*","*","*","*"
-"Bloomfield School District","Bloomfield High School",120,"*","*","*","*"
-"Bloomfield School District","Global Experience Magnet School",30,"*","*","*","*"
-"Bloomfield School District","Learning Academy at Bloomfield",8,"*","*","*","*"
-"Bolton School District","Bolton High School",82,"*","*","*","*"
-"Branford School District","Branford High School",269,"*","*","*","*"
-"Bridgeport School District","Bassick High School",311,"*","*",97,31.2
-"Bridgeport School District","Central High School",536,"*","*",87,16.2
-"Bridgeport School District","Harding High School",332,"*","*",116,34.9
-"Bristol School District","Bristol Central High School",311,"*","*",38,12.2
-"Bristol School District","Bristol Eastern High School",303,"*","*",35,11.6
-"Brookfield School District","Brookfield High School",238,"*","*","*","*"
-"Canton School District","Canton High School",121,"*","*","*","*"
-"Capitol Region Education Council","Academy of Aerospace and Engineering",38,"*","*","*","*"
-"Capitol Region Education Council","Greater Hartford Academy of  the Arts High School - Full Time",86,"*","*",13,15.1
-"Capitol Region Education Council","Metropolitan Learning Center for Global and International Studies",90,"*","*","*","*"
-"Cheshire School District","Cheshire High School",355,"*","*","*","*"
-"Clinton School District","The Morgan School",141,"*","*","*","*"
-"Colchester School District","Bacon Academy",247,"*","*","*","*"
-"Common Ground High School District","Common Ground High School",38,"*","*","*","*"
-"Connecticut Technical High School System","A. I. Prince Technical High School",166,"*","*",14,8.4
-"Connecticut Technical High School System","Bullard-Havens Technical High School",196,"*","*",7,3.6
-"Connecticut Technical High School System","E. C. Goodwin Technical High School",130,"*","*","*","*"
-"Connecticut Technical High School System","Eli Whitney Technical High School",119,"*","*",16,13.4
-"Connecticut Technical High School System","Ella T. Grasso Southeastern Technical High School",147,"*","*","*","*"
-"Connecticut Technical High School System","Emmett O'Brien Technical High School",116,"*","*","*","*"
-"Connecticut Technical High School System","H. C. Wilcox Technical High School",178,"*","*","*","*"
-"Connecticut Technical High School System","H. H. Ellis Technical High School",113,"*","*","*","*"
-"Connecticut Technical High School System","Henry Abbott Technical High School",148,"*","*","*","*"
-"Connecticut Technical High School System","Howell Cheney Technical High School",168,"*","*","*","*"
-"Connecticut Technical High School System","Norwich Technical High School",154,"*","*","*","*"
-"Connecticut Technical High School System","Oliver Wolcott Technical High School",166,"*","*","*","*"
-"Connecticut Technical High School System","Platt Technical High School",207,"*","*","*","*"
-"Connecticut Technical High School System","Vinal Technical High School",141,"*","*",7,5.0
-"Connecticut Technical High School System","W. F. Kaynor Technical High School",192,"*","*","*","*"
-"Connecticut Technical High School System","Windham Technical High School",132,"*","*","*","*"
-"Coventry School District","Coventry High School",135,"*","*","*","*"
-"Cromwell School District","Cromwell High School",139,"*","*","*","*"
-"Danbury School District","Alternative Center For Excellence",34,"*","*",16,47.1
-"Danbury School District","Danbury High School",733,"*","*",88,12.0
-"Darien School District","Darien High School",311,"*","*","*","*"
-"Derby School District","Derby High School",82,"*","*","*","*"
-"East Granby School District","East Granby High School",68,"*","*","*","*"
-"East Haddam School District","Nathan Hale-Ray High School",95,"*","*","*","*"
-"East Hampton School District","East Hampton High School",129,"*","*","*","*"
-"East Hartford School District","Connecticut IB Academy",38,"*","*","*","*"
-"East Hartford School District","East Hartford High School",367,"*","*","*","*"
-"East Hartford School District","Stevens Alternate High school",116,"*","*",37,31.9
-"East Haven School District","East Haven High School",237,6,2.5,47,19.8
-"East Lyme School District","East Lyme High School",301,"*","*","*","*"
-"East Windsor School District","East Windsor High School",91,"*","*","*","*"
-"Eastern Connecticut Regional Educational Service Center (EASTCONN)","Arts at the Capitol Theater Magnet School (ACT)",26,"*","*","*","*"
-"Eastern Connecticut Regional Educational Service Center (EASTCONN)","Quinebaug Middle College",40,"*","*","*","*"
-"Ellington School District","Ellington High School",197,"*","*","*","*"
-"Elm City College Preparatory School District","Elm City College Preparatory School",13,"*","*","*","*"
-"Enfield School District","Enfield High School",182,"*","*",25,13.7
-"Enfield School District","Enrico Fermi High School",255,"*","*",13,5.1
-"Explorations District","Explorations",30,"*","*","*","*"
-"Fairfield School District","Fairfield Ludlowe High School",378,"*","*",10,2.6
-"Fairfield School District","Fairfield Warde High School",313,"*","*",13,4.2
-"Farmington School District","Farmington High School",318,"*","*","*","*"
-"Glastonbury School District","Glastonbury High School",543,"*","*","*","*"
-"Granby School District","Granby Memorial High School",193,"*","*","*","*"
-"Greenwich School District","Greenwich High School",678,"*","*","*","*"
-"Griswold School District","Griswold High School",166,"*","*","*","*"
-"Groton School District","Robert E. Fitch High School",318,"*","*","*","*"
-"Guilford School District","Guilford High School",276,"*","*","*","*"
-"Hamden School District","Hamden High School",440,9,2.0,30,6.8
-"Hartford School District","Bulkeley High School Upper School",175,"*","*",35,20.0
-"Hartford School District","Capital Preparatory Magnet School",33,"*","*","*","*"
-"Hartford School District","Classical Magnet School",88,"*","*","*","*"
-"Hartford School District","Culinary Arts Academy",75,"*","*",19,25.3
-"Hartford School District","Great Path Academy High School at MCC",68,"*","*","*","*"
-"Hartford School District","HPHS Academy of Engineering and Green Technology",116,"*","*",36,31.0
-"Hartford School District","HPHS Academy of Nursing and Health Science",141,"*","*",38,27.0
-"Hartford School District","HPHS Law and Government Academy",124,"*","*",19,15.3
-"Hartford School District","High School Inc.",103,"*","*",22,21.4
-"Hartford School District","Journalism and Media Academy Magnet School",59,"*","*",18,30.5
-"Hartford School District","OPPortunity High School",85,"*","*",23,27.1
-"Hartford School District","Pathways Academy of Technology and Design",71,"*","*","*","*"
-"Hartford School District","Sports and Medical Sciences Academy",88,"*","*",6,6.8
-"Hartford School District","University High of Science and Engineering",94,"*","*","*","*"
-"Killingly School District","Killingly High School",212,"*","*","*","*"
-"Learn","Connecticut River Academy",29,"*","*","*","*"
-"Learn","Marine Science Magnet High School of Southeastern Connecticut","*","*","*","*","*"
-"Learn","Three Rivers Middle College Magnet School","*","*","*","*","*"
-"Lebanon School District","Lyman Memorial High School",117,"*","*","*","*"
-"Ledyard School District","Ledyard High School",223,"*","*","*","*"
-"Lisbon School District","Community Connection - The Big Picture High School",6,"*","*","*","*"
-"Litchfield School District","Litchfield High School",86,"*","*","*","*"
-"Madison School District","Daniel Hand High School",314,"*","*","*","*"
-"Manchester School District","Manchester High School",440,"*","*","*","*"
-"Meriden School District","Francis T. Maloney High School",321,"*","*",60,18.7
-"Meriden School District","Orville H. Platt High School",283,"*","*",72,25.4
-"Middletown School District","Middletown High School",356,"*","*","*","*"
-"Milford School District","Jonathan Law High School",250,"*","*",16,6.4
-"Milford School District","Joseph A. Foran High School",261,"*","*",9,3.4
-"Monroe School District","Masuk High School",306,"*","*","*","*"
-"Montville School District","Montville High School",176,"*","*","*","*"
-"Naugatuck School District","Naugatuck High School",332,11,3.3,47,14.2
-"New Britain School District","New Britain High School",607,"*","*","*","*"
-"New Canaan School District","New Canaan High School",338,"*","*","*","*"
-"New Fairfield School District","New Fairfield High School",257,"*","*","*","*"
-"New Haven School District","Cooperative High School",173,"*","*",13,7.5
-"New Haven School District","High School In The Community",71,"*","*",23,32.4
-"New Haven School District","Hill Regional Career High School",153,"*","*",10,6.5
-"New Haven School District","Hyde School of Health, Science and Sports Medicine",35,"*","*","*","*"
-"New Haven School District","James Hillhouse High School",253,"*","*",85,33.6
-"New Haven School District","Metropolitan Business Academy",96,"*","*",16,16.7
-"New Haven School District","New Haven Academy",74,"*","*",19,25.7
-"New Haven School District","Sound School",79,"*","*","*","*"
-"New Haven School District","Wilbur Cross High School",301,"*","*",80,26.6
-"New London School District","New London High School",250,"*","*","*","*"
-"New Milford School District","New Milford High School",380,"*","*","*","*"
-"Newington School District","Newington High School",373,"*","*","*","*"
-"Newtown School District","Newtown High School",466,"*","*","*","*"
-"North Branford School District","North Branford High School",169,"*","*","*","*"
-"North Haven School District","North Haven High School",304,"*","*","*","*"
-"North Stonington School District","Wheeler High School",48,"*","*","*","*"
-"Norwalk School District","Brien McMahon High School",386,"*","*",40,10.4
-"Norwalk School District","Norwalk High School",349,"*","*",31,8.9
-"Norwalk School District","Norwalk Pathways Academy at Briggs",38,"*","*",23,60.5
-"Norwich Free Academy District","Norwich Free Academy",563,14,2.5,58,10.3
-"Old Saybrook School District","Old Saybrook Senior High School",135,"*","*","*","*"
-"Oxford School District","Oxford High School",153,"*","*","*","*"
-"Plainfield School District","Plainfield High School",197,"*","*","*","*"
-"Plainville School District","Plainville High School",202,"*","*","*","*"
-"Plymouth School District","Terryville High School",120,"*","*","*","*"
-"Portland School District","Portland High School",92,"*","*","*","*"
-"Putnam School District","Putnam High School",92,"*","*","*","*"
-"Regional School District 01","Housatonic Valley Regional High School",108,"*","*","*","*"
-"Regional School District 04","Valley Regional High School",162,"*","*","*","*"
-"Regional School District 05","Amity Regional High School",391,"*","*","*","*"
-"Regional School District 06","Wamogo Regional High School",96,"*","*","*","*"
-"Regional School District 07","Northwestern Regional High School",174,"*","*","*","*"
-"Regional School District 08","RHAM High School",271,"*","*","*","*"
-"Regional School District 08","Region Alternative High School",12,"*","*","*","*"
-"Regional School District 09","Joel Barlow High School",233,"*","*","*","*"
-"Regional School District 10","Lewis S. Mills High School",198,"*","*","*","*"
-"Regional School District 11","Parish Hill High School",39,"*","*","*","*"
-"Regional School District 12","Shepaug Valley High School",84,"*","*","*","*"
-"Regional School District 13","Coginchaug Regional High School",146,"*","*","*","*"
-"Regional School District 14","Nonnewaug High School",195,"*","*","*","*"
-"Regional School District 15","Pomperaug Regional High School",317,"*","*","*","*"
-"Regional School District 16","Woodland Regional High School",184,"*","*","*","*"
-"Regional School District 17","Haddam-Killingworth High School",161,"*","*","*","*"
-"Regional School District 18","Lyme-Old Lyme High School",111,"*","*","*","*"
-"Regional School District 19","E. O. Smith High School",309,"*","*","*","*"
-"Ridgefield School District","Ridgefield High School",408,"*","*","*","*"
-"Rocky Hill School District","Rocky Hill High School",175,"*","*","*","*"
-"Seymour School District","Seymour High School",177,"*","*","*","*"
-"Shelton School District","Shelton High School",391,"*","*","*","*"
-"Simsbury School District","Simsbury High School",395,"*","*","*","*"
-"Somers School District","Somers High School",147,"*","*","*","*"
-"South Windsor School District","South Windsor High School",375,"*","*","*","*"
-"Southington School District","Southington High School",486,"*","*","*","*"
-"Stafford School District","Stafford High School",127,"*","*","*","*"
-"Stamford Academy District","Stamford Academy",37,"*","*","*","*"
-"Stamford School District","Stamford High School",500,"*","*","*","*"
-"Stamford School District","The Academy of Information Technology",164,"*","*","*","*"
-"Stamford School District","Westhill High School",540,"*","*",46,8.5
-"Stonington School District","Stonington High School",197,"*","*","*","*"
-"Stratford School District","Bunnell High School",282,"*","*",12,4.3
-"Stratford School District","Stratford High School",251,"*","*",15,6.0
-"Suffield School District","Suffield High School",218,"*","*","*","*"
-"The Bridge Academy District","The Bridge Academy",35,"*","*","*","*"
-"The Gilbert School District","The Gilbert School",85,"*","*","*","*"
-"Thomaston School District","Thomaston High School",76,"*","*","*","*"
-"Thompson School District","Tourtellotte Memorial High School",83,"*","*","*","*"
-"Tolland School District","Tolland High School",242,"*","*","*","*"
-"Torrington School District","Torrington High School",268,"*","*","*","*"
-"Trumbull School District","Trumbull High School",546,"*","*","*","*"
-"Vernon School District","Rockville High School",231,"*","*","*","*"
-"Wallingford School District","Lyman Hall High School",286,"*","*",17,5.9
-"Wallingford School District","Mark T. Sheehan High School",233,"*","*",11,4.7
-"Waterbury School District","Crosby High School",355,"*","*",109,30.7
-"Waterbury School District","John F. Kennedy High School",381,"*","*",109,28.6
-"Waterbury School District","Waterbury Arts Magnet School (High)",105,"*","*",10,9.5
-"Waterbury School District","Wilby High School",357,"*","*",82,23.0
-"Waterford School District","Waterford High School",235,"*","*","*","*"
-"Watertown School District","Watertown High School",269,"*","*","*","*"
-"West Hartford School District","Conard High School",417,"*","*",16,3.8
-"West Hartford School District","Hall High School",386,"*","*",9,2.3
-"West Haven School District","West Haven High School",428,6,1.4,109,25.5
-"Westbrook School District","Westbrook High School",77,"*","*","*","*"
-"Weston School District","Weston High School",206,"*","*","*","*"
-"Westport School District","Staples High School",462,"*","*","*","*"
-"Wethersfield School District","Wethersfield High School",263,"*","*","*","*"
-"Wilton School District","Wilton High School",318,"*","*","*","*"
-"Windham School District","Windham High School",186,"*","*","*","*"
-"Windsor Locks School District","Windsor Locks High School",136,"*","*","*","*"
-"Windsor School District","Windsor High School",342,"*","*","*","*"
-"Wolcott School District","Wolcott High School",218,"*","*","*","*"
-"Woodstock Academy District","Woodstock Academy",278,"*","*","*","*"
-
+<html><head><title>VMware vFabric tc Runtime 2.8.0.RELEASE/7.0.30.A.RELEASE - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 500 - java.net.BindException: Address already in use: connect</h1><HR size="1" noshade="noshade"><p><b>type</b> Exception report</p><p><b>message</b> <u>java.net.BindException: Address already in use: connect</u></p><p><b>description</b> <u>The server encountered an internal error that prevented it from fulfilling this request.</u></p><p><b>exception</b> <pre>java.lang.RuntimeException: java.net.BindException: Address already in use: connect
+	com.sas.svcs.security.authentication.validation.jasig.HttpClientResponseRetriever.getResponseFromServer(HttpClientResponseRetriever.java:113)
+	com.sas.svcs.security.authentication.validation.jasig.AbstractCasProtocolUrlBasedTicketValidator.retrieveResponseFromServer(AbstractCasProtocolUrlBasedTicketValidator.java:44)
+	org.jasig.cas.client.validation.AbstractUrlBasedTicketValidator.validate(AbstractUrlBasedTicketValidator.java:187)
+	com.sas.svcs.security.authentication.validation.ServiceTicketValidator.validate(ServiceTicketValidator.java:79)
+	org.springframework.security.cas.authentication.CasAuthenticationProvider.authenticateNow(CasAuthenticationProvider.java:140)
+	org.springframework.security.cas.authentication.CasAuthenticationProvider.authenticate(CasAuthenticationProvider.java:126)
+	com.sas.svcs.security.authentication.provider.AuthenticationProvider.authenticate(AuthenticationProvider.java:85)
+	org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:156)
+	org.springframework.security.cas.web.CasAuthenticationFilter.attemptAuthentication(CasAuthenticationFilter.java:242)
+	org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:194)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.session.jasig.SingleSignOutFilter.doFilterInternal(SingleSignOutFilter.java:60)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.web.filters.RevokableTokenLogoutFilter.doFilter(RevokableTokenLogoutFilter.java:38)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.web.filters.CsrfRefererCheckerFilter.doFilterInternal(CsrfRefererCheckerFilter.java:469)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.framework.webapp.servlet.ApplicationNameFilter.onDoFilter(ApplicationNameFilter.java:46)
+	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:173)
+	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	com.sas.services.storedprocess.webapp.SPFilter.onDoFilter(SPFilter.java:268)
+	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
+	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	com.sas.servlet.filters.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:62)
+	com.sas.framework.webapp.servlet.SanitizingRequestFilter.onDoFilter(SanitizingRequestFilter.java:86)
+	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
+	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+</pre></p><p><b>root cause</b> <pre>java.net.BindException: Address already in use: connect
+	java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	java.net.Socket.connect(Socket.java:579)
+	java.net.Socket.connect(Socket.java:528)
+	java.net.Socket.&lt;init&gt;(Socket.java:425)
+	java.net.Socket.&lt;init&gt;(Socket.java:280)
+	org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:80)
+	com.sas.svcs.remoting.client.SocketFactory.createSocket(SocketFactory.java:49)
+	org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:122)
+	com.sas.svcs.remoting.client.SocketFactory.createSocket(SocketFactory.java:63)
+	org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:707)
+	org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:387)
+	org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+	com.sas.svcs.security.authentication.validation.jasig.HttpClientResponseRetriever.getResponseFromServer(HttpClientResponseRetriever.java:109)
+	com.sas.svcs.security.authentication.validation.jasig.AbstractCasProtocolUrlBasedTicketValidator.retrieveResponseFromServer(AbstractCasProtocolUrlBasedTicketValidator.java:44)
+	org.jasig.cas.client.validation.AbstractUrlBasedTicketValidator.validate(AbstractUrlBasedTicketValidator.java:187)
+	com.sas.svcs.security.authentication.validation.ServiceTicketValidator.validate(ServiceTicketValidator.java:79)
+	org.springframework.security.cas.authentication.CasAuthenticationProvider.authenticateNow(CasAuthenticationProvider.java:140)
+	org.springframework.security.cas.authentication.CasAuthenticationProvider.authenticate(CasAuthenticationProvider.java:126)
+	com.sas.svcs.security.authentication.provider.AuthenticationProvider.authenticate(AuthenticationProvider.java:85)
+	org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:156)
+	org.springframework.security.cas.web.CasAuthenticationFilter.attemptAuthentication(CasAuthenticationFilter.java:242)
+	org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:194)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.session.jasig.SingleSignOutFilter.doFilterInternal(SingleSignOutFilter.java:60)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.web.filters.RevokableTokenLogoutFilter.doFilter(RevokableTokenLogoutFilter.java:38)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.svcs.security.authentication.web.filters.CsrfRefererCheckerFilter.doFilterInternal(CsrfRefererCheckerFilter.java:469)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	com.sas.framework.webapp.servlet.ApplicationNameFilter.onDoFilter(ApplicationNameFilter.java:46)
+	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
+	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
+	org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:173)
+	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	com.sas.services.storedprocess.webapp.SPFilter.onDoFilter(SPFilter.java:268)
+	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
+	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	com.sas.servlet.filters.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:62)
+	com.sas.framework.webapp.servlet.SanitizingRequestFilter.onDoFilter(SanitizingRequestFilter.java:86)
+	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
+	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+</pre></p><p><b>note</b> <u>The full stack trace of the root cause is available in the VMware vFabric tc Runtime 2.8.0.RELEASE/7.0.30.A.RELEASE logs.</u></p><HR size="1" noshade="noshade"><h3>VMware vFabric tc Runtime 2.8.0.RELEASE/7.0.30.A.RELEASE</h3></body></html>

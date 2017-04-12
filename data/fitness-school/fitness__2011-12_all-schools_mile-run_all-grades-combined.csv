@@ -1,942 +1,160 @@
-"Physical Fitness Tests: Students Reaching Health Standard, 2011-12"
-"All Districts, All Schools, Mile Run"
-"Notes:"
-"The Connecticut Physical Fitness Assessment (CPFA) is administered to all students in Grades 4, 6, 8 and 10."
-"Only students assessed in all four areas are included in this calculation."
 
-"",,,,,,"Students Reaching Health Standard (%)"
-"District","District Code","School","School Code","Grade","Test","2011-12"
-"Achievement First Hartford Academy Inc. District","=""2880013""","Achievement First Hartford Academy Inc.","=""2880113""","All Grades","Mile Run",44.9
-"Amistad Academy District","=""2790013""","Amistad Academy","=""2795113""","All Grades","Mile Run",64.7
-"Andover School District","=""0010011""","Andover Elementary School","=""0010111""","All Grades","Mile Run",85.4
-"Ansonia School District","=""0020011""","Ansonia High School","=""0026111""","All Grades","Mile Run",66.4
-"Ansonia School District","=""0020011""","Ansonia Middle School","=""0025111""","All Grades","Mile Run",95.2
-"Ansonia School District","=""0020011""","Mead School","=""0020311""","All Grades","Mile Run",85.1
-"Ansonia School District","=""0020011""","Prendergast School","=""0020811""","All Grades","Mile Run",42.5
-"Area Cooperative Educational Services","=""2440014""","Thomas Edison Magnet Middle School","=""2445114""","All Grades","Mile Run",63.1
-"Area Cooperative Educational Services","=""2440014""","Wintergreen Interdistrict  Magnet School","=""2440314""","All Grades","Mile Run",58.9
-"Ashford School District","=""0030011""","Ashford School","=""0030111""","All Grades","Mile Run",64.7
-"Avon School District","=""0040011""","Avon High School","=""0046111""","All Grades","Mile Run",77.6
-"Avon School District","=""0040011""","Avon Middle School","=""0045111""","All Grades","Mile Run",91.6
-"Avon School District","=""0040011""","Pine Grove School","=""0040411""","All Grades","Mile Run",82.0
-"Avon School District","=""0040011""","Roaring Brook School","=""0040311""","All Grades","Mile Run",82.0
-"Avon School District","=""0040011""","Thompson Brook School","=""0040511""","All Grades","Mile Run",92.2
-"Barkhamsted School District","=""0050011""","Barkhamsted Elementary School","=""0050111""","All Grades","Mile Run",64.7
-"Berlin School District","=""0070011""","Berlin High School","=""0076111""","All Grades","Mile Run",53.4
-"Berlin School District","=""0070011""","Catherine M. McGee Middle School","=""0075111""","All Grades","Mile Run",84.1
-"Berlin School District","=""0070011""","Emma Hart Willard School","=""0070411""","All Grades","Mile Run",84.0
-"Berlin School District","=""0070011""","Mary E. Griswold School","=""0070511""","All Grades","Mile Run",83.1
-"Berlin School District","=""0070011""","Richard D. Hubbard School","=""0070111""","All Grades","Mile Run",85.0
-"Bethany School District","=""0080011""","Bethany Community School","=""0080111""","All Grades","Mile Run",88.8
-"Bethel School District","=""0090011""","Bethel High School","=""0096111""","All Grades","Mile Run",63.0
-"Bethel School District","=""0090011""","Bethel Middle School","=""0095111""","All Grades","Mile Run",82.7
-"Bethel School District","=""0090011""","Ralph M. T. Johnson School","=""0090511""","All Grades","Mile Run",76.3
-"Bloomfield School District","=""0110011""","Bloomfield High School","=""0116111""","All Grades","Mile Run",94.4
-"Bloomfield School District","=""0110011""","Carmen Arace Intermediate School","=""0110711""","All Grades","Mile Run",80.3
-"Bloomfield School District","=""0110011""","Carmen Arace Middle School","=""0115211""","All Grades","Mile Run",57.9
-"Bloomfield School District","=""0110011""","Metacomet School","=""0110511""","All Grades","Mile Run",70.8
-"Bolton School District","=""0120011""","Bolton Center School","=""0120111""","All Grades","Mile Run",87.7
-"Bolton School District","=""0120011""","Bolton High School","=""0126111""","All Grades","Mile Run",92.7
-"Bozrah School District","=""0130011""","Fields Memorial School","=""0130111""","All Grades","Mile Run",82.1
-"Branford School District","=""0140011""","Branford High School","=""0146111""","All Grades","Mile Run",56.3
-"Branford School District","=""0140011""","Francis Walsh Intermediate School","=""0145111""","All Grades","Mile Run",58.7
-"Branford School District","=""0140011""","John B. Sliney School","=""0141611""","All Grades","Mile Run",77.0
-"Branford School District","=""0140011""","Mary R. Tisko School","=""0141511""","All Grades","Mile Run",94.2
-"Branford School District","=""0140011""","Mary T. Murphy School","=""0141411""","All Grades","Mile Run",60.5
-"Bridgeport Achievement First District","=""2850013""","Achievement First Bridgeport Academy","=""2850113""","All Grades","Mile Run",42.9
-"Bridgeport School District","=""0150011""","Barnum School","=""0150111""","All Grades","Mile Run",87.6
-"Bridgeport School District","=""0150011""","Bassick High School","=""0156111""","All Grades","Mile Run","*"
-"Bridgeport School District","=""0150011""","Beardsley School","=""0150211""","All Grades","Mile Run",68.1
-"Bridgeport School District","=""0150011""","Black Rock School","=""0150311""","All Grades","Mile Run",67.1
-"Bridgeport School District","=""0150011""","Blackham School","=""0154011""","All Grades","Mile Run",59.0
-"Bridgeport School District","=""0150011""","Bryant School","=""0150411""","All Grades","Mile Run",66.7
-"Bridgeport School District","=""0150011""","Central High School","=""0156211""","All Grades","Mile Run",53.5
-"Bridgeport School District","=""0150011""","Cesar Batalla School","=""0151411""","All Grades","Mile Run",58.6
-"Bridgeport School District","=""0150011""","Classical Studies Academy","=""0152111""","All Grades","Mile Run",93.1
-"Bridgeport School District","=""0150011""","Columbus School","=""0150511""","All Grades","Mile Run",58.2
-"Bridgeport School District","=""0150011""","Cross School","=""0153911""","All Grades","Mile Run",59.9
-"Bridgeport School District","=""0150011""","Curiale School","=""0154211""","All Grades","Mile Run",86.8
-"Bridgeport School District","=""0150011""","Dunbar School","=""0154111""","All Grades","Mile Run",54.7
-"Bridgeport School District","=""0150011""","Edison School","=""0150711""","All Grades","Mile Run",60.3
-"Bridgeport School District","=""0150011""","Geraldine Johnson School","=""0153211""","All Grades","Mile Run",78.5
-"Bridgeport School District","=""0150011""","Hall School","=""0151111""","All Grades","Mile Run",86.3
-"Bridgeport School District","=""0150011""","Hallen School","=""0151211""","All Grades","Mile Run",95.8
-"Bridgeport School District","=""0150011""","Harding High School","=""0156311""","All Grades","Mile Run","*"
-"Bridgeport School District","=""0150011""","High Horizons Magnet School","=""0154511""","All Grades","Mile Run",89.7
-"Bridgeport School District","=""0150011""","Hooker School","=""0151311""","All Grades","Mile Run",60.1
-"Bridgeport School District","=""0150011""","Interdistrict Discovery Magnet School","=""0153711""","All Grades","Mile Run",89.2
-"Bridgeport School District","=""0150011""","Jettie S. Tisdale School","=""0152211""","All Grades","Mile Run",59.7
-"Bridgeport School District","=""0150011""","Longfellow School","=""0151911""","All Grades","Mile Run",89.4
-"Bridgeport School District","=""0150011""","Luis Munoz Marin School","=""0151011""","All Grades","Mile Run",52.3
-"Bridgeport School District","=""0150011""","Madison School","=""0152011""","All Grades","Mile Run",40.5
-"Bridgeport School District","=""0150011""","Multicultural Magnet School","=""0154611""","All Grades","Mile Run",89.5
-"Bridgeport School District","=""0150011""","Park City Magnet School","=""0151711""","All Grades","Mile Run",70.3
-"Bridgeport School District","=""0150011""","Read School","=""0152511""","All Grades","Mile Run",71.3
-"Bridgeport School District","=""0150011""","Roosevelt School","=""0152611""","All Grades","Mile Run",75.4
-"Bridgeport School District","=""0150011""","Waltersville School","=""0153011""","All Grades","Mile Run",66.7
-"Bridgeport School District","=""0150011""","Winthrop School","=""0153611""","All Grades","Mile Run",68.3
-"Bristol School District","=""0170011""","Bristol Central High School","=""0176111""","All Grades","Mile Run",75.9
-"Bristol School District","=""0170011""","Bristol Eastern High School","=""0176211""","All Grades","Mile Run",83.3
-"Bristol School District","=""0170011""","Chippens Hill Middle School","=""0175111""","All Grades","Mile Run",89.8
-"Bristol School District","=""0170011""","Clara T. O'Connell School","=""0170711""","All Grades","Mile Run",70.7
-"Bristol School District","=""0170011""","Edgewood School","=""0170311""","All Grades","Mile Run",67.8
-"Bristol School District","=""0170011""","Ellen P. Hubbell School","=""0171411""","All Grades","Mile Run",65.7
-"Bristol School District","=""0170011""","Greene-Hills School","=""0170511""","All Grades","Mile Run",87.5
-"Bristol School District","=""0170011""","Ivy Drive School","=""0171911""","All Grades","Mile Run",71.2
-"Bristol School District","=""0170011""","John J. Jennings School","=""0170611""","All Grades","Mile Run",75.8
-"Bristol School District","=""0170011""","Memorial Boulevard Middle School","=""0175311""","All Grades","Mile Run",73.5
-"Bristol School District","=""0170011""","Mountain View School","=""0171711""","All Grades","Mile Run",73.9
-"Bristol School District","=""0170011""","Northeast Middle School","=""0175211""","All Grades","Mile Run",88.6
-"Bristol School District","=""0170011""","South Side School","=""0171111""","All Grades","Mile Run",35.6
-"Bristol School District","=""0170011""","Stafford School","=""0171211""","All Grades","Mile Run",69.7
-"Brookfield School District","=""0180011""","Brookfield High School","=""0186111""","All Grades","Mile Run",83.3
-"Brookfield School District","=""0180011""","Huckleberry Hill Elementary School","=""0180411""","All Grades","Mile Run",83.1
-"Brookfield School District","=""0180011""","Whisconier Middle School","=""0185311""","All Grades","Mile Run",87.1
-"Brooklyn School District","=""0190011""","Brooklyn Elementary School","=""0190111""","All Grades","Mile Run",52.1
-"Brooklyn School District","=""0190011""","Brooklyn Middle School","=""0195111""","All Grades","Mile Run",65.0
-"Canaan School District","=""0210011""","Lee H. Kellogg School","=""0210111""","All Grades","Mile Run",40.0
-"Canterbury School District","=""0220011""","Canterbury Elementary School","=""0220211""","All Grades","Mile Run",61.2
-"Canterbury School District","=""0220011""","Dr. Helen Baldwin Middle School","=""0225111""","All Grades","Mile Run",89.6
-"Canton School District","=""0230011""","Canton High School","=""0236111""","All Grades","Mile Run",66.9
-"Canton School District","=""0230011""","Canton Intermediate School","=""0230311""","All Grades","Mile Run",82.5
-"Canton School District","=""0230011""","Canton Middle School","=""0235111""","All Grades","Mile Run",73.0
-"Capitol Region Education Council","=""2410014""","Academy of Aerospace and Engineering","=""2415114""","All Grades","Mile Run",48.4
-"Capitol Region Education Council","=""2410014""","Glastonbury/East Hartford Magnet School","=""2410114""","All Grades","Mile Run",51.1
-"Capitol Region Education Council","=""2410014""","Great Path Academy at MCC","=""2416314""","All Grades","Mile Run",75.0
-"Capitol Region Education Council","=""2410014""","Greater Hartford Academy of  the Arts High School - Full Tim","=""2416414""","All Grades","Mile Run","*"
-"Capitol Region Education Council","=""2410014""","Medical Professions and Teacher Preparation Academy","=""2416514""","All Grades","Mile Run",53.4
-"Capitol Region Education Council","=""2410014""","Metropolitan Learning Center for Global and International St","=""2416114""","All Grades","Mile Run",60.4
-"Capitol Region Education Council","=""2410014""","Montessori Magnet School","=""2413114""","All Grades","Mile Run",44.6
-"Capitol Region Education Council","=""2410014""","Public Safety Academy","=""2415214""","All Grades","Mile Run",24.6
-"Capitol Region Education Council","=""2410014""","Two Rivers Magnet Middle School","=""2415014""","All Grades","Mile Run",55.0
-"Capitol Region Education Council","=""2410014""","University of Hartford Magnet School","=""2410214""","All Grades","Mile Run",70.9
-"Chaplin School District","=""0240011""","Chaplin Elementary School","=""0240211""","All Grades","Mile Run",100.0
-"Cheshire School District","=""0250011""","Chapman School","=""0250111""","All Grades","Mile Run",89.8
-"Cheshire School District","=""0250011""","Cheshire High School","=""0256111""","All Grades","Mile Run",77.5
-"Cheshire School District","=""0250011""","Dodd Middle School","=""0255111""","All Grades","Mile Run",83.8
-"Cheshire School District","=""0250011""","Doolittle School","=""0250611""","All Grades","Mile Run",71.3
-"Cheshire School District","=""0250011""","Highland School","=""0250411""","All Grades","Mile Run",85.3
-"Cheshire School District","=""0250011""","Norton School","=""0250511""","All Grades","Mile Run",60.9
-"Chester School District","=""0260011""","Chester Elementary School","=""0260111""","All Grades","Mile Run",70.8
-"Clinton School District","=""0270011""","Abraham Pierson School","=""0270111""","All Grades","Mile Run",63.8
-"Clinton School District","=""0270011""","Jared Eliot School","=""0275111""","All Grades","Mile Run",87.0
-"Clinton School District","=""0270011""","The Morgan School","=""0276111""","All Grades","Mile Run",54.2
-"Colchester School District","=""0280011""","Bacon Academy","=""0286111""","All Grades","Mile Run",65.0
-"Colchester School District","=""0280011""","Jack Jackter Intermediate School","=""0280211""","All Grades","Mile Run",88.2
-"Colchester School District","=""0280011""","William J. Johnston Middle School","=""0285111""","All Grades","Mile Run",75.6
-"Colebrook School District","=""0290011""","Colebrook Consolidated School","=""0290111""","All Grades","Mile Run",92.3
-"Columbia School District","=""0300011""","Horace W. Porter School","=""0300111""","All Grades","Mile Run",81.9
-"Common Ground High School District","=""2680013""","Common Ground High School","=""2686113""","All Grades","Mile Run","*"
-"Connecticut Technical High School System","=""9000016""","A. I. Prince Technical High School","=""9001516""","All Grades","Mile Run",75.9
-"Connecticut Technical High School System","=""9000016""","Bullard-Havens Technical High School","=""9001116""","All Grades","Mile Run",30.2
-"Connecticut Technical High School System","=""9000016""","E. C. Goodwin Technical High School","=""9001916""","All Grades","Mile Run",34.8
-"Connecticut Technical High School System","=""9000016""","Eli Whitney Technical High School","=""9001416""","All Grades","Mile Run",40.7
-"Connecticut Technical High School System","=""9000016""","Ella T. Grasso Southeastern Technical High School","=""9002716""","All Grades","Mile Run",50.0
-"Connecticut Technical High School System","=""9000016""","Emmett O'Brien Technical High School","=""9002516""","All Grades","Mile Run",36.5
-"Connecticut Technical High School System","=""9000016""","H. C. Wilcox Technical High School","=""9001716""","All Grades","Mile Run",49.5
-"Connecticut Technical High School System","=""9000016""","H. H. Ellis Technical High School","=""9001316""","All Grades","Mile Run",38.7
-"Connecticut Technical High School System","=""9000016""","Henry Abbott Technical High School","=""9001216""","All Grades","Mile Run",57.3
-"Connecticut Technical High School System","=""9000016""","Howell Cheney Technical High School","=""9001616""","All Grades","Mile Run",49.7
-"Connecticut Technical High School System","=""9000016""","Norwich Technical High School","=""9002016""","All Grades","Mile Run",70.5
-"Connecticut Technical High School System","=""9000016""","Oliver Wolcott Technical High School","=""9002216""","All Grades","Mile Run",50.0
-"Connecticut Technical High School System","=""9000016""","Platt Technical High School","=""9002616""","All Grades","Mile Run",39.3
-"Connecticut Technical High School System","=""9000016""","Vinal Technical High School","=""9001816""","All Grades","Mile Run",44.9
-"Connecticut Technical High School System","=""9000016""","W. F. Kaynor Technical High School","=""9002316""","All Grades","Mile Run",32.5
-"Connecticut Technical High School System","=""9000016""","Windham Technical High School","=""9002416""","All Grades","Mile Run",50.0
-"Cooperative Educational Services","=""2430014""","Six-Six Magnet School","=""2430114""","All Grades","Mile Run",64.9
-"Cornwall School District","=""0310011""","Cornwall Consolidated School","=""0310111""","All Grades","Mile Run",97.6
-"Coventry School District","=""0320011""","Capt. Nathan Hale School","=""0325111""","All Grades","Mile Run",66.5
-"Coventry School District","=""0320011""","Coventry High School","=""0326111""","All Grades","Mile Run",69.1
-"Coventry School District","=""0320011""","George Hersey Robertson School","=""0320411""","All Grades","Mile Run",94.4
-"Cromwell School District","=""0330011""","Cromwell High School","=""0336111""","All Grades","Mile Run",56.5
-"Cromwell School District","=""0330011""","Cromwell Middle School","=""0335111""","All Grades","Mile Run",82.4
-"Cromwell School District","=""0330011""","Woodside Intermediate School","=""0330311""","All Grades","Mile Run",52.2
-"Danbury School District","=""0340011""","Broadview Middle School","=""0345111""","All Grades","Mile Run",50.8
-"Danbury School District","=""0340011""","Danbury High School","=""0346111""","All Grades","Mile Run",61.3
-"Danbury School District","=""0340011""","Ellsworth Avenue School","=""0341411""","All Grades","Mile Run",66.2
-"Danbury School District","=""0340011""","Great Plain School","=""0341111""","All Grades","Mile Run",45.7
-"Danbury School District","=""0340011""","Hayestown Avenue School","=""0340211""","All Grades","Mile Run",62.5
-"Danbury School District","=""0340011""","King Street Intermediate School","=""0341711""","All Grades","Mile Run",81.9
-"Danbury School District","=""0340011""","Morris Street School","=""0340611""","All Grades","Mile Run",76.6
-"Danbury School District","=""0340011""","Park Avenue School","=""0340811""","All Grades","Mile Run",39.3
-"Danbury School District","=""0340011""","Pembroke School","=""0341511""","All Grades","Mile Run",63.3
-"Danbury School District","=""0340011""","Rogers Park Middle School","=""0345211""","All Grades","Mile Run",68.1
-"Danbury School District","=""0340011""","Shelter Rock School","=""0341211""","All Grades","Mile Run",27.5
-"Danbury School District","=""0340011""","South Street School","=""0341011""","All Grades","Mile Run",76.9
-"Danbury School District","=""0340011""","Stadley Rough School","=""0341611""","All Grades","Mile Run",48.0
-"Danbury School District","=""0340011""","Western CT Academy of International Studies Elementary Magne","=""0341911""","All Grades","Mile Run",96.4
-"Darien School District","=""0350011""","Darien High School","=""0356111""","All Grades","Mile Run",77.2
-"Darien School District","=""0350011""","Hindley Elementary School","=""0350211""","All Grades","Mile Run",98.5
-"Darien School District","=""0350011""","Holmes Elementary School","=""0350711""","All Grades","Mile Run",81.8
-"Darien School District","=""0350011""","Middlesex Middle School","=""0355111""","All Grades","Mile Run",90.7
-"Darien School District","=""0350011""","Ox Ridge Elementary School","=""0351311""","All Grades","Mile Run",93.9
-"Darien School District","=""0350011""","Royle Elementary School","=""0350511""","All Grades","Mile Run",91.4
-"Darien School District","=""0350011""","Tokeneke Elementary School","=""0350611""","All Grades","Mile Run",98.4
-"Deep River School District","=""0360011""","Deep River Elementary School","=""0360111""","All Grades","Mile Run",89.9
-"Derby School District","=""0370011""","Bradley School","=""0370611""","All Grades","Mile Run",80.0
-"Derby School District","=""0370011""","Derby High School","=""0376111""","All Grades","Mile Run",15.4
-"Derby School District","=""0370011""","Derby Middle School","=""0375011""","All Grades","Mile Run",58.1
-"Derby School District","=""0370011""","Irving School","=""0370411""","All Grades","Mile Run",54.7
-"East Granby School District","=""0400011""","East Granby High School","=""0406111""","All Grades","Mile Run",37.9
-"East Granby School District","=""0400011""","East Granby Middle School","=""0405111""","All Grades","Mile Run",73.3
-"East Granby School District","=""0400011""","R. Dudley Seymour School","=""0400211""","All Grades","Mile Run",71.7
-"East Haddam School District","=""0410011""","Nathan Hale-Ray High School","=""0416111""","All Grades","Mile Run",67.3
-"East Haddam School District","=""0410011""","Nathan Hale-Ray Middle School","=""0415111""","All Grades","Mile Run",76.7
-"East Hampton School District","=""0420011""","Center School","=""0420311""","All Grades","Mile Run",61.2
-"East Hampton School District","=""0420011""","East Hampton High School","=""0426111""","All Grades","Mile Run",73.5
-"East Hampton School District","=""0420011""","East Hampton Middle School","=""0425111""","All Grades","Mile Run",81.8
-"East Hartford School District","=""0430011""","Anna E. Norris School","=""0430911""","All Grades","Mile Run",56.4
-"East Hartford School District","=""0430011""","Connecticut IB Academy","=""0436311""","All Grades","Mile Run",37.8
-"East Hartford School District","=""0430011""","Dr. Franklin H. Mayberry School","=""0430611""","All Grades","Mile Run",74.3
-"East Hartford School District","=""0430011""","Dr. John A. Langford School","=""0432211""","All Grades","Mile Run",70.5
-"East Hartford School District","=""0430011""","Dr. Thomas S. O'Connell School","=""0431011""","All Grades","Mile Run",80.9
-"East Hartford School District","=""0430011""","East Hartford High School","=""0436211""","All Grades","Mile Run",54.3
-"East Hartford School District","=""0430011""","East Hartford Middle School","=""0435111""","All Grades","Mile Run",66.4
-"East Hartford School District","=""0430011""","Governor William Pitkin School","=""0432011""","All Grades","Mile Run",84.6
-"East Hartford School District","=""0430011""","Hockanum School","=""0430511""","All Grades","Mile Run",73.5
-"East Hartford School District","=""0430011""","Joseph O. Goodwin School","=""0430411""","All Grades","Mile Run",81.4
-"East Hartford School District","=""0430011""","Robert J. O'Brien School","=""0431811""","All Grades","Mile Run",77.9
-"East Hartford School District","=""0430011""","Silver Lane School","=""0431211""","All Grades","Mile Run",78.3
-"East Hartford School District","=""0430011""","Stevens Alternate High school","=""0436411""","All Grades","Mile Run","*"
-"East Hartford School District","=""0430011""","Sunset Ridge School Elementary Academy for Arts and World La","=""0432411""","All Grades","Mile Run",75.9
-"East Haven School District","=""0440011""","Carbone School/East Haven Academy","=""0441711""","All Grades","Mile Run",75.5
-"East Haven School District","=""0440011""","Dominick H. Ferrara School","=""0441311""","All Grades","Mile Run",41.6
-"East Haven School District","=""0440011""","East Haven High School","=""0446111""","All Grades","Mile Run",51.8
-"East Haven School District","=""0440011""","Grove J. Tuttle School","=""0441011""","All Grades","Mile Run",85.9
-"East Haven School District","=""0440011""","Joseph Melillo Middle School","=""0445111""","All Grades","Mile Run",89.8
-"East Haven School District","=""0440011""","Momauguin School","=""0440711""","All Grades","Mile Run",93.9
-"East Lyme School District","=""0450011""","East Lyme High School","=""0456111""","All Grades","Mile Run",84.5
-"East Lyme School District","=""0450011""","East Lyme Middle School","=""0455111""","All Grades","Mile Run",75.5
-"East Lyme School District","=""0450011""","Flanders School","=""0450111""","All Grades","Mile Run",81.7
-"East Lyme School District","=""0450011""","Lillie B. Haynes School","=""0450411""","All Grades","Mile Run",77.0
-"East Lyme School District","=""0450011""","Niantic Center School","=""0450211""","All Grades","Mile Run",96.0
-"East Windsor School District","=""0470011""","Broad Brook Elementary School","=""0470111""","All Grades","Mile Run",54.3
-"East Windsor School District","=""0470011""","East Windsor High School","=""0476111""","All Grades","Mile Run",58.0
-"East Windsor School District","=""0470011""","East Windsor Middle School","=""0475411""","All Grades","Mile Run",77.0
-"Eastern Connecticut Regional Educational Service Center (EAS","=""2530014""","Arts at the Capitol Theater Magnet School (ACT)","=""2536014""","All Grades","Mile Run","*"
-"Eastern Connecticut Regional Educational Service Center (EAS","=""2530014""","Quinebaug Middle College","=""2536114""","All Grades","Mile Run","*"
-"Eastford School District","=""0390011""","Eastford Elementary School","=""0390111""","All Grades","Mile Run",88.4
-"Easton School District","=""0460011""","Helen Keller Middle School","=""0465111""","All Grades","Mile Run",89.2
-"Easton School District","=""0460011""","Samuel Staples Elementary School","=""0460111""","All Grades","Mile Run",69.0
-"Ellington School District","=""0480011""","Center School","=""0480111""","All Grades","Mile Run",72.0
-"Ellington School District","=""0480011""","Crystal Lake School","=""0480211""","All Grades","Mile Run",84.4
-"Ellington School District","=""0480011""","Ellington High School","=""0486111""","All Grades","Mile Run",80.9
-"Ellington School District","=""0480011""","Ellington Middle School","=""0485111""","All Grades","Mile Run",73.7
-"Ellington School District","=""0480011""","Windermere Intermediate School","=""0480711""","All Grades","Mile Run",79.9
-"Ellington School District","=""0480011""","Windermere School","=""0480611""","All Grades","Mile Run",71.3
-"Elm City College Preparatory School District","=""2890013""","Elm City College Preparatory School","=""2890113""","All Grades","Mile Run",59.3
-"Enfield School District","=""0490011""","Edgar H. Parkman School","=""0491311""","All Grades","Mile Run",91.6
-"Enfield School District","=""0490011""","Eli Whitney School","=""0491611""","All Grades","Mile Run",83.5
-"Enfield School District","=""0490011""","Enfield High School","=""0496111""","All Grades","Mile Run",60.0
-"Enfield School District","=""0490011""","Enrico Fermi High School","=""0496211""","All Grades","Mile Run",46.0
-"Enfield School District","=""0490011""","John F. Kennedy Middle School","=""0495211""","All Grades","Mile Run",86.1
-"Enfield School District","=""0490011""","Prudence Crandall School","=""0491511""","All Grades","Mile Run",83.9
-"Essex School District","=""0500011""","Essex Elementary School","=""0500111""","All Grades","Mile Run",75.9
-"Explorations District","=""2720013""","Explorations","=""2726113""","All Grades","Mile Run","*"
-"Fairfield School District","=""0510011""","Burr Elementary School","=""0510211""","All Grades","Mile Run",96.7
-"Fairfield School District","=""0510011""","Dwight Elementary School","=""0510111""","All Grades","Mile Run",98.2
-"Fairfield School District","=""0510011""","Fairfield Ludlowe High School","=""0516011""","All Grades","Mile Run",72.6
-"Fairfield School District","=""0510011""","Fairfield Warde High School","=""0516211""","All Grades","Mile Run",77.6
-"Fairfield School District","=""0510011""","Fairfield Woods Middle School","=""0515211""","All Grades","Mile Run",88.5
-"Fairfield School District","=""0510011""","Holland Hill School","=""0510411""","All Grades","Mile Run",81.7
-"Fairfield School District","=""0510011""","Jennings School","=""0511711""","All Grades","Mile Run",100.0
-"Fairfield School District","=""0510011""","McKinley School","=""0510611""","All Grades","Mile Run",96.7
-"Fairfield School District","=""0510011""","Mill Hill School","=""0510711""","All Grades","Mile Run",93.3
-"Fairfield School District","=""0510011""","North Stratfield School","=""0511611""","All Grades","Mile Run",86.1
-"Fairfield School District","=""0510011""","Osborn Hill School","=""0511811""","All Grades","Mile Run",89.9
-"Fairfield School District","=""0510011""","Riverfield School","=""0511211""","All Grades","Mile Run",75.8
-"Fairfield School District","=""0510011""","Roger Ludlowe Middle School","=""0515311""","All Grades","Mile Run",87.0
-"Fairfield School District","=""0510011""","Sherman School","=""0511311""","All Grades","Mile Run",97.4
-"Fairfield School District","=""0510011""","Stratfield School","=""0511411""","All Grades","Mile Run",95.7
-"Fairfield School District","=""0510011""","Tomlinson Middle School","=""0515111""","All Grades","Mile Run",87.0
-"Farmington School District","=""0520011""","East Farms School","=""0520411""","All Grades","Mile Run",87.3
-"Farmington School District","=""0520011""","Farmington High School","=""0526111""","All Grades","Mile Run",78.5
-"Farmington School District","=""0520011""","Irving A. Robbins Middle School","=""0525111""","All Grades","Mile Run",82.5
-"Farmington School District","=""0520011""","Noah Wallace School","=""0520211""","All Grades","Mile Run",55.4
-"Farmington School District","=""0520011""","Union School","=""0520111""","All Grades","Mile Run",92.3
-"Farmington School District","=""0520011""","West District School","=""0520311""","All Grades","Mile Run",85.5
-"Farmington School District","=""0520011""","West Woods Upper Elementary School","=""0520511""","All Grades","Mile Run",79.2
-"Franklin School District","=""0530011""","Franklin Elementary School","=""0530111""","All Grades","Mile Run",89.1
-"Glastonbury School District","=""0540011""","Buttonball Lane School","=""0540211""","All Grades","Mile Run",82.9
-"Glastonbury School District","=""0540011""","Eastbury School","=""0540311""","All Grades","Mile Run",76.4
-"Glastonbury School District","=""0540011""","Gideon Welles School","=""0540811""","All Grades","Mile Run",88.2
-"Glastonbury School District","=""0540011""","Glastonbury High School","=""0546111""","All Grades","Mile Run",69.9
-"Glastonbury School District","=""0540011""","Hebron Avenue School","=""0540411""","All Grades","Mile Run",86.8
-"Glastonbury School District","=""0540011""","Hopewell School","=""0540611""","All Grades","Mile Run",90.4
-"Glastonbury School District","=""0540011""","Naubuc School","=""0540711""","All Grades","Mile Run",61.7
-"Glastonbury School District","=""0540011""","Nayaug Elementary School","=""0540911""","All Grades","Mile Run",86.0
-"Glastonbury School District","=""0540011""","Smith Middle School","=""0545211""","All Grades","Mile Run",79.0
-"Granby School District","=""0560011""","Granby Memorial High School","=""0566111""","All Grades","Mile Run",80.0
-"Granby School District","=""0560011""","Granby Memorial Middle School","=""0565111""","All Grades","Mile Run",89.5
-"Granby School District","=""0560011""","Kelly Lane Intermediate School","=""0560411""","All Grades","Mile Run",90.8
-"Granby School District","=""0560011""","Wells Road Intermediate School","=""0560311""","All Grades","Mile Run",93.5
-"Greenwich School District","=""0570011""","Central Middle School","=""0575111""","All Grades","Mile Run",78.7
-"Greenwich School District","=""0570011""","Cos Cob School","=""0570211""","All Grades","Mile Run",98.4
-"Greenwich School District","=""0570011""","Eastern Middle School","=""0575211""","All Grades","Mile Run",97.7
-"Greenwich School District","=""0570011""","Glenville School","=""0570411""","All Grades","Mile Run",73.2
-"Greenwich School District","=""0570011""","Greenwich High School","=""0576111""","All Grades","Mile Run",91.6
-"Greenwich School District","=""0570011""","Hamilton Avenue School","=""0570511""","All Grades","Mile Run",80.4
-"Greenwich School District","=""0570011""","International School At Dundee","=""0571311""","All Grades","Mile Run",98.3
-"Greenwich School District","=""0570011""","Julian Curtiss School","=""0570311""","All Grades","Mile Run",89.8
-"Greenwich School District","=""0570011""","New Lebanon School","=""0570611""","All Grades","Mile Run",93.8
-"Greenwich School District","=""0570011""","North Mianus School","=""0570711""","All Grades","Mile Run",95.1
-"Greenwich School District","=""0570011""","North Street School","=""0570811""","All Grades","Mile Run",100.0
-"Greenwich School District","=""0570011""","Old Greenwich School","=""0570911""","All Grades","Mile Run",98.3
-"Greenwich School District","=""0570011""","Parkway School","=""0571111""","All Grades","Mile Run",91.2
-"Greenwich School District","=""0570011""","Riverside School","=""0571011""","All Grades","Mile Run",100.0
-"Greenwich School District","=""0570011""","Western Middle School","=""0575311""","All Grades","Mile Run",89.7
-"Griswold School District","=""0580011""","Griswold Elementary School","=""0580311""","All Grades","Mile Run",54.1
-"Griswold School District","=""0580011""","Griswold High School","=""0586211""","All Grades","Mile Run",45.7
-"Griswold School District","=""0580011""","Griswold Middle School","=""0585111""","All Grades","Mile Run",63.4
-"Groton School District","=""0590011""","Carl C. Cutler Middle School","=""0595311""","All Grades","Mile Run",72.2
-"Groton School District","=""0590011""","Catherine Kolnaski Magnet School","=""0592011""","All Grades","Mile Run",35.0
-"Groton School District","=""0590011""","Charles Barnum School","=""0591811""","All Grades","Mile Run",67.6
-"Groton School District","=""0590011""","Claude Chester School","=""0590311""","All Grades","Mile Run",46.8
-"Groton School District","=""0590011""","Fitch Middle School","=""0595111""","All Grades","Mile Run",47.3
-"Groton School District","=""0590011""","Mary Morrisson School","=""0591711""","All Grades","Mile Run",71.8
-"Groton School District","=""0590011""","Northeast Academy Elementary School","=""0591911""","All Grades","Mile Run",64.8
-"Groton School District","=""0590011""","Pleasant Valley School","=""0591211""","All Grades","Mile Run",73.0
-"Groton School District","=""0590011""","Robert E. Fitch High School","=""0596111""","All Grades","Mile Run",51.4
-"Groton School District","=""0590011""","S. B. Butler School","=""0590111""","All Grades","Mile Run",91.3
-"Groton School District","=""0590011""","West Side Middle School","=""0595211""","All Grades","Mile Run",75.7
-"Guilford School District","=""0600011""","A. Baldwin Middle School","=""0600711""","All Grades","Mile Run",43.8
-"Guilford School District","=""0600011""","A. W. Cox School","=""0600611""","All Grades","Mile Run",87.3
-"Guilford School District","=""0600011""","Calvin Leete School","=""0600411""","All Grades","Mile Run",76.3
-"Guilford School District","=""0600011""","E. C. Adams Middle School","=""0605111""","All Grades","Mile Run",84.7
-"Guilford School District","=""0600011""","Guilford High School","=""0606111""","All Grades","Mile Run",80.0
-"Guilford School District","=""0600011""","Guilford Lakes School","=""0600211""","All Grades","Mile Run",93.3
-"Guilford School District","=""0600011""","Melissa Jones School","=""0600311""","All Grades","Mile Run",83.8
-"Hamden School District","=""0620011""","Bear Path School","=""0621211""","All Grades","Mile Run",81.2
-"Hamden School District","=""0620011""","Church Street School","=""0620211""","All Grades","Mile Run",67.0
-"Hamden School District","=""0620011""","Dunbar Hill School","=""0620311""","All Grades","Mile Run",82.5
-"Hamden School District","=""0620011""","Hamden High School","=""0626111""","All Grades","Mile Run",60.8
-"Hamden School District","=""0620011""","Hamden Middle School","=""0625211""","All Grades","Mile Run",56.9
-"Hamden School District","=""0620011""","Helen Street School","=""0620411""","All Grades","Mile Run",88.3
-"Hamden School District","=""0620011""","Ridge Hill School","=""0621111""","All Grades","Mile Run",75.8
-"Hamden School District","=""0620011""","Shepherd Glen School","=""0620111""","All Grades","Mile Run",51.2
-"Hamden School District","=""0620011""","Spring Glen School","=""0621011""","All Grades","Mile Run",93.5
-"Hamden School District","=""0620011""","West Woods School","=""0621411""","All Grades","Mile Run",55.6
-"Hampton School District","=""0630011""","Hampton Elementary School","=""0630111""","All Grades","Mile Run",74.4
-"Hartford School District","=""0640011""","Asian Studies Academy","=""0640711""","All Grades","Mile Run",48.5
-"Hartford School District","=""0640011""","Batchelder School","=""0640411""","All Grades","Mile Run",21.9
-"Hartford School District","=""0640011""","Breakthrough II Elementary School","=""0643511""","All Grades","Mile Run",65.0
-"Hartford School District","=""0640011""","Breakthrough Magnet School","=""0643311""","All Grades","Mile Run",45.5
-"Hartford School District","=""0640011""","Bulkeley High School Lower School","=""0646111""","All Grades","Mile Run",58.7
-"Hartford School District","=""0640011""","Burns Latino Studies Academy","=""0640611""","All Grades","Mile Run",76.9
-"Hartford School District","=""0640011""","Burr School","=""0642311""","All Grades","Mile Run",85.2
-"Hartford School District","=""0640011""","Clark School","=""0642411""","All Grades","Mile Run",62.4
-"Hartford School District","=""0640011""","Classical Magnet School","=""0646411""","All Grades","Mile Run",85.2
-"Hartford School District","=""0640011""","Culinary Arts Academy","=""0646011""","All Grades","Mile Run","*"
-"Hartford School District","=""0640011""","Dr. James H Naylor/CCSU Leadership Academy","=""0641411""","All Grades","Mile Run",40.9
-"Hartford School District","=""0640011""","Dr. Joseph Bellizzi Middle School","=""0645311""","All Grades","Mile Run",42.4
-"Hartford School District","=""0640011""","Environmental Sciences Magnet School at Mary M Hooker","=""0640911""","All Grades","Mile Run",47.2
-"Hartford School District","=""0640011""","Expeditionary Learning Academy at Moylan School","=""0643211""","All Grades","Mile Run",90.8
-"Hartford School District","=""0640011""","Fred D. Wish Museum School","=""0642211""","All Grades","Mile Run",79.5
-"Hartford School District","=""0640011""","Global Communications Academy","=""0643611""","All Grades","Mile Run",48.6
-"Hartford School District","=""0640011""","HPHS Academy of Engineering and Green Technology","=""0647211""","All Grades","Mile Run","*"
-"Hartford School District","=""0640011""","HPHS Academy of Nursing and Health Science","=""0647511""","All Grades","Mile Run",85.0
-"Hartford School District","=""0640011""","HPHS Law and Government Academy","=""0647411""","All Grades","Mile Run",59.1
-"Hartford School District","=""0640011""","Hartford Magnet Trinity College Academy","=""0645411""","All Grades","Mile Run",69.2
-"Hartford School District","=""0640011""","Journalism and Media Academy Magnet School","=""0647711""","All Grades","Mile Run",41.5
-"Hartford School District","=""0640011""","Kennelly School","=""0641011""","All Grades","Mile Run",47.4
-"Hartford School District","=""0640011""","M. D. Fox Elementary School","=""0640811""","All Grades","Mile Run",65.6
-"Hartford School District","=""0640011""","M. L. King School","=""0641611""","All Grades","Mile Run",65.2
-"Hartford School District","=""0640011""","McDonough Expeditionary Learning School","=""0641211""","All Grades","Mile Run",41.2
-"Hartford School District","=""0640011""","Milner Elementary School","=""0641911""","All Grades","Mile Run",80.4
-"Hartford School District","=""0640011""","Montessori Magnet School at Annie Fisher","=""0643711""","All Grades","Mile Run","*"
-"Hartford School District","=""0640011""","Noah Webster Micro Society School","=""0642011""","All Grades","Mile Run",82.6
-"Hartford School District","=""0640011""","OPPortunity High School","=""0647811""","All Grades","Mile Run","*"
-"Hartford School District","=""0640011""","Parkville Community School","=""0641511""","All Grades","Mile Run",42.1
-"Hartford School District","=""0640011""","Pathways Academy of Technology and Design","=""0646611""","All Grades","Mile Run","*"
-"Hartford School District","=""0640011""","R.J. Kinsella Magnet School of Performing Arts","=""0641111""","All Grades","Mile Run",40.8
-"Hartford School District","=""0640011""","Renzulli Academy","=""0644011""","All Grades","Mile Run",23.5
-"Hartford School District","=""0640011""","SAND School","=""0640111""","All Grades","Mile Run",45.7
-"Hartford School District","=""0640011""","STEM Magnet School at Annie Fisher","=""0642511""","All Grades","Mile Run",81.1
-"Hartford School District","=""0640011""","Sanchez School","=""0643011""","All Grades","Mile Run",83.1
-"Hartford School District","=""0640011""","Sarah J Rawson Middle Grades Academy","=""0645611""","All Grades","Mile Run",25.7
-"Hartford School District","=""0640011""","Sarah J. Rawson Elementary School","=""0641711""","All Grades","Mile Run",67.9
-"Hartford School District","=""0640011""","Simpson-Waverly School","=""0642611""","All Grades","Mile Run",39.3
-"Hartford School District","=""0640011""","Sports and Medical Sciences Academy","=""0646511""","All Grades","Mile Run",72.2
-"Hartford School District","=""0640011""","University High of Science and Engineering","=""0646711""","All Grades","Mile Run",64.9
-"Hartford School District","=""0640011""","West Middle School","=""0642111""","All Grades","Mile Run",83.7
-"Hartland School District","=""0650011""","Hartland School","=""0650111""","All Grades","Mile Run",84.5
-"Hebron School District","=""0670011""","Hebron Elementary School","=""0670111""","All Grades","Mile Run",73.5
-"Highville Charter School District","=""2860013""","Highville Charter School","=""2860113""","All Grades","Mile Run",68.5
-"Integrated Day Charter School District","=""2640013""","Integrated Day Charter School","=""2640113""","All Grades","Mile Run",75.8
-"Interdistrict School for Arts and Comm District","=""2650013""","Interdistrict School For Arts And Communication","=""2655113""","All Grades","Mile Run",36.3
-"Jumoke Academy District","=""2610013""","Jumoke Academy","=""2610113""","All Grades","Mile Run",39.2
-"Kent School District","=""0680011""","Kent Center School","=""0680111""","All Grades","Mile Run",76.3
-"Killingly School District","=""0690011""","Killingly Central School","=""0690111""","All Grades","Mile Run",55.2
-"Killingly School District","=""0690011""","Killingly High School","=""0696111""","All Grades","Mile Run",62.6
-"Killingly School District","=""0690011""","Killingly Intermediate School","=""0695211""","All Grades","Mile Run",52.6
-"Killingly School District","=""0690011""","Killingly Memorial School","=""0690311""","All Grades","Mile Run",25.0
-"Learn","=""2450014""","Connecticut River Academy","=""2456014""","All Grades","Mile Run",42.3
-"Learn","=""2450014""","Dual Language & Arts Magnet Middle School","=""2455014""","All Grades","Mile Run",54.8
-"Learn","=""2450014""","Marine Science Magnet High School of Southeastern Connecticu","=""2456114""","All Grades","Mile Run",75.0
-"Learn","=""2450014""","Regional Multicultural Magnet School","=""2450114""","All Grades","Mile Run",80.5
-"Lebanon School District","=""0710011""","Lebanon Elementary School","=""0710111""","All Grades","Mile Run",86.7
-"Lebanon School District","=""0710011""","Lebanon Middle School","=""0715111""","All Grades","Mile Run",74.5
-"Lebanon School District","=""0710011""","Lyman Memorial High School","=""0716211""","All Grades","Mile Run",68.4
-"Ledyard School District","=""0720011""","Gallup Hill School","=""0720411""","All Grades","Mile Run",38.8
-"Ledyard School District","=""0720011""","Juliet W. Long School","=""0720311""","All Grades","Mile Run",66.7
-"Ledyard School District","=""0720011""","Ledyard Center School","=""0720111""","All Grades","Mile Run",62.4
-"Ledyard School District","=""0720011""","Ledyard High School","=""0726111""","All Grades","Mile Run",82.3
-"Ledyard School District","=""0720011""","Ledyard Middle School","=""0725111""","All Grades","Mile Run",83.2
-"Lisbon School District","=""0730011""","Community Connection - The Big Picture High School","=""0736011""","All Grades","Mile Run",0.0
-"Lisbon School District","=""0730011""","Lisbon Central School","=""0730111""","All Grades","Mile Run",79.5
-"Litchfield School District","=""0740011""","Litchfield High School","=""0746111""","All Grades","Mile Run",75.3
-"Litchfield School District","=""0740011""","Litchfield Intermediate School","=""0740311""","All Grades","Mile Run",70.2
-"Madison School District","=""0760011""","Daniel Hand High School","=""0766111""","All Grades","Mile Run",87.3
-"Madison School District","=""0760011""","Dr. Robert H. Brown Middle School","=""0760611""","All Grades","Mile Run",72.7
-"Madison School District","=""0760011""","Island Avenue Elementary School","=""0760211""","All Grades","Mile Run",90.5
-"Madison School District","=""0760011""","J. Milton Jeffrey Elementary School","=""0760111""","All Grades","Mile Run",86.9
-"Madison School District","=""0760011""","Kathleen H. Ryerson Elementary School","=""0760311""","All Grades","Mile Run",85.7
-"Madison School District","=""0760011""","Walter C. Polson Upper Middle School","=""0765211""","All Grades","Mile Run",80.8
-"Manchester School District","=""0770011""","Bowers School","=""0770111""","All Grades","Mile Run",71.0
-"Manchester School District","=""0770011""","Buckley School","=""0770311""","All Grades","Mile Run",76.3
-"Manchester School District","=""0770011""","Elisabeth M. Bennet Academy","=""0771711""","All Grades","Mile Run",89.3
-"Manchester School District","=""0770011""","Illing Middle School","=""0775311""","All Grades","Mile Run",73.7
-"Manchester School District","=""0770011""","Keeney School","=""0770611""","All Grades","Mile Run",70.2
-"Manchester School District","=""0770011""","Manchester High School","=""0776111""","All Grades","Mile Run",74.1
-"Manchester School District","=""0770011""","Martin School","=""0771611""","All Grades","Mile Run",76.3
-"Manchester School District","=""0770011""","Nathan Hale School","=""0770911""","All Grades","Mile Run",58.6
-"Manchester School District","=""0770011""","Robertson School","=""0771011""","All Grades","Mile Run",70.6
-"Manchester School District","=""0770011""","Verplanck School","=""0771211""","All Grades","Mile Run",79.5
-"Manchester School District","=""0770011""","Waddell School","=""0771311""","All Grades","Mile Run",95.7
-"Manchester School District","=""0770011""","Washington School","=""0771411""","All Grades","Mile Run",81.0
-"Mansfield School District","=""0780011""","Annie E. Vinton School","=""0780411""","All Grades","Mile Run",68.0
-"Mansfield School District","=""0780011""","Dorothy C. Goodwin School","=""0780211""","All Grades","Mile Run",78.4
-"Mansfield School District","=""0780011""","Mansfield Middle School School","=""0785111""","All Grades","Mile Run",84.7
-"Mansfield School District","=""0780011""","Southeast Elementary School","=""0780511""","All Grades","Mile Run",75.0
-"Marlborough School District","=""0790011""","Elmer Thienes-Mary Hall Elementary School","=""0790111""","All Grades","Mile Run",75.3
-"Meriden School District","=""0800011""","Benjamin Franklin School","=""0800111""","All Grades","Mile Run",71.6
-"Meriden School District","=""0800011""","Casimir Pulaski School","=""0801111""","All Grades","Mile Run",71.8
-"Meriden School District","=""0800011""","Francis T. Maloney High School","=""0806111""","All Grades","Mile Run",44.9
-"Meriden School District","=""0800011""","Hanover School","=""0800311""","All Grades","Mile Run",75.3
-"Meriden School District","=""0800011""","Israel Putnam School","=""0800411""","All Grades","Mile Run",52.2
-"Meriden School District","=""0800011""","John Barry School","=""0800511""","All Grades","Mile Run",74.7
-"Meriden School District","=""0800011""","Lincoln Middle School","=""0805211""","All Grades","Mile Run",56.6
-"Meriden School District","=""0800011""","Nathan Hale School","=""0800711""","All Grades","Mile Run",48.9
-"Meriden School District","=""0800011""","Orville H. Platt High School","=""0806211""","All Grades","Mile Run",49.2
-"Meriden School District","=""0800011""","Roger Sherman School","=""0800811""","All Grades","Mile Run",63.4
-"Meriden School District","=""0800011""","Thomas Hooker School","=""0801011""","All Grades","Mile Run",42.9
-"Meriden School District","=""0800011""","Washington Middle School","=""0805411""","All Grades","Mile Run",66.7
-"Middletown School District","=""0830011""","Bielefield School","=""0830211""","All Grades","Mile Run",46.4
-"Middletown School District","=""0830011""","Farm Hill School","=""0830511""","All Grades","Mile Run",80.9
-"Middletown School District","=""0830011""","Keigwin Middle School","=""0831511""","All Grades","Mile Run",81.6
-"Middletown School District","=""0830011""","Lawrence School","=""0831311""","All Grades","Mile Run",84.3
-"Middletown School District","=""0830011""","MacDonough School","=""0830911""","All Grades","Mile Run",51.5
-"Middletown School District","=""0830011""","Middletown High School","=""0836211""","All Grades","Mile Run",50.3
-"Middletown School District","=""0830011""","Moody School","=""0831211""","All Grades","Mile Run",50.9
-"Middletown School District","=""0830011""","Snow School","=""0831111""","All Grades","Mile Run",47.5
-"Middletown School District","=""0830011""","Spencer School","=""0830111""","All Grades","Mile Run",53.6
-"Middletown School District","=""0830011""","Wesley School","=""0831411""","All Grades","Mile Run",66.1
-"Middletown School District","=""0830011""","Woodrow Wilson Middle School","=""0835411""","All Grades","Mile Run",54.8
-"Milford School District","=""0840011""","Calf Pen Meadow School","=""0840111""","All Grades","Mile Run",86.7
-"Milford School District","=""0840011""","East Shore Middle School","=""0845111""","All Grades","Mile Run",53.8
-"Milford School District","=""0840011""","Harborside Middle School","=""0845211""","All Grades","Mile Run",67.9
-"Milford School District","=""0840011""","Jonathan Law High School","=""0846211""","All Grades","Mile Run",71.5
-"Milford School District","=""0840011""","Joseph A. Foran High School","=""0846311""","All Grades","Mile Run",72.6
-"Milford School District","=""0840011""","Meadowside School","=""0840711""","All Grades","Mile Run",76.5
-"Milford School District","=""0840011""","Orchard Hills School","=""0841811""","All Grades","Mile Run",84.2
-"Milford School District","=""0840011""","Pumpkin Delight School","=""0841011""","All Grades","Mile Run",71.5
-"Milford School District","=""0840011""","West Shore Middle School","=""0845311""","All Grades","Mile Run",49.9
-"Monroe School District","=""0850011""","Fawn Hollow Elementary School","=""0850511""","All Grades","Mile Run",80.7
-"Monroe School District","=""0850011""","Jockey Hollow School","=""0855211""","All Grades","Mile Run",80.1
-"Monroe School District","=""0850011""","Masuk High School","=""0856111""","All Grades","Mile Run",44.8
-"Monroe School District","=""0850011""","Monroe Elementary School","=""0850111""","All Grades","Mile Run",67.3
-"Monroe School District","=""0850011""","Stepney Elementary School","=""0850311""","All Grades","Mile Run",67.4
-"Montville School District","=""0860011""","Dr. Charles E. Murphy School","=""0860711""","All Grades","Mile Run",64.1
-"Montville School District","=""0860011""","Leonard J. Tyl Middle School","=""0865111""","All Grades","Mile Run",76.3
-"Montville School District","=""0860011""","Mohegan School","=""0860111""","All Grades","Mile Run",74.6
-"Montville School District","=""0860011""","Montville High School","=""0866111""","All Grades","Mile Run",62.0
-"Montville School District","=""0860011""","Oakdale School","=""0860511""","All Grades","Mile Run",58.8
-"Naugatuck School District","=""0880011""","Andrew Avenue School","=""0880811""","All Grades","Mile Run",52.8
-"Naugatuck School District","=""0880011""","Central Avenue School","=""0880111""","All Grades","Mile Run",67.5
-"Naugatuck School District","=""0880011""","City Hill Middle School","=""0885111""","All Grades","Mile Run",63.0
-"Naugatuck School District","=""0880011""","Cross Street Intermediate School","=""0880211""","All Grades","Mile Run",47.2
-"Naugatuck School District","=""0880011""","Hillside Intermediate School","=""0880411""","All Grades","Mile Run",76.9
-"Naugatuck School District","=""0880011""","Hop Brook Elementary School","=""0880511""","All Grades","Mile Run",67.2
-"Naugatuck School District","=""0880011""","Maple Hill School","=""0880311""","All Grades","Mile Run",75.4
-"Naugatuck School District","=""0880011""","Naugatuck High School","=""0886111""","All Grades","Mile Run",54.6
-"Naugatuck School District","=""0880011""","Salem School","=""0880611""","All Grades","Mile Run",72.9
-"Naugatuck School District","=""0880011""","Western School","=""0880711""","All Grades","Mile Run",61.4
-"New Beginnings Inc., Family Academy District","=""2800013""","New Beginnings Inc., Family Academy","=""2800113""","All Grades","Mile Run",64.9
-"New Britain School District","=""0890011""","Frank J. DiLoreto School","=""0891111""","All Grades","Mile Run",68.3
-"New Britain School District","=""0890011""","Gaffney School","=""0890511""","All Grades","Mile Run",90.6
-"New Britain School District","=""0890011""","Holmes School","=""0890611""","All Grades","Mile Run",64.2
-"New Britain School District","=""0890011""","House of Arts Letters and Science (HALS)  Academy","=""0895411""","All Grades","Mile Run",76.3
-"New Britain School District","=""0890011""","Jefferson School","=""0890711""","All Grades","Mile Run",68.3
-"New Britain School District","=""0890011""","Lincoln School","=""0890811""","All Grades","Mile Run",72.9
-"New Britain School District","=""0890011""","New Britain High School","=""0896111""","All Grades","Mile Run",36.4
-"New Britain School District","=""0890011""","Northend School","=""0890911""","All Grades","Mile Run",75.0
-"New Britain School District","=""0890011""","Pulaski Middle School","=""0895311""","All Grades","Mile Run",27.5
-"New Britain School District","=""0890011""","Roosevelt Middle School","=""0895111""","All Grades","Mile Run",12.3
-"New Britain School District","=""0890011""","Slade Middle School","=""0895211""","All Grades","Mile Run",55.8
-"New Britain School District","=""0890011""","Smalley Academy","=""0891211""","All Grades","Mile Run",46.8
-"New Britain School District","=""0890011""","Smith School","=""0891311""","All Grades","Mile Run",64.5
-"New Britain School District","=""0890011""","Vance School","=""0891511""","All Grades","Mile Run",91.4
-"New Canaan School District","=""0900011""","East School","=""0900411""","All Grades","Mile Run",89.4
-"New Canaan School District","=""0900011""","New Canaan High School","=""0906111""","All Grades","Mile Run",69.8
-"New Canaan School District","=""0900011""","Saxe Middle School","=""0905111""","All Grades","Mile Run",93.5
-"New Canaan School District","=""0900011""","South School","=""0900211""","All Grades","Mile Run",95.1
-"New Canaan School District","=""0900011""","West School","=""0900311""","All Grades","Mile Run",94.2
-"New Fairfield School District","=""0910011""","Meeting House Hill School","=""0910211""","All Grades","Mile Run",80.7
-"New Fairfield School District","=""0910011""","New Fairfield High School","=""0916111""","All Grades","Mile Run",77.6
-"New Fairfield School District","=""0910011""","New Fairfield Middle School","=""0915211""","All Grades","Mile Run",72.4
-"New Hartford School District","=""0920011""","Ann Antolini School","=""0920311""","All Grades","Mile Run",94.3
-"New Haven School District","=""0930011""","Augusta Lewis Troup School","=""0931511""","All Grades","Mile Run",51.9
-"New Haven School District","=""0930011""","Barnard Environmental Magnet School","=""0930211""","All Grades","Mile Run",45.2
-"New Haven School District","=""0930011""","Beecher School","=""0930311""","All Grades","Mile Run",58.3
-"New Haven School District","=""0930011""","Benjamin Jepson Magnet School","=""0931811""","All Grades","Mile Run",69.2
-"New Haven School District","=""0930011""","Betsy Ross Arts Magnet School","=""0935511""","All Grades","Mile Run",68.0
-"New Haven School District","=""0930011""","Bishop Woods School","=""0934311""","All Grades","Mile Run",79.4
-"New Haven School District","=""0930011""","Celentano BioTech, Health and Medical Magnet School","=""0934811""","All Grades","Mile Run",77.8
-"New Haven School District","=""0930011""","Christopher Columbus Academy","=""0934111""","All Grades","Mile Run",86.7
-"New Haven School District","=""0930011""","Clemente Leadership Academy","=""0934211""","All Grades","Mile Run",56.3
-"New Haven School District","=""0930011""","Clinton Avenue School","=""0930611""","All Grades","Mile Run",83.8
-"New Haven School District","=""0930011""","Conte/West Hills Magnet School","=""0933111""","All Grades","Mile Run",67.8
-"New Haven School District","=""0930011""","Cooperative High School","=""0936411""","All Grades","Mile Run",42.0
-"New Haven School District","=""0930011""","Davis 21st Century Magnet Elementary School","=""0930911""","All Grades","Mile Run",53.1
-"New Haven School District","=""0930011""","East Rock Community Magnet School","=""0934611""","All Grades","Mile Run",60.2
-"New Haven School District","=""0930011""","Edgewood School","=""0931211""","All Grades","Mile Run",74.5
-"New Haven School District","=""0930011""","Engineering - Science University Magnet School","=""0931711""","All Grades","Mile Run",71.2
-"New Haven School District","=""0930011""","Fair Haven School","=""0931611""","All Grades","Mile Run",74.4
-"New Haven School District","=""0930011""","High School In The Community","=""0936611""","All Grades","Mile Run","*"
-"New Haven School District","=""0930011""","Hill Central Music Academy","=""0930711""","All Grades","Mile Run",54.3
-"New Haven School District","=""0930011""","Hill Regional Career High School","=""0936311""","All Grades","Mile Run",54.5
-"New Haven School District","=""0930011""","Hyde School of Health, Science and Sports Medicine","=""0936811""","All Grades","Mile Run","*"
-"New Haven School District","=""0930011""","James Hillhouse High School","=""0936211""","All Grades","Mile Run",60.9
-"New Haven School District","=""0930011""","John C. Daniels","=""0931311""","All Grades","Mile Run",43.4
-"New Haven School District","=""0930011""","John S. Martinez School","=""0930811""","All Grades","Mile Run",74.7
-"New Haven School District","=""0930011""","Katherine Brennan/Clarence Rogers School","=""0932111""","All Grades","Mile Run",53.2
-"New Haven School District","=""0930011""","King/Robinson Magnet School","=""0933011""","All Grades","Mile Run",88.1
-"New Haven School District","=""0930011""","Lincoln-Bassett School","=""0932011""","All Grades","Mile Run",75.0
-"New Haven School District","=""0930011""","Mauro-Sheridan Magnet School","=""0931911""","All Grades","Mile Run",85.5
-"New Haven School District","=""0930011""","Metropolitan Business Academy","=""0936011""","All Grades","Mile Run","*"
-"New Haven School District","=""0930011""","Nathan Hale School","=""0931411""","All Grades","Mile Run",72.2
-"New Haven School District","=""0930011""","New Haven Academy","=""0937011""","All Grades","Mile Run",23.3
-"New Haven School District","=""0930011""","Ross/Woodward School","=""0931011""","All Grades","Mile Run",50.9
-"New Haven School District","=""0930011""","Truman School","=""0932911""","All Grades","Mile Run",63.3
-"New Haven School District","=""0930011""","West Rock Authors Academy","=""0934911""","All Grades","Mile Run",26.6
-"New Haven School District","=""0930011""","Wexler/Grant Community School","=""0933211""","All Grades","Mile Run",35.5
-"New Haven School District","=""0930011""","Wilbur Cross High School","=""0936111""","All Grades","Mile Run",40.0
-"New Haven School District","=""0930011""","Worthington Hooker School","=""0933811""","All Grades","Mile Run",66.4
-"New London School District","=""0950011""","Bennie Dover Jackson Middle School","=""0955111""","All Grades","Mile Run",52.7
-"New London School District","=""0950011""","Harbor School","=""0950211""","All Grades","Mile Run",67.4
-"New London School District","=""0950011""","Jennings School","=""0950311""","All Grades","Mile Run",59.0
-"New London School District","=""0950011""","Nathan Hale Arts Magnet School","=""0950911""","All Grades","Mile Run",45.1
-"New London School District","=""0950011""","New London High School","=""0956111""","All Grades","Mile Run",25.3
-"New London School District","=""0950011""","Winthrop STEM Elementary Magnet School","=""0950811""","All Grades","Mile Run",59.1
-"New Milford School District","=""0960011""","New Milford High School","=""0966111""","All Grades","Mile Run",65.4
-"New Milford School District","=""0960011""","Sarah Noble Intermediate School","=""0960911""","All Grades","Mile Run",67.5
-"New Milford School District","=""0960011""","Schaghticoke Middle School","=""0965211""","All Grades","Mile Run",54.8
-"Newington School District","=""0940011""","Anna Reynolds School","=""0940611""","All Grades","Mile Run",92.8
-"Newington School District","=""0940011""","Elizabeth Green School","=""0940211""","All Grades","Mile Run",98.3
-"Newington School District","=""0940011""","John Paterson School","=""0940811""","All Grades","Mile Run",90.6
-"Newington School District","=""0940011""","John Wallace Middle School","=""0945311""","All Grades","Mile Run",75.7
-"Newington School District","=""0940011""","Martin Kellogg Middle School","=""0945111""","All Grades","Mile Run",80.8
-"Newington School District","=""0940011""","Newington High School","=""0946111""","All Grades","Mile Run",60.1
-"Newington School District","=""0940011""","Ruth Chaffee School","=""0940711""","All Grades","Mile Run",86.0
-"Newtown School District","=""0970011""","Hawley Elementary School","=""0970111""","All Grades","Mile Run",83.3
-"Newtown School District","=""0970011""","Head O'Meadow Elementary School","=""0970411""","All Grades","Mile Run",94.2
-"Newtown School District","=""0970011""","Middle Gate Elementary School","=""0970311""","All Grades","Mile Run",92.6
-"Newtown School District","=""0970011""","Newtown High School","=""0976111""","All Grades","Mile Run",80.0
-"Newtown School District","=""0970011""","Newtown Middle School","=""0975111""","All Grades","Mile Run",86.2
-"Newtown School District","=""0970011""","Reed Intermediate School","=""0970511""","All Grades","Mile Run",90.5
-"Newtown School District","=""0970011""","Sandy Hook Elementary School","=""0970211""","All Grades","Mile Run",92.9
-"Norfolk School District","=""0980011""","Botelle Elementary School","=""0980111""","All Grades","Mile Run",57.1
-"North Branford School District","=""0990011""","North Branford High School","=""0996111""","All Grades","Mile Run",65.0
-"North Branford School District","=""0990011""","North Branford Intermediate School","=""0995111""","All Grades","Mile Run",66.6
-"North Branford School District","=""0990011""","Totoket Valley Elementary School","=""0990611""","All Grades","Mile Run",72.3
-"North Canaan School District","=""1000011""","North Canaan Elementary School","=""1000111""","All Grades","Mile Run",49.4
-"North Haven School District","=""1010011""","Clintonville Elementary School","=""1010811""","All Grades","Mile Run",65.4
-"North Haven School District","=""1010011""","Green Acres Elementary School","=""1010711""","All Grades","Mile Run",72.4
-"North Haven School District","=""1010011""","Montowese Elementary School","=""1010211""","All Grades","Mile Run",76.4
-"North Haven School District","=""1010011""","North Haven High School","=""1016111""","All Grades","Mile Run",65.2
-"North Haven School District","=""1010011""","North Haven Middle School","=""1015211""","All Grades","Mile Run",74.6
-"North Haven School District","=""1010011""","Ridge Road Elementary School","=""1010311""","All Grades","Mile Run",65.5
-"North Stonington School District","=""1020011""","North Stonington Elementary School","=""1020111""","All Grades","Mile Run",45.5
-"North Stonington School District","=""1020011""","Wheeler High School","=""1026111""","All Grades","Mile Run",46.0
-"North Stonington School District","=""1020011""","Wheeler Middle School","=""1025111""","All Grades","Mile Run",64.2
-"Norwalk School District","=""1030011""","Brien McMahon High School","=""1036211""","All Grades","Mile Run",55.5
-"Norwalk School District","=""1030011""","Brookside Elementary School","=""1030211""","All Grades","Mile Run",86.3
-"Norwalk School District","=""1030011""","Columbus Magnet School","=""1030311""","All Grades","Mile Run",30.4
-"Norwalk School District","=""1030011""","Cranbury Elementary School","=""1030411""","All Grades","Mile Run",55.7
-"Norwalk School District","=""1030011""","Fox Run Elementary School","=""1032011""","All Grades","Mile Run",79.3
-"Norwalk School District","=""1030011""","Jefferson Magnet School","=""1030711""","All Grades","Mile Run",64.7
-"Norwalk School District","=""1030011""","Kendall Elementary School","=""1030811""","All Grades","Mile Run",89.9
-"Norwalk School District","=""1030011""","Marvin Elementary School","=""1032211""","All Grades","Mile Run",77.3
-"Norwalk School District","=""1030011""","Naramake Elementary School","=""1032111""","All Grades","Mile Run",76.1
-"Norwalk School District","=""1030011""","Nathan Hale Middle School","=""1035211""","All Grades","Mile Run",73.8
-"Norwalk School District","=""1030011""","Norwalk High School","=""1036111""","All Grades","Mile Run",48.7
-"Norwalk School District","=""1030011""","Norwalk Pathways Academy at Briggs","=""1036311""","All Grades","Mile Run",66.7
-"Norwalk School District","=""1030011""","Ponus Ridge Middle School","=""1035311""","All Grades","Mile Run",69.5
-"Norwalk School District","=""1030011""","Roton Middle School","=""1035511""","All Grades","Mile Run",92.8
-"Norwalk School District","=""1030011""","Rowayton School","=""1031311""","All Grades","Mile Run",90.2
-"Norwalk School District","=""1030011""","Silvermine Elementary School","=""1032311""","All Grades","Mile Run",81.4
-"Norwalk School District","=""1030011""","Tracey School","=""1031411""","All Grades","Mile Run",100.0
-"Norwalk School District","=""1030011""","West Rocks Middle School","=""1035411""","All Grades","Mile Run",58.2
-"Norwalk School District","=""1030011""","Wolfpit School","=""1032411""","All Grades","Mile Run",84.8
-"Norwich Free Academy District","=""9010022""","Norwich Free Academy","=""9016122""","All Grades","Mile Run",51.6
-"Norwich School District","=""1040011""","John B. Stanton Network School","=""1041411""","All Grades","Mile Run",69.4
-"Norwich School District","=""1040011""","Kelly Middle School","=""1045111""","All Grades","Mile Run",45.0
-"Norwich School District","=""1040011""","Moriarty Magnet School","=""1042011""","All Grades","Mile Run",71.1
-"Norwich School District","=""1040011""","Samuel Huntington School","=""1040811""","All Grades","Mile Run",83.7
-"Norwich School District","=""1040011""","Teachers' Memorial Middle School","=""1045211""","All Grades","Mile Run",57.2
-"Norwich School District","=""1040011""","Thames River Academy","=""1046111""","All Grades","Mile Run","*"
-"Norwich School District","=""1040011""","Thomas W. Mahan School","=""1041711""","All Grades","Mile Run",57.5
-"Norwich School District","=""1040011""","Uncas Network School","=""1041911""","All Grades","Mile Run",68.4
-"Norwich School District","=""1040011""","Veterans' Memorial School","=""1041811""","All Grades","Mile Run",50.9
-"Norwich School District","=""1040011""","Wequonnoc Magnet School","=""1041511""","All Grades","Mile Run",76.2
-"Odyssey Community School District","=""2630013""","Odyssey Community School","=""2635113""","All Grades","Mile Run",33.3
-"Old Saybrook School District","=""1060011""","Old Saybrook Middle School","=""1065211""","All Grades","Mile Run",87.3
-"Old Saybrook School District","=""1060011""","Old Saybrook Senior High School","=""1066111""","All Grades","Mile Run",61.2
-"Orange School District","=""1070011""","Peck Place School","=""1070511""","All Grades","Mile Run",72.3
-"Orange School District","=""1070011""","Race Brook School","=""1070311""","All Grades","Mile Run",82.1
-"Orange School District","=""1070011""","Turkey Hill School","=""1070411""","All Grades","Mile Run",76.5
-"Oxford School District","=""1080011""","Great Oak School","=""1085111""","All Grades","Mile Run",76.8
-"Oxford School District","=""1080011""","Oxford Center School","=""1080111""","All Grades","Mile Run",90.5
-"Oxford School District","=""1080011""","Oxford High School","=""1086011""","All Grades","Mile Run",82.0
-"Park City Prep Charter School District","=""2830013""","Park City Prep Charter School","=""2835113""","All Grades","Mile Run",16.4
-"Plainfield School District","=""1090011""","Plainfield Central School","=""1095111""","All Grades","Mile Run",60.3
-"Plainfield School District","=""1090011""","Plainfield High School","=""1096111""","All Grades","Mile Run",62.5
-"Plainfield School District","=""1090011""","Plainfield Memorial School","=""1090311""","All Grades","Mile Run",72.4
-"Plainville School District","=""1100011""","Frank T. Wheeler School","=""1100411""","All Grades","Mile Run",86.8
-"Plainville School District","=""1100011""","Linden Street School","=""1100211""","All Grades","Mile Run",57.6
-"Plainville School District","=""1100011""","Louis Toffolon School","=""1100511""","All Grades","Mile Run",68.3
-"Plainville School District","=""1100011""","Middle School of Plainville","=""1105211""","All Grades","Mile Run",80.6
-"Plainville School District","=""1100011""","Plainville High School","=""1106111""","All Grades","Mile Run",53.5
-"Plymouth School District","=""1110011""","Eli Terry Jr. Middle School","=""1115111""","All Grades","Mile Run",82.1
-"Plymouth School District","=""1110011""","Harry S. Fisher Elementary School","=""1110411""","All Grades","Mile Run",79.2
-"Plymouth School District","=""1110011""","Plymouth Center School","=""1110211""","All Grades","Mile Run",63.3
-"Plymouth School District","=""1110011""","Terryville High School","=""1116111""","All Grades","Mile Run",75.0
-"Pomfret School District","=""1120011""","Pomfret Community School","=""1120111""","All Grades","Mile Run",76.9
-"Portland School District","=""1130011""","Brownstone Intermediate School","=""1130511""","All Grades","Mile Run",83.2
-"Portland School District","=""1130011""","Gildersleeve School","=""1130411""","All Grades","Mile Run",87.3
-"Portland School District","=""1130011""","Portland High School","=""1136111""","All Grades","Mile Run",56.0
-"Portland School District","=""1130011""","Portland Middle School","=""1135111""","All Grades","Mile Run",53.5
-"Preston School District","=""1140011""","Preston Plains School","=""1145111""","All Grades","Mile Run",68.9
-"Preston School District","=""1140011""","Preston Veterans' Memorial School","=""1140411""","All Grades","Mile Run",84.2
-"Putnam School District","=""1160011""","Putnam Elementary School","=""1160311""","All Grades","Mile Run",84.7
-"Putnam School District","=""1160011""","Putnam High School","=""1166111""","All Grades","Mile Run",35.9
-"Putnam School District","=""1160011""","Putnam Middle School","=""1165111""","All Grades","Mile Run",56.8
-"Redding School District","=""1170011""","John Read Middle School","=""1175111""","All Grades","Mile Run",87.8
-"Redding School District","=""1170011""","Redding Elementary School","=""1170111""","All Grades","Mile Run",93.4
-"Regional School District 01","=""2010012""","Housatonic Valley Regional High School","=""2016112""","All Grades","Mile Run",74.8
-"Regional School District 04","=""2040012""","John Winthrop Middle School","=""2045112""","All Grades","Mile Run",86.5
-"Regional School District 04","=""2040012""","Valley Regional High School","=""2046112""","All Grades","Mile Run",88.8
-"Regional School District 05","=""2050012""","Amity Middle School: Bethany","=""2055112""","All Grades","Mile Run",89.6
-"Regional School District 05","=""2050012""","Amity Middle School: Orange","=""2055212""","All Grades","Mile Run",94.4
-"Regional School District 05","=""2050012""","Amity Regional High School","=""2056112""","All Grades","Mile Run",78.3
-"Regional School District 06","=""2060012""","Goshen Center School","=""2060112""","All Grades","Mile Run",87.5
-"Regional School District 06","=""2060012""","James Morris School","=""2060212""","All Grades","Mile Run",87.5
-"Regional School District 06","=""2060012""","Wamogo Regional High School","=""2066112""","All Grades","Mile Run",61.7
-"Regional School District 06","=""2060012""","Warren Elementary School","=""2060312""","All Grades","Mile Run",84.8
-"Regional School District 07","=""2070012""","Northwestern Regional High School","=""2076112""","All Grades","Mile Run",63.4
-"Regional School District 07","=""2070012""","Northwestern Regional Middle School","=""2075112""","All Grades","Mile Run",65.9
-"Regional School District 08","=""2080012""","RHAM High School","=""2086112""","All Grades","Mile Run",81.9
-"Regional School District 08","=""2080012""","RHAM Middle School","=""2085112""","All Grades","Mile Run",87.4
-"Regional School District 10","=""2100012""","Har-Bur Middle School","=""2105112""","All Grades","Mile Run",79.8
-"Regional School District 10","=""2100012""","Harwinton Consolidated School","=""2100312""","All Grades","Mile Run",77.0
-"Regional School District 10","=""2100012""","Lake Garda Elementary School","=""2100212""","All Grades","Mile Run",69.9
-"Regional School District 10","=""2100012""","Lewis S. Mills High School","=""2106112""","All Grades","Mile Run",58.9
-"Regional School District 11","=""2110012""","Parish Hill High School","=""2116112""","All Grades","Mile Run",67.9
-"Regional School District 12","=""2120012""","Booth Free School","=""2120212""","All Grades","Mile Run","*"
-"Regional School District 12","=""2120012""","Shepaug Valley High School","=""2126112""","All Grades","Mile Run",76.9
-"Regional School District 12","=""2120012""","Shepaug Valley Middle School","=""2125112""","All Grades","Mile Run",81.4
-"Regional School District 12","=""2120012""","The Burnham School","=""2120112""","All Grades","Mile Run","*"
-"Regional School District 12","=""2120012""","Washington Primary School","=""2120412""","All Grades","Mile Run",72.4
-"Regional School District 13","=""2130012""","Coginchaug Regional High School","=""2136112""","All Grades","Mile Run",67.4
-"Regional School District 13","=""2130012""","Francis E. Korn School","=""2130212""","All Grades","Mile Run",67.1
-"Regional School District 13","=""2130012""","Frank Ward Strong School","=""2135112""","All Grades","Mile Run",81.1
-"Regional School District 13","=""2130012""","John Lyman School","=""2130512""","All Grades","Mile Run",72.9
-"Regional School District 13","=""2130012""","Middlefield Memorial School","=""2130412""","All Grades","Mile Run",90.4
-"Regional School District 14","=""2140012""","Bethlehem Elementary School","=""2140112""","All Grades","Mile Run",65.0
-"Regional School District 14","=""2140012""","Mitchell Elementary School","=""2140212""","All Grades","Mile Run",64.8
-"Regional School District 14","=""2140012""","Nonnewaug High School","=""2146112""","All Grades","Mile Run",58.3
-"Regional School District 14","=""2140012""","Woodbury Middle School","=""2145112""","All Grades","Mile Run",84.6
-"Regional School District 15","=""2150012""","Gainfield Elementary School","=""2150412""","All Grades","Mile Run",71.9
-"Regional School District 15","=""2150012""","Long Meadow Elementary School","=""2150712""","All Grades","Mile Run",94.9
-"Regional School District 15","=""2150012""","Memorial Middle School","=""2155212""","All Grades","Mile Run",73.3
-"Regional School District 15","=""2150012""","Middlebury Elementary School","=""2150612""","All Grades","Mile Run",91.4
-"Regional School District 15","=""2150012""","Pomperaug Regional High School","=""2156212""","All Grades","Mile Run",71.1
-"Regional School District 15","=""2150012""","Pomperaug School","=""2150512""","All Grades","Mile Run",80.0
-"Regional School District 15","=""2150012""","Rochambeau Middle School","=""2155112""","All Grades","Mile Run",79.9
-"Regional School District 16","=""2160012""","Community School","=""2160212""","All Grades","Mile Run",80.4
-"Regional School District 16","=""2160012""","Laurel Ledge School","=""2160112""","All Grades","Mile Run",86.2
-"Regional School District 16","=""2160012""","Long River Middle School","=""2165112""","All Grades","Mile Run",75.8
-"Regional School District 16","=""2160012""","Woodland Regional High School","=""2166012""","All Grades","Mile Run",48.8
-"Regional School District 17","=""2170012""","Burr District Elementary School","=""2170212""","All Grades","Mile Run",84.7
-"Regional School District 17","=""2170012""","Haddam Elementary School","=""2170112""","All Grades","Mile Run",84.0
-"Regional School District 17","=""2170012""","Haddam-Killingworth High School","=""2176112""","All Grades","Mile Run",81.0
-"Regional School District 17","=""2170012""","Haddam-Killingworth Middle School","=""2175112""","All Grades","Mile Run",84.7
-"Regional School District 17","=""2170012""","Killingworth Elementary School","=""2170312""","All Grades","Mile Run",67.4
-"Regional School District 18","=""2180012""","Center School","=""2180312""","All Grades","Mile Run",88.3
-"Regional School District 18","=""2180012""","Lyme Consolidated School","=""2180112""","All Grades","Mile Run",73.1
-"Regional School District 18","=""2180012""","Lyme-Old Lyme High School","=""2186112""","All Grades","Mile Run",71.6
-"Regional School District 18","=""2180012""","Lyme-Old Lyme Middle School","=""2185112""","All Grades","Mile Run",82.0
-"Regional School District 19","=""2190012""","E. O. Smith High School","=""2196112""","All Grades","Mile Run",67.9
-"Ridgefield School District","=""1180011""","Barlow Mountain Elementary School","=""1180811""","All Grades","Mile Run",73.9
-"Ridgefield School District","=""1180011""","Branchville Elementary School","=""1180611""","All Grades","Mile Run",78.5
-"Ridgefield School District","=""1180011""","East Ridge Middle School","=""1185111""","All Grades","Mile Run",89.2
-"Ridgefield School District","=""1180011""","Farmingville Elementary School","=""1180411""","All Grades","Mile Run",65.5
-"Ridgefield School District","=""1180011""","Ridgebury Elementary School","=""1180311""","All Grades","Mile Run",75.9
-"Ridgefield School District","=""1180011""","Ridgefield High School","=""1186111""","All Grades","Mile Run",87.4
-"Ridgefield School District","=""1180011""","Scotland Elementary School","=""1180511""","All Grades","Mile Run",65.1
-"Ridgefield School District","=""1180011""","Scotts Ridge Middle School","=""1185211""","All Grades","Mile Run",72.4
-"Ridgefield School District","=""1180011""","Veterans Park Elementary School","=""1180211""","All Grades","Mile Run",75.0
-"Rocky Hill School District","=""1190011""","Albert D. Griswold Middle School","=""1195111""","All Grades","Mile Run",90.5
-"Rocky Hill School District","=""1190011""","Myrtle H. Stevens School","=""1190411""","All Grades","Mile Run",82.1
-"Rocky Hill School District","=""1190011""","Rocky Hill High School","=""1196111""","All Grades","Mile Run",70.5
-"Rocky Hill School District","=""1190011""","West Hill School","=""1190511""","All Grades","Mile Run",83.9
-"Salem School District","=""1210011""","Salem Elementary School","=""1210111""","All Grades","Mile Run",68.0
-"Salisbury School District","=""1220011""","Salisbury Central School","=""1220111""","All Grades","Mile Run",93.5
-"Scotland School District","=""1230011""","Scotland Elementary School","=""1230111""","All Grades","Mile Run",87.1
-"Seymour School District","=""1240011""","Anna L. Lopresti School","=""1240311""","All Grades","Mile Run",93.9
-"Seymour School District","=""1240011""","Bungay School","=""1240111""","All Grades","Mile Run",85.1
-"Seymour School District","=""1240011""","Paul E. Chatfield School","=""1240411""","All Grades","Mile Run",90.5
-"Seymour School District","=""1240011""","Seymour High School","=""1246111""","All Grades","Mile Run",65.1
-"Seymour School District","=""1240011""","Seymour Middle School","=""1245111""","All Grades","Mile Run",58.0
-"Sharon School District","=""1250011""","Sharon Center School","=""1250111""","All Grades","Mile Run",50.0
-"Shelton School District","=""1260011""","Booth Hill School","=""1261011""","All Grades","Mile Run",80.9
-"Shelton School District","=""1260011""","Elizabeth Shelton School","=""1260511""","All Grades","Mile Run",71.4
-"Shelton School District","=""1260011""","Intermediate School","=""1265111""","All Grades","Mile Run",83.8
-"Shelton School District","=""1260011""","Long Hill School","=""1260811""","All Grades","Mile Run",66.7
-"Shelton School District","=""1260011""","Mohegan School","=""1260911""","All Grades","Mile Run",74.5
-"Shelton School District","=""1260011""","Perry Hill Elementary School","=""1261111""","All Grades","Mile Run",92.4
-"Shelton School District","=""1260011""","Shelton High School","=""1266111""","All Grades","Mile Run",59.9
-"Shelton School District","=""1260011""","Sunnyside School","=""1260611""","All Grades","Mile Run",77.2
-"Sherman School District","=""1270011""","Sherman School","=""1270111""","All Grades","Mile Run",85.4
-"Side By Side Charter School District","=""2700013""","Side By Side Charter School","=""2700113""","All Grades","Mile Run",56.1
-"Simsbury School District","=""1280011""","Central School","=""1280111""","All Grades","Mile Run",64.7
-"Simsbury School District","=""1280011""","Henry James Memorial School","=""1285111""","All Grades","Mile Run",87.7
-"Simsbury School District","=""1280011""","Latimer Lane School","=""1280611""","All Grades","Mile Run",81.2
-"Simsbury School District","=""1280011""","Simsbury High School","=""1286111""","All Grades","Mile Run",83.9
-"Simsbury School District","=""1280011""","Squadron Line School","=""1280711""","All Grades","Mile Run",84.5
-"Simsbury School District","=""1280011""","Tariffville School","=""1280311""","All Grades","Mile Run",74.6
-"Simsbury School District","=""1280011""","Tootin' Hills School","=""1280411""","All Grades","Mile Run",87.8
-"Somers School District","=""1290011""","Mabelle B. Avery Middle School","=""1295111""","All Grades","Mile Run",80.8
-"Somers School District","=""1290011""","Somers Elementary School","=""1290411""","All Grades","Mile Run",78.8
-"Somers School District","=""1290011""","Somers High School","=""1296111""","All Grades","Mile Run",71.9
-"South Windsor School District","=""1320011""","Eli Terry School","=""1320711""","All Grades","Mile Run",69.2
-"South Windsor School District","=""1320011""","Orchard Hill School","=""1320611""","All Grades","Mile Run",89.0
-"South Windsor School District","=""1320011""","Philip R. Smith School","=""1320111""","All Grades","Mile Run",69.5
-"South Windsor School District","=""1320011""","Pleasant Valley School","=""1320211""","All Grades","Mile Run",59.4
-"South Windsor School District","=""1320011""","South Windsor High School","=""1326211""","All Grades","Mile Run",60.6
-"South Windsor School District","=""1320011""","Timothy Edwards School","=""1325111""","All Grades","Mile Run",84.5
-"South Windsor School District","=""1320011""","Wapping Elementary School","=""1320411""","All Grades","Mile Run",66.7
-"Southington School District","=""1310011""","Derynoski Elementary School","=""1311511""","All Grades","Mile Run",41.3
-"Southington School District","=""1310011""","Flanders Elementary School","=""1311311""","All Grades","Mile Run",32.6
-"Southington School District","=""1310011""","Hatton Elementary School","=""1310211""","All Grades","Mile Run",59.2
-"Southington School District","=""1310011""","John F. Kennedy Middle School","=""1315311""","All Grades","Mile Run",72.3
-"Southington School District","=""1310011""","Joseph A. Depaolo Middle School","=""1315111""","All Grades","Mile Run",80.8
-"Southington School District","=""1310011""","Plantsville Elementary School","=""1310611""","All Grades","Mile Run",91.5
-"Southington School District","=""1310011""","South End Elementary School","=""1310711""","All Grades","Mile Run",71.0
-"Southington School District","=""1310011""","Southington High School","=""1316211""","All Grades","Mile Run",80.6
-"Southington School District","=""1310011""","Strong Elementary School","=""1310811""","All Grades","Mile Run",72.1
-"Southington School District","=""1310011""","Thalberg Elementary School","=""1310911""","All Grades","Mile Run",84.2
-"Southington School District","=""1310011""","Urbin T. Kelley School","=""1311411""","All Grades","Mile Run",70.1
-"Sprague School District","=""1330011""","Sayles School","=""1330111""","All Grades","Mile Run",98.9
-"Stafford School District","=""1340011""","Stafford Elementary School","=""1340611""","All Grades","Mile Run",41.6
-"Stafford School District","=""1340011""","Stafford High School","=""1346111""","All Grades","Mile Run",53.4
-"Stafford School District","=""1340011""","Stafford Middle School","=""1345211""","All Grades","Mile Run",81.3
-"Stamford Academy District","=""2820013""","Stamford Academy","=""2826013""","All Grades","Mile Run","*"
-"Stamford School District","=""1350011""","Cloonan School","=""1355611""","All Grades","Mile Run",44.4
-"Stamford School District","=""1350011""","Davenport Ridge School","=""1352011""","All Grades","Mile Run",56.3
-"Stamford School District","=""1350011""","Dolan School","=""1355311""","All Grades","Mile Run",48.5
-"Stamford School District","=""1350011""","Hart School","=""1352211""","All Grades","Mile Run",51.6
-"Stamford School District","=""1350011""","Julia A. Stark School","=""1351211""","All Grades","Mile Run",61.6
-"Stamford School District","=""1350011""","K. T. Murphy School","=""1350511""","All Grades","Mile Run",66.7
-"Stamford School District","=""1350011""","Newfield School","=""1350611""","All Grades","Mile Run",73.8
-"Stamford School District","=""1350011""","Northeast School","=""1351811""","All Grades","Mile Run",70.3
-"Stamford School District","=""1350011""","Rippowam Middle School","=""1355811""","All Grades","Mile Run",35.7
-"Stamford School District","=""1350011""","Rogers International School","=""1350811""","All Grades","Mile Run",56.8
-"Stamford School District","=""1350011""","Roxbury School","=""1350911""","All Grades","Mile Run",57.3
-"Stamford School District","=""1350011""","Scofield Middle School","=""1355711""","All Grades","Mile Run",50.4
-"Stamford School District","=""1350011""","Springdale School","=""1351111""","All Grades","Mile Run",50.0
-"Stamford School District","=""1350011""","Stamford High School","=""1356111""","All Grades","Mile Run",51.5
-"Stamford School District","=""1350011""","Stillmeadow School","=""1352111""","All Grades","Mile Run",98.8
-"Stamford School District","=""1350011""","The Academy of Information Technology","=""1356411""","All Grades","Mile Run",50.0
-"Stamford School District","=""1350011""","Toquam Magnet School","=""1351911""","All Grades","Mile Run",65.1
-"Stamford School District","=""1350011""","Turn of River School","=""1355511""","All Grades","Mile Run",34.6
-"Stamford School District","=""1350011""","Westhill High School","=""1356311""","All Grades","Mile Run",49.7
-"Stamford School District","=""1350011""","Westover School","=""1351411""","All Grades","Mile Run",20.7
-"Sterling School District","=""1360011""","Sterling Community School","=""1360311""","All Grades","Mile Run",94.1
-"Stonington School District","=""1370011""","Deans Mill School","=""1370511""","All Grades","Mile Run",92.1
-"Stonington School District","=""1370011""","Mystic Middle School","=""1375211""","All Grades","Mile Run",91.3
-"Stonington School District","=""1370011""","Pawcatuck Middle School","=""1375111""","All Grades","Mile Run",86.3
-"Stonington School District","=""1370011""","Stonington High School","=""1376111""","All Grades","Mile Run",77.1
-"Stonington School District","=""1370011""","West Broad Street School","=""1370411""","All Grades","Mile Run",97.2
-"Stratford School District","=""1380011""","Bunnell High School","=""1386211""","All Grades","Mile Run",65.0
-"Stratford School District","=""1380011""","Chapel School","=""1380311""","All Grades","Mile Run",89.8
-"Stratford School District","=""1380011""","David Wooster Middle School","=""1385211""","All Grades","Mile Run",38.6
-"Stratford School District","=""1380011""","Eli Whitney School","=""1381311""","All Grades","Mile Run",78.8
-"Stratford School District","=""1380011""","Franklin School","=""1380411""","All Grades","Mile Run",47.5
-"Stratford School District","=""1380011""","Harry B. Flood Middle School","=""1385311""","All Grades","Mile Run",29.1
-"Stratford School District","=""1380011""","Lordship School","=""1380811""","All Grades","Mile Run",86.3
-"Stratford School District","=""1380011""","Nichols School","=""1380911""","All Grades","Mile Run",88.3
-"Stratford School District","=""1380011""","Second Hill Lane School","=""1381011""","All Grades","Mile Run",74.7
-"Stratford School District","=""1380011""","Stratford Academy - Johnson House","=""1381511""","All Grades","Mile Run",88.3
-"Stratford School District","=""1380011""","Stratford High School","=""1386111""","All Grades","Mile Run",68.4
-"Stratford School District","=""1380011""","Wilcoxson School","=""1381411""","All Grades","Mile Run",63.0
-"Suffield School District","=""1390011""","McAlister Intermediate School","=""1390311""","All Grades","Mile Run",89.7
-"Suffield School District","=""1390011""","Suffield High School","=""1396111""","All Grades","Mile Run",80.7
-"Suffield School District","=""1390011""","Suffield Middle School","=""1395111""","All Grades","Mile Run",76.7
-"The Bridge Academy District","=""2690013""","The Bridge Academy","=""2696113""","All Grades","Mile Run",89.2
-"The Gilbert School District","=""9020022""","The Gilbert School","=""9026122""","All Grades","Mile Run",60.1
-"Thomaston School District","=""1400011""","Thomaston Center School","=""1400211""","All Grades","Mile Run",84.8
-"Thomaston School District","=""1400011""","Thomaston High School","=""1406211""","All Grades","Mile Run",80.9
-"Thompson School District","=""1410011""","Mary R. Fisher Elementary School","=""1410111""","All Grades","Mile Run",52.9
-"Thompson School District","=""1410011""","Thompson Middle School","=""1415111""","All Grades","Mile Run",58.0
-"Thompson School District","=""1410011""","Tourtellotte Memorial High School","=""1416111""","All Grades","Mile Run",38.1
-"Tolland School District","=""1420011""","Tolland High School","=""1426111""","All Grades","Mile Run",70.5
-"Tolland School District","=""1420011""","Tolland Intermediate School","=""1420211""","All Grades","Mile Run",75.4
-"Tolland School District","=""1420011""","Tolland Middle School","=""1425111""","All Grades","Mile Run",80.3
-"Torrington School District","=""1430011""","East School","=""1430111""","All Grades","Mile Run",61.8
-"Torrington School District","=""1430011""","Forbes School","=""1430211""","All Grades","Mile Run",47.4
-"Torrington School District","=""1430011""","Southwest School","=""1430811""","All Grades","Mile Run",90.4
-"Torrington School District","=""1430011""","Torringford School","=""1430911""","All Grades","Mile Run",86.7
-"Torrington School District","=""1430011""","Torrington High School","=""1436111""","All Grades","Mile Run",54.7
-"Torrington School District","=""1430011""","Torrington Middle School","=""1435111""","All Grades","Mile Run",41.4
-"Torrington School District","=""1430011""","Vogel-Wetmore School","=""1431311""","All Grades","Mile Run",87.8
-"Trailblazers Academy District","=""2780013""","Trailblazers Academy","=""2785113""","All Grades","Mile Run",76.6
-"Trumbull School District","=""1440011""","Booth Hill School","=""1440111""","All Grades","Mile Run",93.5
-"Trumbull School District","=""1440011""","Daniels Farm School","=""1440811""","All Grades","Mile Run",74.0
-"Trumbull School District","=""1440011""","Frenchtown Elementary School","=""1441011""","All Grades","Mile Run",99.0
-"Trumbull School District","=""1440011""","Hillcrest Middle School","=""1445211""","All Grades","Mile Run",87.5
-"Trumbull School District","=""1440011""","Jane Ryan School","=""1440411""","All Grades","Mile Run",73.6
-"Trumbull School District","=""1440011""","Madison Middle School","=""1445111""","All Grades","Mile Run",78.5
-"Trumbull School District","=""1440011""","Middlebrook School","=""1440311""","All Grades","Mile Run",86.8
-"Trumbull School District","=""1440011""","Tashua School","=""1440911""","All Grades","Mile Run",84.5
-"Trumbull School District","=""1440011""","Trumbull High School","=""1446111""","All Grades","Mile Run",76.1
-"Union School District","=""1450011""","Union Elementary School","=""1450111""","All Grades","Mile Run",100.0
-"Vernon School District","=""1460011""","Center Road School","=""1461411""","All Grades","Mile Run",76.6
-"Vernon School District","=""1460011""","Lake Street School","=""1460111""","All Grades","Mile Run",62.2
-"Vernon School District","=""1460011""","Maple Street School","=""1460211""","All Grades","Mile Run",33.3
-"Vernon School District","=""1460011""","Northeast School","=""1460311""","All Grades","Mile Run",40.5
-"Vernon School District","=""1460011""","Rockville High School","=""1466111""","All Grades","Mile Run",89.6
-"Vernon School District","=""1460011""","Skinner Road School","=""1461011""","All Grades","Mile Run",74.1
-"Vernon School District","=""1460011""","Vernon Center Middle School","=""1465111""","All Grades","Mile Run",77.9
-"Voluntown School District","=""1470011""","Voluntown Elementary School","=""1470111""","All Grades","Mile Run",47.7
-"Wallingford School District","=""1480011""","Dag  Hammarskjold Middle School","=""1485211""","All Grades","Mile Run",51.9
-"Wallingford School District","=""1480011""","James H. Moran Middle School","=""1485311""","All Grades","Mile Run",67.5
-"Wallingford School District","=""1480011""","Lyman Hall High School","=""1486111""","All Grades","Mile Run",33.1
-"Wallingford School District","=""1480011""","Mark T. Sheehan High School","=""1486211""","All Grades","Mile Run",62.6
-"Wallingford School District","=""1480011""","Parker Farms School","=""1480311""","All Grades","Mile Run",77.5
-"Wallingford School District","=""1480011""","Pond Hill School","=""1481211""","All Grades","Mile Run",63.5
-"Wallingford School District","=""1480011""","Rock Hill School","=""1480411""","All Grades","Mile Run",60.6
-"Wallingford School District","=""1480011""","Yalesville School","=""1480811""","All Grades","Mile Run",88.6
-"Waterbury School District","=""1510011""","B. W. Tinker School","=""1512111""","All Grades","Mile Run",84.5
-"Waterbury School District","=""1510011""","Bucks Hill School","=""1510511""","All Grades","Mile Run",74.6
-"Waterbury School District","=""1510011""","Bunker Hill School","=""1510611""","All Grades","Mile Run",81.2
-"Waterbury School District","=""1510011""","Carrington School","=""1512711""","All Grades","Mile Run",54.9
-"Waterbury School District","=""1510011""","Crosby High School","=""1516211""","All Grades","Mile Run",47.6
-"Waterbury School District","=""1510011""","Driggs School","=""1510911""","All Grades","Mile Run",70.5
-"Waterbury School District","=""1510011""","Duggan School","=""1511611""","All Grades","Mile Run",70.5
-"Waterbury School District","=""1510011""","F. J. Kingsbury School","=""1511411""","All Grades","Mile Run",64.2
-"Waterbury School District","=""1510011""","Gilmartin School","=""1512611""","All Grades","Mile Run",51.0
-"Waterbury School District","=""1510011""","H. S. Chase School","=""1510711""","All Grades","Mile Run",87.2
-"Waterbury School District","=""1510011""","Hopeville School","=""1511311""","All Grades","Mile Run",72.6
-"Waterbury School District","=""1510011""","John F. Kennedy High School","=""1516411""","All Grades","Mile Run",54.2
-"Waterbury School District","=""1510011""","Maloney Interdistrict Magnet School","=""1513111""","All Grades","Mile Run",86.2
-"Waterbury School District","=""1510011""","Margaret M. Generali Elementary School","=""1511111""","All Grades","Mile Run",82.4
-"Waterbury School District","=""1510011""","Michael F. Wallace Middle School","=""1515111""","All Grades","Mile Run",60.8
-"Waterbury School District","=""1510011""","North End Middle School","=""1515311""","All Grades","Mile Run",61.6
-"Waterbury School District","=""1510011""","Regan School","=""1512811""","All Grades","Mile Run",88.4
-"Waterbury School District","=""1510011""","Rotella Interdistrict Magnet School","=""1513311""","All Grades","Mile Run",80.6
-"Waterbury School District","=""1510011""","Sprague School","=""1512011""","All Grades","Mile Run",80.9
-"Waterbury School District","=""1510011""","Walsh School","=""1512211""","All Grades","Mile Run",82.7
-"Waterbury School District","=""1510011""","Washington School","=""1512311""","All Grades","Mile Run",89.4
-"Waterbury School District","=""1510011""","Waterbury Arts Magnet School (High)","=""1516011""","All Grades","Mile Run","*"
-"Waterbury School District","=""1510011""","Waterbury Arts Magnet School (Middle)","=""1515011""","All Grades","Mile Run",80.4
-"Waterbury School District","=""1510011""","Wendell L. Cross School","=""1510811""","All Grades","Mile Run",67.3
-"Waterbury School District","=""1510011""","West Side Middle School","=""1515211""","All Grades","Mile Run",65.1
-"Waterbury School District","=""1510011""","Wilby High School","=""1516311""","All Grades","Mile Run",69.8
-"Waterbury School District","=""1510011""","Woodrow Wilson School","=""1513211""","All Grades","Mile Run",78.0
-"Waterford School District","=""1520011""","Clark Lane Middle School","=""1525111""","All Grades","Mile Run",70.2
-"Waterford School District","=""1520011""","Great Neck Elementary School","=""1520211""","All Grades","Mile Run",83.3
-"Waterford School District","=""1520011""","Oswegatchie Elementary School","=""1520611""","All Grades","Mile Run",76.8
-"Waterford School District","=""1520011""","Quaker Hill Elementary School","=""1520711""","All Grades","Mile Run",70.6
-"Waterford School District","=""1520011""","Waterford High School","=""1526111""","All Grades","Mile Run",71.8
-"Watertown School District","=""1530011""","Fletcher W. Judson School","=""1530311""","All Grades","Mile Run",79.6
-"Watertown School District","=""1530011""","Polk School","=""1530411""","All Grades","Mile Run",63.4
-"Watertown School District","=""1530011""","Swift Middle School","=""1535111""","All Grades","Mile Run",66.0
-"Watertown School District","=""1530011""","Watertown High School","=""1536111""","All Grades","Mile Run",69.6
-"West Hartford School District","=""1550011""","Aiken School","=""1551611""","All Grades","Mile Run",93.9
-"West Hartford School District","=""1550011""","Braeburn School","=""1550211""","All Grades","Mile Run",87.8
-"West Hartford School District","=""1550011""","Bristow Middle School","=""1555311""","All Grades","Mile Run",77.2
-"West Hartford School District","=""1550011""","Bugbee School","=""1550411""","All Grades","Mile Run",100.0
-"West Hartford School District","=""1550011""","Charter Oak International Academy","=""1550511""","All Grades","Mile Run",76.0
-"West Hartford School District","=""1550011""","Conard High School","=""1556111""","All Grades","Mile Run",78.0
-"West Hartford School District","=""1550011""","Duffy School","=""1550611""","All Grades","Mile Run",93.9
-"West Hartford School District","=""1550011""","Hall High School","=""1556211""","All Grades","Mile Run",79.4
-"West Hartford School District","=""1550011""","King Philip Middle School","=""1555111""","All Grades","Mile Run",75.0
-"West Hartford School District","=""1550011""","Morley School","=""1550911""","All Grades","Mile Run",98.4
-"West Hartford School District","=""1550011""","Norfeldt School","=""1551011""","All Grades","Mile Run",82.9
-"West Hartford School District","=""1550011""","Sedgwick Middle School","=""1555211""","All Grades","Mile Run",78.1
-"West Hartford School District","=""1550011""","Smith School","=""1551711""","All Grades","Mile Run",74.6
-"West Hartford School District","=""1550011""","Webster Hill School","=""1551211""","All Grades","Mile Run",55.6
-"West Hartford School District","=""1550011""","Whiting Lane School","=""1551311""","All Grades","Mile Run",88.7
-"West Hartford School District","=""1550011""","Wolcott School","=""1551511""","All Grades","Mile Run",48.6
-"West Haven School District","=""1560011""","Alma E. Pagels School","=""1560811""","All Grades","Mile Run",65.1
-"West Haven School District","=""1560011""","Carrigan 5/6 Intermediate School","=""1565311""","All Grades","Mile Run",43.7
-"West Haven School District","=""1560011""","Edith E. Mackrille School","=""1560611""","All Grades","Mile Run",81.5
-"West Haven School District","=""1560011""","Forest School","=""1560311""","All Grades","Mile Run",61.8
-"West Haven School District","=""1560011""","Harry M. Bailey Middle School","=""1565111""","All Grades","Mile Run",34.0
-"West Haven School District","=""1560011""","Savin Rock Community School","=""1561411""","All Grades","Mile Run",67.8
-"West Haven School District","=""1560011""","Seth G. Haley School","=""1560411""","All Grades","Mile Run",77.5
-"West Haven School District","=""1560011""","Washington School","=""1561211""","All Grades","Mile Run",66.7
-"West Haven School District","=""1560011""","West Haven High School","=""1566111""","All Grades","Mile Run",32.0
-"Westbrook School District","=""1540011""","Daisy Ingraham School","=""1540211""","All Grades","Mile Run",92.7
-"Westbrook School District","=""1540011""","Westbrook High School","=""1546111""","All Grades","Mile Run",93.8
-"Westbrook School District","=""1540011""","Westbrook Middle School","=""1545111""","All Grades","Mile Run",91.0
-"Weston School District","=""1570011""","Weston High School","=""1576111""","All Grades","Mile Run",77.6
-"Weston School District","=""1570011""","Weston Intermediate School","=""1570211""","All Grades","Mile Run",95.9
-"Weston School District","=""1570011""","Weston Middle School","=""1575111""","All Grades","Mile Run",93.4
-"Westport School District","=""1580011""","Bedford Middle School","=""1585111""","All Grades","Mile Run",89.0
-"Westport School District","=""1580011""","Coleytown Elementary School","=""1580311""","All Grades","Mile Run",83.8
-"Westport School District","=""1580011""","Coleytown Middle School","=""1585311""","All Grades","Mile Run",81.3
-"Westport School District","=""1580011""","Green's Farms School","=""1580411""","All Grades","Mile Run",91.1
-"Westport School District","=""1580011""","King's Highway Elementary School","=""1580511""","All Grades","Mile Run",83.5
-"Westport School District","=""1580011""","Long Lots School","=""1580711""","All Grades","Mile Run",85.9
-"Westport School District","=""1580011""","Saugatuck Elementary School","=""1580811""","All Grades","Mile Run",84.7
-"Westport School District","=""1580011""","Staples High School","=""1586111""","All Grades","Mile Run",86.4
-"Wethersfield School District","=""1590011""","Alfred W. Hanmer School","=""1590811""","All Grades","Mile Run",50.4
-"Wethersfield School District","=""1590011""","Charles Wright School","=""1591011""","All Grades","Mile Run",83.1
-"Wethersfield School District","=""1590011""","Emerson-Williams School","=""1590211""","All Grades","Mile Run",85.7
-"Wethersfield School District","=""1590011""","Highcrest School","=""1591111""","All Grades","Mile Run",89.6
-"Wethersfield School District","=""1590011""","Samuel B. Webb Elementary School","=""1591211""","All Grades","Mile Run",80.0
-"Wethersfield School District","=""1590011""","Silas Deane Middle School","=""1595211""","All Grades","Mile Run",74.6
-"Wethersfield School District","=""1590011""","Wethersfield High School","=""1596111""","All Grades","Mile Run",69.8
-"Willington School District","=""1600011""","Hall Memorial School","=""1605111""","All Grades","Mile Run",78.2
-"Wilton School District","=""1610011""","Cider Mill School","=""1610711""","All Grades","Mile Run",76.8
-"Wilton School District","=""1610011""","Middlebrook School","=""1615211""","All Grades","Mile Run",95.5
-"Wilton School District","=""1610011""","Wilton High School","=""1616111""","All Grades","Mile Run",97.5
-"Winchester School District","=""1620011""","Mary P. Hinsdale School","=""1620211""","All Grades","Mile Run",45.5
-"Winchester School District","=""1620011""","Pearson Middle School","=""1625111""","All Grades","Mile Run",49.5
-"Windham School District","=""1630011""","Natchaug School","=""1630111""","All Grades","Mile Run",70.8
-"Windham School District","=""1630011""","North Windham School","=""1630311""","All Grades","Mile Run",72.4
-"Windham School District","=""1630011""","W. B. Sweeney School","=""1630611""","All Grades","Mile Run",70.0
-"Windham School District","=""1630011""","Windham Center School","=""1630511""","All Grades","Mile Run",60.0
-"Windham School District","=""1630011""","Windham High School","=""1636111""","All Grades","Mile Run",45.1
-"Windham School District","=""1630011""","Windham Middle School","=""1635111""","All Grades","Mile Run",50.8
-"Windsor Locks School District","=""1650011""","South Elementary School","=""1650411""","All Grades","Mile Run",66.1
-"Windsor Locks School District","=""1650011""","Windsor Locks High School","=""1656111""","All Grades","Mile Run",63.1
-"Windsor Locks School District","=""1650011""","Windsor Locks Middle School","=""1655111""","All Grades","Mile Run",45.6
-"Windsor School District","=""1640011""","Clover Street School","=""1640111""","All Grades","Mile Run",61.3
-"Windsor School District","=""1640011""","John F. Kennedy School","=""1640811""","All Grades","Mile Run",42.4
-"Windsor School District","=""1640011""","Oliver Ellsworth School","=""1640911""","All Grades","Mile Run",66.2
-"Windsor School District","=""1640011""","Poquonock Elementary School","=""1640511""","All Grades","Mile Run",71.7
-"Windsor School District","=""1640011""","Sage Park Middle School","=""1645311""","All Grades","Mile Run",60.3
-"Windsor School District","=""1640011""","Windsor High School","=""1646111""","All Grades","Mile Run",43.8
-"Wolcott School District","=""1660011""","Alcott School","=""1660611""","All Grades","Mile Run",96.2
-"Wolcott School District","=""1660011""","Frisbie School","=""1660211""","All Grades","Mile Run",79.7
-"Wolcott School District","=""1660011""","Tyrrell Middle School","=""1665111""","All Grades","Mile Run",79.3
-"Wolcott School District","=""1660011""","Wakelee School","=""1660511""","All Grades","Mile Run",89.2
-"Wolcott School District","=""1660011""","Wolcott High School","=""1666111""","All Grades","Mile Run",81.3
-"Woodbridge School District","=""1670011""","Beecher Road Intermediate School","=""1670211""","All Grades","Mile Run",73.7
-"Woodstock Academy District","=""9030022""","Woodstock Academy","=""9036122""","All Grades","Mile Run",86.9
-"Woodstock School District","=""1690011""","Woodstock Elementary School","=""1690211""","All Grades","Mile Run",65.3
-"Woodstock School District","=""1690011""","Woodstock Middle School","=""1695111""","All Grades","Mile Run",79.7
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+    
+
+
+<head>
+    <meta charset="UTF-8" />
+    <title>
+    	
+    		
+    		
+    			SAS&reg; Logon Manager
+    		
+    	
+    </title>
+    <link type="text/css" rel="stylesheet" href="themes/default/css/bootstrap.css" />
+    <link type="text/css" rel="stylesheet" href="themes/default/css/sas.css" />
+</head>
+
+
+
+<body id="cas">
+	<div id="page">
+		
+
+<div class="banner row">
+    <div class="about">
+        <ul class="unstyled"><li>
+            <a href="#about-modal" data-toggle="modal">
+                About
+            </a>
+        </li></ul>
+    </div>
+    <div id="about-modal" class="modal hide fade">
+        <div class="modal-header">
+            <a href="#" class="close" data-dismiss="modal">&times;</a>
+            <h3>About</h3>
+        </div>
+        <div class="modal-body">
+            <p>Version: 9.4</p>
+            <h4>Copyright Information</h4>
+            <p align="center">
+Copyright (c) 2002 - 2013 by SAS Institute Inc., Cary, NC, USA<br/>
+All rights reserved.<br/>
+<br/>
+This software is protected by copyright laws and international treaties.<br/>
+<br/>
+U.S. GOVERNMENT RESTRICTED RIGHTS<br/>
+Use, duplication, or disclosure of this software and related<br/>
+documentation by the U.S. government is subject to the<br/>
+Agreement with SAS Institute and the restrictions set forth<br/>
+in FAR 52.227-19, Commercial Computer Software<br/>
+- Restricted Rights (June 1987).
+            </p>
+        </div>
+    </div>
+    <div class="header">
+        <div class="title">
+        	<h1>
+        		
+		    		
+		    		
+		    			Sign In to SAS<sup>&reg;</sup>
+		    		
+    			
+        	</h1>
+       	</div>
+        <div class="logo"><img src="themes/default/images/logo.png" /></div>
+    </div>
+</div>
+
+
+		<div class="content row">
+			
+                <form id="fm1" class="form-stacked" onSubmit="return setSubmitUrl(this);" action="/SASLogon/login;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=2336E91F5141A79405B394F096C8DA82.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1?service=http://edsight.ct.gov/SASStoredProcess/j_spring_cas_security_check" method="post">
+				<fieldset>
+					
+					
+					
+                        <legend>Sign In to SAS<sup>&reg;</sup></legend>
+					<div class="clearfix">
+                            <label for="username"><span class="accesskey">U</span>ser ID:</label>
+						
+							
+							
+                                    
+                                    <input id="username" name="username" class="required" tabindex="1" accesskey="u" type="text" value="" size="25" autocomplete="off"/>
+							
+						
+					</div>
+					<div class="clearfix">
+                            <label for="password"><span class="accesskey">P</span>assword:</label>
+						
+                            
+                            <input id="password" name="password" class="required" tabindex="2" accesskey="p" type="password" value="" size="25" autocomplete="off"/>
+					</div>
+				</fieldset>
+				<input type="hidden" name="lt" value="LT-11235-3dyrUnPh9m5a9LSF6yNAa2MSbbfPqi" />
+				<input type="hidden" name="execution" value="e1s1" />
+				<input type="hidden" name="_eventId" value="submit" />
+                    <div class="submitb"><input id="Logon" type="submit" value="Sign In" onClick="this.disabled=true;this.form.submit();" tabindex="3" /></div>
+			</form>
+			
+				<div class="customizations" id="custom-logon-message">
+                  	
+
+
+<p>
+
+</p>
+
+
+ 
+ 
+				</div>
+			
+
+			<div class="copyright">
+				Copyright &copy; 2002 - 2013 by SAS Institute Inc., Cary, NC USA
+			</div>
+		</div>
+	</div>
+	
+<script type="text/javascript" src="/SASLogon/js/jquery.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=2336E91F5141A79405B394F096C8DA82.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
+<script type="text/javascript" src="/SASLogon/js/bootstrap-modal.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=2336E91F5141A79405B394F096C8DA82.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
+
+	<script type="text/javascript">
+            $("#username").focus();
+            
+            function setSubmitUrl(form)
+            {
+            	var urlHash = decodeURIComponent(window.location.hash);
+            	
+            	if (urlHash && urlHash.indexOf("#") === -1)
+            		urlHash = "#" + urlHash;
+            	
+            	form.action = form.action + urlHash;
+            	return true;
+            }
+    </script>
+</body>
+
+</html>
+
+
 

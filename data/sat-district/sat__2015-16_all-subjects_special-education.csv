@@ -1,99 +1,567 @@
-<html><head><title>VMware vFabric tc Runtime 2.8.0.RELEASE/7.0.30.A.RELEASE - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 500 - java.net.BindException: Address already in use: connect</h1><HR size="1" noshade="noshade"><p><b>type</b> Exception report</p><p><b>message</b> <u>java.net.BindException: Address already in use: connect</u></p><p><b>description</b> <u>The server encountered an internal error that prevented it from fulfilling this request.</u></p><p><b>exception</b> <pre>java.lang.RuntimeException: java.net.BindException: Address already in use: connect
-	com.sas.svcs.security.authentication.validation.jasig.HttpClientResponseRetriever.getResponseFromServer(HttpClientResponseRetriever.java:113)
-	com.sas.svcs.security.authentication.validation.jasig.AbstractCasProtocolUrlBasedTicketValidator.retrieveResponseFromServer(AbstractCasProtocolUrlBasedTicketValidator.java:44)
-	org.jasig.cas.client.validation.AbstractUrlBasedTicketValidator.validate(AbstractUrlBasedTicketValidator.java:187)
-	com.sas.svcs.security.authentication.validation.ServiceTicketValidator.validate(ServiceTicketValidator.java:79)
-	org.springframework.security.cas.authentication.CasAuthenticationProvider.authenticateNow(CasAuthenticationProvider.java:140)
-	org.springframework.security.cas.authentication.CasAuthenticationProvider.authenticate(CasAuthenticationProvider.java:126)
-	com.sas.svcs.security.authentication.provider.AuthenticationProvider.authenticate(AuthenticationProvider.java:85)
-	org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:156)
-	org.springframework.security.cas.web.CasAuthenticationFilter.attemptAuthentication(CasAuthenticationFilter.java:242)
-	org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:194)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.session.jasig.SingleSignOutFilter.doFilterInternal(SingleSignOutFilter.java:60)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.RevokableTokenLogoutFilter.doFilter(RevokableTokenLogoutFilter.java:38)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.CsrfRefererCheckerFilter.doFilterInternal(CsrfRefererCheckerFilter.java:469)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.framework.webapp.servlet.ApplicationNameFilter.onDoFilter(ApplicationNameFilter.java:46)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:173)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.services.storedprocess.webapp.SPFilter.onDoFilter(SPFilter.java:268)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.servlet.filters.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:62)
-	com.sas.framework.webapp.servlet.SanitizingRequestFilter.onDoFilter(SanitizingRequestFilter.java:86)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-</pre></p><p><b>root cause</b> <pre>java.net.BindException: Address already in use: connect
-	java.net.DualStackPlainSocketImpl.connect0(Native Method)
-	java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
-	java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
-	java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
-	java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
-	java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	java.net.Socket.connect(Socket.java:579)
-	java.net.Socket.connect(Socket.java:528)
-	java.net.Socket.&lt;init&gt;(Socket.java:425)
-	java.net.Socket.&lt;init&gt;(Socket.java:280)
-	org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:80)
-	com.sas.svcs.remoting.client.SocketFactory.createSocket(SocketFactory.java:49)
-	org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:122)
-	com.sas.svcs.remoting.client.SocketFactory.createSocket(SocketFactory.java:63)
-	org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:707)
-	org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:387)
-	org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
-	org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
-	org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
-	com.sas.svcs.security.authentication.validation.jasig.HttpClientResponseRetriever.getResponseFromServer(HttpClientResponseRetriever.java:109)
-	com.sas.svcs.security.authentication.validation.jasig.AbstractCasProtocolUrlBasedTicketValidator.retrieveResponseFromServer(AbstractCasProtocolUrlBasedTicketValidator.java:44)
-	org.jasig.cas.client.validation.AbstractUrlBasedTicketValidator.validate(AbstractUrlBasedTicketValidator.java:187)
-	com.sas.svcs.security.authentication.validation.ServiceTicketValidator.validate(ServiceTicketValidator.java:79)
-	org.springframework.security.cas.authentication.CasAuthenticationProvider.authenticateNow(CasAuthenticationProvider.java:140)
-	org.springframework.security.cas.authentication.CasAuthenticationProvider.authenticate(CasAuthenticationProvider.java:126)
-	com.sas.svcs.security.authentication.provider.AuthenticationProvider.authenticate(AuthenticationProvider.java:85)
-	org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:156)
-	org.springframework.security.cas.web.CasAuthenticationFilter.attemptAuthentication(CasAuthenticationFilter.java:242)
-	org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:194)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.session.jasig.SingleSignOutFilter.doFilterInternal(SingleSignOutFilter.java:60)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.RevokableTokenLogoutFilter.doFilter(RevokableTokenLogoutFilter.java:38)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.CsrfRefererCheckerFilter.doFilterInternal(CsrfRefererCheckerFilter.java:469)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.framework.webapp.servlet.ApplicationNameFilter.onDoFilter(ApplicationNameFilter.java:46)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:173)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.services.storedprocess.webapp.SPFilter.onDoFilter(SPFilter.java:268)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.servlet.filters.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:62)
-	com.sas.framework.webapp.servlet.SanitizingRequestFilter.onDoFilter(SanitizingRequestFilter.java:86)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-</pre></p><p><b>note</b> <u>The full stack trace of the root cause is available in the VMware vFabric tc Runtime 2.8.0.RELEASE/7.0.30.A.RELEASE logs.</u></p><HR size="1" noshade="noshade"><h3>VMware vFabric tc Runtime 2.8.0.RELEASE/7.0.30.A.RELEASE</h3></body></html>
+"CT School Day SAT, 2015-16"
+"All Districts, All Subjects, Special Education Status (SWD)"
+
+"",,,,,"Level 1Not Met",,"Level 2Approaching",,"Level 3Met",,"Level 4Exceeded",,"Level 3&4Met or Exceeded",,""
+"District","District Code","Subject","Special Education","Total Numberwith Scored Tests","Count","%","Count","%","Count","%","Count","%","Count","%","AverageScore"
+"Achievement First Hartford Academy Inc. District","=""2880013""","ELA","N","*","*","*","*","*","*","*","*","*","*","*","*"
+"Achievement First Hartford Academy Inc. District","=""2880013""","ELA","Y","*","*","*","*","*","*","*","*","*","*","*","*"
+"Achievement First Hartford Academy Inc. District","=""2880013""","Math","N","*",0,0.0,"*","*","*","*","*","*","*","*","*"
+"Achievement First Hartford Academy Inc. District","=""2880013""","Math","Y","*","*","*","*","*","*","*","*","*","*","*","*"
+"Amistad Academy District","=""2790013""","ELA","N",44,6,13.6,"*","*",28,63.6,"*","*","*","*",515
+"Amistad Academy District","=""2790013""","Math","N",44,11,25.0,23,52.3,"*","*","*","*",10,22.7,470
+"Ansonia School District","=""0020011""","ELA","N",124,"*","*","*","*","*","*","*","*","*","*",485
+"Ansonia School District","=""0020011""","ELA","Y",14,"*","*","*","*","*","*","*","*","*","*","*"
+"Ansonia School District","=""0020011""","Math","N",124,"*","*","*","*","*","*","*","*","*","*",455
+"Ansonia School District","=""0020011""","Math","Y",14,"*","*","*","*","*","*","*","*","*","*","*"
+"Area Cooperative Educational Services","=""2440014""","ELA","Y",18,"*","*","*","*","*","*","*","*","*","*","*"
+"Area Cooperative Educational Services","=""2440014""","Math","Y",16,"*","*","*","*","*","*","*","*","*","*","*"
+"Avon School District","=""0040011""","ELA","N",220,"*","*","*","*",94,42.7,111,50.5,205,93.2,616
+"Avon School District","=""0040011""","ELA","Y",23,"*","*","*","*",8,34.8,6,26.1,14,60.9,527
+"Avon School District","=""0040011""","Math","N",221,"*","*",38,17.2,94,42.5,"*","*","*","*",615
+"Avon School District","=""0040011""","Math","Y",23,"*","*",6,26.1,7,30.4,"*","*","*","*",486
+"Berlin School District","=""0070011""","ELA","N",208,12,5.8,32,15.4,140,67.3,24,11.5,164,78.8,541
+"Berlin School District","=""0070011""","ELA","Y",22,10,45.5,6,27.3,6,27.3,0,0.0,6,27.3,443
+"Berlin School District","=""0070011""","Math","N",208,17,8.2,78,37.5,92,44.2,21,10.1,113,54.3,538
+"Berlin School District","=""0070011""","Math","Y",22,14,63.6,8,36.4,0,0.0,0,0.0,0,0.0,398
+"Bethel School District","=""0090011""","ELA","N",181,"*","*","*","*","*","*","*","*","*","*",553
+"Bethel School District","=""0090011""","ELA","Y",13,"*","*","*","*","*","*","*","*","*","*","*"
+"Bethel School District","=""0090011""","Math","N",181,"*","*","*","*","*","*","*","*","*","*",540
+"Bethel School District","=""0090011""","Math","Y",13,"*","*","*","*","*","*","*","*","*","*","*"
+"Bloomfield School District","=""0110011""","ELA","N",150,"*","*","*","*","*","*","*","*","*","*",475
+"Bloomfield School District","=""0110011""","ELA","Y",16,"*","*","*","*","*","*","*","*","*","*","*"
+"Bloomfield School District","=""0110011""","Math","N",150,"*","*","*","*","*","*","*","*","*","*",461
+"Bloomfield School District","=""0110011""","Math","Y",16,"*","*","*","*","*","*","*","*","*","*","*"
+"Bolton School District","=""0120011""","ELA","N","*","*","*","*","*","*","*","*","*","*","*","*"
+"Bolton School District","=""0120011""","ELA","Y","*","*","*","*","*","*","*","*","*","*","*","*"
+"Bolton School District","=""0120011""","Math","N","*","*","*","*","*","*","*","*","*","*","*","*"
+"Bolton School District","=""0120011""","Math","Y","*","*","*","*","*","*","*","*","*","*","*","*"
+"Branford School District","=""0140011""","ELA","N",207,"*","*",43,20.8,100,48.3,"*","*","*","*",537
+"Branford School District","=""0140011""","ELA","Y",38,20,52.6,9,23.7,"*","*","*","*",9,23.7,423
+"Branford School District","=""0140011""","Math","N",207,33,15.9,93,44.9,"*","*","*","*","*","*",515
+"Branford School District","=""0140011""","Math","Y",38,24,63.2,"*","*","*","*",0,0.0,"*","*",407
+"Bridgeport Achievement First District","=""2850013""","ELA","N",34,"*","*","*","*",25,73.5,"*","*","*","*",515
+"Bridgeport Achievement First District","=""2850013""","Math","N","*","*","*","*","*","*","*",0,0.0,"*","*","*"
+"Bridgeport Achievement First District","=""2850013""","Math","Y","*","*","*","*","*","*","*","*","*","*","*","*"
+"Bridgeport School District","=""0150011""","ELA","N",915,370,40.4,252,27.5,"*","*","*","*","*","*",444
+"Bridgeport School District","=""0150011""","ELA","Y",107,86,80.4,16,15.0,"*","*","*","*","*","*",381
+"Bridgeport School District","=""0150011""","Math","N",914,424,46.4,389,42.6,"*","*","*","*","*","*",429
+"Bridgeport School District","=""0150011""","Math","Y",106,92,86.8,"*","*","*","*",0,0.0,"*","*",362
+"Bristol School District","=""0170011""","ELA","N",475,"*","*",89,18.7,303,63.8,"*","*","*","*",531
+"Bristol School District","=""0170011""","ELA","Y",79,45,57.0,"*","*",18,22.8,"*","*","*","*",418
+"Bristol School District","=""0170011""","Math","N",475,58,12.2,233,49.1,"*","*","*","*","*","*",506
+"Bristol School District","=""0170011""","Math","Y",79,49,62.0,"*","*","*","*",0,0.0,"*","*",406
+"Brookfield School District","=""0180011""","ELA","N",200,"*","*","*","*",126,63.0,57,28.5,183,91.5,579
+"Brookfield School District","=""0180011""","ELA","Y",23,"*","*",9,39.1,"*","*",0,0.0,"*","*",443
+"Brookfield School District","=""0180011""","Math","N",200,7,3.5,69,34.5,"*","*","*","*","*","*",555
+"Brookfield School District","=""0180011""","Math","Y",23,9,39.1,12,52.2,"*","*","*","*","*","*",424
+"Brooklyn School District","=""0190011""","ELA","Y","*","*","*","*","*","*","*","*","*","*","*","*"
+"Brooklyn School District","=""0190011""","Math","Y","*","*","*","*","*","*","*","*","*","*","*","*"
+"Canton School District","=""0230011""","ELA","N",103,"*","*","*","*","*","*","*","*","*","*",586
+"Canton School District","=""0230011""","ELA","Y",13,"*","*","*","*","*","*","*","*","*","*","*"
+"Canton School District","=""0230011""","Math","N",103,"*","*","*","*","*","*","*","*","*","*",563
+"Canton School District","=""0230011""","Math","Y",13,"*","*","*","*","*","*","*","*","*","*","*"
+"Capital Preparatory Harbor School Inc. District","=""2970013""","ELA","N","*","*","*","*","*","*","*",0,0.0,"*","*","*"
+"Capital Preparatory Harbor School Inc. District","=""2970013""","ELA","Y","*","*","*","*","*","*","*","*","*","*","*","*"
+"Capital Preparatory Harbor School Inc. District","=""2970013""","Math","N","*","*","*","*","*","*","*",0,0.0,"*","*","*"
+"Capital Preparatory Harbor School Inc. District","=""2970013""","Math","Y","*","*","*","*","*","*","*","*","*","*","*","*"
+"Capitol Region Education Council","=""2410014""","ELA","N",430,"*","*",103,24.0,177,41.2,"*","*","*","*",517
+"Capitol Region Education Council","=""2410014""","ELA","Y",57,30,52.6,14,24.6,"*","*","*","*",13,22.8,420
+"Capitol Region Education Council","=""2410014""","Math","N",430,115,26.7,203,47.2,"*","*","*","*","*","*",480
+"Capitol Region Education Council","=""2410014""","Math","Y",57,42,73.7,"*","*","*","*",0,0.0,"*","*",384
+"Cheshire School District","=""0250011""","ELA","N",343,7,2.0,28,8.2,208,60.6,100,29.2,308,89.8,577
+"Cheshire School District","=""0250011""","ELA","Y",31,12,38.7,8,25.8,11,35.5,0,0.0,11,35.5,454
+"Cheshire School District","=""0250011""","Math","N",343,"*","*",90,26.2,"*","*",82,23.9,"*","*",574
+"Cheshire School District","=""0250011""","Math","Y",31,"*","*",17,54.8,"*","*",0,0.0,"*","*",429
+"Clinton School District","=""0270011""","ELA","N",116,"*","*","*","*","*","*","*","*","*","*",546
+"Clinton School District","=""0270011""","ELA","Y",9,"*","*","*","*","*","*","*","*","*","*","*"
+"Clinton School District","=""0270011""","Math","N",116,"*","*","*","*","*","*","*","*","*","*",483
+"Clinton School District","=""0270011""","Math","Y",8,"*","*","*","*","*","*","*","*","*","*","*"
+"Colchester School District","=""0280011""","ELA","N",175,"*","*","*","*","*","*","*","*","*","*",563
+"Colchester School District","=""0280011""","ELA","Y",19,"*","*","*","*","*","*","*","*","*","*","*"
+"Colchester School District","=""0280011""","Math","N",175,"*","*","*","*","*","*","*","*","*","*",526
+"Colchester School District","=""0280011""","Math","Y",18,"*","*","*","*","*","*","*","*","*","*","*"
+"Common Ground High School District","=""2680013""","ELA","N",33,"*","*","*","*","*","*","*","*","*","*",461
+"Common Ground High School District","=""2680013""","ELA","Y",6,"*","*","*","*","*","*","*","*","*","*","*"
+"Common Ground High School District","=""2680013""","Math","N",33,"*","*","*","*","*","*","*","*","*","*",434
+"Common Ground High School District","=""2680013""","Math","Y",6,"*","*","*","*","*","*","*","*","*","*","*"
+"Connecticut Technical High School System","=""9000016""","ELA","N",2273,"*","*",722,31.8,977,43.0,"*","*","*","*",474
+"Connecticut Technical High School System","=""9000016""","ELA","Y",172,105,61.0,45,26.2,"*","*","*","*",22,12.8,411
+"Connecticut Technical High School System","=""9000016""","Math","N",2272,726,32.0,1204,53.0,"*","*","*","*",342,15.1,450
+"Connecticut Technical High School System","=""9000016""","Math","Y",172,114,66.3,51,29.7,"*","*","*","*",7,4.1,398
+"Cooperative Educational Services","=""2430014""","ELA","Y",10,"*","*","*","*","*","*","*","*","*","*","*"
+"Cooperative Educational Services","=""2430014""","Math","Y",10,"*","*","*","*","*","*","*","*","*","*","*"
+"Coventry School District","=""0320011""","ELA","N",118,"*","*","*","*","*","*","*","*","*","*",549
+"Coventry School District","=""0320011""","ELA","Y",10,"*","*","*","*","*","*","*","*","*","*","*"
+"Coventry School District","=""0320011""","Math","N",118,"*","*","*","*","*","*","*","*","*","*",527
+"Coventry School District","=""0320011""","Math","Y",10,"*","*","*","*","*","*","*","*","*","*","*"
+"Cromwell School District","=""0330011""","ELA","N",127,"*","*","*","*","*","*","*","*","*","*",547
+"Cromwell School District","=""0330011""","ELA","Y",19,"*","*","*","*","*","*","*","*","*","*","*"
+"Cromwell School District","=""0330011""","Math","N",127,"*","*","*","*","*","*","*","*","*","*",529
+"Cromwell School District","=""0330011""","Math","Y",19,"*","*","*","*","*","*","*","*","*","*","*"
+"Danbury School District","=""0340011""","ELA","N",578,129,22.3,125,21.6,"*","*","*","*","*","*",497
+"Danbury School District","=""0340011""","ELA","Y",64,50,78.1,"*","*","*","*",0,0.0,"*","*",381
+"Danbury School District","=""0340011""","Math","N",578,175,30.3,245,42.4,125,21.6,33,5.7,158,27.3,472
+"Danbury School District","=""0340011""","Math","Y",63,50,79.4,13,20.6,0,0.0,0,0.0,0,0.0,372
+"Darien School District","=""0350011""","ELA","N",274,"*","*","*","*",104,38.0,"*","*","*","*",632
+"Darien School District","=""0350011""","ELA","Y",38,"*","*","*","*",26,68.4,"*","*","*","*",524
+"Darien School District","=""0350011""","Math","N",274,"*","*",23,8.4,109,39.8,"*","*","*","*",643
+"Darien School District","=""0350011""","Math","Y",38,"*","*",20,52.6,9,23.7,"*","*","*","*",501
+"Derby School District","=""0370011""","ELA","N",79,"*","*","*","*","*","*","*","*","*","*",454
+"Derby School District","=""0370011""","ELA","Y",7,"*","*","*","*","*","*","*","*","*","*","*"
+"Derby School District","=""0370011""","Math","N",79,"*","*","*","*","*","*",0,0.0,"*","*",438
+"Derby School District","=""0370011""","Math","Y",7,"*","*","*","*","*","*","*","*","*","*","*"
+"East Granby School District","=""0400011""","ELA","N",55,"*","*","*","*","*","*","*","*","*","*",571
+"East Granby School District","=""0400011""","ELA","Y",7,"*","*","*","*","*","*","*","*","*","*","*"
+"East Granby School District","=""0400011""","Math","N",55,"*","*","*","*","*","*","*","*","*","*",531
+"East Granby School District","=""0400011""","Math","Y",7,"*","*","*","*","*","*","*","*","*","*","*"
+"East Haddam School District","=""0410011""","ELA","N",71,"*","*","*","*","*","*","*","*","*","*",543
+"East Haddam School District","=""0410011""","ELA","Y",7,"*","*","*","*","*","*","*","*","*","*","*"
+"East Haddam School District","=""0410011""","Math","N",71,"*","*","*","*","*","*","*","*","*","*",490
+"East Haddam School District","=""0410011""","Math","Y",7,"*","*","*","*","*","*","*","*","*","*","*"
+"East Hampton School District","=""0420011""","ELA","N",119,"*","*","*","*","*","*","*","*","*","*",561
+"East Hampton School District","=""0420011""","ELA","Y",10,"*","*","*","*","*","*","*","*","*","*","*"
+"East Hampton School District","=""0420011""","Math","N",119,"*","*","*","*","*","*","*","*","*","*",520
+"East Hampton School District","=""0420011""","Math","Y",10,"*","*","*","*","*","*","*","*","*","*","*"
+"East Hartford School District","=""0430011""","ELA","N",404,109,27.0,102,25.2,"*","*","*","*","*","*",477
+"East Hartford School District","=""0430011""","ELA","Y",45,36,80.0,"*","*","*","*",0,0.0,"*","*",380
+"East Hartford School District","=""0430011""","Math","N",404,119,29.5,195,48.3,"*","*","*","*","*","*",465
+"East Hartford School District","=""0430011""","Math","Y",43,34,79.1,"*","*","*","*",0,0.0,"*","*",367
+"East Haven School District","=""0440011""","ELA","N",179,33,18.4,43,24.0,"*","*","*","*","*","*",496
+"East Haven School District","=""0440011""","ELA","Y",36,24,66.7,"*","*","*","*",0,0.0,"*","*",404
+"East Haven School District","=""0440011""","Math","N",179,52,29.1,"*","*","*","*",7,3.9,"*","*",466
+"East Haven School District","=""0440011""","Math","Y",36,30,83.3,"*","*","*","*",0,0.0,"*","*",370
+"East Lyme School District","=""0450011""","ELA","N",232,"*","*","*","*",134,57.8,"*","*","*","*",582
+"East Lyme School District","=""0450011""","ELA","Y",24,"*","*","*","*",10,41.7,"*","*","*","*",507
+"East Lyme School District","=""0450011""","Math","N",232,"*","*",68,29.3,98,42.2,"*","*","*","*",565
+"East Lyme School District","=""0450011""","Math","Y",24,"*","*",11,45.8,0,0.0,"*","*","*","*",429
+"East Windsor School District","=""0470011""","ELA","N",55,"*","*","*","*","*","*","*","*","*","*",516
+"East Windsor School District","=""0470011""","ELA","Y",10,"*","*","*","*","*","*","*","*","*","*","*"
+"East Windsor School District","=""0470011""","Math","N",55,"*","*","*","*","*","*","*","*","*","*",489
+"East Windsor School District","=""0470011""","Math","Y",10,"*","*","*","*","*","*","*","*","*","*","*"
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","ELA","N",54,"*","*","*","*","*","*","*","*","*","*",510
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","ELA","Y",18,"*","*","*","*","*","*","*","*","*","*","*"
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Math","N",54,"*","*","*","*","*","*",0,0.0,"*","*",445
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Math","Y",18,"*","*","*","*","*","*","*","*","*","*","*"
+"Education Connection","=""2420014""","ELA","Y","*","*","*","*","*","*","*","*","*","*","*","*"
+"Education Connection","=""2420014""","Math","Y","*","*","*","*","*","*","*","*","*","*","*","*"
+"Ellington School District","=""0480011""","ELA","N",186,"*","*","*","*","*","*","*","*","*","*",551
+"Ellington School District","=""0480011""","ELA","Y",17,"*","*","*","*","*","*","*","*","*","*","*"
+"Ellington School District","=""0480011""","Math","N",186,"*","*","*","*","*","*","*","*","*","*",539
+"Ellington School District","=""0480011""","Math","Y",17,"*","*","*","*","*","*","*","*","*","*","*"
+"Elm City College Preparatory School District","=""2890013""","ELA","N","*","*","*","*","*","*","*","*","*","*","*","*"
+"Elm City College Preparatory School District","=""2890013""","ELA","Y","*","*","*","*","*","*","*","*","*","*","*","*"
+"Elm City College Preparatory School District","=""2890013""","Math","N","*","*","*","*","*","*","*","*","*","*","*","*"
+"Elm City College Preparatory School District","=""2890013""","Math","Y","*","*","*","*","*","*","*","*","*","*","*","*"
+"Enfield School District","=""0490011""","ELA","N",305,31,10.2,72,23.6,"*","*","*","*","*","*",513
+"Enfield School District","=""0490011""","ELA","Y",41,24,58.5,"*","*","*","*",0,0.0,"*","*",402
+"Enfield School District","=""0490011""","Math","N",305,47,15.4,145,47.5,"*","*","*","*","*","*",500
+"Enfield School District","=""0490011""","Math","Y",41,28,68.3,"*","*","*","*",0,0.0,"*","*",392
+"Explorations District","=""2720013""","ELA","N",14,"*","*","*","*","*","*","*","*","*","*","*"
+"Explorations District","=""2720013""","ELA","Y",7,"*","*","*","*","*","*","*","*","*","*","*"
+"Explorations District","=""2720013""","Math","N",14,"*","*","*","*","*","*","*","*","*","*","*"
+"Explorations District","=""2720013""","Math","Y",7,"*","*","*","*","*","*","*","*","*","*","*"
+"Fairfield School District","=""0510011""","ELA","N",643,25,3.9,42,6.5,366,56.9,210,32.7,576,89.6,582
+"Fairfield School District","=""0510011""","ELA","Y",70,25,35.7,18,25.7,19,27.1,8,11.4,27,38.6,474
+"Fairfield School District","=""0510011""","Math","N",643,"*","*",179,27.8,315,49.0,"*","*","*","*",569
+"Fairfield School District","=""0510011""","Math","Y",70,31,44.3,27,38.6,"*","*","*","*",12,17.1,446
+"Farmington School District","=""0520011""","ELA","N",268,"*","*",19,7.1,133,49.6,"*","*","*","*",590
+"Farmington School District","=""0520011""","ELA","Y",32,10,31.3,"*","*",11,34.4,"*","*","*","*",460
+"Farmington School District","=""0520011""","Math","N",268,"*","*",75,28.0,"*","*",84,31.3,"*","*",583
+"Farmington School District","=""0520011""","Math","Y",32,"*","*",16,50.0,"*","*",0,0.0,"*","*",442
+"Glastonbury School District","=""0540011""","ELA","N",444,"*","*",37,8.3,259,58.3,"*","*","*","*",580
+"Glastonbury School District","=""0540011""","ELA","Y",39,"*","*",12,30.8,15,38.5,"*","*","*","*",461
+"Glastonbury School District","=""0540011""","Math","N",444,14,3.2,102,23.0,197,44.4,131,29.5,328,73.9,593
+"Glastonbury School District","=""0540011""","Math","Y",39,17,43.6,15,38.5,7,17.9,0,0.0,7,17.9,439
+"Granby School District","=""0560011""","ELA","N",135,"*","*","*","*","*","*","*","*","*","*",578
+"Granby School District","=""0560011""","ELA","Y",16,"*","*","*","*","*","*","*","*","*","*","*"
+"Granby School District","=""0560011""","Math","N",135,"*","*","*","*","*","*","*","*","*","*",567
+"Granby School District","=""0560011""","Math","Y",16,"*","*","*","*","*","*","*","*","*","*","*"
+"Greenwich School District","=""0570011""","ELA","N",546,"*","*",47,8.6,260,47.6,"*","*","*","*",590
+"Greenwich School District","=""0570011""","ELA","Y",71,25,35.2,"*","*",21,29.6,"*","*","*","*",456
+"Greenwich School District","=""0570011""","Math","N",546,"*","*",134,24.5,181,33.2,"*","*","*","*",594
+"Greenwich School District","=""0570011""","Math","Y",71,31,43.7,30,42.3,"*","*","*","*",10,14.1,432
+"Griswold School District","=""0580011""","ELA","N",114,"*","*","*","*","*","*","*","*","*","*",529
+"Griswold School District","=""0580011""","ELA","Y",11,"*","*","*","*","*","*","*","*","*","*","*"
+"Griswold School District","=""0580011""","Math","N",114,"*","*","*","*","*","*","*","*","*","*",497
+"Griswold School District","=""0580011""","Math","Y",11,"*","*","*","*","*","*","*","*","*","*","*"
+"Groton School District","=""0590011""","ELA","N",216,"*","*",41,19.0,"*","*",42,19.4,"*","*",533
+"Groton School District","=""0590011""","ELA","Y",24,11,45.8,"*","*","*","*",0,0.0,"*","*",422
+"Groton School District","=""0590011""","Math","N",216,32,14.8,"*","*","*","*","*","*","*","*",511
+"Groton School District","=""0590011""","Math","Y",24,19,79.2,"*","*","*","*","*","*","*","*",385
+"Guilford School District","=""0600011""","ELA","N",230,"*","*","*","*",128,55.7,"*","*","*","*",595
+"Guilford School District","=""0600011""","ELA","Y",24,"*","*","*","*",11,45.8,"*","*","*","*",511
+"Guilford School District","=""0600011""","Math","N",229,9,3.9,64,27.9,"*","*","*","*","*","*",572
+"Guilford School District","=""0600011""","Math","Y",24,10,41.7,9,37.5,"*","*","*","*","*","*",450
+"Hamden School District","=""0620011""","ELA","N",336,"*","*",60,17.9,"*","*",65,19.3,"*","*",532
+"Hamden School District","=""0620011""","ELA","Y",38,20,52.6,"*","*","*","*",0,0.0,"*","*",402
+"Hamden School District","=""0620011""","Math","N",336,57,17.0,156,46.4,94,28.0,29,8.6,123,36.6,503
+"Hamden School District","=""0620011""","Math","Y",38,31,81.6,7,18.4,0,0.0,0,0.0,0,0.0,367
+"Hartford School District","=""0640011""","ELA","N",1018,408,40.1,"*","*",316,31.0,"*","*","*","*",457
+"Hartford School District","=""0640011""","ELA","Y",144,114,79.2,15,10.4,"*","*","*","*",15,10.4,392
+"Hartford School District","=""0640011""","Math","N",1017,466,45.8,382,37.6,"*","*","*","*","*","*",437
+"Hartford School District","=""0640011""","Math","Y",144,113,78.5,28,19.4,"*","*","*","*","*","*",374
+"Highville Charter School District","=""2860013""","ELA","N",9,"*","*","*","*","*","*","*","*","*","*","*"
+"Highville Charter School District","=""2860013""","Math","N",9,"*","*","*","*","*","*","*","*","*","*","*"
+"Jumoke Academy District","=""2610013""","ELA","N","*","*","*","*","*","*","*","*","*","*","*","*"
+"Jumoke Academy District","=""2610013""","Math","N","*","*","*","*","*","*","*","*","*","*","*","*"
+"Killingly School District","=""0690011""","ELA","N",158,"*","*","*","*","*","*","*","*","*","*",518
+"Killingly School District","=""0690011""","ELA","Y",15,"*","*","*","*","*","*","*","*","*","*","*"
+"Killingly School District","=""0690011""","Math","N",158,"*","*","*","*","*","*","*","*","*","*",473
+"Killingly School District","=""0690011""","Math","Y",15,"*","*","*","*","*","*","*","*","*","*","*"
+"Learn","=""2450014""","ELA","N",169,"*","*","*","*","*","*","*","*","*","*",525
+"Learn","=""2450014""","ELA","Y",17,"*","*","*","*","*","*","*","*","*","*","*"
+"Learn","=""2450014""","Math","N",168,"*","*","*","*","*","*","*","*","*","*",492
+"Learn","=""2450014""","Math","Y",17,"*","*","*","*","*","*","*","*","*","*","*"
+"Lebanon School District","=""0710011""","ELA","N",76,"*","*","*","*","*","*","*","*","*","*",559
+"Lebanon School District","=""0710011""","ELA","Y",7,"*","*","*","*","*","*","*","*","*","*","*"
+"Lebanon School District","=""0710011""","Math","N",76,"*","*","*","*","*","*","*","*","*","*",554
+"Lebanon School District","=""0710011""","Math","Y",7,"*","*","*","*","*","*","*","*","*","*","*"
+"Ledyard School District","=""0720011""","ELA","N",167,"*","*",27,16.2,93,55.7,"*","*","*","*",541
+"Ledyard School District","=""0720011""","ELA","Y",32,12,37.5,11,34.4,"*","*","*","*",9,28.1,452
+"Ledyard School District","=""0720011""","Math","N",167,"*","*",71,42.5,"*","*",25,15.0,"*","*",532
+"Ledyard School District","=""0720011""","Math","Y",32,16,50.0,"*","*","*","*",0,0.0,"*","*",429
+"Litchfield School District","=""0740011""","ELA","N","*","*","*","*","*","*","*","*","*","*","*","*"
+"Litchfield School District","=""0740011""","ELA","Y","*","*","*","*","*","*","*","*","*","*","*","*"
+"Litchfield School District","=""0740011""","Math","N","*","*","*","*","*","*","*","*","*","*","*","*"
+"Litchfield School District","=""0740011""","Math","Y","*","*","*","*","*","*","*","*","*","*","*","*"
+"Madison School District","=""0760011""","ELA","N",264,"*","*",6,2.3,151,57.2,"*","*","*","*",609
+"Madison School District","=""0760011""","ELA","Y",32,"*","*",7,21.9,14,43.8,"*","*","*","*",500
+"Madison School District","=""0760011""","Math","N",264,"*","*",62,23.5,"*","*","*","*","*","*",593
+"Madison School District","=""0760011""","Math","Y",32,"*","*",12,37.5,"*","*","*","*","*","*",458
+"Manchester School District","=""0770011""","ELA","N",309,73,23.6,"*","*",146,47.2,"*","*","*","*",489
+"Manchester School District","=""0770011""","ELA","Y",43,28,65.1,"*","*",7,16.3,"*","*","*","*",407
+"Manchester School District","=""0770011""","Math","N",309,91,29.4,148,47.9,"*","*","*","*","*","*",464
+"Manchester School District","=""0770011""","Math","Y",43,34,79.1,"*","*","*","*",0,0.0,"*","*",381
+"Meriden School District","=""0800011""","ELA","N",413,121,29.3,99,24.0,"*","*","*","*","*","*",475
+"Meriden School District","=""0800011""","ELA","Y",65,52,80.0,"*","*","*","*",0,0.0,"*","*",378
+"Meriden School District","=""0800011""","Math","N",413,189,45.8,159,38.5,"*","*","*","*",65,15.7,435
+"Meriden School District","=""0800011""","Math","Y",64,57,89.1,7,10.9,0,0.0,0,0.0,0,0.0,344
+"Middletown School District","=""0830011""","ELA","N",259,56,21.6,55,21.2,"*","*","*","*",148,57.1,499
+"Middletown School District","=""0830011""","ELA","Y",26,14,53.8,6,23.1,"*","*","*","*",6,23.1,419
+"Middletown School District","=""0830011""","Math","N",258,72,27.9,114,44.2,"*","*","*","*","*","*",472
+"Middletown School District","=""0830011""","Math","Y",25,16,64.0,"*","*","*","*",0,0.0,"*","*",396
+"Milford School District","=""0840011""","ELA","N",410,20,4.9,60,14.6,269,65.6,61,14.9,330,80.5,543
+"Milford School District","=""0840011""","ELA","Y",42,17,40.5,14,33.3,11,26.2,0,0.0,11,26.2,434
+"Milford School District","=""0840011""","Math","N",410,41,10.0,207,50.5,"*","*","*","*","*","*",512
+"Milford School District","=""0840011""","Math","Y",41,25,61.0,"*","*","*","*",0,0.0,"*","*",404
+"Monroe School District","=""0850011""","ELA","N",248,"*","*","*","*",140,56.5,74,29.8,214,86.3,574
+"Monroe School District","=""0850011""","ELA","Y",22,14,63.6,"*","*","*","*",0,0.0,"*","*",417
+"Monroe School District","=""0850011""","Math","N",248,"*","*",71,28.6,"*","*",44,17.7,"*","*",564
+"Monroe School District","=""0850011""","Math","Y",21,13,61.9,"*","*","*","*",0,0.0,"*","*",404
+"Montville School District","=""0860011""","ELA","N",120,"*","*","*","*","*","*","*","*","*","*",531
+"Montville School District","=""0860011""","ELA","Y",16,"*","*","*","*","*","*","*","*","*","*","*"
+"Montville School District","=""0860011""","Math","N",120,"*","*","*","*","*","*","*","*","*","*",512
+"Montville School District","=""0860011""","Math","Y",15,"*","*","*","*","*","*","*","*","*","*","*"
+"Naugatuck School District","=""0880011""","ELA","N",240,47,19.6,58,24.2,"*","*","*","*","*","*",489
+"Naugatuck School District","=""0880011""","ELA","Y",51,35,68.6,"*","*","*","*",0,0.0,"*","*",395
+"Naugatuck School District","=""0880011""","Math","N",238,73,30.7,108,45.4,"*","*","*","*",57,23.9,464
+"Naugatuck School District","=""0880011""","Math","Y",50,40,80.0,10,20.0,0,0.0,0,0.0,0,0.0,368
+"New Britain School District","=""0890011""","ELA","N",428,209,48.8,"*","*","*","*",14,3.3,"*","*",434
+"New Britain School District","=""0890011""","ELA","Y",43,40,93.0,"*","*","*","*",0,0.0,"*","*",360
+"New Britain School District","=""0890011""","Math","N",428,217,50.7,"*","*",39,9.1,"*","*","*","*",427
+"New Britain School District","=""0890011""","Math","Y",43,"*","*","*","*",0,0.0,0,0.0,0,0.0,353
+"New Canaan School District","=""0900011""","ELA","N",291,"*","*","*","*",151,51.9,"*","*","*","*",617
+"New Canaan School District","=""0900011""","ELA","Y",28,"*","*","*","*",19,67.9,"*","*","*","*",504
+"New Canaan School District","=""0900011""","Math","N",291,"*","*",33,11.3,141,48.5,"*","*","*","*",620
+"New Canaan School District","=""0900011""","Math","Y",28,"*","*",10,35.7,10,35.7,"*","*","*","*",504
+"New Fairfield School District","=""0910011""","ELA","N",208,"*","*","*","*","*","*","*","*","*","*",576
+"New Fairfield School District","=""0910011""","ELA","Y",19,"*","*","*","*","*","*","*","*","*","*","*"
+"New Fairfield School District","=""0910011""","Math","N",208,"*","*","*","*","*","*","*","*","*","*",534
+"New Fairfield School District","=""0910011""","Math","Y",19,"*","*","*","*","*","*","*","*","*","*","*"
+"New Haven School District","=""0930011""","ELA","N",1022,355,34.7,"*","*",375,36.7,"*","*","*","*",463
+"New Haven School District","=""0930011""","ELA","Y",123,89,72.4,19,15.4,"*","*","*","*",15,12.2,388
+"New Haven School District","=""0930011""","Math","N",1022,413,40.4,458,44.8,"*","*","*","*","*","*",440
+"New Haven School District","=""0930011""","Math","Y",123,104,84.6,17,13.8,"*","*","*","*","*","*",364
+"New London School District","=""0950011""","ELA","N",139,46,33.1,"*","*","*","*","*","*","*","*",465
+"New London School District","=""0950011""","ELA","Y",31,21,67.7,"*","*","*","*","*","*","*","*",397
+"New London School District","=""0950011""","Math","N",139,52,37.4,"*","*",28,20.1,"*","*","*","*",459
+"New London School District","=""0950011""","Math","Y",31,25,80.6,"*","*",0,0.0,"*","*","*","*",381
+"New Milford School District","=""0960011""","ELA","N",274,16,5.8,38,13.9,167,60.9,53,19.3,220,80.3,550
+"New Milford School District","=""0960011""","ELA","Y",28,13,46.4,9,32.1,6,21.4,0,0.0,6,21.4,423
+"New Milford School District","=""0960011""","Math","N",274,"*","*",117,42.7,"*","*",36,13.1,"*","*",538
+"New Milford School District","=""0960011""","Math","Y",28,17,60.7,"*","*","*","*",0,0.0,"*","*",404
+"Newington School District","=""0940011""","ELA","N",270,"*","*",38,14.1,"*","*",57,21.1,"*","*",548
+"Newington School District","=""0940011""","ELA","Y",30,"*","*",16,53.3,"*","*",0,0.0,"*","*",419
+"Newington School District","=""0940011""","Math","N",270,"*","*",114,42.2,"*","*",28,10.4,"*","*",534
+"Newington School District","=""0940011""","Math","Y",30,17,56.7,"*","*","*","*",0,0.0,"*","*",411
+"Newtown School District","=""0970011""","ELA","N",381,7,1.8,"*","*",225,59.1,"*","*","*","*",583
+"Newtown School District","=""0970011""","ELA","Y",22,7,31.8,"*","*",11,50.0,"*","*","*","*",460
+"Newtown School District","=""0970011""","Math","N",381,"*","*",108,28.3,"*","*",76,19.9,"*","*",571
+"Newtown School District","=""0970011""","Math","Y",22,13,59.1,"*","*","*","*",0,0.0,"*","*",420
+"North Branford School District","=""0990011""","ELA","N",128,"*","*",21,16.4,"*","*",20,15.6,"*","*",533
+"North Branford School District","=""0990011""","ELA","Y",26,15,57.7,"*","*","*","*",0,0.0,"*","*",397
+"North Branford School District","=""0990011""","Math","N",128,17,13.3,"*","*","*","*",6,4.7,"*","*",514
+"North Branford School District","=""0990011""","Math","Y",25,19,76.0,"*","*","*","*",0,0.0,"*","*",385
+"North Haven School District","=""1010011""","ELA","N",228,"*","*","*","*","*","*","*","*","*","*",546
+"North Haven School District","=""1010011""","ELA","Y",17,"*","*","*","*","*","*","*","*","*","*","*"
+"North Haven School District","=""1010011""","Math","N",228,"*","*","*","*","*","*","*","*","*","*",515
+"North Haven School District","=""1010011""","Math","Y",17,"*","*","*","*","*","*","*","*","*","*","*"
+"North Stonington School District","=""1020011""","ELA","N",55,7,12.7,6,10.9,32,58.2,10,18.2,42,76.4,548
+"North Stonington School District","=""1020011""","Math","N",55,8,14.5,16,29.1,23,41.8,8,14.5,31,56.4,538
+"Norwalk School District","=""1030011""","ELA","N",694,118,17.0,142,20.5,359,51.7,75,10.8,434,62.5,508
+"Norwalk School District","=""1030011""","ELA","Y",58,37,63.8,13,22.4,8,13.8,0,0.0,8,13.8,401
+"Norwalk School District","=""1030011""","Math","N",694,151,21.8,324,46.7,171,24.6,48,6.9,219,31.6,490
+"Norwalk School District","=""1030011""","Math","Y",58,37,63.8,21,36.2,0,0.0,0,0.0,0,0.0,384
+"Norwich Free Academy District","=""9010022""","ELA","N",516,90,17.4,"*","*",251,48.6,"*","*","*","*",523
+"Norwich Free Academy District","=""9010022""","ELA","Y",54,35,64.8,10,18.5,"*","*","*","*",9,16.7,405
+"Norwich Free Academy District","=""9010022""","Math","N",515,114,22.1,212,41.2,"*","*","*","*","*","*",496
+"Norwich Free Academy District","=""9010022""","Math","Y",54,40,74.1,"*","*","*","*",0,0.0,"*","*",372
+"Norwich School District","=""1040011""","ELA","Y","*","*","*","*","*","*","*","*","*","*","*","*"
+"Norwich School District","=""1040011""","Math","Y","*","*","*","*","*","*","*","*","*","*","*","*"
+"Old Saybrook School District","=""1060011""","ELA","N",89,"*","*","*","*","*","*","*","*","*","*",559
+"Old Saybrook School District","=""1060011""","ELA","Y",7,"*","*","*","*","*","*","*","*","*","*","*"
+"Old Saybrook School District","=""1060011""","Math","N",89,"*","*","*","*","*","*","*","*","*","*",541
+"Old Saybrook School District","=""1060011""","Math","Y",7,"*","*","*","*","*","*","*","*","*","*","*"
+"Oxford School District","=""1080011""","ELA","N",158,"*","*","*","*","*","*","*","*","*","*",558
+"Oxford School District","=""1080011""","ELA","Y",9,"*","*","*","*","*","*","*","*","*","*","*"
+"Oxford School District","=""1080011""","Math","N",158,"*","*","*","*","*","*","*","*","*","*",522
+"Oxford School District","=""1080011""","Math","Y",9,"*","*","*","*","*","*","*","*","*","*","*"
+"Path Academy District","=""2930013""","ELA","N",6,"*","*","*","*","*","*","*","*","*","*","*"
+"Path Academy District","=""2930013""","Math","N",6,"*","*","*","*","*","*","*","*","*","*","*"
+"Plainfield School District","=""1090011""","ELA","N",137,"*","*","*","*","*","*","*","*","*","*",515
+"Plainfield School District","=""1090011""","ELA","Y",9,"*","*","*","*","*","*","*","*","*","*","*"
+"Plainfield School District","=""1090011""","Math","N",137,"*","*","*","*","*","*","*","*","*","*",484
+"Plainfield School District","=""1090011""","Math","Y",9,"*","*","*","*","*","*","*","*","*","*","*"
+"Plainville School District","=""1100011""","ELA","N",161,"*","*",36,22.4,"*","*",20,12.4,"*","*",521
+"Plainville School District","=""1100011""","ELA","Y",20,11,55.0,"*","*","*","*",0,0.0,"*","*",399
+"Plainville School District","=""1100011""","Math","N",161,27,16.8,"*","*","*","*",12,7.5,"*","*",507
+"Plainville School District","=""1100011""","Math","Y",20,15,75.0,"*","*","*","*",0,0.0,"*","*",399
+"Plymouth School District","=""1110011""","ELA","N",101,"*","*","*","*","*","*","*","*","*","*",505
+"Plymouth School District","=""1110011""","ELA","Y",10,"*","*","*","*","*","*","*","*","*","*","*"
+"Plymouth School District","=""1110011""","Math","N",101,"*","*","*","*","*","*","*","*","*","*",490
+"Plymouth School District","=""1110011""","Math","Y",10,"*","*","*","*","*","*","*","*","*","*","*"
+"Portland School District","=""1130011""","ELA","N","*","*","*","*","*","*","*","*","*","*","*","*"
+"Portland School District","=""1130011""","ELA","Y","*","*","*","*","*","*","*","*","*","*","*","*"
+"Portland School District","=""1130011""","Math","N","*","*","*","*","*","*","*","*","*","*","*","*"
+"Portland School District","=""1130011""","Math","Y","*","*","*","*","*","*","*","*","*","*","*","*"
+"Putnam School District","=""1160011""","ELA","N",47,"*","*","*","*","*","*","*","*","*","*",494
+"Putnam School District","=""1160011""","ELA","Y",8,"*","*","*","*","*","*","*","*","*","*","*"
+"Putnam School District","=""1160011""","Math","N",47,"*","*","*","*","*","*","*","*","*","*",463
+"Putnam School District","=""1160011""","Math","Y",8,"*","*","*","*","*","*","*","*","*","*","*"
+"Regional School District 01","=""2010012""","ELA","N",93,"*","*","*","*","*","*","*","*","*","*",554
+"Regional School District 01","=""2010012""","ELA","Y",14,"*","*","*","*","*","*","*","*","*","*","*"
+"Regional School District 01","=""2010012""","Math","N",93,"*","*","*","*","*","*","*","*","*","*",517
+"Regional School District 01","=""2010012""","Math","Y",14,"*","*","*","*","*","*","*","*","*","*","*"
+"Regional School District 04","=""2040012""","ELA","N",133,"*","*","*","*","*","*","*","*","*","*",580
+"Regional School District 04","=""2040012""","ELA","Y",11,"*","*","*","*","*","*","*","*","*","*","*"
+"Regional School District 04","=""2040012""","Math","N",133,"*","*","*","*","*","*","*","*","*","*",538
+"Regional School District 04","=""2040012""","Math","Y",11,"*","*","*","*","*","*","*","*","*","*","*"
+"Regional School District 05","=""2050012""","ELA","N",312,"*","*",25,8.0,167,53.5,"*","*","*","*",589
+"Regional School District 05","=""2050012""","ELA","Y",32,10,31.3,"*","*",12,37.5,"*","*","*","*",460
+"Regional School District 05","=""2050012""","Math","N",312,"*","*",80,25.6,"*","*",82,26.3,"*","*",577
+"Regional School District 05","=""2050012""","Math","Y",32,15,46.9,"*","*","*","*",0,0.0,"*","*",423
+"Regional School District 06","=""2060012""","ELA","N",100,"*","*","*","*","*","*","*","*","*","*",544
+"Regional School District 06","=""2060012""","ELA","Y",13,"*","*","*","*","*","*","*","*","*","*","*"
+"Regional School District 06","=""2060012""","Math","N",100,"*","*","*","*","*","*","*","*","*","*",518
+"Regional School District 06","=""2060012""","Math","Y",13,"*","*","*","*","*","*","*","*","*","*","*"
+"Regional School District 07","=""2070012""","ELA","N",173,"*","*","*","*","*","*","*","*","*","*",568
+"Regional School District 07","=""2070012""","ELA","Y",14,"*","*","*","*","*","*","*","*","*","*","*"
+"Regional School District 07","=""2070012""","Math","N",173,"*","*","*","*","*","*","*","*","*","*",550
+"Regional School District 07","=""2070012""","Math","Y",14,"*","*","*","*","*","*","*","*","*","*","*"
+"Regional School District 08","=""2080012""","ELA","N",217,"*","*",11,5.1,135,62.2,"*","*","*","*",581
+"Regional School District 08","=""2080012""","ELA","Y",26,"*","*",6,23.1,7,26.9,"*","*","*","*",434
+"Regional School District 08","=""2080012""","Math","N",217,"*","*",62,28.6,"*","*",53,24.4,"*","*",578
+"Regional School District 08","=""2080012""","Math","Y",25,"*","*",6,24.0,"*","*",0,0.0,"*","*",424
+"Regional School District 09","=""2090012""","ELA","N",242,"*","*",11,4.5,145,59.9,"*","*","*","*",595
+"Regional School District 09","=""2090012""","ELA","Y",21,"*","*",9,42.9,7,33.3,"*","*","*","*",495
+"Regional School District 09","=""2090012""","Math","N",242,"*","*","*","*",128,52.9,"*","*","*","*",583
+"Regional School District 09","=""2090012""","Math","Y",21,"*","*","*","*",7,33.3,"*","*","*","*",466
+"Regional School District 10","=""2100012""","ELA","N",170,"*","*","*","*","*","*","*","*","*","*",574
+"Regional School District 10","=""2100012""","ELA","Y",16,"*","*","*","*","*","*","*","*","*","*","*"
+"Regional School District 10","=""2100012""","Math","N",170,"*","*","*","*","*","*","*","*","*","*",562
+"Regional School District 10","=""2100012""","Math","Y",16,"*","*","*","*","*","*","*","*","*","*","*"
+"Regional School District 11","=""2110012""","ELA","N",36,"*","*","*","*","*","*","*","*","*","*",531
+"Regional School District 11","=""2110012""","ELA","Y",6,"*","*","*","*","*","*","*","*","*","*","*"
+"Regional School District 11","=""2110012""","Math","N",36,"*","*","*","*","*","*","*","*","*","*",504
+"Regional School District 11","=""2110012""","Math","Y",6,"*","*","*","*","*","*","*","*","*","*","*"
+"Regional School District 12","=""2120012""","ELA","N",40,"*","*","*","*","*","*","*","*","*","*",583
+"Regional School District 12","=""2120012""","ELA","Y",9,"*","*","*","*","*","*","*","*","*","*","*"
+"Regional School District 12","=""2120012""","Math","N",40,"*","*","*","*","*","*","*","*","*","*",568
+"Regional School District 12","=""2120012""","Math","Y",9,"*","*","*","*","*","*","*","*","*","*","*"
+"Regional School District 13","=""2130012""","ELA","N",127,"*","*","*","*","*","*","*","*","*","*",575
+"Regional School District 13","=""2130012""","ELA","Y",13,"*","*","*","*","*","*","*","*","*","*","*"
+"Regional School District 13","=""2130012""","Math","N",127,"*","*","*","*","*","*","*","*","*","*",544
+"Regional School District 13","=""2130012""","Math","Y",13,"*","*","*","*","*","*","*","*","*","*","*"
+"Regional School District 14","=""2140012""","ELA","N",160,"*","*","*","*","*","*","*","*","*","*",544
+"Regional School District 14","=""2140012""","ELA","Y",11,"*","*","*","*","*","*","*","*","*","*","*"
+"Regional School District 14","=""2140012""","Math","N",160,"*","*","*","*","*","*","*","*","*","*",541
+"Regional School District 14","=""2140012""","Math","Y",11,"*","*","*","*","*","*","*","*","*","*","*"
+"Regional School District 15","=""2150012""","ELA","N",274,"*","*",29,10.6,164,59.9,"*","*","*","*",578
+"Regional School District 15","=""2150012""","ELA","Y",33,"*","*",8,24.2,12,36.4,"*","*","*","*",450
+"Regional School District 15","=""2150012""","Math","N",274,9,3.3,82,29.9,"*","*","*","*","*","*",564
+"Regional School District 15","=""2150012""","Math","Y",33,15,45.5,13,39.4,"*","*","*","*","*","*",433
+"Regional School District 16","=""2160012""","ELA","N",147,"*","*","*","*","*","*","*","*","*","*",549
+"Regional School District 16","=""2160012""","ELA","Y",17,"*","*","*","*","*","*","*","*","*","*","*"
+"Regional School District 16","=""2160012""","Math","N",147,"*","*","*","*","*","*","*","*","*","*",509
+"Regional School District 16","=""2160012""","Math","Y",17,"*","*","*","*","*","*","*","*","*","*","*"
+"Regional School District 17","=""2170012""","ELA","N",129,"*","*","*","*","*","*","*","*","*","*",581
+"Regional School District 17","=""2170012""","ELA","Y",17,"*","*","*","*","*","*","*","*","*","*","*"
+"Regional School District 17","=""2170012""","Math","N",129,"*","*","*","*","*","*","*","*","*","*",550
+"Regional School District 17","=""2170012""","Math","Y",17,"*","*","*","*","*","*","*","*","*","*","*"
+"Regional School District 18","=""2180012""","ELA","N",106,"*","*","*","*","*","*","*","*","*","*",583
+"Regional School District 18","=""2180012""","ELA","Y",13,"*","*","*","*","*","*","*","*","*","*","*"
+"Regional School District 18","=""2180012""","Math","N",106,"*","*","*","*","*","*","*","*","*","*",561
+"Regional School District 18","=""2180012""","Math","Y",13,"*","*","*","*","*","*","*","*","*","*","*"
+"Regional School District 19","=""2190012""","ELA","N",241,"*","*",25,10.4,142,58.9,"*","*","*","*",571
+"Regional School District 19","=""2190012""","ELA","Y",27,"*","*",9,33.3,9,33.3,"*","*","*","*",464
+"Regional School District 19","=""2190012""","Math","N",241,14,5.8,89,36.9,92,38.2,46,19.1,138,57.3,557
+"Regional School District 19","=""2190012""","Math","Y",27,12,44.4,9,33.3,6,22.2,0,0.0,6,22.2,434
+"Ridgefield School District","=""1180011""","ELA","N",399,0,0.0,"*","*","*","*","*","*","*","*",613
+"Ridgefield School District","=""1180011""","ELA","Y",19,"*","*","*","*","*","*","*","*","*","*","*"
+"Ridgefield School District","=""1180011""","Math","N",399,"*","*","*","*","*","*","*","*","*","*",610
+"Ridgefield School District","=""1180011""","Math","Y",19,"*","*","*","*","*","*","*","*","*","*","*"
+"Rocky Hill School District","=""1190011""","ELA","N",153,"*","*","*","*","*","*","*","*","*","*",552
+"Rocky Hill School District","=""1190011""","ELA","Y",18,"*","*","*","*","*","*","*","*","*","*","*"
+"Rocky Hill School District","=""1190011""","Math","N",153,"*","*","*","*","*","*","*","*","*","*",546
+"Rocky Hill School District","=""1190011""","Math","Y",18,"*","*","*","*","*","*","*","*","*","*","*"
+"Salem School District","=""1210011""","ELA","Y","*","*","*","*","*","*","*","*","*","*","*","*"
+"Salem School District","=""1210011""","Math","Y","*","*","*","*","*","*","*","*","*","*","*","*"
+"Seymour School District","=""1240011""","ELA","N",138,"*","*","*","*","*","*","*","*","*","*",515
+"Seymour School District","=""1240011""","ELA","Y",13,"*","*","*","*","*","*","*","*","*","*","*"
+"Seymour School District","=""1240011""","Math","N",138,"*","*","*","*","*","*","*","*","*","*",510
+"Seymour School District","=""1240011""","Math","Y",13,"*","*","*","*","*","*","*","*","*","*","*"
+"Shelton School District","=""1260011""","ELA","N",342,"*","*",50,14.6,"*","*",63,18.4,"*","*",551
+"Shelton School District","=""1260011""","ELA","Y",29,17,58.6,"*","*","*","*",0,0.0,"*","*",404
+"Shelton School District","=""1260011""","Math","N",342,"*","*",112,32.7,"*","*",36,10.5,"*","*",535
+"Shelton School District","=""1260011""","Math","Y",29,21,72.4,"*","*","*","*",0,0.0,"*","*",395
+"Simsbury School District","=""1280011""","ELA","N",317,"*","*","*","*",160,50.5,133,42.0,293,92.4,601
+"Simsbury School District","=""1280011""","ELA","Y",44,"*","*",8,18.2,17,38.6,"*","*","*","*",501
+"Simsbury School District","=""1280011""","Math","N",317,"*","*",64,20.2,131,41.3,"*","*","*","*",601
+"Simsbury School District","=""1280011""","Math","Y",44,"*","*",13,29.5,17,38.6,"*","*","*","*",493
+"Somers School District","=""1290011""","ELA","N",96,"*","*","*","*","*","*","*","*","*","*",553
+"Somers School District","=""1290011""","ELA","Y",7,"*","*","*","*","*","*","*","*","*","*","*"
+"Somers School District","=""1290011""","Math","N",96,"*","*","*","*","*","*","*","*","*","*",543
+"Somers School District","=""1290011""","Math","Y",7,"*","*","*","*","*","*","*","*","*","*","*"
+"South Windsor School District","=""1320011""","ELA","N",292,"*","*","*","*",183,62.7,72,24.7,255,87.3,570
+"South Windsor School District","=""1320011""","ELA","Y",34,"*","*","*","*",14,41.2,0,0.0,14,41.2,452
+"South Windsor School District","=""1320011""","Math","N",292,"*","*",83,28.4,"*","*",57,19.5,"*","*",564
+"South Windsor School District","=""1320011""","Math","Y",34,"*","*",16,47.1,"*","*",0,0.0,"*","*",430
+"Southington School District","=""1310011""","ELA","N",418,"*","*",58,13.9,250,59.8,"*","*","*","*",555
+"Southington School District","=""1310011""","ELA","Y",52,25,48.1,17,32.7,"*","*","*","*",10,19.2,424
+"Southington School District","=""1310011""","Math","N",418,"*","*",163,39.0,"*","*",60,14.4,"*","*",550
+"Southington School District","=""1310011""","Math","Y",52,"*","*",26,50.0,"*","*",0,0.0,"*","*",422
+"Stafford School District","=""1340011""","ELA","N",89,"*","*","*","*","*","*","*","*","*","*",557
+"Stafford School District","=""1340011""","ELA","Y",12,"*","*","*","*","*","*","*","*","*","*","*"
+"Stafford School District","=""1340011""","Math","N",89,"*","*","*","*","*","*","*","*","*","*",542
+"Stafford School District","=""1340011""","Math","Y",12,"*","*","*","*","*","*","*","*","*","*","*"
+"Stamford Academy District","=""2820013""","ELA","N","*","*","*","*","*","*","*",0,0.0,"*","*","*"
+"Stamford Academy District","=""2820013""","ELA","Y","*","*","*","*","*","*","*","*","*","*","*","*"
+"Stamford Academy District","=""2820013""","Math","N","*","*","*","*","*",0,0.0,0,0.0,0,0.0,"*"
+"Stamford Academy District","=""2820013""","Math","Y","*","*","*","*","*","*","*","*","*","*","*","*"
+"Stamford School District","=""1350011""","ELA","N",989,"*","*",213,21.5,465,47.0,"*","*","*","*",506
+"Stamford School District","=""1350011""","ELA","Y",109,70,64.2,25,22.9,"*","*","*","*",14,12.8,404
+"Stamford School District","=""1350011""","Math","N",988,244,24.7,393,39.8,"*","*","*","*","*","*",494
+"Stamford School District","=""1350011""","Math","Y",106,83,78.3,21,19.8,"*","*","*","*","*","*",383
+"Stonington School District","=""1370011""","ELA","N",149,"*","*","*","*","*","*","*","*","*","*",554
+"Stonington School District","=""1370011""","ELA","Y",19,"*","*","*","*","*","*","*","*","*","*","*"
+"Stonington School District","=""1370011""","Math","N",149,"*","*","*","*","*","*","*","*","*","*",543
+"Stonington School District","=""1370011""","Math","Y",19,"*","*","*","*","*","*","*","*","*","*","*"
+"Stratford School District","=""1380011""","ELA","N",425,64,15.1,83,19.5,232,54.6,46,10.8,278,65.4,511
+"Stratford School District","=""1380011""","ELA","Y",39,25,64.1,8,20.5,6,15.4,0,0.0,6,15.4,406
+"Stratford School District","=""1380011""","Math","N",425,105,24.7,190,44.7,104,24.5,26,6.1,130,30.6,485
+"Stratford School District","=""1380011""","Math","Y",39,30,76.9,9,23.1,0,0.0,0,0.0,0,0.0,371
+"Suffield School District","=""1390011""","ELA","N",160,"*","*","*","*","*","*","*","*","*","*",569
+"Suffield School District","=""1390011""","ELA","Y",20,"*","*","*","*","*","*","*","*","*","*",454
+"Suffield School District","=""1390011""","Math","N",160,"*","*",57,35.6,"*","*",21,13.1,"*","*",546
+"Suffield School District","=""1390011""","Math","Y",20,9,45.0,"*","*","*","*",0,0.0,"*","*",436
+"The Bridge Academy District","=""2690013""","ELA","N","*","*","*","*","*","*","*",0,0.0,"*","*","*"
+"The Bridge Academy District","=""2690013""","ELA","Y","*","*","*","*","*","*","*","*","*","*","*","*"
+"The Bridge Academy District","=""2690013""","Math","N","*","*","*","*","*","*","*",0,0.0,"*","*","*"
+"The Bridge Academy District","=""2690013""","Math","Y","*","*","*","*","*","*","*","*","*","*","*","*"
+"The Gilbert School District","=""9020022""","ELA","N",88,"*","*","*","*","*","*","*","*","*","*",510
+"The Gilbert School District","=""9020022""","ELA","Y",14,"*","*","*","*","*","*","*","*","*","*","*"
+"The Gilbert School District","=""9020022""","Math","N",88,"*","*","*","*","*","*","*","*","*","*",513
+"The Gilbert School District","=""9020022""","Math","Y",13,"*","*","*","*","*","*","*","*","*","*","*"
+"Thomaston School District","=""1400011""","ELA","N",53,"*","*","*","*","*","*","*","*","*","*",513
+"Thomaston School District","=""1400011""","ELA","Y",9,"*","*","*","*","*","*","*","*","*","*","*"
+"Thomaston School District","=""1400011""","Math","N",53,"*","*","*","*","*","*","*","*","*","*",489
+"Thomaston School District","=""1400011""","Math","Y",9,"*","*","*","*","*","*","*","*","*","*","*"
+"Thompson School District","=""1410011""","ELA","N","*","*","*","*","*","*","*","*","*","*","*","*"
+"Thompson School District","=""1410011""","ELA","Y","*","*","*","*","*","*","*","*","*","*","*","*"
+"Thompson School District","=""1410011""","Math","N","*","*","*","*","*","*","*",0,0.0,"*","*","*"
+"Thompson School District","=""1410011""","Math","Y","*","*","*","*","*","*","*","*","*","*","*","*"
+"Tolland School District","=""1420011""","ELA","N",183,"*","*","*","*","*","*","*","*","*","*",582
+"Tolland School District","=""1420011""","ELA","Y",18,"*","*","*","*","*","*","*","*","*","*","*"
+"Tolland School District","=""1420011""","Math","N",183,"*","*","*","*","*","*","*","*","*","*",583
+"Tolland School District","=""1420011""","Math","Y",18,"*","*","*","*","*","*","*","*","*","*","*"
+"Torrington School District","=""1430011""","ELA","N",174,27,15.5,38,21.8,"*","*","*","*","*","*",501
+"Torrington School District","=""1430011""","ELA","Y",23,13,56.5,"*","*","*","*",0,0.0,"*","*",409
+"Torrington School District","=""1430011""","Math","N",174,37,21.3,"*","*",41,23.6,"*","*","*","*",479
+"Torrington School District","=""1430011""","Math","Y",23,"*","*","*","*",0,0.0,0,0.0,0,0.0,367
+"Trumbull School District","=""1440011""","ELA","N",454,"*","*",47,10.4,275,60.6,"*","*","*","*",565
+"Trumbull School District","=""1440011""","ELA","Y",41,"*","*",13,31.7,13,31.7,"*","*","*","*",474
+"Trumbull School District","=""1440011""","Math","N",454,23,5.1,149,32.8,"*","*","*","*",282,62.1,567
+"Trumbull School District","=""1440011""","Math","Y",41,17,41.5,17,41.5,"*","*","*","*",7,17.1,450
+"Unified School District #2","=""3470015""","ELA","N","*","*","*","*","*","*","*","*","*","*","*","*"
+"Unified School District #2","=""3470015""","ELA","Y","*","*","*","*","*","*","*","*","*","*","*","*"
+"Unified School District #2","=""3470015""","Math","N","*","*","*","*","*","*","*","*","*","*","*","*"
+"Unified School District #2","=""3470015""","Math","Y","*","*","*","*","*","*","*","*","*","*","*","*"
+"Vernon School District","=""1460011""","ELA","N",173,"*","*","*","*","*","*","*","*","*","*",529
+"Vernon School District","=""1460011""","ELA","Y",19,"*","*","*","*","*","*","*","*","*","*","*"
+"Vernon School District","=""1460011""","Math","N",173,"*","*","*","*","*","*","*","*","*","*",505
+"Vernon School District","=""1460011""","Math","Y",19,"*","*","*","*","*","*","*","*","*","*","*"
+"Wallingford School District","=""1480011""","ELA","N",423,"*","*",61,14.4,273,64.5,"*","*","*","*",532
+"Wallingford School District","=""1480011""","ELA","Y",37,23,62.2,"*","*",7,18.9,"*","*","*","*",414
+"Wallingford School District","=""1480011""","Math","N",423,61,14.4,210,49.6,"*","*","*","*","*","*",501
+"Wallingford School District","=""1480011""","Math","Y",37,21,56.8,"*","*","*","*",0,0.0,"*","*",395
+"Waterbury School District","=""1510011""","ELA","N",895,293,32.7,255,28.5,302,33.7,45,5.0,347,38.8,461
+"Waterbury School District","=""1510011""","ELA","Y",160,126,78.8,26,16.3,8,5.0,0,0.0,8,5.0,374
+"Waterbury School District","=""1510011""","Math","N",892,420,47.1,375,42.0,"*","*","*","*","*","*",427
+"Waterbury School District","=""1510011""","Math","Y",157,134,85.4,"*","*","*","*",0,0.0,"*","*",362
+"Waterford School District","=""1520011""","ELA","N",180,"*","*","*","*",114,63.3,30,16.7,144,80.0,543
+"Waterford School District","=""1520011""","ELA","Y",23,"*","*","*","*",10,43.5,0,0.0,10,43.5,453
+"Waterford School District","=""1520011""","Math","N",180,20,11.1,75,41.7,60,33.3,25,13.9,85,47.2,526
+"Waterford School District","=""1520011""","Math","Y",23,12,52.2,11,47.8,0,0.0,0,0.0,0,0.0,410
+"Watertown School District","=""1530011""","ELA","N",182,"*","*","*","*","*","*","*","*","*","*",526
+"Watertown School District","=""1530011""","ELA","Y",17,"*","*","*","*","*","*","*","*","*","*","*"
+"Watertown School District","=""1530011""","Math","N",182,"*","*","*","*","*","*","*","*","*","*",494
+"Watertown School District","=""1530011""","Math","Y",17,"*","*","*","*","*","*","*","*","*","*","*"
+"West Hartford School District","=""1550011""","ELA","N",682,"*","*",73,10.7,336,49.3,"*","*","*","*",571
+"West Hartford School District","=""1550011""","ELA","Y",70,31,44.3,22,31.4,"*","*","*","*",17,24.3,436
+"West Hartford School District","=""1550011""","Math","N",681,64,9.4,200,29.4,"*","*","*","*","*","*",560
+"West Hartford School District","=""1550011""","Math","Y",70,44,62.9,21,30.0,"*","*","*","*","*","*",402
+"West Haven School District","=""1560011""","ELA","N",284,72,25.4,74,26.1,"*","*","*","*","*","*",478
+"West Haven School District","=""1560011""","ELA","Y",20,12,60.0,"*","*","*","*",0,0.0,"*","*",385
+"West Haven School District","=""1560011""","Math","N",284,87,30.6,"*","*",45,15.8,"*","*","*","*",459
+"West Haven School District","=""1560011""","Math","Y",20,"*","*","*","*",0,0.0,0,0.0,0,0.0,368
+"Westbrook School District","=""1540011""","ELA","N",68,"*","*","*","*","*","*","*","*","*","*",525
+"Westbrook School District","=""1540011""","ELA","Y",7,"*","*","*","*","*","*","*","*","*","*","*"
+"Westbrook School District","=""1540011""","Math","N",68,"*","*","*","*","*","*","*","*","*","*",497
+"Westbrook School District","=""1540011""","Math","Y",7,"*","*","*","*","*","*","*","*","*","*","*"
+"Weston School District","=""1570011""","ELA","N",186,"*","*","*","*","*","*","*","*","*","*",590
+"Weston School District","=""1570011""","ELA","Y",11,"*","*","*","*","*","*","*","*","*","*","*"
+"Weston School District","=""1570011""","Math","N",186,"*","*","*","*","*","*","*","*","*","*",591
+"Weston School District","=""1570011""","Math","Y",11,"*","*","*","*","*","*","*","*","*","*","*"
+"Westport School District","=""1580011""","ELA","N",390,13,3.3,"*","*",177,45.4,"*","*","*","*",609
+"Westport School District","=""1580011""","ELA","Y",43,10,23.3,"*","*",23,53.5,"*","*","*","*",499
+"Westport School District","=""1580011""","Math","N",390,11,2.8,60,15.4,"*","*","*","*",319,81.8,616
+"Westport School District","=""1580011""","Math","Y",43,21,48.8,14,32.6,"*","*","*","*",8,18.6,448
+"Wethersfield School District","=""1590011""","ELA","N",228,"*","*","*","*",140,61.4,32,14.0,172,75.4,531
+"Wethersfield School District","=""1590011""","ELA","Y",24,16,66.7,"*","*","*","*",0,0.0,"*","*",427
+"Wethersfield School District","=""1590011""","Math","N",228,27,11.8,84,36.8,"*","*","*","*","*","*",530
+"Wethersfield School District","=""1590011""","Math","Y",24,14,58.3,"*","*","*","*",0,0.0,"*","*",403
+"Wilton School District","=""1610011""","ELA","N",292,"*","*",6,2.1,144,49.3,"*","*","*","*",613
+"Wilton School District","=""1610011""","ELA","Y",36,"*","*",7,19.4,19,52.8,"*","*","*","*",528
+"Wilton School District","=""1610011""","Math","N",291,"*","*",50,17.2,124,42.6,"*","*","*","*",607
+"Wilton School District","=""1610011""","Math","Y",36,"*","*",16,44.4,11,30.6,"*","*","*","*",509
+"Windham School District","=""1630011""","ELA","N",82,32,39.0,"*","*","*","*","*","*","*","*",443
+"Windham School District","=""1630011""","ELA","Y",21,16,76.2,"*","*","*","*","*","*","*","*",388
+"Windham School District","=""1630011""","Math","N",82,49,59.8,"*","*","*","*",0,0.0,"*","*",417
+"Windham School District","=""1630011""","Math","Y",21,15,71.4,"*","*","*","*",0,0.0,"*","*",378
+"Windsor Locks School District","=""1650011""","ELA","N",82,"*","*","*","*","*","*","*","*","*","*",497
+"Windsor Locks School District","=""1650011""","ELA","Y",7,"*","*","*","*","*","*","*","*","*","*","*"
+"Windsor Locks School District","=""1650011""","Math","N",82,"*","*","*","*","*","*","*","*","*","*",481
+"Windsor Locks School District","=""1650011""","Math","Y",7,"*","*","*","*","*","*","*","*","*","*","*"
+"Windsor School District","=""1640011""","ELA","N",219,"*","*",59,26.9,116,53.0,"*","*","*","*",517
+"Windsor School District","=""1640011""","ELA","Y",43,23,53.5,11,25.6,"*","*","*","*",9,20.9,426
+"Windsor School District","=""1640011""","Math","N",219,38,17.4,111,50.7,"*","*","*","*","*","*",497
+"Windsor School District","=""1640011""","Math","Y",43,28,65.1,11,25.6,"*","*","*","*","*","*",404
+"Wolcott School District","=""1660011""","ELA","N",173,"*","*","*","*","*","*","*","*","*","*",546
+"Wolcott School District","=""1660011""","ELA","Y",17,"*","*","*","*","*","*","*","*","*","*","*"
+"Wolcott School District","=""1660011""","Math","N",173,"*","*","*","*","*","*","*","*","*","*",530
+"Wolcott School District","=""1660011""","Math","Y",17,"*","*","*","*","*","*","*","*","*","*","*"
+"Woodstock Academy District","=""9030022""","ELA","N",249,"*","*","*","*","*","*","*","*","*","*",544
+"Woodstock Academy District","=""9030022""","ELA","Y",9,"*","*","*","*","*","*","*","*","*","*","*"
+"Woodstock Academy District","=""9030022""","Math","N",249,"*","*","*","*","*","*","*","*","*","*",544
+"Woodstock Academy District","=""9030022""","Math","Y",9,"*","*","*","*","*","*","*","*","*","*","*"
+

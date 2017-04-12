@@ -26,7 +26,7 @@ function SAS_toggleLog() {
 </form>
 <div id="SASLog" style="display:none; text-align:left;">
 <h2>SAS Log</h2>
-<pre>1                                                                                                                        The SAS System                                                                                            17:00 Tuesday, April 11, 2017
+<pre>1                                                                                                                        The SAS System                                                                                          10:59 Wednesday, April 12, 2017
 
 <font color=blue>NOTE: Copyright (c) 2002-2012 by SAS Institute Inc., Cary, NC, USA. 
 NOTE: SAS (r) Proprietary Software 9.4 (TS1M2) 
@@ -51,8 +51,8 @@ NOTE: The autoexec file, D:\SASConfig94\Lev1\SASApp\StoredProcessServer\autoexec
 </font>
 &gt;&gt;&gt; SAS Macro Variables:
 
- ARMLOG=StoredProcessServer/PerfLogs/arm_sassrv_08APR17x14x41x07_4648.log
- CURRENTTIME=08APR17:14:41:07
+ ARMLOG=StoredProcessServer/PerfLogs/arm_sassrv_12APR17x09x04x57_4640.log
+ CURRENTTIME=12APR17:09:04:57
  SERVERCLASS=StoredProcessServer
  _APSLIST=_srvname,_rmthost,_htcook,_username,_srvport,_reqmeth,_subgroup,_htua,_grade,_grafloc,_version,_year,_url,_school,_rmtaddr,_reqencoding,_district,_userlocale,_program,_result,_metaperso
      n,_metauser,_metafolder,_client,_SECUREUSERNAME
@@ -60,13 +60,13 @@ NOTE: The autoexec file, D:\SASConfig94\Lev1\SASApp\StoredProcessServer\autoexec
  _DISTRICT=All Districts
  _GRADE=All Grades Combined
  _GRAFLOC=/sasweb/graph
- _HTCOOK=1fc2dae290ceccd1789c0e0db17caeed_Cluster1=71CA3F4898D36EBD2B995AD5724824D3.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1
+ _HTCOOK=1fc2dae290ceccd1789c0e0db17caeed_Cluster1=21F4C3F789BE29A579319DAFFB550E7B.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1
  _HTUA=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
  _METAFOLDER=/CTDOE/EdSight/Release/Reporting/Public/Reports/StoredProcesses/
  _METAPERSON=EdSightPublic
  _METAUSER=EdSightPublic@sdemeta.sys.services.ct.gov
  _PROGRAM=/CTDOE/EdSight/Release/Reporting/Public/Reports/StoredProcesses/PhysicalFitnessTestExport
- _REPLAY="&amp;_URL?_sessionid=D0F46FB7-0305-47FA-B0E3-5896AED6DC81&amp;_program=replay&amp;_entry=&amp;_TMPCAT.."
+ _REPLAY="&amp;_URL?_sessionid=F4D930AE-7F2A-462D-99BA-2F98AEAA34EF&amp;_program=replay&amp;_entry=&amp;_TMPCAT.."
  _REQENCODING=UTF-8
  _REQMETH=GET
  _RESULT=STREAM
@@ -77,7 +77,7 @@ NOTE: The autoexec file, D:\SASConfig94\Lev1\SASApp\StoredProcessServer\autoexec
  _SRVNAME=edsight.ct.gov
  _SRVPORT=80
  _SUBGROUP=All Tests - District
- _TMPCAT=APSWORK.TCAT01BB
+ _TMPCAT=APSWORK.TCAT0123
  _URL=/SASStoredProcess/do
  _USERLOCALE=en_US
  _USERNAME=EdSightPublic
@@ -148,8 +148,8 @@ NOTE: The autoexec file, D:\SASConfig94\Lev1\SASApp\StoredProcessServer\autoexec
 60         run;
 <font color=blue>
 NOTE: DATA statement used (Total process time):
-      real time           0.00 seconds
-      cpu time            0.00 seconds
+      real time           0.01 seconds
+      cpu time            0.01 seconds
       
 
 </font>61         
@@ -3641,7 +3641,7 @@ NOTE: Format CNTFATT has been output.
 NOTE: Format CNTFCNT has been output.
 
 NOTE: PROCEDURE FORMAT used (Total process time):
-      real time           0.00 seconds
+      real time           0.01 seconds
 </font>                                                                                          The SAS System
 
 <font color=blue>      cpu time            0.00 seconds
@@ -3652,7 +3652,7 @@ NOTE: Variable schoolcode is uninitialized.
 NOTE: There were 9597 observations read from the data set RPTLIB1.PPRPHYEDU.
 NOTE: The data set WORK.PPRPHYEDU has 9597 observations and 18 variables.
 NOTE: DATA statement used (Total process time):
-      real time           0.03 seconds
+      real time           0.01 seconds
       cpu time            0.01 seconds
       
 
@@ -3660,8 +3660,8 @@ NOTE: DATA statement used (Total process time):
 NOTE: There were 57236 observations read from the data set RPTLIB1.PPRSCHPHYEDU.
 NOTE: The data set WORK.PPRSCHPHYEDU has 55709 observations and 19 variables.
 NOTE: DATA statement used (Total process time):
-      real time           0.03 seconds
-      cpu time            0.03 seconds
+      real time           0.04 seconds
+      cpu time            0.04 seconds
       
 
 
@@ -3679,8 +3679,8 @@ NOTE: DATA statement used (Total process time):
 NOTE: There were 45564 observations read from the data set WORK.T1.
 NOTE: The data set WORK.T2 has 0 observations and 20 variables.
 NOTE: DATA statement used (Total process time):
-      real time           0.01 seconds
-      cpu time            0.01 seconds
+      real time           0.03 seconds
+      cpu time            0.03 seconds
       
 </font>                                                                                          The SAS System
 
@@ -3706,14 +3706,14 @@ NOTE: Numeric values have been converted to character values at the places given
       3077:66   
 NOTE: There were 1 observations read from the data set WORK.T4.
 NOTE: DATA statement used (Total process time):
-      real time           0.01 seconds
+      real time           0.00 seconds
       cpu time            0.00 seconds
       
 
 
 NOTE: The data set WORK.TITLE_PRINT has 5 observations and 1 variables.
 NOTE: DATA statement used (Total process time):
-      real time           0.00 seconds
+      real time           0.01 seconds
       cpu time            0.00 seconds
       
 
@@ -3731,7 +3731,7 @@ NOTE: There were 1 observations read from the data set WORK.T4.
 NOTE: The data set WORK.T4 has 1 observations and 9 variables.
 NOTE: PROCEDURE SORT used (Total process time):
       real time           0.01 seconds
-      cpu time            0.04 seconds
+      cpu time            0.00 seconds
       
 
 
@@ -3747,8 +3747,8 @@ NOTE: DATA statement used (Total process time):
 ERROR: Variable col1 is not on file WORK.T5.
 </font></strong><font color=blue>NOTE: The SAS System stopped processing this step because of errors.
 NOTE: PROCEDURE REPORT used (Total process time):
-      real time           0.00 seconds
-      cpu time            0.00 seconds
+      real time           0.01 seconds
+      cpu time            0.01 seconds
       
 </font>3078       
 3079       ODS CSV  CLOSE;

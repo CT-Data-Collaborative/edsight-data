@@ -1,414 +1,121 @@
-"Four-Year Graduation Rates, 2014-15"
-"All Districts, Free/Reduced Price Meal Eligibility"
 
-"",,,"Non-Graduates",,,
-"District","Free/Reduced Price Meal Eligibility","Four-Year Cohort Count","Still Enrolled Count","Still Enrolled Rate","Other Count","Other Rate"
-"Amistad Academy District","Eligible For Free Lunch",22,"*","*","*","*"
-"Amistad Academy District","Eligible For Reduced Lunch","*","*","*","*","*"
-"Amistad Academy District","Not Eligible For Lunch","*","*","*","*","*"
-"Ansonia School District","Eligible For Free Lunch",98,12,12.2,9,9.2
-"Ansonia School District","Eligible For Reduced Lunch",32,"*","*","*","*"
-"Ansonia School District","Not Eligible For Lunch",42,"*","*","*","*"
-"Avon School District","Eligible For Free Lunch",10,"*","*","*","*"
-"Avon School District","Eligible For Reduced Lunch",9,"*","*","*","*"
-"Avon School District","Not Eligible For Lunch",229,"*","*","*","*"
-"Berlin School District","Eligible For Free Lunch",27,"*","*","*","*"
-"Berlin School District","Eligible For Reduced Lunch",6,"*","*","*","*"
-"Berlin School District","Not Eligible For Lunch",177,"*","*","*","*"
-"Bethel School District","Eligible For Free Lunch",36,"*","*","*","*"
-"Bethel School District","Eligible For Reduced Lunch",20,"*","*","*","*"
-"Bethel School District","Not Eligible For Lunch",162,"*","*","*","*"
-"Bloomfield School District","Eligible For Free Lunch",82,8,9.8,6,7.3
-"Bloomfield School District","Eligible For Reduced Lunch",32,"*","*","*","*"
-"Bloomfield School District","Not Eligible For Lunch",62,"*","*","*","*"
-"Bolton School District","Eligible For Free Lunch","*","*","*","*","*"
-"Bolton School District","Eligible For Reduced Lunch","*","*","*","*","*"
-"Bolton School District","Not Eligible For Lunch",62,"*","*","*","*"
-"Branford School District","Eligible For Free Lunch",42,"*","*","*","*"
-"Branford School District","Eligible For Reduced Lunch",20,"*","*","*","*"
-"Branford School District","Not Eligible For Lunch",191,"*","*",7,3.7
-"Bridgeport Achievement First District","Eligible For Free Lunch",24,"*","*","*","*"
-"Bridgeport Achievement First District","Eligible For Reduced Lunch","*","*","*","*","*"
-"Bridgeport Achievement First District","Not Eligible For Lunch","*","*","*","*","*"
-"Bridgeport School District","Eligible For Free Lunch",1137,129,11.3,285,25.1
-"Bridgeport School District","Eligible For Reduced Lunch","*","*","*","*","*"
-"Bridgeport School District","Not Eligible For Lunch","*","*","*","*","*"
-"Bristol School District","Eligible For Free Lunch",243,24,9.9,55,22.6
-"Bristol School District","Eligible For Reduced Lunch",85,6,7.1,10,11.8
-"Bristol School District","Not Eligible For Lunch",319,10,3.1,16,5.0
-"Brookfield School District","Eligible For Free Lunch",15,"*","*","*","*"
-"Brookfield School District","Eligible For Reduced Lunch",9,"*","*","*","*"
-"Brookfield School District","Not Eligible For Lunch",211,"*","*","*","*"
-"Canton School District","Eligible For Free Lunch","*","*","*","*","*"
-"Canton School District","Eligible For Reduced Lunch","*","*","*","*","*"
-"Canton School District","Not Eligible For Lunch",119,"*","*","*","*"
-"Capitol Region Education Council","Eligible For Free Lunch",133,12,9.0,10,7.5
-"Capitol Region Education Council","Eligible For Reduced Lunch",47,"*","*","*","*"
-"Capitol Region Education Council","Not Eligible For Lunch",143,"*","*","*","*"
-"Cheshire School District","Eligible For Free Lunch","*","*","*","*","*"
-"Cheshire School District","Eligible For Reduced Lunch","*","*","*","*","*"
-"Cheshire School District","Not Eligible For Lunch",353,8,2.3,"*","*"
-"Clinton School District","Eligible For Free Lunch",33,"*","*",7,21.2
-"Clinton School District","Eligible For Reduced Lunch",10,"*","*","*","*"
-"Clinton School District","Not Eligible For Lunch",119,"*","*","*","*"
-"Colchester School District","Eligible For Free Lunch",32,"*","*","*","*"
-"Colchester School District","Eligible For Reduced Lunch",12,"*","*","*","*"
-"Colchester School District","Not Eligible For Lunch",184,"*","*","*","*"
-"Common Ground High School District","Eligible For Free Lunch",21,"*","*","*","*"
-"Common Ground High School District","Eligible For Reduced Lunch","*","*","*","*","*"
-"Common Ground High School District","Not Eligible For Lunch","*","*","*","*","*"
-"Connecticut Technical High School System","Eligible For Free Lunch",1157,"*","*",35,3.0
-"Connecticut Technical High School System","Eligible For Reduced Lunch",327,"*","*","*","*"
-"Connecticut Technical High School System","Not Eligible For Lunch",984,"*","*","*","*"
-"Coventry School District","Eligible For Free Lunch",21,"*","*","*","*"
-"Coventry School District","Eligible For Reduced Lunch",8,"*","*","*","*"
-"Coventry School District","Not Eligible For Lunch",88,"*","*","*","*"
-"Cromwell School District","Eligible For Free Lunch",18,"*","*","*","*"
-"Cromwell School District","Eligible For Reduced Lunch",8,"*","*","*","*"
-"Cromwell School District","Not Eligible For Lunch",102,"*","*","*","*"
-"Danbury School District","Eligible For Free Lunch",351,50,14.2,66,18.8
-"Danbury School District","Eligible For Reduced Lunch",96,13,13.5,15,15.6
-"Danbury School District","Not Eligible For Lunch",325,17,5.2,16,4.9
-"Darien School District","Eligible For Free Lunch","*","*","*","*","*"
-"Darien School District","Eligible For Reduced Lunch","*","*","*","*","*"
-"Darien School District","Not Eligible For Lunch",324,"*","*","*","*"
-"Derby School District","Eligible For Free Lunch",55,7,12.7,8,14.5
-"Derby School District","Eligible For Reduced Lunch",12,"*","*","*","*"
-"Derby School District","Not Eligible For Lunch",35,"*","*","*","*"
-"East Granby School District","Eligible For Free Lunch","*","*","*","*","*"
-"East Granby School District","Eligible For Reduced Lunch","*","*","*","*","*"
-"East Granby School District","Not Eligible For Lunch",58,"*","*","*","*"
-"East Haddam School District","Eligible For Free Lunch","*","*","*","*","*"
-"East Haddam School District","Eligible For Reduced Lunch","*","*","*","*","*"
-"East Haddam School District","Not Eligible For Lunch",89,"*","*","*","*"
-"East Hampton School District","Eligible For Free Lunch",16,"*","*","*","*"
-"East Hampton School District","Eligible For Reduced Lunch",8,"*","*","*","*"
-"East Hampton School District","Not Eligible For Lunch",103,"*","*","*","*"
-"East Hartford School District","Eligible For Free Lunch",341,17,5.0,38,11.1
-"East Hartford School District","Eligible For Reduced Lunch",86,"*","*","*","*"
-"East Hartford School District","Not Eligible For Lunch",139,"*","*","*","*"
-"East Haven School District","Eligible For Free Lunch",89,8,9.0,25,28.1
-"East Haven School District","Eligible For Reduced Lunch",49,"*","*",13,26.5
-"East Haven School District","Not Eligible For Lunch",106,"*","*",11,10.4
-"East Lyme School District","Eligible For Free Lunch",29,"*","*","*","*"
-"East Lyme School District","Eligible For Reduced Lunch",11,"*","*","*","*"
-"East Lyme School District","Not Eligible For Lunch",234,"*","*","*","*"
-"East Windsor School District","Eligible For Free Lunch",34,"*","*","*","*"
-"East Windsor School District","Eligible For Reduced Lunch",11,"*","*","*","*"
-"East Windsor School District","Not Eligible For Lunch",45,"*","*","*","*"
-"Eastern Connecticut Regional Educational Service Center (EASTCONN)","Eligible For Free Lunch",31,"*","*","*","*"
-"Eastern Connecticut Regional Educational Service Center (EASTCONN)","Eligible For Reduced Lunch",9,"*","*","*","*"
-"Eastern Connecticut Regional Educational Service Center (EASTCONN)","Not Eligible For Lunch",32,"*","*","*","*"
-"Ellington School District","Eligible For Free Lunch","*","*","*","*","*"
-"Ellington School District","Eligible For Reduced Lunch","*","*","*","*","*"
-"Ellington School District","Not Eligible For Lunch",180,"*","*","*","*"
-"Elm City College Preparatory School District","Eligible For Free Lunch",10,"*","*","*","*"
-"Elm City College Preparatory School District","Eligible For Reduced Lunch","*","*","*","*","*"
-"Elm City College Preparatory School District","Not Eligible For Lunch","*","*","*","*","*"
-"Enfield School District","Eligible For Free Lunch",97,"*","*",19,19.6
-"Enfield School District","Eligible For Reduced Lunch",48,"*","*","*","*"
-"Enfield School District","Not Eligible For Lunch",247,8,3.2,"*","*"
-"Explorations District","Eligible For Free Lunch","*","*","*","*","*"
-"Explorations District","Eligible For Reduced Lunch","*","*","*","*","*"
-"Explorations District","Not Eligible For Lunch",12,"*","*","*","*"
-"Fairfield School District","Eligible For Free Lunch",84,"*","*","*","*"
-"Fairfield School District","Eligible For Reduced Lunch",28,"*","*","*","*"
-"Fairfield School District","Not Eligible For Lunch",605,17,2.8,10,1.7
-"Farmington School District","Eligible For Free Lunch",45,7,15.6,"*","*"
-"Farmington School District","Eligible For Reduced Lunch",10,"*","*","*","*"
-"Farmington School District","Not Eligible For Lunch",280,"*","*","*","*"
-"Glastonbury School District","Eligible For Free Lunch",49,"*","*","*","*"
-"Glastonbury School District","Eligible For Reduced Lunch",19,"*","*","*","*"
-"Glastonbury School District","Not Eligible For Lunch",456,6,1.3,"*","*"
-"Granby School District","Eligible For Free Lunch",10,"*","*","*","*"
-"Granby School District","Eligible For Reduced Lunch",7,"*","*","*","*"
-"Granby School District","Not Eligible For Lunch",148,"*","*","*","*"
-"Greenwich School District","Eligible For Free Lunch",82,13,15.9,"*","*"
-"Greenwich School District","Eligible For Reduced Lunch",39,"*","*","*","*"
-"Greenwich School District","Not Eligible For Lunch",526,"*","*","*","*"
-"Griswold School District","Eligible For Free Lunch",45,"*","*",8,17.8
-"Griswold School District","Eligible For Reduced Lunch",17,"*","*","*","*"
-"Griswold School District","Not Eligible For Lunch",86,"*","*","*","*"
-"Groton School District","Eligible For Free Lunch",100,"*","*",14,14.0
-"Groton School District","Eligible For Reduced Lunch",31,"*","*","*","*"
-"Groton School District","Not Eligible For Lunch",141,"*","*","*","*"
-"Guilford School District","Eligible For Free Lunch",28,"*","*","*","*"
-"Guilford School District","Eligible For Reduced Lunch",11,"*","*","*","*"
-"Guilford School District","Not Eligible For Lunch",235,6,2.6,"*","*"
-"Hamden School District","Eligible For Free Lunch",182,14,7.7,24,13.2
-"Hamden School District","Eligible For Reduced Lunch",51,"*","*","*","*"
-"Hamden School District","Not Eligible For Lunch",232,"*","*","*","*"
-"Hartford School District","Eligible For Free Lunch",1205,167,13.9,258,21.4
-"Hartford School District","Eligible For Reduced Lunch",93,"*","*","*","*"
-"Hartford School District","Not Eligible For Lunch",186,"*","*","*","*"
-"Killingly School District","Eligible For Free Lunch",77,17,22.1,20,26.0
-"Killingly School District","Eligible For Reduced Lunch",21,"*","*","*","*"
-"Killingly School District","Not Eligible For Lunch",105,"*","*","*","*"
-"Learn","Eligible For Free Lunch",76,"*","*","*","*"
-"Learn","Eligible For Reduced Lunch",21,"*","*","*","*"
-"Learn","Not Eligible For Lunch",79,"*","*",6,7.6
-"Lebanon School District","Eligible For Free Lunch",11,"*","*","*","*"
-"Lebanon School District","Eligible For Reduced Lunch",6,"*","*","*","*"
-"Lebanon School District","Not Eligible For Lunch",78,"*","*","*","*"
-"Ledyard School District","Eligible For Free Lunch",53,"*","*","*","*"
-"Ledyard School District","Eligible For Reduced Lunch",11,"*","*","*","*"
-"Ledyard School District","Not Eligible For Lunch",169,11,6.5,"*","*"
-"Litchfield School District","Eligible For Free Lunch","*","*","*","*","*"
-"Litchfield School District","Eligible For Reduced Lunch","*","*","*","*","*"
-"Litchfield School District","Not Eligible For Lunch",59,"*","*","*","*"
-"Madison School District","Eligible For Free Lunch",15,"*","*","*","*"
-"Madison School District","Eligible For Reduced Lunch",7,"*","*","*","*"
-"Madison School District","Not Eligible For Lunch",287,"*","*","*","*"
-"Manchester School District","Eligible For Free Lunch",226,20,8.8,47,20.8
-"Manchester School District","Eligible For Reduced Lunch",57,"*","*","*","*"
-"Manchester School District","Not Eligible For Lunch",171,"*","*","*","*"
-"Meriden School District","Eligible For Free Lunch",389,32,8.2,97,24.9
-"Meriden School District","Eligible For Reduced Lunch",74,6,8.1,6,8.1
-"Meriden School District","Not Eligible For Lunch",163,11,6.7,11,6.7
-"Middletown School District","Eligible For Free Lunch",125,15,12.0,10,8.0
-"Middletown School District","Eligible For Reduced Lunch",39,"*","*","*","*"
-"Middletown School District","Not Eligible For Lunch",151,"*","*","*","*"
-"Milford School District","Eligible For Free Lunch",105,16,15.2,"*","*"
-"Milford School District","Eligible For Reduced Lunch",31,"*","*","*","*"
-"Milford School District","Not Eligible For Lunch",323,"*","*",7,2.2
-"Monroe School District","Eligible For Free Lunch",20,"*","*","*","*"
-"Monroe School District","Eligible For Reduced Lunch",19,"*","*","*","*"
-"Monroe School District","Not Eligible For Lunch",282,"*","*","*","*"
-"Montville School District","Eligible For Free Lunch",37,"*","*","*","*"
-"Montville School District","Eligible For Reduced Lunch",23,"*","*","*","*"
-"Montville School District","Not Eligible For Lunch",119,"*","*","*","*"
-"Naugatuck School District","Eligible For Free Lunch",151,9,6.0,21,13.9
-"Naugatuck School District","Eligible For Reduced Lunch",49,"*","*","*","*"
-"Naugatuck School District","Not Eligible For Lunch",137,"*","*","*","*"
-"New Britain School District","Eligible For Free Lunch",494,58,11.7,120,24.3
-"New Britain School District","Eligible For Reduced Lunch",69,6,8.7,9,13.0
-"New Britain School District","Not Eligible For Lunch",97,8,8.2,6,6.2
-"New Canaan School District","Eligible For Free Lunch","*","*","*","*","*"
-"New Canaan School District","Eligible For Reduced Lunch","*","*","*","*","*"
-"New Canaan School District","Not Eligible For Lunch",307,"*","*","*","*"
-"New Fairfield School District","Eligible For Free Lunch",27,"*","*","*","*"
-"New Fairfield School District","Eligible For Reduced Lunch",11,"*","*","*","*"
-"New Fairfield School District","Not Eligible For Lunch",226,"*","*","*","*"
-"New Haven School District","Eligible For Free Lunch",1089,101,9.3,201,18.5
-"New Haven School District","Eligible For Reduced Lunch",152,12,7.9,6,3.9
-"New Haven School District","Not Eligible For Lunch",244,6,2.5,44,18.0
-"New London School District","Eligible For Free Lunch",189,15,7.9,33,17.5
-"New London School District","Eligible For Reduced Lunch",6,"*","*","*","*"
-"New London School District","Not Eligible For Lunch",7,"*","*","*","*"
-"New Milford School District","Eligible For Free Lunch",54,"*","*","*","*"
-"New Milford School District","Eligible For Reduced Lunch",23,"*","*","*","*"
-"New Milford School District","Not Eligible For Lunch",294,8,2.7,12,4.1
-"Newington School District","Eligible For Free Lunch",80,"*","*",9,11.3
-"Newington School District","Eligible For Reduced Lunch",28,"*","*","*","*"
-"Newington School District","Not Eligible For Lunch",250,6,2.4,"*","*"
-"Newtown School District","Eligible For Free Lunch",29,"*","*","*","*"
-"Newtown School District","Eligible For Reduced Lunch",13,"*","*","*","*"
-"Newtown School District","Not Eligible For Lunch",411,13,3.2,"*","*"
-"North Branford School District","Eligible For Free Lunch",31,"*","*","*","*"
-"North Branford School District","Eligible For Reduced Lunch",13,"*","*","*","*"
-"North Branford School District","Not Eligible For Lunch",122,"*","*","*","*"
-"North Haven School District","Eligible For Free Lunch",39,"*","*","*","*"
-"North Haven School District","Eligible For Reduced Lunch",19,"*","*","*","*"
-"North Haven School District","Not Eligible For Lunch",238,6,2.5,6,2.5
-"North Stonington School District","Eligible For Free Lunch","*","*","*","*","*"
-"North Stonington School District","Eligible For Reduced Lunch","*","*","*","*","*"
-"North Stonington School District","Not Eligible For Lunch",41,"*","*","*","*"
-"Norwalk School District","Eligible For Free Lunch",358,15,4.2,42,11.7
-"Norwalk School District","Eligible For Reduced Lunch",81,"*","*",8,9.9
-"Norwalk School District","Not Eligible For Lunch",437,"*","*",16,3.7
-"Norwich Free Academy District","Eligible For Free Lunch",243,"*","*",50,20.6
-"Norwich Free Academy District","Eligible For Reduced Lunch",43,"*","*","*","*"
-"Norwich Free Academy District","Not Eligible For Lunch",304,"*","*","*","*"
-"Old Saybrook School District","Eligible For Free Lunch","*","*","*","*","*"
-"Old Saybrook School District","Eligible For Reduced Lunch","*","*","*","*","*"
-"Old Saybrook School District","Not Eligible For Lunch",109,"*","*","*","*"
-"Oxford School District","Eligible For Free Lunch","*","*","*","*","*"
-"Oxford School District","Eligible For Reduced Lunch","*","*","*","*","*"
-"Oxford School District","Not Eligible For Lunch",110,"*","*","*","*"
-"Plainfield School District","Eligible For Free Lunch",69,7,10.1,14,20.3
-"Plainfield School District","Eligible For Reduced Lunch",18,"*","*","*","*"
-"Plainfield School District","Not Eligible For Lunch",81,"*","*","*","*"
-"Plainville School District","Eligible For Free Lunch",51,"*","*",10,19.6
-"Plainville School District","Eligible For Reduced Lunch",22,"*","*","*","*"
-"Plainville School District","Not Eligible For Lunch",109,"*","*","*","*"
-"Plymouth School District","Eligible For Free Lunch",34,6,17.6,"*","*"
-"Plymouth School District","Eligible For Reduced Lunch",12,"*","*","*","*"
-"Plymouth School District","Not Eligible For Lunch",75,"*","*","*","*"
-"Portland School District","Eligible For Free Lunch","*","*","*","*","*"
-"Portland School District","Eligible For Reduced Lunch","*","*","*","*","*"
-"Portland School District","Not Eligible For Lunch",68,"*","*","*","*"
-"Putnam School District","Eligible For Free Lunch",38,"*","*","*","*"
-"Putnam School District","Eligible For Reduced Lunch",8,"*","*","*","*"
-"Putnam School District","Not Eligible For Lunch",19,"*","*","*","*"
-"Regional School District 01","Eligible For Free Lunch",13,"*","*","*","*"
-"Regional School District 01","Eligible For Reduced Lunch",12,"*","*","*","*"
-"Regional School District 01","Not Eligible For Lunch",62,"*","*","*","*"
-"Regional School District 04","Eligible For Free Lunch",13,"*","*","*","*"
-"Regional School District 04","Eligible For Reduced Lunch",7,"*","*","*","*"
-"Regional School District 04","Not Eligible For Lunch",162,"*","*","*","*"
-"Regional School District 05","Eligible For Free Lunch",20,"*","*","*","*"
-"Regional School District 05","Eligible For Reduced Lunch",8,"*","*","*","*"
-"Regional School District 05","Not Eligible For Lunch",389,6,1.5,7,1.8
-"Regional School District 06","Eligible For Free Lunch","*","*","*","*","*"
-"Regional School District 06","Eligible For Reduced Lunch","*","*","*","*","*"
-"Regional School District 06","Not Eligible For Lunch",78,"*","*","*","*"
-"Regional School District 07","Eligible For Free Lunch","*","*","*","*","*"
-"Regional School District 07","Eligible For Reduced Lunch","*","*","*","*","*"
-"Regional School District 07","Not Eligible For Lunch",125,"*","*","*","*"
-"Regional School District 08","Eligible For Free Lunch",16,"*","*","*","*"
-"Regional School District 08","Eligible For Reduced Lunch",13,"*","*","*","*"
-"Regional School District 08","Not Eligible For Lunch",240,9,3.8,6,2.5
-"Regional School District 09","Eligible For Free Lunch","*","*","*","*","*"
-"Regional School District 09","Eligible For Reduced Lunch","*","*","*","*","*"
-"Regional School District 09","Not Eligible For Lunch",241,7,2.9,"*","*"
-"Regional School District 10","Eligible For Free Lunch","*","*","*","*","*"
-"Regional School District 10","Eligible For Reduced Lunch","*","*","*","*","*"
-"Regional School District 10","Not Eligible For Lunch",176,"*","*",6,3.4
-"Regional School District 11","Eligible For Free Lunch",12,"*","*","*","*"
-"Regional School District 11","Eligible For Reduced Lunch",6,"*","*","*","*"
-"Regional School District 11","Not Eligible For Lunch",33,"*","*","*","*"
-"Regional School District 12","Eligible For Free Lunch","*","*","*","*","*"
-"Regional School District 12","Eligible For Reduced Lunch","*","*","*","*","*"
-"Regional School District 12","Not Eligible For Lunch",65,"*","*","*","*"
-"Regional School District 13","Eligible For Free Lunch",8,"*","*","*","*"
-"Regional School District 13","Eligible For Reduced Lunch",10,"*","*","*","*"
-"Regional School District 13","Not Eligible For Lunch",136,11,8.1,"*","*"
-"Regional School District 14","Eligible For Free Lunch","*","*","*","*","*"
-"Regional School District 14","Eligible For Reduced Lunch","*","*","*","*","*"
-"Regional School District 14","Not Eligible For Lunch",164,"*","*","*","*"
-"Regional School District 15","Eligible For Free Lunch",14,"*","*","*","*"
-"Regional School District 15","Eligible For Reduced Lunch",8,"*","*","*","*"
-"Regional School District 15","Not Eligible For Lunch",271,"*","*",6,2.2
-"Regional School District 16","Eligible For Free Lunch",16,"*","*","*","*"
-"Regional School District 16","Eligible For Reduced Lunch",9,"*","*","*","*"
-"Regional School District 16","Not Eligible For Lunch",142,"*","*","*","*"
-"Regional School District 17","Eligible For Free Lunch","*","*","*","*","*"
-"Regional School District 17","Eligible For Reduced Lunch","*","*","*","*","*"
-"Regional School District 17","Not Eligible For Lunch",148,"*","*","*","*"
-"Regional School District 18","Eligible For Free Lunch","*","*","*","*","*"
-"Regional School District 18","Eligible For Reduced Lunch","*","*","*","*","*"
-"Regional School District 18","Not Eligible For Lunch",76,"*","*","*","*"
-"Regional School District 19","Eligible For Free Lunch",39,"*","*","*","*"
-"Regional School District 19","Eligible For Reduced Lunch",20,"*","*","*","*"
-"Regional School District 19","Not Eligible For Lunch",233,11,4.7,"*","*"
-"Ridgefield School District","Eligible For Free Lunch","*","*","*","*","*"
-"Ridgefield School District","Eligible For Reduced Lunch","*","*","*","*","*"
-"Ridgefield School District","Not Eligible For Lunch",426,10,2.3,7,1.6
-"Rocky Hill School District","Eligible For Free Lunch",30,"*","*","*","*"
-"Rocky Hill School District","Eligible For Reduced Lunch",12,"*","*","*","*"
-"Rocky Hill School District","Not Eligible For Lunch",154,"*","*",7,4.5
-"Seymour School District","Eligible For Free Lunch",40,"*","*",6,15.0
-"Seymour School District","Eligible For Reduced Lunch",16,"*","*","*","*"
-"Seymour School District","Not Eligible For Lunch",92,"*","*","*","*"
-"Shelton School District","Eligible For Free Lunch",75,"*","*","*","*"
-"Shelton School District","Eligible For Reduced Lunch",38,"*","*","*","*"
-"Shelton School District","Not Eligible For Lunch",257,6,2.3,"*","*"
-"Simsbury School District","Eligible For Free Lunch",36,"*","*","*","*"
-"Simsbury School District","Eligible For Reduced Lunch",12,"*","*","*","*"
-"Simsbury School District","Not Eligible For Lunch",334,11,3.3,"*","*"
-"Somers School District","Eligible For Free Lunch","*","*","*","*","*"
-"Somers School District","Eligible For Reduced Lunch","*","*","*","*","*"
-"Somers School District","Not Eligible For Lunch",118,"*","*","*","*"
-"South Windsor School District","Eligible For Free Lunch",36,"*","*","*","*"
-"South Windsor School District","Eligible For Reduced Lunch",10,"*","*","*","*"
-"South Windsor School District","Not Eligible For Lunch",309,11,3.6,10,3.2
-"Southington School District","Eligible For Free Lunch",78,11,14.1,9,11.5
-"Southington School District","Eligible For Reduced Lunch",23,"*","*","*","*"
-"Southington School District","Not Eligible For Lunch",418,"*","*","*","*"
-"Stafford School District","Eligible For Free Lunch",19,"*","*","*","*"
-"Stafford School District","Eligible For Reduced Lunch",8,"*","*","*","*"
-"Stafford School District","Not Eligible For Lunch",65,"*","*","*","*"
-"Stamford Academy District","Eligible For Free Lunch",41,13,31.7,14,34.1
-"Stamford Academy District","Eligible For Reduced Lunch","*","*","*","*","*"
-"Stamford Academy District","Not Eligible For Lunch","*","*","*","*","*"
-"Stamford School District","Eligible For Free Lunch",555,46,8.3,57,10.3
-"Stamford School District","Eligible For Reduced Lunch",138,8,5.8,7,5.1
-"Stamford School District","Not Eligible For Lunch",524,12,2.3,21,4.0
-"Stonington School District","Eligible For Free Lunch",39,"*","*",6,15.4
-"Stonington School District","Eligible For Reduced Lunch",15,"*","*","*","*"
-"Stonington School District","Not Eligible For Lunch",146,"*","*","*","*"
-"Stratford School District","Eligible For Free Lunch",183,14,7.7,14,7.7
-"Stratford School District","Eligible For Reduced Lunch",100,"*","*","*","*"
-"Stratford School District","Not Eligible For Lunch",252,"*","*","*","*"
-"Suffield School District","Eligible For Free Lunch",20,"*","*","*","*"
-"Suffield School District","Eligible For Reduced Lunch",15,"*","*","*","*"
-"Suffield School District","Not Eligible For Lunch",177,"*","*","*","*"
-"The Bridge Academy District","Eligible For Free Lunch",26,"*","*","*","*"
-"The Bridge Academy District","Eligible For Reduced Lunch","*","*","*","*","*"
-"The Bridge Academy District","Not Eligible For Lunch","*","*","*","*","*"
-"The Gilbert School District","Eligible For Free Lunch",34,"*","*","*","*"
-"The Gilbert School District","Eligible For Reduced Lunch",10,"*","*","*","*"
-"The Gilbert School District","Not Eligible For Lunch",46,"*","*","*","*"
-"Thomaston School District","Eligible For Free Lunch","*","*","*","*","*"
-"Thomaston School District","Eligible For Reduced Lunch","*","*","*","*","*"
-"Thomaston School District","Not Eligible For Lunch",51,"*","*","*","*"
-"Thompson School District","Eligible For Free Lunch","*","*","*","*","*"
-"Thompson School District","Eligible For Reduced Lunch","*","*","*","*","*"
-"Thompson School District","Not Eligible For Lunch",48,"*","*","*","*"
-"Tolland School District","Eligible For Free Lunch",16,"*","*","*","*"
-"Tolland School District","Eligible For Reduced Lunch",11,"*","*","*","*"
-"Tolland School District","Not Eligible For Lunch",185,"*","*","*","*"
-"Torrington School District","Eligible For Free Lunch",101,10,9.9,22,21.8
-"Torrington School District","Eligible For Reduced Lunch",25,"*","*","*","*"
-"Torrington School District","Not Eligible For Lunch",156,"*","*","*","*"
-"Trumbull School District","Eligible For Free Lunch",39,"*","*","*","*"
-"Trumbull School District","Eligible For Reduced Lunch",20,"*","*","*","*"
-"Trumbull School District","Not Eligible For Lunch",475,"*","*","*","*"
-"Unified School District #1","Eligible For Free Lunch",393,66,16.8,317,80.7
-"Unified School District #1","Eligible For Reduced Lunch",12,"*","*","*","*"
-"Unified School District #1","Not Eligible For Lunch",7,"*","*","*","*"
-"Unified School District #2","Eligible For Free Lunch",39,"*","*",26,66.7
-"Unified School District #2","Eligible For Reduced Lunch","*","*","*","*","*"
-"Unified School District #2","Not Eligible For Lunch","*","*","*","*","*"
-"Vernon School District","Eligible For Free Lunch",84,"*","*",17,20.2
-"Vernon School District","Eligible For Reduced Lunch",16,"*","*","*","*"
-"Vernon School District","Not Eligible For Lunch",144,"*","*","*","*"
-"Wallingford School District","Eligible For Free Lunch",101,8,7.9,13,12.9
-"Wallingford School District","Eligible For Reduced Lunch",26,"*","*","*","*"
-"Wallingford School District","Not Eligible For Lunch",375,"*","*","*","*"
-"Waterbury School District","Eligible For Free Lunch",1023,60,5.9,298,29.1
-"Waterbury School District","Eligible For Reduced Lunch",129,"*","*",23,17.8
-"Waterbury School District","Not Eligible For Lunch",192,"*","*",20,10.4
-"Waterford School District","Eligible For Free Lunch",19,"*","*","*","*"
-"Waterford School District","Eligible For Reduced Lunch",16,"*","*","*","*"
-"Waterford School District","Not Eligible For Lunch",181,"*","*",7,3.9
-"Watertown School District","Eligible For Free Lunch",33,"*","*",6,18.2
-"Watertown School District","Eligible For Reduced Lunch",14,"*","*","*","*"
-"Watertown School District","Not Eligible For Lunch",158,8,5.1,"*","*"
-"West Hartford School District","Eligible For Free Lunch",163,"*","*",16,9.8
-"West Hartford School District","Eligible For Reduced Lunch",47,"*","*","*","*"
-"West Hartford School District","Not Eligible For Lunch",528,16,3.0,"*","*"
-"West Haven School District","Eligible For Free Lunch",237,13,5.5,56,23.6
-"West Haven School District","Eligible For Reduced Lunch",58,"*","*",8,13.8
-"West Haven School District","Not Eligible For Lunch",129,"*","*",12,9.3
-"Westbrook School District","Eligible For Free Lunch","*","*","*","*","*"
-"Westbrook School District","Eligible For Reduced Lunch","*","*","*","*","*"
-"Westbrook School District","Not Eligible For Lunch",69,"*","*","*","*"
-"Weston School District","Eligible For Free Lunch","*","*","*","*","*"
-"Weston School District","Eligible For Reduced Lunch","*","*","*","*","*"
-"Weston School District","Not Eligible For Lunch",161,"*","*","*","*"
-"Westport School District","Eligible For Free Lunch","*","*","*","*","*"
-"Westport School District","Eligible For Reduced Lunch","*","*","*","*","*"
-"Westport School District","Not Eligible For Lunch",439,"*","*","*","*"
-"Wethersfield School District","Eligible For Free Lunch",61,"*","*","*","*"
-"Wethersfield School District","Eligible For Reduced Lunch",19,"*","*","*","*"
-"Wethersfield School District","Not Eligible For Lunch",204,9,4.4,"*","*"
-"Wilton School District","Eligible For Free Lunch",10,"*","*","*","*"
-"Wilton School District","Eligible For Reduced Lunch",6,"*","*","*","*"
-"Wilton School District","Not Eligible For Lunch",314,10,3.2,"*","*"
-"Windham School District","Eligible For Free Lunch",84,9,10.7,12,14.3
-"Windham School District","Eligible For Reduced Lunch",15,"*","*","*","*"
-"Windham School District","Not Eligible For Lunch",31,"*","*","*","*"
-"Windsor Locks School District","Eligible For Free Lunch",42,"*","*","*","*"
-"Windsor Locks School District","Eligible For Reduced Lunch",16,"*","*","*","*"
-"Windsor Locks School District","Not Eligible For Lunch",73,"*","*","*","*"
-"Windsor School District","Eligible For Free Lunch",78,"*","*",9,11.5
-"Windsor School District","Eligible For Reduced Lunch",38,"*","*","*","*"
-"Windsor School District","Not Eligible For Lunch",194,12,6.2,"*","*"
-"Wolcott School District","Eligible For Free Lunch",35,"*","*","*","*"
-"Wolcott School District","Eligible For Reduced Lunch",14,"*","*","*","*"
-"Wolcott School District","Not Eligible For Lunch",131,"*","*","*","*"
-"Woodstock Academy District","Eligible For Free Lunch",6,"*","*","*","*"
-"Woodstock Academy District","Eligible For Reduced Lunch",12,"*","*","*","*"
-"Woodstock Academy District","Not Eligible For Lunch",268,"*","*","*","*"
+
+
+
+
+<!DOCTYPE html>
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+    
+    
+
+<head>
+    <meta charset="UTF-8" />
+    <title>
+    	
+    		
+    		
+    			SAS&reg; Logon Manager
+    		
+    	
+    </title>
+    <link type="text/css" rel="stylesheet" href="themes/default/css/bootstrap.css" />
+    <link type="text/css" rel="stylesheet" href="themes/default/css/sas.css" />
+</head>
+
+
+
+    <body id="cas">
+        <div id="page">
+            
+
+<div class="banner row">
+    <div class="about">
+        <ul class="unstyled"><li>
+            <a href="#about-modal" data-toggle="modal">
+                About
+            </a>
+        </li></ul>
+    </div>
+    <div id="about-modal" class="modal hide fade">
+        <div class="modal-header">
+            <a href="#" class="close" data-dismiss="modal">&times;</a>
+            <h3>About</h3>
+        </div>
+        <div class="modal-body">
+            <p>Version: 9.4</p>
+            <h4>Copyright Information</h4>
+            <p align="center">
+Copyright (c) 2002 - 2013 by SAS Institute Inc., Cary, NC, USA<br/>
+All rights reserved.<br/>
+<br/>
+This software is protected by copyright laws and international treaties.<br/>
+<br/>
+U.S. GOVERNMENT RESTRICTED RIGHTS<br/>
+Use, duplication, or disclosure of this software and related<br/>
+documentation by the U.S. government is subject to the<br/>
+Agreement with SAS Institute and the restrictions set forth<br/>
+in FAR 52.227-19, Commercial Computer Software<br/>
+- Restricted Rights (June 1987).
+            </p>
+        </div>
+    </div>
+    <div class="header">
+        <div class="title">
+        	<h1>
+        		
+		    		
+		    		
+		    			Sign In to SAS<sup>&reg;</sup>
+		    		
+    			
+        	</h1>
+       	</div>
+        <div class="logo"><img src="themes/default/images/logo.png" /></div>
+    </div>
+</div>
+
+
+            <div class="content row">
+                <div id="msg" class="alert-message message-box success">
+                	
+                		
+                			<h2>Public access has been denied.</h2>
+		                    <p>Public users are not allowed to access this SAS application. The current user has been signed out.</p>
+                		
+                		
+                		
+                    
+                    
+           				<p>For increased security, close your browser.</p>
+           			
+                </div>
+                
+	            	<div class="customizations" id="custom-logoff-message">
+	               		
+
+
+<p>
+</p>
+
+
+ 
+
+	                </div>
+	            
+	            
+            </div>
+        </div>
+        
+<script type="text/javascript" src="/SASLogon/js/jquery.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=43718D5DC82A37F163EDDDCF0716973C.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
+<script type="text/javascript" src="/SASLogon/js/bootstrap-modal.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=43718D5DC82A37F163EDDDCF0716973C.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
+
+    </body>
+
+</html>
+
 

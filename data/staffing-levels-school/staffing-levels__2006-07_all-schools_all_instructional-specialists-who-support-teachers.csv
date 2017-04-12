@@ -1,956 +1,160 @@
-"FTE Staffing Report for 2006-07"
 
-"District","School","Assignment Category","Educator Type","FTE Count"
-"Amistad Academy District","Amistad Academy","Instructional Specialists Who Support Teachers","Certified",1.0
-="Andover School District",="Andover Elementary School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-="Ansonia School District",="Ansonia High School",="Instructional Specialists Who Support Teachers",="Certified",0.1
-,="Ansonia Middle School",="Instructional Specialists Who Support Teachers",="Certified",2.2
-,="Mead School",="Instructional Specialists Who Support Teachers",="Certified",3.2
-,="Prendergast School",="Instructional Specialists Who Support Teachers",="Certified",3.5
-="Area Cooperative Educational Services",="A. C. E. S. Special Education Town Campus Learning Center",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Wintergreen Interdistrict Magnet School",="Instructional Specialists Who Support Teachers",="Certified",2.3
-="Ashford School District",="Ashford School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-="Avon School District",="Avon Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.8
-,="Pine Grove School",="Instructional Specialists Who Support Teachers",="Certified",2.6
-,="Roaring Brook School",="Instructional Specialists Who Support Teachers",="Certified",3.1
-,="Thompson Brook School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-="Barkhamsted School District",="Barkhamsted Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.2
-="Berlin School District",="Berlin High School",="Instructional Specialists Who Support Teachers",="Certified",2.8
-,="Catherine M. McGee Middle School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Emma Hart Willard School",="Instructional Specialists Who Support Teachers",="Certified",3.5
-,="Mary E. Griswold School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Richard D. Hubbard School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-="Bethany School District",="Bethany Community School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-="Bethel School District",="Anna H. Rockwell School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="Bethel Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Frank A. Berry School",="Instructional Specialists Who Support Teachers",="Certified",3.5
-,="Ralph M. T. Johnson School",="Instructional Specialists Who Support Teachers",="Certified",0.9
-="Bloomfield School District",="Bloomfield High School",="Instructional Specialists Who Support Teachers",="Certified",2.7
-,="Carmen Arace Intermediate School",="Instructional Specialists Who Support Teachers",="Certified",1.3
-,="Carmen Arace Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.7
-,="J. P. Vincent School",="Instructional Specialists Who Support Teachers",="Certified",3.4
-,="Laurel School",="Instructional Specialists Who Support Teachers",="Certified",1.4
-,="Metacomet School",="Instructional Specialists Who Support Teachers",="Certified",2.2
-="Bolton School District",="Bolton Center School",="Instructional Specialists Who Support Teachers",="Certified",4.0
-="Bozrah School District",="Fields Memorial School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-="Branford School District",="Branford High School",="Instructional Specialists Who Support Teachers",="Certified",0.4
-,="Francis Walsh Intermediate School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="Indian Neck School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="John B. Sliney School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Mary R. Tisko School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Mary T. Murphy School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-="Bridgeport School District",="Barnum School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Beardsley School",="Instructional Specialists Who Support Teachers",="Certified",1.2
-,="Black Rock School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Blackham School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Bryant School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Central High School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Cesar Batalla School",="Instructional Specialists Who Support Teachers",="Certified",3.0
-,="Classical Studies Academy",="Instructional Specialists Who Support Teachers",="Certified",0.2
-,="Columbus School",="Instructional Specialists Who Support Teachers",="Certified",5.0
-,="Cross School",="Instructional Specialists Who Support Teachers",="Certified",1.3
-,="Curiale School",="Instructional Specialists Who Support Teachers",="Certified",2.4
-,="Dunbar School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Edison School",="Instructional Specialists Who Support Teachers",="Certified",1.6
-,="Garfield School",="Instructional Specialists Who Support Teachers",="Certified",1.7
-,="Geraldine Johnson School",="Instructional Specialists Who Support Teachers",="Certified",0.1
-,="Hall School",="Instructional Specialists Who Support Teachers",="Certified",0.6
-,="Hallen School",="Instructional Specialists Who Support Teachers",="Certified",3.0
-,="Harding High School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="High Horizons Magnet School",="Instructional Specialists Who Support Teachers",="Certified",1.4
-,="Hooker School",="Instructional Specialists Who Support Teachers",="Certified",1.6
-,="Jettie S. Tisdale School",="Instructional Specialists Who Support Teachers",="Certified",2.2
-,="Longfellow School",="Instructional Specialists Who Support Teachers",="Certified",2.6
-,="Luis Munoz Marin School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Madison School",="Instructional Specialists Who Support Teachers",="Certified",2.5
-,="Maplewood Annex",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Multicultural Magnet School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Park City Magnet School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Read School",="Instructional Specialists Who Support Teachers",="Certified",1.3
-,="Roosevelt School",="Instructional Specialists Who Support Teachers",="Certified",3.0
-,="Skane Center",="Instructional Specialists Who Support Teachers",="Certified",1.9
-,="Waltersville School",="Instructional Specialists Who Support Teachers",="Certified",2.8
-,="Winthrop School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-="Bristol School District",="Bristol Central High School",="Instructional Specialists Who Support Teachers",="Certified",0.6
-,="Bristol Eastern High School",="Instructional Specialists Who Support Teachers",="Certified",0.4
-,="Chippens Hill Middle School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Clara T. O'Connell School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Clarence A. Bingham School",="Instructional Specialists Who Support Teachers",="Certified",0.6
-,="Edgewood School",="Instructional Specialists Who Support Teachers",="Certified",0.6
-,="Ellen P. Hubbell School",="Instructional Specialists Who Support Teachers",="Certified",1.4
-,="Greene-Hills School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Ivy Drive School",="Instructional Specialists Who Support Teachers",="Certified",0.6
-,="John J. Jennings School",="Instructional Specialists Who Support Teachers",="Certified",0.6
-,="Memorial Boulevard Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.4
-,="Mountain View School",="Instructional Specialists Who Support Teachers",="Certified",2.3
-,="Northeast Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.4
-,="South Side School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Stafford School",="Instructional Specialists Who Support Teachers",="Certified",2.6
-="Brookfield School District",="Brookfield High School",="Instructional Specialists Who Support Teachers",="Certified",0.3
-,="Center Elementary School",="Instructional Specialists Who Support Teachers",="Certified",3.0
-,="Huckleberry Hill Elementary School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Whisconier Middle School",="Instructional Specialists Who Support Teachers",="Certified",3.0
-="Brooklyn School District",="Brooklyn Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.6
-,="Brooklyn Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-="Canaan School District",="Lee H. Kellogg School",="Instructional Specialists Who Support Teachers",="Certified",0.2
-="Canterbury School District",="Canterbury Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Dr. Helen Baldwin Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.6
-="Canton School District",="Canton Intermediate School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Canton Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Cherry Brook Primary School",="Instructional Specialists Who Support Teachers",="Certified",1.6
-="Capitol Region Education Council",="CREC Early Learning Center at Asylum Hill",="Instructional Specialists Who Support Teachers",="Certified",8.0
-,="Discovery Academy",="Instructional Specialists Who Support Teachers",="Certified",4.0
-,="Glastonbury/East Hartford Magnet School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="University of Hartford Magnet School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-="Chaplin School District",="Chaplin Elementary School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-="Cheshire School District",="Chapman School",="Instructional Specialists Who Support Teachers",="Certified",1.3
-,="Cheshire High School",="Instructional Specialists Who Support Teachers",="Certified",1.1
-,="Darcey School",="Instructional Specialists Who Support Teachers",="Certified",2.5
-,="Dodd Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Doolittle School",="Instructional Specialists Who Support Teachers",="Certified",1.8
-,="Highland School",="Instructional Specialists Who Support Teachers",="Certified",2.4
-,="Norton School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-="Chester School District",="Chester Elementary School",="Instructional Specialists Who Support Teachers",="Certified",0.8
-="Clinton School District",="Abraham Pierson School",="Instructional Specialists Who Support Teachers",="Certified",2.7
-,="Jared Eliot School",="Instructional Specialists Who Support Teachers",="Certified",2.3
-,="Lewin G. Joel Jr. School",="Instructional Specialists Who Support Teachers",="Certified",2.9
-,="The Morgan School",="Instructional Specialists Who Support Teachers",="Certified",0.1
-="Colchester School District",="Bacon Academy",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Colchester Elementary School",="Instructional Specialists Who Support Teachers",="Certified",4.4
-,="Jack Jackter Intermediate School",="Instructional Specialists Who Support Teachers",="Certified",4.0
-,="William J. Johnston Middle School",="Instructional Specialists Who Support Teachers",="Certified",2.2
-="Colebrook School District",="Colebrook Consolidated School",="Instructional Specialists Who Support Teachers",="Certified",1.4
-="Columbia School District",="Horace W. Porter School",="Instructional Specialists Who Support Teachers",="Certified",3.0
-="Connecticut Technical High School System",="Eli Whitney Technical High School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="H. H. Ellis Technical High School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Vinal Technical High School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-="Cooperative Educational Services",="C. E. S. Special Education",="Instructional Specialists Who Support Teachers",="Certified",8.7
-,="Six-Six Magnet School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-="Cornwall School District",="Cornwall Consolidated School",="Instructional Specialists Who Support Teachers",="Certified",0.4
-="Coventry School District",="Capt. Nathan Hale School",="Instructional Specialists Who Support Teachers",="Certified",2.1
-,="Coventry Early Intervention Services",="Instructional Specialists Who Support Teachers",="Certified",0.4
-,="Coventry Grammar School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="Coventry High School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="George Hersey Robertson School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-="Cromwell School District",="Cromwell High School",="Instructional Specialists Who Support Teachers",="Certified",1.2
-,="Edna C. Stevens School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Woodside Intermediate School",="Instructional Specialists Who Support Teachers",="Certified",1.8
-="Danbury School District",="Broadview Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.6
-,="Danbury High School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Ellsworth Avenue School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="Great Plain School",="Instructional Specialists Who Support Teachers",="Certified",3.0
-,="Hayestown Avenue School",="Instructional Specialists Who Support Teachers",="Certified",2.8
-,="King Street Intermediate School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="King Street Primary School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Mill Ridge Educational Center",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Mill Ridge Primary School",="Instructional Specialists Who Support Teachers",="Certified",2.3
-,="Morris Street School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="Park Avenue School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="Pembroke School",="Instructional Specialists Who Support Teachers",="Certified",2.8
-,="Rogers Park Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="Shelter Rock School",="Instructional Specialists Who Support Teachers",="Certified",2.9
-,="South Street School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Stadley Rough School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="Western CT Academy of International Studies Elementary Magnet School",="Instructional Specialists Who Support Teachers",="Certified",2.6
-="Darien School District",="Darien High School",="Instructional Specialists Who Support Teachers",="Certified",3.9
-,="Hindley Elementary School",="Instructional Specialists Who Support Teachers",="Certified",4.1
-,="Holmes Elementary School",="Instructional Specialists Who Support Teachers",="Certified",3.3
-,="Middlesex Middle School",="Instructional Specialists Who Support Teachers",="Certified",2.8
-,="Ox Ridge Elementary School",="Instructional Specialists Who Support Teachers",="Certified",4.6
-,="Royle Elementary School",="Instructional Specialists Who Support Teachers",="Certified",2.1
-,="Tokeneke Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.6
-="Deep River School District",="Deep River Elementary School",="Instructional Specialists Who Support Teachers",="Certified",3.5
-="Derby School District",="Bradley School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Derby High School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Irving School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-="East Granby School District",="Allgrove School",="Instructional Specialists Who Support Teachers",="Certified",0.4
-,="East Granby Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-="East Haddam School District",="East Haddam Elementary School",="Instructional Specialists Who Support Teachers",="Certified",4.4
-,="Nathan Hale-Ray Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.6
-="East Hampton School District",="Center School",="Instructional Specialists Who Support Teachers",="Certified",0.3
-,="East Hampton High School",="Instructional Specialists Who Support Teachers",="Certified",0.4
-,="East Hampton Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Memorial School",="Instructional Specialists Who Support Teachers",="Certified",1.7
-="East Hartford School District",="Anna E. Norris School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Dr. Franklin H. Mayberry School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Dr. John A. Langford School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Dr. Thomas S. O'Connell School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="East Hartford High School",="Instructional Specialists Who Support Teachers",="Certified",0.3
-,="East Hartford Middle School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Governor William Pitkin School",="Instructional Specialists Who Support Teachers",="Certified",1.9
-,="Hockanum School",="Instructional Specialists Who Support Teachers",="Certified",1.8
-,="Joseph O. Goodwin School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Robert J. O'Brien School",="Instructional Specialists Who Support Teachers",="Certified",1.9
-,="Silver Lane School",="Instructional Specialists Who Support Teachers",="Certified",1.9
-,="Sunset Ridge School Elementary Academy for Arts and World Languages",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="Willowbrook Early Childhood",="Instructional Specialists Who Support Teachers",="Certified",4.5
-,="Woodland School",="Instructional Specialists Who Support Teachers",="Certified",1.1
-="East Haven School District",="Carbone School/East Haven Academy",="Instructional Specialists Who Support Teachers",="Certified",0.1
-,="D. C. Moore School",="Instructional Specialists Who Support Teachers",="Certified",0.8
-,="Deer Run School",="Instructional Specialists Who Support Teachers",="Certified",0.9
-,="Dominick H. Ferrara School",="Instructional Specialists Who Support Teachers",="Certified",0.8
-,="Grove J. Tuttle School",="Instructional Specialists Who Support Teachers",="Certified",0.2
-,="Momauguin School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Overbrook Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Robert W. Carbone School",="Instructional Specialists Who Support Teachers",="Certified",1.2
-="East Lyme School District",="East Lyme High School",="Instructional Specialists Who Support Teachers",="Certified",0.1
-,="East Lyme Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.2
-,="Flanders School",="Instructional Specialists Who Support Teachers",="Certified",0.7
-,="Lillie B. Haynes School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Niantic Center School",="Instructional Specialists Who Support Teachers",="Certified",0.7
-="East Windsor School District",="Broad Brook Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.2
-,="East Windsor High School",="Instructional Specialists Who Support Teachers",="Certified",0.1
-,="East Windsor Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.7
-="Eastern Connecticut Regional Educational Service Center (EASTCONN)",="EastConn Special Education",="Instructional Specialists Who Support Teachers",="Certified",0.6
-="Eastford School District",="Eastford Elementary School",="Instructional Specialists Who Support Teachers",="Certified",0.6
-="Easton School District",="Helen Keller Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Samuel Staples Elementary School",="Instructional Specialists Who Support Teachers",="Certified",3.0
-="Ellington School District",="Center School",="Instructional Specialists Who Support Teachers",="Certified",3.6
-,="Crystal Lake School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="Ellington High School",="Instructional Specialists Who Support Teachers",="Certified",0.4
-,="Ellington Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.7
-,="Windermere School",="Instructional Specialists Who Support Teachers",="Certified",4.8
-="Enfield School District",="Eli Whitney School",="Instructional Specialists Who Support Teachers",="Certified",1.8
-,="Enfield High School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Enfield Street School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Enrico Fermi High School",="Instructional Specialists Who Support Teachers",="Certified",0.6
-,="Hazardville Memorial School",="Instructional Specialists Who Support Teachers",="Certified",0.7
-,="Henry Barnard School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="John F. Kennedy Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.3
-,="Prudence Crandall School",="Instructional Specialists Who Support Teachers",="Certified",0.6
-,="Thomas G. Alcorn School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-="Essex School District",="Essex Elementary School",="Instructional Specialists Who Support Teachers",="Certified",2.4
-="Fairfield School District",="Burr Elementary School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Dwight Elementary School",="Instructional Specialists Who Support Teachers",="Certified",2.6
-,="Early Childhood Center",="Instructional Specialists Who Support Teachers",="Certified",5.0
-,="Fairfield Ludlowe High School",="Instructional Specialists Who Support Teachers",="Certified",2.3
-,="Fairfield Warde High School",="Instructional Specialists Who Support Teachers",="Certified",3.5
-,="Fairfield Woods Middle School",="Instructional Specialists Who Support Teachers",="Certified",3.2
-,="Holland Hill School",="Instructional Specialists Who Support Teachers",="Certified",2.2
-,="Jennings School",="Instructional Specialists Who Support Teachers",="Certified",3.9
-,="McKinley School",="Instructional Specialists Who Support Teachers",="Certified",1.9
-,="Mill Hill School",="Instructional Specialists Who Support Teachers",="Certified",2.4
-,="North Stratfield School",="Instructional Specialists Who Support Teachers",="Certified",2.3
-,="Osborn Hill School",="Instructional Specialists Who Support Teachers",="Certified",2.8
-,="Riverfield School",="Instructional Specialists Who Support Teachers",="Certified",2.6
-,="Roger Ludlowe Middle School",="Instructional Specialists Who Support Teachers",="Certified",2.5
-,="Sherman School",="Instructional Specialists Who Support Teachers",="Certified",2.4
-,="Stratfield School",="Instructional Specialists Who Support Teachers",="Certified",2.4
-,="Tomlinson Middle School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-="Farmington School District",="East Farms School",="Instructional Specialists Who Support Teachers",="Certified",0.9
-,="Farmington High School",="Instructional Specialists Who Support Teachers",="Certified",1.7
-,="Irving A. Robbins Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.7
-,="Noah Wallace School",="Instructional Specialists Who Support Teachers",="Certified",1.9
-,="Union School",="Instructional Specialists Who Support Teachers",="Certified",1.7
-,="West District School",="Instructional Specialists Who Support Teachers",="Certified",0.8
-,="West Woods Upper Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-="Franklin School District",="Franklin Elementary School",="Instructional Specialists Who Support Teachers",="Certified",0.8
-="Glastonbury School District",="Buttonball Lane School",="Instructional Specialists Who Support Teachers",="Certified",1.9
-,="Eastbury School",="Instructional Specialists Who Support Teachers",="Certified",0.8
-,="Gideon Welles School",="Instructional Specialists Who Support Teachers",="Certified",0.2
-,="Glastonbury High School",="Instructional Specialists Who Support Teachers",="Certified",1.8
-,="Hebron Avenue School",="Instructional Specialists Who Support Teachers",="Certified",1.2
-,="Hopewell School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Naubuc School",="Instructional Specialists Who Support Teachers",="Certified",2.8
-,="Smith Middle School",="Instructional Specialists Who Support Teachers",="Certified",3.1
-="Granby School District",="Frank M. Kearns Primary School",="Instructional Specialists Who Support Teachers",="Certified",2.8
-,="Granby Memorial High School",="Instructional Specialists Who Support Teachers",="Certified",1.4
-,="Granby Memorial Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.2
-,="Kelly Lane Primary School",="Instructional Specialists Who Support Teachers",="Certified",2.2
-,="Wells Road Intermediate School",="Instructional Specialists Who Support Teachers",="Certified",2.2
-="Greenwich School District",="Central Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="Cos Cob School",="Instructional Specialists Who Support Teachers",="Certified",3.0
-,="Eastern Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="Glenville School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="Greenwich High School",="Instructional Specialists Who Support Teachers",="Certified",4.2
-,="Hamilton Avenue School",="Instructional Specialists Who Support Teachers",="Certified",2.1
-,="International School At Dundee",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="Julian Curtiss School",="Instructional Specialists Who Support Teachers",="Certified",4.5
-,="New Lebanon School",="Instructional Specialists Who Support Teachers",="Certified",3.3
-,="North Mianus School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="North Street School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="Old Greenwich School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="Parkway School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="Riverside School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="Western Middle School",="Instructional Specialists Who Support Teachers",="Certified",3.5
-="Griswold School District",="Griswold Elementary School",="Instructional Specialists Who Support Teachers",="Certified",3.0
-,="Griswold Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.8
-="Groton School District",="Carl C. Cutler Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Charles Barnum School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Claude Chester School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Colonel Ledyard School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Eastern Point School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Fitch Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Groton Heights School",="Instructional Specialists Who Support Teachers",="Certified",0.2
-,="Mary Morrisson School",="Instructional Specialists Who Support Teachers",="Certified",2.8
-,="Noank School",="Instructional Specialists Who Support Teachers",="Certified",0.4
-,="Pleasant Valley School",="Instructional Specialists Who Support Teachers",="Certified",1.2
-,="Robert E. Fitch High School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="S. B. Butler School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="West Side Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.4
-="Guilford School District",="A. Baldwin Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.2
-,="A. W. Cox School",="Instructional Specialists Who Support Teachers",="Certified",1.1
-,="Calvin Leete School",="Instructional Specialists Who Support Teachers",="Certified",1.1
-,="E. C. Adams Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Guilford High School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Guilford Lakes School",="Instructional Specialists Who Support Teachers",="Certified",1.9
-,="Melissa Jones School",="Instructional Specialists Who Support Teachers",="Certified",1.1
-="Hamden School District",="Alice Peck Learning Center",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="Bear Path School",="Instructional Specialists Who Support Teachers",="Certified",2.4
-,="Church Street School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Dunbar Hill School",="Instructional Specialists Who Support Teachers",="Certified",1.9
-,="Hamden High School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Hamden Middle School",="Instructional Specialists Who Support Teachers",="Certified",2.8
-,="Helen Street School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Ridge Hill School",="Instructional Specialists Who Support Teachers",="Certified",3.0
-,="Shepherd Glen School",="Instructional Specialists Who Support Teachers",="Certified",1.6
-,="Spring Glen School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="West Woods School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-="Hampton School District",="Hampton Elementary School",="Instructional Specialists Who Support Teachers",="Certified",0.7
-="Hartford School District",="Asian Studies Academy",="Instructional Specialists Who Support Teachers",="Certified",2.5
-,="Barnard-Brown School",="Instructional Specialists Who Support Teachers",="Certified",3.9
-,="Batchelder School",="Instructional Specialists Who Support Teachers",="Certified",2.5
-,="Breakthrough Magnet School",="Instructional Specialists Who Support Teachers",="Certified",1.2
-,="Bulkeley High School Lower School",="Instructional Specialists Who Support Teachers",="Certified",1.4
-,="Burns Latino Studies Academy",="Instructional Specialists Who Support Teachers",="Certified",2.2
-,="Burr School",="Instructional Specialists Who Support Teachers",="Certified",1.8
-,="Clark School",="Instructional Specialists Who Support Teachers",="Certified",3.5
-,="Dr. Joseph Bellizzi Middle School",="Instructional Specialists Who Support Teachers",="Certified",2.3
-,="Dr. Ramon E. Betances Early Reading Lab",="Instructional Specialists Who Support Teachers",="Certified",3.5
-,="Environmental Sciences Magnet at Hooker School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="Expeditionary Learning Academy at Moylan School",="Instructional Specialists Who Support Teachers",="Certified",3.4
-,="Fox Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.4
-,="Hartford Magnet Trinity College Academy",="Instructional Specialists Who Support Teachers",="Certified",1.2
-,="Hartford Public High School",="Instructional Specialists Who Support Teachers",="Certified",2.8
-,="Hartford Transitional Learning Academy (Elementary)",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="Hartford Transitional Learning Academy (Secondary)",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Kennelly School",="Instructional Specialists Who Support Teachers",="Certified",3.5
-,="M. D. Fox School",="Instructional Specialists Who Support Teachers",="Certified",4.6
-,="M. L. King, Jr. School",="Instructional Specialists Who Support Teachers",="Certified",4.6
-,="McDonough Middle School",="Instructional Specialists Who Support Teachers",="Certified",2.5
-,="Milner School",="Instructional Specialists Who Support Teachers",="Certified",5.0
-,="Naylor/CCSU Leadership Academy",="Instructional Specialists Who Support Teachers",="Certified",3.5
-,="Parkville Community School",="Instructional Specialists Who Support Teachers",="Certified",4.1
-,="Quirk Middle School",="Instructional Specialists Who Support Teachers",="Certified",2.6
-,="R.J. Kinsella Magnet School of Performing Arts",="Instructional Specialists Who Support Teachers",="Certified",3.5
-,="Rawson School",="Instructional Specialists Who Support Teachers",="Certified",2.5
-,="SAND School",="Instructional Specialists Who Support Teachers",="Certified",1.8
-,="STEM Magnet at Fisher School",="Instructional Specialists Who Support Teachers",="Certified",4.1
-,="Sanchez School",="Instructional Specialists Who Support Teachers",="Certified",3.5
-,="Simpson-Waverly School",="Instructional Specialists Who Support Teachers",="Certified",3.0
-,="Twain School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Weaver High School",="Instructional Specialists Who Support Teachers",="Certified",0.2
-,="Webster Micro Society Magnet School",="Instructional Specialists Who Support Teachers",="Certified",2.9
-,="West Middle School",="Instructional Specialists Who Support Teachers",="Certified",3.6
-,="Wish Museum School",="Instructional Specialists Who Support Teachers",="Certified",3.1
-="Hartland School District",="Hartland School",="Instructional Specialists Who Support Teachers",="Certified",0.2
-="Hebron School District",="Gilead Hill School",="Instructional Specialists Who Support Teachers",="Certified",2.9
-,="Hebron Elementary School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-="Integrated Day Charter School District",="Integrated Day Charter School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-="Kent School District",="Kent Center School",="Instructional Specialists Who Support Teachers",="Certified",1.3
-="Killingly School District",="Goodyear Early Childhood Center",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Killingly Central School",="Instructional Specialists Who Support Teachers",="Certified",2.3
-,="Killingly High School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Killingly Intermediate School",="Instructional Specialists Who Support Teachers",="Certified",1.1
-,="Killingly Memorial School",="Instructional Specialists Who Support Teachers",="Certified",1.3
-="Learn",="Learn Special Education",="Instructional Specialists Who Support Teachers",="Certified",1.2
-,="Regional Multicultural Magnet School",="Instructional Specialists Who Support Teachers",="Certified",1.8
-,="The Friendship School",="Instructional Specialists Who Support Teachers",="Certified",2.5
-="Lebanon School District",="Lebanon Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="Lebanon Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.3
-,="Lyman Memorial High School",="Instructional Specialists Who Support Teachers",="Certified",0.2
-="Ledyard School District",="Gales Ferry School",="Instructional Specialists Who Support Teachers",="Certified",1.2
-,="Gallup Hill School",="Instructional Specialists Who Support Teachers",="Certified",2.5
-,="Juliet W. Long School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="Ledyard Center School",="Instructional Specialists Who Support Teachers",="Certified",2.5
-,="Ledyard High School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Ledyard Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.7
-="Lisbon School District",="Lisbon Central School",="Instructional Specialists Who Support Teachers",="Certified",1.9
-="Litchfield School District",="Center School",="Instructional Specialists Who Support Teachers",="Certified",5.7
-,="Litchfield High School",="Instructional Specialists Who Support Teachers",="Certified",0.4
-,="Litchfield Intermediate School",="Instructional Specialists Who Support Teachers",="Certified",2.9
-="Madison School District",="Dr. Robert H. Brown Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Island Avenue Elementary School",="Instructional Specialists Who Support Teachers",="Certified",0.8
-,="J. Milton Jeffrey Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.4
-,="Kathleen H. Ryerson Elementary School",="Instructional Specialists Who Support Teachers",="Certified",2.3
-="Manchester School District",="Bowers School",="Instructional Specialists Who Support Teachers",="Certified",2.2
-,="Buckley School",="Instructional Specialists Who Support Teachers",="Certified",3.0
-,="Highland Park School",="Instructional Specialists Who Support Teachers",="Certified",0.6
-,="Illing Middle School",="Instructional Specialists Who Support Teachers",="Certified",4.4
-,="Keeney School",="Instructional Specialists Who Support Teachers",="Certified",1.6
-,="Manchester High School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Manchester Regional Academy",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Martin School",="Instructional Specialists Who Support Teachers",="Certified",0.7
-,="Nathan Hale School",="Instructional Specialists Who Support Teachers",="Certified",2.9
-,="Robertson School",="Instructional Specialists Who Support Teachers",="Certified",3.0
-,="Verplanck School",="Instructional Specialists Who Support Teachers",="Certified",3.0
-,="Waddell School",="Instructional Specialists Who Support Teachers",="Certified",3.3
-,="Washington School",="Instructional Specialists Who Support Teachers",="Certified",2.3
-="Mansfield School District",="Annie E. Vinton School",="Instructional Specialists Who Support Teachers",="Certified",1.9
-,="Dorothy C. Goodwin School",="Instructional Specialists Who Support Teachers",="Certified",1.9
-,="Mansfield Middle School School",="Instructional Specialists Who Support Teachers",="Certified",1.4
-,="Southeast Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.9
-="Marlborough School District",="Elmer Thienes-Mary Hall Elementary School",="Instructional Specialists Who Support Teachers",="Certified",3.5
-="Meriden School District",="Nathan Hale School",="Instructional Specialists Who Support Teachers",="Certified",1.4
-,="Benjamin Franklin School",="Instructional Specialists Who Support Teachers",="Certified",3.1
-,="Casimir Pulaski School",="Instructional Specialists Who Support Teachers",="Certified",1.4
-,="Francis T. Maloney High School",="Instructional Specialists Who Support Teachers",="Certified",1.2
-,="Hanover School",="Instructional Specialists Who Support Teachers",="Certified",1.4
-,="Israel Putnam School",="Instructional Specialists Who Support Teachers",="Certified",1.1
-,="John Barry School",="Instructional Specialists Who Support Teachers",="Certified",2.1
-,="Lincoln Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.8
-,="Orville H. Platt High School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="Roger Sherman School",="Instructional Specialists Who Support Teachers",="Certified",1.1
-,="Thomas Hooker School",="Instructional Specialists Who Support Teachers",="Certified",1.1
-,="Washington Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.3
-="Middletown School District",="Bielefield School",="Instructional Specialists Who Support Teachers",="Certified",1.8
-,="Farm Hill School",="Instructional Specialists Who Support Teachers",="Certified",1.4
-,="Keigwin Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.2
-,="Lawrence School",="Instructional Specialists Who Support Teachers",="Certified",1.7
-,="MacDonough School",="Instructional Specialists Who Support Teachers",="Certified",1.4
-,="Middletown High School",="Instructional Specialists Who Support Teachers",="Certified",0.2
-,="Moody School",="Instructional Specialists Who Support Teachers",="Certified",1.4
-,="Snow School",="Instructional Specialists Who Support Teachers",="Certified",3.0
-,="Spencer School",="Instructional Specialists Who Support Teachers",="Certified",1.3
-,="Wesley School",="Instructional Specialists Who Support Teachers",="Certified",1.4
-,="Woodrow Wilson Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.2
-="Milford School District",="Calf Pen Meadow School",="Instructional Specialists Who Support Teachers",="Certified",3.4
-,="East Shore Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.9
-,="Harborside Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.7
-,="J. F. Kennedy School",="Instructional Specialists Who Support Teachers",="Certified",2.3
-,="Jonathan Law High School",="Instructional Specialists Who Support Teachers",="Certified",1.6
-,="Joseph A. Foran High School",="Instructional Specialists Who Support Teachers",="Certified",1.8
-,="Live Oaks School",="Instructional Specialists Who Support Teachers",="Certified",1.8
-,="Mathewson School",="Instructional Specialists Who Support Teachers",="Certified",0.7
-,="Meadowside School",="Instructional Specialists Who Support Teachers",="Certified",2.6
-,="Orange Avenue School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Orchard Hills School",="Instructional Specialists Who Support Teachers",="Certified",1.9
-,="Pumpkin Delight School",="Instructional Specialists Who Support Teachers",="Certified",2.4
-,="Simon Lake School",="Instructional Specialists Who Support Teachers",="Certified",3.7
-,="The Academy",="Instructional Specialists Who Support Teachers",="Certified",0.1
-,="West Shore Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.9
-="Monroe School District",="Chalk Hill School",="Instructional Specialists Who Support Teachers",="Certified",0.6
-,="Fawn Hollow Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="Jockey Hollow School",="Instructional Specialists Who Support Teachers",="Certified",0.4
-,="Masuk High School",="Instructional Specialists Who Support Teachers",="Certified",0.3
-,="Monroe Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.6
-,="Stepney Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.9
-="Montville School District",="Dr. Charles E. Murphy School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Leonard J. Tyl Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.8
-,="Mohegan School",="Instructional Specialists Who Support Teachers",="Certified",1.3
-,="Montville High School",="Instructional Specialists Who Support Teachers",="Certified",0.4
-,="Oakdale School",="Instructional Specialists Who Support Teachers",="Certified",2.3
-="Naugatuck School District",="Andrew Avenue School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Central Avenue School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="City Hill Middle School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Cross Street Intermediate School",="Instructional Specialists Who Support Teachers",="Certified",0.6
-,="Hillside Intermediate School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Hillside Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.4
-,="Hop Brook Elementary School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Maple Hill School",="Instructional Specialists Who Support Teachers",="Certified",2.5
-,="Naugatuck High School",="Instructional Specialists Who Support Teachers",="Certified",1.8
-,="Salem School",="Instructional Specialists Who Support Teachers",="Certified",0.6
-,="Western School",="Instructional Specialists Who Support Teachers",="Certified",0.6
-="New Britain School District",="Chamberlain Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Gaffney School",="Instructional Specialists Who Support Teachers",="Certified",3.0
-,="Holmes School",="Instructional Specialists Who Support Teachers",="Certified",2.7
-,="Jefferson School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Lincoln School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="New Britain High School",="Instructional Specialists Who Support Teachers",="Certified",0.4
-,="Pulaski Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.6
-,="Roosevelt Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Slade Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Smalley Academy",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Smith School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-="New Canaan School District",="East School",="Instructional Specialists Who Support Teachers",="Certified",1.8
-,="New Canaan High School",="Instructional Specialists Who Support Teachers",="Certified",2.2
-,="Saxe Middle School",="Instructional Specialists Who Support Teachers",="Certified",2.7
-,="South School",="Instructional Specialists Who Support Teachers",="Certified",3.8
-,="West School",="Instructional Specialists Who Support Teachers",="Certified",3.2
-="New Fairfield School District",="Consolidated School",="Instructional Specialists Who Support Teachers",="Certified",3.0
-,="Meeting House Hill School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="New Fairfield High School",="Instructional Specialists Who Support Teachers",="Certified",0.4
-,="New Fairfield Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-="New Hartford School District",="Ann Antolini School",="Instructional Specialists Who Support Teachers",="Certified",1.4
-,="Bakerville Consolidated School",="Instructional Specialists Who Support Teachers",="Certified",0.4
-,="New Hartford Elementary School",="Instructional Specialists Who Support Teachers",="Certified",0.6
-="New Haven School District",="Edgewood School",="Instructional Specialists Who Support Teachers",="Certified",1.4
-,="Nathan Hale School",="Instructional Specialists Who Support Teachers",="Certified",1.8
-,="Augusta Lewis Troup School",="Instructional Specialists Who Support Teachers",="Certified",2.6
-,="Barnard Environmental Magnet School",="Instructional Specialists Who Support Teachers",="Certified",3.0
-,="Beecher School",="Instructional Specialists Who Support Teachers",="Certified",2.2
-,="Benjamin Jepson Magnet School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="Betsy Ross Arts Magnet School",="Instructional Specialists Who Support Teachers",="Certified",1.4
-,="Bishop Woods School",="Instructional Specialists Who Support Teachers",="Certified",2.5
-,="Celentano BioTech, Health and Medical Magnet School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Clarence Rogers School",="Instructional Specialists Who Support Teachers",="Certified",2.7
-,="Clemente Leadership Academy",="Instructional Specialists Who Support Teachers",="Certified",3.6
-,="Clinton Avenue School",="Instructional Specialists Who Support Teachers",="Certified",1.9
-,="Columbus Family Academy",="Instructional Specialists Who Support Teachers",="Certified",2.4
-,="Conte/West Hills Magnet School",="Instructional Specialists Who Support Teachers",="Certified",2.4
-,="Cooperative High School",="Instructional Specialists Who Support Teachers",="Certified",0.3
-,="Cortlandt V.R. Creed Health and Sport Sciences High School",="Instructional Specialists Who Support Teachers",="Certified",0.1
-,="Davis 21st Century Magnet Elementary School",="Instructional Specialists Who Support Teachers",="Certified",3.0
-,="Early Learning Center",="Instructional Specialists Who Support Teachers",="Certified",0.1
-,="East Rock Community Magnet School",="Instructional Specialists Who Support Teachers",="Certified",4.0
-,="Fair Haven School",="Instructional Specialists Who Support Teachers",="Certified",4.8
-,="Headstart",="Instructional Specialists Who Support Teachers",="Certified",0.3
-,="Hill Central Music Academy",="Instructional Specialists Who Support Teachers",="Certified",3.5
-,="Hill Regional Career High School",="Instructional Specialists Who Support Teachers",="Certified",0.3
-,="James Hillhouse High School",="Instructional Specialists Who Support Teachers",="Certified",0.6
-,="John C. Daniels",="Instructional Specialists Who Support Teachers",="Certified",3.9
-,="John S. Martinez School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Katherine Brennan School",="Instructional Specialists Who Support Teachers",="Certified",1.1
-,="King/Robinson Magnet School",="Instructional Specialists Who Support Teachers",="Certified",4.8
-,="Lincoln-Bassett School",="Instructional Specialists Who Support Teachers",="Certified",1.8
-,="Metropolitan Business Academy",="Instructional Specialists Who Support Teachers",="Certified",0.1
-,="Polly T. McCabe Center",="Instructional Specialists Who Support Teachers",="Certified",0.1
-,="Prince School",="Instructional Specialists Who Support Teachers",="Certified",0.2
-,="Riverside Education Academy",="Instructional Specialists Who Support Teachers",="Certified",0.1
-,="Ross/Woodward School",="Instructional Specialists Who Support Teachers",="Certified",1.4
-,="Sound School",="Instructional Specialists Who Support Teachers",="Certified",0.4
-,="Timothy Dwight School",="Instructional Specialists Who Support Teachers",="Certified",2.3
-,="Truman School",="Instructional Specialists Who Support Teachers",="Certified",1.4
-,="Urban Youth Center Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.1
-,="Vincent E. Mauro Elementary Math, Science and Technology Magnet School",="Instructional Specialists Who Support Teachers",="Certified",2.2
-,="West Rock Authors Academy",="Instructional Specialists Who Support Teachers",="Certified",1.1
-,="Wexler/Grant Community School",="Instructional Specialists Who Support Teachers",="Certified",1.4
-,="Wilbur Cross High School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="Worthington Hooker School",="Instructional Specialists Who Support Teachers",="Certified",1.1
-="New London School District",="Jennings School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="Bennie Dover Jackson Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="Harbor School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Nathan Hale Arts Magnet School",="Instructional Specialists Who Support Teachers",="Certified",1.7
-,="New London High School",="Instructional Specialists Who Support Teachers",="Certified",0.2
-,="Winthrop STEM Elementary Magnet School",="Instructional Specialists Who Support Teachers",="Certified",1.8
-="New Milford School District",="Hill And Plain School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="John Pettibone School",="Instructional Specialists Who Support Teachers",="Certified",3.6
-,="New Milford High School",="Instructional Specialists Who Support Teachers",="Certified",0.6
-,="Northville Elementary School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Sarah Noble Intermediate School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="Schaghticoke Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.4
-="Newington School District",="Anna Reynolds School",="Instructional Specialists Who Support Teachers",="Certified",2.7
-,="Elizabeth Green School",="Instructional Specialists Who Support Teachers",="Certified",2.1
-,="John Paterson School",="Instructional Specialists Who Support Teachers",="Certified",2.9
-,="John Wallace Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.7
-,="Martin Kellogg Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.7
-,="Newington High School",="Instructional Specialists Who Support Teachers",="Certified",1.1
-,="Ruth Chaffee School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-="Newtown School District",="Hawley Elementary School",="Instructional Specialists Who Support Teachers",="Certified",4.0
-,="Head O'Meadow Elementary School",="Instructional Specialists Who Support Teachers",="Certified",4.0
-,="Middle Gate Elementary School",="Instructional Specialists Who Support Teachers",="Certified",4.4
-,="Newtown High School",="Instructional Specialists Who Support Teachers",="Certified",0.8
-,="Newtown Middle School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Reed Intermediate School",="Instructional Specialists Who Support Teachers",="Certified",3.0
-,="Sandy Hook Elementary School",="Instructional Specialists Who Support Teachers",="Certified",2.2
-="Norfolk School District",="Botelle Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.1
-="North Branford School District",="Jerome Harrison School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="North Branford High School",="Instructional Specialists Who Support Teachers",="Certified",0.4
-,="North Branford Intermediate School",="Instructional Specialists Who Support Teachers",="Certified",0.6
-,="Stanley T. Williams School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Totoket Valley Elementary School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-="North Canaan School District",="North Canaan Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-="North Haven School District",="Clintonville Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="Green Acres Elementary School",="Instructional Specialists Who Support Teachers",="Certified",2.5
-,="Montowese Elementary School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="North Haven High School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="North Haven Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Ridge Road Elementary School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-="North Stonington School District",="North Stonington Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.8
-,="Wheeler High School",="Instructional Specialists Who Support Teachers",="Certified",0.1
-,="Wheeler Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.1
-="Norwalk School District",="Brien McMahon High School",="Instructional Specialists Who Support Teachers",="Certified",0.6
-,="Brookside Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.8
-,="Cranbury Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Fox Run Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Jefferson Magnet School",="Instructional Specialists Who Support Teachers",="Certified",0.4
-,="Kendall Elementary School",="Instructional Specialists Who Support Teachers",="Certified",0.6
-,="Marvin Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Naramake Elementary School",="Instructional Specialists Who Support Teachers",="Certified",0.6
-,="Nathan Hale Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.7
-,="Norwalk High School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Ponus Ridge Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.6
-,="Roton Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.4
-,="Rowayton School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Silvermine Elementary School",="Instructional Specialists Who Support Teachers",="Certified",0.6
-,="Tracey School",="Instructional Specialists Who Support Teachers",="Certified",0.8
-,="West Rocks Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Wolfpit School",="Instructional Specialists Who Support Teachers",="Certified",0.9
-="Norwich School District",="Bishop School Early Learning Center",="Instructional Specialists Who Support Teachers",="Certified",0.8
-,="Greeneville School",="Instructional Specialists Who Support Teachers",="Certified",0.7
-,="John B. Stanton Network School",="Instructional Specialists Who Support Teachers",="Certified",1.1
-,="Kelly Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.1
-,="Moriarty Magnet School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Samuel Huntington School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Teachers' Memorial Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Thomas W. Mahan School",="Instructional Specialists Who Support Teachers",="Certified",1.1
-,="Uncas Network School",="Instructional Specialists Who Support Teachers",="Certified",0.9
-,="Veterans' Memorial School",="Instructional Specialists Who Support Teachers",="Certified",2.3
-,="Wequonnoc Magnet School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-="Old Saybrook School District",="Kathleen E. Goodwin School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Old Saybrook Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.8
-,="Old Saybrook Senior High School",="Instructional Specialists Who Support Teachers",="Certified",0.2
-="Orange School District",="Mary L. Tracy School",="Instructional Specialists Who Support Teachers",="Certified",1.2
-,="Peck Place School",="Instructional Specialists Who Support Teachers",="Certified",2.4
-,="Race Brook School",="Instructional Specialists Who Support Teachers",="Certified",1.9
-,="Turkey Hill School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-="Oxford School District",="Great Oak School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Oxford Center School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Quaker Farms School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-="Plainfield School District",="Early Childhood Center",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Moosup Elementary School",="Instructional Specialists Who Support Teachers",="Certified",0.7
-,="Plainfield Central School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Plainfield High School",="Instructional Specialists Who Support Teachers",="Certified",0.3
-,="Plainfield Memorial School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Shepard Hill Elementary School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-="Plainville School District",="Frank T. Wheeler School",="Instructional Specialists Who Support Teachers",="Certified",0.6
-,="Linden Street School",="Instructional Specialists Who Support Teachers",="Certified",1.8
-,="Louis Toffolon School",="Instructional Specialists Who Support Teachers",="Certified",0.2
-,="Middle School of Plainville",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Plainville High School",="Instructional Specialists Who Support Teachers",="Certified",0.1
-="Plymouth School District",="Main Street School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Plymouth Center School",="Instructional Specialists Who Support Teachers",="Certified",0.8
-="Pomfret School District",="Pomfret Community School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-="Portland School District",="Brownstone Intermediate School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Gildersleeve School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Portland High School",="Instructional Specialists Who Support Teachers",="Certified",0.3
-,="Valley View School",="Instructional Specialists Who Support Teachers",="Certified",1.4
-="Preston School District",="Preston Plains School",="Instructional Specialists Who Support Teachers",="Certified",0.6
-,="Preston Veterans' Memorial School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-="Putnam School District",="Putnam Elementary School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Putnam High School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Putnam Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-="Redding School District",="John Read Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.2
-,="Redding Elementary School",="Instructional Specialists Who Support Teachers",="Certified",4.4
-="Regional School District 01",="Housatonic Valley Regional High School",="Instructional Specialists Who Support Teachers",="Certified",0.2
-="Regional School District 04",="John Winthrop Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.2
-="Regional School District 05",="Amity Middle School: Bethany",="Instructional Specialists Who Support Teachers",="Certified",1.2
-,="Amity Middle School: Orange",="Instructional Specialists Who Support Teachers",="Certified",2.2
-,="Amity Regional High School",="Instructional Specialists Who Support Teachers",="Certified",3.4
-="Regional School District 06",="Goshen Center School",="Instructional Specialists Who Support Teachers",="Certified",0.9
-,="James Morris School",="Instructional Specialists Who Support Teachers",="Certified",0.9
-,="Wamogo Regional High School",="Instructional Specialists Who Support Teachers",="Certified",0.1
-,="Warren Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.2
-="Regional School District 07",="Northwestern Regional High School",="Instructional Specialists Who Support Teachers",="Certified",0.4
-,="Northwestern Regional Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.1
-="Regional School District 08",="RHAM High School",="Instructional Specialists Who Support Teachers",="Certified",0.6
-,="RHAM Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.4
-="Regional School District 09",="Joel Barlow High School",="Instructional Specialists Who Support Teachers",="Certified",1.2
-="Regional School District 10",="Har-Bur Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Harwinton Consolidated School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Lake Garda Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="Lewis S. Mills High School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-="Regional School District 11",="Parish Hill High School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-="Regional School District 12",="Early Childhood Education Center",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Shepaug Valley High School",="Instructional Specialists Who Support Teachers",="Certified",0.1
-,="The Burnham School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Washington Primary School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-="Regional School District 13",="Coginchaug Regional High School",="Instructional Specialists Who Support Teachers",="Certified",0.1
-,="Francis E. Korn School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Frank Ward Strong School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Frederick Brewster School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="John Lyman School",="Instructional Specialists Who Support Teachers",="Certified",0.9
-,="Middlefield Memorial School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-="Regional School District 14",="Bethlehem Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Integrated Star Preschool Program",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Mitchell Elementary School",="Instructional Specialists Who Support Teachers",="Certified",2.6
-,="Woodbury Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.4
-="Regional School District 15",="Gainfield Elementary School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Long Meadow Elementary School",="Instructional Specialists Who Support Teachers",="Certified",4.9
-,="Memorial Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.7
-,="Middlebury Elementary School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Pomperaug Regional High School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Pomperaug School",="Instructional Specialists Who Support Teachers",="Certified",3.2
-,="Rochambeau Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.9
-="Regional School District 16",="Algonquin School",="Instructional Specialists Who Support Teachers",="Certified",3.0
-,="Community School",="Instructional Specialists Who Support Teachers",="Certified",1.4
-,="Laurel Ledge School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="Long River Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.4
-,="Woodland Regional High School",="Instructional Specialists Who Support Teachers",="Certified",1.2
-="Regional School District 17",="Burr District Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="Haddam Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Haddam-Killingworth High School",="Instructional Specialists Who Support Teachers",="Certified",0.3
-,="Haddam-Killingworth Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.3
-,="Killingworth Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-="Regional School District 18",="Center School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Lyme Consolidated School",="Instructional Specialists Who Support Teachers",="Certified",0.6
-,="Lyme-Old Lyme High School",="Instructional Specialists Who Support Teachers",="Certified",0.2
-,="Lyme-Old Lyme Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.4
-,="Mile Creek School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-="Regional School District 19",="E. O. Smith High School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-="Ridgefield School District",="Barlow Mountain Elementary School",="Instructional Specialists Who Support Teachers",="Certified",2.4
-,="Branchville Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="East Ridge Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.6
-,="Farmingville Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Ridgebury Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Ridgefield High School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Scotland Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="Scotts Ridge Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Veterans Park Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-="Rocky Hill School District",="Albert D. Griswold Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.4
-,="Dr. Oran A. Moser School",="Instructional Specialists Who Support Teachers",="Certified",0.7
-,="Myrtle H. Stevens School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Rocky Hill High School",="Instructional Specialists Who Support Teachers",="Certified",0.4
-,="West Hill School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-="Salem School District",="Salem Elementary School",="Instructional Specialists Who Support Teachers",="Certified",4.2
-="Salisbury School District",="Salisbury Central School",="Instructional Specialists Who Support Teachers",="Certified",0.8
-="Scotland School District",="Scotland Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-="Seymour School District",="Anna L. Lopresti School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Bungay School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="Paul E. Chatfield School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="Seymour High School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Seymour Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-="Sharon School District",="Sharon Center School",="Instructional Specialists Who Support Teachers",="Certified",2.6
-="Shelton School District",="Mohegan School",="Instructional Specialists Who Support Teachers",="Certified",1.4
-,="Booth Hill School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="Elizabeth Shelton School",="Instructional Specialists Who Support Teachers",="Certified",1.2
-,="Intermediate School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Lafayette School",="Instructional Specialists Who Support Teachers",="Certified",2.3
-,="Long Hill School",="Instructional Specialists Who Support Teachers",="Certified",2.1
-,="Shelton High School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="Sunnyside School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-="Sherman School District",="Sherman School",="Instructional Specialists Who Support Teachers",="Certified",1.3
-="Simsbury School District",="Central School",="Instructional Specialists Who Support Teachers",="Certified",3.6
-,="Henry James Memorial School",="Instructional Specialists Who Support Teachers",="Certified",0.6
-,="Latimer Lane School",="Instructional Specialists Who Support Teachers",="Certified",3.1
-,="Simsbury High School",="Instructional Specialists Who Support Teachers",="Certified",2.4
-,="Squadron Line School",="Instructional Specialists Who Support Teachers",="Certified",5.6
-,="Tariffville School",="Instructional Specialists Who Support Teachers",="Certified",2.3
-,="Tootin' Hills School",="Instructional Specialists Who Support Teachers",="Certified",4.7
-="Somers School District",="Mabelle B. Avery Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.8
-,="Somers Elementary School",="Instructional Specialists Who Support Teachers",="Certified",3.0
-,="Somers High School",="Instructional Specialists Who Support Teachers",="Certified",0.3
-="South Windsor School District",="Pleasant Valley School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Eli Terry School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Orchard Hill School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Philip R. Smith School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="South Windsor High School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Timothy Edwards School",="Instructional Specialists Who Support Teachers",="Certified",3.0
-,="Wapping Elementary School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-="Southington School District",="John F. Kennedy Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Derynoski Elementary School",="Instructional Specialists Who Support Teachers",="Certified",0.1
-,="Flanders Elementary School",="Instructional Specialists Who Support Teachers",="Certified",0.6
-,="Hatton Elementary School",="Instructional Specialists Who Support Teachers",="Certified",3.0
-,="Plantsville Elementary School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="South End Elementary School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Southington High School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Strong Elementary School",="Instructional Specialists Who Support Teachers",="Certified",0.9
-,="Thalberg Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Urbin T. Kelley School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-="Stafford School District",="Borough Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Earl M. Witt Intermediate School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Stafford High School",="Instructional Specialists Who Support Teachers",="Certified",0.2
-,="Stafford Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Staffordville School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="West Stafford School",="Instructional Specialists Who Support Teachers",="Certified",0.8
-="Stamford School District",="Cloonan School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Davenport Ridge School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Hart School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Julia A. Stark School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="K. T. Murphy School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Newfield School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Northeast School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Rippowam Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Rogers International School",="Instructional Specialists Who Support Teachers",="Certified",3.0
-,="Roxbury School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Scofield Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Springdale School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Stamford High School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Stillmeadow School",="Instructional Specialists Who Support Teachers",="Certified",2.6
-,="The Academy of Information Technology",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Westhill High School",="Instructional Specialists Who Support Teachers",="Certified",4.0
-,="Westover School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="William Pitt Child Development Center",="Instructional Specialists Who Support Teachers",="Certified",0.4
-="Sterling School District",="Sterling Memorial School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-="Stonington School District",="Deans Mill School",="Instructional Specialists Who Support Teachers",="Certified",1.2
-,="Mystic Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.4
-,="Pawcatuck Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Special Needs Preschool Program",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Stonington High School",="Instructional Specialists Who Support Teachers",="Certified",0.1
-,="West Broad Street School",="Instructional Specialists Who Support Teachers",="Certified",0.4
-,="West Vine Street School",="Instructional Specialists Who Support Teachers",="Certified",0.8
-="Stratford School District",="Eli Whitney School",="Instructional Specialists Who Support Teachers",="Certified",3.0
-,="Bunnell High School",="Instructional Specialists Who Support Teachers",="Certified",0.6
-,="Chapel School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="David Wooster Middle School",="Instructional Specialists Who Support Teachers",="Certified",2.5
-,="Franklin School",="Instructional Specialists Who Support Teachers",="Certified",3.0
-,="Harry B. Flood Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Lordship School",="Instructional Specialists Who Support Teachers",="Certified",1.7
-,="Nichols School",="Instructional Specialists Who Support Teachers",="Certified",1.7
-,="Second Hill Lane School",="Instructional Specialists Who Support Teachers",="Certified",4.8
-,="Stratford Academy - Johnson House",="Instructional Specialists Who Support Teachers",="Certified",3.2
-,="Stratford High School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-="Suffield School District",="A. Ward Spaulding School",="Instructional Specialists Who Support Teachers",="Certified",2.4
-,="McAlister Intermediate School",="Instructional Specialists Who Support Teachers",="Certified",1.3
-,="Prekindergarten Program",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Suffield Middle School",="Instructional Specialists Who Support Teachers",="Certified",2.3
-="Thomaston School District",="Black Rock School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Thomaston Center School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-="Thompson School District",="Mary R. Fisher Elementary School",="Instructional Specialists Who Support Teachers",="Certified",2.3
-,="Thompson Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.3
-,="Tourtellotte Memorial High School",="Instructional Specialists Who Support Teachers",="Certified",0.1
-="Tolland School District",="Birch Grove Primary School",="Instructional Specialists Who Support Teachers",="Certified",3.6
-,="Tolland Intermediate School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Tolland Middle School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-="Torrington School District",="East School",="Instructional Specialists Who Support Teachers",="Certified",2.4
-,="Forbes School",="Instructional Specialists Who Support Teachers",="Certified",2.4
-,="Southwest School",="Instructional Specialists Who Support Teachers",="Certified",1.7
-,="Torringford School",="Instructional Specialists Who Support Teachers",="Certified",2.5
-,="Torrington High School",="Instructional Specialists Who Support Teachers",="Certified",0.4
-,="Torrington Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.6
-,="Vogel-Wetmore School",="Instructional Specialists Who Support Teachers",="Certified",2.5
-="Trumbull School District",="Booth Hill School",="Instructional Specialists Who Support Teachers",="Certified",1.8
-,="Daniels Farm School",="Instructional Specialists Who Support Teachers",="Certified",2.2
-,="Frenchtown Elementary School",="Instructional Specialists Who Support Teachers",="Certified",3.9
-,="Hillcrest Middle School",="Instructional Specialists Who Support Teachers",="Certified",3.0
-,="Jane Ryan School",="Instructional Specialists Who Support Teachers",="Certified",1.9
-,="Madison Middle School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Middlebrook School",="Instructional Specialists Who Support Teachers",="Certified",2.5
-,="Tashua School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Trumbull Early Childhood Education Center",="Instructional Specialists Who Support Teachers",="Certified",1.8
-,="Trumbull High School",="Instructional Specialists Who Support Teachers",="Certified",0.6
-="Unified School District #2",="Riverview School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Walter G. Cady School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-="Vernon School District",="Northeast School",="Instructional Specialists Who Support Teachers",="Certified",1.2
-,="Center Road School",="Instructional Specialists Who Support Teachers",="Certified",4.4
-,="Lake Street School",="Instructional Specialists Who Support Teachers",="Certified",1.6
-,="Maple Street School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Rockville High School",="Instructional Specialists Who Support Teachers",="Certified",0.6
-,="Skinner Road School",="Instructional Specialists Who Support Teachers",="Certified",3.9
-,="Vernon Center Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.4
-="Voluntown School District",="Voluntown Elementary School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-="Wallingford School District",="Highland School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Cook Hill School",="Instructional Specialists Who Support Teachers",="Certified",2.6
-,="Dag Hammarskjold Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.3
-,="Evarts C. Stevens School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="James H. Moran Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Lyman Hall High School",="Instructional Specialists Who Support Teachers",="Certified",0.8
-,="Mark T. Sheehan High School",="Instructional Specialists Who Support Teachers",="Certified",0.4
-,="Moses Y. Beach School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Parker Farms School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Pond Hill School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Rock Hill School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Yalesville School",="Instructional Specialists Who Support Teachers",="Certified",1.7
-="Waterbury School District",="West Side Middle School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Washington School",="Instructional Specialists Who Support Teachers",="Certified",0.6
-,="B. W. Tinker School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Barnard School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Bucks Hill School",="Instructional Specialists Who Support Teachers",="Certified",4.0
-,="Bunker Hill School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Carrington School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Crosby High School",="Instructional Specialists Who Support Teachers",="Certified",0.6
-,="Driggs School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="F. J. Kingsbury School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Gilmartin School",="Instructional Specialists Who Support Teachers",="Certified",1.3
-,="H. S. Chase School",="Instructional Specialists Who Support Teachers",="Certified",2.8
-,="Hopeville School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="John F. Kennedy High School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Maloney Interdistrict Magnet School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Margaret M. Generali Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Michael F. Wallace Middle School",="Instructional Specialists Who Support Teachers",="Certified",2.2
-,="North End Middle School",="Instructional Specialists Who Support Teachers",="Certified",3.0
-,="Regan School",="Instructional Specialists Who Support Teachers",="Certified",0.7
-,="Rotella Interdistrict Magnet School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Special Education Preschool",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Sprague School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="State Street School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Walsh School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Waterbury Arts Magnet School (High)",="Instructional Specialists Who Support Teachers",="Certified",0.2
-,="Waterbury Arts Magnet School (Middle)",="Instructional Specialists Who Support Teachers",="Certified",0.2
-,="Wendell L. Cross School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-="Waterford School District",="Clark Lane Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Cohanzie Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.4
-,="Great Neck Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.9
-,="Oswegatchie Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Southwest Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.6
-,="Waterford High School",="Instructional Specialists Who Support Teachers",="Certified",0.6
-="Watertown School District",="Fletcher W. Judson School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Heminway Park School",="Instructional Specialists Who Support Teachers",="Certified",0.3
-,="John Trumbull Primary School",="Instructional Specialists Who Support Teachers",="Certified",3.3
-,="Polk School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Swift Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.3
-,="Watertown High School",="Instructional Specialists Who Support Teachers",="Certified",0.3
-="West Hartford School District",="Smith School",="Instructional Specialists Who Support Teachers",="Certified",0.8
-,="Aiken School",="Instructional Specialists Who Support Teachers",="Certified",1.4
-,="Braeburn School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Bristow Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.4
-,="Bugbee School",="Instructional Specialists Who Support Teachers",="Certified",0.3
-,="Charter Oak International Academy",="Instructional Specialists Who Support Teachers",="Certified",0.8
-,="Conard High School",="Instructional Specialists Who Support Teachers",="Certified",1.1
-,="Duffy School",="Instructional Specialists Who Support Teachers",="Certified",1.4
-,="Hall High School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="King Philip Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.3
-,="Morley School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Norfeldt School",="Instructional Specialists Who Support Teachers",="Certified",1.6
-,="Sedgwick Middle School",="Instructional Specialists Who Support Teachers",="Certified",2.3
-,="Webster Hill School",="Instructional Specialists Who Support Teachers",="Certified",0.8
-,="Whiting Lane School",="Instructional Specialists Who Support Teachers",="Certified",7.4
-,="Wolcott School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-="West Haven School District",="Washington School",="Instructional Specialists Who Support Teachers",="Certified",0.6
-,="Alma E. Pagels School",="Instructional Specialists Who Support Teachers",="Certified",3.9
-,="Anna V. Molloy School",="Instructional Specialists Who Support Teachers",="Certified",1.9
-,="Carrigan 5/6 Intermediate School",="Instructional Specialists Who Support Teachers",="Certified",1.3
-,="Clarence E. Thompson School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Edith E. Mackrille School",="Instructional Specialists Who Support Teachers",="Certified",2.6
-,="Forest School",="Instructional Specialists Who Support Teachers",="Certified",0.8
-,="Savin Rock Community School",="Instructional Specialists Who Support Teachers",="Certified",1.4
-,="Seth G. Haley School",="Instructional Specialists Who Support Teachers",="Certified",1.5
-,="West Haven High School",="Instructional Specialists Who Support Teachers",="Certified",1.4
-="Westbrook School District",="Daisy Ingraham School",="Instructional Specialists Who Support Teachers",="Certified",1.6
-,="Westbrook Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.4
-="Weston School District",="Hurlbutt Elementary School",="Instructional Specialists Who Support Teachers",="Certified",3.0
-,="Weston High School",="Instructional Specialists Who Support Teachers",="Certified",0.3
-,="Weston Intermediate School",="Instructional Specialists Who Support Teachers",="Certified",0.5
-,="Weston Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.2
-="Westport School District",="Bedford Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.2
-,="Coleytown Elementary School",="Instructional Specialists Who Support Teachers",="Certified",3.6
-,="Coleytown Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Green's Farms School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="King's Highway Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.2
-,="Long Lots School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Saugatuck Elementary School",="Instructional Specialists Who Support Teachers",="Certified",0.8
-,="Staples High School",="Instructional Specialists Who Support Teachers",="Certified",1.2
-="Wethersfield School District",="Alfred W. Hanmer School",="Instructional Specialists Who Support Teachers",="Certified",2.2
-,="Charles Wright School",="Instructional Specialists Who Support Teachers",="Certified",1.9
-,="Emerson-Williams School",="Instructional Specialists Who Support Teachers",="Certified",2.6
-,="Highcrest School",="Instructional Specialists Who Support Teachers",="Certified",2.4
-,="Samuel B. Webb Elementary School",="Instructional Specialists Who Support Teachers",="Certified",3.4
-,="Silas Deane Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.8
-,="Wethersfield High School",="Instructional Specialists Who Support Teachers",="Certified",3.0
-="Willington School District",="Center School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Hall Memorial School",="Instructional Specialists Who Support Teachers",="Certified",1.6
-="Wilton School District",="Middlebrook School",="Instructional Specialists Who Support Teachers",="Certified",1.8
-,="Cider Mill School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Ina E. Driscoll School",="Instructional Specialists Who Support Teachers",="Certified",1.4
-,="Miller-Driscoll School",="Instructional Specialists Who Support Teachers",="Certified",3.0
-,="Wilton High School",="Instructional Specialists Who Support Teachers",="Certified",1.2
-="Winchester School District",="Batcheller Early Education Center",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Pearson Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.8
-="Windham School District",="Early Headstart",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Natchaug School",="Instructional Specialists Who Support Teachers",="Certified",1.6
-,="North Windham School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="W. B. Sweeney School",="Instructional Specialists Who Support Teachers",="Certified",2.5
-,="Windham Center School",="Instructional Specialists Who Support Teachers",="Certified",1.8
-,="Windham Early Childhood Prospect Street",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Windham High School",="Instructional Specialists Who Support Teachers",="Certified",1.3
-,="Windham Middle School",="Instructional Specialists Who Support Teachers",="Certified",3.9
-="Windsor Locks School District",="North Street School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="South Elementary School",="Instructional Specialists Who Support Teachers",="Certified",0.9
-,="Windsor Locks Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.1
-="Windsor School District",="Clover Street School",="Instructional Specialists Who Support Teachers",="Certified",4.0
-,="John F. Kennedy School",="Instructional Specialists Who Support Teachers",="Certified",3.0
-,="Oliver Ellsworth School",="Instructional Specialists Who Support Teachers",="Certified",3.4
-,="Poquonock Elementary School",="Instructional Specialists Who Support Teachers",="Certified",4.6
-,="Roger Wolcott Early Child Center",="Instructional Specialists Who Support Teachers",="Certified",4.0
-,="Sage Park Middle School",="Instructional Specialists Who Support Teachers",="Certified",4.1
-,="Windsor High School",="Instructional Specialists Who Support Teachers",="Certified",3.4
-="Wolcott School District",="Alcott School",="Instructional Specialists Who Support Teachers",="Certified",2.4
-,="Frisbie School",="Instructional Specialists Who Support Teachers",="Certified",1.9
-,="Tyrrell Middle School",="Instructional Specialists Who Support Teachers",="Certified",2.6
-,="Wakelee School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Wolcott High School",="Instructional Specialists Who Support Teachers",="Certified",1.1
-="Woodbridge School District",="Beecher Road Intermediate School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Beecher Road Primary School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-="Woodstock School District",="Woodstock Elementary School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Woodstock Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.0
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+    
+
+
+<head>
+    <meta charset="UTF-8" />
+    <title>
+    	
+    		
+    		
+    			SAS&reg; Logon Manager
+    		
+    	
+    </title>
+    <link type="text/css" rel="stylesheet" href="themes/default/css/bootstrap.css" />
+    <link type="text/css" rel="stylesheet" href="themes/default/css/sas.css" />
+</head>
+
+
+
+<body id="cas">
+	<div id="page">
+		
+
+<div class="banner row">
+    <div class="about">
+        <ul class="unstyled"><li>
+            <a href="#about-modal" data-toggle="modal">
+                About
+            </a>
+        </li></ul>
+    </div>
+    <div id="about-modal" class="modal hide fade">
+        <div class="modal-header">
+            <a href="#" class="close" data-dismiss="modal">&times;</a>
+            <h3>About</h3>
+        </div>
+        <div class="modal-body">
+            <p>Version: 9.4</p>
+            <h4>Copyright Information</h4>
+            <p align="center">
+Copyright (c) 2002 - 2013 by SAS Institute Inc., Cary, NC, USA<br/>
+All rights reserved.<br/>
+<br/>
+This software is protected by copyright laws and international treaties.<br/>
+<br/>
+U.S. GOVERNMENT RESTRICTED RIGHTS<br/>
+Use, duplication, or disclosure of this software and related<br/>
+documentation by the U.S. government is subject to the<br/>
+Agreement with SAS Institute and the restrictions set forth<br/>
+in FAR 52.227-19, Commercial Computer Software<br/>
+- Restricted Rights (June 1987).
+            </p>
+        </div>
+    </div>
+    <div class="header">
+        <div class="title">
+        	<h1>
+        		
+		    		
+		    		
+		    			Sign In to SAS<sup>&reg;</sup>
+		    		
+    			
+        	</h1>
+       	</div>
+        <div class="logo"><img src="themes/default/images/logo.png" /></div>
+    </div>
+</div>
+
+
+		<div class="content row">
+			
+                <form id="fm1" class="form-stacked" onSubmit="return setSubmitUrl(this);" action="/SASLogon/login;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=F1FCD25D7A4469DB9F3B5D115B3BEC66.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1?service=http://edsight.ct.gov/SASStoredProcess/j_spring_cas_security_check" method="post">
+				<fieldset>
+					
+					
+					
+                        <legend>Sign In to SAS<sup>&reg;</sup></legend>
+					<div class="clearfix">
+                            <label for="username"><span class="accesskey">U</span>ser ID:</label>
+						
+							
+							
+                                    
+                                    <input id="username" name="username" class="required" tabindex="1" accesskey="u" type="text" value="" size="25" autocomplete="off"/>
+							
+						
+					</div>
+					<div class="clearfix">
+                            <label for="password"><span class="accesskey">P</span>assword:</label>
+						
+                            
+                            <input id="password" name="password" class="required" tabindex="2" accesskey="p" type="password" value="" size="25" autocomplete="off"/>
+					</div>
+				</fieldset>
+				<input type="hidden" name="lt" value="LT-8764-XDTbKtoWeEm0FyljeG5m7iCHwvv3D3" />
+				<input type="hidden" name="execution" value="e1s1" />
+				<input type="hidden" name="_eventId" value="submit" />
+                    <div class="submitb"><input id="Logon" type="submit" value="Sign In" onClick="this.disabled=true;this.form.submit();" tabindex="3" /></div>
+			</form>
+			
+				<div class="customizations" id="custom-logon-message">
+                  	
+
+
+<p>
+
+</p>
+
+
+ 
+ 
+				</div>
+			
+
+			<div class="copyright">
+				Copyright &copy; 2002 - 2013 by SAS Institute Inc., Cary, NC USA
+			</div>
+		</div>
+	</div>
+	
+<script type="text/javascript" src="/SASLogon/js/jquery.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=F1FCD25D7A4469DB9F3B5D115B3BEC66.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
+<script type="text/javascript" src="/SASLogon/js/bootstrap-modal.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=F1FCD25D7A4469DB9F3B5D115B3BEC66.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
+
+	<script type="text/javascript">
+            $("#username").focus();
+            
+            function setSubmitUrl(form)
+            {
+            	var urlHash = decodeURIComponent(window.location.hash);
+            	
+            	if (urlHash && urlHash.indexOf("#") === -1)
+            		urlHash = "#" + urlHash;
+            	
+            	form.action = form.action + urlHash;
+            	return true;
+            }
+    </script>
+</body>
+
+</html>
+
+
 

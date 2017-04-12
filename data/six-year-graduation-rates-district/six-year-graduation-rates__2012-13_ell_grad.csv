@@ -1,252 +1,121 @@
-"Six-Year Graduation Rates, 2012-13"
-"All Districts, English Learner Status"
 
-"",,,"Graduates",
-"District","English Learner Status","Six-Year Cohort Count","Graduation Count","Graduation Rate"
-"Amistad Academy District","ELL","*","*","*"
-"Amistad Academy District","Non-ELL","*","*","*"
-"Ansonia School District","ELL",13,9,69.2
-"Ansonia School District","Non-ELL",198,167,84.3
-"Avon School District","ELL","*","*","*"
-"Avon School District","Non-ELL","*","*","*"
-"Berlin School District","ELL","*","*","*"
-"Berlin School District","Non-ELL","*","*","*"
-"Bethel School District","ELL","*","*","*"
-"Bethel School District","Non-ELL","*","*","*"
-"Bloomfield School District","ELL","*","*","*"
-"Bloomfield School District","Non-ELL","*","*","*"
-"Bolton School District","Non-ELL",83,79,95.2
-"Branford School District","ELL","*","*","*"
-"Branford School District","Non-ELL","*","*","*"
-"Bridgeport School District","ELL",173,111,64.2
-"Bridgeport School District","Non-ELL",1038,780,75.1
-"Bristol School District","ELL",24,17,70.8
-"Bristol School District","Non-ELL",606,523,86.3
-"Brookfield School District","ELL","*","*","*"
-"Brookfield School District","Non-ELL","*","*","*"
-"Canton School District","Non-ELL",124,123,99.2
-"Capitol Region Education Council","ELL",11,10,90.9
-"Capitol Region Education Council","Non-ELL",252,209,82.9
-"Cheshire School District","ELL","*","*","*"
-"Cheshire School District","Non-ELL","*","*","*"
-"Clinton School District","ELL","*","*","*"
-"Clinton School District","Non-ELL","*","*","*"
-"Colchester School District","ELL","*","*","*"
-"Colchester School District","Non-ELL","*","*","*"
-"Common Ground High School District","ELL","*","*","*"
-"Common Ground High School District","Non-ELL","*","*","*"
-"Connecticut Technical High School System","ELL",96,86,89.6
-"Connecticut Technical High School System","Non-ELL",2377,2314,97.3
-"Coventry School District","ELL","*","*","*"
-"Coventry School District","Non-ELL","*","*","*"
-"Cromwell School District","ELL","*","*","*"
-"Cromwell School District","Non-ELL","*","*","*"
-"Danbury School District","ELL",133,95,71.4
-"Danbury School District","Non-ELL",641,567,88.5
-"Darien School District","Non-ELL",316,308,97.5
-"Department of Mental Health and Addiction Services","Non-ELL","*","*","*"
-"Derby School District","ELL","*","*","*"
-"Derby School District","Non-ELL","*","*","*"
-"East Granby School District","Non-ELL",70,69,98.6
-"East Haddam School District","Non-ELL",98,96,98.0
-"East Hampton School District","ELL","*","*","*"
-"East Hampton School District","Non-ELL","*","*","*"
-"East Hartford School District","ELL",33,29,87.9
-"East Hartford School District","Non-ELL",511,432,84.5
-"East Haven School District","ELL","*","*","*"
-"East Haven School District","Non-ELL","*","*","*"
-"East Lyme School District","ELL","*","*","*"
-"East Lyme School District","Non-ELL","*","*","*"
-"East Windsor School District","ELL","*","*","*"
-"East Windsor School District","Non-ELL","*","*","*"
-"Eastern Connecticut Regional Educational Service Center (EASTCONN)","ELL","*","*","*"
-"Eastern Connecticut Regional Educational Service Center (EASTCONN)","Non-ELL","*","*","*"
-"Ellington School District","ELL","*","*","*"
-"Ellington School District","Non-ELL","*","*","*"
-"Elm City College Preparatory School District","Non-ELL",13,10,76.9
-"Enfield School District","ELL","*","*","*"
-"Enfield School District","Non-ELL","*","*","*"
-"Explorations District","ELL","*","*","*"
-"Explorations District","Non-ELL","*","*","*"
-"Fairfield School District","ELL",14,12,85.7
-"Fairfield School District","Non-ELL",691,658,95.2
-"Farmington School District","ELL","*","*","*"
-"Farmington School District","Non-ELL","*","*","*"
-"Glastonbury School District","ELL","*","*","*"
-"Glastonbury School District","Non-ELL","*","*","*"
-"Granby School District","Non-ELL",195,192,98.5
-"Greenwich School District","ELL",23,21,91.3
-"Greenwich School District","Non-ELL",666,649,97.4
-"Griswold School District","Non-ELL",169,152,89.9
-"Groton School District","ELL",10,8,80.0
-"Groton School District","Non-ELL",319,270,84.6
-"Guilford School District","ELL","*","*","*"
-"Guilford School District","Non-ELL","*","*","*"
-"Hamden School District","ELL",10,9,90.0
-"Hamden School District","Non-ELL",438,396,90.4
-"Hartford School District","ELL",222,147,66.2
-"Hartford School District","Non-ELL",1218,969,79.6
-"Killingly School District","ELL","*","*","*"
-"Killingly School District","Non-ELL","*","*","*"
-"Learn","ELL","*","*","*"
-"Learn","Non-ELL","*","*","*"
-"Lebanon School District","ELL","*","*","*"
-"Lebanon School District","Non-ELL","*","*","*"
-"Ledyard School District","Non-ELL",229,211,92.1
-"Lisbon School District","Non-ELL",6,"*","*"
-"Litchfield School District","ELL","*","*","*"
-"Litchfield School District","Non-ELL","*","*","*"
-"Madison School District","Non-ELL",315,315,100.0
-"Manchester School District","ELL",28,22,78.6
-"Manchester School District","Non-ELL",442,368,83.3
-"Meriden School District","ELL",62,35,56.5
-"Meriden School District","Non-ELL",563,436,77.4
-"Middletown School District","ELL",12,10,83.3
-"Middletown School District","Non-ELL",362,312,86.2
-"Milford School District","ELL","*","*","*"
-"Milford School District","Non-ELL","*","*","*"
-"Monroe School District","Non-ELL",310,306,98.7
-"Montville School District","ELL",8,7,87.5
-"Montville School District","Non-ELL",179,162,90.5
-"Naugatuck School District","ELL",14,10,71.4
-"Naugatuck School District","Non-ELL",318,264,83.0
-"New Britain School District","ELL",118,75,63.6
-"New Britain School District","Non-ELL",527,366,69.4
-"New Canaan School District","ELL","*","*","*"
-"New Canaan School District","Non-ELL","*","*","*"
-"New Fairfield School District","ELL","*","*","*"
-"New Fairfield School District","Non-ELL","*","*","*"
-"New Haven School District","ELL",134,87,64.9
-"New Haven School District","Non-ELL",1170,925,79.1
-"New London School District","ELL",59,41,69.5
-"New London School District","Non-ELL",198,138,69.7
-"New Milford School District","ELL",6,"*","*"
-"New Milford School District","Non-ELL",384,"*","*"
-"Newington School District","ELL",15,12,80.0
-"Newington School District","Non-ELL",360,333,92.5
-"Newtown School District","Non-ELL",470,455,96.8
-"North Branford School District","ELL","*","*","*"
-"North Branford School District","Non-ELL","*","*","*"
-"North Haven School District","ELL","*","*","*"
-"North Haven School District","Non-ELL","*","*","*"
-"North Stonington School District","Non-ELL",48,46,95.8
-"Norwalk School District","ELL",80,57,71.3
-"Norwalk School District","Non-ELL",699,626,89.6
-"Norwich Free Academy District","ELL",33,29,87.9
-"Norwich Free Academy District","Non-ELL",553,474,85.7
-"Old Saybrook School District","ELL","*","*","*"
-"Old Saybrook School District","Non-ELL","*","*","*"
-"Oxford School District","ELL","*","*","*"
-"Oxford School District","Non-ELL","*","*","*"
-"Plainfield School District","ELL","*","*","*"
-"Plainfield School District","Non-ELL","*","*","*"
-"Plainville School District","ELL","*","*","*"
-"Plainville School District","Non-ELL","*","*","*"
-"Plymouth School District","ELL","*","*","*"
-"Plymouth School District","Non-ELL","*","*","*"
-"Portland School District","ELL","*","*","*"
-"Portland School District","Non-ELL","*","*","*"
-"Putnam School District","Non-ELL",97,87,89.7
-"Regional School District 01","ELL","*","*","*"
-"Regional School District 01","Non-ELL","*","*","*"
-"Regional School District 04","Non-ELL",162,156,96.3
-"Regional School District 05","ELL","*","*","*"
-"Regional School District 05","Non-ELL","*","*","*"
-"Regional School District 06","ELL","*","*","*"
-"Regional School District 06","Non-ELL","*","*","*"
-"Regional School District 07","Non-ELL",194,187,96.4
-"Regional School District 08","Non-ELL",285,267,93.7
-"Regional School District 09","ELL","*","*","*"
-"Regional School District 09","Non-ELL","*","*","*"
-"Regional School District 10","ELL","*","*","*"
-"Regional School District 10","Non-ELL","*","*","*"
-"Regional School District 11","Non-ELL",44,38,86.4
-"Regional School District 12","ELL","*","*","*"
-"Regional School District 12","Non-ELL","*","*","*"
-"Regional School District 13","ELL","*","*","*"
-"Regional School District 13","Non-ELL","*","*","*"
-"Regional School District 14","ELL","*","*","*"
-"Regional School District 14","Non-ELL","*","*","*"
-"Regional School District 15","ELL","*","*","*"
-"Regional School District 15","Non-ELL","*","*","*"
-"Regional School District 16","ELL","*","*","*"
-"Regional School District 16","Non-ELL","*","*","*"
-"Regional School District 17","ELL","*","*","*"
-"Regional School District 17","Non-ELL","*","*","*"
-"Regional School District 18","ELL","*","*","*"
-"Regional School District 18","Non-ELL","*","*","*"
-"Regional School District 19","ELL","*","*","*"
-"Regional School District 19","Non-ELL","*","*","*"
-"Ridgefield School District","ELL","*","*","*"
-"Ridgefield School District","Non-ELL","*","*","*"
-"Rocky Hill School District","ELL","*","*","*"
-"Rocky Hill School District","Non-ELL","*","*","*"
-"Seymour School District","ELL","*","*","*"
-"Seymour School District","Non-ELL","*","*","*"
-"Shelton School District","ELL",8,8,100.0
-"Shelton School District","Non-ELL",387,362,93.5
-"Simsbury School District","Non-ELL",404,394,97.5
-"Somers School District","ELL","*","*","*"
-"Somers School District","Non-ELL","*","*","*"
-"South Windsor School District","ELL",6,"*","*"
-"South Windsor School District","Non-ELL",379,"*","*"
-"Southington School District","ELL",7,7,100.0
-"Southington School District","Non-ELL",481,458,95.2
-"Stafford School District","ELL","*","*","*"
-"Stafford School District","Non-ELL","*","*","*"
-"Stamford Academy District","ELL","*","*","*"
-"Stamford Academy District","Non-ELL","*","*","*"
-"Stamford School District","ELL",137,108,78.8
-"Stamford School District","Non-ELL",1074,1004,93.5
-"Stonington School District","ELL","*","*","*"
-"Stonington School District","Non-ELL","*","*","*"
-"Stratford School District","ELL",13,12,92.3
-"Stratford School District","Non-ELL",542,508,93.7
-"Suffield School District","Non-ELL",218,208,95.4
-"The Bridge Academy District","Non-ELL",36,34,94.4
-"The Gilbert School District","ELL","*","*","*"
-"The Gilbert School District","Non-ELL","*","*","*"
-"Thomaston School District","ELL","*","*","*"
-"Thomaston School District","Non-ELL","*","*","*"
-"Thompson School District","Non-ELL",85,79,92.9
-"Tolland School District","Non-ELL",243,230,94.7
-"Torrington School District","ELL",18,15,83.3
-"Torrington School District","Non-ELL",256,232,90.6
-"Trumbull School District","ELL",12,11,91.7
-"Trumbull School District","Non-ELL",535,530,99.1
-"Unified School District #1","ELL",30,"*","*"
-"Unified School District #1","Non-ELL",470,"*","*"
-"Unified School District #2","ELL",7,"*","*"
-"Unified School District #2","Non-ELL",33,"*","*"
-"Vernon School District","ELL",8,6,75.0
-"Vernon School District","Non-ELL",230,198,86.1
-"Wallingford School District","ELL",15,14,93.3
-"Wallingford School District","Non-ELL",519,483,93.1
-"Waterbury School District","ELL",163,99,60.7
-"Waterbury School District","Non-ELL",1127,802,71.2
-"Waterford School District","ELL","*","*","*"
-"Waterford School District","Non-ELL","*","*","*"
-"Watertown School District","ELL","*","*","*"
-"Watertown School District","Non-ELL","*","*","*"
-"West Hartford School District","ELL",44,39,88.6
-"West Hartford School District","Non-ELL",783,753,96.2
-"West Haven School District","ELL",26,15,57.7
-"West Haven School District","Non-ELL",409,300,73.3
-"Westbrook School District","Non-ELL",78,75,96.2
-"Weston School District","Non-ELL",208,206,99.0
-"Westport School District","ELL","*","*","*"
-"Westport School District","Non-ELL","*","*","*"
-"Wethersfield School District","ELL",11,8,72.7
-"Wethersfield School District","Non-ELL",256,241,94.1
-"Wilton School District","ELL","*","*","*"
-"Wilton School District","Non-ELL","*","*","*"
-"Windham School District","ELL",38,28,73.7
-"Windham School District","Non-ELL",154,135,87.7
-"Windsor Locks School District","ELL","*","*","*"
-"Windsor Locks School District","Non-ELL","*","*","*"
-"Windsor School District","ELL",6,6,100.0
-"Windsor School District","Non-ELL",340,309,90.9
-"Wolcott School District","Non-ELL",219,209,95.4
-"Woodstock Academy District","ELL","*","*","*"
-"Woodstock Academy District","Non-ELL","*","*","*"
+
+
+
+
+<!DOCTYPE html>
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+    
+    
+
+<head>
+    <meta charset="UTF-8" />
+    <title>
+    	
+    		
+    		
+    			SAS&reg; Logon Manager
+    		
+    	
+    </title>
+    <link type="text/css" rel="stylesheet" href="themes/default/css/bootstrap.css" />
+    <link type="text/css" rel="stylesheet" href="themes/default/css/sas.css" />
+</head>
+
+
+
+    <body id="cas">
+        <div id="page">
+            
+
+<div class="banner row">
+    <div class="about">
+        <ul class="unstyled"><li>
+            <a href="#about-modal" data-toggle="modal">
+                About
+            </a>
+        </li></ul>
+    </div>
+    <div id="about-modal" class="modal hide fade">
+        <div class="modal-header">
+            <a href="#" class="close" data-dismiss="modal">&times;</a>
+            <h3>About</h3>
+        </div>
+        <div class="modal-body">
+            <p>Version: 9.4</p>
+            <h4>Copyright Information</h4>
+            <p align="center">
+Copyright (c) 2002 - 2013 by SAS Institute Inc., Cary, NC, USA<br/>
+All rights reserved.<br/>
+<br/>
+This software is protected by copyright laws and international treaties.<br/>
+<br/>
+U.S. GOVERNMENT RESTRICTED RIGHTS<br/>
+Use, duplication, or disclosure of this software and related<br/>
+documentation by the U.S. government is subject to the<br/>
+Agreement with SAS Institute and the restrictions set forth<br/>
+in FAR 52.227-19, Commercial Computer Software<br/>
+- Restricted Rights (June 1987).
+            </p>
+        </div>
+    </div>
+    <div class="header">
+        <div class="title">
+        	<h1>
+        		
+		    		
+		    		
+		    			Sign In to SAS<sup>&reg;</sup>
+		    		
+    			
+        	</h1>
+       	</div>
+        <div class="logo"><img src="themes/default/images/logo.png" /></div>
+    </div>
+</div>
+
+
+            <div class="content row">
+                <div id="msg" class="alert-message message-box success">
+                	
+                		
+                			<h2>Public access has been denied.</h2>
+		                    <p>Public users are not allowed to access this SAS application. The current user has been signed out.</p>
+                		
+                		
+                		
+                    
+                    
+           				<p>For increased security, close your browser.</p>
+           			
+                </div>
+                
+	            	<div class="customizations" id="custom-logoff-message">
+	               		
+
+
+<p>
+</p>
+
+
+ 
+
+	                </div>
+	            
+	            
+            </div>
+        </div>
+        
+<script type="text/javascript" src="/SASLogon/js/jquery.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=116D128DDAF0D7D76EC46415212D2498.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
+<script type="text/javascript" src="/SASLogon/js/bootstrap-modal.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=116D128DDAF0D7D76EC46415212D2498.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
+
+    </body>
+
+</html>
+
 

@@ -1,274 +1,160 @@
-"Four-Year Graduation Rates, 2010-11"
-"All Districts, Special Education Status"
 
-"",,,"Non-Graduates",,,
-"District","Special Education Status","Four-Year Cohort Count","Still Enrolled Count","Still Enrolled Rate","Other Count","Other Rate"
-"Amistad Academy District","Non-Special Education",29,"*","*","*","*"
-"Ansonia School District","Non-Special Education",166,15,9.0,"*","*"
-"Ansonia School District","Special Education",22,8,36.4,"*","*"
-"Avon School District","Non-Special Education",229,"*","*","*","*"
-"Avon School District","Special Education",25,"*","*","*","*"
-"Berlin School District","Non-Special Education",232,"*","*","*","*"
-"Berlin School District","Special Education",29,"*","*","*","*"
-"Bethel School District","Non-Special Education",222,"*","*","*","*"
-"Bethel School District","Special Education",28,"*","*","*","*"
-"Bloomfield School District","Non-Special Education",159,15,9.4,"*","*"
-"Bloomfield School District","Special Education",28,12,42.9,"*","*"
-"Bolton School District","Non-Special Education","*","*","*","*","*"
-"Bolton School District","Special Education","*","*","*","*","*"
-"Branford School District","Non-Special Education",248,"*","*","*","*"
-"Branford School District","Special Education",36,"*","*","*","*"
-"Bridgeport School District","Non-Special Education",1253,138,11.0,313,25.0
-"Bridgeport School District","Special Education",184,51,27.7,66,35.9
-"Bristol School District","Non-Special Education",631,48,7.6,86,13.6
-"Bristol School District","Special Education",78,20,25.6,11,14.1
-"Brookfield School District","Non-Special Education",253,"*","*","*","*"
-"Brookfield School District","Special Education",12,"*","*","*","*"
-"Canton School District","Non-Special Education",103,"*","*","*","*"
-"Canton School District","Special Education",17,"*","*","*","*"
-"Capitol Region Education Council","Non-Special Education",277,10,3.6,"*","*"
-"Capitol Region Education Council","Special Education",22,6,27.3,"*","*"
-"Cheshire School District","Non-Special Education",334,"*","*","*","*"
-"Cheshire School District","Special Education",41,"*","*","*","*"
-"Clinton School District","Non-Special Education",126,"*","*","*","*"
-"Clinton School District","Special Education",19,"*","*","*","*"
-"Colchester School District","Non-Special Education",224,"*","*","*","*"
-"Colchester School District","Special Education",26,"*","*","*","*"
-"Common Ground High School District","Non-Special Education",30,"*","*","*","*"
-"Common Ground High School District","Special Education",8,"*","*","*","*"
-"Connecticut Technical High School System","Non-Special Education",2159,"*","*",133,6.2
-"Connecticut Technical High School System","Special Education",184,"*","*",9,4.9
-"Coventry School District","Non-Special Education",133,"*","*","*","*"
-"Coventry School District","Special Education",20,"*","*","*","*"
-"Cromwell School District","Non-Special Education",147,"*","*","*","*"
-"Cromwell School District","Special Education",23,"*","*","*","*"
-"Danbury School District","Non-Special Education",682,55,8.1,86,12.6
-"Danbury School District","Special Education",76,20,26.3,12,15.8
-"Darien School District","Non-Special Education",291,"*","*","*","*"
-"Darien School District","Special Education",36,"*","*","*","*"
-"Derby School District","Non-Special Education",116,"*","*","*","*"
-"Derby School District","Special Education",9,"*","*","*","*"
-"East Granby School District","Non-Special Education",69,"*","*","*","*"
-"East Granby School District","Special Education",7,"*","*","*","*"
-"East Haddam School District","Non-Special Education","*","*","*","*","*"
-"East Haddam School District","Special Education","*","*","*","*","*"
-"East Hampton School District","Non-Special Education",125,"*","*","*","*"
-"East Hampton School District","Special Education",14,"*","*","*","*"
-"East Hartford School District","Non-Special Education",518,34,6.6,57,11.0
-"East Hartford School District","Special Education",80,18,22.5,13,16.3
-"East Haven School District","Non-Special Education",271,10,3.7,23,8.5
-"East Haven School District","Special Education",29,6,20.7,6,20.7
-"East Lyme School District","Non-Special Education",289,"*","*","*","*"
-"East Lyme School District","Special Education",36,"*","*","*","*"
-"East Windsor School District","Non-Special Education",81,"*","*","*","*"
-"East Windsor School District","Special Education",12,"*","*","*","*"
-"Eastern Connecticut Regional Educational Service Center (EASTCONN)","Non-Special Education","*","*","*","*","*"
-"Eastern Connecticut Regional Educational Service Center (EASTCONN)","Special Education","*","*","*","*","*"
-"Ellington School District","Non-Special Education",165,"*","*","*","*"
-"Ellington School District","Special Education",17,"*","*","*","*"
-"Enfield School District","Non-Special Education",471,31,6.6,42,8.9
-"Enfield School District","Special Education",54,15,27.8,10,18.5
-"Explorations District","Non-Special Education",24,"*","*","*","*"
-"Explorations District","Special Education",10,"*","*","*","*"
-"Fairfield School District","Non-Special Education",598,12,2.0,"*","*"
-"Fairfield School District","Special Education",58,14,24.1,"*","*"
-"Farmington School District","Non-Special Education",308,"*","*","*","*"
-"Farmington School District","Special Education",30,"*","*","*","*"
-"Glastonbury School District","Non-Special Education",480,"*","*","*","*"
-"Glastonbury School District","Special Education",71,"*","*","*","*"
-"Granby School District","Non-Special Education",181,"*","*","*","*"
-"Granby School District","Special Education",13,"*","*","*","*"
-"Greenwich School District","Non-Special Education",567,13,2.3,"*","*"
-"Greenwich School District","Special Education",65,13,20.0,"*","*"
-"Griswold School District","Non-Special Education",178,7,3.9,16,9.0
-"Griswold School District","Special Education",22,7,31.8,8,36.4
-"Groton School District","Non-Special Education",302,"*","*",46,15.2
-"Groton School District","Special Education",34,"*","*",8,23.5
-"Guilford School District","Non-Special Education",245,"*","*","*","*"
-"Guilford School District","Special Education",26,"*","*","*","*"
-"Hamden School District","Non-Special Education",510,27,5.3,47,9.2
-"Hamden School District","Special Education",76,16,21.1,8,10.5
-"Hartford School District","Non-Special Education",1327,124,9.3,311,23.4
-"Hartford School District","Special Education",276,59,21.4,95,34.4
-"Killingly School District","Non-Special Education",171,6,3.5,36,21.1
-"Killingly School District","Special Education",27,7,25.9,9,33.3
-"Lebanon School District","Non-Special Education",143,"*","*","*","*"
-"Lebanon School District","Special Education",17,"*","*","*","*"
-"Ledyard School District","Non-Special Education",208,"*","*","*","*"
-"Ledyard School District","Special Education",27,"*","*","*","*"
-"Lisbon School District","Special Education","*","*","*","*","*"
-"Litchfield School District","Non-Special Education",88,"*","*","*","*"
-"Litchfield School District","Special Education",7,"*","*","*","*"
-"Madison School District","Non-Special Education",287,"*","*","*","*"
-"Madison School District","Special Education",30,"*","*","*","*"
-"Manchester School District","Non-Special Education",455,39,8.6,75,16.5
-"Manchester School District","Special Education",79,21,26.6,19,24.1
-"Meriden School District","Non-Special Education",534,25,4.7,112,21.0
-"Meriden School District","Special Education",96,29,30.2,24,25.0
-"Middletown School District","Non-Special Education",296,27,9.1,30,10.1
-"Middletown School District","Special Education",54,10,18.5,14,25.9
-"Milford School District","Non-Special Education",419,23,5.5,"*","*"
-"Milford School District","Special Education",73,17,23.3,"*","*"
-"Monroe School District","Non-Special Education",341,"*","*","*","*"
-"Monroe School District","Special Education",26,"*","*","*","*"
-"Montville School District","Non-Special Education",181,"*","*","*","*"
-"Montville School District","Special Education",24,"*","*","*","*"
-"Naugatuck School District","Non-Special Education",322,14,4.3,33,10.2
-"Naugatuck School District","Special Education",48,8,16.7,9,18.8
-"New Britain School District","Non-Special Education",640,100,15.6,194,30.3
-"New Britain School District","Special Education",118,45,38.1,30,25.4
-"New Canaan School District","Non-Special Education",280,"*","*","*","*"
-"New Canaan School District","Special Education",31,"*","*","*","*"
-"New Fairfield School District","Non-Special Education",216,"*","*","*","*"
-"New Fairfield School District","Special Education",25,"*","*","*","*"
-"New Haven School District","Non-Special Education",1291,108,8.4,330,25.6
-"New Haven School District","Special Education",159,51,32.1,34,21.4
-"New London School District","Non-Special Education",212,27,12.7,36,17.0
-"New London School District","Special Education",50,21,42.0,14,28.0
-"New Milford School District","Non-Special Education",347,"*","*",23,6.6
-"New Milford School District","Special Education",56,"*","*",13,23.2
-"Newington School District","Non-Special Education",373,25,6.7,"*","*"
-"Newington School District","Special Education",40,16,40.0,"*","*"
-"Newtown School District","Non-Special Education",397,"*","*","*","*"
-"Newtown School District","Special Education",49,"*","*","*","*"
-"North Branford School District","Non-Special Education",165,"*","*","*","*"
-"North Branford School District","Special Education",30,"*","*","*","*"
-"North Haven School District","Non-Special Education",278,"*","*","*","*"
-"North Haven School District","Special Education",28,"*","*","*","*"
-"North Stonington School District","Non-Special Education",61,"*","*","*","*"
-"North Stonington School District","Special Education",6,"*","*","*","*"
-"Norwalk School District","Non-Special Education",781,38,4.9,73,9.3
-"Norwalk School District","Special Education",118,20,16.9,11,9.3
-"Norwich Free Academy District","Non-Special Education",536,"*","*",75,14.0
-"Norwich Free Academy District","Special Education",101,"*","*",20,19.8
-"Norwich School District","Non-Special Education","*","*","*","*","*"
-"Norwich School District","Special Education","*","*","*","*","*"
-"Old Saybrook School District","Non-Special Education",112,"*","*","*","*"
-"Old Saybrook School District","Special Education",11,"*","*","*","*"
-"Oxford School District","Non-Special Education",144,"*","*","*","*"
-"Oxford School District","Special Education",11,"*","*","*","*"
-"Plainfield School District","Non-Special Education",192,6,3.1,"*","*"
-"Plainfield School District","Special Education",38,7,18.4,"*","*"
-"Plainville School District","Non-Special Education",206,"*","*","*","*"
-"Plainville School District","Special Education",29,"*","*","*","*"
-"Plymouth School District","Non-Special Education",129,"*","*","*","*"
-"Plymouth School District","Special Education",11,"*","*","*","*"
-"Portland School District","Non-Special Education",88,"*","*","*","*"
-"Portland School District","Special Education",9,"*","*","*","*"
-"Putnam School District","Non-Special Education",57,"*","*","*","*"
-"Putnam School District","Special Education",18,"*","*","*","*"
-"Regional School District 01","Non-Special Education",122,"*","*","*","*"
-"Regional School District 01","Special Education",16,"*","*","*","*"
-"Regional School District 04","Non-Special Education",148,"*","*","*","*"
-"Regional School District 04","Special Education",23,"*","*","*","*"
-"Regional School District 05","Non-Special Education",368,7,1.9,"*","*"
-"Regional School District 05","Special Education",41,7,17.1,"*","*"
-"Regional School District 06","Non-Special Education",89,"*","*","*","*"
-"Regional School District 06","Special Education",15,"*","*","*","*"
-"Regional School District 07","Non-Special Education",183,"*","*","*","*"
-"Regional School District 07","Special Education",25,"*","*","*","*"
-"Regional School District 08","Non-Special Education",238,13,5.5,"*","*"
-"Regional School District 08","Special Education",29,8,27.6,"*","*"
-"Regional School District 09","Non-Special Education",183,"*","*","*","*"
-"Regional School District 09","Special Education",37,"*","*","*","*"
-"Regional School District 10","Non-Special Education",161,"*","*","*","*"
-"Regional School District 10","Special Education",16,"*","*","*","*"
-"Regional School District 11","Non-Special Education","*","*","*","*","*"
-"Regional School District 11","Special Education","*","*","*","*","*"
-"Regional School District 12","Non-Special Education",81,"*","*","*","*"
-"Regional School District 12","Special Education",12,"*","*","*","*"
-"Regional School District 13","Non-Special Education",125,"*","*","*","*"
-"Regional School District 13","Special Education",16,"*","*","*","*"
-"Regional School District 14","Non-Special Education",201,"*","*","*","*"
-"Regional School District 14","Special Education",17,"*","*","*","*"
-"Regional School District 15","Non-Special Education",349,8,2.3,"*","*"
-"Regional School District 15","Special Education",41,8,19.5,"*","*"
-"Regional School District 16","Non-Special Education",181,"*","*","*","*"
-"Regional School District 16","Special Education",15,"*","*","*","*"
-"Regional School District 17","Non-Special Education",159,"*","*","*","*"
-"Regional School District 17","Special Education",22,"*","*","*","*"
-"Regional School District 18","Non-Special Education",121,"*","*","*","*"
-"Regional School District 18","Special Education",14,"*","*","*","*"
-"Regional School District 19","Non-Special Education",247,12,4.9,"*","*"
-"Regional School District 19","Special Education",37,14,37.8,"*","*"
-"Ridgefield School District","Non-Special Education",386,"*","*","*","*"
-"Ridgefield School District","Special Education",48,"*","*","*","*"
-"Rocky Hill School District","Non-Special Education",169,"*","*","*","*"
-"Rocky Hill School District","Special Education",8,"*","*","*","*"
-"Seymour School District","Non-Special Education",179,"*","*","*","*"
-"Seymour School District","Special Education",10,"*","*","*","*"
-"Shelton School District","Non-Special Education",370,13,3.5,"*","*"
-"Shelton School District","Special Education",31,12,38.7,"*","*"
-"Simsbury School District","Non-Special Education",328,"*","*","*","*"
-"Simsbury School District","Special Education",30,"*","*","*","*"
-"Somers School District","Non-Special Education",131,"*","*","*","*"
-"Somers School District","Special Education",14,"*","*","*","*"
-"South Windsor School District","Non-Special Education",378,9,2.4,17,4.5
-"South Windsor School District","Special Education",47,7,14.9,6,12.8
-"Southington School District","Non-Special Education",483,18,3.7,"*","*"
-"Southington School District","Special Education",64,15,23.4,"*","*"
-"Stafford School District","Non-Special Education",121,"*","*","*","*"
-"Stafford School District","Special Education",14,"*","*","*","*"
-"Stamford Academy District","Non-Special Education",46,"*","*","*","*"
-"Stamford Academy District","Special Education",9,"*","*","*","*"
-"Stamford School District","Non-Special Education",1067,69,6.5,73,6.8
-"Stamford School District","Special Education",122,23,18.9,10,8.2
-"Stonington School District","Non-Special Education",184,"*","*","*","*"
-"Stonington School District","Special Education",28,"*","*","*","*"
-"Stratford School District","Non-Special Education",519,11,2.1,35,6.7
-"Stratford School District","Special Education",62,15,24.2,8,12.9
-"Suffield School District","Non-Special Education",202,"*","*","*","*"
-"Suffield School District","Special Education",13,"*","*","*","*"
-"The Bridge Academy District","Non-Special Education","*","*","*","*","*"
-"The Bridge Academy District","Special Education","*","*","*","*","*"
-"The Gilbert School District","Non-Special Education",63,"*","*","*","*"
-"The Gilbert School District","Special Education",12,"*","*","*","*"
-"Thomaston School District","Non-Special Education",79,"*","*","*","*"
-"Thomaston School District","Special Education",26,"*","*","*","*"
-"Thompson School District","Non-Special Education",89,"*","*","*","*"
-"Thompson School District","Special Education",6,"*","*","*","*"
-"Tolland School District","Non-Special Education",208,"*","*","*","*"
-"Tolland School District","Special Education",16,"*","*","*","*"
-"Torrington School District","Non-Special Education",251,13,5.2,36,14.3
-"Torrington School District","Special Education",32,7,21.9,8,25.0
-"Trumbull School District","Non-Special Education",467,"*","*","*","*"
-"Trumbull School District","Special Education",36,"*","*","*","*"
-"Unified School District #1","Non-Special Education",408,112,27.5,290,71.1
-"Unified School District #1","Special Education",147,62,42.2,72,49.0
-"Unified School District #2","Non-Special Education",20,"*","*","*","*"
-"Unified School District #2","Special Education",30,"*","*","*","*"
-"Vernon School District","Non-Special Education",260,11,4.2,"*","*"
-"Vernon School District","Special Education",30,8,26.7,"*","*"
-"Wallingford School District","Non-Special Education",495,16,3.2,37,7.5
-"Wallingford School District","Special Education",66,13,19.7,7,10.6
-"Waterbury School District","Non-Special Education",1134,32,2.8,330,29.1
-"Waterbury School District","Special Education",175,31,17.7,56,32.0
-"Waterford School District","Non-Special Education",255,"*","*","*","*"
-"Waterford School District","Special Education",17,"*","*","*","*"
-"Watertown School District","Non-Special Education",217,8,3.7,"*","*"
-"Watertown School District","Special Education",31,9,29.0,"*","*"
-"West Hartford School District","Non-Special Education",727,15,2.1,32,4.4
-"West Hartford School District","Special Education",102,25,24.5,8,7.8
-"West Haven School District","Non-Special Education",418,23,5.5,104,24.9
-"West Haven School District","Special Education",42,9,21.4,11,26.2
-"Westbrook School District","Non-Special Education",68,"*","*","*","*"
-"Westbrook School District","Special Education",7,"*","*","*","*"
-"Weston School District","Non-Special Education",182,"*","*","*","*"
-"Weston School District","Special Education",13,"*","*","*","*"
-"Westport School District","Non-Special Education",419,"*","*","*","*"
-"Westport School District","Special Education",56,"*","*","*","*"
-"Wethersfield School District","Non-Special Education",281,"*","*","*","*"
-"Wethersfield School District","Special Education",24,"*","*","*","*"
-"Wilton School District","Non-Special Education",279,"*","*","*","*"
-"Wilton School District","Special Education",27,"*","*","*","*"
-"Windham School District","Non-Special Education",216,31,14.4,47,21.8
-"Windham School District","Special Education",51,15,29.4,11,21.6
-"Windsor Locks School District","Non-Special Education",122,"*","*","*","*"
-"Windsor Locks School District","Special Education",13,"*","*","*","*"
-"Windsor School District","Non-Special Education",308,16,5.2,"*","*"
-"Windsor School District","Special Education",45,12,26.7,"*","*"
-"Wolcott School District","Non-Special Education",207,"*","*","*","*"
-"Wolcott School District","Special Education",19,"*","*","*","*"
-"Woodstock Academy District","Non-Special Education",275,"*","*","*","*"
-"Woodstock Academy District","Special Education",24,"*","*","*","*"
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+    
+
+
+<head>
+    <meta charset="UTF-8" />
+    <title>
+    	
+    		
+    		
+    			SAS&reg; Logon Manager
+    		
+    	
+    </title>
+    <link type="text/css" rel="stylesheet" href="themes/default/css/bootstrap.css" />
+    <link type="text/css" rel="stylesheet" href="themes/default/css/sas.css" />
+</head>
+
+
+
+<body id="cas">
+	<div id="page">
+		
+
+<div class="banner row">
+    <div class="about">
+        <ul class="unstyled"><li>
+            <a href="#about-modal" data-toggle="modal">
+                About
+            </a>
+        </li></ul>
+    </div>
+    <div id="about-modal" class="modal hide fade">
+        <div class="modal-header">
+            <a href="#" class="close" data-dismiss="modal">&times;</a>
+            <h3>About</h3>
+        </div>
+        <div class="modal-body">
+            <p>Version: 9.4</p>
+            <h4>Copyright Information</h4>
+            <p align="center">
+Copyright (c) 2002 - 2013 by SAS Institute Inc., Cary, NC, USA<br/>
+All rights reserved.<br/>
+<br/>
+This software is protected by copyright laws and international treaties.<br/>
+<br/>
+U.S. GOVERNMENT RESTRICTED RIGHTS<br/>
+Use, duplication, or disclosure of this software and related<br/>
+documentation by the U.S. government is subject to the<br/>
+Agreement with SAS Institute and the restrictions set forth<br/>
+in FAR 52.227-19, Commercial Computer Software<br/>
+- Restricted Rights (June 1987).
+            </p>
+        </div>
+    </div>
+    <div class="header">
+        <div class="title">
+        	<h1>
+        		
+		    		
+		    		
+		    			Sign In to SAS<sup>&reg;</sup>
+		    		
+    			
+        	</h1>
+       	</div>
+        <div class="logo"><img src="themes/default/images/logo.png" /></div>
+    </div>
+</div>
+
+
+		<div class="content row">
+			
+                <form id="fm1" class="form-stacked" onSubmit="return setSubmitUrl(this);" action="/SASLogon/login;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=55D49800969BD8C4B5A188612B373B89.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1?service=http://edsight.ct.gov/SASStoredProcess/j_spring_cas_security_check" method="post">
+				<fieldset>
+					
+					
+					
+                        <legend>Sign In to SAS<sup>&reg;</sup></legend>
+					<div class="clearfix">
+                            <label for="username"><span class="accesskey">U</span>ser ID:</label>
+						
+							
+							
+                                    
+                                    <input id="username" name="username" class="required" tabindex="1" accesskey="u" type="text" value="" size="25" autocomplete="off"/>
+							
+						
+					</div>
+					<div class="clearfix">
+                            <label for="password"><span class="accesskey">P</span>assword:</label>
+						
+                            
+                            <input id="password" name="password" class="required" tabindex="2" accesskey="p" type="password" value="" size="25" autocomplete="off"/>
+					</div>
+				</fieldset>
+				<input type="hidden" name="lt" value="LT-9896-5bHtmNlIt7HAUloDbJPb5brZGE0IcA" />
+				<input type="hidden" name="execution" value="e1s1" />
+				<input type="hidden" name="_eventId" value="submit" />
+                    <div class="submitb"><input id="Logon" type="submit" value="Sign In" onClick="this.disabled=true;this.form.submit();" tabindex="3" /></div>
+			</form>
+			
+				<div class="customizations" id="custom-logon-message">
+                  	
+
+
+<p>
+
+</p>
+
+
+ 
+ 
+				</div>
+			
+
+			<div class="copyright">
+				Copyright &copy; 2002 - 2013 by SAS Institute Inc., Cary, NC USA
+			</div>
+		</div>
+	</div>
+	
+<script type="text/javascript" src="/SASLogon/js/jquery.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=55D49800969BD8C4B5A188612B373B89.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
+<script type="text/javascript" src="/SASLogon/js/bootstrap-modal.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=55D49800969BD8C4B5A188612B373B89.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
+
+	<script type="text/javascript">
+            $("#username").focus();
+            
+            function setSubmitUrl(form)
+            {
+            	var urlHash = decodeURIComponent(window.location.hash);
+            	
+            	if (urlHash && urlHash.indexOf("#") === -1)
+            		urlHash = "#" + urlHash;
+            	
+            	form.action = form.action + urlHash;
+            	return true;
+            }
+    </script>
+</body>
+
+</html>
+
+
 

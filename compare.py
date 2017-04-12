@@ -4,8 +4,8 @@ import difflib
 
 from collections import namedtuple
 
-BASE_OLD_DATA_DIR = './data'
-BASE_NEW_DATA_DIR = './tmp'
+BASE_OLD_DATA_DIR = './crawls/33017'
+BASE_NEW_DATA_DIR = './data'
 
 Mismatch = namedtuple('Mismatch', ['dir', 'filename'])
 
@@ -32,3 +32,10 @@ total_files = 0
 for dir, files in subdir_file_names.items():
     for f in files:
         total_files +=1
+
+
+mismatches_dict = {}
+for m in mismatches:
+    if m.dir not in mismatches_dict:
+        mismatches_dict[m.dir] = []
+    mismatches_dict[m.dir].append(m.filename)

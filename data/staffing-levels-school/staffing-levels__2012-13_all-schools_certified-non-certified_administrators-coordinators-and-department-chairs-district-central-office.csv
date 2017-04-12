@@ -1,4 +1,33 @@
-"FTE Staffing"
-"The query you have run did not contain any results."
-"Please close Excel, rerun your Web query, and retry your export."
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- Copyright(C) 2002-2011, SAS Institute Inc., Cary, NC, USA. All Rights Reserved -->
+<html><head>
+<title>Stored Process Error</title>
+<link type="text/css" href="http://edsight.ct.gov/SASTheme_edsight/themes/edsight/styles/sasComponents_FF_5.css" rel="stylesheet" />
+<link type="text/css" href="http://edsight.ct.gov/SASTheme_edsight/themes/edsight/styles/sasStyle.css" rel="stylesheet" />
+<link type="text/css" href="http://edsight.ct.gov/SASTheme_edsight/themes/edsight/styles/custom.css" rel="stylesheet" />
 
+<style type="text/css">
+BODY { background-image:      url(http://edsight.ct.gov/SASTheme_edsight/themes/edsight/images/LogonArtTile.gif);
+       background-repeat:     repeat-y;
+       background-attachment: scroll;
+       background-position:   left top;
+       margin-top:            15px;
+       margin-left:           168px;
+}
+.coloredbar { position: absolute;
+              top:      70px;
+              left:     70px;
+}
+</style>
+</head>
+<body>
+<img class="coloredbar" src="http://edsight.ct.gov/SASTheme_edsight/themes/edsight/images/SASColoredBarsTransparent.gif" alt="" title="" />
+<div class="solutionsErrorTitle">
+<img src="http://edsight.ct.gov/SASTheme_edsight/themes/edsight/images/MessageError24.gif" border="0" height="24" width="24" alt="Error" title="Error" align="absmiddle" />
+Stored Process Error
+</div>
+<div class="solutionsSmallItem">
+<img src="http://edsight.ct.gov/SASTheme_edsight/themes/edsight/images/spacer.gif" height="10" alt="" title="" /><br />
+<h2>Unable to execute stored process.</h2><p/>Unable to connect to a SAS server.
+</div>
+</body></html>

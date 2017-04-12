@@ -1,121 +1,1033 @@
+"FTE Staffing Report for 2004-05"
 
-
-
-
-
-<!DOCTYPE html>
-
-
-
-
-
-<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
-    
-    
-
-<head>
-    <meta charset="UTF-8" />
-    <title>
-    	
-    		
-    		
-    			SAS&reg; Logon Manager
-    		
-    	
-    </title>
-    <link type="text/css" rel="stylesheet" href="themes/default/css/bootstrap.css" />
-    <link type="text/css" rel="stylesheet" href="themes/default/css/sas.css" />
-</head>
-
-
-
-    <body id="cas">
-        <div id="page">
-            
-
-<div class="banner row">
-    <div class="about">
-        <ul class="unstyled"><li>
-            <a href="#about-modal" data-toggle="modal">
-                About
-            </a>
-        </li></ul>
-    </div>
-    <div id="about-modal" class="modal hide fade">
-        <div class="modal-header">
-            <a href="#" class="close" data-dismiss="modal">&times;</a>
-            <h3>About</h3>
-        </div>
-        <div class="modal-body">
-            <p>Version: 9.4</p>
-            <h4>Copyright Information</h4>
-            <p align="center">
-Copyright (c) 2002 - 2013 by SAS Institute Inc., Cary, NC, USA<br/>
-All rights reserved.<br/>
-<br/>
-This software is protected by copyright laws and international treaties.<br/>
-<br/>
-U.S. GOVERNMENT RESTRICTED RIGHTS<br/>
-Use, duplication, or disclosure of this software and related<br/>
-documentation by the U.S. government is subject to the<br/>
-Agreement with SAS Institute and the restrictions set forth<br/>
-in FAR 52.227-19, Commercial Computer Software<br/>
-- Restricted Rights (June 1987).
-            </p>
-        </div>
-    </div>
-    <div class="header">
-        <div class="title">
-        	<h1>
-        		
-		    		
-		    		
-		    			Sign In to SAS<sup>&reg;</sup>
-		    		
-    			
-        	</h1>
-       	</div>
-        <div class="logo"><img src="themes/default/images/logo.png" /></div>
-    </div>
-</div>
-
-
-            <div class="content row">
-                <div id="msg" class="alert-message message-box success">
-                	
-                		
-                			<h2>Public access has been denied.</h2>
-		                    <p>Public users are not allowed to access this SAS application. The current user has been signed out.</p>
-                		
-                		
-                		
-                    
-                    
-           				<p>For increased security, close your browser.</p>
-           			
-                </div>
-                
-	            	<div class="customizations" id="custom-logoff-message">
-	               		
-
-
-<p>
-</p>
-
-
- 
-
-	                </div>
-	            
-	            
-            </div>
-        </div>
-        
-<script type="text/javascript" src="/SASLogon/js/jquery.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=47E07951EC229296A76151756F39D103.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-<script type="text/javascript" src="/SASLogon/js/bootstrap-modal.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=47E07951EC229296A76151756F39D103.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-
-    </body>
-
-</html>
-
+"District","School","Assignment Category","Educator Type","FTE Count"
+"Amistad Academy District","Amistad Academy","General Education - Paraprofessional Instructional Assistants","Non-Certified",3.0
+="Andover School District",="Andover Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.2
+="Ansonia School District",="Ansonia High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Ansonia Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.0
+,="Mead School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Prendergast School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",17.0
+="Area Cooperative Educational Services",="Collaborative Alternative Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Thomas Edison Magnet Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="Wintergreen Interdistrict Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+="Ashford School District",="Ashford School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+="Avon School District",="Avon High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Avon Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Pine Grove School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.5
+,="Roaring Brook School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Thompson Brook School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+="Barkhamsted School District",="Barkhamsted Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.8
+="Berlin School District",="Berlin High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+,="Catherine M. McGee Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.8
+,="Emma Hart Willard School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.0
+,="Mary E. Griswold School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.6
+,="Richard D. Hubbard School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.3
+="Bethany School District",="Bethany Community School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+="Bethel School District",="Anna H. Rockwell School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.5
+,="Bethel High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Bethel Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Frank A. Berry School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.5
+,="Ralph M. T. Johnson School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+="Bloomfield School District",="Bloomfield High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Carmen Arace Intermediate School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+,="Carmen Arace Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="J. P. Vincent School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",10.0
+,="Laurel School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+,="Metacomet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+="Bolton School District",="Bolton Center School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="Bolton High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+="Bozrah School District",="Fields Memorial School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.4
+="Branford School District",="Branford High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Francis Walsh Intermediate School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="John B. Sliney School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+,="Mary R. Tisko School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.5
+,="Mary T. Murphy School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.6
+="Bridgeport School District",="Barnum School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Bassick High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Beardsley School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="Black Rock School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Blackham School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+,="Bryant School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="Central High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Cesar Batalla School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",11.0
+,="Classical Studies Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Columbus School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",16.0
+,="Cross School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Curiale School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+,="Dunbar School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+,="Edison School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+,="Garfield School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+,="Geraldine Johnson School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Hall School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Hallen School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+,="Harding High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="High Horizons Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Hooker School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Jettie S. Tisdale School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+,="Longfellow School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="Luis Munoz Marin School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.0
+,="Madison School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="Maplewood Annex",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="Multicultural Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="Newfield School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Park City Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Read School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+,="Roosevelt School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.0
+,="Skane Center",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Waltersville School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.0
+,="Winthrop School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+="Bristol School District",="Bristol Central High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.4
+,="Bristol Eastern High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.1
+,="Chippens Hill Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.2
+,="Clara T. O'Connell School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Clarence A. Bingham School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Edgewood School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.2
+,="Ellen P. Hubbell School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.3
+,="Greene-Hills School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.3
+,="Ivy Drive School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.1
+,="John J. Jennings School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Memorial Boulevard Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.2
+,="Mountain View School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.2
+,="Northeast Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.2
+,="South Side School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Stafford School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+="Brookfield School District",="Brookfield High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Center Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+,="Huckleberry Hill Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+,="Whisconier Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+="Brooklyn School District",="Brooklyn Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",13.6
+,="Brooklyn Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+="Canaan School District",="Lee H. Kellogg School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.8
+="Canterbury School District",="Canterbury Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Dr. Helen Baldwin Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.2
+="Canton School District",="Canton High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.2
+,="Canton Intermediate School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.6
+,="Canton Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.8
+,="Cherry Brook Primary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",13.9
+="Capitol Region Education Council",="Discovery Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Glastonbury/East Hartford Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="Great Path Academy at MCC",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Metropolitan Learning Center for Global and International Studies",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.2
+,="Montessori Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",19.0
+,="Two Rivers Magnet Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+,="University of Hartford Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",19.5
+="Chaplin School District",="Chaplin Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.5
+="Cheshire School District",="Chapman School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Cheshire High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",13.2
+,="Darcey School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",12.5
+,="Dodd Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.7
+,="Doolittle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.7
+,="Highland School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.7
+,="Norton School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.2
+="Chester School District",="Chester Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.5
+="Clinton School District",="Abraham Pierson School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Jared Eliot School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.9
+,="Lewin G. Joel Jr. School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",11.2
+,="The Morgan School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.9
+="Colchester School District",="Bacon Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+,="Colchester Intermediate School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="Jack Jackter Intermediate School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",10.5
+,="William J. Johnston Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+="Colebrook School District",="Colebrook Consolidated School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.8
+="Columbia School District",="Horace W. Porter School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.5
+="Common Ground High School District",="Common Ground High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+="Connecticut Technical High School System",="A. I. Prince Technical High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Bullard-Havens Technical High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="E. C. Goodwin Technical High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Eli Whitney Technical High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Ella T. Grasso Southeastern Technical High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Emmett O'Brien Technical High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="H. C. Wilcox Technical High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="H. H. Ellis Technical High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Henry Abbott Technical High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Howell Cheney Technical High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="J. M. Wright Technical High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Norwich Technical High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Oliver Wolcott Technical High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Platt Technical High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Vinal Technical High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="W. F. Kaynor Technical High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Windham Technical High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+="Cooperative Educational Services",="Six-Six Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",19.8
+="Cornwall School District",="Cornwall Consolidated School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.5
+="Coventry School District",="Capt. Nathan Hale School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.5
+,="Coventry Grammar School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",15.8
+,="Coventry High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="George Hersey Robertson School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+="Cromwell School District",="Cromwell High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.4
+,="Cromwell Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.8
+,="Edna C. Stevens School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.0
+="Danbury School District",="Alternative Center For Excellence",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Broadview Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.5
+,="Danbury High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+,="Ellsworth Avenue School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.6
+,="Great Plain School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.5
+,="Hayestown Avenue School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.4
+,="King Street Intermediate School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="King Street Primary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.0
+,="Mill Ridge Primary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Morris Street School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",12.0
+,="Park Avenue School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="Pembroke School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.5
+,="Rogers Park Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Shelter Rock School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+,="South Street School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.6
+,="Stadley Rough School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.1
+="Darien School District",="Darien High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Hindley Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",14.0
+,="Holmes Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="Middlesex Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Ox Ridge Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.4
+,="Royle Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="Tokeneke Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.5
+="Deep River School District",="Deep River Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",10.8
+="Derby School District",="Bradley School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Derby High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Irving School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.5
+="East Granby School District",="Allgrove School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.4
+,="East Granby High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="East Granby Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="R. Dudley Seymour School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.5
+="East Haddam School District",="East Haddam Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+,="Nathan Hale-Ray High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.5
+,="Nathan Hale-Ray Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+="East Hampton School District",="Center School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.9
+,="East Hampton High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.5
+,="East Hampton Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.7
+,="Memorial School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.8
+="East Hartford School District",="Anna E. Norris School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="Connecticut IB Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Dr. Franklin H. Mayberry School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",11.0
+,="Dr. John A. Langford School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Dr. Thomas S. O'Connell School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+,="East Hartford High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",16.0
+,="East Hartford Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="Governor William Pitkin School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Hockanum School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.6
+,="Joseph O. Goodwin School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Robert J. O'Brien School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.0
+,="Silver Lane School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+,="Sunset Ridge School Elementary Academy for Arts and World Languages",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.5
+="East Haven School District",="Carbone School/East Haven Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="D. C. Moore School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Deer Run School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.2
+,="Dominick H. Ferrara School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.3
+,="East Haven High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Grove J. Tuttle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.4
+,="Hays School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.4
+,="Joseph Melillo Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.2
+,="Momauguin School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.9
+,="Overbrook Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.2
+,="Robert W. Carbone School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.8
+="East Lyme School District",="East Lyme High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="East Lyme Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Flanders School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.5
+,="Lillie B. Haynes School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.7
+,="Niantic Center School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.5
+="East Windsor School District",="Broad Brook Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",11.5
+,="East Windsor High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="East Windsor Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+="Eastford School District",="Eastford Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.7
+="Easton School District",="Helen Keller Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Samuel Staples Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.5
+="Ellington School District",="Center School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.2
+,="Crystal Lake School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.1
+,="Ellington High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.6
+,="Ellington Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Windermere School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+="Elm City College Preparatory School",="Elm City College Preparatory School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+="Enfield School District",="Edgar H. Parkman School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.3
+,="Eli Whitney School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.5
+,="Enfield High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.5
+,="Enfield Street School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Enrico Fermi High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.5
+,="Harriet Beecher Stowe School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+,="Hazardville Memorial School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.3
+,="Henry Barnard School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="John F. Kennedy Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.3
+,="Nathan Hale School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Prudence Crandall School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.5
+,="Thomas G. Alcorn School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+="Essex School District",="Essex Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",10.6
+="Explorations District",="Explorations",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+="Fairfield School District",="Burr Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+,="Dwight Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.2
+,="Fairfield Ludlowe High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.1
+,="Fairfield Warde High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.5
+,="Fairfield Woods Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.2
+,="Holland Hill School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+,="Jennings School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.6
+,="McKinley School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.8
+,="Mill Hill School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+,="North Stratfield School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.8
+,="Osborn Hill School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+,="Riverfield School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.4
+,="Roger Ludlowe Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.3
+,="Sherman School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+,="Stratfield School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.4
+,="Tomlinson Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.3
+="Farmington School District",="East Farms School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.9
+,="Farmington High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.8
+,="Irving A. Robbins Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.8
+,="Noah Wallace School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.1
+,="Union School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.5
+,="West District School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.9
+,="West Woods Upper Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.9
+="Franklin School District",="Franklin Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+="Glastonbury School District",="Buttonball Lane School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.8
+,="Eastbury School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Gideon Welles School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.7
+,="Glastonbury High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.5
+,="Hebron Avenue School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.6
+,="Hopewell School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.1
+,="Naubuc School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",11.3
+,="Smith Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.7
+="Granby School District",="Frank M. Kearns Primary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",15.9
+,="Granby Memorial High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.5
+,="Granby Memorial Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.6
+,="Kelly Lane Primary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.4
+,="Wells Road Intermediate School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.5
+="Greenwich School District",="Central Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Cos Cob School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.5
+,="Eastern Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Glenville School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.6
+,="Greenwich High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",10.0
+,="Hamilton Avenue School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",11.0
+,="International School At Dundee",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Julian Curtiss School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.3
+,="New Lebanon School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.5
+,="North Mianus School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="North Street School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+,="Old Greenwich School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.5
+,="Parkway School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Riverside School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.4
+,="Western Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+="Griswold School District",="Griswold Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",13.4
+,="Griswold High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Griswold Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+="Groton School District",="Carl C. Cutler Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.1
+,="Charles Barnum School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.6
+,="Claude Chester School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="Colonel Ledyard School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.3
+,="Eastern Point School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.0
+,="Fitch Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Groton Heights School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.9
+,="Mary Morrisson School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.2
+,="Noank School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.7
+,="Pleasant Valley School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.1
+,="Robert E. Fitch High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+,="S. B. Butler School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.5
+,="West Side Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+="Guilford School District",="A. Baldwin Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="A. W. Cox School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Calvin Leete School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="E. C. Adams Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Guilford High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Guilford Lakes School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+,="Melissa Jones School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+="Hamden School District",="Bear Path School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="Church Street School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="Dunbar Hill School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Hamden High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Hamden Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Helen Street School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Ridge Hill School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Shepherd Glen School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Spring Glen School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="West Woods School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+="Hampton School District",="Hampton Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+="Hartford School District",="Asian Studies Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="Barnard-Brown School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.0
+,="Batchelder School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+,="Breakthrough Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="Bulkeley High School Lower School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Burns Latino Studies Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.0
+,="Burr School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Clark School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="Classical Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Dr. Joseph Bellizzi Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+,="Dr. Ramon E. Betances Early Reading Lab",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+,="Environmental Sciences Magnet at Hooker School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="Expeditionary Learning Academy at Moylan School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",10.0
+,="Fox Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.0
+,="Hartford Magnet Trinity College Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Hartford Public High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.0
+,="Hartford Transitional Learning Academy (Elementary)",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Hartford Transitional Learning Academy (Secondary)",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Kennelly School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="M. D. Fox School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",15.0
+,="M. L. King, Jr. School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.0
+,="McDonough Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.0
+,="Milner School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+,="Naylor/CCSU Leadership Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+,="Parkville Community School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",12.0
+,="Pathways Academy of Technology and Design",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Quirk Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.0
+,="R.J. Kinsella Magnet School of Performing Arts",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",11.0
+,="Rawson School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="SAND School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+,="STEM Magnet at Fisher School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.0
+,="Sanchez School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",12.0
+,="Simpson-Waverly School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+,="Sports and Medical Sciences Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Twain School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.0
+,="University High of Science and Engineering",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Weaver High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+,="Webster Micro Society Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+,="West Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",15.0
+,="Wish Museum School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+="Hartland School District",="Hartland School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.5
+="Highville Mustard Seed Charter School District",="Highville Mustard Seed Charter School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+="Integrated Day Charter School District",="Integrated Day Charter School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.8
+="Kent School District",="Kent Center School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.4
+="Killingly School District",="Killingly Central School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.5
+,="Killingly High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Killingly Intermediate School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Killingly Memorial School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",11.0
+="Learn",="Regional Multicultural Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",15.9
+="Lebanon School District",="Lebanon Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Lebanon Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Lyman Memorial High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+="Ledyard School District",="Gales Ferry School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Gallup Hill School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.2
+,="Juliet W. Long School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.7
+,="Ledyard Center School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.7
+,="Ledyard High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.6
+,="Ledyard Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.9
+="Lisbon School District",="Lisbon Central School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.1
+="Litchfield School District",="Center School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.5
+,="Litchfield High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.8
+,="Litchfield Intermediate School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+="Madison School District",="Daniel Hand High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.8
+,="Dr. Robert H. Brown Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+,="Island Avenue Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.9
+,="J. Milton Jeffrey Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",20.3
+,="Kathleen H. Ryerson Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",10.9
+,="Walter C. Polson Upper Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+="Manchester School District",="Nathan Hale School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.0
+,="Bennet Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.4
+,="Bowers School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.8
+,="Buckley School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.1
+,="Highland Park School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.7
+,="Illing Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Keeney School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.7
+,="Manchester High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Martin School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.9
+,="Robertson School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+,="Verplanck School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.8
+,="Waddell School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.8
+,="Washington School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+="Mansfield School District",="Annie E. Vinton School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+,="Dorothy C. Goodwin School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+,="Mansfield Middle School School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+,="Southeast Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+="Marlborough School District",="Elmer Thienes-Mary Hall Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",12.0
+="Meriden School District",="Nathan Hale School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+,="Benjamin Franklin School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",12.0
+,="Casimir Pulaski School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Francis T. Maloney High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Hanover School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+,="Israel Putnam School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.0
+,="John Barry School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+,="Lincoln Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Orville H. Platt High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Roger Sherman School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+,="Thomas Hooker School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.5
+,="Washington Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+="Middletown School District",="Bielefield School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Farm Hill School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.9
+,="Keigwin Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Lawrence School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="MacDonough School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.6
+,="Middletown High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Moody School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Snow School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Spencer School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Wesley School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Woodrow Wilson Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+="Milford School District",="Calf Pen Meadow School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.1
+,="East Shore Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Harborside Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.5
+,="J. F. Kennedy School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.5
+,="Jonathan Law High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+,="Joseph A. Foran High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.7
+,="Live Oaks School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+,="Mathewson School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.5
+,="Meadowside School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.3
+,="Orange Avenue School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="Orchard Hills School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.5
+,="Pumpkin Delight School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.4
+,="Simon Lake School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+,="The Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="West Shore Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+="Monroe School District",="Chalk Hill School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Fawn Hollow Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.9
+,="Jockey Hollow School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Masuk High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Monroe Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+,="Stepney Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.9
+="Montville School District",="Dr. Charles E. Murphy School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.5
+,="Leonard J. Tyl Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.6
+,="Mohegan School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.5
+,="Montville High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.1
+,="Oakdale School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.4
+="Naugatuck School District",="Andrew Avenue School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Central Avenue School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.5
+,="City Hill Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Cross Street Intermediate School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Hillside Intermediate School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Hillside Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.5
+,="Hop Brook Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.5
+,="Maple Hill School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.5
+,="Naugatuck High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Salem School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+,="Western School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+="New Beginnings Inc Family Academy District",="New Beginnings Inc., Family Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+="New Britain School District",="Chamberlain Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",11.5
+,="Frank J. DiLoreto School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.0
+,="Gaffney School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",15.0
+,="Holmes School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",11.0
+,="Jefferson School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="Lincoln School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="New Britain High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",13.0
+,="Northend School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Pulaski Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",12.0
+,="Roosevelt Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Slade Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="Smalley Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.0
+,="Smith School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+,="Vance School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+="New Canaan School District",="East School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="New Canaan High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.8
+,="Saxe Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",14.6
+,="South School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+,="West School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+="New Fairfield School District",="Consolidated School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",13.6
+,="Meeting House Hill School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+,="New Fairfield High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="New Fairfield Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+="New Hartford School District",="Ann Antolini School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Bakerville Consolidated School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="New Hartford Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.4
+="New Haven School District",="Edgewood School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+,="Nathan Hale School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+,="Barnard Environmental Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.0
+,="Beecher School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.0
+,="Benjamin Jepson Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",16.0
+,="Betsy Ross Arts Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Bishop Woods School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.0
+,="Celentano BioTech, Health and Medical Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+,="Clarence Rogers School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+,="Clemente Leadership Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+,="Clinton Avenue School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",12.0
+,="Columbus Family Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",11.0
+,="Conte/West Hills Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",12.0
+,="Cooperative High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Cortlandt V.R. Creed Health and Sport Sciences High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Davis 21st Century Magnet Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",12.0
+,="East Rock Community Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.0
+,="Fair Haven School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.0
+,="High School In The Community",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Hill Central Music Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",11.0
+,="Hill Regional Career High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="James Hillhouse High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="John S. Martinez School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.0
+,="Katherine Brennan School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+,="King/Robinson Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="Lincoln-Bassett School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",13.0
+,="Martin Luther King School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+,="Metropolitan Business Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="New Haven Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Polly T. McCabe Center",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Primary Learning Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Prince School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Riverside Education Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Ross/Woodward School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",11.0
+,="Sheridan Communications and Technology Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Sound School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Timothy Dwight School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.0
+,="Troup Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="Truman School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.0
+,="Urban Youth Center Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Urban Youth Center Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Vincent E. Mauro Elementary Math, Science and Technology Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",11.0
+,="Welch Annex School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",15.0
+,="West Rock Authors Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Wexler/Grant Community School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.0
+,="Wilbur Cross High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Worthington Hooker School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.0
+="New London School District",="Jennings School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Bennie Dover Jackson Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Edgerton School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.0
+,="Harbor School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="Nathan Hale Arts Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+,="New London High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Winthrop STEM Elementary Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+="New Milford School District",="Hill And Plain School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.6
+,="John Pettibone School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.7
+,="New Milford High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Northville Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",10.0
+,="Sarah Noble Intermediate School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.3
+,="Schaghticoke Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+="Newington School District",="Anna Reynolds School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Elizabeth Green School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="John Paterson School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+,="John Wallace Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Martin Kellogg Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Newington High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Ruth Chaffee School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+="Newtown School District",="Hawley Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",11.6
+,="Head O'Meadow Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",13.3
+,="Middle Gate Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",18.6
+,="Newtown High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.2
+,="Newtown Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.1
+,="Reed Intermediate School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.8
+,="Sandy Hook Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",13.8
+="Norfolk School District",="Botelle Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.6
+="North Branford School District",="Jerome Harrison School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="North Branford High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.5
+,="North Branford Intermediate School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Stanley T. Williams School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+,="Totoket Valley Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+="North Canaan School District",="North Canaan Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.1
+="North Haven School District",="Clintonville Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.5
+,="Green Acres Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.5
+,="Montowese Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.5
+,="North Haven High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="North Haven Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Ridge Road Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.5
+="North Stonington School District",="North Stonington Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.4
+,="Wheeler High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.4
+,="Wheeler Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.4
+="Norwalk School District",="Brien McMahon High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Brookside Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.9
+,="Columbus Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",13.8
+,="Cranbury Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",11.1
+,="Fox Run Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",11.1
+,="Jefferson Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.5
+,="Kendall Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.4
+,="Marvin Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.5
+,="Naramake Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+,="Nathan Hale Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Norwalk High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.9
+,="Norwalk Pathways Academy at Briggs",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.9
+,="Ponus Ridge Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.5
+,="Roton Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Rowayton School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.4
+,="Silvermine Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.9
+,="Tracey School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",10.1
+,="West Rocks Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.5
+,="Wolfpit School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.1
+="Norwich Free Academy District",="Norwich Free Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.5
+="Norwich School District",="Bishop School Early Learning Center",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.3
+,="Greeneville School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+,="John B. Stanton Network School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.3
+,="Kelly Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.0
+,="Moriarty Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.5
+,="Samuel Huntington School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="Teachers' Memorial Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Thames River Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Thomas W. Mahan School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Uncas Network School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Veterans' Memorial School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.5
+,="Wequonnoc Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.3
+="Odyssey Community School District",="Odyssey Community School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+="Old Saybrook School District",="Kathleen E. Goodwin School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",18.0
+,="Old Saybrook Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Old Saybrook Senior High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+="Orange School District",="Mary L. Tracy School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="Peck Place School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.5
+,="Race Brook School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.2
+,="Turkey Hill School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+="Oxford School District",="Great Oak School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Oxford Center School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.2
+,="Quaker Farms School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.3
+="Plainfield School District",="Early Childhood Center",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",11.0
+,="Moosup Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Plainfield Central School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.2
+,="Plainfield High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Plainfield Memorial School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+,="Shepard Hill Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.0
+="Plainville School District",="Frank T. Wheeler School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.2
+,="Linden Street School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",11.3
+,="Louis Toffolon School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.3
+,="Middle School of Plainville",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.5
+,="Plainville High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.9
+="Plymouth School District",="Eli Terry Jr. Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Main Street School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Plymouth Center School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Prospect Street School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Terryville High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+="Pomfret School District",="Pomfret Community School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.8
+="Portland School District",="Brownstone Intermediate School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Gildersleeve School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+,="Portland High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Portland Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Valley View School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+="Preston School District",="Preston Plains School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Preston Veterans' Memorial School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+="Putnam School District",="Putnam Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",22.3
+,="Putnam High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.3
+,="Putnam Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.3
+="Redding School District",="John Read Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",17.9
+,="Redding Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",18.9
+="Regional School District 01",="Housatonic Valley Regional High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.8
+="Regional School District 04",="John Winthrop Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.3
+,="Valley Regional High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.1
+="Regional School District 05",="Amity Middle School: Bethany",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.5
+,="Amity Middle School: Orange",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Amity Regional High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+="Regional School District 07",="Northwestern Regional High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.8
+,="Northwestern Regional Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.6
+="Regional School District 08",="RHAM High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="RHAM Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+="Regional School District 09",="Joel Barlow High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+="Regional School District 10",="Har-Bur Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Harwinton Consolidated School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+,="Lake Garda Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.0
+,="Lewis S. Mills High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+="Regional School District 11",="Parish Hill High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.5
+="Regional School District 12",="Booth Free School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="Shepaug Valley High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Shepaug Valley Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.5
+,="The Burnham School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.9
+,="Washington Primary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.7
+="Regional School District 13",="Coginchaug Regional High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.5
+,="Francis E. Korn School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Frank Ward Strong School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Frederick Brewster School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+,="John Lyman School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+,="Middlefield Memorial School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+="Regional School District 14",="Bethlehem Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Mitchell Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.5
+,="Nonnewaug High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Woodbury Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+="Regional School District 15",="Gainfield Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.6
+,="Long Meadow Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.8
+,="Memorial Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.5
+,="Middlebury Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.2
+,="Pomperaug Regional High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Pomperaug School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.0
+,="Rochambeau Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+="Regional School District 16",="Algonquin School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Community School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Laurel Ledge School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Long River Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Woodland Regional High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+="Regional School District 17",="Burr District Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.1
+,="Haddam Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.5
+,="Haddam-Killingworth High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Haddam-Killingworth Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Killingworth Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.5
+="Regional School District 18",="Center School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Lyme Consolidated School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.7
+,="Lyme-Old Lyme High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Lyme-Old Lyme Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Mile Creek School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.4
+="Regional School District 19",="E. O. Smith High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.2
+="Ridgefield School District",="Barlow Mountain Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.5
+,="Branchville Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.5
+,="East Ridge Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.1
+,="Farmingville Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.5
+,="Ridgebury Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Ridgefield High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.1
+,="Scotland Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.5
+,="Scotts Ridge Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Veterans Park Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.5
+="Rocky Hill School District",="Albert D. Griswold Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.1
+,="Dr. Oran A. Moser School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.3
+,="Myrtle H. Stevens School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.7
+,="Rocky Hill High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.5
+,="West Hill School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.7
+="Salem School District",="Salem Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",10.0
+="Salisbury School District",="Salisbury Central School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.3
+="Scotland School District",="Scotland Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+="Seymour School District",="Anna L. Lopresti School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="Bungay School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Paul E. Chatfield School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Seymour High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+,="Seymour Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+="Sharon School District",="Sharon Center School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.6
+="Shelton School District",="Mohegan School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.9
+,="Booth Hill School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.3
+,="Elizabeth Shelton School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.3
+,="Intermediate School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.6
+,="Lafayette School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",12.3
+,="Long Hill School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.7
+,="Shelton High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.3
+,="Sunnyside School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.8
+="Sherman School District",="Sherman School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.7
+="Side By Side Charter School District",="Side By Side Charter School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",10.0
+="Simsbury School District",="Central School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.9
+,="Henry James Memorial School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.8
+,="Latimer Lane School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.3
+,="Simsbury High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.2
+,="Squadron Line School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.9
+,="Tariffville School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.1
+,="Tootin' Hills School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+="Somers School District",="Mabelle B. Avery Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Somers Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.5
+,="Somers High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.7
+="South Windsor School District",="Pleasant Valley School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.5
+,="Eli Terry School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",13.5
+,="Orchard Hill School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.5
+,="Philip R. Smith School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.6
+,="South Windsor High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.4
+,="Timothy Edwards School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Wapping Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.1
+="Southington School District",="John F. Kennedy Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Derynoski Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+,="Flanders Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.8
+,="Hatton Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.8
+,="Joseph A. Depaolo Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Plantsville Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.6
+,="South End Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.5
+,="Southington High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.5
+,="Strong Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+,="Thalberg Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+,="Urbin T. Kelley School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+="Sprague School District",="Sayles School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+="Stafford School District",="Borough Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.7
+,="Earl M. Witt Intermediate School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.4
+,="Stafford High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Stafford Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Staffordville School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+,="West Stafford School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+="Stamford Academy District",="Stamford Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+="Stamford School District",="Newfield School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.0
+,="Cloonan School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Davenport Ridge School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+,="Dolan School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Hart School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.0
+,="Julia A. Stark School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+,="K. T. Murphy School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.0
+,="Northeast School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",11.0
+,="Rippowam Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Rogers International School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+,="Roxbury School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+,="Scofield Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Springdale School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+,="Stamford High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Stillmeadow School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+,="The Academy of Information Technology",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Toquam Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",15.0
+,="Turn of River School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Westhill High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Westover School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.0
+="Sterling School District",="Sterling Memorial School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.6
+="Stonington School District",="Deans Mill School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",10.6
+,="Mystic Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.4
+,="Pawcatuck Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.7
+,="Stonington High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="West Broad Street School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.8
+,="West Vine Street School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.5
+="Stratford School District",="Center School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Eli Whitney School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Bunnell High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Chapel School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="David Wooster Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Franklin School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Harry B. Flood Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Lordship School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Nichols School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Second Hill Lane School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",10.0
+,="Stratford Academy - Johnson House",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Stratford High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Wilcoxson School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+="Suffield School District",="A. Ward Spaulding School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",11.4
+,="McAlister Intermediate School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.7
+,="Suffield High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.6
+,="Suffield Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+="The Bridge Academy District",="The Bridge Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+="The Gilbert School District",="The Gilbert School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+="Thomaston School District",="Black Rock School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",11.0
+,="Thomaston Center School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Thomaston High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+="Thompson School District",="Mary R. Fisher Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",13.0
+,="Thompson Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Tourtellotte Memorial High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+="Tolland School District",="Birch Grove Primary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",19.2
+,="Tolland High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.5
+,="Tolland Intermediate School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.4
+,="Tolland Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+="Torrington School District",="East School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Forbes School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Southwest School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",12.0
+,="Torringford School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Torrington High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="Torrington Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Vogel-Wetmore School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+="Trumbull School District",="Booth Hill School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.6
+,="Daniels Farm School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.5
+,="Frenchtown Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.5
+,="Head Start",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Hillcrest Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Jane Ryan School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.4
+,="Madison Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Middlebrook School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.6
+,="Tashua School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.6
+,="Trumbull High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+="Unified School District #1",="Bergin Correctional Institution",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Bridgeport Correctional Center",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Brooklyn Correctional Institution",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Cheshire Correctional Institution",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Corrigan/Radgowski Correctional Institution",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Enfield Correctional Institution",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Garner Correctional Institution",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Gates Correctional Institution",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Hartford Correctional Center",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="MacDougall/Walker Correctional Institution",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Manson Youth Institution",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="New Haven Correctional Center",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Northern Correctional Institution",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Osborn Correctional Institution",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Robinson Correctional Institution",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Webster Correctional Institution",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Willard/Cybulski Correctional Institution",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="York Correctional Institution",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+="Union School District",="Union Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+="Vernon School District",="Northeast School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.5
+,="Center Road School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",10.1
+,="Lake Street School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.6
+,="Maple Street School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.8
+,="Rockville High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.8
+,="Skinner Road School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",13.5
+,="Vernon Center Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.6
+="Voluntown School District",="Voluntown Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+="Wallingford School District",="Highland School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.5
+,="Cook Hill School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.9
+,="Dag Hammarskjold Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Evarts C. Stevens School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",10.5
+,="James H. Moran Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Lyman Hall High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Mark T. Sheehan High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Moses Y. Beach School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+,="Parker Farms School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.1
+,="Pond Hill School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.4
+,="Rock Hill School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.5
+,="Yalesville School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+="Waterbury School District",="Brooklyn Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="West Side Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Washington School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="B. W. Tinker School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Barnard School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.6
+,="Bucks Hill School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.6
+,="Bunker Hill School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.3
+,="Crosby High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Driggs School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="F. J. Kingsbury School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Gilmartin School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="H. S. Chase School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Hopeville School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",29.2
+,="John F. Kennedy High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Maloney Interdistrict Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",10.0
+,="Margaret M. Generali Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Michael F. Wallace Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="North End Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Regan School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Rotella Interdistrict Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",12.0
+,="Sprague School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Walsh School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Waterbury Arts Magnet School (High)",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",27.0
+,="Waterbury Arts Magnet School (Middle)",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",27.0
+,="Wendell L. Cross School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Wilby High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Woodrow Wilson School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+="Waterford School District",="Clark Lane Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Cohanzie Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Great Neck Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Oswegatchie Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Quaker Hill Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Southwest Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Waterford High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+="Watertown School District",="Fletcher W. Judson School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.5
+,="Heminway Park School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.5
+,="John Trumbull Primary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",15.7
+,="Polk School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.5
+,="Swift Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.5
+,="Watertown High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+="West Hartford School District",="Smith School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.0
+,="Aiken School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Braeburn School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.5
+,="Bugbee School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Charter Oak International Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+,="Conard High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="Duffy School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.5
+,="Hall High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="King Philip Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.8
+,="Morley School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.3
+,="Norfeldt School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Sedgwick Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="Webster Hill School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.5
+,="Whiting Lane School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",13.0
+,="Wolcott School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.5
+="West Haven School District",="Washington School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.2
+,="Alma E. Pagels School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.8
+,="Anna V. Molloy School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Carrigan 5/6 Intermediate School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.2
+,="Clarence E. Thompson School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Edith E. Mackrille School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.4
+,="Forest School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Harry M. Bailey Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Savin Rock Community School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.5
+,="Seth G. Haley School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.2
+,="West Haven High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+="Westbrook School District",="Daisy Ingraham School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.8
+,="Westbrook High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Westbrook Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.5
+="Weston School District",="Hurlbutt Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.9
+,="Weston High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Weston Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.2
+="Westport School District",="Bedford Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Coleytown Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",14.5
+,="Coleytown Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Green's Farms School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+,="King's Highway Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+,="Long Lots School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.3
+,="Saugatuck Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.8
+,="Staples High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+="Wethersfield School District",="Alfred W. Hanmer School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.5
+,="Charles Wright School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.1
+,="Emerson-Williams School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.3
+,="Highcrest School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.6
+,="Silas Deane Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.3
+,="Wethersfield High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.6
+="Willington School District",="Center School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+,="Hall Memorial School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+="Wilton School District",="Middlebrook School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.5
+,="Cider Mill School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.3
+,="Ina E. Driscoll School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.5
+,="Miller-Driscoll School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.3
+,="Wilton High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",10.4
+="Winchester School District",="Batcheller Early Education Center",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Joy D. Rice School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Mary P. Hinsdale School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Pearson Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+="Windham School District",="Natchaug School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.5
+,="North Windham School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+,="W. B. Sweeney School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="Windham Center School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+,="Windham High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Windham Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+="Windsor Locks School District",="North Street School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.6
+,="South Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Windsor Locks High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+,="Windsor Locks Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.5
+="Windsor School District",="Clover Street School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+,="John F. Kennedy School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+,="Oliver Ellsworth School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+,="Poquonock Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+,="Roger Wolcott Early Child Center",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",10.0
+,="Sage Park Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Windsor High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+="Wolcott School District",="Alcott School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+,="Frisbie School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.4
+,="Tyrrell Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Wakelee School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.6
+,="Wolcott High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+="Woodbridge School District",="Beecher Road Intermediate School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+,="Beecher Road Primary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.7
+="Woodstock Academy District",="Woodstock Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+="Woodstock School District",="Woodstock Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.0
+,="Woodstock Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
 

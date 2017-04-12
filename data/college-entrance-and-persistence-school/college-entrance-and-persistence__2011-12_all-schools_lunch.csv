@@ -1,121 +1,245 @@
+"College Entrance and Persistence, 2011-12"
+"All Districts"
 
+"Notes:"
+"* In this report, year means graduating class of that school year."
+"* College entrance refers to the percent of high school graduates from the year who enrolled in college any time during the first year after high school."
+"* College persistence refers to the percent of students who enrolled in college the first year after high school and returned for a second year (Freshman to Sophomore persistence)."
 
-
-
-
-<!DOCTYPE html>
-
-
-
-
-
-<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
-    
-    
-
-<head>
-    <meta charset="UTF-8" />
-    <title>
-    	
-    		
-    		
-    			SAS&reg; Logon Manager
-    		
-    	
-    </title>
-    <link type="text/css" rel="stylesheet" href="themes/default/css/bootstrap.css" />
-    <link type="text/css" rel="stylesheet" href="themes/default/css/sas.css" />
-</head>
-
-
-
-    <body id="cas">
-        <div id="page">
-            
-
-<div class="banner row">
-    <div class="about">
-        <ul class="unstyled"><li>
-            <a href="#about-modal" data-toggle="modal">
-                About
-            </a>
-        </li></ul>
-    </div>
-    <div id="about-modal" class="modal hide fade">
-        <div class="modal-header">
-            <a href="#" class="close" data-dismiss="modal">&times;</a>
-            <h3>About</h3>
-        </div>
-        <div class="modal-body">
-            <p>Version: 9.4</p>
-            <h4>Copyright Information</h4>
-            <p align="center">
-Copyright (c) 2002 - 2013 by SAS Institute Inc., Cary, NC, USA<br/>
-All rights reserved.<br/>
-<br/>
-This software is protected by copyright laws and international treaties.<br/>
-<br/>
-U.S. GOVERNMENT RESTRICTED RIGHTS<br/>
-Use, duplication, or disclosure of this software and related<br/>
-documentation by the U.S. government is subject to the<br/>
-Agreement with SAS Institute and the restrictions set forth<br/>
-in FAR 52.227-19, Commercial Computer Software<br/>
-- Restricted Rights (June 1987).
-            </p>
-        </div>
-    </div>
-    <div class="header">
-        <div class="title">
-        	<h1>
-        		
-		    		
-		    		
-		    			Sign In to SAS<sup>&reg;</sup>
-		    		
-    			
-        	</h1>
-       	</div>
-        <div class="logo"><img src="themes/default/images/logo.png" /></div>
-    </div>
-</div>
-
-
-            <div class="content row">
-                <div id="msg" class="alert-message message-box success">
-                	
-                		
-                			<h2>Public access has been denied.</h2>
-		                    <p>Public users are not allowed to access this SAS application. The current user has been signed out.</p>
-                		
-                		
-                		
-                    
-                    
-           				<p>For increased security, close your browser.</p>
-           			
-                </div>
-                
-	            	<div class="customizations" id="custom-logoff-message">
-	               		
-
-
-<p>
-</p>
-
-
- 
-
-	                </div>
-	            
-	            
-            </div>
-        </div>
-        
-<script type="text/javascript" src="/SASLogon/js/jquery.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=44BDDB339D38995724FA5C5780F0966D.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-<script type="text/javascript" src="/SASLogon/js/bootstrap-modal.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=44BDDB339D38995724FA5C5780F0966D.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-
-    </body>
-
-</html>
-
+"District","District Code","School","Free/Reduced Price Meal Eligibility","Entrance(%)","Persistence(%)"
+"Ansonia School District","=""0020011""","Ansonia High School","Eligible for Free or Reduced-Price Meals",52.2,79.7
+"Avon School District","=""0040011""","Avon High School","Eligible for Free or Reduced-Price Meals",*,*
+"Berlin School District","=""0070011""","Berlin High School","Eligible for Free or Reduced-Price Meals",53.8,90.5
+"Bethel School District","=""0090011""","Bethel High School","Eligible for Free or Reduced-Price Meals",67.5,81.5
+"Bloomfield School District","=""0110011""","Bloomfield High School","Eligible for Free or Reduced-Price Meals",64.0,68.8
+"Bloomfield School District","=""0110011""","The Big Picture High School","Eligible for Free or Reduced-Price Meals",*,*
+"Bolton School District","=""0120011""","Bolton High School","Eligible for Free or Reduced-Price Meals",*,*
+"Branford School District","=""0140011""","Branford High School","Eligible for Free or Reduced-Price Meals",67.7,78.6
+"Bridgeport School District","=""0150011""","Bassick High School","Eligible for Free or Reduced-Price Meals",44.9,77.5
+"Bridgeport School District","=""0150011""","Central High School","Eligible for Free or Reduced-Price Meals",63.7,84.0
+"Bridgeport School District","=""0150011""","Harding High School","Eligible for Free or Reduced-Price Meals",46.8,77.1
+"Bristol School District","=""0170011""","Bristol Central High School","Eligible for Free or Reduced-Price Meals",40.2,85.7
+"Bristol School District","=""0170011""","Bristol Eastern High School","Eligible for Free or Reduced-Price Meals",47.9,84.4
+"Bristol School District","=""0170011""","Community/Vocational Program","Eligible for Free or Reduced-Price Meals",*,*
+"Brookfield School District","=""0180011""","Brookfield High School","Eligible for Free or Reduced-Price Meals",*,*
+"Canton School District","=""0230011""","Canton High School","Eligible for Free or Reduced-Price Meals",*,*
+"Cheshire School District","=""0250011""","Cheshire High School","Eligible for Free or Reduced-Price Meals",76.1,85.7
+"Cheshire School District","=""0250011""","Humiston School","Eligible for Free or Reduced-Price Meals",*,*
+"Clinton School District","=""0270011""","The Morgan School","Eligible for Free or Reduced-Price Meals",47.6,*
+"Colchester School District","=""0280011""","Bacon Academy","Eligible for Free or Reduced-Price Meals",66.7,85.7
+"Coventry School District","=""0320011""","Coventry High School","Eligible for Free or Reduced-Price Meals",30.8,*
+"Cromwell School District","=""0330011""","Cromwell High School","Eligible for Free or Reduced-Price Meals",60.6,90.0
+"Danbury School District","=""0340011""","Alternative Center For Excellence","Eligible for Free or Reduced-Price Meals",*,*
+"Danbury School District","=""0340011""","Danbury High School","Eligible for Free or Reduced-Price Meals",55.8,83.8
+"Darien School District","=""0350011""","Darien High School","Eligible for Free or Reduced-Price Meals",*,*
+"Derby School District","=""0370011""","Derby High School","Eligible for Free or Reduced-Price Meals",54.9,78.6
+"East Granby School District","=""0400011""","East Granby High School","Eligible for Free or Reduced-Price Meals",*,*
+"East Haddam School District","=""0410011""","Nathan Hale-Ray High School","Eligible for Free or Reduced-Price Meals",*,*
+"East Hampton School District","=""0420011""","East Hampton High School","Eligible for Free or Reduced-Price Meals",47.6,*
+"East Hampton School District","=""0420011""","The Learning Center at East Hampton","Eligible for Free or Reduced-Price Meals",*,*
+"East Hartford School District","=""0430011""","Connecticut IB Academy","Eligible for Free or Reduced-Price Meals",*,*
+"East Hartford School District","=""0430011""","East Hartford High School","Eligible for Free or Reduced-Price Meals",66.2,77.3
+"East Hartford School District","=""0430011""","Stevens Alternate High school","Eligible for Free or Reduced-Price Meals",19.7,*
+"East Hartford School District","=""0430011""","Woodland School","Eligible for Free or Reduced-Price Meals",*,*
+"East Haven School District","=""0440011""","East Haven High School","Eligible for Free or Reduced-Price Meals",63.6,92.9
+"East Haven School District","=""0440011""","Pathways","Eligible for Free or Reduced-Price Meals",*,*
+"East Lyme School District","=""0450011""","East Lyme High School","Eligible for Free or Reduced-Price Meals",63.3,71.0
+"East Windsor School District","=""0470011""","East Windsor High School","Eligible for Free or Reduced-Price Meals",46.9,*
+"Ellington School District","=""0480011""","Ellington High School","Eligible for Free or Reduced-Price Meals",*,*
+"Enfield School District","=""0490011""","Enfield High School","Eligible for Free or Reduced-Price Meals",63.8,86.7
+"Enfield School District","=""0490011""","Enfield Transitional Learning Academy","Eligible for Free or Reduced-Price Meals",*,*
+"Enfield School District","=""0490011""","Enrico Fermi High School","Eligible for Free or Reduced-Price Meals",52.9,75.7
+"Fairfield School District","=""0510011""","Fairfield Ludlowe High School","Eligible for Free or Reduced-Price Meals",68.3,71.4
+"Fairfield School District","=""0510011""","Fairfield Warde High School","Eligible for Free or Reduced-Price Meals",60.9,96.4
+"Farmington School District","=""0520011""","Farmington High School","Eligible for Free or Reduced-Price Meals",75.7,89.3
+"Glastonbury School District","=""0540011""","Glastonbury High School","Eligible for Free or Reduced-Price Meals",68.5,89.2
+"Granby School District","=""0560011""","Granby Memorial High School","Eligible for Free or Reduced-Price Meals",*,*
+"Greenwich School District","=""0570011""","Greenwich High School","Eligible for Free or Reduced-Price Meals",59.0,93.2
+"Griswold School District","=""0580011""","Griswold High School","Eligible for Free or Reduced-Price Meals",49.1,85.2
+"Groton School District","=""0590011""","Robert E. Fitch High School","Eligible for Free or Reduced-Price Meals",65.2,78.1
+"Guilford School District","=""0600011""","Guilford High School","Eligible for Free or Reduced-Price Meals",50.0,*
+"Hamden School District","=""0620011""","Hamden High School","Eligible for Free or Reduced-Price Meals",59.3,79.8
+"Hartford School District","=""0640011""","Bulkeley High School","Eligible for Free or Reduced-Price Meals",47.4,68.7
+"Hartford School District","=""0640011""","Capital Preparatory Magnet School","Eligible for Free or Reduced-Price Meals",84.6,81.8
+"Hartford School District","=""0640011""","Classical Magnet School","Eligible for Free or Reduced-Price Meals",85.7,81.3
+"Hartford School District","=""0640011""","Culinary Arts Academy","Eligible for Free or Reduced-Price Meals",26.7,*
+"Hartford School District","=""0640011""","HPHS Academy of Engineering and Green Technology","Eligible for Free or Reduced-Price Meals",34.4,75.8
+"Hartford School District","=""0640011""","HPHS Academy of Nursing and Health Science","Eligible for Free or Reduced-Price Meals",49.5,71.7
+"Hartford School District","=""0640011""","HPHS Law and Government Academy","Eligible for Free or Reduced-Price Meals",61.4,74.1
+"Hartford School District","=""0640011""","High School, Inc.","Eligible for Free or Reduced-Price Meals",65.2,*
+"Hartford School District","=""0640011""","Journalism and Media Academy Magnet School","Eligible for Free or Reduced-Price Meals",45.9,70.6
+"Hartford School District","=""0640011""","OPPortunity High School","Eligible for Free or Reduced-Price Meals",31.0,*
+"Hartford School District","=""0640011""","Pathways Academy of Technology and Design","Eligible for Free or Reduced-Price Meals",54.5,88.9
+"Hartford School District","=""0640011""","Sports and Medical Sciences Academy","Eligible for Free or Reduced-Price Meals",73.7,84.9
+"Hartford School District","=""0640011""","University High School of Science and Engineering","Eligible for Free or Reduced-Price Meals",83.3,82.0
+"Killingly School District","=""0690011""","Killingly High School","Eligible for Free or Reduced-Price Meals",53.4,74.4
+"Lebanon School District","=""0710011""","Lyman Memorial High School","Eligible for Free or Reduced-Price Meals",*,*
+"Ledyard School District","=""0720011""","Ledyard High School","Eligible for Free or Reduced-Price Meals",51.5,*
+"Litchfield School District","=""0740011""","Litchfield High School","Eligible for Free or Reduced-Price Meals",*,*
+"Madison School District","=""0760011""","Daniel Hand High School","Eligible for Free or Reduced-Price Meals",*,*
+"Manchester School District","=""0770011""","Manchester High School","Eligible for Free or Reduced-Price Meals",63.3,75.9
+"Manchester School District","=""0770011""","Manchester Regional Academy","Eligible for Free or Reduced-Price Meals",*,*
+"Manchester School District","=""0770011""","Manchester Transition Center","Eligible for Free or Reduced-Price Meals",*,*
+"Meriden School District","=""0800011""","Francis T. Maloney High School","Eligible for Free or Reduced-Price Meals",42.9,71.6
+"Meriden School District","=""0800011""","Orville H. Platt High School","Eligible for Free or Reduced-Price Meals",43.8,77.6
+"Middletown School District","=""0830011""","Middletown High School","Eligible for Free or Reduced-Price Meals",54.1,76.7
+"Middletown School District","=""0830011""","Transition to Life Center","Eligible for Free or Reduced-Price Meals",*,*
+"Milford School District","=""0840011""","Jonathan Law High School","Eligible for Free or Reduced-Price Meals",58.2,82.6
+"Milford School District","=""0840011""","Joseph A. Foran High School","Eligible for Free or Reduced-Price Meals",57.4,80.6
+"Monroe School District","=""0850011""","Masuk High School","Eligible for Free or Reduced-Price Meals",81.8,96.3
+"Montville School District","=""0860011""","Montville High School","Eligible for Free or Reduced-Price Meals",47.3,76.9
+"Montville School District","=""0860011""","Palmer Academy","Eligible for Free or Reduced-Price Meals",*,*
+"Naugatuck School District","=""0880011""","Naugatuck High School","Eligible for Free or Reduced-Price Meals",46.1,88.1
+"New Britain School District","=""0890011""","CLIMB","Eligible for Free or Reduced-Price Meals",*,*
+"New Britain School District","=""0890011""","New Britain High School","Eligible for Free or Reduced-Price Meals",55.0,77.1
+"New Canaan School District","=""0900011""","New Canaan High School","Eligible for Free or Reduced-Price Meals",*,*
+"New Fairfield School District","=""0910011""","New Fairfield High School","Eligible for Free or Reduced-Price Meals",85.0,94.1
+"New Haven School District","=""0930011""","Cooperative High School","Eligible for Free or Reduced-Price Meals",73.0,86.4
+"New Haven School District","=""0930011""","High School In The Community","Eligible for Free or Reduced-Price Meals",55.8,83.3
+"New Haven School District","=""0930011""","Hill Regional Career High School","Eligible for Free or Reduced-Price Meals",83.7,85.4
+"New Haven School District","=""0930011""","Hyde School of Health, Science and Sports Medicine","Eligible for Free or Reduced-Price Meals",59.5,72.7
+"New Haven School District","=""0930011""","James Hillhouse High School","Eligible for Free or Reduced-Price Meals",59.3,77.5
+"New Haven School District","=""0930011""","Metropolitan Business Academy","Eligible for Free or Reduced-Price Meals",75.0,66.7
+"New Haven School District","=""0930011""","New Haven Academy","Eligible for Free or Reduced-Price Meals",72.4,71.4
+"New Haven School District","=""0930011""","Polly T. McCabe Center","Eligible for Free or Reduced-Price Meals",*,*
+"New Haven School District","=""0930011""","Riverside Education Academy","Eligible for Free or Reduced-Price Meals",26.5,*
+"New Haven School District","=""0930011""","Sound School","Eligible for Free or Reduced-Price Meals",72.6,71.1
+"New Haven School District","=""0930011""","Wilbur Cross High School","Eligible for Free or Reduced-Price Meals",53.7,75.2
+"Newington School District","=""0940011""","Newington High School","Eligible for Free or Reduced-Price Meals",71.0,87.8
+"New London School District","=""0950011""","New London High School","Eligible for Free or Reduced-Price Meals",63.9,68.9
+"New Milford School District","=""0960011""","Litchfield Hills Transition Center","Eligible for Free or Reduced-Price Meals",*,*
+"New Milford School District","=""0960011""","New Milford High School","Eligible for Free or Reduced-Price Meals",63.2,86.1
+"Newtown School District","=""0970011""","Newtown High School","Eligible for Free or Reduced-Price Meals",55.2,*
+"North Branford School District","=""0990011""","North Branford High School","Eligible for Free or Reduced-Price Meals",85.0,*
+"North Haven School District","=""1010011""","North Haven High School","Eligible for Free or Reduced-Price Meals",64.3,88.9
+"North Stonington School District","=""1020011""","Wheeler High School","Eligible for Free or Reduced-Price Meals",*,*
+"Norwalk School District","=""1030011""","Brien McMahon High School","Eligible for Free or Reduced-Price Meals",65.7,83.8
+"Norwalk School District","=""1030011""","Norwalk High School","Eligible for Free or Reduced-Price Meals",64.8,77.8
+"Norwalk School District","=""1030011""","Norwalk Pathways Academy at Briggs","Eligible for Free or Reduced-Price Meals",*,*
+"Norwich School District","=""1040011""","Deborah-Tennant Zinewicz  School","Eligible for Free or Reduced-Price Meals",*,*
+"Norwich School District","=""1040011""","Thames River Academy","Eligible for Free or Reduced-Price Meals",*,*
+"Old Saybrook School District","=""1060011""","Old Saybrook Senior High School","Eligible for Free or Reduced-Price Meals",*,*
+"Oxford School District","=""1080011""","Oxford High School","Eligible for Free or Reduced-Price Meals",*,*
+"Plainfield School District","=""1090011""","Plainfield High School","Eligible for Free or Reduced-Price Meals",40.8,54.8
+"Plainville School District","=""1100011""","Plainville High School","Eligible for Free or Reduced-Price Meals",55.0,78.8
+"Plymouth School District","=""1110011""","Terryville High School","Eligible for Free or Reduced-Price Meals",38.6,*
+"Portland School District","=""1130011""","Portland High School","Eligible for Free or Reduced-Price Meals",45.0,*
+"Putnam School District","=""1160011""","Putnam High School","Eligible for Free or Reduced-Price Meals",48.6,*
+"Ridgefield School District","=""1180011""","Ridgefield High School","Eligible for Free or Reduced-Price Meals",66.7,*
+"Rocky Hill School District","=""1190011""","Rocky Hill High School","Eligible for Free or Reduced-Price Meals",66.7,*
+"Seymour School District","=""1240011""","Seymour High School","Eligible for Free or Reduced-Price Meals",65.0,84.6
+"Shelton School District","=""1260011""","Shelton High School","Eligible for Free or Reduced-Price Meals",63.0,84.8
+"Simsbury School District","=""1280011""","Simsbury High School","Eligible for Free or Reduced-Price Meals",69.0,70.0
+"Somers School District","=""1290011""","Somers High School","Eligible for Free or Reduced-Price Meals",*,*
+"Southington School District","=""1310011""","Southington High School","Eligible for Free or Reduced-Price Meals",58.2,78.3
+"South Windsor School District","=""1320011""","Project Worth Young Adult Academy","Eligible for Free or Reduced-Price Meals",*,*
+"South Windsor School District","=""1320011""","South Windsor High School","Eligible for Free or Reduced-Price Meals",73.5,84.0
+"Stafford School District","=""1340011""","Stafford High School","Eligible for Free or Reduced-Price Meals",28.0,*
+"Stamford School District","=""1350011""","Stamford High School","Eligible for Free or Reduced-Price Meals",67.9,84.0
+"Stamford School District","=""1350011""","The Academy of Information Technology","Eligible for Free or Reduced-Price Meals",78.3,85.2
+"Stamford School District","=""1350011""","Westhill High School","Eligible for Free or Reduced-Price Meals",61.7,88.8
+"Stonington School District","=""1370011""","Stonington High School","Eligible for Free or Reduced-Price Meals",43.3,*
+"Stratford School District","=""1380011""","Bunnell High School","Eligible for Free or Reduced-Price Meals",70.5,86.6
+"Stratford School District","=""1380011""","Stratford High School","Eligible for Free or Reduced-Price Meals",64.4,79.8
+"Stratford School District","=""1380011""","Strive-Stratford","Eligible for Free or Reduced-Price Meals",*,*
+"Suffield School District","=""1390011""","Suffield High School","Eligible for Free or Reduced-Price Meals",71.4,*
+"Thomaston School District","=""1400011""","Thomaston High School","Eligible for Free or Reduced-Price Meals",34.6,*
+"Thompson School District","=""1410011""","Tourtellotte Memorial High School","Eligible for Free or Reduced-Price Meals",47.8,*
+"Tolland School District","=""1420011""","Tolland High School","Eligible for Free or Reduced-Price Meals",*,*
+"Torrington School District","=""1430011""","Torrington High School","Eligible for Free or Reduced-Price Meals",40.2,70.7
+"Trumbull School District","=""1440011""","Trumbull High School","Eligible for Free or Reduced-Price Meals",78.1,96.0
+"Vernon School District","=""1460011""","Next Step Program (AACBP)","Eligible for Free or Reduced-Price Meals",*,*
+"Vernon School District","=""1460011""","Rockville High School","Eligible for Free or Reduced-Price Meals",62.8,77.8
+"Wallingford School District","=""1480011""","A.R.T.S. Academy","Eligible for Free or Reduced-Price Meals",*,*
+"Wallingford School District","=""1480011""","Lyman Hall High School","Eligible for Free or Reduced-Price Meals",64.8,74.3
+"Wallingford School District","=""1480011""","Mark T. Sheehan High School","Eligible for Free or Reduced-Price Meals",64.3,*
+"Wallingford School District","=""1480011""","Multi-Vocational Life Skills Program","Eligible for Free or Reduced-Price Meals",*,*
+"Waterbury School District","=""1510011""","Crosby High School","Eligible for Free or Reduced-Price Meals",51.7,81.3
+"Waterbury School District","=""1510011""","Enlightenment School","Eligible for Free or Reduced-Price Meals",*,*
+"Waterbury School District","=""1510011""","John F. Kennedy High School","Eligible for Free or Reduced-Price Meals",56.2,79.5
+"Waterbury School District","=""1510011""","State Street School","Eligible for Free or Reduced-Price Meals",*,*
+"Waterbury School District","=""1510011""","Waterbury Arts Magnet School (High)","Eligible for Free or Reduced-Price Meals",83.3,76.0
+"Waterbury School District","=""1510011""","Wilby High School","Eligible for Free or Reduced-Price Meals",43.4,64.2
+"Waterford School District","=""1520011""","Waterford High School","Eligible for Free or Reduced-Price Meals",54.1,75.0
+"Watertown School District","=""1530011""","Watertown High School","Eligible for Free or Reduced-Price Meals",63.2,72.2
+"Westbrook School District","=""1540011""","Westbrook High School","Eligible for Free or Reduced-Price Meals",*,*
+"West Hartford School District","=""1550011""","Conard High School","Eligible for Free or Reduced-Price Meals",64.4,82.8
+"West Hartford School District","=""1550011""","Hall High School","Eligible for Free or Reduced-Price Meals",69.6,87.3
+"West Hartford School District","=""1550011""","Strive-West Hartford","Eligible for Free or Reduced-Price Meals",*,*
+"West Haven School District","=""1560011""","West Haven High School","Eligible for Free or Reduced-Price Meals",58.9,79.6
+"Weston School District","=""1570011""","Weston High School","Eligible for Free or Reduced-Price Meals",*,*
+"Westport School District","=""1580011""","Staples High School","Eligible for Free or Reduced-Price Meals",*,*
+"Wethersfield School District","=""1590011""","Wethersfield High School","Eligible for Free or Reduced-Price Meals",83.3,86.0
+"Wilton School District","=""1610011""","Wilton High School","Eligible for Free or Reduced-Price Meals",*,*
+"Windham School District","=""1630011""","Windham High School","Eligible for Free or Reduced-Price Meals",49.1,69.8
+"Windsor School District","=""1640011""","Windsor High School","Eligible for Free or Reduced-Price Meals",57.7,81.7
+"Windsor Locks School District","=""1650011""","Windsor Locks High School","Eligible for Free or Reduced-Price Meals",61.4,81.5
+"Wolcott School District","=""1660011""","Wolcott High School","Eligible for Free or Reduced-Price Meals",71.7,83.7
+"Regional School District 01","=""2010012""","Housatonic Valley Regional High School","Eligible for Free or Reduced-Price Meals",37.5,*
+"Regional School District 04","=""2040012""","Valley Regional High School","Eligible for Free or Reduced-Price Meals",*,*
+"Regional School District 05","=""2050012""","Amity Regional High School","Eligible for Free or Reduced-Price Meals",48.1,*
+"Regional School District 06","=""2060012""","Wamogo Regional High School","Eligible for Free or Reduced-Price Meals",*,*
+"Regional School District 07","=""2070012""","AIM","Eligible for Free or Reduced-Price Meals",*,*
+"Regional School District 07","=""2070012""","Intensive Learning Program","Eligible for Free or Reduced-Price Meals",*,*
+"Regional School District 07","=""2070012""","Northwestern Regional High School","Eligible for Free or Reduced-Price Meals",*,*
+"Regional School District 07","=""2070012""","STEP","Eligible for Free or Reduced-Price Meals",*,*
+"Regional School District 08","=""2080012""","RHAM High School","Eligible for Free or Reduced-Price Meals",65.0,*
+"Regional School District 09","=""2090012""","Joel Barlow High School","Eligible for Free or Reduced-Price Meals",*,*
+"Regional School District 10","=""2100012""","Lewis S. Mills High School","Eligible for Free or Reduced-Price Meals",*,*
+"Regional School District 11","=""2110012""","Parish Hill High School","Eligible for Free or Reduced-Price Meals",*,*
+"Regional School District 12","=""2120012""","Shepaug Valley High School","Eligible for Free or Reduced-Price Meals",*,*
+"Regional School District 13","=""2130012""","Coginchaug Regional High School","Eligible for Free or Reduced-Price Meals",*,*
+"Regional School District 14","=""2140012""","Nonnewaug High School","Eligible for Free or Reduced-Price Meals",*,*
+"Regional School District 15","=""2150012""","Pomperaug Regional High School","Eligible for Free or Reduced-Price Meals",51.9,*
+"Regional School District 16","=""2160012""","Woodland Regional High School","Eligible for Free or Reduced-Price Meals",54.1,90.0
+"Regional School District 17","=""2170012""","Haddam-Killingworth High School","Eligible for Free or Reduced-Price Meals",60.0,*
+"Regional School District 18","=""2180012""","Lyme-Old Lyme High School","Eligible for Free or Reduced-Price Meals",*,*
+"Regional School District 19","=""2190012""","E. O. Smith High School","Eligible for Free or Reduced-Price Meals",43.8,81.0
+"Capitol Region Education Council","=""2410014""","Academy of Aerospace and Engineering","Eligible for Free or Reduced-Price Meals",*,*
+"Capitol Region Education Council","=""2410014""","Farmington Valley Regional Diagnostic Center","Eligible for Free or Reduced-Price Meals",*,*
+"Capitol Region Education Council","=""2410014""","Great Path Academy at MCC","Eligible for Free or Reduced-Price Meals",71.1,75.0
+"Capitol Region Education Council","=""2410014""","Greater Hartford Academy of  the Arts High School - Full Time","Eligible for Free or Reduced-Price Meals",76.6,69.4
+"Capitol Region Education Council","=""2410014""","John J. Allison Polaris Center","Eligible for Free or Reduced-Price Meals",*,*
+"Capitol Region Education Council","=""2410014""","Metropolitan Learning Center for Global and International Studies","Eligible for Free or Reduced-Price Meals",81.0,73.5
+"Capitol Region Education Council","=""2410014""","Public Safety Academy","Eligible for Free or Reduced-Price Meals",*,*
+"Capitol Region Education Council","=""2410014""","River Street School","Eligible for Free or Reduced-Price Meals",*,*
+"Capitol Region Education Council","=""2410014""","Soundbridge","Eligible for Free or Reduced-Price Meals",*,*
+"Cooperative Educational Services","=""2430014""","Developmental Learning Center (DLC)","Eligible for Free or Reduced-Price Meals",*,*
+"Cooperative Educational Services","=""2430014""","RISE Transitional Program","Eligible for Free or Reduced-Price Meals",*,*
+"Cooperative Educational Services","=""2430014""","Therapeutic Day Program","Eligible for Free or Reduced-Price Meals",*,*
+"Area Cooperative Educational Services","=""2440014""","Whitney High School East","Eligible for Free or Reduced-Price Meals",*,*
+"Area Cooperative Educational Services","=""2440014""","Whitney High School North","Eligible for Free or Reduced-Price Meals",*,*
+"Area Cooperative Educational Services","=""2440014""","Whitney High School West","Eligible for Free or Reduced-Price Meals",*,*
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Arts at the Capitol Theater Magnet School (ACT)","Eligible for Free or Reduced-Price Meals",*,*
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","EastConn Special Education","Eligible for Free or Reduced-Price Meals",*,*
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Quinebaug Middle College","Eligible for Free or Reduced-Price Meals",40.9,*
+"Common Ground High School District","=""2680013""","Common Ground High School","Eligible for Free or Reduced-Price Meals",62.5,*
+"The Bridge Academy District","=""2690013""","The Bridge Academy","Eligible for Free or Reduced-Price Meals",69.4,80.0
+"Explorations District","=""2720013""","Explorations","Eligible for Free or Reduced-Price Meals",*,*
+"Amistad Academy District","=""2790013""","Amistad Academy","Eligible for Free or Reduced-Price Meals",*,*
+"Stamford Academy District","=""2820013""","Stamford Academy","Eligible for Free or Reduced-Price Meals",34.5,*
+"Elm City College Preparatory School District","=""2890013""","Elm City College Preparatory School","Eligible for Free or Reduced-Price Meals",*,*
+"Unified School District #1","=""3360015""","Corrigan/Radgowski Correctional Institution","Eligible for Free or Reduced-Price Meals",*,*
+"Unified School District #1","=""3360015""","Manson Youth Institution","Eligible for Free or Reduced-Price Meals",*,*
+"Unified School District #2","=""3470015""","Children's Place School","Eligible for Free or Reduced-Price Meals",*,*
+"Unified School District #2","=""3470015""","Walter G. Cady School","Eligible for Free or Reduced-Price Meals",*,*
+"Connecticut Technical High School System","=""9000016""","A. I. Prince Technical High School","Eligible for Free or Reduced-Price Meals",53.4,77.2
+"Connecticut Technical High School System","=""9000016""","Bullard-Havens Technical High School","Eligible for Free or Reduced-Price Meals",61.9,81.2
+"Connecticut Technical High School System","=""9000016""","E. C. Goodwin Technical High School","Eligible for Free or Reduced-Price Meals",46.0,56.5
+"Connecticut Technical High School System","=""9000016""","Eli Whitney Technical High School","Eligible for Free or Reduced-Price Meals",56.6,64.1
+"Connecticut Technical High School System","=""9000016""","Ella T. Grasso Southeastern Technical High School","Eligible for Free or Reduced-Price Meals",39.8,77.1
+"Connecticut Technical High School System","=""9000016""","Emmett O'Brien Technical High School","Eligible for Free or Reduced-Price Meals",45.6,61.3
+"Connecticut Technical High School System","=""9000016""","H. C. Wilcox Technical High School","Eligible for Free or Reduced-Price Meals",43.9,81.4
+"Connecticut Technical High School System","=""9000016""","H. H. Ellis Technical High School","Eligible for Free or Reduced-Price Meals",28.1,*
+"Connecticut Technical High School System","=""9000016""","Henry Abbott Technical High School","Eligible for Free or Reduced-Price Meals",46.8,80.6
+"Connecticut Technical High School System","=""9000016""","Howell Cheney Technical High School","Eligible for Free or Reduced-Price Meals",45.6,80.8
+"Connecticut Technical High School System","=""9000016""","Norwich Technical High School","Eligible for Free or Reduced-Price Meals",35.2,80.0
+"Connecticut Technical High School System","=""9000016""","Oliver Wolcott Technical High School","Eligible for Free or Reduced-Price Meals",43.1,64.0
+"Connecticut Technical High School System","=""9000016""","Platt Technical High School","Eligible for Free or Reduced-Price Meals",54.9,83.6
+"Connecticut Technical High School System","=""9000016""","Vinal Technical High School","Eligible for Free or Reduced-Price Meals",29.8,*
+"Connecticut Technical High School System","=""9000016""","W. F. Kaynor Technical High School","Eligible for Free or Reduced-Price Meals",56.8,85.1
+"Connecticut Technical High School System","=""9000016""","Windham Technical High School","Eligible for Free or Reduced-Price Meals",47.9,79.4
+"Norwich Free Academy District","=""9010022""","Norwich Free Academy","Eligible for Free or Reduced-Price Meals",58.6,78.4
+"The Gilbert School District","=""9020022""","The Gilbert School","Eligible for Free or Reduced-Price Meals",69.4,68.0
+"Woodstock Academy District","=""9030022""","Woodstock Academy","Eligible for Free or Reduced-Price Meals",65.9,79.3
 

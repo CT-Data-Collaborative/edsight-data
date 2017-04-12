@@ -1,278 +1,160 @@
-"Four-Year Graduation Rates, 2013-14"
-"All Districts, High Needs Status"
 
-"",,,"Non-Graduates",,,
-"District","High Needs Status","Four-Year Cohort Count","Still Enrolled Count","Still Enrolled Rate","Other Count","Other Rate"
-"Amistad Academy District","High Needs","*","*","*","*","*"
-"Amistad Academy District","Non-High Needs","*","*","*","*","*"
-"Ansonia School District","High Needs",113,"*","*","*","*"
-"Ansonia School District","Non-High Needs",44,"*","*","*","*"
-"Avon School District","High Needs",44,"*","*","*","*"
-"Avon School District","Non-High Needs",228,"*","*","*","*"
-"Berlin School District","High Needs",62,"*","*","*","*"
-"Berlin School District","Non-High Needs",173,"*","*","*","*"
-"Bethel School District","High Needs",81,"*","*","*","*"
-"Bethel School District","Non-High Needs",163,"*","*","*","*"
-"Bloomfield School District","High Needs",120,"*","*","*","*"
-"Bloomfield School District","Non-High Needs",49,"*","*","*","*"
-"Bolton School District","High Needs",18,"*","*","*","*"
-"Bolton School District","Non-High Needs",85,"*","*","*","*"
-"Branford School District","High Needs",112,"*","*",11,9.8
-"Branford School District","Non-High Needs",187,"*","*",6,3.2
-"Bridgeport School District","High Needs","*","*","*","*","*"
-"Bridgeport School District","Non-High Needs","*","*","*","*","*"
-"Bristol School District","High Needs",342,51,14.9,50,14.6
-"Bristol School District","Non-High Needs",357,12,3.4,14,3.9
-"Brookfield School District","High Needs",46,"*","*","*","*"
-"Brookfield School District","Non-High Needs",186,"*","*","*","*"
-"Canton School District","High Needs",24,"*","*","*","*"
-"Canton School District","Non-High Needs",112,"*","*","*","*"
-"Capitol Region Education Council","High Needs",197,"*","*",20,10.2
-"Capitol Region Education Council","Non-High Needs",120,"*","*",9,7.5
-"Cheshire School District","High Needs",91,"*","*","*","*"
-"Cheshire School District","Non-High Needs",298,"*","*","*","*"
-"Clinton School District","High Needs",31,"*","*","*","*"
-"Clinton School District","Non-High Needs",102,"*","*","*","*"
-"Colchester School District","High Needs",58,"*","*","*","*"
-"Colchester School District","Non-High Needs",190,"*","*","*","*"
-"Common Ground High School District","High Needs",22,"*","*","*","*"
-"Common Ground High School District","Non-High Needs",7,"*","*","*","*"
-"Connecticut Technical High School System","High Needs",1525,18,1.2,52,3.4
-"Connecticut Technical High School System","Non-High Needs",898,7,0.8,17,1.9
-"Coventry School District","High Needs",35,"*","*","*","*"
-"Coventry School District","Non-High Needs",98,"*","*","*","*"
-"Cromwell School District","High Needs",37,"*","*","*","*"
-"Cromwell School District","Non-High Needs",97,"*","*","*","*"
-"Danbury School District","High Needs",453,74,16.3,73,16.1
-"Danbury School District","Non-High Needs",308,9,2.9,11,3.6
-"Darien School District","High Needs",64,"*","*","*","*"
-"Darien School District","Non-High Needs",272,"*","*","*","*"
-"Department of Mental Health and Addiction Services","High Needs","*","*","*","*","*"
-"Derby School District","High Needs",66,"*","*","*","*"
-"Derby School District","Non-High Needs",36,"*","*","*","*"
-"East Granby School District","High Needs",11,"*","*","*","*"
-"East Granby School District","Non-High Needs",55,"*","*","*","*"
-"East Haddam School District","High Needs",34,"*","*","*","*"
-"East Haddam School District","Non-High Needs",71,"*","*","*","*"
-"East Hampton School District","High Needs",20,"*","*","*","*"
-"East Hampton School District","Non-High Needs",101,"*","*","*","*"
-"East Hartford School District","High Needs",403,"*","*",45,11.2
-"East Hartford School District","Non-High Needs",104,"*","*",6,5.8
-"East Haven School District","High Needs",155,"*","*","*","*"
-"East Haven School District","Non-High Needs",105,"*","*","*","*"
-"East Lyme School District","High Needs",64,"*","*","*","*"
-"East Lyme School District","Non-High Needs",210,"*","*","*","*"
-"East Windsor School District","High Needs",53,"*","*","*","*"
-"East Windsor School District","Non-High Needs",56,"*","*","*","*"
-"Eastern Connecticut Regional Educational Service Center (EASTCONN)","High Needs",40,"*","*","*","*"
-"Eastern Connecticut Regional Educational Service Center (EASTCONN)","Non-High Needs",26,"*","*","*","*"
-"Ellington School District","High Needs",41,"*","*","*","*"
-"Ellington School District","Non-High Needs",153,"*","*","*","*"
-"Elm City College Preparatory School District","High Needs","*","*","*","*","*"
-"Elm City College Preparatory School District","Non-High Needs","*","*","*","*","*"
-"Enfield School District","High Needs",173,13,7.5,30,17.3
-"Enfield School District","Non-High Needs",251,8,3.2,7,2.8
-"Explorations District","High Needs","*","*","*","*","*"
-"Explorations District","Non-High Needs","*","*","*","*","*"
-"Fairfield School District","High Needs",170,"*","*",11,6.5
-"Fairfield School District","Non-High Needs",558,"*","*",7,1.3
-"Farmington School District","High Needs",69,"*","*","*","*"
-"Farmington School District","Non-High Needs",275,"*","*","*","*"
-"Glastonbury School District","High Needs",125,"*","*","*","*"
-"Glastonbury School District","Non-High Needs",460,"*","*","*","*"
-"Granby School District","High Needs",41,"*","*","*","*"
-"Granby School District","Non-High Needs",164,"*","*","*","*"
-"Greenwich School District","High Needs",203,"*","*","*","*"
-"Greenwich School District","Non-High Needs",467,"*","*","*","*"
-"Griswold School District","High Needs",89,"*","*","*","*"
-"Griswold School District","Non-High Needs",81,"*","*","*","*"
-"Groton School District","High Needs",170,"*","*",29,17.1
-"Groton School District","Non-High Needs",147,"*","*",8,5.4
-"Guilford School District","High Needs",71,"*","*","*","*"
-"Guilford School District","Non-High Needs",215,"*","*","*","*"
-"Hamden School District","High Needs",229,"*","*","*","*"
-"Hamden School District","Non-High Needs",229,"*","*","*","*"
-"Hartford School District","High Needs",1259,"*","*","*","*"
-"Hartford School District","Non-High Needs",111,"*","*","*","*"
-"Killingly School District","High Needs",116,"*","*","*","*"
-"Killingly School District","Non-High Needs",102,"*","*","*","*"
-"Learn","High Needs",93,"*","*","*","*"
-"Learn","Non-High Needs",60,"*","*","*","*"
-"Lebanon School District","High Needs",27,"*","*","*","*"
-"Lebanon School District","Non-High Needs",78,"*","*","*","*"
-"Ledyard School District","High Needs",97,"*","*","*","*"
-"Ledyard School District","Non-High Needs",150,"*","*","*","*"
-"Lisbon School District","High Needs","*","*","*","*","*"
-"Lisbon School District","Non-High Needs","*","*","*","*","*"
-"Litchfield School District","High Needs",9,"*","*","*","*"
-"Litchfield School District","Non-High Needs",60,"*","*","*","*"
-"Madison School District","High Needs",58,"*","*","*","*"
-"Madison School District","Non-High Needs",262,"*","*","*","*"
-"Manchester School District","High Needs",281,"*","*","*","*"
-"Manchester School District","Non-High Needs",173,"*","*","*","*"
-"Meriden School District","High Needs",448,"*","*",88,19.6
-"Meriden School District","Non-High Needs",167,"*","*",9,5.4
-"Middletown School District","High Needs",176,"*","*","*","*"
-"Middletown School District","Non-High Needs",158,"*","*","*","*"
-"Milford School District","High Needs",182,"*","*","*","*"
-"Milford School District","Non-High Needs",326,"*","*","*","*"
-"Monroe School District","High Needs",71,"*","*","*","*"
-"Monroe School District","Non-High Needs",229,"*","*","*","*"
-"Montville School District","High Needs",83,"*","*","*","*"
-"Montville School District","Non-High Needs",110,"*","*","*","*"
-"Naugatuck School District","High Needs",196,"*","*",29,14.8
-"Naugatuck School District","Non-High Needs",137,"*","*",8,5.8
-"New Britain School District","High Needs",556,"*","*",112,20.1
-"New Britain School District","Non-High Needs",100,"*","*",10,10.0
-"New Canaan School District","High Needs",36,"*","*","*","*"
-"New Canaan School District","Non-High Needs",276,"*","*","*","*"
-"New Fairfield School District","High Needs",49,"*","*","*","*"
-"New Fairfield School District","Non-High Needs",190,"*","*","*","*"
-"New Haven School District","High Needs",1160,"*","*",202,17.4
-"New Haven School District","Non-High Needs",149,"*","*",15,10.1
-"New London School District","High Needs","*","*","*","*","*"
-"New London School District","Non-High Needs","*","*","*","*","*"
-"New Milford School District","High Needs",103,"*","*",18,17.5
-"New Milford School District","Non-High Needs",280,"*","*",7,2.5
-"Newington School District","High Needs",116,"*","*","*","*"
-"Newington School District","Non-High Needs",248,"*","*","*","*"
-"Newtown School District","High Needs",71,"*","*","*","*"
-"Newtown School District","Non-High Needs",352,"*","*","*","*"
-"North Branford School District","High Needs",51,"*","*","*","*"
-"North Branford School District","Non-High Needs",99,"*","*","*","*"
-"North Haven School District","High Needs",85,"*","*",14,16.5
-"North Haven School District","Non-High Needs",235,"*","*",6,2.6
-"North Stonington School District","High Needs",17,"*","*","*","*"
-"North Stonington School District","Non-High Needs",39,"*","*","*","*"
-"Norwalk School District","High Needs",467,74,15.8,42,9.0
-"Norwalk School District","Non-High Needs",355,8,2.3,9,2.5
-"Norwich Free Academy District","High Needs",292,"*","*",53,18.2
-"Norwich Free Academy District","Non-High Needs",321,"*","*",10,3.1
-"Old Saybrook School District","High Needs",41,"*","*","*","*"
-"Old Saybrook School District","Non-High Needs",96,"*","*","*","*"
-"Oxford School District","High Needs",21,"*","*","*","*"
-"Oxford School District","Non-High Needs",153,"*","*","*","*"
-"Plainfield School District","High Needs",89,"*","*","*","*"
-"Plainfield School District","Non-High Needs",85,"*","*","*","*"
-"Plainville School District","High Needs",85,"*","*","*","*"
-"Plainville School District","Non-High Needs",91,"*","*","*","*"
-"Plymouth School District","High Needs",56,"*","*","*","*"
-"Plymouth School District","Non-High Needs",83,"*","*","*","*"
-"Portland School District","High Needs",27,"*","*","*","*"
-"Portland School District","Non-High Needs",85,"*","*","*","*"
-"Putnam School District","High Needs",47,"*","*","*","*"
-"Putnam School District","Non-High Needs",19,"*","*","*","*"
-"Regional School District 01","High Needs",35,"*","*","*","*"
-"Regional School District 01","Non-High Needs",86,"*","*","*","*"
-"Regional School District 04","High Needs",33,"*","*","*","*"
-"Regional School District 04","Non-High Needs",103,"*","*","*","*"
-"Regional School District 05","High Needs",79,"*","*","*","*"
-"Regional School District 05","Non-High Needs",341,"*","*","*","*"
-"Regional School District 06","High Needs",33,"*","*","*","*"
-"Regional School District 06","Non-High Needs",60,"*","*","*","*"
-"Regional School District 07","High Needs",46,"*","*","*","*"
-"Regional School District 07","Non-High Needs",165,"*","*","*","*"
-"Regional School District 08","High Needs",76,11,14.5,"*","*"
-"Regional School District 08","Non-High Needs",221,6,2.7,"*","*"
-"Regional School District 09","High Needs",48,"*","*","*","*"
-"Regional School District 09","Non-High Needs",204,"*","*","*","*"
-"Regional School District 10","High Needs",43,"*","*","*","*"
-"Regional School District 10","Non-High Needs",175,"*","*","*","*"
-"Regional School District 11","High Needs",21,"*","*","*","*"
-"Regional School District 11","Non-High Needs",19,"*","*","*","*"
-"Regional School District 12","High Needs",26,"*","*","*","*"
-"Regional School District 12","Non-High Needs",55,"*","*","*","*"
-"Regional School District 13","High Needs",32,"*","*","*","*"
-"Regional School District 13","Non-High Needs",102,"*","*","*","*"
-"Regional School District 14","High Needs",44,"*","*","*","*"
-"Regional School District 14","Non-High Needs",167,"*","*","*","*"
-"Regional School District 15","High Needs",67,"*","*","*","*"
-"Regional School District 15","Non-High Needs",262,"*","*","*","*"
-"Regional School District 16","High Needs",49,"*","*","*","*"
-"Regional School District 16","Non-High Needs",132,"*","*","*","*"
-"Regional School District 17","High Needs",42,"*","*","*","*"
-"Regional School District 17","Non-High Needs",111,"*","*","*","*"
-"Regional School District 18","High Needs",13,"*","*","*","*"
-"Regional School District 18","Non-High Needs",95,"*","*","*","*"
-"Regional School District 19","High Needs",85,"*","*","*","*"
-"Regional School District 19","Non-High Needs",208,"*","*","*","*"
-"Ridgefield School District","High Needs",67,"*","*","*","*"
-"Ridgefield School District","Non-High Needs",392,"*","*","*","*"
-"Rocky Hill School District","High Needs",40,"*","*","*","*"
-"Rocky Hill School District","Non-High Needs",143,"*","*","*","*"
-"Seymour School District","High Needs",52,"*","*","*","*"
-"Seymour School District","Non-High Needs",86,"*","*","*","*"
-"Shelton School District","High Needs",110,"*","*","*","*"
-"Shelton School District","Non-High Needs",259,"*","*","*","*"
-"Simsbury School District","High Needs",82,"*","*","*","*"
-"Simsbury School District","Non-High Needs",318,"*","*","*","*"
-"Somers School District","High Needs",26,"*","*","*","*"
-"Somers School District","Non-High Needs",105,"*","*","*","*"
-"South Windsor School District","High Needs",79,"*","*","*","*"
-"South Windsor School District","Non-High Needs",269,"*","*","*","*"
-"Southington School District","High Needs",130,"*","*","*","*"
-"Southington School District","Non-High Needs",382,"*","*","*","*"
-"Stafford School District","High Needs",50,"*","*","*","*"
-"Stafford School District","Non-High Needs",92,"*","*","*","*"
-"Stamford Academy District","High Needs",57,32,56.1,11,19.3
-"Stamford School District","High Needs",737,"*","*",47,6.4
-"Stamford School District","Non-High Needs",463,"*","*",13,2.8
-"Stonington School District","High Needs",54,"*","*","*","*"
-"Stonington School District","Non-High Needs",123,"*","*","*","*"
-"Stratford School District","High Needs",306,25,8.2,"*","*"
-"Stratford School District","Non-High Needs",340,6,1.8,"*","*"
-"Suffield School District","High Needs",43,"*","*","*","*"
-"Suffield School District","Non-High Needs",171,"*","*","*","*"
-"The Bridge Academy District","High Needs","*","*","*","*","*"
-"The Bridge Academy District","Non-High Needs","*","*","*","*","*"
-"The Gilbert School District","High Needs",47,"*","*","*","*"
-"The Gilbert School District","Non-High Needs",43,"*","*","*","*"
-"Thomaston School District","High Needs",24,"*","*","*","*"
-"Thomaston School District","Non-High Needs",48,"*","*","*","*"
-"Thompson School District","High Needs",38,"*","*","*","*"
-"Thompson School District","Non-High Needs",48,"*","*","*","*"
-"Tolland School District","High Needs",37,8,21.6,"*","*"
-"Tolland School District","Non-High Needs",192,8,4.2,"*","*"
-"Torrington School District","High Needs",157,"*","*","*","*"
-"Torrington School District","Non-High Needs",115,"*","*","*","*"
-"Trumbull School District","High Needs",120,"*","*","*","*"
-"Trumbull School District","Non-High Needs",435,"*","*","*","*"
-"Unified School District #1","High Needs","*","*","*","*","*"
-"Unified School District #1","Non-High Needs","*","*","*","*","*"
-"Unified School District #2","High Needs","*","*","*","*","*"
-"Unified School District #2","Non-High Needs","*","*","*","*","*"
-"Vernon School District","High Needs",136,"*","*","*","*"
-"Vernon School District","Non-High Needs",163,"*","*","*","*"
-"Wallingford School District","High Needs",144,"*","*",17,11.8
-"Wallingford School District","Non-High Needs",346,"*","*",7,2.0
-"Waterbury School District","High Needs",1163,"*","*",332,28.5
-"Waterbury School District","Non-High Needs",187,"*","*",24,12.8
-"Waterford School District","High Needs",50,"*","*","*","*"
-"Waterford School District","Non-High Needs",153,"*","*","*","*"
-"Watertown School District","High Needs",79,"*","*","*","*"
-"Watertown School District","Non-High Needs",151,"*","*","*","*"
-"West Hartford School District","High Needs",258,"*","*","*","*"
-"West Hartford School District","Non-High Needs",483,"*","*","*","*"
-"West Haven School District","High Needs",297,"*","*",55,18.5
-"West Haven School District","Non-High Needs",127,"*","*",17,13.4
-"Westbrook School District","High Needs",16,"*","*","*","*"
-"Westbrook School District","Non-High Needs",56,"*","*","*","*"
-"Weston School District","High Needs",27,"*","*","*","*"
-"Weston School District","Non-High Needs",153,"*","*","*","*"
-"Westport School District","High Needs",90,"*","*","*","*"
-"Westport School District","Non-High Needs",362,"*","*","*","*"
-"Wethersfield School District","High Needs",96,"*","*","*","*"
-"Wethersfield School District","Non-High Needs",211,"*","*","*","*"
-"Wilton School District","High Needs",47,"*","*","*","*"
-"Wilton School District","Non-High Needs",254,"*","*","*","*"
-"Windham School District","High Needs",142,"*","*","*","*"
-"Windham School District","Non-High Needs",41,"*","*","*","*"
-"Windsor Locks School District","High Needs",60,"*","*","*","*"
-"Windsor Locks School District","Non-High Needs",78,"*","*","*","*"
-"Windsor School District","High Needs",140,"*","*","*","*"
-"Windsor School District","Non-High Needs",158,"*","*","*","*"
-"Wolcott School District","High Needs",93,"*","*","*","*"
-"Wolcott School District","Non-High Needs",152,"*","*","*","*"
-"Woodstock Academy District","High Needs",42,"*","*","*","*"
-"Woodstock Academy District","Non-High Needs",236,"*","*","*","*"
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+    
+
+
+<head>
+    <meta charset="UTF-8" />
+    <title>
+    	
+    		
+    		
+    			SAS&reg; Logon Manager
+    		
+    	
+    </title>
+    <link type="text/css" rel="stylesheet" href="themes/default/css/bootstrap.css" />
+    <link type="text/css" rel="stylesheet" href="themes/default/css/sas.css" />
+</head>
+
+
+
+<body id="cas">
+	<div id="page">
+		
+
+<div class="banner row">
+    <div class="about">
+        <ul class="unstyled"><li>
+            <a href="#about-modal" data-toggle="modal">
+                About
+            </a>
+        </li></ul>
+    </div>
+    <div id="about-modal" class="modal hide fade">
+        <div class="modal-header">
+            <a href="#" class="close" data-dismiss="modal">&times;</a>
+            <h3>About</h3>
+        </div>
+        <div class="modal-body">
+            <p>Version: 9.4</p>
+            <h4>Copyright Information</h4>
+            <p align="center">
+Copyright (c) 2002 - 2013 by SAS Institute Inc., Cary, NC, USA<br/>
+All rights reserved.<br/>
+<br/>
+This software is protected by copyright laws and international treaties.<br/>
+<br/>
+U.S. GOVERNMENT RESTRICTED RIGHTS<br/>
+Use, duplication, or disclosure of this software and related<br/>
+documentation by the U.S. government is subject to the<br/>
+Agreement with SAS Institute and the restrictions set forth<br/>
+in FAR 52.227-19, Commercial Computer Software<br/>
+- Restricted Rights (June 1987).
+            </p>
+        </div>
+    </div>
+    <div class="header">
+        <div class="title">
+        	<h1>
+        		
+		    		
+		    		
+		    			Sign In to SAS<sup>&reg;</sup>
+		    		
+    			
+        	</h1>
+       	</div>
+        <div class="logo"><img src="themes/default/images/logo.png" /></div>
+    </div>
+</div>
+
+
+		<div class="content row">
+			
+                <form id="fm1" class="form-stacked" onSubmit="return setSubmitUrl(this);" action="/SASLogon/login;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=F4AA384D82B1FAAACBAF5236C5300144.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1?service=http://edsight.ct.gov/SASStoredProcess/j_spring_cas_security_check" method="post">
+				<fieldset>
+					
+					
+					
+                        <legend>Sign In to SAS<sup>&reg;</sup></legend>
+					<div class="clearfix">
+                            <label for="username"><span class="accesskey">U</span>ser ID:</label>
+						
+							
+							
+                                    
+                                    <input id="username" name="username" class="required" tabindex="1" accesskey="u" type="text" value="" size="25" autocomplete="off"/>
+							
+						
+					</div>
+					<div class="clearfix">
+                            <label for="password"><span class="accesskey">P</span>assword:</label>
+						
+                            
+                            <input id="password" name="password" class="required" tabindex="2" accesskey="p" type="password" value="" size="25" autocomplete="off"/>
+					</div>
+				</fieldset>
+				<input type="hidden" name="lt" value="LT-9702-fa6LR03qjsiY0KU43cke1GOY3D0uT1" />
+				<input type="hidden" name="execution" value="e1s1" />
+				<input type="hidden" name="_eventId" value="submit" />
+                    <div class="submitb"><input id="Logon" type="submit" value="Sign In" onClick="this.disabled=true;this.form.submit();" tabindex="3" /></div>
+			</form>
+			
+				<div class="customizations" id="custom-logon-message">
+                  	
+
+
+<p>
+
+</p>
+
+
+ 
+ 
+				</div>
+			
+
+			<div class="copyright">
+				Copyright &copy; 2002 - 2013 by SAS Institute Inc., Cary, NC USA
+			</div>
+		</div>
+	</div>
+	
+<script type="text/javascript" src="/SASLogon/js/jquery.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=F4AA384D82B1FAAACBAF5236C5300144.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
+<script type="text/javascript" src="/SASLogon/js/bootstrap-modal.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=F4AA384D82B1FAAACBAF5236C5300144.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
+
+	<script type="text/javascript">
+            $("#username").focus();
+            
+            function setSubmitUrl(form)
+            {
+            	var urlHash = decodeURIComponent(window.location.hash);
+            	
+            	if (urlHash && urlHash.indexOf("#") === -1)
+            		urlHash = "#" + urlHash;
+            	
+            	form.action = form.action + urlHash;
+            	return true;
+            }
+    </script>
+</body>
+
+</html>
+
+
 

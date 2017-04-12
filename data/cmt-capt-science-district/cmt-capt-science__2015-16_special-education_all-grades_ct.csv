@@ -1,12 +1,121 @@
-"CMT/CAPT Science Assessment, 2015-16"
-"State of Connecticut, All Grades, Special Education Status (SWD)"
 
-"",,,,,,,"Below Basic",,"Basic",,"Proficient",,"Goal",,"Advanced",,"At or Above Goal",,""
-"District","Grade","Special Education Status (SWD)","Total Numberof Students","Total NumberTested","ParticipationRate","Total Number with Scored Tests","Count","%","Count","%","Count","%","Count","%","Count","%","Count","%","AverageSS"
-"State of Connecticut",05,"N",34067,33924,99.6,33923,1980,5.8,3273,9.6,6390,18.8,14500,42.7,7780,22.9,22280,65.7,264
-"State of Connecticut",05,"Y",5284,5186,98.1,5185,1806,34.8,1278,24.6,1074,20.7,864,16.7,163,3.1,1027,19.8,207
-"State of Connecticut",08,"N",34696,34468,99.3,34465,3423,9.9,2719,7.9,5437,15.8,16304,47.3,6582,19.1,22886,66.4,261
-"State of Connecticut",08,"Y",5430,5237,96.4,5235,2511,48.0,835,16.0,880,16.8,885,16.9,124,2.4,1009,19.3,210
-"State of Connecticut",10,"N",35979,34988,97.2,34856,2719,7.8,3668,10.5,10346,29.7,7579,21.7,10544,30.3,18123,52.0,266
-"State of Connecticut",10,"Y",5416,4841,89.4,4751,1787,37.6,1125,23.7,1239,26.1,360,7.6,240,5.1,600,12.6,210
+
+
+
+
+<!DOCTYPE html>
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+    
+    
+
+<head>
+    <meta charset="UTF-8" />
+    <title>
+    	
+    		
+    		
+    			SAS&reg; Logon Manager
+    		
+    	
+    </title>
+    <link type="text/css" rel="stylesheet" href="themes/default/css/bootstrap.css" />
+    <link type="text/css" rel="stylesheet" href="themes/default/css/sas.css" />
+</head>
+
+
+
+    <body id="cas">
+        <div id="page">
+            
+
+<div class="banner row">
+    <div class="about">
+        <ul class="unstyled"><li>
+            <a href="#about-modal" data-toggle="modal">
+                About
+            </a>
+        </li></ul>
+    </div>
+    <div id="about-modal" class="modal hide fade">
+        <div class="modal-header">
+            <a href="#" class="close" data-dismiss="modal">&times;</a>
+            <h3>About</h3>
+        </div>
+        <div class="modal-body">
+            <p>Version: 9.4</p>
+            <h4>Copyright Information</h4>
+            <p align="center">
+Copyright (c) 2002 - 2013 by SAS Institute Inc., Cary, NC, USA<br/>
+All rights reserved.<br/>
+<br/>
+This software is protected by copyright laws and international treaties.<br/>
+<br/>
+U.S. GOVERNMENT RESTRICTED RIGHTS<br/>
+Use, duplication, or disclosure of this software and related<br/>
+documentation by the U.S. government is subject to the<br/>
+Agreement with SAS Institute and the restrictions set forth<br/>
+in FAR 52.227-19, Commercial Computer Software<br/>
+- Restricted Rights (June 1987).
+            </p>
+        </div>
+    </div>
+    <div class="header">
+        <div class="title">
+        	<h1>
+        		
+		    		
+		    		
+		    			Sign In to SAS<sup>&reg;</sup>
+		    		
+    			
+        	</h1>
+       	</div>
+        <div class="logo"><img src="themes/default/images/logo.png" /></div>
+    </div>
+</div>
+
+
+            <div class="content row">
+                <div id="msg" class="alert-message message-box success">
+                	
+                		
+                			<h2>Public access has been denied.</h2>
+		                    <p>Public users are not allowed to access this SAS application. The current user has been signed out.</p>
+                		
+                		
+                		
+                    
+                    
+           				<p>For increased security, close your browser.</p>
+           			
+                </div>
+                
+	            	<div class="customizations" id="custom-logoff-message">
+	               		
+
+
+<p>
+</p>
+
+
+ 
+
+	                </div>
+	            
+	            
+            </div>
+        </div>
+        
+<script type="text/javascript" src="/SASLogon/js/jquery.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=7F98CF867937924051C13B85C33910F9.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
+<script type="text/javascript" src="/SASLogon/js/bootstrap-modal.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=7F98CF867937924051C13B85C33910F9.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
+
+    </body>
+
+</html>
+
 

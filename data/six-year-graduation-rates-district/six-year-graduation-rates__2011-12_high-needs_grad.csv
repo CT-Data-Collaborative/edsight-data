@@ -1,277 +1,160 @@
-"Six-Year Graduation Rates, 2011-12"
-"All Districts, High Needs Status"
 
-"",,,"Graduates",
-"District","High Needs Status","Six-Year Cohort Count","Graduation Count","Graduation Rate"
-"Amistad Academy District","High Needs","*","*","*"
-"Amistad Academy District","Non-High Needs","*","*","*"
-"Ansonia School District","High Needs",138,110,79.7
-"Ansonia School District","Non-High Needs",62,57,91.9
-"Avon School District","High Needs",44,41,93.2
-"Avon School District","Non-High Needs",239,236,98.7
-"Berlin School District","High Needs",62,60,96.8
-"Berlin School District","Non-High Needs",195,192,98.5
-"Bethel School District","High Needs",56,52,92.9
-"Bethel School District","Non-High Needs",180,177,98.3
-"Bloomfield School District","High Needs",120,105,87.5
-"Bloomfield School District","Non-High Needs",73,70,95.9
-"Bolton School District","High Needs",13,10,76.9
-"Bolton School District","Non-High Needs",57,57,100.0
-"Branford School District","High Needs",87,81,93.1
-"Branford School District","Non-High Needs",172,165,95.9
-"Bridgeport School District","High Needs","*","*","*"
-"Bridgeport School District","Non-High Needs","*","*","*"
-"Bristol School District","High Needs",289,239,82.7
-"Bristol School District","Non-High Needs",340,323,95.0
-"Brookfield School District","High Needs",31,28,90.3
-"Brookfield School District","Non-High Needs",222,222,100.0
-"Canton School District","High Needs",17,17,100.0
-"Canton School District","Non-High Needs",101,100,99.0
-"Capitol Region Education Council","High Needs",220,178,80.9
-"Capitol Region Education Council","Non-High Needs",111,98,88.3
-"Cheshire School District","High Needs",83,78,94.0
-"Cheshire School District","Non-High Needs",324,322,99.4
-"Clinton School District","High Needs",32,29,90.6
-"Clinton School District","Non-High Needs",89,85,95.5
-"Colchester School District","High Needs",64,60,93.8
-"Colchester School District","Non-High Needs",179,178,99.4
-"Common Ground High School District","High Needs",24,23,95.8
-"Common Ground High School District","Non-High Needs",6,6,100.0
-"Connecticut Technical High School System","High Needs",1546,1484,96.0
-"Connecticut Technical High School System","Non-High Needs",984,961,97.7
-"Coventry School District","High Needs",47,37,78.7
-"Coventry School District","Non-High Needs",103,101,98.1
-"Cromwell School District","High Needs",48,41,85.4
-"Cromwell School District","Non-High Needs",103,102,99.0
-"Danbury School District","High Needs",403,321,79.7
-"Danbury School District","Non-High Needs",351,326,92.9
-"Darien School District","High Needs",52,49,94.2
-"Darien School District","Non-High Needs",259,254,98.1
-"Derby School District","High Needs",72,53,73.6
-"Derby School District","Non-High Needs",40,37,92.5
-"East Granby School District","High Needs",11,10,90.9
-"East Granby School District","Non-High Needs",49,48,98.0
-"East Haddam School District","High Needs",27,23,85.2
-"East Haddam School District","Non-High Needs",76,73,96.1
-"East Hampton School District","High Needs",30,26,86.7
-"East Hampton School District","Non-High Needs",134,131,97.8
-"East Hartford School District","High Needs",433,354,81.8
-"East Hartford School District","Non-High Needs",146,136,93.2
-"East Haven School District","High Needs",134,94,70.1
-"East Haven School District","Non-High Needs",92,80,87.0
-"East Lyme School District","High Needs",81,71,87.7
-"East Lyme School District","Non-High Needs",221,214,96.8
-"East Windsor School District","High Needs",37,30,81.1
-"East Windsor School District","Non-High Needs",51,49,96.1
-"Eastern Connecticut Regional Educational Service Center (EASTCONN)","High Needs",45,34,75.6
-"Eastern Connecticut Regional Educational Service Center (EASTCONN)","Non-High Needs",40,36,90.0
-"Ellington School District","High Needs",37,26,70.3
-"Ellington School District","Non-High Needs",163,160,98.2
-"Elm City College Preparatory School District","High Needs","*","*","*"
-"Elm City College Preparatory School District","Non-High Needs","*","*","*"
-"Enfield School District","High Needs",193,143,74.1
-"Enfield School District","Non-High Needs",320,308,96.3
-"Explorations District","High Needs",19,9,47.4
-"Explorations District","Non-High Needs",9,8,88.9
-"Fairfield School District","High Needs",163,147,90.2
-"Fairfield School District","Non-High Needs",529,521,98.5
-"Farmington School District","High Needs",62,55,88.7
-"Farmington School District","Non-High Needs",243,239,98.4
-"Glastonbury School District","High Needs",99,88,88.9
-"Glastonbury School District","Non-High Needs",414,412,99.5
-"Granby School District","High Needs",29,28,96.6
-"Granby School District","Non-High Needs",159,157,98.7
-"Greenwich School District","High Needs",190,177,93.2
-"Greenwich School District","Non-High Needs",451,437,96.9
-"Griswold School District","High Needs",83,65,78.3
-"Griswold School District","Non-High Needs",103,98,95.1
-"Groton School District","High Needs",163,122,74.8
-"Groton School District","Non-High Needs",184,166,90.2
-"Guilford School District","High Needs",60,55,91.7
-"Guilford School District","Non-High Needs",227,227,100.0
-"Hamden School District","High Needs",265,227,85.7
-"Hamden School District","Non-High Needs",250,239,95.6
-"Hartford School District","High Needs",1294,952,73.6
-"Hartford School District","Non-High Needs",96,93,96.9
-"Killingly School District","High Needs",101,79,78.2
-"Killingly School District","Non-High Needs",84,78,92.9
-"Lebanon School District","High Needs",27,23,85.2
-"Lebanon School District","Non-High Needs",102,95,93.1
-"Ledyard School District","High Needs",54,47,87.0
-"Ledyard School District","Non-High Needs",156,150,96.2
-"Lisbon School District","High Needs","*","*","*"
-"Lisbon School District","Non-High Needs","*","*","*"
-"Litchfield School District","High Needs",19,19,100.0
-"Litchfield School District","Non-High Needs",84,83,98.8
-"Madison School District","High Needs",59,53,89.8
-"Madison School District","Non-High Needs",277,276,99.6
-"Manchester School District","High Needs",323,240,74.3
-"Manchester School District","Non-High Needs",187,171,91.4
-"Meriden School District","High Needs",439,302,68.8
-"Meriden School District","Non-High Needs",183,166,90.7
-"Middletown School District","High Needs",185,144,77.8
-"Middletown School District","Non-High Needs",157,146,93.0
-"Milford School District","High Needs",209,174,83.3
-"Milford School District","Non-High Needs",302,298,98.7
-"Monroe School District","High Needs",47,45,95.7
-"Monroe School District","Non-High Needs",291,291,100.0
-"Montville School District","High Needs",93,69,74.2
-"Montville School District","Non-High Needs",128,125,97.7
-"Naugatuck School District","High Needs",181,141,77.9
-"Naugatuck School District","Non-High Needs",188,178,94.7
-"New Britain School District","High Needs",539,342,63.5
-"New Britain School District","Non-High Needs",129,117,90.7
-"New Canaan School District","High Needs",50,48,96.0
-"New Canaan School District","Non-High Needs",280,280,100.0
-"New Fairfield School District","High Needs",55,51,92.7
-"New Fairfield School District","Non-High Needs",177,177,100.0
-"New Haven School District","High Needs",1193,904,75.8
-"New Haven School District","Non-High Needs",130,107,82.3
-"New London School District","High Needs","*","*","*"
-"New London School District","Non-High Needs","*","*","*"
-"New Milford School District","High Needs",108,92,85.2
-"New Milford School District","Non-High Needs",283,272,96.1
-"Newington School District","High Needs",103,90,87.4
-"Newington School District","Non-High Needs",232,222,95.7
-"Newtown School District","High Needs",60,54,90.0
-"Newtown School District","Non-High Needs",344,335,97.4
-"North Branford School District","High Needs",34,27,79.4
-"North Branford School District","Non-High Needs",128,123,96.1
-"North Haven School District","High Needs",69,56,81.2
-"North Haven School District","Non-High Needs",221,219,99.1
-"North Stonington School District","High Needs",15,11,73.3
-"North Stonington School District","Non-High Needs",39,38,97.4
-"Norwalk School District","High Needs",439,361,82.2
-"Norwalk School District","Non-High Needs",432,406,94.0
-"Norwich Free Academy District","High Needs",248,197,79.4
-"Norwich Free Academy District","Non-High Needs",389,362,93.1
-"Norwich School District","High Needs",62,"*","*"
-"Norwich School District","Non-High Needs",6,"*","*"
-"Old Saybrook School District","High Needs",33,31,93.9
-"Old Saybrook School District","Non-High Needs",111,110,99.1
-"Oxford School District","High Needs",23,15,65.2
-"Oxford School District","Non-High Needs",123,119,96.7
-"Plainfield School District","High Needs",95,79,83.2
-"Plainfield School District","Non-High Needs",106,102,96.2
-"Plainville School District","High Needs",78,68,87.2
-"Plainville School District","Non-High Needs",126,124,98.4
-"Plymouth School District","High Needs",57,44,77.2
-"Plymouth School District","Non-High Needs",82,80,97.6
-"Portland School District","High Needs",26,21,80.8
-"Portland School District","Non-High Needs",64,63,98.4
-"Putnam School District","High Needs",43,37,86.0
-"Putnam School District","Non-High Needs",26,26,100.0
-"Regional School District 01","High Needs",48,44,91.7
-"Regional School District 01","Non-High Needs",92,89,96.7
-"Regional School District 04","High Needs",34,30,88.2
-"Regional School District 04","Non-High Needs",125,118,94.4
-"Regional School District 05","High Needs",69,65,94.2
-"Regional School District 05","Non-High Needs",365,358,98.1
-"Regional School District 06","High Needs",21,21,100.0
-"Regional School District 06","Non-High Needs",66,62,93.9
-"Regional School District 07","High Needs",49,41,83.7
-"Regional School District 07","Non-High Needs",154,153,99.4
-"Regional School District 08","High Needs",55,45,81.8
-"Regional School District 08","Non-High Needs",241,235,97.5
-"Regional School District 09","High Needs",37,34,91.9
-"Regional School District 09","Non-High Needs",202,201,99.5
-"Regional School District 10","High Needs",33,31,93.9
-"Regional School District 10","Non-High Needs",196,193,98.5
-"Regional School District 11","High Needs",24,23,95.8
-"Regional School District 11","Non-High Needs",19,19,100.0
-"Regional School District 12","High Needs",20,17,85.0
-"Regional School District 12","Non-High Needs",54,47,87.0
-"Regional School District 13","High Needs",28,26,92.9
-"Regional School District 13","Non-High Needs",114,113,99.1
-"Regional School District 14","High Needs",34,31,91.2
-"Regional School District 14","Non-High Needs",162,162,100.0
-"Regional School District 15","High Needs",63,58,92.1
-"Regional School District 15","Non-High Needs",264,258,97.7
-"Regional School District 16","High Needs",54,48,88.9
-"Regional School District 16","Non-High Needs",140,138,98.6
-"Regional School District 17","High Needs",42,36,85.7
-"Regional School District 17","Non-High Needs",147,143,97.3
-"Regional School District 18","High Needs",21,20,95.2
-"Regional School District 18","Non-High Needs",83,82,98.8
-"Regional School District 19","High Needs",87,76,87.4
-"Regional School District 19","Non-High Needs",213,203,95.3
-"Ridgefield School District","High Needs",69,69,100.0
-"Ridgefield School District","Non-High Needs",374,372,99.5
-"Rocky Hill School District","High Needs",45,39,86.7
-"Rocky Hill School District","Non-High Needs",164,160,97.6
-"Seymour School District","High Needs",51,41,80.4
-"Seymour School District","Non-High Needs",102,98,96.1
-"Shelton School District","High Needs",102,86,84.3
-"Shelton School District","Non-High Needs",324,316,97.5
-"Simsbury School District","High Needs",74,68,91.9
-"Simsbury School District","Non-High Needs",333,332,99.7
-"Somers School District","High Needs",21,20,95.2
-"Somers School District","Non-High Needs",120,119,99.2
-"South Windsor School District","High Needs",82,73,89.0
-"South Windsor School District","Non-High Needs",303,299,98.7
-"Southington School District","High Needs",139,127,91.4
-"Southington School District","Non-High Needs",355,349,98.3
-"Stafford School District","High Needs",55,49,89.1
-"Stafford School District","Non-High Needs",85,77,90.6
-"Stamford Academy District","High Needs","*","*","*"
-"Stamford Academy District","Non-High Needs","*","*","*"
-"Stamford School District","High Needs",697,601,86.2
-"Stamford School District","Non-High Needs",477,456,95.6
-"Stonington School District","High Needs",44,39,88.6
-"Stonington School District","Non-High Needs",137,133,97.1
-"Stratford School District","High Needs",279,231,82.8
-"Stratford School District","Non-High Needs",301,290,96.3
-"Suffield School District","High Needs",42,32,76.2
-"Suffield School District","Non-High Needs",164,159,97.0
-"The Bridge Academy District","High Needs",41,33,80.5
-"The Gilbert School District","High Needs",37,35,94.6
-"The Gilbert School District","Non-High Needs",52,49,94.2
-"Thomaston School District","High Needs",39,35,89.7
-"Thomaston School District","Non-High Needs",54,52,96.3
-"Thompson School District","High Needs",37,28,75.7
-"Thompson School District","Non-High Needs",64,62,96.9
-"Tolland School District","High Needs",32,31,96.9
-"Tolland School District","Non-High Needs",199,195,98.0
-"Torrington School District","High Needs",148,108,73.0
-"Torrington School District","Non-High Needs",154,145,94.2
-"Trumbull School District","High Needs",97,89,91.8
-"Trumbull School District","Non-High Needs",445,443,99.6
-"Unified School District #1","High Needs",727,"*","*"
-"Unified School District #1","Non-High Needs",20,"*","*"
-"Unified School District #2","High Needs","*","*","*"
-"Unified School District #2","Non-High Needs","*","*","*"
-"Vernon School District","High Needs",108,83,76.9
-"Vernon School District","Non-High Needs",153,142,92.8
-"Wallingford School District","High Needs",151,118,78.1
-"Wallingford School District","Non-High Needs",388,382,98.5
-"Waterbury School District","High Needs",1089,718,65.9
-"Waterbury School District","Non-High Needs",176,137,77.8
-"Waterford School District","High Needs",68,57,83.8
-"Waterford School District","Non-High Needs",174,170,97.7
-"Watertown School District","High Needs",76,63,82.9
-"Watertown School District","Non-High Needs",157,154,98.1
-"West Hartford School District","High Needs",241,217,90.0
-"West Hartford School District","Non-High Needs",511,504,98.6
-"West Haven School District","High Needs",255,182,71.4
-"West Haven School District","Non-High Needs",130,111,85.4
-"Westbrook School District","High Needs",18,16,88.9
-"Westbrook School District","Non-High Needs",64,62,96.9
-"Weston School District","High Needs",28,28,100.0
-"Weston School District","Non-High Needs",162,162,100.0
-"Westport School District","High Needs",78,74,94.9
-"Westport School District","Non-High Needs",349,347,99.4
-"Wethersfield School District","High Needs",81,69,85.2
-"Wethersfield School District","Non-High Needs",210,203,96.7
-"Wilton School District","High Needs",36,34,94.4
-"Wilton School District","Non-High Needs",276,276,100.0
-"Windham School District","High Needs",134,98,73.1
-"Windham School District","Non-High Needs",48,43,89.6
-"Windsor Locks School District","High Needs",62,56,90.3
-"Windsor Locks School District","Non-High Needs",86,84,97.7
-"Windsor School District","High Needs",128,107,83.6
-"Windsor School District","Non-High Needs",189,181,95.8
-"Wolcott School District","High Needs",79,74,93.7
-"Wolcott School District","Non-High Needs",140,136,97.1
-"Woodstock Academy District","High Needs",52,44,84.6
-"Woodstock Academy District","Non-High Needs",234,230,98.3
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+    
+
+
+<head>
+    <meta charset="UTF-8" />
+    <title>
+    	
+    		
+    		
+    			SAS&reg; Logon Manager
+    		
+    	
+    </title>
+    <link type="text/css" rel="stylesheet" href="themes/default/css/bootstrap.css" />
+    <link type="text/css" rel="stylesheet" href="themes/default/css/sas.css" />
+</head>
+
+
+
+<body id="cas">
+	<div id="page">
+		
+
+<div class="banner row">
+    <div class="about">
+        <ul class="unstyled"><li>
+            <a href="#about-modal" data-toggle="modal">
+                About
+            </a>
+        </li></ul>
+    </div>
+    <div id="about-modal" class="modal hide fade">
+        <div class="modal-header">
+            <a href="#" class="close" data-dismiss="modal">&times;</a>
+            <h3>About</h3>
+        </div>
+        <div class="modal-body">
+            <p>Version: 9.4</p>
+            <h4>Copyright Information</h4>
+            <p align="center">
+Copyright (c) 2002 - 2013 by SAS Institute Inc., Cary, NC, USA<br/>
+All rights reserved.<br/>
+<br/>
+This software is protected by copyright laws and international treaties.<br/>
+<br/>
+U.S. GOVERNMENT RESTRICTED RIGHTS<br/>
+Use, duplication, or disclosure of this software and related<br/>
+documentation by the U.S. government is subject to the<br/>
+Agreement with SAS Institute and the restrictions set forth<br/>
+in FAR 52.227-19, Commercial Computer Software<br/>
+- Restricted Rights (June 1987).
+            </p>
+        </div>
+    </div>
+    <div class="header">
+        <div class="title">
+        	<h1>
+        		
+		    		
+		    		
+		    			Sign In to SAS<sup>&reg;</sup>
+		    		
+    			
+        	</h1>
+       	</div>
+        <div class="logo"><img src="themes/default/images/logo.png" /></div>
+    </div>
+</div>
+
+
+		<div class="content row">
+			
+                <form id="fm1" class="form-stacked" onSubmit="return setSubmitUrl(this);" action="/SASLogon/login;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=8D096E878ACE835660E0F00EB0E69E25.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1?service=http://edsight.ct.gov/SASStoredProcess/j_spring_cas_security_check" method="post">
+				<fieldset>
+					
+					
+					
+                        <legend>Sign In to SAS<sup>&reg;</sup></legend>
+					<div class="clearfix">
+                            <label for="username"><span class="accesskey">U</span>ser ID:</label>
+						
+							
+							
+                                    
+                                    <input id="username" name="username" class="required" tabindex="1" accesskey="u" type="text" value="" size="25" autocomplete="off"/>
+							
+						
+					</div>
+					<div class="clearfix">
+                            <label for="password"><span class="accesskey">P</span>assword:</label>
+						
+                            
+                            <input id="password" name="password" class="required" tabindex="2" accesskey="p" type="password" value="" size="25" autocomplete="off"/>
+					</div>
+				</fieldset>
+				<input type="hidden" name="lt" value="LT-10656-KXtZmbeVVTrpCIUxh6dM9zwQEhd6Af" />
+				<input type="hidden" name="execution" value="e1s1" />
+				<input type="hidden" name="_eventId" value="submit" />
+                    <div class="submitb"><input id="Logon" type="submit" value="Sign In" onClick="this.disabled=true;this.form.submit();" tabindex="3" /></div>
+			</form>
+			
+				<div class="customizations" id="custom-logon-message">
+                  	
+
+
+<p>
+
+</p>
+
+
+ 
+ 
+				</div>
+			
+
+			<div class="copyright">
+				Copyright &copy; 2002 - 2013 by SAS Institute Inc., Cary, NC USA
+			</div>
+		</div>
+	</div>
+	
+<script type="text/javascript" src="/SASLogon/js/jquery.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=8D096E878ACE835660E0F00EB0E69E25.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
+<script type="text/javascript" src="/SASLogon/js/bootstrap-modal.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=8D096E878ACE835660E0F00EB0E69E25.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
+
+	<script type="text/javascript">
+            $("#username").focus();
+            
+            function setSubmitUrl(form)
+            {
+            	var urlHash = decodeURIComponent(window.location.hash);
+            	
+            	if (urlHash && urlHash.indexOf("#") === -1)
+            		urlHash = "#" + urlHash;
+            	
+            	form.action = form.action + urlHash;
+            	return true;
+            }
+    </script>
+</body>
+
+</html>
+
+
 

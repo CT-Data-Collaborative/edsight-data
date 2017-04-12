@@ -1,160 +1,193 @@
+"FTE Staffing Report for 2003-04"
 
-
-
-
-
-
-
-
-
-<!DOCTYPE html>
-
-
-
-
-
-<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
-    
-
-
-<head>
-    <meta charset="UTF-8" />
-    <title>
-    	
-    		
-    		
-    			SAS&reg; Logon Manager
-    		
-    	
-    </title>
-    <link type="text/css" rel="stylesheet" href="themes/default/css/bootstrap.css" />
-    <link type="text/css" rel="stylesheet" href="themes/default/css/sas.css" />
-</head>
-
-
-
-<body id="cas">
-	<div id="page">
-		
-
-<div class="banner row">
-    <div class="about">
-        <ul class="unstyled"><li>
-            <a href="#about-modal" data-toggle="modal">
-                About
-            </a>
-        </li></ul>
-    </div>
-    <div id="about-modal" class="modal hide fade">
-        <div class="modal-header">
-            <a href="#" class="close" data-dismiss="modal">&times;</a>
-            <h3>About</h3>
-        </div>
-        <div class="modal-body">
-            <p>Version: 9.4</p>
-            <h4>Copyright Information</h4>
-            <p align="center">
-Copyright (c) 2002 - 2013 by SAS Institute Inc., Cary, NC, USA<br/>
-All rights reserved.<br/>
-<br/>
-This software is protected by copyright laws and international treaties.<br/>
-<br/>
-U.S. GOVERNMENT RESTRICTED RIGHTS<br/>
-Use, duplication, or disclosure of this software and related<br/>
-documentation by the U.S. government is subject to the<br/>
-Agreement with SAS Institute and the restrictions set forth<br/>
-in FAR 52.227-19, Commercial Computer Software<br/>
-- Restricted Rights (June 1987).
-            </p>
-        </div>
-    </div>
-    <div class="header">
-        <div class="title">
-        	<h1>
-        		
-		    		
-		    		
-		    			Sign In to SAS<sup>&reg;</sup>
-		    		
-    			
-        	</h1>
-       	</div>
-        <div class="logo"><img src="themes/default/images/logo.png" /></div>
-    </div>
-</div>
-
-
-		<div class="content row">
-			
-                <form id="fm1" class="form-stacked" onSubmit="return setSubmitUrl(this);" action="/SASLogon/login;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=3DF7B7D58BEA168D518123CD24476970.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1?service=http://edsight.ct.gov/SASStoredProcess/j_spring_cas_security_check" method="post">
-				<fieldset>
-					
-					
-					
-                        <legend>Sign In to SAS<sup>&reg;</sup></legend>
-					<div class="clearfix">
-                            <label for="username"><span class="accesskey">U</span>ser ID:</label>
-						
-							
-							
-                                    
-                                    <input id="username" name="username" class="required" tabindex="1" accesskey="u" type="text" value="" size="25" autocomplete="off"/>
-							
-						
-					</div>
-					<div class="clearfix">
-                            <label for="password"><span class="accesskey">P</span>assword:</label>
-						
-                            
-                            <input id="password" name="password" class="required" tabindex="2" accesskey="p" type="password" value="" size="25" autocomplete="off"/>
-					</div>
-				</fieldset>
-				<input type="hidden" name="lt" value="LT-9435-cEYngembB39Yi1UDly6gb5fKiCBKG4" />
-				<input type="hidden" name="execution" value="e1s1" />
-				<input type="hidden" name="_eventId" value="submit" />
-                    <div class="submitb"><input id="Logon" type="submit" value="Sign In" onClick="this.disabled=true;this.form.submit();" tabindex="3" /></div>
-			</form>
-			
-				<div class="customizations" id="custom-logon-message">
-                  	
-
-
-<p>
-
-</p>
-
-
- 
- 
-				</div>
-			
-
-			<div class="copyright">
-				Copyright &copy; 2002 - 2013 by SAS Institute Inc., Cary, NC USA
-			</div>
-		</div>
-	</div>
-	
-<script type="text/javascript" src="/SASLogon/js/jquery.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=3DF7B7D58BEA168D518123CD24476970.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-<script type="text/javascript" src="/SASLogon/js/bootstrap-modal.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=3DF7B7D58BEA168D518123CD24476970.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-
-	<script type="text/javascript">
-            $("#username").focus();
-            
-            function setSubmitUrl(form)
-            {
-            	var urlHash = decodeURIComponent(window.location.hash);
-            	
-            	if (urlHash && urlHash.indexOf("#") === -1)
-            		urlHash = "#" + urlHash;
-            	
-            	form.action = form.action + urlHash;
-            	return true;
-            }
-    </script>
-</body>
-
-</html>
-
-
+"District","Assignment Category","Educator Type","FTE Count"
+"Amistad Academy District","Other Staff Providing Non-Instructional Services/Support","Certified/Non-Certified",4.4
+="Andover School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",15.8
+="Ansonia School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",97.5
+="Area Cooperative Educational Services",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",72.1
+="Ashford School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",26.0
+="Avon School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",89.8
+="Barkhamsted School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.6
+="Berlin School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",112.2
+="Bethany School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",21.9
+="Bethel School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",107.8
+="Bloomfield School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",150.4
+="Bolton School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",37.5
+="Bozrah School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",14.5
+="Branford School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",143.5
+="Bridgeport School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",871.8
+="Bristol School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",336.7
+="Brookfield School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",158.9
+="Brooklyn School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",37.4
+="Canaan School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",2.5
+="Canterbury School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",30.4
+="Canton School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",74.2
+="Capitol Region Education Council",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",180.1
+="Chaplin School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.5
+="Cheshire School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",194.4
+="Chester School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.0
+="Clinton School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",77.1
+="Colchester School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",96.2
+="Colebrook School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.7
+="Columbia School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",29.8
+="Common Ground High School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",3.0
+="Connecticut Technical High School System",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",421.4
+="Cooperative Educational Services",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",48.7
+="Cornwall School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",4.8
+="Coventry School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",80.4
+="Cromwell School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",74.0
+="Danbury School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",308.9
+="Darien School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",149.7
+="Deep River School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",14.8
+="Derby School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",51.4
+="East Granby School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",32.5
+="East Haddam School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",66.0
+="East Hampton School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",83.1
+="East Hartford School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",189.5
+="East Haven School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",158.8
+="East Lyme School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",162.1
+="East Windsor School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",62.0
+="Eastern Connecticut Regional Educational Service Center (EASTCONN)",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",105.6
+="Eastford School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.0
+="Easton School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",28.0
+="EdAdvance",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",108.7
+="Ellington School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",97.9
+="Enfield School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",256.9
+="Essex School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",21.7
+="Explorations District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",2.2
+="Fairfield School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",405.3
+="Farmington School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",179.7
+="Franklin School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.1
+="Glastonbury School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",278.0
+="Granby School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",82.5
+="Greenwich School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",444.9
+="Griswold School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",106.5
+="Groton School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",187.0
+="Guilford School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",147.2
+="Hamden School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",307.5
+="Hampton School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.8
+="Hartford School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",887.4
+="Hartland School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.5
+="Highville Mustard Seed Charter School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.0
+="Integrated Day Charter School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.0
+="Interdistrict School for Arts and Comm District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",1.9
+="Jumoke Academy District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.0
+="Kent School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.4
+="Killingly School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",127.0
+="Learn",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",121.3
+="Lebanon School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",59.0
+="Ledyard School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",94.2
+="Lisbon School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",23.3
+="Litchfield School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",48.7
+="Madison School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",134.3
+="Manchester School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",295.2
+="Mansfield School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",62.1
+="Marlborough School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",24.4
+="Meriden School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",330.8
+="Middletown School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",228.1
+="Milford School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",202.1
+="Monroe School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",168.3
+="Montville School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",134.6
+="Naugatuck School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",120.1
+="New Beginnings Inc Family Academy District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.8
+="New Britain School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",209.2
+="New Canaan School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",161.9
+="New Fairfield School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",93.0
+="New Hartford School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",25.1
+="New Haven School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",954.3
+="New London School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",73.4
+="New Milford School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",239.0
+="Newington School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",134.9
+="Newtown School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",220.2
+="Norfolk School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.0
+="North Branford School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",107.4
+="North Canaan School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.5
+="North Haven School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",114.5
+="North Stonington School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",46.2
+="Norwalk School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",349.8
+="Norwich Free Academy District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",71.5
+="Norwich School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",255.9
+="Odyssey Community School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",4.4
+="Office of Early Childhood (OEC)",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",2.5
+="Old Saybrook School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",47.1
+="Orange School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",60.5
+="Oxford School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",40.1
+="Plainfield School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",126.2
+="Plainville School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",124.8
+="Plymouth School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",81.5
+="Pomfret School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",22.7
+="Portland School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",62.3
+="Preston School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",31.2
+="Putnam School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",70.4
+="Redding School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",111.6
+="Regional School District 01",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",50.4
+="Regional School District 04",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",51.9
+="Regional School District 05",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",90.4
+="Regional School District 06",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",51.4
+="Regional School District 07",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",106.0
+="Regional School District 08",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",70.3
+="Regional School District 09",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",25.3
+="Regional School District 10",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",94.8
+="Regional School District 11",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",27.5
+="Regional School District 12",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",40.5
+="Regional School District 13",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",83.0
+="Regional School District 14",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",77.9
+="Regional School District 15",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",180.2
+="Regional School District 16",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",121.5
+="Regional School District 17",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",103.5
+="Regional School District 18",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",73.2
+="Regional School District 19",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",43.3
+="Ridgefield School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",196.5
+="Rocky Hill School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",80.4
+="Salem School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",26.4
+="Salisbury School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.0
+="Scotland School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.5
+="Seymour School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",111.6
+="Sharon School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.3
+="Shelton School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",222.3
+="Sherman School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",18.5
+="Side By Side Charter School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.3
+="Simsbury School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",163.1
+="Somers School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",56.9
+="South Windsor School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",199.3
+="Southington School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",237.3
+="Sprague School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",18.3
+="Stafford School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",114.9
+="Stamford School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",317.5
+="Sterling School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",24.3
+="Stonington School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",96.5
+="Stratford School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",160.3
+="Suffield School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",75.3
+="The Bridge Academy District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",4.8
+="The Gilbert School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",20.0
+="Thomaston School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",64.5
+="Thompson School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",56.6
+="Tolland School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",110.3
+="Torrington School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",182.0
+="Trailblazers Academy District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",0.0
+="Trumbull School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",259.0
+="Unified School District #2",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.0
+="Union School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",3.5
+="Vernon School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",151.2
+="Voluntown School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",24.2
+="Wallingford School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",299.7
+="Waterbury School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",663.2
+="Waterford School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",162.3
+="Watertown School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",140.3
+="West Hartford School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",342.8
+="West Haven School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",279.9
+="Westbrook School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",41.5
+="Weston School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",82.3
+="Westport School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",282.3
+="Wethersfield School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",143.0
+="Willington School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",38.9
+="Wilton School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",166.9
+="Winchester School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",36.0
+="Windham School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",174.2
+="Windsor Locks School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",77.5
+="Windsor School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",183.7
+="Wolcott School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",129.0
+="Woodbridge School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",26.0
+="Woodstock Academy District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",23.0
+="Woodstock School District",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",34.2
 
