@@ -1,121 +1,279 @@
+"Four-Year Graduation Rates, 2013-14"
+"All Districts, Special Education Status"
 
-
-
-
-
-<!DOCTYPE html>
-
-
-
-
-
-<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
-    
-    
-
-<head>
-    <meta charset="UTF-8" />
-    <title>
-    	
-    		
-    		
-    			SAS&reg; Logon Manager
-    		
-    	
-    </title>
-    <link type="text/css" rel="stylesheet" href="themes/default/css/bootstrap.css" />
-    <link type="text/css" rel="stylesheet" href="themes/default/css/sas.css" />
-</head>
-
-
-
-    <body id="cas">
-        <div id="page">
-            
-
-<div class="banner row">
-    <div class="about">
-        <ul class="unstyled"><li>
-            <a href="#about-modal" data-toggle="modal">
-                About
-            </a>
-        </li></ul>
-    </div>
-    <div id="about-modal" class="modal hide fade">
-        <div class="modal-header">
-            <a href="#" class="close" data-dismiss="modal">&times;</a>
-            <h3>About</h3>
-        </div>
-        <div class="modal-body">
-            <p>Version: 9.4</p>
-            <h4>Copyright Information</h4>
-            <p align="center">
-Copyright (c) 2002 - 2013 by SAS Institute Inc., Cary, NC, USA<br/>
-All rights reserved.<br/>
-<br/>
-This software is protected by copyright laws and international treaties.<br/>
-<br/>
-U.S. GOVERNMENT RESTRICTED RIGHTS<br/>
-Use, duplication, or disclosure of this software and related<br/>
-documentation by the U.S. government is subject to the<br/>
-Agreement with SAS Institute and the restrictions set forth<br/>
-in FAR 52.227-19, Commercial Computer Software<br/>
-- Restricted Rights (June 1987).
-            </p>
-        </div>
-    </div>
-    <div class="header">
-        <div class="title">
-        	<h1>
-        		
-		    		
-		    		
-		    			Sign In to SAS<sup>&reg;</sup>
-		    		
-    			
-        	</h1>
-       	</div>
-        <div class="logo"><img src="themes/default/images/logo.png" /></div>
-    </div>
-</div>
-
-
-            <div class="content row">
-                <div id="msg" class="alert-message message-box success">
-                	
-                		
-                			<h2>Public access has been denied.</h2>
-		                    <p>Public users are not allowed to access this SAS application. The current user has been signed out.</p>
-                		
-                		
-                		
-                    
-                    
-           				<p>For increased security, close your browser.</p>
-           			
-                </div>
-                
-	            	<div class="customizations" id="custom-logoff-message">
-	               		
-
-
-<p>
-</p>
-
-
- 
-
-	                </div>
-	            
-	            
-            </div>
-        </div>
-        
-<script type="text/javascript" src="/SASLogon/js/jquery.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=5434264885FEE36CEE4AE505065F8008.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-<script type="text/javascript" src="/SASLogon/js/bootstrap-modal.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=5434264885FEE36CEE4AE505065F8008.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-
-    </body>
-
-</html>
-
+"",,,,"Graduates",
+"District","District Code","Special Education Status","Four-Year Cohort Count","Graduation Count","Graduation Rate"
+"Amistad Academy District","=""2790013""","Non-Special Education","*","*","*"
+"Amistad Academy District","=""2790013""","Special Education","*","*","*"
+"Ansonia School District","=""0020011""","Non-Special Education",140,111,79.3
+"Ansonia School District","=""0020011""","Special Education",17,9,"*"
+"Avon School District","=""0040011""","Non-Special Education",244,"*","*"
+"Avon School District","=""0040011""","Special Education",28,"*","*"
+"Berlin School District","=""0070011""","Non-Special Education",202,198,98.0
+"Berlin School District","=""0070011""","Special Education",33,25,75.8
+"Bethel School District","=""0090011""","Non-Special Education",213,201,94.4
+"Bethel School District","=""0090011""","Special Education",31,25,80.6
+"Bloomfield School District","=""0110011""","Non-Special Education",148,136,91.9
+"Bloomfield School District","=""0110011""","Special Education",21,12,57.1
+"Bolton School District","=""0120011""","Non-Special Education",94,"*","*"
+"Bolton School District","=""0120011""","Special Education",9,"*","*"
+"Branford School District","=""0140011""","Non-Special Education",253,236,93.3
+"Branford School District","=""0140011""","Special Education",46,36,78.3
+"Bridgeport School District","=""0150011""","Non-Special Education",1075,805,74.9
+"Bridgeport School District","=""0150011""","Special Education",172,87,50.6
+"Bristol School District","=""0170011""","Non-Special Education",577,491,85.1
+"Bristol School District","=""0170011""","Special Education",122,81,66.4
+"Brookfield School District","=""0180011""","Non-Special Education",210,"*","*"
+"Brookfield School District","=""0180011""","Special Education",22,"*","*"
+"Canton School District","=""0230011""","Non-Special Education",118,115,97.5
+"Canton School District","=""0230011""","Special Education",18,13,"*"
+"Capitol Region Education Council","=""2410014""","Non-Special Education",293,262,89.4
+"Capitol Region Education Council","=""2410014""","Special Education",24,19,79.2
+"Cheshire School District","=""0250011""","Non-Special Education",334,332,99.4
+"Cheshire School District","=""0250011""","Special Education",55,39,70.9
+"Clinton School District","=""0270011""","Non-Special Education",120,115,95.8
+"Clinton School District","=""0270011""","Special Education",13,8,"*"
+"Colchester School District","=""0280011""","Non-Special Education",220,"*","*"
+"Colchester School District","=""0280011""","Special Education",28,"*","*"
+"Common Ground High School District","=""2680013""","Non-Special Education","*","*","*"
+"Common Ground High School District","=""2680013""","Special Education","*","*","*"
+"Connecticut Technical High School System","=""9000016""","Non-Special Education",2242,2157,96.2
+"Connecticut Technical High School System","=""9000016""","Special Education",181,172,95.0
+"Coventry School District","=""0320011""","Non-Special Education",110,"*","*"
+"Coventry School District","=""0320011""","Special Education",23,"*","*"
+"Cromwell School District","=""0330011""","Non-Special Education",123,"*","*"
+"Cromwell School District","=""0330011""","Special Education",11,"*","*"
+"Danbury School District","=""0340011""","Non-Special Education",675,554,82.1
+"Danbury School District","=""0340011""","Special Education",86,40,46.5
+"Darien School District","=""0350011""","Non-Special Education",278,275,98.9
+"Darien School District","=""0350011""","Special Education",58,50,86.2
+"Department of Mental Health and Addiction Services","=""3370015""","Special Education","*","*","*"
+"Derby School District","=""0370011""","Non-Special Education",87,74,85.1
+"Derby School District","=""0370011""","Special Education",15,9,"*"
+"East Granby School District","=""0400011""","Non-Special Education","*","*","*"
+"East Granby School District","=""0400011""","Special Education","*","*","*"
+"East Haddam School District","=""0410011""","Non-Special Education",87,85,97.7
+"East Haddam School District","=""0410011""","Special Education",18,13,"*"
+"East Hampton School District","=""0420011""","Non-Special Education",114,"*","*"
+"East Hampton School District","=""0420011""","Special Education",7,"*","*"
+"East Hartford School District","=""0430011""","Non-Special Education",419,341,81.4
+"East Hartford School District","=""0430011""","Special Education",88,56,63.6
+"East Haven School District","=""0440011""","Non-Special Education",223,188,84.3
+"East Haven School District","=""0440011""","Special Education",37,22,59.5
+"East Lyme School District","=""0450011""","Non-Special Education",237,232,97.9
+"East Lyme School District","=""0450011""","Special Education",37,24,64.9
+"East Windsor School District","=""0470011""","Non-Special Education",92,83,90.2
+"East Windsor School District","=""0470011""","Special Education",17,14,"*"
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Non-Special Education",57,"*","*"
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Special Education",9,"*","*"
+"Ellington School District","=""0480011""","Non-Special Education",172,167,97.1
+"Ellington School District","=""0480011""","Special Education",22,18,81.8
+"Elm City College Preparatory School District","=""2890013""","Non-Special Education","*","*","*"
+"Elm City College Preparatory School District","=""2890013""","Special Education","*","*","*"
+"Enfield School District","=""0490011""","Non-Special Education",364,324,89.0
+"Enfield School District","=""0490011""","Special Education",60,42,70.0
+"Explorations District","=""2720013""","Non-Special Education",18,"*","*"
+"Explorations District","=""2720013""","Special Education",9,"*","*"
+"Fairfield School District","=""0510011""","Non-Special Education",647,627,96.9
+"Fairfield School District","=""0510011""","Special Education",81,56,69.1
+"Farmington School District","=""0520011""","Non-Special Education",300,"*","*"
+"Farmington School District","=""0520011""","Special Education",44,"*","*"
+"Glastonbury School District","=""0540011""","Non-Special Education",516,510,98.8
+"Glastonbury School District","=""0540011""","Special Education",69,52,75.4
+"Granby School District","=""0560011""","Non-Special Education",180,176,97.8
+"Granby School District","=""0560011""","Special Education",25,18,72.0
+"Greenwich School District","=""0570011""","Non-Special Education",585,564,96.4
+"Greenwich School District","=""0570011""","Special Education",85,73,85.9
+"Griswold School District","=""0580011""","Non-Special Education",140,126,90.0
+"Griswold School District","=""0580011""","Special Education",30,18,60.0
+"Groton School District","=""0590011""","Non-Special Education",275,240,87.3
+"Groton School District","=""0590011""","Special Education",42,29,69.0
+"Guilford School District","=""0600011""","Non-Special Education",253,246,97.2
+"Guilford School District","=""0600011""","Special Education",33,19,57.6
+"Hamden School District","=""0620011""","Non-Special Education",394,370,93.9
+"Hamden School District","=""0620011""","Special Education",64,38,59.4
+"Hartford School District","=""0640011""","Non-Special Education",1129,854,75.6
+"Hartford School District","=""0640011""","Special Education",241,126,52.3
+"Killingly School District","=""0690011""","Non-Special Education",185,154,83.2
+"Killingly School District","=""0690011""","Special Education",33,22,66.7
+"Learn","=""2450014""","Non-Special Education",139,130,93.5
+"Learn","=""2450014""","Special Education",14,11,"*"
+"Lebanon School District","=""0710011""","Non-Special Education",95,91,95.8
+"Lebanon School District","=""0710011""","Special Education",10,7,"*"
+"Ledyard School District","=""0720011""","Non-Special Education",204,196,96.1
+"Ledyard School District","=""0720011""","Special Education",43,28,65.1
+"Lisbon School District","=""0730011""","Non-Special Education","*","*","*"
+"Lisbon School District","=""0730011""","Special Education","*","*","*"
+"Litchfield School District","=""0740011""","Non-Special Education","*","*","*"
+"Litchfield School District","=""0740011""","Special Education","*","*","*"
+"Madison School District","=""0760011""","Non-Special Education",283,278,98.2
+"Madison School District","=""0760011""","Special Education",37,32,86.5
+"Manchester School District","=""0770011""","Non-Special Education",377,331,87.8
+"Manchester School District","=""0770011""","Special Education",77,42,54.5
+"Meriden School District","=""0800011""","Non-Special Education",509,423,83.1
+"Meriden School District","=""0800011""","Special Education",106,45,42.5
+"Middletown School District","=""0830011""","Non-Special Education",280,250,89.3
+"Middletown School District","=""0830011""","Special Education",54,26,48.1
+"Milford School District","=""0840011""","Non-Special Education",433,408,94.2
+"Milford School District","=""0840011""","Special Education",75,60,80.0
+"Monroe School District","=""0850011""","Non-Special Education",265,261,98.5
+"Monroe School District","=""0850011""","Special Education",35,28,80.0
+"Montville School District","=""0860011""","Non-Special Education",173,155,89.6
+"Montville School District","=""0860011""","Special Education",20,16,80.0
+"Naugatuck School District","=""0880011""","Non-Special Education",284,237,83.5
+"Naugatuck School District","=""0880011""","Special Education",49,36,73.5
+"New Britain School District","=""0890011""","Non-Special Education",569,380,66.8
+"New Britain School District","=""0890011""","Special Education",87,37,42.5
+"New Canaan School District","=""0900011""","Non-Special Education",277,"*","*"
+"New Canaan School District","=""0900011""","Special Education",35,"*","*"
+"New Fairfield School District","=""0910011""","Non-Special Education",213,209,98.1
+"New Fairfield School District","=""0910011""","Special Education",26,22,84.6
+"New Haven School District","=""0930011""","Non-Special Education",1140,898,78.8
+"New Haven School District","=""0930011""","Special Education",169,90,53.3
+"New London School District","=""0950011""","Non-Special Education",190,144,75.8
+"New London School District","=""0950011""","Special Education",38,18,47.4
+"New Milford School District","=""0960011""","Non-Special Education",345,323,93.6
+"New Milford School District","=""0960011""","Special Education",38,21,55.3
+"Newington School District","=""0940011""","Non-Special Education",329,317,96.4
+"Newington School District","=""0940011""","Special Education",35,21,60.0
+"Newtown School District","=""0970011""","Non-Special Education",379,"*","*"
+"Newtown School District","=""0970011""","Special Education",44,"*","*"
+"North Branford School District","=""0990011""","Non-Special Education",120,110,91.7
+"North Branford School District","=""0990011""","Special Education",30,26,86.7
+"North Haven School District","=""1010011""","Non-Special Education",285,266,93.3
+"North Haven School District","=""1010011""","Special Education",35,17,48.6
+"North Stonington School District","=""1020011""","Non-Special Education",49,"*","*"
+"North Stonington School District","=""1020011""","Special Education",7,"*","*"
+"Norwalk School District","=""1030011""","Non-Special Education",719,617,85.8
+"Norwalk School District","=""1030011""","Special Education",103,72,69.9
+"Norwich Free Academy District","=""9010022""","Non-Special Education",538,488,90.7
+"Norwich Free Academy District","=""9010022""","Special Education",75,45,60.0
+"Old Saybrook School District","=""1060011""","Non-Special Education",123,117,95.1
+"Old Saybrook School District","=""1060011""","Special Education",14,9,"*"
+"Oxford School District","=""1080011""","Non-Special Education",165,162,98.2
+"Oxford School District","=""1080011""","Special Education",9,6,"*"
+"Plainfield School District","=""1090011""","Non-Special Education",149,135,90.6
+"Plainfield School District","=""1090011""","Special Education",25,10,40.0
+"Plainville School District","=""1100011""","Non-Special Education",151,141,93.4
+"Plainville School District","=""1100011""","Special Education",25,15,60.0
+"Plymouth School District","=""1110011""","Non-Special Education",117,109,93.2
+"Plymouth School District","=""1110011""","Special Education",22,12,54.5
+"Portland School District","=""1130011""","Non-Special Education",101,96,95.0
+"Portland School District","=""1130011""","Special Education",11,8,"*"
+"Putnam School District","=""1160011""","Non-Special Education",52,46,88.5
+"Putnam School District","=""1160011""","Special Education",14,10,"*"
+"Regional School District 01","=""2010012""","Non-Special Education",103,93,90.3
+"Regional School District 01","=""2010012""","Special Education",18,15,"*"
+"Regional School District 04","=""2040012""","Non-Special Education",117,"*","*"
+"Regional School District 04","=""2040012""","Special Education",19,"*","*"
+"Regional School District 05","=""2050012""","Non-Special Education",363,358,98.6
+"Regional School District 05","=""2050012""","Special Education",57,46,80.7
+"Regional School District 06","=""2060012""","Non-Special Education",76,"*","*"
+"Regional School District 06","=""2060012""","Special Education",17,"*","*"
+"Regional School District 07","=""2070012""","Non-Special Education",186,178,95.7
+"Regional School District 07","=""2070012""","Special Education",25,17,68.0
+"Regional School District 08","=""2080012""","Non-Special Education",250,240,96.0
+"Regional School District 08","=""2080012""","Special Education",47,36,76.6
+"Regional School District 09","=""2090012""","Non-Special Education",218,"*","*"
+"Regional School District 09","=""2090012""","Special Education",34,"*","*"
+"Regional School District 10","=""2100012""","Non-Special Education",186,181,97.3
+"Regional School District 10","=""2100012""","Special Education",32,25,78.1
+"Regional School District 11","=""2110012""","Non-Special Education","*","*","*"
+"Regional School District 11","=""2110012""","Special Education","*","*","*"
+"Regional School District 12","=""2120012""","Non-Special Education",63,"*","*"
+"Regional School District 12","=""2120012""","Special Education",18,"*","*"
+"Regional School District 13","=""2130012""","Non-Special Education",109,"*","*"
+"Regional School District 13","=""2130012""","Special Education",25,"*","*"
+"Regional School District 14","=""2140012""","Non-Special Education",187,"*","*"
+"Regional School District 14","=""2140012""","Special Education",24,"*","*"
+"Regional School District 15","=""2150012""","Non-Special Education",283,279,98.6
+"Regional School District 15","=""2150012""","Special Education",46,39,84.8
+"Regional School District 16","=""2160012""","Non-Special Education",158,154,97.5
+"Regional School District 16","=""2160012""","Special Education",23,14,60.9
+"Regional School District 17","=""2170012""","Non-Special Education",124,"*","*"
+"Regional School District 17","=""2170012""","Special Education",29,"*","*"
+"Regional School District 18","=""2180012""","Non-Special Education",100,"*","*"
+"Regional School District 18","=""2180012""","Special Education",8,"*","*"
+"Regional School District 19","=""2190012""","Non-Special Education",248,239,96.4
+"Regional School District 19","=""2190012""","Special Education",45,34,75.6
+"Ridgefield School District","=""1180011""","Non-Special Education",418,412,98.6
+"Ridgefield School District","=""1180011""","Special Education",41,36,87.8
+"Rocky Hill School District","=""1190011""","Non-Special Education",168,155,92.3
+"Rocky Hill School District","=""1190011""","Special Education",15,13,"*"
+"Seymour School District","=""1240011""","Non-Special Education",123,112,91.1
+"Seymour School District","=""1240011""","Special Education",15,8,"*"
+"Shelton School District","=""1260011""","Non-Special Education",336,320,95.2
+"Shelton School District","=""1260011""","Special Education",33,17,51.5
+"Simsbury School District","=""1280011""","Non-Special Education",346,340,98.3
+"Simsbury School District","=""1280011""","Special Education",54,38,70.4
+"Somers School District","=""1290011""","Non-Special Education",115,"*","*"
+"Somers School District","=""1290011""","Special Education",16,"*","*"
+"South Windsor School District","=""1320011""","Non-Special Education",292,286,97.9
+"South Windsor School District","=""1320011""","Special Education",56,40,71.4
+"Southington School District","=""1310011""","Non-Special Education",440,429,97.5
+"Southington School District","=""1310011""","Special Education",72,49,68.1
+"Stafford School District","=""1340011""","Non-Special Education",125,119,95.2
+"Stafford School District","=""1340011""","Special Education",17,13,"*"
+"Stamford Academy District","=""2820013""","Non-Special Education",47,"*","*"
+"Stamford Academy District","=""2820013""","Special Education",10,"*","*"
+"Stamford School District","=""1350011""","Non-Special Education",1050,961,91.5
+"Stamford School District","=""1350011""","Special Education",150,106,70.7
+"Stonington School District","=""1370011""","Non-Special Education",161,"*","*"
+"Stonington School District","=""1370011""","Special Education",16,"*","*"
+"Stratford School District","=""1380011""","Non-Special Education",582,549,94.3
+"Stratford School District","=""1380011""","Special Education",64,45,70.3
+"Suffield School District","=""1390011""","Non-Special Education",188,183,97.3
+"Suffield School District","=""1390011""","Special Education",26,21,80.8
+"The Bridge Academy District","=""2690013""","Non-Special Education","*","*","*"
+"The Bridge Academy District","=""2690013""","Special Education","*","*","*"
+"The Gilbert School District","=""9020022""","Non-Special Education",79,72,91.1
+"The Gilbert School District","=""9020022""","Special Education",11,7,"*"
+"Thomaston School District","=""1400011""","Non-Special Education",60,"*","*"
+"Thomaston School District","=""1400011""","Special Education",12,"*","*"
+"Thompson School District","=""1410011""","Non-Special Education",76,70,92.1
+"Thompson School District","=""1410011""","Special Education",10,8,"*"
+"Tolland School District","=""1420011""","Non-Special Education",204,193,94.6
+"Tolland School District","=""1420011""","Special Education",25,16,64.0
+"Torrington School District","=""1430011""","Non-Special Education",231,204,88.3
+"Torrington School District","=""1430011""","Special Education",41,24,58.5
+"Trumbull School District","=""1440011""","Non-Special Education",500,491,98.2
+"Trumbull School District","=""1440011""","Special Education",55,42,76.4
+"Unified School District #1","=""3360015""","Non-Special Education",240,"*","*"
+"Unified School District #1","=""3360015""","Special Education",87,0,0.0
+"Unified School District #2","=""3470015""","Non-Special Education",30,"*","*"
+"Unified School District #2","=""3470015""","Special Education",35,"*","*"
+"Vernon School District","=""1460011""","Non-Special Education",257,224,87.2
+"Vernon School District","=""1460011""","Special Education",42,22,52.4
+"Wallingford School District","=""1480011""","Non-Special Education",418,395,94.5
+"Wallingford School District","=""1480011""","Special Education",72,53,73.6
+"Waterbury School District","=""1510011""","Non-Special Education",1114,809,72.6
+"Waterbury School District","=""1510011""","Special Education",236,107,45.3
+"Waterford School District","=""1520011""","Non-Special Education",180,172,95.6
+"Waterford School District","=""1520011""","Special Education",23,15,65.2
+"Watertown School District","=""1530011""","Non-Special Education",204,195,95.6
+"Watertown School District","=""1530011""","Special Education",26,16,61.5
+"West Hartford School District","=""1550011""","Non-Special Education",649,635,97.8
+"West Hartford School District","=""1550011""","Special Education",92,62,67.4
+"West Haven School District","=""1560011""","Non-Special Education",375,291,77.6
+"West Haven School District","=""1560011""","Special Education",49,21,42.9
+"Westbrook School District","=""1540011""","Non-Special Education","*","*","*"
+"Westbrook School District","=""1540011""","Special Education","*","*","*"
+"Weston School District","=""1570011""","Non-Special Education",162,"*","*"
+"Weston School District","=""1570011""","Special Education",18,"*","*"
+"Westport School District","=""1580011""","Non-Special Education",386,"*","*"
+"Westport School District","=""1580011""","Special Education",66,"*","*"
+"Wethersfield School District","=""1590011""","Non-Special Education",278,265,95.3
+"Wethersfield School District","=""1590011""","Special Education",29,17,58.6
+"Wilton School District","=""1610011""","Non-Special Education",260,"*","*"
+"Wilton School District","=""1610011""","Special Education",41,"*","*"
+"Windham School District","=""1630011""","Non-Special Education",154,121,78.6
+"Windham School District","=""1630011""","Special Education",29,13,44.8
+"Windsor Locks School District","=""1650011""","Non-Special Education",126,"*","*"
+"Windsor Locks School District","=""1650011""","Special Education",12,"*","*"
+"Windsor School District","=""1640011""","Non-Special Education",253,236,93.3
+"Windsor School District","=""1640011""","Special Education",45,30,66.7
+"Wolcott School District","=""1660011""","Non-Special Education",225,219,97.3
+"Wolcott School District","=""1660011""","Special Education",20,14,70.0
+"Woodstock Academy District","=""9030022""","Non-Special Education",255,247,96.9
+"Woodstock Academy District","=""9030022""","Special Education",23,18,78.3
 

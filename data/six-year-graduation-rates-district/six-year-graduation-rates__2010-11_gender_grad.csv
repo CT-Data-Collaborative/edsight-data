@@ -1,160 +1,276 @@
+"Six-Year Graduation Rates, 2010-11"
+"All Districts, Gender"
 
-
-
-
-
-
-
-
-
-<!DOCTYPE html>
-
-
-
-
-
-<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
-    
-
-
-<head>
-    <meta charset="UTF-8" />
-    <title>
-    	
-    		
-    		
-    			SAS&reg; Logon Manager
-    		
-    	
-    </title>
-    <link type="text/css" rel="stylesheet" href="themes/default/css/bootstrap.css" />
-    <link type="text/css" rel="stylesheet" href="themes/default/css/sas.css" />
-</head>
-
-
-
-<body id="cas">
-	<div id="page">
-		
-
-<div class="banner row">
-    <div class="about">
-        <ul class="unstyled"><li>
-            <a href="#about-modal" data-toggle="modal">
-                About
-            </a>
-        </li></ul>
-    </div>
-    <div id="about-modal" class="modal hide fade">
-        <div class="modal-header">
-            <a href="#" class="close" data-dismiss="modal">&times;</a>
-            <h3>About</h3>
-        </div>
-        <div class="modal-body">
-            <p>Version: 9.4</p>
-            <h4>Copyright Information</h4>
-            <p align="center">
-Copyright (c) 2002 - 2013 by SAS Institute Inc., Cary, NC, USA<br/>
-All rights reserved.<br/>
-<br/>
-This software is protected by copyright laws and international treaties.<br/>
-<br/>
-U.S. GOVERNMENT RESTRICTED RIGHTS<br/>
-Use, duplication, or disclosure of this software and related<br/>
-documentation by the U.S. government is subject to the<br/>
-Agreement with SAS Institute and the restrictions set forth<br/>
-in FAR 52.227-19, Commercial Computer Software<br/>
-- Restricted Rights (June 1987).
-            </p>
-        </div>
-    </div>
-    <div class="header">
-        <div class="title">
-        	<h1>
-        		
-		    		
-		    		
-		    			Sign In to SAS<sup>&reg;</sup>
-		    		
-    			
-        	</h1>
-       	</div>
-        <div class="logo"><img src="themes/default/images/logo.png" /></div>
-    </div>
-</div>
-
-
-		<div class="content row">
-			
-                <form id="fm1" class="form-stacked" onSubmit="return setSubmitUrl(this);" action="/SASLogon/login;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=F6C964E3BD2D9F2762CEF1EE11B7428C.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1?service=http://edsight.ct.gov/SASStoredProcess/j_spring_cas_security_check" method="post">
-				<fieldset>
-					
-					
-					
-                        <legend>Sign In to SAS<sup>&reg;</sup></legend>
-					<div class="clearfix">
-                            <label for="username"><span class="accesskey">U</span>ser ID:</label>
-						
-							
-							
-                                    
-                                    <input id="username" name="username" class="required" tabindex="1" accesskey="u" type="text" value="" size="25" autocomplete="off"/>
-							
-						
-					</div>
-					<div class="clearfix">
-                            <label for="password"><span class="accesskey">P</span>assword:</label>
-						
-                            
-                            <input id="password" name="password" class="required" tabindex="2" accesskey="p" type="password" value="" size="25" autocomplete="off"/>
-					</div>
-				</fieldset>
-				<input type="hidden" name="lt" value="LT-10684-diIifOzjaNijfrwUiDYeVErnH65nCU" />
-				<input type="hidden" name="execution" value="e1s1" />
-				<input type="hidden" name="_eventId" value="submit" />
-                    <div class="submitb"><input id="Logon" type="submit" value="Sign In" onClick="this.disabled=true;this.form.submit();" tabindex="3" /></div>
-			</form>
-			
-				<div class="customizations" id="custom-logon-message">
-                  	
-
-
-<p>
-
-</p>
-
-
- 
- 
-				</div>
-			
-
-			<div class="copyright">
-				Copyright &copy; 2002 - 2013 by SAS Institute Inc., Cary, NC USA
-			</div>
-		</div>
-	</div>
-	
-<script type="text/javascript" src="/SASLogon/js/jquery.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=F6C964E3BD2D9F2762CEF1EE11B7428C.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-<script type="text/javascript" src="/SASLogon/js/bootstrap-modal.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=F6C964E3BD2D9F2762CEF1EE11B7428C.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-
-	<script type="text/javascript">
-            $("#username").focus();
-            
-            function setSubmitUrl(form)
-            {
-            	var urlHash = decodeURIComponent(window.location.hash);
-            	
-            	if (urlHash && urlHash.indexOf("#") === -1)
-            		urlHash = "#" + urlHash;
-            	
-            	form.action = form.action + urlHash;
-            	return true;
-            }
-    </script>
-</body>
-
-</html>
-
-
+"",,,,"Graduates",
+"District","District Code","Gender","Six-Year Cohort Count","Graduation Count","Graduation Rate"
+"Amistad Academy District","=""2790013""","Female",16,"*","*"
+"Amistad Academy District","=""2790013""","Male",10,"*","*"
+"Ansonia School District","=""0020011""","Female",94,73,77.7
+"Ansonia School District","=""0020011""","Male",93,73,78.5
+"Avon School District","=""0040011""","Female",136,"*","*"
+"Avon School District","=""0040011""","Male",119,"*","*"
+"Berlin School District","=""0070011""","Female",126,120,95.2
+"Berlin School District","=""0070011""","Male",136,129,94.9
+"Bethel School District","=""0090011""","Female",134,"*","*"
+"Bethel School District","=""0090011""","Male",116,"*","*"
+"Bloomfield School District","=""0110011""","Female",90,78,86.7
+"Bloomfield School District","=""0110011""","Male",93,76,81.7
+"Bolton School District","=""0120011""","Female",48,"*","*"
+"Bolton School District","=""0120011""","Male",25,"*","*"
+"Branford School District","=""0140011""","Female",135,130,96.3
+"Branford School District","=""0140011""","Male",149,140,94.0
+"Bridgeport School District","=""0150011""","Female",691,497,71.9
+"Bridgeport School District","=""0150011""","Male",714,439,61.5
+"Bristol School District","=""0170011""","Female",357,305,85.4
+"Bristol School District","=""0170011""","Male",347,283,81.6
+"Brookfield School District","=""0180011""","Female",120,"*","*"
+"Brookfield School District","=""0180011""","Male",144,"*","*"
+"Canton School District","=""0230011""","Female",56,"*","*"
+"Canton School District","=""0230011""","Male",64,"*","*"
+"Capitol Region Education Council","=""2410014""","Female",174,153,87.9
+"Capitol Region Education Council","=""2410014""","Male",130,112,86.2
+"Cheshire School District","=""0250011""","Female",164,"*","*"
+"Cheshire School District","=""0250011""","Male",211,"*","*"
+"Clinton School District","=""0270011""","Female",78,"*","*"
+"Clinton School District","=""0270011""","Male",67,"*","*"
+"Colchester School District","=""0280011""","Female",122,"*","*"
+"Colchester School District","=""0280011""","Male",128,"*","*"
+"Common Ground High School District","=""2680013""","Female",21,"*","*"
+"Common Ground High School District","=""2680013""","Male",17,"*","*"
+"Connecticut Technical High School System","=""9000016""","Female",833,776,93.2
+"Connecticut Technical High School System","=""9000016""","Male",1497,1422,95.0
+"Coventry School District","=""0320011""","Female",86,80,93.0
+"Coventry School District","=""0320011""","Male",67,60,89.6
+"Cromwell School District","=""0330011""","Female",94,90,95.7
+"Cromwell School District","=""0330011""","Male",76,71,93.4
+"Danbury School District","=""0340011""","Female",365,313,85.8
+"Danbury School District","=""0340011""","Male",391,318,81.3
+"Darien School District","=""0350011""","Female",161,"*","*"
+"Darien School District","=""0350011""","Male",166,"*","*"
+"Derby School District","=""0370011""","Female",56,49,87.5
+"Derby School District","=""0370011""","Male",66,51,77.3
+"East Granby School District","=""0400011""","Female",39,"*","*"
+"East Granby School District","=""0400011""","Male",37,"*","*"
+"East Haddam School District","=""0410011""","Female",47,"*","*"
+"East Haddam School District","=""0410011""","Male",50,"*","*"
+"East Hampton School District","=""0420011""","Female",66,62,93.9
+"East Hampton School District","=""0420011""","Male",73,65,89.0
+"East Hartford School District","=""0430011""","Female",303,266,87.8
+"East Hartford School District","=""0430011""","Male",291,244,83.8
+"East Haven School District","=""0440011""","Female",152,137,90.1
+"East Haven School District","=""0440011""","Male",149,123,82.6
+"East Lyme School District","=""0450011""","Female",163,"*","*"
+"East Lyme School District","=""0450011""","Male",162,"*","*"
+"East Windsor School District","=""0470011""","Female",44,"*","*"
+"East Windsor School District","=""0470011""","Male",45,"*","*"
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Female",34,"*","*"
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Male",30,"*","*"
+"Ellington School District","=""0480011""","Female",98,"*","*"
+"Ellington School District","=""0480011""","Male",83,"*","*"
+"Enfield School District","=""0490011""","Female",247,220,89.1
+"Enfield School District","=""0490011""","Male",270,233,86.3
+"Explorations District","=""2720013""","Female",16,"*","*"
+"Explorations District","=""2720013""","Male",14,"*","*"
+"Fairfield School District","=""0510011""","Female",340,334,98.2
+"Fairfield School District","=""0510011""","Male",313,299,95.5
+"Farmington School District","=""0520011""","Female",167,160,95.8
+"Farmington School District","=""0520011""","Male",168,162,96.4
+"Glastonbury School District","=""0540011""","Female",285,278,97.5
+"Glastonbury School District","=""0540011""","Male",265,259,97.7
+"Granby School District","=""0560011""","Female",89,"*","*"
+"Granby School District","=""0560011""","Male",104,"*","*"
+"Greenwich School District","=""0570011""","Female",283,277,97.9
+"Greenwich School District","=""0570011""","Male",349,340,97.4
+"Griswold School District","=""0580011""","Female",106,94,88.7
+"Griswold School District","=""0580011""","Male",94,75,79.8
+"Groton School District","=""0590011""","Female",178,147,82.6
+"Groton School District","=""0590011""","Male",155,127,81.9
+"Guilford School District","=""0600011""","Female",144,"*","*"
+"Guilford School District","=""0600011""","Male",127,"*","*"
+"Hamden School District","=""0620011""","Female",288,253,87.8
+"Hamden School District","=""0620011""","Male",291,260,89.3
+"Hartford School District","=""0640011""","Female",793,564,71.1
+"Hartford School District","=""0640011""","Male",797,554,69.5
+"Killingly School District","=""0690011""","Female",109,86,78.9
+"Killingly School District","=""0690011""","Male",86,60,69.8
+"Lebanon School District","=""0710011""","Female",80,"*","*"
+"Lebanon School District","=""0710011""","Male",80,"*","*"
+"Ledyard School District","=""0720011""","Female",117,110,94.0
+"Ledyard School District","=""0720011""","Male",114,105,92.1
+"Lisbon School District","=""0730011""","Female","*","*","*"
+"Lisbon School District","=""0730011""","Male","*","*","*"
+"Litchfield School District","=""0740011""","Female",51,"*","*"
+"Litchfield School District","=""0740011""","Male",44,"*","*"
+"Madison School District","=""0760011""","Female",159,"*","*"
+"Madison School District","=""0760011""","Male",158,"*","*"
+"Manchester School District","=""0770011""","Female",273,214,78.4
+"Manchester School District","=""0770011""","Male",257,199,77.4
+"Meriden School District","=""0800011""","Female",330,256,77.6
+"Meriden School District","=""0800011""","Male",287,215,74.9
+"Middletown School District","=""0830011""","Female",179,153,85.5
+"Middletown School District","=""0830011""","Male",166,129,77.7
+"Milford School District","=""0840011""","Female",265,245,92.5
+"Milford School District","=""0840011""","Male",228,209,91.7
+"Monroe School District","=""0850011""","Female",198,"*","*"
+"Monroe School District","=""0850011""","Male",168,"*","*"
+"Montville School District","=""0860011""","Female",93,80,86.0
+"Montville School District","=""0860011""","Male",112,100,89.3
+"Naugatuck School District","=""0880011""","Female",183,156,85.2
+"Naugatuck School District","=""0880011""","Male",185,159,85.9
+"New Britain School District","=""0890011""","Female",384,233,60.7
+"New Britain School District","=""0890011""","Male",359,228,63.5
+"New Canaan School District","=""0900011""","Female",151,"*","*"
+"New Canaan School District","=""0900011""","Male",160,"*","*"
+"New Fairfield School District","=""0910011""","Female",120,"*","*"
+"New Fairfield School District","=""0910011""","Male",120,"*","*"
+"New Haven School District","=""0930011""","Female",747,536,71.8
+"New Haven School District","=""0930011""","Male",678,465,68.6
+"New London School District","=""0950011""","Female",119,79,66.4
+"New London School District","=""0950011""","Male",144,105,72.9
+"New Milford School District","=""0960011""","Female",187,172,92.0
+"New Milford School District","=""0960011""","Male",212,186,87.7
+"Newington School District","=""0940011""","Female",205,188,91.7
+"Newington School District","=""0940011""","Male",207,180,87.0
+"Newtown School District","=""0970011""","Female",245,235,95.9
+"Newtown School District","=""0970011""","Male",200,193,96.5
+"North Branford School District","=""0990011""","Female",95,"*","*"
+"North Branford School District","=""0990011""","Male",101,"*","*"
+"North Haven School District","=""1010011""","Female",166,153,92.2
+"North Haven School District","=""1010011""","Male",141,118,83.7
+"North Stonington School District","=""1020011""","Female",31,"*","*"
+"North Stonington School District","=""1020011""","Male",36,"*","*"
+"Norwalk School District","=""1030011""","Female",439,388,88.4
+"Norwalk School District","=""1030011""","Male",451,395,87.6
+"Norwich Free Academy District","=""9010022""","Female",309,263,85.1
+"Norwich Free Academy District","=""9010022""","Male",310,257,82.9
+"Norwich School District","=""1040011""","Female",16,"*","*"
+"Norwich School District","=""1040011""","Male",25,"*","*"
+"Old Saybrook School District","=""1060011""","Female",60,"*","*"
+"Old Saybrook School District","=""1060011""","Male",61,"*","*"
+"Oxford School District","=""1080011""","Female",76,"*","*"
+"Oxford School District","=""1080011""","Male",79,"*","*"
+"Plainfield School District","=""1090011""","Female",127,113,89.0
+"Plainfield School District","=""1090011""","Male",103,92,89.3
+"Plainville School District","=""1100011""","Female",118,108,91.5
+"Plainville School District","=""1100011""","Male",115,103,89.6
+"Plymouth School District","=""1110011""","Female",58,"*","*"
+"Plymouth School District","=""1110011""","Male",81,"*","*"
+"Portland School District","=""1130011""","Female",46,39,84.8
+"Portland School District","=""1130011""","Male",51,44,86.3
+"Putnam School District","=""1160011""","Female",35,31,88.6
+"Putnam School District","=""1160011""","Male",39,33,84.6
+"Regional School District 01","=""2010012""","Female",67,61,91.0
+"Regional School District 01","=""2010012""","Male",71,59,83.1
+"Regional School District 04","=""2040012""","Female",74,65,87.8
+"Regional School District 04","=""2040012""","Male",97,88,90.7
+"Regional School District 05","=""2050012""","Female",185,179,96.8
+"Regional School District 05","=""2050012""","Male",225,207,92.0
+"Regional School District 06","=""2060012""","Female",60,"*","*"
+"Regional School District 06","=""2060012""","Male",44,"*","*"
+"Regional School District 07","=""2070012""","Female",112,108,96.4
+"Regional School District 07","=""2070012""","Male",97,95,97.9
+"Regional School District 08","=""2080012""","Female",129,120,93.0
+"Regional School District 08","=""2080012""","Male",138,119,86.2
+"Regional School District 09","=""2090012""","Female",107,"*","*"
+"Regional School District 09","=""2090012""","Male",113,"*","*"
+"Regional School District 10","=""2100012""","Female",86,"*","*"
+"Regional School District 10","=""2100012""","Male",89,"*","*"
+"Regional School District 11","=""2110012""","Female",25,"*","*"
+"Regional School District 11","=""2110012""","Male",14,"*","*"
+"Regional School District 12","=""2120012""","Female",41,"*","*"
+"Regional School District 12","=""2120012""","Male",52,"*","*"
+"Regional School District 13","=""2130012""","Female",70,"*","*"
+"Regional School District 13","=""2130012""","Male",70,"*","*"
+"Regional School District 14","=""2140012""","Female",108,"*","*"
+"Regional School District 14","=""2140012""","Male",110,"*","*"
+"Regional School District 15","=""2150012""","Female",193,183,94.8
+"Regional School District 15","=""2150012""","Male",195,185,94.9
+"Regional School District 16","=""2160012""","Female",99,92,92.9
+"Regional School District 16","=""2160012""","Male",99,88,88.9
+"Regional School District 17","=""2170012""","Female",77,"*","*"
+"Regional School District 17","=""2170012""","Male",103,"*","*"
+"Regional School District 18","=""2180012""","Female",77,"*","*"
+"Regional School District 18","=""2180012""","Male",58,"*","*"
+"Regional School District 19","=""2190012""","Female",133,119,89.5
+"Regional School District 19","=""2190012""","Male",151,132,87.4
+"Ridgefield School District","=""1180011""","Female",224,"*","*"
+"Ridgefield School District","=""1180011""","Male",209,"*","*"
+"Rocky Hill School District","=""1190011""","Female",95,89,93.7
+"Rocky Hill School District","=""1190011""","Male",81,74,91.4
+"Seymour School District","=""1240011""","Female",91,82,90.1
+"Seymour School District","=""1240011""","Male",98,82,83.7
+"Shelton School District","=""1260011""","Female",201,187,93.0
+"Shelton School District","=""1260011""","Male",195,181,92.8
+"Simsbury School District","=""1280011""","Female",163,"*","*"
+"Simsbury School District","=""1280011""","Male",196,"*","*"
+"Somers School District","=""1290011""","Female",71,"*","*"
+"Somers School District","=""1290011""","Male",73,"*","*"
+"South Windsor School District","=""1320011""","Female",187,180,96.3
+"South Windsor School District","=""1320011""","Male",238,215,90.3
+"Southington School District","=""1310011""","Female",279,267,95.7
+"Southington School District","=""1310011""","Male",262,248,94.7
+"Stafford School District","=""1340011""","Female",68,62,91.2
+"Stafford School District","=""1340011""","Male",67,55,82.1
+"Stamford Academy District","=""2820013""","Female",21,17,81.0
+"Stamford Academy District","=""2820013""","Male",30,16,53.3
+"Stamford School District","=""1350011""","Female",577,527,91.3
+"Stamford School District","=""1350011""","Male",608,532,87.5
+"Stonington School District","=""1370011""","Female",105,99,94.3
+"Stonington School District","=""1370011""","Male",107,102,95.3
+"Stratford School District","=""1380011""","Female",307,287,93.5
+"Stratford School District","=""1380011""","Male",266,239,89.8
+"Suffield School District","=""1390011""","Female",122,"*","*"
+"Suffield School District","=""1390011""","Male",92,"*","*"
+"The Bridge Academy District","=""2690013""","Female",9,"*","*"
+"The Bridge Academy District","=""2690013""","Male",19,"*","*"
+"The Gilbert School District","=""9020022""","Female",40,"*","*"
+"The Gilbert School District","=""9020022""","Male",29,"*","*"
+"Thomaston School District","=""1400011""","Female",50,"*","*"
+"Thomaston School District","=""1400011""","Male",54,"*","*"
+"Thompson School District","=""1410011""","Female",51,"*","*"
+"Thompson School District","=""1410011""","Male",44,"*","*"
+"Tolland School District","=""1420011""","Female",110,107,97.3
+"Tolland School District","=""1420011""","Male",114,106,93.0
+"Torrington School District","=""1430011""","Female",128,110,85.9
+"Torrington School District","=""1430011""","Male",156,125,80.1
+"Trumbull School District","=""1440011""","Female",279,274,98.2
+"Trumbull School District","=""1440011""","Male",224,224,100.0
+"Unified School District #1","=""3360015""","Female",78,0,0.0
+"Unified School District #1","=""3360015""","Male",662,14,2.1
+"Unified School District #2","=""3470015""","Female",6,"*","*"
+"Unified School District #2","=""3470015""","Male",25,"*","*"
+"Vernon School District","=""1460011""","Female",156,130,83.3
+"Vernon School District","=""1460011""","Male",135,115,85.2
+"Wallingford School District","=""1480011""","Female",278,256,92.1
+"Wallingford School District","=""1480011""","Male",282,249,88.3
+"Waterbury School District","=""1510011""","Female",662,482,72.8
+"Waterbury School District","=""1510011""","Male",638,422,66.1
+"Waterford School District","=""1520011""","Female",142,134,94.4
+"Waterford School District","=""1520011""","Male",129,118,91.5
+"Watertown School District","=""1530011""","Female",123,"*","*"
+"Watertown School District","=""1530011""","Male",123,"*","*"
+"West Hartford School District","=""1550011""","Female",410,384,93.7
+"West Hartford School District","=""1550011""","Male",419,392,93.6
+"West Haven School District","=""1560011""","Female",224,166,74.1
+"West Haven School District","=""1560011""","Male",232,162,69.8
+"Westbrook School District","=""1540011""","Female",30,"*","*"
+"Westbrook School District","=""1540011""","Male",45,"*","*"
+"Weston School District","=""1570011""","Female",111,"*","*"
+"Weston School District","=""1570011""","Male",84,"*","*"
+"Westport School District","=""1580011""","Female",216,212,98.1
+"Westport School District","=""1580011""","Male",258,254,98.4
+"Wethersfield School District","=""1590011""","Female",153,144,94.1
+"Wethersfield School District","=""1590011""","Male",152,142,93.4
+"Wilton School District","=""1610011""","Female",144,144,100.0
+"Wilton School District","=""1610011""","Male",161,159,98.8
+"Windham School District","=""1630011""","Female",122,86,70.5
+"Windham School District","=""1630011""","Male",136,96,70.6
+"Windsor Locks School District","=""1650011""","Female",61,58,95.1
+"Windsor Locks School District","=""1650011""","Male",73,62,84.9
+"Windsor School District","=""1640011""","Female",159,144,90.6
+"Windsor School District","=""1640011""","Male",190,162,85.3
+"Wolcott School District","=""1660011""","Female",113,"*","*"
+"Wolcott School District","=""1660011""","Male",112,"*","*"
+"Woodstock Academy District","=""9030022""","Female",155,148,95.5
+"Woodstock Academy District","=""9030022""","Male",144,136,94.4
 

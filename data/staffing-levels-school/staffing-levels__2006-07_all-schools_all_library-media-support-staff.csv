@@ -210,7 +210,7 @@
 ,="Robert J. O'Brien School",="Library/Media - Support Staff",="Non-Certified",1.0
 ,="Silver Lane School",="Library/Media - Support Staff",="Non-Certified",1.0
 ,="Stevens Alternate High School",="Library/Media - Support Staff",="Non-Certified",0.0
-,="Sunset Ridge School Elementary Academy for Arts and World Languages",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Sunset Ridge Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
 ="East Haven School District",="Carbone School/East Haven Academy",="Library/Media - Support Staff",="Non-Certified",0.2
 ,="D. C. Moore School",="Library/Media - Support Staff",="Non-Certified",0.5
 ,="Deer Run School",="Library/Media - Support Staff",="Non-Certified",0.5
@@ -339,9 +339,10 @@
 ,="Spring Glen School",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="West Woods School",="Library/Media - Support Staff",="Non-Certified",0.0
 ="Hampton School District",="Hampton Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
-="Hartford School District",="Asian Studies Academy",="Library/Media - Support Staff",="Non-Certified",0.0
+="Hartford School District",="Asian Studies Academy at Bellizzi School",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="Barnard-Brown School",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="Batchelder School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Betances Early Reading Lab Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="Breakthrough Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="Bulkeley High School Lower School",="Library/Media - Support Staff",="Non-Certified",2.0
 ,="Burns Latino Studies Academy",="Library/Media - Support Staff",="Non-Certified",0.0
@@ -350,7 +351,6 @@
 ,="Clark School",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="Classical Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="Dr. Joseph Bellizzi Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
-,="Dr. Ramon E. Betances Early Reading Lab",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="Environmental Sciences Magnet at Hooker School",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="Expeditionary Learning Academy at Moylan School",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="Fox Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
@@ -358,6 +358,7 @@
 ,="Hartford Public High School",="Library/Media - Support Staff",="Non-Certified",1.0
 ,="Hartford Transitional Learning Academy (Elementary)",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="Kennelly School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Kinsella Magnet School of Performing Arts",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="M. D. Fox School",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="M. L. King, Jr. School",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="McDonough Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
@@ -366,7 +367,6 @@
 ,="Parkville Community School",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="Pathways Academy of Technology and Design",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="Quirk Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
-,="R.J. Kinsella Magnet School of Performing Arts",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="Rawson School",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="SAND School",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="STEM Magnet at Fisher School",="Library/Media - Support Staff",="Non-Certified",0.0
@@ -374,7 +374,7 @@
 ,="Simpson-Waverly School",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="Sports and Medical Sciences Academy",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="Twain School",="Library/Media - Support Staff",="Non-Certified",0.0
-,="University High of Science and Engineering",="Library/Media - Support Staff",="Non-Certified",0.0
+,="University High School of Science and Engineering",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="Weaver High School",="Library/Media - Support Staff",="Non-Certified",1.0
 ,="Webster Micro Society Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="West Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
@@ -426,7 +426,7 @@
 ,="Washington School",="Library/Media - Support Staff",="Non-Certified",1.6
 ="Mansfield School District",="Annie E. Vinton School",="Library/Media - Support Staff",="Non-Certified",1.0
 ,="Dorothy C. Goodwin School",="Library/Media - Support Staff",="Non-Certified",1.0
-,="Mansfield Middle School School",="Library/Media - Support Staff",="Non-Certified",3.0
+,="Mansfield Middle School",="Library/Media - Support Staff",="Non-Certified",3.0
 ,="Southeast Elementary School",="Library/Media - Support Staff",="Non-Certified",1.0
 ="Marlborough School District",="Elmer Thienes-Mary Hall Elementary School",="Library/Media - Support Staff",="Non-Certified",1.0
 ="Meriden School District",="Nathan Hale School",="Library/Media - Support Staff",="Non-Certified",0.0
@@ -489,7 +489,7 @@
 ,="Naugatuck High School",="Library/Media - Support Staff",="Non-Certified",1.5
 ,="Salem School",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="Western School",="Library/Media - Support Staff",="Non-Certified",0.0
-="New Beginnings Inc Family Academy District",="New Beginnings Inc., Family Academy",="Library/Media - Support Staff",="Non-Certified",0.0
+="New Beginnings Inc Family Academy District",="New Beginnings Inc Family Academy",="Library/Media - Support Staff",="Non-Certified",0.0
 ="New Britain School District",="Chamberlain Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="Frank J. DiLoreto School",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="Gaffney School",="Library/Media - Support Staff",="Non-Certified",0.0
@@ -524,10 +524,9 @@
 ,="Beecher School",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="Benjamin Jepson Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="Betsy Ross Arts Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
-,="Bishop Woods School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Bishop Woods Architecture and Design Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="Celentano BioTech, Health and Medical Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="Clarence Rogers School",="Library/Media - Support Staff",="Non-Certified",0.0
-,="Clemente Leadership Academy",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="Clinton Avenue School",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="Columbus Family Academy",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="Conte/West Hills Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
@@ -541,7 +540,7 @@
 ,="Hill Regional Career High School",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="James Hillhouse High School",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="John C. Daniels",="Library/Media - Support Staff",="Non-Certified",0.0
-,="John S. Martinez School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="John S. Martinez Sea and Sky STEM School",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="Katherine Brennan School",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="King/Robinson Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="Lincoln-Bassett School",="Library/Media - Support Staff",="Non-Certified",0.0
@@ -550,6 +549,7 @@
 ,="Polly T. McCabe Center",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="Prince School",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="Riverside Education Academy",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Roberto Clemente Leadership Academy for Global Awareness",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="Ross/Woodward School",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="Sheridan Communications and Technology Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
 ,="Sound School",="Library/Media - Support Staff",="Non-Certified",0.0

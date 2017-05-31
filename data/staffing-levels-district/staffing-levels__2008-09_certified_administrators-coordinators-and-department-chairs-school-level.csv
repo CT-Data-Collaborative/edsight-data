@@ -1,160 +1,199 @@
+"FTE Staffing Report for 2008-09"
 
-
-
-
-
-
-
-
-
-<!DOCTYPE html>
-
-
-
-
-
-<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
-    
-
-
-<head>
-    <meta charset="UTF-8" />
-    <title>
-    	
-    		
-    		
-    			SAS&reg; Logon Manager
-    		
-    	
-    </title>
-    <link type="text/css" rel="stylesheet" href="themes/default/css/bootstrap.css" />
-    <link type="text/css" rel="stylesheet" href="themes/default/css/sas.css" />
-</head>
-
-
-
-<body id="cas">
-	<div id="page">
-		
-
-<div class="banner row">
-    <div class="about">
-        <ul class="unstyled"><li>
-            <a href="#about-modal" data-toggle="modal">
-                About
-            </a>
-        </li></ul>
-    </div>
-    <div id="about-modal" class="modal hide fade">
-        <div class="modal-header">
-            <a href="#" class="close" data-dismiss="modal">&times;</a>
-            <h3>About</h3>
-        </div>
-        <div class="modal-body">
-            <p>Version: 9.4</p>
-            <h4>Copyright Information</h4>
-            <p align="center">
-Copyright (c) 2002 - 2013 by SAS Institute Inc., Cary, NC, USA<br/>
-All rights reserved.<br/>
-<br/>
-This software is protected by copyright laws and international treaties.<br/>
-<br/>
-U.S. GOVERNMENT RESTRICTED RIGHTS<br/>
-Use, duplication, or disclosure of this software and related<br/>
-documentation by the U.S. government is subject to the<br/>
-Agreement with SAS Institute and the restrictions set forth<br/>
-in FAR 52.227-19, Commercial Computer Software<br/>
-- Restricted Rights (June 1987).
-            </p>
-        </div>
-    </div>
-    <div class="header">
-        <div class="title">
-        	<h1>
-        		
-		    		
-		    		
-		    			Sign In to SAS<sup>&reg;</sup>
-		    		
-    			
-        	</h1>
-       	</div>
-        <div class="logo"><img src="themes/default/images/logo.png" /></div>
-    </div>
-</div>
-
-
-		<div class="content row">
-			
-                <form id="fm1" class="form-stacked" onSubmit="return setSubmitUrl(this);" action="/SASLogon/login;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=2D275BE1DA2F660E0CCA41307A68D995.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1?service=http://edsight.ct.gov/SASStoredProcess/j_spring_cas_security_check" method="post">
-				<fieldset>
-					
-					
-					
-                        <legend>Sign In to SAS<sup>&reg;</sup></legend>
-					<div class="clearfix">
-                            <label for="username"><span class="accesskey">U</span>ser ID:</label>
-						
-							
-							
-                                    
-                                    <input id="username" name="username" class="required" tabindex="1" accesskey="u" type="text" value="" size="25" autocomplete="off"/>
-							
-						
-					</div>
-					<div class="clearfix">
-                            <label for="password"><span class="accesskey">P</span>assword:</label>
-						
-                            
-                            <input id="password" name="password" class="required" tabindex="2" accesskey="p" type="password" value="" size="25" autocomplete="off"/>
-					</div>
-				</fieldset>
-				<input type="hidden" name="lt" value="LT-4218-YcImBkUNhoPw3wAp6T3MCdyqskajct" />
-				<input type="hidden" name="execution" value="e1s1" />
-				<input type="hidden" name="_eventId" value="submit" />
-                    <div class="submitb"><input id="Logon" type="submit" value="Sign In" onClick="this.disabled=true;this.form.submit();" tabindex="3" /></div>
-			</form>
-			
-				<div class="customizations" id="custom-logon-message">
-                  	
-
-
-<p>
-
-</p>
-
-
- 
- 
-				</div>
-			
-
-			<div class="copyright">
-				Copyright &copy; 2002 - 2013 by SAS Institute Inc., Cary, NC USA
-			</div>
-		</div>
-	</div>
-	
-<script type="text/javascript" src="/SASLogon/js/jquery.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=2D275BE1DA2F660E0CCA41307A68D995.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-<script type="text/javascript" src="/SASLogon/js/bootstrap-modal.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=2D275BE1DA2F660E0CCA41307A68D995.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-
-	<script type="text/javascript">
-            $("#username").focus();
-            
-            function setSubmitUrl(form)
-            {
-            	var urlHash = decodeURIComponent(window.location.hash);
-            	
-            	if (urlHash && urlHash.indexOf("#") === -1)
-            		urlHash = "#" + urlHash;
-            	
-            	form.action = form.action + urlHash;
-            	return true;
-            }
-    </script>
-</body>
-
-</html>
-
-
+"District","Assignment Category","Educator Type","FTE Count"
+"Achievement First Hartford Academy Inc. District","Administrators  Coordinators and Department Chairs - School Level","Certified",6.0
+="Amistad Academy District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",10.0
+="Andover School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+="Ansonia School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",9.0
+="Area Cooperative Educational Services",="Administrators  Coordinators and Department Chairs - School Level",="Certified",13.0
+="Ashford School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
+="Avon School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",12.0
+="Barkhamsted School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+="Berlin School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",12.0
+="Bethany School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+="Bethel School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",11.3
+="Bloomfield School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",12.0
+="Bolton School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
+="Bozrah School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",0.8
+="Branford School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",14.8
+="Bridgeport Achievement First District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
+="Bridgeport School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",67.0
+="Bristol School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",29.0
+="Brookfield School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",9.2
+="Brooklyn School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",4.0
+="Canaan School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+="Canterbury School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+="Canton School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",8.4
+="Capitol Region Education Council",="Administrators  Coordinators and Department Chairs - School Level",="Certified",26.8
+="Chaplin School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+="Charter School for Young Children on Asylum Hill District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+="Cheshire School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",19.6
+="Chester School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+="Clinton School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",7.6
+="Colchester School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",10.0
+="Colebrook School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+="Columbia School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
+="Common Ground High School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+="Connecticut Technical High School System",="Administrators  Coordinators and Department Chairs - School Level",="Certified",90.7
+="Cooperative Educational Services",="Administrators  Coordinators and Department Chairs - School Level",="Certified",12.0
+="Cornwall School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+="Coventry School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",6.2
+="Cromwell School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",8.4
+="Danbury School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",30.0
+="Darien School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",21.3
+="Deep River School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+="Derby School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",4.2
+="East Granby School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",4.7
+="East Haddam School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",5.0
+="East Hampton School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",7.2
+="East Hartford School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",30.0
+="East Haven School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",17.2
+="East Lyme School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",8.7
+="East Windsor School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",6.3
+="Eastern Connecticut Regional Educational Service Center (EASTCONN)",="Administrators  Coordinators and Department Chairs - School Level",="Certified",9.2
+="Eastford School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+="Easton School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",6.0
+="Ellington School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",8.0
+="Elm City College Preparatory School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",7.0
+="Enfield School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",28.4
+="Essex School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+="Explorations District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+="Fairfield School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",39.4
+="Farmington School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",15.4
+="Franklin School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+="Glastonbury School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",28.4
+="Granby School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",7.5
+="Greenwich School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",41.7
+="Griswold School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",6.4
+="Groton School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",24.8
+="Guilford School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",17.6
+="Hamden School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",19.2
+="Hampton School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",0.8
+="Hartford School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",108.0
+="Hartland School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+="Hebron School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
+="Highville Charter School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+="Integrated Day Charter School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+="Interdistrict School for Arts and Comm District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+="Jumoke Academy District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+="Kent School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+="Killingly School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",12.4
+="Learn",="Administrators  Coordinators and Department Chairs - School Level",="Certified",7.0
+="Lebanon School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",5.5
+="Ledyard School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",13.0
+="Lisbon School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+="Litchfield School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",4.2
+="Madison School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",19.0
+="Manchester School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",27.9
+="Mansfield School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",5.0
+="Marlborough School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+="Meriden School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",24.8
+="Middletown School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",21.8
+="Milford School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",21.7
+="Monroe School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",14.8
+="Montville School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",12.6
+="Naugatuck School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",19.5
+="New Beginnings Inc Family Academy District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+="New Britain School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",29.0
+="New Canaan School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",18.3
+="New Fairfield School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",14.0
+="New Hartford School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
+="New Haven School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",115.2
+="New London School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",14.4
+="New Milford School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",19.3
+="Newington School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",18.1
+="Newtown School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",17.4
+="Norfolk School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+="North Branford School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",9.3
+="North Canaan School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+="North Haven School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",15.2
+="North Stonington School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.2
+="Norwalk School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",49.2
+="Norwich Free Academy District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",8.0
+="Norwich School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",15.0
+="Odyssey Community School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+="Old Saybrook School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",7.8
+="Orange School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.5
+="Oxford School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",7.6
+="Park City Prep Charter School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+="Plainfield School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",9.0
+="Plainville School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",9.5
+="Plymouth School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",6.0
+="Pomfret School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+="Portland School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",7.4
+="Preston School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+="Putnam School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",5.0
+="Redding School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",6.0
+="Regional School District 01",="Administrators  Coordinators and Department Chairs - School Level",="Certified",4.0
+="Regional School District 04",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.8
+="Regional School District 05",="Administrators  Coordinators and Department Chairs - School Level",="Certified",12.2
+="Regional School District 06",="Administrators  Coordinators and Department Chairs - School Level",="Certified",5.8
+="Regional School District 07",="Administrators  Coordinators and Department Chairs - School Level",="Certified",5.1
+="Regional School District 08",="Administrators  Coordinators and Department Chairs - School Level",="Certified",6.8
+="Regional School District 09",="Administrators  Coordinators and Department Chairs - School Level",="Certified",8.2
+="Regional School District 10",="Administrators  Coordinators and Department Chairs - School Level",="Certified",13.9
+="Regional School District 11",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.3
+="Regional School District 12",="Administrators  Coordinators and Department Chairs - School Level",="Certified",6.2
+="Regional School District 13",="Administrators  Coordinators and Department Chairs - School Level",="Certified",9.2
+="Regional School District 14",="Administrators  Coordinators and Department Chairs - School Level",="Certified",8.0
+="Regional School District 15",="Administrators  Coordinators and Department Chairs - School Level",="Certified",15.6
+="Regional School District 16",="Administrators  Coordinators and Department Chairs - School Level",="Certified",10.1
+="Regional School District 17",="Administrators  Coordinators and Department Chairs - School Level",="Certified",9.0
+="Regional School District 18",="Administrators  Coordinators and Department Chairs - School Level",="Certified",6.8
+="Regional School District 19",="Administrators  Coordinators and Department Chairs - School Level",="Certified",7.0
+="Ridgefield School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",21.7
+="Rocky Hill School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",7.0
+="Salem School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.5
+="Salisbury School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+="Scotland School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",0.5
+="Seymour School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",10.0
+="Sharon School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+="Shelton School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",18.5
+="Sherman School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+="Side By Side Charter School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+="Simsbury School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",24.7
+="Somers School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",6.0
+="South Windsor School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",18.6
+="Southington School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",23.2
+="Sprague School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+="Stafford School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",8.0
+="Stamford Academy District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+="Stamford School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",71.3
+="Sterling School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+="Stonington School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",9.6
+="Stratford School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",34.0
+="Suffield School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",9.0
+="The Bridge Academy District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+="The Gilbert School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.9
+="Thomaston School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",4.4
+="Thompson School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",5.7
+="Tolland School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",8.3
+="Torrington School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",16.0
+="Trailblazers Academy District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",0.6
+="Trumbull School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",27.1
+="Unified School District #1",="Administrators  Coordinators and Department Chairs - School Level",="Certified",20.2
+="Unified School District #2",="Administrators  Coordinators and Department Chairs - School Level",="Certified",8.0
+="Union School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",0.7
+="Vernon School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",11.8
+="Voluntown School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+="Wallingford School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",28.8
+="Waterbury School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",69.9
+="Waterford School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",11.4
+="Watertown School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",12.0
+="West Hartford School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",40.4
+="West Haven School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",22.0
+="Westbrook School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
+="Weston School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",14.4
+="Westport School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",41.8
+="Wethersfield School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",10.0
+="Willington School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+="Wilton School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",15.0
+="Winchester School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",4.0
+="Windham School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",15.1
+="Windsor Locks School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",7.4
+="Windsor School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",18.0
+="Wolcott School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",9.7
+="Woodbridge School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+="Woodstock Academy District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",7.1
+="Woodstock School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
 

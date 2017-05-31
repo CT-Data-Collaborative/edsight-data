@@ -1,121 +1,494 @@
+"College Entrance and Persistence, 2012-13"
+"All Districts"
 
+"Notes:"
+"* In this report, year means graduating class of that school year."
+"* College entrance refers to the percent of high school graduates from the year who enrolled in college any time during the first year after high school."
+"* College persistence refers to the percent of students who enrolled in college the first year after high school and returned for a second year (Freshman to Sophomore persistence)."
 
-
-
-
-<!DOCTYPE html>
-
-
-
-
-
-<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
-    
-    
-
-<head>
-    <meta charset="UTF-8" />
-    <title>
-    	
-    		
-    		
-    			SAS&reg; Logon Manager
-    		
-    	
-    </title>
-    <link type="text/css" rel="stylesheet" href="themes/default/css/bootstrap.css" />
-    <link type="text/css" rel="stylesheet" href="themes/default/css/sas.css" />
-</head>
-
-
-
-    <body id="cas">
-        <div id="page">
-            
-
-<div class="banner row">
-    <div class="about">
-        <ul class="unstyled"><li>
-            <a href="#about-modal" data-toggle="modal">
-                About
-            </a>
-        </li></ul>
-    </div>
-    <div id="about-modal" class="modal hide fade">
-        <div class="modal-header">
-            <a href="#" class="close" data-dismiss="modal">&times;</a>
-            <h3>About</h3>
-        </div>
-        <div class="modal-body">
-            <p>Version: 9.4</p>
-            <h4>Copyright Information</h4>
-            <p align="center">
-Copyright (c) 2002 - 2013 by SAS Institute Inc., Cary, NC, USA<br/>
-All rights reserved.<br/>
-<br/>
-This software is protected by copyright laws and international treaties.<br/>
-<br/>
-U.S. GOVERNMENT RESTRICTED RIGHTS<br/>
-Use, duplication, or disclosure of this software and related<br/>
-documentation by the U.S. government is subject to the<br/>
-Agreement with SAS Institute and the restrictions set forth<br/>
-in FAR 52.227-19, Commercial Computer Software<br/>
-- Restricted Rights (June 1987).
-            </p>
-        </div>
-    </div>
-    <div class="header">
-        <div class="title">
-        	<h1>
-        		
-		    		
-		    		
-		    			Sign In to SAS<sup>&reg;</sup>
-		    		
-    			
-        	</h1>
-       	</div>
-        <div class="logo"><img src="themes/default/images/logo.png" /></div>
-    </div>
-</div>
-
-
-            <div class="content row">
-                <div id="msg" class="alert-message message-box success">
-                	
-                		
-                			<h2>Public access has been denied.</h2>
-		                    <p>Public users are not allowed to access this SAS application. The current user has been signed out.</p>
-                		
-                		
-                		
-                    
-                    
-           				<p>For increased security, close your browser.</p>
-           			
-                </div>
-                
-	            	<div class="customizations" id="custom-logoff-message">
-	               		
-
-
-<p>
-</p>
-
-
- 
-
-	                </div>
-	            
-	            
-            </div>
-        </div>
-        
-<script type="text/javascript" src="/SASLogon/js/jquery.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=2AAD238A2321F3DC424273FC2374A75B.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-<script type="text/javascript" src="/SASLogon/js/bootstrap-modal.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=2AAD238A2321F3DC424273FC2374A75B.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-
-    </body>
-
-</html>
-
+"District","District Code","School","Gender","Entrance(%)","Persistence(%)"
+"Ansonia School District","=""0020011""","Ansonia High School","Female",67.3,77.9
+"Ansonia School District","=""0020011""","Ansonia High School","Male",45.2,78.8
+"Avon School District","=""0040011""","Avon High School","Female",85.7,96.1
+"Avon School District","=""0040011""","Avon High School","Male",87.8,92.6
+"Berlin School District","=""0070011""","Berlin High School","Female",87.5,99.2
+"Berlin School District","=""0070011""","Berlin High School","Male",76.9,91.4
+"Bethel School District","=""0090011""","Bethel High School","Female",82.1,91.3
+"Bethel School District","=""0090011""","Bethel High School","Male",59.5,91.3
+"Bloomfield School District","=""0110011""","Bloomfield High School","Female",77.0,93.6
+"Bloomfield School District","=""0110011""","Bloomfield High School","Male",60.3,73.2
+"Bloomfield School District","=""0110011""","Global Experience Magnet School","Female",*,*
+"Bloomfield School District","=""0110011""","Global Experience Magnet School","Male",*,*
+"Bloomfield School District","=""0110011""","Learning Academy at Bloomfield","Female",*,*
+"Bloomfield School District","=""0110011""","Learning Academy at Bloomfield","Male",*,*
+"Bolton School District","=""0120011""","Bolton High School","Female",93.2,97.6
+"Bolton School District","=""0120011""","Bolton High School","Male",83.3,90.0
+"Branford School District","=""0140011""","Branford High School","Female",80.8,92.4
+"Branford School District","=""0140011""","Branford High School","Male",70.0,85.7
+"Bridgeport School District","=""0150011""","Bassick High School","Female",56.8,68.3
+"Bridgeport School District","=""0150011""","Bassick High School","Male",44.6,66.7
+"Bridgeport School District","=""0150011""","Central High School","Female",71.0,83.6
+"Bridgeport School District","=""0150011""","Central High School","Male",57.5,79.7
+"Bridgeport School District","=""0150011""","Harding High School","Female",53.3,71.9
+"Bridgeport School District","=""0150011""","Harding High School","Male",33.3,68.8
+"Bridgeport School District","=""0150011""","Park City Academy","Male",*,*
+"Bristol School District","=""0170011""","Bristol Central High School","Female",69.4,86.0
+"Bristol School District","=""0170011""","Bristol Central High School","Male",62.3,87.2
+"Bristol School District","=""0170011""","Bristol Eastern High School","Female",76.5,91.2
+"Bristol School District","=""0170011""","Bristol Eastern High School","Male",57.2,79.5
+"Bristol School District","=""0170011""","Community/Vocational Program","Female",*,*
+"Bristol School District","=""0170011""","Community/Vocational Program","Male",*,*
+"Brookfield School District","=""0180011""","Brookfield High School","Female",91.0,92.8
+"Brookfield School District","=""0180011""","Brookfield High School","Male",87.0,96.0
+"Canton School District","=""0230011""","Canton High School","Female",86.4,92.2
+"Canton School District","=""0230011""","Canton High School","Male",71.2,92.9
+"Cheshire School District","=""0250011""","Cheshire High School","Female",93.8,96.4
+"Cheshire School District","=""0250011""","Cheshire High School","Male",78.0,94.2
+"Cheshire School District","=""0250011""","Humiston School","Female",*,*
+"Cheshire School District","=""0250011""","Humiston School","Male",*,*
+"Clinton School District","=""0270011""","The Morgan School","Female",73.8,95.8
+"Clinton School District","=""0270011""","The Morgan School","Male",78.5,86.3
+"Colchester School District","=""0280011""","Bacon Academy","Female",82.4,90.3
+"Colchester School District","=""0280011""","Bacon Academy","Male",69.0,83.8
+"Coventry School District","=""0320011""","Coventry High School","Female",82.6,89.5
+"Coventry School District","=""0320011""","Coventry High School","Male",59.0,88.9
+"Cromwell School District","=""0330011""","Cromwell High School","Female",91.4,96.9
+"Cromwell School District","=""0330011""","Cromwell High School","Male",68.3,83.7
+"Danbury School District","=""0340011""","Alternative Center For Excellence","Female",*,*
+"Danbury School District","=""0340011""","Alternative Center For Excellence","Male",*,*
+"Danbury School District","=""0340011""","Danbury High School","Female",76.4,91.7
+"Danbury School District","=""0340011""","Danbury High School","Male",65.9,85.6
+"Darien School District","=""0350011""","Darien High School","Female",91.0,97.2
+"Darien School District","=""0350011""","Darien High School","Male",89.4,98.5
+"Derby School District","=""0370011""","Derby High School","Female",77.8,76.2
+"Derby School District","=""0370011""","Derby High School","Male",62.2,91.3
+"East Granby School District","=""0400011""","East Granby High School","Female",71.9,100.0
+"East Granby School District","=""0400011""","East Granby High School","Male",63.9,78.3
+"East Haddam School District","=""0410011""","Nathan Hale-Ray High School","Female",89.4,97.6
+"East Haddam School District","=""0410011""","Nathan Hale-Ray High School","Male",72.9,77.1
+"East Hampton School District","=""0420011""","East Hampton High School","Female",83.1,92.6
+"East Hampton School District","=""0420011""","East Hampton High School","Male",78.7,87.5
+"East Hampton School District","=""0420011""","The Learning Center at East Hampton","Male",*,*
+"East Hartford School District","=""0430011""","Connecticut IB Academy","Female",95.8,100.0
+"East Hartford School District","=""0430011""","Connecticut IB Academy","Male",*,*
+"East Hartford School District","=""0430011""","East Hartford High School","Female",69.3,82.3
+"East Hartford School District","=""0430011""","East Hartford High School","Male",59.1,73.1
+"East Hartford School District","=""0430011""","Stevens Alternate High school","Female",35.3,*
+"East Hartford School District","=""0430011""","Stevens Alternate High school","Male",22.4,*
+"East Hartford School District","=""0430011""","Woodland School","Female",*,*
+"East Hartford School District","=""0430011""","Woodland School","Male",*,*
+"East Haven School District","=""0440011""","East Haven High School","Female",78.4,85.5
+"East Haven School District","=""0440011""","East Haven High School","Male",60.0,84.2
+"East Haven School District","=""0440011""","Pathways","Female",*,*
+"East Haven School District","=""0440011""","Pathways","Male",*,*
+"East Lyme School District","=""0450011""","East Lyme High School","Female",86.5,97.0
+"East Lyme School District","=""0450011""","East Lyme High School","Male",83.0,91.5
+"East Windsor School District","=""0470011""","East Windsor High School","Female",65.9,96.6
+"East Windsor School District","=""0470011""","East Windsor High School","Male",52.6,95.0
+"Ellington School District","=""0480011""","Ellington High School","Female",85.7,92.9
+"Ellington School District","=""0480011""","Ellington High School","Male",81.2,92.8
+"Enfield School District","=""0490011""","Enfield High School","Female",67.2,83.7
+"Enfield School District","=""0490011""","Enfield High School","Male",61.4,77.8
+"Enfield School District","=""0490011""","Enfield Transitional Learning Academy","Female",*,*
+"Enfield School District","=""0490011""","Enfield Transitional Learning Academy","Male",*,*
+"Enfield School District","=""0490011""","Enrico Fermi High School","Female",73.7,91.1
+"Enfield School District","=""0490011""","Enrico Fermi High School","Male",66.1,79.2
+"Fairfield School District","=""0510011""","Fairfield Ludlowe High School","Female",82.6,95.4
+"Fairfield School District","=""0510011""","Fairfield Ludlowe High School","Male",85.9,94.3
+"Fairfield School District","=""0510011""","Fairfield Warde High School","Female",86.5,95.3
+"Fairfield School District","=""0510011""","Fairfield Warde High School","Male",86.0,94.1
+"Farmington School District","=""0520011""","Farmington High School","Female",89.2,95.0
+"Farmington School District","=""0520011""","Farmington High School","Male",86.4,94.7
+"Glastonbury School District","=""0540011""","Glastonbury High School","Female",91.5,97.6
+"Glastonbury School District","=""0540011""","Glastonbury High School","Male",84.6,94.8
+"Granby School District","=""0560011""","Granby Memorial High School","Female",88.4,94.0
+"Granby School District","=""0560011""","Granby Memorial High School","Male",92.6,89.7
+"Greenwich School District","=""0570011""","Greenwich High School","Female",85.4,94.8
+"Greenwich School District","=""0570011""","Greenwich High School","Male",81.2,94.5
+"Griswold School District","=""0580011""","Griswold High School","Female",70.1,77.0
+"Griswold School District","=""0580011""","Griswold High School","Male",67.6,76.1
+"Groton School District","=""0590011""","Robert E. Fitch High School","Female",77.1,88.3
+"Groton School District","=""0590011""","Robert E. Fitch High School","Male",61.1,72.7
+"Guilford School District","=""0600011""","Guilford High School","Female",85.1,94.7
+"Guilford School District","=""0600011""","Guilford High School","Male",87.6,94.7
+"Hamden School District","=""0620011""","Hamden High School","Female",74.7,89.5
+"Hamden School District","=""0620011""","Hamden High School","Male",65.3,83.3
+"Hartford School District","=""0640011""","Bulkeley High School","Female",45.7,75.7
+"Hartford School District","=""0640011""","Bulkeley High School","Male",43.8,68.6
+"Hartford School District","=""0640011""","Capital Preparatory Magnet School","Female",91.3,81.0
+"Hartford School District","=""0640011""","Capital Preparatory Magnet School","Male",*,*
+"Hartford School District","=""0640011""","Classical Magnet School","Female",90.4,95.7
+"Hartford School District","=""0640011""","Classical Magnet School","Male",90.6,93.1
+"Hartford School District","=""0640011""","Culinary Arts Academy","Female",*,*
+"Hartford School District","=""0640011""","Culinary Arts Academy","Male",*,*
+"Hartford School District","=""0640011""","Great Path Academy High School at MCC","Female",81.0,82.4
+"Hartford School District","=""0640011""","Great Path Academy High School at MCC","Male",70.8,*
+"Hartford School District","=""0640011""","HPHS Academy of Engineering and Green Technology","Female",50.0,*
+"Hartford School District","=""0640011""","HPHS Academy of Engineering and Green Technology","Male",27.4,*
+"Hartford School District","=""0640011""","HPHS Academy of Nursing and Health Science","Female",62.0,75.5
+"Hartford School District","=""0640011""","HPHS Academy of Nursing and Health Science","Male",29.6,*
+"Hartford School District","=""0640011""","HPHS Law and Government Academy","Female",60.6,75.0
+"Hartford School District","=""0640011""","HPHS Law and Government Academy","Male",31.8,*
+"Hartford School District","=""0640011""","High School, Inc.","Female",83.7,66.7
+"Hartford School District","=""0640011""","High School, Inc.","Male",59.5,68.2
+"Hartford School District","=""0640011""","Journalism and Media Academy Magnet School","Female",54.2,*
+"Hartford School District","=""0640011""","Journalism and Media Academy Magnet School","Male",53.6,*
+"Hartford School District","=""0640011""","OPPortunity High School","Female",28.6,*
+"Hartford School District","=""0640011""","OPPortunity High School","Male",34.5,*
+"Hartford School District","=""0640011""","Pathways Academy of Technology and Design","Female",85.2,82.6
+"Hartford School District","=""0640011""","Pathways Academy of Technology and Design","Male",61.5,87.5
+"Hartford School District","=""0640011""","Sports and Medical Sciences Academy","Female",83.7,68.3
+"Hartford School District","=""0640011""","Sports and Medical Sciences Academy","Male",82.1,81.3
+"Hartford School District","=""0640011""","University High School of Science and Engineering","Female",87.9,93.1
+"Hartford School District","=""0640011""","University High School of Science and Engineering","Male",88.3,92.5
+"Killingly School District","=""0690011""","Killingly High School","Female",68.5,87.3
+"Killingly School District","=""0690011""","Killingly High School","Male",50.6,68.3
+"Lebanon School District","=""0710011""","Lyman Memorial High School","Female",80.9,89.1
+"Lebanon School District","=""0710011""","Lyman Memorial High School","Male",71.4,86.7
+"Ledyard School District","=""0720011""","Ledyard High School","Female",80.6,90.8
+"Ledyard School District","=""0720011""","Ledyard High School","Male",74.0,89.6
+"Lisbon School District","=""0730011""","Community Connection - The Big Picture High School","Female",*,*
+"Lisbon School District","=""0730011""","Community Connection - The Big Picture High School","Male",*,*
+"Litchfield School District","=""0740011""","Litchfield High School","Female",82.2,91.9
+"Litchfield School District","=""0740011""","Litchfield High School","Male",59.5,84.0
+"Madison School District","=""0760011""","Daniel Hand High School","Female",89.9,97.9
+"Madison School District","=""0760011""","Daniel Hand High School","Male",83.9,95.6
+"Manchester School District","=""0770011""","Manchester High School","Female",78.1,88.8
+"Manchester School District","=""0770011""","Manchester High School","Male",59.3,73.7
+"Manchester School District","=""0770011""","Manchester Regional Academy","Female",*,*
+"Manchester School District","=""0770011""","Manchester Regional Academy","Male",*,*
+"Manchester School District","=""0770011""","Manchester Transition Center","Female",*,*
+"Manchester School District","=""0770011""","Manchester Transition Center","Male",*,*
+"Meriden School District","=""0800011""","Francis T. Maloney High School","Female",68.1,84.4
+"Meriden School District","=""0800011""","Francis T. Maloney High School","Male",55.9,80.3
+"Meriden School District","=""0800011""","Orville H. Platt High School","Female",64.0,79.5
+"Meriden School District","=""0800011""","Orville H. Platt High School","Male",44.2,67.4
+"Middletown School District","=""0830011""","Middletown High School","Female",72.5,91.3
+"Middletown School District","=""0830011""","Middletown High School","Male",59.4,84.6
+"Middletown School District","=""0830011""","Transition to Life Center","Female",*,*
+"Middletown School District","=""0830011""","Transition to Life Center","Male",*,*
+"Milford School District","=""0840011""","Jonathan Law High School","Female",70.9,92.2
+"Milford School District","=""0840011""","Jonathan Law High School","Male",63.7,83.3
+"Milford School District","=""0840011""","Joseph A. Foran High School","Female",78.6,91.9
+"Milford School District","=""0840011""","Joseph A. Foran High School","Male",77.4,82.3
+"Monroe School District","=""0850011""","Masuk High School","Female",86.5,92.2
+"Monroe School District","=""0850011""","Masuk High School","Male",79.6,90.3
+"Montville School District","=""0860011""","Montville High School","Female",67.6,83.3
+"Montville School District","=""0860011""","Montville High School","Male",71.3,93.5
+"Montville School District","=""0860011""","Palmer Academy","Female",*,*
+"Montville School District","=""0860011""","Palmer Academy","Male",*,*
+"Naugatuck School District","=""0880011""","Naugatuck High School","Female",80.0,81.5
+"Naugatuck School District","=""0880011""","Naugatuck High School","Male",56.9,87.2
+"New Britain School District","=""0890011""","Alternative Center School","Female",*,*
+"New Britain School District","=""0890011""","Alternative Center School","Male",*,*
+"New Britain School District","=""0890011""","CLIMB","Female",*,*
+"New Britain School District","=""0890011""","CLIMB","Male",*,*
+"New Britain School District","=""0890011""","New Britain High School","Female",62.7,77.7
+"New Britain School District","=""0890011""","New Britain High School","Male",51.2,75.2
+"New Britain School District","=""0890011""","New Britain Transition Center","Female",*,*
+"New Britain School District","=""0890011""","New Britain Transition Center","Male",*,*
+"New Canaan School District","=""0900011""","New Canaan High School","Female",88.0,97.4
+"New Canaan School District","=""0900011""","New Canaan High School","Male",86.0,96.5
+"New Fairfield School District","=""0910011""","New Fairfield High School","Female",87.7,96.5
+"New Fairfield School District","=""0910011""","New Fairfield High School","Male",78.8,88.2
+"New Haven School District","=""0930011""","Cooperative High School","Female",80.9,84.9
+"New Haven School District","=""0930011""","Cooperative High School","Male",55.6,72.0
+"New Haven School District","=""0930011""","High School In The Community","Female",46.4,*
+"New Haven School District","=""0930011""","High School In The Community","Male",*,*
+"New Haven School District","=""0930011""","Hill Regional Career High School","Female",81.0,80.2
+"New Haven School District","=""0930011""","Hill Regional Career High School","Male",69.8,86.7
+"New Haven School District","=""0930011""","Hyde School of Health, Science and Sports Medicine","Female",*,*
+"New Haven School District","=""0930011""","Hyde School of Health, Science and Sports Medicine","Male",*,*
+"New Haven School District","=""0930011""","James Hillhouse High School","Female",59.2,75.4
+"New Haven School District","=""0930011""","James Hillhouse High School","Male",51.1,80.0
+"New Haven School District","=""0930011""","Metropolitan Business Academy","Female",62.9,68.2
+"New Haven School District","=""0930011""","Metropolitan Business Academy","Male",57.8,84.6
+"New Haven School District","=""0930011""","New Haven Academy","Female",75.0,74.1
+"New Haven School District","=""0930011""","New Haven Academy","Male",70.0,*
+"New Haven School District","=""0930011""","Polly T. McCabe Center","Female",*,*
+"New Haven School District","=""0930011""","Riverside Education Academy","Female",*,*
+"New Haven School District","=""0930011""","Riverside Education Academy","Male",*,*
+"New Haven School District","=""0930011""","Sound School","Female",80.0,82.1
+"New Haven School District","=""0930011""","Sound School","Male",61.5,66.7
+"New Haven School District","=""0930011""","Wilbur Cross High School","Female",63.6,77.3
+"New Haven School District","=""0930011""","Wilbur Cross High School","Male",43.6,72.7
+"Newington School District","=""0940011""","Newington High School","Female",79.8,92.3
+"Newington School District","=""0940011""","Newington High School","Male",75.1,92.1
+"New London School District","=""0950011""","New London Clinical Day Program","Female",*,*
+"New London School District","=""0950011""","New London High School","Female",61.1,74.5
+"New London School District","=""0950011""","New London High School","Male",51.7,76.1
+"New Milford School District","=""0960011""","Litchfield Hills Transition Center","Female",*,*
+"New Milford School District","=""0960011""","Litchfield Hills Transition Center","Male",*,*
+"New Milford School District","=""0960011""","New Milford High School","Female",82.0,95.2
+"New Milford School District","=""0960011""","New Milford High School","Male",68.2,90.7
+"Newtown School District","=""0970011""","Newtown High School","Female",89.0,94.8
+"Newtown School District","=""0970011""","Newtown High School","Male",81.5,88.9
+"North Branford School District","=""0990011""","North Branford High School","Female",87.6,94.9
+"North Branford School District","=""0990011""","North Branford High School","Male",70.7,90.6
+"North Haven School District","=""1010011""","North Haven High School","Female",84.7,93.4
+"North Haven School District","=""1010011""","North Haven High School","Male",77.2,89.5
+"North Stonington School District","=""1020011""","Wheeler High School","Female",75.9,81.8
+"North Stonington School District","=""1020011""","Wheeler High School","Male",*,*
+"Norwalk School District","=""1030011""","Brien McMahon High School","Female",80.6,94.7
+"Norwalk School District","=""1030011""","Brien McMahon High School","Male",73.8,89.5
+"Norwalk School District","=""1030011""","Norwalk High School","Female",83.4,92.2
+"Norwalk School District","=""1030011""","Norwalk High School","Male",73.1,91.2
+"Norwalk School District","=""1030011""","Norwalk Pathways Academy at Briggs","Female",*,*
+"Norwalk School District","=""1030011""","Norwalk Pathways Academy at Briggs","Male",*,*
+"Norwich School District","=""1040011""","Deborah-Tennant Zinewicz  School","Female",*,*
+"Norwich School District","=""1040011""","Deborah-Tennant Zinewicz  School","Male",*,*
+"Norwich School District","=""1040011""","Virtual Learning Academy","Female",*,*
+"Norwich School District","=""1040011""","Virtual Learning Academy","Male",*,*
+"Old Saybrook School District","=""1060011""","Old Saybrook Senior High School","Female",86.2,96.4
+"Old Saybrook School District","=""1060011""","Old Saybrook Senior High School","Male",82.4,83.9
+"Oxford School District","=""1080011""","Oxford High School","Female",88.6,88.6
+"Oxford School District","=""1080011""","Oxford High School","Male",77.5,94.5
+"Plainfield School District","=""1090011""","Plainfield High School","Female",52.7,77.6
+"Plainfield School District","=""1090011""","Plainfield High School","Male",43.0,73.0
+"Plainville School District","=""1100011""","Plainville High School","Female",83.3,90.6
+"Plainville School District","=""1100011""","Plainville High School","Male",72.9,88.7
+"Plymouth School District","=""1110011""","Terryville High School","Female",64.8,82.9
+"Plymouth School District","=""1110011""","Terryville High School","Male",57.4,88.6
+"Portland School District","=""1130011""","Portland High School","Female",87.5,100.0
+"Portland School District","=""1130011""","Portland High School","Male",81.0,97.1
+"Putnam School District","=""1160011""","Helping Hands","Female",*,*
+"Putnam School District","=""1160011""","Putnam High School","Female",82.2,73.0
+"Putnam School District","=""1160011""","Putnam High School","Male",32.4,*
+"Ridgefield School District","=""1180011""","Ridgefield High School","Female",89.2,97.7
+"Ridgefield School District","=""1180011""","Ridgefield High School","Male",86.7,95.1
+"Ridgefield School District","=""1180011""","Ridgefield Transition Program","Male",*,*
+"Rocky Hill School District","=""1190011""","Rocky Hill High School","Female",88.8,91.5
+"Rocky Hill School District","=""1190011""","Rocky Hill High School","Male",78.8,91.0
+"Seymour School District","=""1240011""","Seymour High School","Female",81.8,92.1
+"Seymour School District","=""1240011""","Seymour High School","Male",70.0,87.5
+"Shelton School District","=""1260011""","Shelton High School","Female",81.4,92.4
+"Shelton School District","=""1260011""","Shelton High School","Male",79.7,85.6
+"Simsbury School District","=""1280011""","Simsbury High School","Female",88.3,95.2
+"Simsbury School District","=""1280011""","Simsbury High School","Male",84.5,94.9
+"Somers School District","=""1290011""","Somers High School","Female",91.3,95.2
+"Somers School District","=""1290011""","Somers High School","Male",73.3,92.7
+"Southington School District","=""1310011""","Southington High School","Female",82.9,91.5
+"Southington School District","=""1310011""","Southington High School","Male",74.3,86.1
+"South Windsor School District","=""1320011""","Project Worth Young Adult Academy","Male",*,*
+"South Windsor School District","=""1320011""","South Windsor High School","Female",89.8,94.7
+"South Windsor School District","=""1320011""","South Windsor High School","Male",75.9,91.2
+"Stafford School District","=""1340011""","Stafford High School","Female",76.1,90.2
+"Stafford School District","=""1340011""","Stafford High School","Male",56.3,81.5
+"Stamford School District","=""1350011""","Stamford High School","Female",76.5,89.2
+"Stamford School District","=""1350011""","Stamford High School","Male",71.5,86.9
+"Stamford School District","=""1350011""","The Academy of Information Technology","Female",86.8,96.6
+"Stamford School District","=""1350011""","The Academy of Information Technology","Male",84.2,96.3
+"Stamford School District","=""1350011""","Westhill High School","Female",75.1,92.0
+"Stamford School District","=""1350011""","Westhill High School","Male",68.3,87.2
+"Stonington School District","=""1370011""","Stonington High School","Female",83.1,94.2
+"Stonington School District","=""1370011""","Stonington High School","Male",72.0,85.7
+"Stratford School District","=""1380011""","Bunnell High School","Female",85.1,94.7
+"Stratford School District","=""1380011""","Bunnell High School","Male",71.9,85.7
+"Stratford School District","=""1380011""","Secondary STEPS Program","Male",*,*
+"Stratford School District","=""1380011""","Stratford High School","Female",76.9,91.0
+"Stratford School District","=""1380011""","Stratford High School","Male",58.6,86.2
+"Stratford School District","=""1380011""","Strive-Stratford","Female",*,*
+"Stratford School District","=""1380011""","Strive-Stratford","Male",*,*
+"Suffield School District","=""1390011""","Suffield High School","Female",85.1,94.2
+"Suffield School District","=""1390011""","Suffield High School","Male",77.9,95.5
+"Thomaston School District","=""1400011""","Thomaston High School","Female",69.2,85.2
+"Thomaston School District","=""1400011""","Thomaston High School","Male",60.0,95.2
+"Thompson School District","=""1410011""","Tourtellotte Memorial High School","Female",73.7,92.9
+"Thompson School District","=""1410011""","Tourtellotte Memorial High School","Male",50.0,86.4
+"Tolland School District","=""1420011""","Tolland High School","Female",81.0,98.0
+"Tolland School District","=""1420011""","Tolland High School","Male",73.6,90.2
+"Torrington School District","=""1430011""","Torrington High School","Female",68.8,89.8
+"Torrington School District","=""1430011""","Torrington High School","Male",51.2,88.9
+"Trumbull School District","=""1440011""","Trumbull High School","Female",89.1,95.5
+"Trumbull School District","=""1440011""","Trumbull High School","Male",80.4,89.9
+"Vernon School District","=""1460011""","Next Step Program (AACBP)","Female",*,*
+"Vernon School District","=""1460011""","Rockville High School","Female",70.9,84.3
+"Vernon School District","=""1460011""","Rockville High School","Male",62.9,89.3
+"Wallingford School District","=""1480011""","A.R.T.S. Academy","Female",*,*
+"Wallingford School District","=""1480011""","A.R.T.S. Academy","Male",*,*
+"Wallingford School District","=""1480011""","Lyman Hall High School","Female",76.4,87.3
+"Wallingford School District","=""1480011""","Lyman Hall High School","Male",65.0,89.2
+"Wallingford School District","=""1480011""","Mark T. Sheehan High School","Female",87.9,97.1
+"Wallingford School District","=""1480011""","Mark T. Sheehan High School","Male",72.4,93.4
+"Wallingford School District","=""1480011""","Multi-Vocational Life Skills Program","Female",*,*
+"Wallingford School District","=""1480011""","Multi-Vocational Life Skills Program","Male",*,*
+"Waterbury School District","=""1510011""","Crosby High School","Female",60.0,79.2
+"Waterbury School District","=""1510011""","Crosby High School","Male",46.3,71.9
+"Waterbury School District","=""1510011""","Enlightenment School","Female",*,*
+"Waterbury School District","=""1510011""","Enlightenment School","Male",*,*
+"Waterbury School District","=""1510011""","John F. Kennedy High School","Female",66.4,77.4
+"Waterbury School District","=""1510011""","John F. Kennedy High School","Male",56.8,78.6
+"Waterbury School District","=""1510011""","State Street School","Female",*,*
+"Waterbury School District","=""1510011""","State Street School","Male",*,*
+"Waterbury School District","=""1510011""","Waterbury Arts Magnet School (High)","Female",74.6,89.4
+"Waterbury School District","=""1510011""","Waterbury Arts Magnet School (High)","Male",62.1,*
+"Waterbury School District","=""1510011""","Wilby High School","Female",46.9,79.7
+"Waterbury School District","=""1510011""","Wilby High School","Male",46.4,67.7
+"Waterford School District","=""1520011""","Waterford High School","Female",80.4,84.1
+"Waterford School District","=""1520011""","Waterford High School","Male",63.7,82.3
+"Watertown School District","=""1530011""","Watertown High School","Female",86.2,95.5
+"Watertown School District","=""1530011""","Watertown High School","Male",74.8,84.3
+"Westbrook School District","=""1540011""","Westbrook High School","Female",78.4,96.6
+"Westbrook School District","=""1540011""","Westbrook High School","Male",63.4,73.1
+"West Hartford School District","=""1550011""","Achieve","Female",*,*
+"West Hartford School District","=""1550011""","Achieve","Male",*,*
+"West Hartford School District","=""1550011""","Conard High School","Female",87.1,96.6
+"West Hartford School District","=""1550011""","Conard High School","Male",84.4,90.8
+"West Hartford School District","=""1550011""","Hall High School","Female",89.1,94.2
+"West Hartford School District","=""1550011""","Hall High School","Male",83.1,91.2
+"West Hartford School District","=""1550011""","Strive-West Hartford","Female",*,*
+"West Hartford School District","=""1550011""","Strive-West Hartford","Male",*,*
+"West Hartford School District","=""1550011""","WAAVE (W Hartford Applied Academic/Voc'l Experience)","Female",*,*
+"West Hartford School District","=""1550011""","WAAVE (W Hartford Applied Academic/Voc'l Experience)","Male",*,*
+"West Haven School District","=""1560011""","West Haven High School","Female",67.9,84.8
+"West Haven School District","=""1560011""","West Haven High School","Male",57.5,76.1
+"Weston School District","=""1570011""","Weston High School","Female",91.2,98.9
+"Weston School District","=""1570011""","Weston High School","Male",89.1,95.6
+"Westport School District","=""1580011""","Staples High School","Female",90.4,97.5
+"Westport School District","=""1580011""","Staples High School","Male",86.9,97.2
+"Wethersfield School District","=""1590011""","Wethersfield High School","Female",90.8,93.6
+"Wethersfield School District","=""1590011""","Wethersfield High School","Male",82.5,87.5
+"Wilton School District","=""1610011""","Wilton High School","Female",85.4,97.8
+"Wilton School District","=""1610011""","Wilton High School","Male",86.2,95.6
+"Winchester School District","=""1620011""","WISE Academy","Female",*,*
+"Winchester School District","=""1620011""","WISE Academy","Male",*,*
+"Windham School District","=""1630011""","Windham High School","Female",59.5,72.0
+"Windham School District","=""1630011""","Windham High School","Male",59.6,76.8
+"Windsor School District","=""1640011""","Windsor High School","Female",81.5,91.9
+"Windsor School District","=""1640011""","Windsor High School","Male",69.9,87.9
+"Windsor Locks School District","=""1650011""","Windsor Locks High School","Female",73.3,98.2
+"Windsor Locks School District","=""1650011""","Windsor Locks High School","Male",52.6,83.3
+"Wolcott School District","=""1660011""","Wolcott High School","Female",85.6,88.8
+"Wolcott School District","=""1660011""","Wolcott High School","Male",71.0,93.4
+"Regional School District 01","=""2010012""","Housatonic Valley Regional High School","Female",51.0,92.3
+"Regional School District 01","=""2010012""","Housatonic Valley Regional High School","Male",58.0,96.6
+"Regional School District 04","=""2040012""","Valley Regional High School","Female",80.2,89.9
+"Regional School District 04","=""2040012""","Valley Regional High School","Male",70.0,89.8
+"Regional School District 05","=""2050012""","Amity Regional High School","Female",90.2,95.8
+"Regional School District 05","=""2050012""","Amity Regional High School","Male",85.9,92.9
+"Regional School District 06","=""2060012""","Wamogo Regional High School","Female",84.0,88.1
+"Regional School District 06","=""2060012""","Wamogo Regional High School","Male",57.1,91.7
+"Regional School District 07","=""2070012""","AIM","Female",*,*
+"Regional School District 07","=""2070012""","AIM","Male",*,*
+"Regional School District 07","=""2070012""","Northwestern Regional High School","Female",76.4,91.2
+"Regional School District 07","=""2070012""","Northwestern Regional High School","Male",67.9,85.5
+"Regional School District 07","=""2070012""","STEP","Female",*,*
+"Regional School District 07","=""2070012""","STEP","Male",*,*
+"Regional School District 08","=""2080012""","RHAM High School","Female",86.4,97.2
+"Regional School District 08","=""2080012""","RHAM High School","Male",73.3,93.5
+"Regional School District 08","=""2080012""","Region Alternative High School","Female",*,*
+"Regional School District 08","=""2080012""","Region Alternative High School","Male",*,*
+"Regional School District 09","=""2090012""","Joel Barlow High School","Female",88.8,98.1
+"Regional School District 09","=""2090012""","Joel Barlow High School","Male",85.3,92.5
+"Regional School District 10","=""2100012""","Lewis S. Mills High School","Female",86.7,96.2
+"Regional School District 10","=""2100012""","Lewis S. Mills High School","Male",76.5,89.3
+"Regional School District 11","=""2110012""","Parish Hill High School","Female",*,*
+"Regional School District 11","=""2110012""","Parish Hill High School","Male",60.0,*
+"Regional School District 12","=""2120012""","Shepaug Valley High School","Female",87.5,92.9
+"Regional School District 12","=""2120012""","Shepaug Valley High School","Male",76.6,91.7
+"Regional School District 13","=""2130012""","Coginchaug Regional High School","Female",90.7,91.2
+"Regional School District 13","=""2130012""","Coginchaug Regional High School","Male",80.9,83.6
+"Regional School District 14","=""2140012""","Nonnewaug High School","Female",91.1,92.4
+"Regional School District 14","=""2140012""","Nonnewaug High School","Male",79.3,83.1
+"Regional School District 15","=""2150012""","Pomperaug Regional High School","Female",85.8,93.4
+"Regional School District 15","=""2150012""","Pomperaug Regional High School","Male",78.4,93.9
+"Regional School District 16","=""2160012""","Woodland Regional High School","Female",92.2,97.2
+"Regional School District 16","=""2160012""","Woodland Regional High School","Male",69.0,91.3
+"Regional School District 17","=""2170012""","Haddam-Killingworth High School","Female",90.2,95.9
+"Regional School District 17","=""2170012""","Haddam-Killingworth High School","Male",76.3,87.9
+"Regional School District 18","=""2180012""","Lyme-Old Lyme High School","Female",87.5,95.9
+"Regional School District 18","=""2180012""","Lyme-Old Lyme High School","Male",73.1,94.7
+"Regional School District 19","=""2190012""","E. O. Smith High School","Female",81.0,94.7
+"Regional School District 19","=""2190012""","E. O. Smith High School","Male",68.5,90.8
+"Capitol Region Education Council","=""2410014""","Academy of Aerospace and Engineering","Female",*,*
+"Capitol Region Education Council","=""2410014""","Academy of Aerospace and Engineering","Male",*,*
+"Capitol Region Education Council","=""2410014""","Farmington Valley Regional Diagnostic Center","Female",*,*
+"Capitol Region Education Council","=""2410014""","Farmington Valley Regional Diagnostic Center","Male",*,*
+"Capitol Region Education Council","=""2410014""","Greater Hartford Academy of  the Arts High School - Full Time","Female",80.4,89.2
+"Capitol Region Education Council","=""2410014""","Greater Hartford Academy of  the Arts High School - Full Time","Male",66.7,*
+"Capitol Region Education Council","=""2410014""","John J. Allison Polaris Center","Female",*,*
+"Capitol Region Education Council","=""2410014""","John J. Allison Polaris Center","Male",*,*
+"Capitol Region Education Council","=""2410014""","Lincoln Academy Regional Interdistrict Collaborative","Female",*,*
+"Capitol Region Education Council","=""2410014""","Lincoln Academy Regional Interdistrict Collaborative","Male",*,*
+"Capitol Region Education Council","=""2410014""","Metropolitan Learning Center for Global and International Studies","Female",86.0,89.2
+"Capitol Region Education Council","=""2410014""","Metropolitan Learning Center for Global and International Studies","Male",79.5,82.9
+"Capitol Region Education Council","=""2410014""","Public Safety Academy","Female",*,*
+"Capitol Region Education Council","=""2410014""","Public Safety Academy","Male",*,*
+"Capitol Region Education Council","=""2410014""","River Street School","Female",*,*
+"Capitol Region Education Council","=""2410014""","River Street School","Male",*,*
+"Capitol Region Education Council","=""2410014""","Soundbridge","Female",*,*
+"Education Connection","=""2420014""","GFLC/ACCESS School","Male",*,*
+"Cooperative Educational Services","=""2430014""","Developmental Learning Center (DLC)","Female",*,*
+"Cooperative Educational Services","=""2430014""","RISE Transitional Program","Male",*,*
+"Cooperative Educational Services","=""2430014""","Therapeutic Day Program","Female",*,*
+"Cooperative Educational Services","=""2430014""","Therapeutic Day Program","Male",*,*
+"Area Cooperative Educational Services","=""2440014""","Whitney High School East","Female",*,*
+"Area Cooperative Educational Services","=""2440014""","Whitney High School East","Male",*,*
+"Area Cooperative Educational Services","=""2440014""","Whitney High School North","Female",*,*
+"Area Cooperative Educational Services","=""2440014""","Whitney High School North","Male",*,*
+"Area Cooperative Educational Services","=""2440014""","Whitney High School West","Female",*,*
+"Area Cooperative Educational Services","=""2440014""","Whitney High School West","Male",*,*
+"Learn","=""2450014""","Connecticut River Academy","Male",*,*
+"Learn","=""2450014""","Three Rivers Middle College Magnet School","Female",*,*
+"Learn","=""2450014""","Three Rivers Middle College Magnet School","Male",*,*
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Arts at the Capitol Theater Magnet School (ACT)","Female",*,*
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Arts at the Capitol Theater Magnet School (ACT)","Male",*,*
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","EastConn Special Education","Male",*,*
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Quinebaug Middle College","Female",*,*
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Quinebaug Middle College","Male",*,*
+"Common Ground High School District","=""2680013""","Common Ground High School","Female",*,*
+"Common Ground High School District","=""2680013""","Common Ground High School","Male",65.0,*
+"The Bridge Academy District","=""2690013""","The Bridge Academy","Female",*,*
+"The Bridge Academy District","=""2690013""","The Bridge Academy","Male",*,*
+"Explorations District","=""2720013""","Explorations","Female",*,*
+"Explorations District","=""2720013""","Explorations","Male",*,*
+"Amistad Academy District","=""2790013""","Amistad Academy","Female",*,*
+"Amistad Academy District","=""2790013""","Amistad Academy","Male",*,*
+"Stamford Academy District","=""2820013""","Stamford Academy","Female",*,*
+"Stamford Academy District","=""2820013""","Stamford Academy","Male",*,*
+"Elm City College Preparatory School District","=""2890013""","Elm City College Preparatory School","Female",*,*
+"Elm City College Preparatory School District","=""2890013""","Elm City College Preparatory School","Male",*,*
+"Unified School District #1","=""3360015""","Corrigan/Radgowski Correctional Institution","Male",*,*
+"Unified School District #1","=""3360015""","Manson Youth Institution","Male",*,*
+"Unified School District #1","=""3360015""","Robinson Correctional Institution","Male",*,*
+"Unified School District #2","=""3470015""","Riverview School","Female",*,*
+"Unified School District #2","=""3470015""","Walter G. Cady School","Male",*,*
+"Connecticut Technical High School System","=""9000016""","A. I. Prince Technical High School","Female",64.4,82.1
+"Connecticut Technical High School System","=""9000016""","A. I. Prince Technical High School","Male",36.9,62.5
+"Connecticut Technical High School System","=""9000016""","Bullard-Havens Technical High School","Female",72.5,78.4
+"Connecticut Technical High School System","=""9000016""","Bullard-Havens Technical High School","Male",50.6,65.9
+"Connecticut Technical High School System","=""9000016""","E. C. Goodwin Technical High School","Female",59.5,80.0
+"Connecticut Technical High School System","=""9000016""","E. C. Goodwin Technical High School","Male",37.8,54.8
+"Connecticut Technical High School System","=""9000016""","Eli Whitney Technical High School","Female",34.7,*
+"Connecticut Technical High School System","=""9000016""","Eli Whitney Technical High School","Male",31.4,*
+"Connecticut Technical High School System","=""9000016""","Ella T. Grasso Southeastern Technical High School","Female",50.8,67.7
+"Connecticut Technical High School System","=""9000016""","Ella T. Grasso Southeastern Technical High School","Male",37.3,87.1
+"Connecticut Technical High School System","=""9000016""","Emmett O'Brien Technical High School","Female",46.7,*
+"Connecticut Technical High School System","=""9000016""","Emmett O'Brien Technical High School","Male",40.0,85.3
+"Connecticut Technical High School System","=""9000016""","H. C. Wilcox Technical High School","Female",63.6,81.0
+"Connecticut Technical High School System","=""9000016""","H. C. Wilcox Technical High School","Male",43.2,83.3
+"Connecticut Technical High School System","=""9000016""","H. H. Ellis Technical High School","Female",59.1,*
+"Connecticut Technical High School System","=""9000016""","H. H. Ellis Technical High School","Male",28.6,57.7
+"Connecticut Technical High School System","=""9000016""","Henry Abbott Technical High School","Female",47.1,*
+"Connecticut Technical High School System","=""9000016""","Henry Abbott Technical High School","Male",41.3,71.1
+"Connecticut Technical High School System","=""9000016""","Howell Cheney Technical High School","Female",81.0,*
+"Connecticut Technical High School System","=""9000016""","Howell Cheney Technical High School","Male",45.1,76.9
+"Connecticut Technical High School System","=""9000016""","Norwich Technical High School","Female",60.4,65.6
+"Connecticut Technical High School System","=""9000016""","Norwich Technical High School","Male",32.3,59.4
+"Connecticut Technical High School System","=""9000016""","Oliver Wolcott Technical High School","Female",60.0,66.7
+"Connecticut Technical High School System","=""9000016""","Oliver Wolcott Technical High School","Male",34.5,76.3
+"Connecticut Technical High School System","=""9000016""","Platt Technical High School","Female",51.5,88.6
+"Connecticut Technical High School System","=""9000016""","Platt Technical High School","Male",42.3,82.8
+"Connecticut Technical High School System","=""9000016""","Vinal Technical High School","Female",42.0,76.2
+"Connecticut Technical High School System","=""9000016""","Vinal Technical High School","Male",44.6,70.3
+"Connecticut Technical High School System","=""9000016""","W. F. Kaynor Technical High School","Female",57.5,95.2
+"Connecticut Technical High School System","=""9000016""","W. F. Kaynor Technical High School","Male",48.7,85.7
+"Connecticut Technical High School System","=""9000016""","Windham Technical High School","Female",58.1,72.0
+"Connecticut Technical High School System","=""9000016""","Windham Technical High School","Male",37.9,78.8
+"Norwich Free Academy District","=""9010022""","Norwich Free Academy","Female",77.3,87.9
+"Norwich Free Academy District","=""9010022""","Norwich Free Academy","Male",67.7,83.7
+"The Gilbert School District","=""9020022""","The Gilbert School","Female",83.8,80.6
+"The Gilbert School District","=""9020022""","The Gilbert School","Male",63.6,76.2
+"Woodstock Academy District","=""9030022""","Woodstock Academy","Female",83.7,93.0
+"Woodstock Academy District","=""9030022""","Woodstock Academy","Male",72.9,87.2
 

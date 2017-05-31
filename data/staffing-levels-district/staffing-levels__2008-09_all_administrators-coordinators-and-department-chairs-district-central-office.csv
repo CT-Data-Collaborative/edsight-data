@@ -1,121 +1,181 @@
+"FTE Staffing Report for 2008-09"
 
-
-
-
-
-<!DOCTYPE html>
-
-
-
-
-
-<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
-    
-    
-
-<head>
-    <meta charset="UTF-8" />
-    <title>
-    	
-    		
-    		
-    			SAS&reg; Logon Manager
-    		
-    	
-    </title>
-    <link type="text/css" rel="stylesheet" href="themes/default/css/bootstrap.css" />
-    <link type="text/css" rel="stylesheet" href="themes/default/css/sas.css" />
-</head>
-
-
-
-    <body id="cas">
-        <div id="page">
-            
-
-<div class="banner row">
-    <div class="about">
-        <ul class="unstyled"><li>
-            <a href="#about-modal" data-toggle="modal">
-                About
-            </a>
-        </li></ul>
-    </div>
-    <div id="about-modal" class="modal hide fade">
-        <div class="modal-header">
-            <a href="#" class="close" data-dismiss="modal">&times;</a>
-            <h3>About</h3>
-        </div>
-        <div class="modal-body">
-            <p>Version: 9.4</p>
-            <h4>Copyright Information</h4>
-            <p align="center">
-Copyright (c) 2002 - 2013 by SAS Institute Inc., Cary, NC, USA<br/>
-All rights reserved.<br/>
-<br/>
-This software is protected by copyright laws and international treaties.<br/>
-<br/>
-U.S. GOVERNMENT RESTRICTED RIGHTS<br/>
-Use, duplication, or disclosure of this software and related<br/>
-documentation by the U.S. government is subject to the<br/>
-Agreement with SAS Institute and the restrictions set forth<br/>
-in FAR 52.227-19, Commercial Computer Software<br/>
-- Restricted Rights (June 1987).
-            </p>
-        </div>
-    </div>
-    <div class="header">
-        <div class="title">
-        	<h1>
-        		
-		    		
-		    		
-		    			Sign In to SAS<sup>&reg;</sup>
-		    		
-    			
-        	</h1>
-       	</div>
-        <div class="logo"><img src="themes/default/images/logo.png" /></div>
-    </div>
-</div>
-
-
-            <div class="content row">
-                <div id="msg" class="alert-message message-box success">
-                	
-                		
-                			<h2>Public access has been denied.</h2>
-		                    <p>Public users are not allowed to access this SAS application. The current user has been signed out.</p>
-                		
-                		
-                		
-                    
-                    
-           				<p>For increased security, close your browser.</p>
-           			
-                </div>
-                
-	            	<div class="customizations" id="custom-logoff-message">
-	               		
-
-
-<p>
-</p>
-
-
- 
-
-	                </div>
-	            
-	            
-            </div>
-        </div>
-        
-<script type="text/javascript" src="/SASLogon/js/jquery.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=DD6106ADD827D037F8AF1B47ED582AA9.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-<script type="text/javascript" src="/SASLogon/js/bootstrap-modal.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=DD6106ADD827D037F8AF1B47ED582AA9.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-
-    </body>
-
-</html>
-
+"District","Assignment Category","Educator Type","FTE Count"
+"Andover School District","Administrators  Coordinators and Department Chairs - District Central Office","Certified",0.3
+="Ansonia School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",5.0
+="Area Cooperative Educational Services",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",10.0
+="Avon School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.0
+="Barkhamsted School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.4
+="Berlin School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",6.0
+="Bethany School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.0
+="Bethel School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",5.3
+="Bloomfield School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",6.5
+="Bolton School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.0
+="Bozrah School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.4
+="Branford School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.0
+="Bridgeport School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",29.0
+="Bristol School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",19.1
+="Brookfield School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.6
+="Brooklyn School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.0
+="Canaan School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.4
+="Canterbury School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",2.0
+="Canton School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.0
+="Capitol Region Education Council",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",12.8
+="Chaplin School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.2
+="Cheshire School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",5.0
+="Chester School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.6
+="Clinton School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.5
+="Colchester School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.0
+="Colebrook School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.4
+="Columbia School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.0
+="Connecticut Technical High School System",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",9.0
+="Cooperative Educational Services",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.0
+="Cornwall School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.4
+="Coventry School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",2.0
+="Cromwell School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",2.0
+="Danbury School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",18.0
+="Darien School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",7.2
+="Deep River School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.6
+="Department of Mental Health and Addiction Services",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.0
+="Derby School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",2.0
+="East Granby School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",2.0
+="East Haddam School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.0
+="East Hampton School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.5
+="East Hartford School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",9.0
+="East Haven School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.6
+="East Lyme School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.8
+="East Windsor School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.0
+="Eastern Connecticut Regional Educational Service Center (EASTCONN)",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.0
+="Eastford School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.8
+="Easton School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.0
+="EdAdvance",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",2.0
+="Ellington School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.4
+="Enfield School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",10.3
+="Essex School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.6
+="Fairfield School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",14.0
+="Farmington School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",6.0
+="Franklin School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.1
+="Glastonbury School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",10.4
+="Granby School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",5.0
+="Greenwich School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",20.5
+="Griswold School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.4
+="Groton School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",10.0
+="Guilford School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.4
+="Hamden School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",10.0
+="Hampton School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.2
+="Hartford School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",27.0
+="Hartland School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.4
+="Hebron School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.0
+="Kent School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.4
+="Killingly School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",5.0
+="Learn",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.0
+="Lebanon School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",2.0
+="Ledyard School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.0
+="Lisbon School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.5
+="Litchfield School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.4
+="Madison School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",2.0
+="Manchester School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",12.6
+="Mansfield School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.4
+="Marlborough School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.0
+="Meriden School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",17.0
+="Middletown School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",8.2
+="Milford School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",9.8
+="Monroe School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.0
+="Montville School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.0
+="Naugatuck School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",7.0
+="New Britain School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",15.5
+="New Canaan School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",10.0
+="New Fairfield School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.0
+="New Hartford School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",2.0
+="New Haven School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",36.8
+="New London School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",7.9
+="New Milford School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.0
+="Newington School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",6.0
+="Newtown School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",5.6
+="Norfolk School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.4
+="North Branford School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.0
+="North Canaan School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.4
+="North Haven School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",5.0
+="North Stonington School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.0
+="Norwalk School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",17.0
+="Norwich School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.0
+="Office of Early Childhood (OEC)",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.0
+="Old Saybrook School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.0
+="Orange School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",2.5
+="Oxford School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.0
+="Plainfield School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.0
+="Plainville School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",6.0
+="Plymouth School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",5.0
+="Pomfret School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.6
+="Portland School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.0
+="Preston School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",2.0
+="Project Oceanology",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.0
+="Putnam School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.9
+="Redding School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.0
+="Regional School District 01",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.6
+="Regional School District 04",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",2.0
+="Regional School District 05",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",6.0
+="Regional School District 06",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.0
+="Regional School District 07",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",2.0
+="Regional School District 08",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",2.0
+="Regional School District 09",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.0
+="Regional School District 10",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",5.0
+="Regional School District 11",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.4
+="Regional School District 12",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.0
+="Regional School District 13",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.0
+="Regional School District 14",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.0
+="Regional School District 15",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",5.0
+="Regional School District 16",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.0
+="Regional School District 17",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",2.8
+="Regional School District 18",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.0
+="Regional School District 19",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.0
+="Ridgefield School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",6.0
+="Rocky Hill School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",5.0
+="Salem School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.5
+="Salisbury School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.4
+="Scotland School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.5
+="Seymour School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.0
+="Sharon School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.4
+="Shelton School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",12.3
+="Sherman School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.5
+="Simsbury School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",6.0
+="Somers School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",5.0
+="South Windsor School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.5
+="Southington School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",9.0
+="Sprague School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.2
+="Stafford School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.0
+="Stamford School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",22.0
+="Sterling School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.4
+="Stonington School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",5.0
+="Stratford School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",12.0
+="Suffield School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",5.0
+="Thomaston School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.0
+="Thompson School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.0
+="Tolland School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",6.0
+="Torrington School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",7.0
+="Trumbull School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",5.0
+="Unified School District #1",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.8
+="Unified School District #2",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.0
+="Union School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.4
+="Vernon School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",10.5
+="Voluntown School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.4
+="Wallingford School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.0
+="Waterbury School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",20.0
+="Waterford School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.0
+="Watertown School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.1
+="West Hartford School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",15.9
+="West Haven School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",8.5
+="Westbrook School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",2.0
+="Weston School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.0
+="Westport School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.7
+="Wethersfield School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",8.0
+="Willington School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",2.0
+="Wilton School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",6.0
+="Winchester School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",2.5
+="Windham School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",8.5
+="Windsor Locks School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.0
+="Windsor School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",14.0
+="Wolcott School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",5.0
+="Woodbridge School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.0
+="Woodstock School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",2.6
 

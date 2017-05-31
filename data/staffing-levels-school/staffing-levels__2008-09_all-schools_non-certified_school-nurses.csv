@@ -215,7 +215,7 @@
 ,="Robert J. O'Brien School",="School Nurses",="Non-Certified",1.0
 ,="Silver Lane School",="School Nurses",="Non-Certified",1.0
 ,="Stevens Alternate High School",="School Nurses",="Non-Certified",1.0
-,="Sunset Ridge School Elementary Academy for Arts and World Languages",="School Nurses",="Non-Certified",1.0
+,="Sunset Ridge Middle School",="School Nurses",="Non-Certified",1.0
 ="East Haven School District",="Carbone School/East Haven Academy",="School Nurses",="Non-Certified",1.0
 ,="D. C. Moore School",="School Nurses",="Non-Certified",1.0
 ,="Deer Run School",="School Nurses",="Non-Certified",1.0
@@ -346,9 +346,10 @@
 ,="Spring Glen School",="School Nurses",="Non-Certified",1.0
 ,="West Woods School",="School Nurses",="Non-Certified",1.0
 ="Hampton School District",="Hampton Elementary School",="School Nurses",="Non-Certified",1.0
-="Hartford School District",="Asian Studies Academy",="School Nurses",="Non-Certified",2.0
+="Hartford School District",="Asian Studies Academy at Bellizzi School",="School Nurses",="Non-Certified",2.0
 ,="Batchelder School",="School Nurses",="Non-Certified",1.0
-,="Breakthrough II Elementary School",="School Nurses",="Non-Certified",1.0
+,="Betances Early Reading Lab Magnet School",="School Nurses",="Non-Certified",1.0
+,="Breakthrough II Magnet School",="School Nurses",="Non-Certified",1.0
 ,="Breakthrough Magnet School",="School Nurses",="Non-Certified",1.0
 ,="Bulkeley High School Lower School",="School Nurses",="Non-Certified",1.0
 ,="Burns Latino Studies Academy",="School Nurses",="Non-Certified",1.0
@@ -358,7 +359,6 @@
 ,="Classical Magnet School",="School Nurses",="Non-Certified",1.0
 ,="Culinary Arts Academy at Weaver High School",="School Nurses",="Non-Certified",1.0
 ,="Dr. Joseph Bellizzi Middle School",="School Nurses",="Non-Certified",1.0
-,="Dr. Ramon E. Betances Early Reading Lab",="School Nurses",="Non-Certified",1.0
 ,="Environmental Sciences Magnet at Hooker School",="School Nurses",="Non-Certified",1.0
 ,="Expeditionary Learning Academy at Moylan School",="School Nurses",="Non-Certified",2.0
 ,="Fox Middle School",="School Nurses",="Non-Certified",1.0
@@ -366,23 +366,23 @@
 ,="Hartford Magnet Trinity College Academy",="School Nurses",="Non-Certified",1.0
 ,="Hartford Public High School",="School Nurses",="Non-Certified",2.0
 ,="Kennelly School",="School Nurses",="Non-Certified",1.0
+,="Kinsella Magnet School of Performing Arts",="School Nurses",="Non-Certified",1.0
 ,="M. D. Fox School",="School Nurses",="Non-Certified",1.0
 ,="M. L. King, Jr. School",="School Nurses",="Non-Certified",1.0
 ,="McDonough Middle School",="School Nurses",="Non-Certified",1.0
 ,="Milner School",="School Nurses",="Non-Certified",1.0
-,="Montessori Magnet School at Annie Fisher",="School Nurses",="Non-Certified",1.0
+,="Montessori Magnet at Fisher School",="School Nurses",="Non-Certified",1.0
 ,="Naylor/CCSU Leadership Academy",="School Nurses",="Non-Certified",1.0
 ,="Parkville Community School",="School Nurses",="Non-Certified",1.0
 ,="Pathways Academy of Technology and Design",="School Nurses",="Non-Certified",1.0
 ,="Quirk Middle School",="School Nurses",="Non-Certified",1.0
-,="R.J. Kinsella Magnet School of Performing Arts",="School Nurses",="Non-Certified",1.0
 ,="Rawson School",="School Nurses",="Non-Certified",1.0
 ,="SAND School",="School Nurses",="Non-Certified",2.0
 ,="STEM Magnet at Fisher School",="School Nurses",="Non-Certified",1.0
 ,="Sanchez School",="School Nurses",="Non-Certified",1.0
 ,="Simpson-Waverly School",="School Nurses",="Non-Certified",1.0
 ,="Sports and Medical Sciences Academy",="School Nurses",="Non-Certified",1.0
-,="University High of Science and Engineering",="School Nurses",="Non-Certified",1.0
+,="University High School of Science and Engineering",="School Nurses",="Non-Certified",1.0
 ,="Weaver High School",="School Nurses",="Non-Certified",2.0
 ,="Webster Micro Society Magnet School",="School Nurses",="Non-Certified",1.0
 ,="West Middle School",="School Nurses",="Non-Certified",1.0
@@ -436,7 +436,7 @@
 ,="Washington School",="School Nurses",="Non-Certified",1.0
 ="Mansfield School District",="Annie E. Vinton School",="School Nurses",="Non-Certified",1.0
 ,="Dorothy C. Goodwin School",="School Nurses",="Non-Certified",1.0
-,="Mansfield Middle School School",="School Nurses",="Non-Certified",1.0
+,="Mansfield Middle School",="School Nurses",="Non-Certified",1.0
 ,="Southeast Elementary School",="School Nurses",="Non-Certified",1.0
 ="Marlborough School District",="Elmer Thienes-Mary Hall Elementary School",="School Nurses",="Non-Certified",1.0
 ="Meriden School District",="Nathan Hale School",="School Nurses",="Non-Certified",1.0
@@ -499,7 +499,7 @@
 ,="Naugatuck High School",="School Nurses",="Non-Certified",4.0
 ,="Salem School",="School Nurses",="Non-Certified",1.0
 ,="Western School",="School Nurses",="Non-Certified",1.0
-="New Beginnings Inc Family Academy District",="New Beginnings Inc., Family Academy",="School Nurses",="Non-Certified",1.0
+="New Beginnings Inc Family Academy District",="New Beginnings Inc Family Academy",="School Nurses",="Non-Certified",1.0
 ="New Britain School District",="Chamberlain Elementary School",="School Nurses",="Non-Certified",1.0
 ,="Frank J. DiLoreto School",="School Nurses",="Non-Certified",1.0
 ,="Gaffney School",="School Nurses",="Non-Certified",3.0
@@ -534,10 +534,9 @@
 ,="Beecher School",="School Nurses",="Non-Certified",0.7
 ,="Benjamin Jepson Magnet School",="School Nurses",="Non-Certified",0.8
 ,="Betsy Ross Arts Magnet School",="School Nurses",="Non-Certified",0.8
-,="Bishop Woods School",="School Nurses",="Non-Certified",0.7
+,="Bishop Woods Architecture and Design Magnet School",="School Nurses",="Non-Certified",0.7
 ,="Celentano BioTech, Health and Medical Magnet School",="School Nurses",="Non-Certified",1.0
 ,="Clarence Rogers School",="School Nurses",="Non-Certified",0.2
-,="Clemente Leadership Academy",="School Nurses",="Non-Certified",0.5
 ,="Clinton Avenue School",="School Nurses",="Non-Certified",0.9
 ,="Columbus Family Academy",="School Nurses",="Non-Certified",0.8
 ,="Conte/West Hills Magnet School",="School Nurses",="Non-Certified",0.9
@@ -552,7 +551,7 @@
 ,="Hill Regional Career High School",="School Nurses",="Non-Certified",1.0
 ,="James Hillhouse High School",="School Nurses",="Non-Certified",1.6
 ,="John C. Daniels",="School Nurses",="Non-Certified",0.9
-,="John S. Martinez School",="School Nurses",="Non-Certified",0.8
+,="John S. Martinez Sea and Sky STEM School",="School Nurses",="Non-Certified",0.8
 ,="Katherine Brennan School",="School Nurses",="Non-Certified",0.4
 ,="King/Robinson Magnet School",="School Nurses",="Non-Certified",0.8
 ,="Lincoln-Bassett School",="School Nurses",="Non-Certified",0.8
@@ -560,6 +559,7 @@
 ,="New Haven Academy",="School Nurses",="Non-Certified",0.5
 ,="Polly T. McCabe Center",="School Nurses",="Non-Certified",0.1
 ,="Riverside Education Academy",="School Nurses",="Non-Certified",0.2
+,="Roberto Clemente Leadership Academy for Global Awareness",="School Nurses",="Non-Certified",0.5
 ,="Ross/Woodward School",="School Nurses",="Non-Certified",1.0
 ,="Sheridan Communications and Technology Magnet School",="School Nurses",="Non-Certified",0.4
 ,="Sound School",="School Nurses",="Non-Certified",0.2

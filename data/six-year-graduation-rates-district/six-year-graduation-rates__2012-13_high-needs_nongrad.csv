@@ -1,183 +1,279 @@
-<html><head><title>VMware vFabric tc Runtime 2.8.0.RELEASE/7.0.30.A.RELEASE - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 500 - Unable to find local session...</h1><HR size="1" noshade="noshade"><p><b>type</b> Exception report</p><p><b>message</b> <u>Unable to find local session...</u></p><p><b>description</b> <u>The server encountered an internal error that prevented it from fulfilling this request.</u></p><p><b>exception</b> <pre>java.lang.IllegalStateException: Unable to find local session...
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:187)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:218)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:206)
-	com.sas.svcs.webapp.servlet.filters.LocalPlatformServicesFilter.onDoFilter(LocalPlatformServicesFilter.java:96)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:311)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:116)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.TgtKeepAliveFilter.doFilterInternal(TgtKeepAliveFilter.java:59)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:45)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.SessionIdentifierFilter.doFilterInternal(SessionIdentifierFilter.java:38)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:182)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.session.jasig.SingleSignOutFilter.doFilterInternal(SingleSignOutFilter.java:60)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.RevokableTokenLogoutFilter.doFilter(RevokableTokenLogoutFilter.java:38)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.CsrfRefererCheckerFilter.doFilterInternal(CsrfRefererCheckerFilter.java:469)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.framework.webapp.servlet.ApplicationNameFilter.onDoFilter(ApplicationNameFilter.java:46)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:173)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.services.storedprocess.webapp.SPFilter.onDoFilter(SPFilter.java:268)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.servlet.filters.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:62)
-	com.sas.framework.webapp.servlet.SanitizingRequestFilter.onDoFilter(SanitizingRequestFilter.java:86)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-</pre></p><p><b>root cause</b> <pre>com.sas.svcs.authentication.helper.TrustedAuthenticationException: com.sas.services.ServiceException: com.sas.services.connection.FatalConnectionFactoryException:The application could not log on to the server &quot;sdemeta.sys.services.ct.gov:8561&quot;.  org.omg.CORBA.COMM_FAILURE:The application could not log on to the server &quot;sdemeta.sys.services.ct.gov:8561&quot;.  java.net.BindException:Address already in use: connect  
-	com.sas.svcs.authentication.helper.TrustedUserFactory.create(TrustedUserFactory.java:97)
-	com.sas.svcs.authentication.helper.UserSessionFactory.createAndLockLocalSession(UserSessionFactory.java:386)
-	com.sas.svcs.authentication.helper.UserSessionFactory.createLockAndSaveLocalSession(UserSessionFactory.java:354)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:176)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:218)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:206)
-	com.sas.svcs.webapp.servlet.filters.LocalPlatformServicesFilter.onDoFilter(LocalPlatformServicesFilter.java:96)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:311)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:116)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.TgtKeepAliveFilter.doFilterInternal(TgtKeepAliveFilter.java:59)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:45)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.SessionIdentifierFilter.doFilterInternal(SessionIdentifierFilter.java:38)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:182)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.session.jasig.SingleSignOutFilter.doFilterInternal(SingleSignOutFilter.java:60)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.RevokableTokenLogoutFilter.doFilter(RevokableTokenLogoutFilter.java:38)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.CsrfRefererCheckerFilter.doFilterInternal(CsrfRefererCheckerFilter.java:469)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.framework.webapp.servlet.ApplicationNameFilter.onDoFilter(ApplicationNameFilter.java:46)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:173)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.services.storedprocess.webapp.SPFilter.onDoFilter(SPFilter.java:268)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.servlet.filters.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:62)
-	com.sas.framework.webapp.servlet.SanitizingRequestFilter.onDoFilter(SanitizingRequestFilter.java:86)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-</pre></p><p><b>root cause</b> <pre>com.sas.services.ServiceException: com.sas.services.connection.FatalConnectionFactoryException:The application could not log on to the server &quot;sdemeta.sys.services.ct.gov:8561&quot;.  org.omg.CORBA.COMM_FAILURE:The application could not log on to the server &quot;sdemeta.sys.services.ct.gov:8561&quot;.  java.net.BindException:Address already in use: connect  
-	com.sas.services.information.OMIServer.attemptConnection(OMIServer.java:1372)
-	com.sas.services.information.OMIServer.connect(OMIServer.java:384)
-	com.sas.services.information.InformationService.makeServer(InformationService.java:3406)
-	com.sas.services.information.InformationService.connect(InformationService.java:3252)
-	com.sas.services.information.InformationServiceProxy.connect(InformationServiceProxy.java:1535)
-	com.sas.services.user.UserContext.initializeFromSubject(UserContext.java:2698)
-	com.sas.services.user.UserService.newAuthenticatedUser(UserService.java:2311)
-	com.sas.services.user.UserService.newRemoteUser(UserService.java:2201)
-	com.sas.services.user.UserServiceProxy.newRemoteUser(UserServiceProxy.java:1303)
-	com.sas.services.user.SubjectAuthenticator.newAuthenticatedUser(SubjectAuthenticator.java:150)
-	com.sas.services.user.SubjectAuthenticator.newAuthenticatedUser(SubjectAuthenticator.java:60)
-	com.sas.svcs.authentication.helper.TrustedUserFactory.create(TrustedUserFactory.java:86)
-	com.sas.svcs.authentication.helper.UserSessionFactory.createAndLockLocalSession(UserSessionFactory.java:386)
-	com.sas.svcs.authentication.helper.UserSessionFactory.createLockAndSaveLocalSession(UserSessionFactory.java:354)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:176)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:218)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:206)
-	com.sas.svcs.webapp.servlet.filters.LocalPlatformServicesFilter.onDoFilter(LocalPlatformServicesFilter.java:96)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:311)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:116)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.TgtKeepAliveFilter.doFilterInternal(TgtKeepAliveFilter.java:59)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:45)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.SessionIdentifierFilter.doFilterInternal(SessionIdentifierFilter.java:38)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:182)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.session.jasig.SingleSignOutFilter.doFilterInternal(SingleSignOutFilter.java:60)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.RevokableTokenLogoutFilter.doFilter(RevokableTokenLogoutFilter.java:38)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.CsrfRefererCheckerFilter.doFilterInternal(CsrfRefererCheckerFilter.java:469)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.framework.webapp.servlet.ApplicationNameFilter.onDoFilter(ApplicationNameFilter.java:46)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:173)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.services.storedprocess.webapp.SPFilter.onDoFilter(SPFilter.java:268)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.servlet.filters.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:62)
-	com.sas.framework.webapp.servlet.SanitizingRequestFilter.onDoFilter(SanitizingRequestFilter.java:86)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-</pre></p><p><b>note</b> <u>The full stack trace of the root cause is available in the VMware vFabric tc Runtime 2.8.0.RELEASE/7.0.30.A.RELEASE logs.</u></p><HR size="1" noshade="noshade"><h3>VMware vFabric tc Runtime 2.8.0.RELEASE/7.0.30.A.RELEASE</h3></body></html>
+"Six-Year Graduation Rates, 2012-13"
+"All Districts, High Needs Status"
+
+"",,,,"Non-Graduates",,,
+"District","District Code","High Needs Status","Six-Year Cohort Count","Still Enrolled Count","Still Enrolled Rate","Other Count","Other Rate"
+"Amistad Academy District","=""2790013""","High Needs","*","*","*","*","*"
+"Amistad Academy District","=""2790013""","Non-High Needs","*","*","*","*","*"
+"Ansonia School District","=""0020011""","High Needs",157,"*","*","*","*"
+"Ansonia School District","=""0020011""","Non-High Needs",54,"*","*","*","*"
+"Avon School District","=""0040011""","High Needs",47,"*","*","*","*"
+"Avon School District","=""0040011""","Non-High Needs",216,"*","*",0,0.0
+"Berlin School District","=""0070011""","High Needs",52,"*","*","*","*"
+"Berlin School District","=""0070011""","Non-High Needs",211,0,0.0,"*","*"
+"Bethel School District","=""0090011""","High Needs",60,"*","*","*","*"
+"Bethel School District","=""0090011""","Non-High Needs",173,0,0.0,0,0.0
+"Bloomfield School District","=""0110011""","High Needs",93,"*","*","*","*"
+"Bloomfield School District","=""0110011""","Non-High Needs",66,0,0.0,"*","*"
+"Bolton School District","=""0120011""","High Needs",22,"*","*","*","*"
+"Bolton School District","=""0120011""","Non-High Needs",61,0,0.0,"*","*"
+"Branford School District","=""0140011""","High Needs",83,"*","*","*","*"
+"Branford School District","=""0140011""","Non-High Needs",188,"*","*","*","*"
+"Bridgeport School District","=""0150011""","High Needs",1202,11,0.9,"*","*"
+"Bridgeport School District","=""0150011""","Non-High Needs",9,0,"*","*","*"
+"Bristol School District","=""0170011""","High Needs",302,"*","*","*","*"
+"Bristol School District","=""0170011""","Non-High Needs",328,"*","*","*","*"
+"Brookfield School District","=""0180011""","High Needs",41,0,0.0,"*","*"
+"Brookfield School District","=""0180011""","Non-High Needs",199,0,0.0,"*","*"
+"Canton School District","=""0230011""","High Needs",32,"*","*",0,0.0
+"Canton School District","=""0230011""","Non-High Needs",92,0,0.0,0,0.0
+"Capitol Region Education Council","=""2410014""","High Needs",160,6,3.8,29,18.1
+"Capitol Region Education Council","=""2410014""","Non-High Needs",103,0,0.0,9,8.7
+"Cheshire School District","=""0250011""","High Needs",88,"*","*","*","*"
+"Cheshire School District","=""0250011""","Non-High Needs",296,0,0.0,"*","*"
+"Clinton School District","=""0270011""","High Needs",52,0,0.0,"*","*"
+"Clinton School District","=""0270011""","Non-High Needs",91,"*","*","*","*"
+"Colchester School District","=""0280011""","High Needs",55,"*","*","*","*"
+"Colchester School District","=""0280011""","Non-High Needs",198,"*","*","*","*"
+"Common Ground High School District","=""2680013""","High Needs",30,0,0.0,"*","*"
+"Common Ground High School District","=""2680013""","Non-High Needs",8,0,"*",0,"*"
+"Connecticut Technical High School System","=""9000016""","High Needs",1441,0,0.0,56,3.9
+"Connecticut Technical High School System","=""9000016""","Non-High Needs",1032,0,0.0,17,1.6
+"Coventry School District","=""0320011""","High Needs",43,"*","*","*","*"
+"Coventry School District","=""0320011""","Non-High Needs",95,0,0.0,"*","*"
+"Cromwell School District","=""0330011""","High Needs",41,0,0.0,"*","*"
+"Cromwell School District","=""0330011""","Non-High Needs",99,0,0.0,"*","*"
+"Danbury School District","=""0340011""","High Needs",441,6,1.4,89,20.2
+"Danbury School District","=""0340011""","Non-High Needs",333,0,0.0,17,5.1
+"Darien School District","=""0350011""","High Needs",45,"*","*","*","*"
+"Darien School District","=""0350011""","Non-High Needs",271,"*","*","*","*"
+"Department of Mental Health and Addiction Services","=""3370015""","High Needs","*","*","*","*","*"
+"Derby School District","=""0370011""","High Needs",53,"*","*","*","*"
+"Derby School District","=""0370011""","Non-High Needs",31,0,0.0,"*","*"
+"East Granby School District","=""0400011""","High Needs",11,0,"*",0,"*"
+"East Granby School District","=""0400011""","Non-High Needs",59,"*","*",0,0.0
+"East Haddam School District","=""0410011""","High Needs",23,0,0.0,"*","*"
+"East Haddam School District","=""0410011""","Non-High Needs",75,0,0.0,0,0.0
+"East Hampton School District","=""0420011""","High Needs",27,"*","*","*","*"
+"East Hampton School District","=""0420011""","Non-High Needs",105,0,0.0,"*","*"
+"East Hartford School District","=""0430011""","High Needs",415,"*","*","*","*"
+"East Hartford School District","=""0430011""","Non-High Needs",129,0,0.0,"*","*"
+"East Haven School District","=""0440011""","High Needs",139,"*","*","*","*"
+"East Haven School District","=""0440011""","Non-High Needs",107,"*","*","*","*"
+"East Lyme School District","=""0450011""","High Needs",70,"*","*","*","*"
+"East Lyme School District","=""0450011""","Non-High Needs",240,0,0.0,"*","*"
+"East Windsor School District","=""0470011""","High Needs",49,"*","*","*","*"
+"East Windsor School District","=""0470011""","Non-High Needs",43,0,0.0,"*","*"
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","High Needs",40,"*","*","*","*"
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Non-High Needs",33,0,0.0,"*","*"
+"Ellington School District","=""0480011""","High Needs",39,"*","*","*","*"
+"Ellington School District","=""0480011""","Non-High Needs",159,0,0.0,"*","*"
+"Elm City College Preparatory School District","=""2890013""","High Needs","*","*","*","*","*"
+"Elm City College Preparatory School District","=""2890013""","Non-High Needs","*","*","*","*","*"
+"Enfield School District","=""0490011""","High Needs",170,"*","*","*","*"
+"Enfield School District","=""0490011""","Non-High Needs",273,0,0.0,"*","*"
+"Explorations District","=""2720013""","High Needs",17,0,"*","*","*"
+"Explorations District","=""2720013""","Non-High Needs",13,0,"*","*","*"
+"Fairfield School District","=""0510011""","High Needs",179,"*","*","*","*"
+"Fairfield School District","=""0510011""","Non-High Needs",526,"*","*","*","*"
+"Farmington School District","=""0520011""","High Needs",63,"*","*","*","*"
+"Farmington School District","=""0520011""","Non-High Needs",262,0,0.0,0,0.0
+"Glastonbury School District","=""0540011""","High Needs",92,"*","*","*","*"
+"Glastonbury School District","=""0540011""","Non-High Needs",459,0,0.0,"*","*"
+"Granby School District","=""0560011""","High Needs",27,0,0.0,"*","*"
+"Granby School District","=""0560011""","Non-High Needs",168,"*","*","*","*"
+"Greenwich School District","=""0570011""","High Needs",188,"*","*","*","*"
+"Greenwich School District","=""0570011""","Non-High Needs",501,0,0.0,"*","*"
+"Griswold School District","=""0580011""","High Needs",74,0,0.0,"*","*"
+"Griswold School District","=""0580011""","Non-High Needs",95,"*","*","*","*"
+"Groton School District","=""0590011""","High Needs",150,6,4.0,31,20.7
+"Groton School District","=""0590011""","Non-High Needs",179,0,0.0,14,7.8
+"Guilford School District","=""0600011""","High Needs",57,"*","*","*","*"
+"Guilford School District","=""0600011""","Non-High Needs",222,0,0.0,"*","*"
+"Hamden School District","=""0620011""","High Needs",225,"*","*","*","*"
+"Hamden School District","=""0620011""","Non-High Needs",223,"*","*","*","*"
+"Hartford School District","=""0640011""","High Needs",1292,18,1.4,298,23.1
+"Hartford School District","=""0640011""","Non-High Needs",148,0,0.0,7,4.7
+"Killingly School District","=""0690011""","High Needs",127,"*","*","*","*"
+"Killingly School District","=""0690011""","Non-High Needs",96,"*","*","*","*"
+"Learn","=""2450014""","High Needs",30,0,0.0,0,0.0
+"Learn","=""2450014""","Non-High Needs",12,0,"*","*","*"
+"Lebanon School District","=""0710011""","High Needs",33,0,0.0,"*","*"
+"Lebanon School District","=""0710011""","Non-High Needs",85,"*","*","*","*"
+"Ledyard School District","=""0720011""","High Needs",73,"*","*","*","*"
+"Ledyard School District","=""0720011""","Non-High Needs",156,0,0.0,"*","*"
+"Lisbon School District","=""0730011""","High Needs","*","*","*","*","*"
+"Lisbon School District","=""0730011""","Non-High Needs","*","*","*","*","*"
+"Litchfield School District","=""0740011""","High Needs",20,"*","*","*","*"
+"Litchfield School District","=""0740011""","Non-High Needs",69,0,0.0,0,0.0
+"Madison School District","=""0760011""","High Needs",47,0,0.0,0,0.0
+"Madison School District","=""0760011""","Non-High Needs",268,0,0.0,0,0.0
+"Manchester School District","=""0770011""","High Needs",280,"*","*","*","*"
+"Manchester School District","=""0770011""","Non-High Needs",190,0,0.0,"*","*"
+"Meriden School District","=""0800011""","High Needs",449,13,2.9,130,29.0
+"Meriden School District","=""0800011""","Non-High Needs",176,0,0.0,11,6.3
+"Middletown School District","=""0830011""","High Needs",210,"*","*","*","*"
+"Middletown School District","=""0830011""","Non-High Needs",164,0,0.0,"*","*"
+"Milford School District","=""0840011""","High Needs",214,"*","*","*","*"
+"Milford School District","=""0840011""","Non-High Needs",310,"*","*","*","*"
+"Monroe School District","=""0850011""","High Needs",70,0,0.0,"*","*"
+"Monroe School District","=""0850011""","Non-High Needs",240,0,0.0,"*","*"
+"Montville School District","=""0860011""","High Needs",83,"*","*","*","*"
+"Montville School District","=""0860011""","Non-High Needs",104,0,0.0,"*","*"
+"Naugatuck School District","=""0880011""","High Needs",176,"*","*","*","*"
+"Naugatuck School District","=""0880011""","Non-High Needs",156,"*","*","*","*"
+"New Britain School District","=""0890011""","High Needs",550,9,1.6,180,32.7
+"New Britain School District","=""0890011""","Non-High Needs",95,0,0.0,14,14.7
+"New Canaan School District","=""0900011""","High Needs",48,"*","*","*","*"
+"New Canaan School District","=""0900011""","Non-High Needs",291,"*","*","*","*"
+"New Fairfield School District","=""0910011""","High Needs",57,0,0.0,"*","*"
+"New Fairfield School District","=""0910011""","Non-High Needs",201,0,0.0,"*","*"
+"New Haven School District","=""0930011""","High Needs",1172,11,0.9,254,21.7
+"New Haven School District","=""0930011""","Non-High Needs",132,0,0.0,27,20.5
+"New London School District","=""0950011""","High Needs","*","*","*","*","*"
+"New London School District","=""0950011""","Non-High Needs","*","*","*","*","*"
+"New Milford School District","=""0960011""","High Needs",109,6,5.5,18,16.5
+"New Milford School District","=""0960011""","Non-High Needs",281,0,0.0,15,5.3
+"Newington School District","=""0940011""","High Needs",127,"*","*","*","*"
+"Newington School District","=""0940011""","Non-High Needs",248,0,0.0,"*","*"
+"Newtown School District","=""0970011""","High Needs",74,"*","*","*","*"
+"Newtown School District","=""0970011""","Non-High Needs",396,"*","*","*","*"
+"North Branford School District","=""0990011""","High Needs",50,"*","*","*","*"
+"North Branford School District","=""0990011""","Non-High Needs",120,0,0.0,0,0.0
+"North Haven School District","=""1010011""","High Needs",98,"*","*","*","*"
+"North Haven School District","=""1010011""","Non-High Needs",213,"*","*","*","*"
+"North Stonington School District","=""1020011""","High Needs",13,0,"*","*","*"
+"North Stonington School District","=""1020011""","Non-High Needs",35,0,0.0,"*","*"
+"Norwalk School District","=""1030011""","High Needs",413,0,0.0,78,18.9
+"Norwalk School District","=""1030011""","Non-High Needs",366,0,0.0,18,4.9
+"Norwich Free Academy District","=""9010022""","High Needs",280,"*","*","*","*"
+"Norwich Free Academy District","=""9010022""","Non-High Needs",306,"*","*","*","*"
+"Old Saybrook School District","=""1060011""","High Needs",32,"*","*","*","*"
+"Old Saybrook School District","=""1060011""","Non-High Needs",107,0,0.0,"*","*"
+"Oxford School District","=""1080011""","High Needs",24,"*","*","*","*"
+"Oxford School District","=""1080011""","Non-High Needs",131,0,0.0,"*","*"
+"Plainfield School District","=""1090011""","High Needs",95,"*","*","*","*"
+"Plainfield School District","=""1090011""","Non-High Needs",103,0,0.0,"*","*"
+"Plainville School District","=""1100011""","High Needs",81,"*","*","*","*"
+"Plainville School District","=""1100011""","Non-High Needs",126,"*","*","*","*"
+"Plymouth School District","=""1110011""","High Needs",47,"*","*","*","*"
+"Plymouth School District","=""1110011""","Non-High Needs",80,0,0.0,"*","*"
+"Portland School District","=""1130011""","High Needs",23,0,0.0,"*","*"
+"Portland School District","=""1130011""","Non-High Needs",70,0,0.0,"*","*"
+"Putnam School District","=""1160011""","High Needs",62,"*","*","*","*"
+"Putnam School District","=""1160011""","Non-High Needs",35,0,0.0,"*","*"
+"Regional School District 01","=""2010012""","High Needs",41,0,0.0,"*","*"
+"Regional School District 01","=""2010012""","Non-High Needs",68,0,0.0,"*","*"
+"Regional School District 04","=""2040012""","High Needs",40,"*","*","*","*"
+"Regional School District 04","=""2040012""","Non-High Needs",122,0,0.0,"*","*"
+"Regional School District 05","=""2050012""","High Needs",60,"*","*","*","*"
+"Regional School District 05","=""2050012""","Non-High Needs",334,"*","*","*","*"
+"Regional School District 06","=""2060012""","High Needs",20,0,0.0,"*","*"
+"Regional School District 06","=""2060012""","Non-High Needs",76,0,0.0,"*","*"
+"Regional School District 07","=""2070012""","High Needs",40,"*","*",0,0.0
+"Regional School District 07","=""2070012""","Non-High Needs",154,"*","*","*","*"
+"Regional School District 08","=""2080012""","High Needs",61,"*","*","*","*"
+"Regional School District 08","=""2080012""","Non-High Needs",224,"*","*","*","*"
+"Regional School District 09","=""2090012""","High Needs",39,0,0.0,"*","*"
+"Regional School District 09","=""2090012""","Non-High Needs",199,"*","*","*","*"
+"Regional School District 10","=""2100012""","High Needs",41,"*","*","*","*"
+"Regional School District 10","=""2100012""","Non-High Needs",157,0,0.0,"*","*"
+"Regional School District 11","=""2110012""","High Needs",20,"*","*","*","*"
+"Regional School District 11","=""2110012""","Non-High Needs",24,0,0.0,"*","*"
+"Regional School District 12","=""2120012""","High Needs",23,"*","*","*","*"
+"Regional School District 12","=""2120012""","Non-High Needs",65,0,0.0,"*","*"
+"Regional School District 13","=""2130012""","High Needs",38,"*","*","*","*"
+"Regional School District 13","=""2130012""","Non-High Needs",122,0,0.0,"*","*"
+"Regional School District 14","=""2140012""","High Needs",46,"*","*","*","*"
+"Regional School District 14","=""2140012""","Non-High Needs",154,0,0.0,"*","*"
+"Regional School District 15","=""2150012""","High Needs",64,"*","*","*","*"
+"Regional School District 15","=""2150012""","Non-High Needs",255,"*","*","*","*"
+"Regional School District 16","=""2160012""","High Needs",51,"*","*","*","*"
+"Regional School District 16","=""2160012""","Non-High Needs",135,0,0.0,"*","*"
+"Regional School District 17","=""2170012""","High Needs",38,"*","*","*","*"
+"Regional School District 17","=""2170012""","Non-High Needs",126,"*","*",0,0.0
+"Regional School District 18","=""2180012""","High Needs",22,0,0.0,"*","*"
+"Regional School District 18","=""2180012""","Non-High Needs",90,0,0.0,0,0.0
+"Regional School District 19","=""2190012""","High Needs",98,"*","*","*","*"
+"Regional School District 19","=""2190012""","Non-High Needs",216,"*","*","*","*"
+"Ridgefield School District","=""1180011""","High Needs",58,"*","*","*","*"
+"Ridgefield School District","=""1180011""","Non-High Needs",356,0,0.0,"*","*"
+"Rocky Hill School District","=""1190011""","High Needs",43,"*","*","*","*"
+"Rocky Hill School District","=""1190011""","Non-High Needs",133,"*","*","*","*"
+"Seymour School District","=""1240011""","High Needs",70,"*","*","*","*"
+"Seymour School District","=""1240011""","Non-High Needs",110,0,0.0,"*","*"
+"Shelton School District","=""1260011""","High Needs",123,"*","*","*","*"
+"Shelton School District","=""1260011""","Non-High Needs",272,0,0.0,"*","*"
+"Simsbury School District","=""1280011""","High Needs",81,"*","*","*","*"
+"Simsbury School District","=""1280011""","Non-High Needs",323,0,0.0,"*","*"
+"Somers School District","=""1290011""","High Needs",26,0,0.0,"*","*"
+"Somers School District","=""1290011""","Non-High Needs",121,0,0.0,"*","*"
+"South Windsor School District","=""1320011""","High Needs",80,"*","*","*","*"
+"South Windsor School District","=""1320011""","Non-High Needs",305,"*","*","*","*"
+"Southington School District","=""1310011""","High Needs",117,0,0.0,16,13.7
+"Southington School District","=""1310011""","Non-High Needs",371,0,0.0,7,1.9
+"Stafford School District","=""1340011""","High Needs",47,"*","*","*","*"
+"Stafford School District","=""1340011""","Non-High Needs",82,0,0.0,"*","*"
+"Stamford Academy District","=""2820013""","High Needs","*","*","*","*","*"
+"Stamford Academy District","=""2820013""","Non-High Needs","*","*","*","*","*"
+"Stamford School District","=""1350011""","High Needs",707,8,1.1,82,11.6
+"Stamford School District","=""1350011""","Non-High Needs",504,0,0.0,9,1.8
+"Stonington School District","=""1370011""","High Needs",54,"*","*","*","*"
+"Stonington School District","=""1370011""","Non-High Needs",149,0,0.0,"*","*"
+"Stratford School District","=""1380011""","High Needs",276,"*","*","*","*"
+"Stratford School District","=""1380011""","Non-High Needs",279,0,0.0,"*","*"
+"Suffield School District","=""1390011""","High Needs",51,0,0.0,"*","*"
+"Suffield School District","=""1390011""","Non-High Needs",167,0,0.0,"*","*"
+"The Bridge Academy District","=""2690013""","High Needs","*","*","*","*","*"
+"The Bridge Academy District","=""2690013""","Non-High Needs","*","*","*","*","*"
+"The Gilbert School District","=""9020022""","High Needs",39,0,0.0,"*","*"
+"The Gilbert School District","=""9020022""","Non-High Needs",48,0,0.0,"*","*"
+"Thomaston School District","=""1400011""","High Needs",33,0,0.0,"*","*"
+"Thomaston School District","=""1400011""","Non-High Needs",45,0,0.0,"*","*"
+"Thompson School District","=""1410011""","High Needs",34,0,0.0,6,17.6
+"Thompson School District","=""1410011""","Non-High Needs",51,0,0.0,0,0.0
+"Tolland School District","=""1420011""","High Needs",38,"*","*","*","*"
+"Tolland School District","=""1420011""","Non-High Needs",205,"*","*","*","*"
+"Torrington School District","=""1430011""","High Needs",146,"*","*","*","*"
+"Torrington School District","=""1430011""","Non-High Needs",128,0,0.0,"*","*"
+"Trumbull School District","=""1440011""","High Needs",107,0,0.0,"*","*"
+"Trumbull School District","=""1440011""","Non-High Needs",440,0,0.0,"*","*"
+"Unified School District #1","=""3360015""","High Needs",486,"*","*",430,88.5
+"Unified School District #1","=""3360015""","Non-High Needs",14,"*","*",12,"*"
+"Unified School District #2","=""3470015""","High Needs","*","*","*","*","*"
+"Unified School District #2","=""3470015""","Non-High Needs","*","*","*","*","*"
+"Vernon School District","=""1460011""","High Needs",113,0,0.0,27,23.9
+"Vernon School District","=""1460011""","Non-High Needs",125,0,0.0,7,5.6
+"Wallingford School District","=""1480011""","High Needs",152,"*","*","*","*"
+"Wallingford School District","=""1480011""","Non-High Needs",382,0,0.0,"*","*"
+"Waterbury School District","=""1510011""","High Needs",1142,6,0.5,363,31.8
+"Waterbury School District","=""1510011""","Non-High Needs",148,0,0.0,20,13.5
+"Waterford School District","=""1520011""","High Needs",73,"*","*","*","*"
+"Waterford School District","=""1520011""","Non-High Needs",169,0,0.0,"*","*"
+"Watertown School District","=""1530011""","High Needs",87,"*","*","*","*"
+"Watertown School District","=""1530011""","Non-High Needs",184,0,0.0,"*","*"
+"West Hartford School District","=""1550011""","High Needs",285,"*","*","*","*"
+"West Hartford School District","=""1550011""","Non-High Needs",542,0,0.0,"*","*"
+"West Haven School District","=""1560011""","High Needs",326,7,2.1,102,31.3
+"West Haven School District","=""1560011""","Non-High Needs",109,0,0.0,11,10.1
+"Westbrook School District","=""1540011""","High Needs",15,0,"*","*","*"
+"Westbrook School District","=""1540011""","Non-High Needs",63,0,0.0,"*","*"
+"Weston School District","=""1570011""","High Needs",27,"*","*","*","*"
+"Weston School District","=""1570011""","Non-High Needs",181,0,0.0,0,0.0
+"Westport School District","=""1580011""","High Needs",62,"*","*",0,0.0
+"Westport School District","=""1580011""","Non-High Needs",403,0,0.0,0,0.0
+"Wethersfield School District","=""1590011""","High Needs",68,"*","*","*","*"
+"Wethersfield School District","=""1590011""","Non-High Needs",199,0,0.0,"*","*"
+"Wilton School District","=""1610011""","High Needs",65,"*","*","*","*"
+"Wilton School District","=""1610011""","Non-High Needs",259,0,0.0,"*","*"
+"Windham School District","=""1630011""","High Needs",136,"*","*","*","*"
+"Windham School District","=""1630011""","Non-High Needs",56,0,0.0,"*","*"
+"Windsor Locks School District","=""1650011""","High Needs",62,0,0.0,"*","*"
+"Windsor Locks School District","=""1650011""","Non-High Needs",77,0,0.0,"*","*"
+"Windsor School District","=""1640011""","High Needs",161,"*","*","*","*"
+"Windsor School District","=""1640011""","Non-High Needs",185,"*","*","*","*"
+"Wolcott School District","=""1660011""","High Needs",61,"*","*","*","*"
+"Wolcott School District","=""1660011""","Non-High Needs",158,"*","*","*","*"
+"Woodstock Academy District","=""9030022""","High Needs",37,0,0.0,"*","*"
+"Woodstock Academy District","=""9030022""","Non-High Needs",244,0,0.0,"*","*"
+

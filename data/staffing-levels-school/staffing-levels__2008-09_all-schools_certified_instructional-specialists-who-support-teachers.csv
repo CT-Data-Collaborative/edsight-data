@@ -182,7 +182,7 @@
 ,="Joseph O. Goodwin School",="Instructional Specialists Who Support Teachers",="Certified",1.7
 ,="Robert J. O'Brien School",="Instructional Specialists Who Support Teachers",="Certified",1.9
 ,="Silver Lane School",="Instructional Specialists Who Support Teachers",="Certified",1.8
-,="Sunset Ridge School Elementary Academy for Arts and World Languages",="Instructional Specialists Who Support Teachers",="Certified",1.6
+,="Sunset Ridge Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.6
 ,="Willowbrook Early Childhood",="Instructional Specialists Who Support Teachers",="Certified",3.8
 ,="Woodland School",="Instructional Specialists Who Support Teachers",="Certified",1.5
 ="East Haven School District",="Carbone School/East Haven Academy",="Instructional Specialists Who Support Teachers",="Certified",0.1
@@ -313,9 +313,10 @@
 ,="Spring Glen School",="Instructional Specialists Who Support Teachers",="Certified",2.0
 ,="West Woods School",="Instructional Specialists Who Support Teachers",="Certified",2.0
 ="Hampton School District",="Hampton Elementary School",="Instructional Specialists Who Support Teachers",="Certified",0.7
-="Hartford School District",="Asian Studies Academy",="Instructional Specialists Who Support Teachers",="Certified",2.0
+="Hartford School District",="Asian Studies Academy at Bellizzi School",="Instructional Specialists Who Support Teachers",="Certified",2.0
 ,="Batchelder School",="Instructional Specialists Who Support Teachers",="Certified",3.0
-,="Breakthrough II Elementary School",="Instructional Specialists Who Support Teachers",="Certified",0.6
+,="Betances Early Reading Lab Magnet School",="Instructional Specialists Who Support Teachers",="Certified",4.9
+,="Breakthrough II Magnet School",="Instructional Specialists Who Support Teachers",="Certified",0.6
 ,="Breakthrough Magnet School",="Instructional Specialists Who Support Teachers",="Certified",2.4
 ,="Bulkeley High School Lower School",="Instructional Specialists Who Support Teachers",="Certified",1.4
 ,="Burns Latino Studies Academy",="Instructional Specialists Who Support Teachers",="Certified",2.8
@@ -325,7 +326,6 @@
 ,="Classical Magnet School",="Instructional Specialists Who Support Teachers",="Certified",1.0
 ,="Culinary Arts Academy at Weaver High School",="Instructional Specialists Who Support Teachers",="Certified",1.0
 ,="Dr. Joseph Bellizzi Middle School",="Instructional Specialists Who Support Teachers",="Certified",3.6
-,="Dr. Ramon E. Betances Early Reading Lab",="Instructional Specialists Who Support Teachers",="Certified",4.9
 ,="Environmental Sciences Magnet at Hooker School",="Instructional Specialists Who Support Teachers",="Certified",1.9
 ,="Expeditionary Learning Academy at Moylan School",="Instructional Specialists Who Support Teachers",="Certified",5.4
 ,="Fox Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.1
@@ -333,16 +333,16 @@
 ,="Hartford Magnet Trinity College Academy",="Instructional Specialists Who Support Teachers",="Certified",1.5
 ,="Hartford Public High School",="Instructional Specialists Who Support Teachers",="Certified",0.2
 ,="Kennelly School",="Instructional Specialists Who Support Teachers",="Certified",2.0
+,="Kinsella Magnet School of Performing Arts",="Instructional Specialists Who Support Teachers",="Certified",5.6
 ,="M. D. Fox School",="Instructional Specialists Who Support Teachers",="Certified",2.4
 ,="M. L. King, Jr. School",="Instructional Specialists Who Support Teachers",="Certified",3.6
 ,="McDonough Middle School",="Instructional Specialists Who Support Teachers",="Certified",2.0
 ,="Milner School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Montessori Magnet School at Annie Fisher",="Instructional Specialists Who Support Teachers",="Certified",0.1
+,="Montessori Magnet at Fisher School",="Instructional Specialists Who Support Teachers",="Certified",0.1
 ,="Naylor/CCSU Leadership Academy",="Instructional Specialists Who Support Teachers",="Certified",3.0
 ,="Parkville Community School",="Instructional Specialists Who Support Teachers",="Certified",4.4
 ,="Pathways Academy of Technology and Design",="Instructional Specialists Who Support Teachers",="Certified",1.5
 ,="Quirk Middle School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="R.J. Kinsella Magnet School of Performing Arts",="Instructional Specialists Who Support Teachers",="Certified",5.6
 ,="Rawson School",="Instructional Specialists Who Support Teachers",="Certified",4.0
 ,="SAND School",="Instructional Specialists Who Support Teachers",="Certified",1.6
 ,="STEM Magnet at Fisher School",="Instructional Specialists Who Support Teachers",="Certified",4.3
@@ -401,7 +401,7 @@
 ,="Washington School",="Instructional Specialists Who Support Teachers",="Certified",2.0
 ="Mansfield School District",="Annie E. Vinton School",="Instructional Specialists Who Support Teachers",="Certified",1.9
 ,="Dorothy C. Goodwin School",="Instructional Specialists Who Support Teachers",="Certified",1.9
-,="Mansfield Middle School School",="Instructional Specialists Who Support Teachers",="Certified",1.4
+,="Mansfield Middle School",="Instructional Specialists Who Support Teachers",="Certified",1.4
 ,="Southeast Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.9
 ="Marlborough School District",="Elmer Thienes-Mary Hall Elementary School",="Instructional Specialists Who Support Teachers",="Certified",4.3
 ="Meriden School District",="Nathan Hale School",="Instructional Specialists Who Support Teachers",="Certified",2.4
@@ -463,7 +463,7 @@
 ,="Naugatuck High School",="Instructional Specialists Who Support Teachers",="Certified",0.8
 ,="Salem School",="Instructional Specialists Who Support Teachers",="Certified",1.6
 ,="Western School",="Instructional Specialists Who Support Teachers",="Certified",1.6
-="New Beginnings Inc Family Academy District",="New Beginnings Inc., Family Academy",="Instructional Specialists Who Support Teachers",="Certified",1.0
+="New Beginnings Inc Family Academy District",="New Beginnings Inc Family Academy",="Instructional Specialists Who Support Teachers",="Certified",1.0
 ="New Britain School District",="Chamberlain Elementary School",="Instructional Specialists Who Support Teachers",="Certified",1.0
 ,="Frank J. DiLoreto School",="Instructional Specialists Who Support Teachers",="Certified",1.7
 ,="Gaffney School",="Instructional Specialists Who Support Teachers",="Certified",4.0
@@ -496,10 +496,9 @@
 ,="Beecher School",="Instructional Specialists Who Support Teachers",="Certified",2.2
 ,="Benjamin Jepson Magnet School",="Instructional Specialists Who Support Teachers",="Certified",1.0
 ,="Betsy Ross Arts Magnet School",="Instructional Specialists Who Support Teachers",="Certified",1.0
-,="Bishop Woods School",="Instructional Specialists Who Support Teachers",="Certified",2.6
+,="Bishop Woods Architecture and Design Magnet School",="Instructional Specialists Who Support Teachers",="Certified",2.6
 ,="Celentano BioTech, Health and Medical Magnet School",="Instructional Specialists Who Support Teachers",="Certified",2.4
 ,="Clarence Rogers School",="Instructional Specialists Who Support Teachers",="Certified",2.4
-,="Clemente Leadership Academy",="Instructional Specialists Who Support Teachers",="Certified",3.0
 ,="Clinton Avenue School",="Instructional Specialists Who Support Teachers",="Certified",2.9
 ,="Columbus Family Academy",="Instructional Specialists Who Support Teachers",="Certified",2.7
 ,="Conte/West Hills Magnet School",="Instructional Specialists Who Support Teachers",="Certified",2.6
@@ -515,12 +514,13 @@
 ,="Hill Regional Career High School",="Instructional Specialists Who Support Teachers",="Certified",0.2
 ,="James Hillhouse High School",="Instructional Specialists Who Support Teachers",="Certified",0.4
 ,="John C. Daniels",="Instructional Specialists Who Support Teachers",="Certified",2.8
-,="John S. Martinez School",="Instructional Specialists Who Support Teachers",="Certified",2.6
+,="John S. Martinez Sea and Sky STEM School",="Instructional Specialists Who Support Teachers",="Certified",2.6
 ,="Katherine Brennan School",="Instructional Specialists Who Support Teachers",="Certified",1.8
 ,="King/Robinson Magnet School",="Instructional Specialists Who Support Teachers",="Certified",5.7
 ,="Lincoln-Bassett School",="Instructional Specialists Who Support Teachers",="Certified",3.1
 ,="Polly T. McCabe Center",="Instructional Specialists Who Support Teachers",="Certified",0.1
 ,="Riverside Education Academy",="Instructional Specialists Who Support Teachers",="Certified",0.1
+,="Roberto Clemente Leadership Academy for Global Awareness",="Instructional Specialists Who Support Teachers",="Certified",3.0
 ,="Ross/Woodward School",="Instructional Specialists Who Support Teachers",="Certified",2.1
 ,="Sheridan Communications and Technology Magnet School",="Instructional Specialists Who Support Teachers",="Certified",1.1
 ,="Sound School",="Instructional Specialists Who Support Teachers",="Certified",0.1
@@ -590,7 +590,7 @@
 ,="Rowayton School",="Instructional Specialists Who Support Teachers",="Certified",2.0
 ,="Silvermine Elementary School",="Instructional Specialists Who Support Teachers",="Certified",0.6
 ,="Tracey School",="Instructional Specialists Who Support Teachers",="Certified",0.8
-,="Wolfpit School",="Instructional Specialists Who Support Teachers",="Certified",2.3
+,="Wolfpit School",="Instructional Specialists Who Support Teachers",="Certified",3.3
 ="Norwich School District",="Bishop School Early Learning Center",="Instructional Specialists Who Support Teachers",="Certified",0.5
 ,="Greeneville School",="Instructional Specialists Who Support Teachers",="Certified",0.9
 ,="John B. Stanton Network School",="Instructional Specialists Who Support Teachers",="Certified",1.1
@@ -772,7 +772,7 @@
 ,="Stillmeadow School",="Instructional Specialists Who Support Teachers",="Certified",3.0
 ,="The Academy of Information Technology",="Instructional Specialists Who Support Teachers",="Certified",2.0
 ,="Toquam Magnet School",="Instructional Specialists Who Support Teachers",="Certified",2.0
-,="Turn of River School",="Instructional Specialists Who Support Teachers",="Certified",4.0
+,="Turn of River School",="Instructional Specialists Who Support Teachers",="Certified",5.0
 ,="Westhill High School",="Instructional Specialists Who Support Teachers",="Certified",2.0
 ,="Westover School",="Instructional Specialists Who Support Teachers",="Certified",4.0
 ="Sterling School District",="Sterling Community School",="Instructional Specialists Who Support Teachers",="Certified",1.0
@@ -797,7 +797,7 @@
 ="Suffield School District",="A. Ward Spaulding School",="Instructional Specialists Who Support Teachers",="Certified",3.7
 ,="McAlister Intermediate School",="Instructional Specialists Who Support Teachers",="Certified",1.6
 ,="Suffield High School",="Instructional Specialists Who Support Teachers",="Certified",0.3
-,="Suffield Middle School",="Instructional Specialists Who Support Teachers",="Certified",2.6
+,="Suffield Middle School",="Instructional Specialists Who Support Teachers",="Certified",3.8
 ="Thomaston School District",="Black Rock School",="Instructional Specialists Who Support Teachers",="Certified",1.0
 ="Thompson School District",="Mary R. Fisher Elementary School",="Instructional Specialists Who Support Teachers",="Certified",2.5
 ,="Thompson Middle School",="Instructional Specialists Who Support Teachers",="Certified",0.3

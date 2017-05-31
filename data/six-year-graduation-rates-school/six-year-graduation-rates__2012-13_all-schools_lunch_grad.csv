@@ -1,498 +1,590 @@
-<html><head><title>VMware vFabric tc Runtime 2.8.0.RELEASE/7.0.30.A.RELEASE - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 500 - Unable to find local session...</h1><HR size="1" noshade="noshade"><p><b>type</b> Exception report</p><p><b>message</b> <u>Unable to find local session...</u></p><p><b>description</b> <u>The server encountered an internal error that prevented it from fulfilling this request.</u></p><p><b>exception</b> <pre>java.lang.IllegalStateException: Unable to find local session...
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:187)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:218)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:206)
-	com.sas.svcs.webapp.servlet.filters.LocalPlatformServicesFilter.onDoFilter(LocalPlatformServicesFilter.java:96)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:311)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:116)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.TgtKeepAliveFilter.doFilterInternal(TgtKeepAliveFilter.java:59)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:45)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.SessionIdentifierFilter.doFilterInternal(SessionIdentifierFilter.java:38)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:182)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.session.jasig.SingleSignOutFilter.doFilterInternal(SingleSignOutFilter.java:60)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.RevokableTokenLogoutFilter.doFilter(RevokableTokenLogoutFilter.java:38)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.CsrfRefererCheckerFilter.doFilterInternal(CsrfRefererCheckerFilter.java:469)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.framework.webapp.servlet.ApplicationNameFilter.onDoFilter(ApplicationNameFilter.java:46)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:173)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.services.storedprocess.webapp.SPFilter.onDoFilter(SPFilter.java:268)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.servlet.filters.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:62)
-	com.sas.framework.webapp.servlet.SanitizingRequestFilter.onDoFilter(SanitizingRequestFilter.java:86)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-</pre></p><p><b>root cause</b> <pre>com.sas.svcs.authentication.helper.TrustedAuthenticationException: com.sas.svcs.authentication.helper.TrustedAuthenticationException: javax.security.auth.login.LoginException: The application could not log on to the server &quot;sdemeta.sys.services.ct.gov:8561&quot;.
-	com.sas.svcs.authentication.helper.TrustedUserFactory.create(TrustedUserFactory.java:97)
-	com.sas.svcs.authentication.helper.UserSessionFactory.createAndLockLocalSession(UserSessionFactory.java:386)
-	com.sas.svcs.authentication.helper.UserSessionFactory.createLockAndSaveLocalSession(UserSessionFactory.java:354)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:176)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:218)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:206)
-	com.sas.svcs.webapp.servlet.filters.LocalPlatformServicesFilter.onDoFilter(LocalPlatformServicesFilter.java:96)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:311)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:116)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.TgtKeepAliveFilter.doFilterInternal(TgtKeepAliveFilter.java:59)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:45)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.SessionIdentifierFilter.doFilterInternal(SessionIdentifierFilter.java:38)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:182)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.session.jasig.SingleSignOutFilter.doFilterInternal(SingleSignOutFilter.java:60)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.RevokableTokenLogoutFilter.doFilter(RevokableTokenLogoutFilter.java:38)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.CsrfRefererCheckerFilter.doFilterInternal(CsrfRefererCheckerFilter.java:469)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.framework.webapp.servlet.ApplicationNameFilter.onDoFilter(ApplicationNameFilter.java:46)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:173)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.services.storedprocess.webapp.SPFilter.onDoFilter(SPFilter.java:268)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.servlet.filters.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:62)
-	com.sas.framework.webapp.servlet.SanitizingRequestFilter.onDoFilter(SanitizingRequestFilter.java:86)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-</pre></p><p><b>root cause</b> <pre>com.sas.svcs.authentication.helper.TrustedAuthenticationException: javax.security.auth.login.LoginException: The application could not log on to the server &quot;sdemeta.sys.services.ct.gov:8561&quot;.
-	com.sas.svcs.authentication.helper.TrustedSubjectFactory.create(TrustedSubjectFactory.java:54)
-	com.sas.svcs.authentication.helper.TrustedUserFactory.create(TrustedUserFactory.java:84)
-	com.sas.svcs.authentication.helper.UserSessionFactory.createAndLockLocalSession(UserSessionFactory.java:386)
-	com.sas.svcs.authentication.helper.UserSessionFactory.createLockAndSaveLocalSession(UserSessionFactory.java:354)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:176)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:218)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:206)
-	com.sas.svcs.webapp.servlet.filters.LocalPlatformServicesFilter.onDoFilter(LocalPlatformServicesFilter.java:96)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:311)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:116)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.TgtKeepAliveFilter.doFilterInternal(TgtKeepAliveFilter.java:59)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:45)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.SessionIdentifierFilter.doFilterInternal(SessionIdentifierFilter.java:38)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:182)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.session.jasig.SingleSignOutFilter.doFilterInternal(SingleSignOutFilter.java:60)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.RevokableTokenLogoutFilter.doFilter(RevokableTokenLogoutFilter.java:38)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.CsrfRefererCheckerFilter.doFilterInternal(CsrfRefererCheckerFilter.java:469)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.framework.webapp.servlet.ApplicationNameFilter.onDoFilter(ApplicationNameFilter.java:46)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:173)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.services.storedprocess.webapp.SPFilter.onDoFilter(SPFilter.java:268)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.servlet.filters.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:62)
-	com.sas.framework.webapp.servlet.SanitizingRequestFilter.onDoFilter(SanitizingRequestFilter.java:86)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-</pre></p><p><b>root cause</b> <pre>javax.security.auth.login.LoginException: The application could not log on to the server &quot;sdemeta.sys.services.ct.gov:8561&quot;.
-	com.sas.services.security.login.SasLoginModule.attemptConnection(SasLoginModule.java:816)
-	com.sas.services.security.login.SasLoginModule.attemptConnection(SasLoginModule.java:675)
-	com.sas.services.security.login.TrustedLoginModule.doLogin(TrustedLoginModule.java:167)
-	com.sas.services.security.login.TrustedLoginModule.login(TrustedLoginModule.java:126)
-	sun.reflect.GeneratedMethodAccessor742.invoke(Unknown Source)
-	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	java.lang.reflect.Method.invoke(Method.java:606)
-	javax.security.auth.login.LoginContext.invoke(LoginContext.java:762)
-	javax.security.auth.login.LoginContext.access$000(LoginContext.java:203)
-	javax.security.auth.login.LoginContext$4.run(LoginContext.java:690)
-	javax.security.auth.login.LoginContext$4.run(LoginContext.java:688)
-	java.security.AccessController.doPrivileged(Native Method)
-	javax.security.auth.login.LoginContext.invokePriv(LoginContext.java:687)
-	javax.security.auth.login.LoginContext.login(LoginContext.java:595)
-	com.sas.svcs.authentication.helper.TrustedSubjectFactory.create(TrustedSubjectFactory.java:49)
-	com.sas.svcs.authentication.helper.TrustedUserFactory.create(TrustedUserFactory.java:84)
-	com.sas.svcs.authentication.helper.UserSessionFactory.createAndLockLocalSession(UserSessionFactory.java:386)
-	com.sas.svcs.authentication.helper.UserSessionFactory.createLockAndSaveLocalSession(UserSessionFactory.java:354)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:176)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:218)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:206)
-	com.sas.svcs.webapp.servlet.filters.LocalPlatformServicesFilter.onDoFilter(LocalPlatformServicesFilter.java:96)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:311)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:116)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.TgtKeepAliveFilter.doFilterInternal(TgtKeepAliveFilter.java:59)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:45)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.SessionIdentifierFilter.doFilterInternal(SessionIdentifierFilter.java:38)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:182)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.session.jasig.SingleSignOutFilter.doFilterInternal(SingleSignOutFilter.java:60)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.RevokableTokenLogoutFilter.doFilter(RevokableTokenLogoutFilter.java:38)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.CsrfRefererCheckerFilter.doFilterInternal(CsrfRefererCheckerFilter.java:469)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.framework.webapp.servlet.ApplicationNameFilter.onDoFilter(ApplicationNameFilter.java:46)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:173)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.services.storedprocess.webapp.SPFilter.onDoFilter(SPFilter.java:268)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.servlet.filters.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:62)
-	com.sas.framework.webapp.servlet.SanitizingRequestFilter.onDoFilter(SanitizingRequestFilter.java:86)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-</pre></p><p><b>root cause</b> <pre>com.sas.services.connection.FatalConnectionFactoryException: The application could not log on to the server &quot;sdemeta.sys.services.ct.gov:8561&quot;.
-	com.sas.services.connection.ClusterEnvelope.getConnection(ClusterEnvelope.java:240)
-	com.sas.services.connection.AggregationKernel.doGetConnection(AggregationKernel.java:242)
-	com.sas.services.connection.ConnectionFactoryKernel.getConnection(ConnectionFactoryKernel.java:325)
-	com.sas.services.connection.ConnectionFactoryShell.getConnection(ConnectionFactoryShell.java:69)
-	com.sas.services.connection.ConnectionFactoryShell.getConnection(ConnectionFactoryShell.java:51)
-	com.sas.services.security.login.SasLoginModule.attemptConnection(SasLoginModule.java:703)
-	com.sas.services.security.login.SasLoginModule.attemptConnection(SasLoginModule.java:675)
-	com.sas.services.security.login.TrustedLoginModule.doLogin(TrustedLoginModule.java:167)
-	com.sas.services.security.login.TrustedLoginModule.login(TrustedLoginModule.java:126)
-	sun.reflect.GeneratedMethodAccessor742.invoke(Unknown Source)
-	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	java.lang.reflect.Method.invoke(Method.java:606)
-	javax.security.auth.login.LoginContext.invoke(LoginContext.java:762)
-	javax.security.auth.login.LoginContext.access$000(LoginContext.java:203)
-	javax.security.auth.login.LoginContext$4.run(LoginContext.java:690)
-	javax.security.auth.login.LoginContext$4.run(LoginContext.java:688)
-	java.security.AccessController.doPrivileged(Native Method)
-	javax.security.auth.login.LoginContext.invokePriv(LoginContext.java:687)
-	javax.security.auth.login.LoginContext.login(LoginContext.java:595)
-	com.sas.svcs.authentication.helper.TrustedSubjectFactory.create(TrustedSubjectFactory.java:49)
-	com.sas.svcs.authentication.helper.TrustedUserFactory.create(TrustedUserFactory.java:84)
-	com.sas.svcs.authentication.helper.UserSessionFactory.createAndLockLocalSession(UserSessionFactory.java:386)
-	com.sas.svcs.authentication.helper.UserSessionFactory.createLockAndSaveLocalSession(UserSessionFactory.java:354)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:176)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:218)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:206)
-	com.sas.svcs.webapp.servlet.filters.LocalPlatformServicesFilter.onDoFilter(LocalPlatformServicesFilter.java:96)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:311)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:116)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.TgtKeepAliveFilter.doFilterInternal(TgtKeepAliveFilter.java:59)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:45)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.SessionIdentifierFilter.doFilterInternal(SessionIdentifierFilter.java:38)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:182)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.session.jasig.SingleSignOutFilter.doFilterInternal(SingleSignOutFilter.java:60)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.RevokableTokenLogoutFilter.doFilter(RevokableTokenLogoutFilter.java:38)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.CsrfRefererCheckerFilter.doFilterInternal(CsrfRefererCheckerFilter.java:469)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.framework.webapp.servlet.ApplicationNameFilter.onDoFilter(ApplicationNameFilter.java:46)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:173)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.services.storedprocess.webapp.SPFilter.onDoFilter(SPFilter.java:268)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.servlet.filters.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:62)
-	com.sas.framework.webapp.servlet.SanitizingRequestFilter.onDoFilter(SanitizingRequestFilter.java:86)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-</pre></p><p><b>root cause</b> <pre>org.omg.CORBA.COMM_FAILURE: The application could not log on to the server &quot;sdemeta.sys.services.ct.gov:8561&quot;.  vmcid: 0x0  minor code: 1  completed: No
-	com.sas.iom.orb.brg.Engine$5.run(Engine.java:3736)
-	java.security.AccessController.doPrivileged(Native Method)
-	com.sas.iom.orb.brg.Engine.flowConnect(Engine.java:3757)
-	com.sas.iom.orb.brg.Engine.flow(Engine.java:697)
-	com.sas.iom.orb.brg.Engine.initClient(Engine.java:661)
-	com.sas.iom.orb.brg.ORBImpl.uri_to_object(ORBImpl.java:119)
-	com.sas.services.connection.ClusterEnvelope.createObject(ClusterEnvelope.java:293)
-	com.sas.services.connection.ClusterEnvelope.getConnection(ClusterEnvelope.java:78)
-	com.sas.services.connection.AggregationKernel.doGetConnection(AggregationKernel.java:242)
-	com.sas.services.connection.ConnectionFactoryKernel.getConnection(ConnectionFactoryKernel.java:325)
-	com.sas.services.connection.ConnectionFactoryShell.getConnection(ConnectionFactoryShell.java:69)
-	com.sas.services.connection.ConnectionFactoryShell.getConnection(ConnectionFactoryShell.java:51)
-	com.sas.services.security.login.SasLoginModule.attemptConnection(SasLoginModule.java:703)
-	com.sas.services.security.login.SasLoginModule.attemptConnection(SasLoginModule.java:675)
-	com.sas.services.security.login.TrustedLoginModule.doLogin(TrustedLoginModule.java:167)
-	com.sas.services.security.login.TrustedLoginModule.login(TrustedLoginModule.java:126)
-	sun.reflect.GeneratedMethodAccessor742.invoke(Unknown Source)
-	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	java.lang.reflect.Method.invoke(Method.java:606)
-	javax.security.auth.login.LoginContext.invoke(LoginContext.java:762)
-	javax.security.auth.login.LoginContext.access$000(LoginContext.java:203)
-	javax.security.auth.login.LoginContext$4.run(LoginContext.java:690)
-	javax.security.auth.login.LoginContext$4.run(LoginContext.java:688)
-	java.security.AccessController.doPrivileged(Native Method)
-	javax.security.auth.login.LoginContext.invokePriv(LoginContext.java:687)
-	javax.security.auth.login.LoginContext.login(LoginContext.java:595)
-	com.sas.svcs.authentication.helper.TrustedSubjectFactory.create(TrustedSubjectFactory.java:49)
-	com.sas.svcs.authentication.helper.TrustedUserFactory.create(TrustedUserFactory.java:84)
-	com.sas.svcs.authentication.helper.UserSessionFactory.createAndLockLocalSession(UserSessionFactory.java:386)
-	com.sas.svcs.authentication.helper.UserSessionFactory.createLockAndSaveLocalSession(UserSessionFactory.java:354)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:176)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:218)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:206)
-	com.sas.svcs.webapp.servlet.filters.LocalPlatformServicesFilter.onDoFilter(LocalPlatformServicesFilter.java:96)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:311)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:116)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.TgtKeepAliveFilter.doFilterInternal(TgtKeepAliveFilter.java:59)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:45)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.SessionIdentifierFilter.doFilterInternal(SessionIdentifierFilter.java:38)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:182)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.session.jasig.SingleSignOutFilter.doFilterInternal(SingleSignOutFilter.java:60)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.RevokableTokenLogoutFilter.doFilter(RevokableTokenLogoutFilter.java:38)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.CsrfRefererCheckerFilter.doFilterInternal(CsrfRefererCheckerFilter.java:469)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.framework.webapp.servlet.ApplicationNameFilter.onDoFilter(ApplicationNameFilter.java:46)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:173)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.services.storedprocess.webapp.SPFilter.onDoFilter(SPFilter.java:268)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.servlet.filters.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:62)
-	com.sas.framework.webapp.servlet.SanitizingRequestFilter.onDoFilter(SanitizingRequestFilter.java:86)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-</pre></p><p><b>root cause</b> <pre>java.net.BindException: Address already in use: connect
-	sun.nio.ch.Net.connect0(Native Method)
-	sun.nio.ch.Net.connect(Net.java:465)
-	sun.nio.ch.Net.connect(Net.java:457)
-	sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
-	com.sas.iom.orb.brg.Engine$5.run(Engine.java:3688)
-	java.security.AccessController.doPrivileged(Native Method)
-	com.sas.iom.orb.brg.Engine.flowConnect(Engine.java:3757)
-	com.sas.iom.orb.brg.Engine.flow(Engine.java:697)
-	com.sas.iom.orb.brg.Engine.initClient(Engine.java:661)
-	com.sas.iom.orb.brg.ORBImpl.uri_to_object(ORBImpl.java:119)
-	com.sas.services.connection.ClusterEnvelope.createObject(ClusterEnvelope.java:293)
-	com.sas.services.connection.ClusterEnvelope.getConnection(ClusterEnvelope.java:78)
-	com.sas.services.connection.AggregationKernel.doGetConnection(AggregationKernel.java:242)
-	com.sas.services.connection.ConnectionFactoryKernel.getConnection(ConnectionFactoryKernel.java:325)
-	com.sas.services.connection.ConnectionFactoryShell.getConnection(ConnectionFactoryShell.java:69)
-	com.sas.services.connection.ConnectionFactoryShell.getConnection(ConnectionFactoryShell.java:51)
-	com.sas.services.security.login.SasLoginModule.attemptConnection(SasLoginModule.java:703)
-	com.sas.services.security.login.SasLoginModule.attemptConnection(SasLoginModule.java:675)
-	com.sas.services.security.login.TrustedLoginModule.doLogin(TrustedLoginModule.java:167)
-	com.sas.services.security.login.TrustedLoginModule.login(TrustedLoginModule.java:126)
-	sun.reflect.GeneratedMethodAccessor742.invoke(Unknown Source)
-	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	java.lang.reflect.Method.invoke(Method.java:606)
-	javax.security.auth.login.LoginContext.invoke(LoginContext.java:762)
-	javax.security.auth.login.LoginContext.access$000(LoginContext.java:203)
-	javax.security.auth.login.LoginContext$4.run(LoginContext.java:690)
-	javax.security.auth.login.LoginContext$4.run(LoginContext.java:688)
-	java.security.AccessController.doPrivileged(Native Method)
-	javax.security.auth.login.LoginContext.invokePriv(LoginContext.java:687)
-	javax.security.auth.login.LoginContext.login(LoginContext.java:595)
-	com.sas.svcs.authentication.helper.TrustedSubjectFactory.create(TrustedSubjectFactory.java:49)
-	com.sas.svcs.authentication.helper.TrustedUserFactory.create(TrustedUserFactory.java:84)
-	com.sas.svcs.authentication.helper.UserSessionFactory.createAndLockLocalSession(UserSessionFactory.java:386)
-	com.sas.svcs.authentication.helper.UserSessionFactory.createLockAndSaveLocalSession(UserSessionFactory.java:354)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:176)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:218)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:206)
-	com.sas.svcs.webapp.servlet.filters.LocalPlatformServicesFilter.onDoFilter(LocalPlatformServicesFilter.java:96)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:311)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:116)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.TgtKeepAliveFilter.doFilterInternal(TgtKeepAliveFilter.java:59)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:45)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.SessionIdentifierFilter.doFilterInternal(SessionIdentifierFilter.java:38)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:182)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.session.jasig.SingleSignOutFilter.doFilterInternal(SingleSignOutFilter.java:60)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.RevokableTokenLogoutFilter.doFilter(RevokableTokenLogoutFilter.java:38)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.CsrfRefererCheckerFilter.doFilterInternal(CsrfRefererCheckerFilter.java:469)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.framework.webapp.servlet.ApplicationNameFilter.onDoFilter(ApplicationNameFilter.java:46)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:173)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.services.storedprocess.webapp.SPFilter.onDoFilter(SPFilter.java:268)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.servlet.filters.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:62)
-	com.sas.framework.webapp.servlet.SanitizingRequestFilter.onDoFilter(SanitizingRequestFilter.java:86)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-</pre></p><p><b>note</b> <u>The full stack trace of the root cause is available in the VMware vFabric tc Runtime 2.8.0.RELEASE/7.0.30.A.RELEASE logs.</u></p><HR size="1" noshade="noshade"><h3>VMware vFabric tc Runtime 2.8.0.RELEASE/7.0.30.A.RELEASE</h3></body></html>
+"Six-Year Graduation Rates, 2012-13"
+"All Districts, All Schools, Free/Reduced Price Meal Eligibility"
+
+"",,,,,,"Graduates",
+"District","District Code","School","School Code","Free/Reduced Price Meal Eligibility","Six-Year Cohort Count","Graduation Count","Graduation Rate"
+"Amistad Academy District","=""2790013""","Amistad Academy","=""2795113""","Eligible For Free Lunch",18,15,"*"
+"Amistad Academy District","=""2790013""","Amistad Academy","=""2795113""","Eligible For Reduced Lunch","*","*","*"
+"Amistad Academy District","=""2790013""","Amistad Academy","=""2795113""","Not Eligible For Lunch","*","*","*"
+"Ansonia School District","=""0020011""","Ansonia High School","=""0026111""","Eligible For Free Lunch",102,79,77.5
+"Ansonia School District","=""0020011""","Ansonia High School","=""0026111""","Eligible For Reduced Lunch",37,31,83.8
+"Ansonia School District","=""0020011""","Ansonia High School","=""0026111""","Not Eligible For Lunch",66,62,93.9
+"Avon School District","=""0040011""","Avon High School","=""0046111""","Eligible For Free Lunch","*","*","*"
+"Avon School District","=""0040011""","Avon High School","=""0046111""","Eligible For Reduced Lunch","*","*","*"
+"Avon School District","=""0040011""","Avon High School","=""0046111""","Not Eligible For Lunch",246,"*","*"
+"Berlin School District","=""0070011""","Berlin High School","=""0076111""","Eligible For Free Lunch",25,21,84.0
+"Berlin School District","=""0070011""","Berlin High School","=""0076111""","Eligible For Reduced Lunch",9,"*","*"
+"Berlin School District","=""0070011""","Berlin High School","=""0076111""","Not Eligible For Lunch",229,"*","*"
+"Bethel School District","=""0090011""","Bethel High School","=""0096111""","Eligible For Free Lunch",25,21,84.0
+"Bethel School District","=""0090011""","Bethel High School","=""0096111""","Eligible For Reduced Lunch",15,"*","*"
+"Bethel School District","=""0090011""","Bethel High School","=""0096111""","Not Eligible For Lunch",193,"*","*"
+"Bloomfield School District","=""0110011""","Bloomfield High School","=""0116111""","Eligible For Free Lunch",46,43,93.5
+"Bloomfield School District","=""0110011""","Bloomfield High School","=""0116111""","Eligible For Reduced Lunch",19,"*","*"
+"Bloomfield School District","=""0110011""","Bloomfield High School","=""0116111""","Not Eligible For Lunch",55,"*","*"
+"Bloomfield School District","=""0110011""","Global Experience Magnet School","=""0116311""","Eligible For Free Lunch",10,10,"*"
+"Bloomfield School District","=""0110011""","Global Experience Magnet School","=""0116311""","Eligible For Reduced Lunch",6,6,"*"
+"Bloomfield School District","=""0110011""","Global Experience Magnet School","=""0116311""","Not Eligible For Lunch",14,14,"*"
+"Bloomfield School District","=""0110011""","Learning Academy at Bloomfield","=""0116411""","Eligible For Free Lunch","*","*","*"
+"Bloomfield School District","=""0110011""","Learning Academy at Bloomfield","=""0116411""","Not Eligible For Lunch","*","*","*"
+"Bolton School District","=""0120011""","Bolton High School","=""0126111""","Eligible For Free Lunch","*","*","*"
+"Bolton School District","=""0120011""","Bolton High School","=""0126111""","Eligible For Reduced Lunch","*","*","*"
+"Bolton School District","=""0120011""","Bolton High School","=""0126111""","Not Eligible For Lunch",72,68,94.4
+"Branford School District","=""0140011""","Branford High School","=""0146111""","Eligible For Free Lunch",38,"*","*"
+"Branford School District","=""0140011""","Branford High School","=""0146111""","Eligible For Reduced Lunch",21,"*","*"
+"Branford School District","=""0140011""","Branford High School","=""0146111""","Not Eligible For Lunch",210,200,95.2
+"Bridgeport School District","=""0150011""","Bassick High School","=""0156111""","Eligible For Free Lunch",292,198,67.8
+"Bridgeport School District","=""0150011""","Bassick High School","=""0156111""","Eligible For Reduced Lunch","*","*","*"
+"Bridgeport School District","=""0150011""","Bassick High School","=""0156111""","Not Eligible For Lunch","*","*","*"
+"Bridgeport School District","=""0150011""","Central High School","=""0156211""","Eligible For Free Lunch",501,415,82.8
+"Bridgeport School District","=""0150011""","Central High School","=""0156211""","Eligible For Reduced Lunch","*","*","*"
+"Bridgeport School District","=""0150011""","Central High School","=""0156211""","Not Eligible For Lunch","*","*","*"
+"Bridgeport School District","=""0150011""","Harding High School","=""0156311""","Eligible For Free Lunch",304,192,63.2
+"Bridgeport School District","=""0150011""","Harding High School","=""0156311""","Eligible For Reduced Lunch","*","*","*"
+"Bridgeport School District","=""0150011""","Harding High School","=""0156311""","Not Eligible For Lunch","*","*","*"
+"Bristol School District","=""0170011""","Bristol Central High School","=""0176111""","Eligible For Free Lunch",85,60,70.6
+"Bristol School District","=""0170011""","Bristol Central High School","=""0176111""","Eligible For Reduced Lunch",44,36,81.8
+"Bristol School District","=""0170011""","Bristol Central High School","=""0176111""","Not Eligible For Lunch",182,175,96.2
+"Bristol School District","=""0170011""","Bristol Eastern High School","=""0176211""","Eligible For Free Lunch",67,48,71.6
+"Bristol School District","=""0170011""","Bristol Eastern High School","=""0176211""","Eligible For Reduced Lunch",35,28,80.0
+"Bristol School District","=""0170011""","Bristol Eastern High School","=""0176211""","Not Eligible For Lunch",201,185,92.0
+"Brookfield School District","=""0180011""","Brookfield High School","=""0186111""","Eligible For Free Lunch",18,"*","*"
+"Brookfield School District","=""0180011""","Brookfield High School","=""0186111""","Eligible For Reduced Lunch",8,"*","*"
+"Brookfield School District","=""0180011""","Brookfield High School","=""0186111""","Not Eligible For Lunch",212,"*","*"
+"Canton School District","=""0230011""","Canton High School","=""0236111""","Eligible For Free Lunch",8,8,"*"
+"Canton School District","=""0230011""","Canton High School","=""0236111""","Eligible For Reduced Lunch",8,8,"*"
+"Canton School District","=""0230011""","Canton High School","=""0236111""","Not Eligible For Lunch",105,105,100.0
+"Capitol Region Education Council","=""2410014""","Academy of Aerospace and Engineering","=""2415114""","Eligible For Free Lunch",9,"*","*"
+"Capitol Region Education Council","=""2410014""","Academy of Aerospace and Engineering","=""2415114""","Eligible For Reduced Lunch",7,"*","*"
+"Capitol Region Education Council","=""2410014""","Academy of Aerospace and Engineering","=""2415114""","Not Eligible For Lunch",22,"*","*"
+"Capitol Region Education Council","=""2410014""","Greater Hartford Academy of  the Arts High School - Full Time","=""2416414""","Eligible For Free Lunch",37,"*","*"
+"Capitol Region Education Council","=""2410014""","Greater Hartford Academy of  the Arts High School - Full Time","=""2416414""","Eligible For Reduced Lunch",10,"*","*"
+"Capitol Region Education Council","=""2410014""","Greater Hartford Academy of  the Arts High School - Full Time","=""2416414""","Not Eligible For Lunch",39,33,84.6
+"Capitol Region Education Council","=""2410014""","Metropolitan Learning Center for Global and International Studies","=""2416114""","Eligible For Free Lunch",34,"*","*"
+"Capitol Region Education Council","=""2410014""","Metropolitan Learning Center for Global and International Studies","=""2416114""","Eligible For Reduced Lunch",11,11,"*"
+"Capitol Region Education Council","=""2410014""","Metropolitan Learning Center for Global and International Studies","=""2416114""","Not Eligible For Lunch",45,"*","*"
+"Cheshire School District","=""0250011""","Cheshire High School","=""0256111""","Eligible For Free Lunch",18,"*","*"
+"Cheshire School District","=""0250011""","Cheshire High School","=""0256111""","Eligible For Reduced Lunch",11,"*","*"
+"Cheshire School District","=""0250011""","Cheshire High School","=""0256111""","Not Eligible For Lunch",326,"*","*"
+"Clinton School District","=""0270011""","The Morgan School","=""0276111""","Eligible For Free Lunch",20,"*","*"
+"Clinton School District","=""0270011""","The Morgan School","=""0276111""","Eligible For Reduced Lunch",8,"*","*"
+"Clinton School District","=""0270011""","The Morgan School","=""0276111""","Not Eligible For Lunch",113,106,93.8
+"Colchester School District","=""0280011""","Bacon Academy","=""0286111""","Eligible For Free Lunch",17,"*","*"
+"Colchester School District","=""0280011""","Bacon Academy","=""0286111""","Eligible For Reduced Lunch",13,"*","*"
+"Colchester School District","=""0280011""","Bacon Academy","=""0286111""","Not Eligible For Lunch",217,212,97.7
+"Common Ground High School District","=""2680013""","Common Ground High School","=""2686113""","Eligible For Free Lunch",20,"*","*"
+"Common Ground High School District","=""2680013""","Common Ground High School","=""2686113""","Eligible For Reduced Lunch",8,"*","*"
+"Common Ground High School District","=""2680013""","Common Ground High School","=""2686113""","Not Eligible For Lunch",10,10,"*"
+"Connecticut Technical High School System","=""9000016""","A. I. Prince Technical High School","=""9001516""","Eligible For Free Lunch",113,104,92.0
+"Connecticut Technical High School System","=""9000016""","A. I. Prince Technical High School","=""9001516""","Eligible For Reduced Lunch",26,"*","*"
+"Connecticut Technical High School System","=""9000016""","A. I. Prince Technical High School","=""9001516""","Not Eligible For Lunch",27,"*","*"
+"Connecticut Technical High School System","=""9000016""","Bullard-Havens Technical High School","=""9001116""","Eligible For Free Lunch",111,"*","*"
+"Connecticut Technical High School System","=""9000016""","Bullard-Havens Technical High School","=""9001116""","Eligible For Reduced Lunch",48,"*","*"
+"Connecticut Technical High School System","=""9000016""","Bullard-Havens Technical High School","=""9001116""","Not Eligible For Lunch",37,"*","*"
+"Connecticut Technical High School System","=""9000016""","E. C. Goodwin Technical High School","=""9001916""","Eligible For Free Lunch",62,"*","*"
+"Connecticut Technical High School System","=""9000016""","E. C. Goodwin Technical High School","=""9001916""","Eligible For Reduced Lunch",25,"*","*"
+"Connecticut Technical High School System","=""9000016""","E. C. Goodwin Technical High School","=""9001916""","Not Eligible For Lunch",43,43,100.0
+"Connecticut Technical High School System","=""9000016""","Eli Whitney Technical High School","=""9001416""","Eligible For Free Lunch",89,77,86.5
+"Connecticut Technical High School System","=""9000016""","Eli Whitney Technical High School","=""9001416""","Eligible For Reduced Lunch",15,"*","*"
+"Connecticut Technical High School System","=""9000016""","Eli Whitney Technical High School","=""9001416""","Not Eligible For Lunch",15,"*","*"
+"Connecticut Technical High School System","=""9000016""","Ella T. Grasso Southeastern Technical High School","=""9002716""","Eligible For Free Lunch",63,"*","*"
+"Connecticut Technical High School System","=""9000016""","Ella T. Grasso Southeastern Technical High School","=""9002716""","Eligible For Reduced Lunch",17,17,"*"
+"Connecticut Technical High School System","=""9000016""","Ella T. Grasso Southeastern Technical High School","=""9002716""","Not Eligible For Lunch",67,"*","*"
+"Connecticut Technical High School System","=""9000016""","Emmett O'Brien Technical High School","=""9002516""","Eligible For Free Lunch",34,34,100.0
+"Connecticut Technical High School System","=""9000016""","Emmett O'Brien Technical High School","=""9002516""","Eligible For Reduced Lunch",14,"*","*"
+"Connecticut Technical High School System","=""9000016""","Emmett O'Brien Technical High School","=""9002516""","Not Eligible For Lunch",68,"*","*"
+"Connecticut Technical High School System","=""9000016""","H. C. Wilcox Technical High School","=""9001716""","Eligible For Free Lunch",47,47,100.0
+"Connecticut Technical High School System","=""9000016""","H. C. Wilcox Technical High School","=""9001716""","Eligible For Reduced Lunch",30,"*","*"
+"Connecticut Technical High School System","=""9000016""","H. C. Wilcox Technical High School","=""9001716""","Not Eligible For Lunch",101,"*","*"
+"Connecticut Technical High School System","=""9000016""","H. H. Ellis Technical High School","=""9001316""","Eligible For Free Lunch",31,31,100.0
+"Connecticut Technical High School System","=""9000016""","H. H. Ellis Technical High School","=""9001316""","Eligible For Reduced Lunch",15,15,"*"
+"Connecticut Technical High School System","=""9000016""","H. H. Ellis Technical High School","=""9001316""","Not Eligible For Lunch",67,67,100.0
+"Connecticut Technical High School System","=""9000016""","Henry Abbott Technical High School","=""9001216""","Eligible For Free Lunch",44,"*","*"
+"Connecticut Technical High School System","=""9000016""","Henry Abbott Technical High School","=""9001216""","Eligible For Reduced Lunch",19,"*","*"
+"Connecticut Technical High School System","=""9000016""","Henry Abbott Technical High School","=""9001216""","Not Eligible For Lunch",85,"*","*"
+"Connecticut Technical High School System","=""9000016""","Howell Cheney Technical High School","=""9001616""","Eligible For Free Lunch",39,"*","*"
+"Connecticut Technical High School System","=""9000016""","Howell Cheney Technical High School","=""9001616""","Eligible For Reduced Lunch",26,26,100.0
+"Connecticut Technical High School System","=""9000016""","Howell Cheney Technical High School","=""9001616""","Not Eligible For Lunch",103,"*","*"
+"Connecticut Technical High School System","=""9000016""","Norwich Technical High School","=""9002016""","Eligible For Free Lunch",44,44,100.0
+"Connecticut Technical High School System","=""9000016""","Norwich Technical High School","=""9002016""","Eligible For Reduced Lunch",22,"*","*"
+"Connecticut Technical High School System","=""9000016""","Norwich Technical High School","=""9002016""","Not Eligible For Lunch",88,"*","*"
+"Connecticut Technical High School System","=""9000016""","Oliver Wolcott Technical High School","=""9002216""","Eligible For Free Lunch",26,26,100.0
+"Connecticut Technical High School System","=""9000016""","Oliver Wolcott Technical High School","=""9002216""","Eligible For Reduced Lunch",12,"*","*"
+"Connecticut Technical High School System","=""9000016""","Oliver Wolcott Technical High School","=""9002216""","Not Eligible For Lunch",128,"*","*"
+"Connecticut Technical High School System","=""9000016""","Platt Technical High School","=""9002616""","Eligible For Free Lunch",55,"*","*"
+"Connecticut Technical High School System","=""9000016""","Platt Technical High School","=""9002616""","Eligible For Reduced Lunch",33,"*","*"
+"Connecticut Technical High School System","=""9000016""","Platt Technical High School","=""9002616""","Not Eligible For Lunch",119,119,100.0
+"Connecticut Technical High School System","=""9000016""","Vinal Technical High School","=""9001816""","Eligible For Free Lunch",27,"*","*"
+"Connecticut Technical High School System","=""9000016""","Vinal Technical High School","=""9001816""","Eligible For Reduced Lunch",14,"*","*"
+"Connecticut Technical High School System","=""9000016""","Vinal Technical High School","=""9001816""","Not Eligible For Lunch",100,"*","*"
+"Connecticut Technical High School System","=""9000016""","W. F. Kaynor Technical High School","=""9002316""","Eligible For Free Lunch",65,"*","*"
+"Connecticut Technical High School System","=""9000016""","W. F. Kaynor Technical High School","=""9002316""","Eligible For Reduced Lunch",38,38,100.0
+"Connecticut Technical High School System","=""9000016""","W. F. Kaynor Technical High School","=""9002316""","Not Eligible For Lunch",89,"*","*"
+"Connecticut Technical High School System","=""9000016""","Windham Technical High School","=""9002416""","Eligible For Free Lunch",33,33,100.0
+"Connecticut Technical High School System","=""9000016""","Windham Technical High School","=""9002416""","Eligible For Reduced Lunch",15,"*","*"
+"Connecticut Technical High School System","=""9000016""","Windham Technical High School","=""9002416""","Not Eligible For Lunch",84,"*","*"
+"Coventry School District","=""0320011""","Coventry High School","=""0326111""","Eligible For Free Lunch",20,"*","*"
+"Coventry School District","=""0320011""","Coventry High School","=""0326111""","Eligible For Reduced Lunch",7,"*","*"
+"Coventry School District","=""0320011""","Coventry High School","=""0326111""","Not Eligible For Lunch",108,101,93.5
+"Cromwell School District","=""0330011""","Cromwell High School","=""0336111""","Eligible For Free Lunch",21,"*","*"
+"Cromwell School District","=""0330011""","Cromwell High School","=""0336111""","Eligible For Reduced Lunch",7,"*","*"
+"Cromwell School District","=""0330011""","Cromwell High School","=""0336111""","Not Eligible For Lunch",111,"*","*"
+"Danbury School District","=""0340011""","Alternative Center For Excellence","=""0346211""","Eligible For Free Lunch",19,12,"*"
+"Danbury School District","=""0340011""","Alternative Center For Excellence","=""0346211""","Eligible For Reduced Lunch",6,"*","*"
+"Danbury School District","=""0340011""","Alternative Center For Excellence","=""0346211""","Not Eligible For Lunch",9,"*","*"
+"Danbury School District","=""0340011""","Danbury High School","=""0346111""","Eligible For Free Lunch",227,"*","*"
+"Danbury School District","=""0340011""","Danbury High School","=""0346111""","Eligible For Reduced Lunch",84,"*","*"
+"Danbury School District","=""0340011""","Danbury High School","=""0346111""","Not Eligible For Lunch",422,386,91.5
+"Darien School District","=""0350011""","Darien High School","=""0356111""","Eligible For Free Lunch","*","*","*"
+"Darien School District","=""0350011""","Darien High School","=""0356111""","Eligible For Reduced Lunch","*","*","*"
+"Darien School District","=""0350011""","Darien High School","=""0356111""","Not Eligible For Lunch",305,300,98.4
+"Derby School District","=""0370011""","Derby High School","=""0376111""","Eligible For Free Lunch",39,29,74.4
+"Derby School District","=""0370011""","Derby High School","=""0376111""","Eligible For Reduced Lunch",10,"*","*"
+"Derby School District","=""0370011""","Derby High School","=""0376111""","Not Eligible For Lunch",33,"*","*"
+"East Granby School District","=""0400011""","East Granby High School","=""0406111""","Eligible For Free Lunch","*","*","*"
+"East Granby School District","=""0400011""","East Granby High School","=""0406111""","Not Eligible For Lunch","*","*","*"
+"East Haddam School District","=""0410011""","Nathan Hale-Ray High School","=""0416111""","Eligible For Free Lunch","*","*","*"
+"East Haddam School District","=""0410011""","Nathan Hale-Ray High School","=""0416111""","Eligible For Reduced Lunch","*","*","*"
+"East Haddam School District","=""0410011""","Nathan Hale-Ray High School","=""0416111""","Not Eligible For Lunch",86,86,100.0
+"East Hampton School District","=""0420011""","East Hampton High School","=""0426111""","Eligible For Free Lunch",10,"*","*"
+"East Hampton School District","=""0420011""","East Hampton High School","=""0426111""","Eligible For Reduced Lunch",7,7,"*"
+"East Hampton School District","=""0420011""","East Hampton High School","=""0426111""","Not Eligible For Lunch",112,"*","*"
+"East Hartford School District","=""0430011""","Connecticut IB Academy","=""0436311""","Eligible For Free Lunch","*","*","*"
+"East Hartford School District","=""0430011""","Connecticut IB Academy","=""0436311""","Eligible For Reduced Lunch","*","*","*"
+"East Hartford School District","=""0430011""","Connecticut IB Academy","=""0436311""","Not Eligible For Lunch",26,"*","*"
+"East Hartford School District","=""0430011""","East Hartford High School","=""0436211""","Eligible For Free Lunch",185,163,88.1
+"East Hartford School District","=""0430011""","East Hartford High School","=""0436211""","Eligible For Reduced Lunch",73,67,91.8
+"East Hartford School District","=""0430011""","East Hartford High School","=""0436211""","Not Eligible For Lunch",109,100,91.7
+"East Hartford School District","=""0430011""","Stevens Alternate High school","=""0436411""","Eligible For Free Lunch",78,52,66.7
+"East Hartford School District","=""0430011""","Stevens Alternate High school","=""0436411""","Eligible For Reduced Lunch",23,16,69.6
+"East Hartford School District","=""0430011""","Stevens Alternate High school","=""0436411""","Not Eligible For Lunch",15,10,"*"
+"East Haven School District","=""0440011""","East Haven High School","=""0446111""","Eligible For Free Lunch",77,49,63.6
+"East Haven School District","=""0440011""","East Haven High School","=""0446111""","Eligible For Reduced Lunch",41,34,82.9
+"East Haven School District","=""0440011""","East Haven High School","=""0446111""","Not Eligible For Lunch",119,101,84.9
+"East Lyme School District","=""0450011""","East Lyme High School","=""0456111""","Eligible For Free Lunch","*","*","*"
+"East Lyme School District","=""0450011""","East Lyme High School","=""0456111""","Eligible For Reduced Lunch","*","*","*"
+"East Lyme School District","=""0450011""","East Lyme High School","=""0456111""","Not Eligible For Lunch",277,273,98.6
+"East Windsor School District","=""0470011""","East Windsor High School","=""0476111""","Eligible For Free Lunch",18,13,"*"
+"East Windsor School District","=""0470011""","East Windsor High School","=""0476111""","Eligible For Reduced Lunch",19,"*","*"
+"East Windsor School District","=""0470011""","East Windsor High School","=""0476111""","Not Eligible For Lunch",54,"*","*"
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Arts at the Capitol Theater Magnet School (ACT)","=""2536014""","Eligible For Free Lunch","*","*","*"
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Arts at the Capitol Theater Magnet School (ACT)","=""2536014""","Eligible For Reduced Lunch","*","*","*"
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Arts at the Capitol Theater Magnet School (ACT)","=""2536014""","Not Eligible For Lunch",18,18,"*"
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Quinebaug Middle College","=""2536114""","Eligible For Free Lunch",14,"*","*"
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Quinebaug Middle College","=""2536114""","Eligible For Reduced Lunch",6,6,"*"
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Quinebaug Middle College","=""2536114""","Not Eligible For Lunch",20,"*","*"
+"Ellington School District","=""0480011""","Ellington High School","=""0486111""","Eligible For Free Lunch",14,"*","*"
+"Ellington School District","=""0480011""","Ellington High School","=""0486111""","Eligible For Reduced Lunch",6,"*","*"
+"Ellington School District","=""0480011""","Ellington High School","=""0486111""","Not Eligible For Lunch",177,171,96.6
+"Elm City College Preparatory School District","=""2890013""","Elm City College Preparatory School","=""2890113""","Eligible For Free Lunch",10,"*","*"
+"Elm City College Preparatory School District","=""2890013""","Elm City College Preparatory School","=""2890113""","Eligible For Reduced Lunch","*","*","*"
+"Elm City College Preparatory School District","=""2890013""","Elm City College Preparatory School","=""2890113""","Not Eligible For Lunch","*","*","*"
+"Enfield School District","=""0490011""","Enfield High School","=""0496111""","Eligible For Free Lunch",45,"*","*"
+"Enfield School District","=""0490011""","Enfield High School","=""0496111""","Eligible For Reduced Lunch",22,"*","*"
+"Enfield School District","=""0490011""","Enfield High School","=""0496111""","Not Eligible For Lunch",115,106,92.2
+"Enfield School District","=""0490011""","Enrico Fermi High School","=""0496211""","Eligible For Free Lunch",30,23,76.7
+"Enfield School District","=""0490011""","Enrico Fermi High School","=""0496211""","Eligible For Reduced Lunch",32,"*","*"
+"Enfield School District","=""0490011""","Enrico Fermi High School","=""0496211""","Not Eligible For Lunch",193,"*","*"
+"Explorations District","=""2720013""","Explorations","=""2726113""","Eligible For Free Lunch","*","*","*"
+"Explorations District","=""2720013""","Explorations","=""2726113""","Eligible For Reduced Lunch","*","*","*"
+"Explorations District","=""2720013""","Explorations","=""2726113""","Not Eligible For Lunch",20,"*","*"
+"Fairfield School District","=""0510011""","Fairfield Ludlowe High School","=""0516011""","Eligible For Free Lunch",30,"*","*"
+"Fairfield School District","=""0510011""","Fairfield Ludlowe High School","=""0516011""","Eligible For Reduced Lunch",15,15,"*"
+"Fairfield School District","=""0510011""","Fairfield Ludlowe High School","=""0516011""","Not Eligible For Lunch",333,"*","*"
+"Fairfield School District","=""0510011""","Fairfield Warde High School","=""0516211""","Eligible For Free Lunch",40,34,85.0
+"Fairfield School District","=""0510011""","Fairfield Warde High School","=""0516211""","Eligible For Reduced Lunch",23,21,91.3
+"Fairfield School District","=""0510011""","Fairfield Warde High School","=""0516211""","Not Eligible For Lunch",250,241,96.4
+"Farmington School District","=""0520011""","Farmington High School","=""0526111""","Eligible For Free Lunch",17,"*","*"
+"Farmington School District","=""0520011""","Farmington High School","=""0526111""","Eligible For Reduced Lunch",14,"*","*"
+"Farmington School District","=""0520011""","Farmington High School","=""0526111""","Not Eligible For Lunch",287,"*","*"
+"Glastonbury School District","=""0540011""","Glastonbury High School","=""0546111""","Eligible For Free Lunch",23,"*","*"
+"Glastonbury School District","=""0540011""","Glastonbury High School","=""0546111""","Eligible For Reduced Lunch",10,10,"*"
+"Glastonbury School District","=""0540011""","Glastonbury High School","=""0546111""","Not Eligible For Lunch",510,"*","*"
+"Granby School District","=""0560011""","Granby Memorial High School","=""0566111""","Eligible For Free Lunch","*","*","*"
+"Granby School District","=""0560011""","Granby Memorial High School","=""0566111""","Eligible For Reduced Lunch","*","*","*"
+"Granby School District","=""0560011""","Granby Memorial High School","=""0566111""","Not Eligible For Lunch",176,173,98.3
+"Greenwich School District","=""0570011""","Greenwich High School","=""0576111""","Eligible For Free Lunch",63,"*","*"
+"Greenwich School District","=""0570011""","Greenwich High School","=""0576111""","Eligible For Reduced Lunch",28,"*","*"
+"Greenwich School District","=""0570011""","Greenwich High School","=""0576111""","Not Eligible For Lunch",587,582,99.1
+"Griswold School District","=""0580011""","Griswold High School","=""0586211""","Eligible For Free Lunch",37,"*","*"
+"Griswold School District","=""0580011""","Griswold High School","=""0586211""","Eligible For Reduced Lunch",20,"*","*"
+"Griswold School District","=""0580011""","Griswold High School","=""0586211""","Not Eligible For Lunch",109,103,94.5
+"Groton School District","=""0590011""","Robert E. Fitch High School","=""0596111""","Eligible For Free Lunch",84,"*","*"
+"Groton School District","=""0590011""","Robert E. Fitch High School","=""0596111""","Eligible For Reduced Lunch",30,"*","*"
+"Groton School District","=""0590011""","Robert E. Fitch High School","=""0596111""","Not Eligible For Lunch",204,183,89.7
+"Guilford School District","=""0600011""","Guilford High School","=""0606111""","Eligible For Free Lunch",10,"*","*"
+"Guilford School District","=""0600011""","Guilford High School","=""0606111""","Eligible For Reduced Lunch",10,"*","*"
+"Guilford School District","=""0600011""","Guilford High School","=""0606111""","Not Eligible For Lunch",256,246,96.1
+"Hamden School District","=""0620011""","Hamden High School","=""0626111""","Eligible For Free Lunch",117,96,82.1
+"Hamden School District","=""0620011""","Hamden High School","=""0626111""","Eligible For Reduced Lunch",56,53,94.6
+"Hamden School District","=""0620011""","Hamden High School","=""0626111""","Not Eligible For Lunch",267,252,94.4
+"Hartford School District","=""0640011""","Bulkeley High School Upper School","=""0647111""","Eligible For Free Lunch",165,131,79.4
+"Hartford School District","=""0640011""","Bulkeley High School Upper School","=""0647111""","Eligible For Reduced Lunch","*","*","*"
+"Hartford School District","=""0640011""","Bulkeley High School Upper School","=""0647111""","Not Eligible For Lunch","*","*","*"
+"Hartford School District","=""0640011""","Capital Preparatory Magnet School","=""0646911""","Eligible For Free Lunch",13,13,"*"
+"Hartford School District","=""0640011""","Capital Preparatory Magnet School","=""0646911""","Eligible For Reduced Lunch",6,6,"*"
+"Hartford School District","=""0640011""","Capital Preparatory Magnet School","=""0646911""","Not Eligible For Lunch",14,14,"*"
+"Hartford School District","=""0640011""","Classical Magnet School","=""0646411""","Eligible For Free Lunch",42,42,100.0
+"Hartford School District","=""0640011""","Classical Magnet School","=""0646411""","Eligible For Reduced Lunch",12,"*","*"
+"Hartford School District","=""0640011""","Classical Magnet School","=""0646411""","Not Eligible For Lunch",34,"*","*"
+"Hartford School District","=""0640011""","Culinary Arts Academy","=""0646011""","Eligible For Free Lunch",75,54,72.0
+"Hartford School District","=""0640011""","Great Path Academy High School at MCC","=""0647911""","Eligible For Free Lunch",26,"*","*"
+"Hartford School District","=""0640011""","Great Path Academy High School at MCC","=""0647911""","Eligible For Reduced Lunch",10,"*","*"
+"Hartford School District","=""0640011""","Great Path Academy High School at MCC","=""0647911""","Not Eligible For Lunch",32,32,100.0
+"Hartford School District","=""0640011""","HPHS Academy of Engineering and Green Technology","=""0647211""","Eligible For Free Lunch","*","*","*"
+"Hartford School District","=""0640011""","HPHS Academy of Engineering and Green Technology","=""0647211""","Not Eligible For Lunch","*","*","*"
+"Hartford School District","=""0640011""","HPHS Academy of Nursing and Health Science","=""0647511""","Eligible For Free Lunch",136,100,73.5
+"Hartford School District","=""0640011""","HPHS Academy of Nursing and Health Science","=""0647511""","Eligible For Reduced Lunch","*","*","*"
+"Hartford School District","=""0640011""","HPHS Academy of Nursing and Health Science","=""0647511""","Not Eligible For Lunch","*","*","*"
+"Hartford School District","=""0640011""","HPHS Law and Government Academy","=""0647411""","Eligible For Free Lunch",119,101,84.9
+"Hartford School District","=""0640011""","HPHS Law and Government Academy","=""0647411""","Eligible For Reduced Lunch","*","*","*"
+"Hartford School District","=""0640011""","HPHS Law and Government Academy","=""0647411""","Not Eligible For Lunch","*","*","*"
+"Hartford School District","=""0640011""","High School Inc.","=""0647611""","Eligible For Free Lunch",73,55,75.3
+"Hartford School District","=""0640011""","High School Inc.","=""0647611""","Eligible For Reduced Lunch",7,"*","*"
+"Hartford School District","=""0640011""","High School Inc.","=""0647611""","Not Eligible For Lunch",23,"*","*"
+"Hartford School District","=""0640011""","Journalism and Media Academy Magnet School","=""0647711""","Eligible For Free Lunch","*","*","*"
+"Hartford School District","=""0640011""","Journalism and Media Academy Magnet School","=""0647711""","Eligible For Reduced Lunch","*","*","*"
+"Hartford School District","=""0640011""","OPPortunity High School","=""0647811""","Eligible For Free Lunch",73,52,71.2
+"Hartford School District","=""0640011""","OPPortunity High School","=""0647811""","Eligible For Reduced Lunch",6,"*","*"
+"Hartford School District","=""0640011""","OPPortunity High School","=""0647811""","Not Eligible For Lunch",6,"*","*"
+"Hartford School District","=""0640011""","Pathways Academy of Technology and Design","=""0646611""","Eligible For Free Lunch",43,"*","*"
+"Hartford School District","=""0640011""","Pathways Academy of Technology and Design","=""0646611""","Eligible For Reduced Lunch",10,"*","*"
+"Hartford School District","=""0640011""","Pathways Academy of Technology and Design","=""0646611""","Not Eligible For Lunch",18,18,"*"
+"Hartford School District","=""0640011""","Sports and Medical Sciences Academy","=""0646511""","Eligible For Free Lunch",88,82,93.2
+"Hartford School District","=""0640011""","University High of Science and Engineering","=""0646711""","Eligible For Free Lunch",25,25,100.0
+"Hartford School District","=""0640011""","University High of Science and Engineering","=""0646711""","Eligible For Reduced Lunch",20,"*","*"
+"Hartford School District","=""0640011""","University High of Science and Engineering","=""0646711""","Not Eligible For Lunch",49,"*","*"
+"Killingly School District","=""0690011""","Killingly High School","=""0696111""","Eligible For Free Lunch",72,50,69.4
+"Killingly School District","=""0690011""","Killingly High School","=""0696111""","Eligible For Reduced Lunch",34,26,76.5
+"Killingly School District","=""0690011""","Killingly High School","=""0696111""","Not Eligible For Lunch",106,95,89.6
+"Learn","=""2450014""","Connecticut River Academy","=""2456014""","Eligible For Free Lunch",21,21,100.0
+"Learn","=""2450014""","Connecticut River Academy","=""2456014""","Eligible For Reduced Lunch","*","*","*"
+"Learn","=""2450014""","Connecticut River Academy","=""2456014""","Not Eligible For Lunch","*","*","*"
+"Learn","=""2450014""","Marine Science Magnet High School of Southeastern Connecticut","=""2456114""","Not Eligible For Lunch","*","*","*"
+"Learn","=""2450014""","Three Rivers Middle College Magnet School","=""2456214""","Eligible For Free Lunch","*","*","*"
+"Learn","=""2450014""","Three Rivers Middle College Magnet School","=""2456214""","Eligible For Reduced Lunch","*","*","*"
+"Learn","=""2450014""","Three Rivers Middle College Magnet School","=""2456214""","Not Eligible For Lunch",7,"*","*"
+"Lebanon School District","=""0710011""","Lyman Memorial High School","=""0716211""","Eligible For Free Lunch",14,"*","*"
+"Lebanon School District","=""0710011""","Lyman Memorial High School","=""0716211""","Eligible For Reduced Lunch",11,"*","*"
+"Lebanon School District","=""0710011""","Lyman Memorial High School","=""0716211""","Not Eligible For Lunch",92,88,95.7
+"Ledyard School District","=""0720011""","Ledyard High School","=""0726111""","Eligible For Free Lunch",39,30,76.9
+"Ledyard School District","=""0720011""","Ledyard High School","=""0726111""","Eligible For Reduced Lunch",13,"*","*"
+"Ledyard School District","=""0720011""","Ledyard High School","=""0726111""","Not Eligible For Lunch",171,"*","*"
+"Lisbon School District","=""0730011""","Community Connection - The Big Picture High School","=""0736011""","Eligible For Free Lunch","*","*","*"
+"Lisbon School District","=""0730011""","Community Connection - The Big Picture High School","=""0736011""","Eligible For Reduced Lunch","*","*","*"
+"Lisbon School District","=""0730011""","Community Connection - The Big Picture High School","=""0736011""","Not Eligible For Lunch","*","*","*"
+"Litchfield School District","=""0740011""","Litchfield High School","=""0746111""","Eligible For Free Lunch","*","*","*"
+"Litchfield School District","=""0740011""","Litchfield High School","=""0746111""","Eligible For Reduced Lunch","*","*","*"
+"Litchfield School District","=""0740011""","Litchfield High School","=""0746111""","Not Eligible For Lunch",74,74,100.0
+"Madison School District","=""0760011""","Daniel Hand High School","=""0766111""","Eligible For Free Lunch",6,6,"*"
+"Madison School District","=""0760011""","Daniel Hand High School","=""0766111""","Eligible For Reduced Lunch",6,6,"*"
+"Madison School District","=""0760011""","Daniel Hand High School","=""0766111""","Not Eligible For Lunch",302,302,100.0
+"Manchester School District","=""0770011""","Manchester High School","=""0776111""","Eligible For Free Lunch",168,130,77.4
+"Manchester School District","=""0770011""","Manchester High School","=""0776111""","Eligible For Reduced Lunch",54,43,79.6
+"Manchester School District","=""0770011""","Manchester High School","=""0776111""","Not Eligible For Lunch",218,202,92.7
+"Meriden School District","=""0800011""","Francis T. Maloney High School","=""0806111""","Eligible For Free Lunch",158,112,70.9
+"Meriden School District","=""0800011""","Francis T. Maloney High School","=""0806111""","Eligible For Reduced Lunch",44,35,79.5
+"Meriden School District","=""0800011""","Francis T. Maloney High School","=""0806111""","Not Eligible For Lunch",119,108,90.8
+"Meriden School District","=""0800011""","Orville H. Platt High School","=""0806211""","Eligible For Free Lunch",147,97,66.0
+"Meriden School District","=""0800011""","Orville H. Platt High School","=""0806211""","Eligible For Reduced Lunch",52,39,75.0
+"Meriden School District","=""0800011""","Orville H. Platt High School","=""0806211""","Not Eligible For Lunch",84,73,86.9
+"Middletown School District","=""0830011""","Middletown High School","=""0836211""","Eligible For Free Lunch",129,"*","*"
+"Middletown School District","=""0830011""","Middletown High School","=""0836211""","Eligible For Reduced Lunch",40,"*","*"
+"Middletown School District","=""0830011""","Middletown High School","=""0836211""","Not Eligible For Lunch",187,172,92.0
+"Milford School District","=""0840011""","Jonathan Law High School","=""0846211""","Eligible For Free Lunch",55,"*","*"
+"Milford School District","=""0840011""","Jonathan Law High School","=""0846211""","Eligible For Reduced Lunch",27,"*","*"
+"Milford School District","=""0840011""","Jonathan Law High School","=""0846211""","Not Eligible For Lunch",168,158,94.0
+"Milford School District","=""0840011""","Joseph A. Foran High School","=""0846311""","Eligible For Free Lunch",28,21,75.0
+"Milford School District","=""0840011""","Joseph A. Foran High School","=""0846311""","Eligible For Reduced Lunch",28,28,100.0
+"Milford School District","=""0840011""","Joseph A. Foran High School","=""0846311""","Not Eligible For Lunch",205,199,97.1
+"Monroe School District","=""0850011""","Masuk High School","=""0856111""","Eligible For Free Lunch",22,"*","*"
+"Monroe School District","=""0850011""","Masuk High School","=""0856111""","Eligible For Reduced Lunch",20,20,100.0
+"Monroe School District","=""0850011""","Masuk High School","=""0856111""","Not Eligible For Lunch",264,"*","*"
+"Montville School District","=""0860011""","Montville High School","=""0866111""","Eligible For Free Lunch",43,"*","*"
+"Montville School District","=""0860011""","Montville High School","=""0866111""","Eligible For Reduced Lunch",18,"*","*"
+"Montville School District","=""0860011""","Montville High School","=""0866111""","Not Eligible For Lunch",115,109,94.8
+"Naugatuck School District","=""0880011""","Naugatuck High School","=""0886111""","Eligible For Free Lunch",109,81,74.3
+"Naugatuck School District","=""0880011""","Naugatuck High School","=""0886111""","Eligible For Reduced Lunch",46,38,82.6
+"Naugatuck School District","=""0880011""","Naugatuck High School","=""0886111""","Not Eligible For Lunch",177,155,87.6
+"New Britain School District","=""0890011""","New Britain High School","=""0896111""","Eligible For Free Lunch",408,260,63.7
+"New Britain School District","=""0890011""","New Britain High School","=""0896111""","Eligible For Reduced Lunch",86,69,80.2
+"New Britain School District","=""0890011""","New Britain High School","=""0896111""","Not Eligible For Lunch",113,99,87.6
+"New Canaan School District","=""0900011""","New Canaan High School","=""0906111""","Eligible For Free Lunch","*","*","*"
+"New Canaan School District","=""0900011""","New Canaan High School","=""0906111""","Eligible For Reduced Lunch","*","*","*"
+"New Canaan School District","=""0900011""","New Canaan High School","=""0906111""","Not Eligible For Lunch",336,331,98.5
+"New Fairfield School District","=""0910011""","New Fairfield High School","=""0916111""","Eligible For Free Lunch",17,"*","*"
+"New Fairfield School District","=""0910011""","New Fairfield High School","=""0916111""","Eligible For Reduced Lunch",15,"*","*"
+"New Fairfield School District","=""0910011""","New Fairfield High School","=""0916111""","Not Eligible For Lunch",225,"*","*"
+"New Haven School District","=""0930011""","Cooperative High School","=""0936411""","Eligible For Free Lunch",110,99,90.0
+"New Haven School District","=""0930011""","Cooperative High School","=""0936411""","Eligible For Reduced Lunch",26,26,100.0
+"New Haven School District","=""0930011""","Cooperative High School","=""0936411""","Not Eligible For Lunch",37,33,89.2
+"New Haven School District","=""0930011""","High School In The Community","=""0936611""","Eligible For Free Lunch",44,28,63.6
+"New Haven School District","=""0930011""","High School In The Community","=""0936611""","Eligible For Reduced Lunch",13,"*","*"
+"New Haven School District","=""0930011""","High School In The Community","=""0936611""","Not Eligible For Lunch",14,"*","*"
+"New Haven School District","=""0930011""","Hill Regional Career High School","=""0936311""","Eligible For Free Lunch",99,90,90.9
+"New Haven School District","=""0930011""","Hill Regional Career High School","=""0936311""","Eligible For Reduced Lunch",31,"*","*"
+"New Haven School District","=""0930011""","Hill Regional Career High School","=""0936311""","Not Eligible For Lunch",23,"*","*"
+"New Haven School District","=""0930011""","Hyde School of Health, Science and Sports Medicine","=""0936811""","Eligible For Free Lunch",29,"*","*"
+"New Haven School District","=""0930011""","Hyde School of Health, Science and Sports Medicine","=""0936811""","Eligible For Reduced Lunch","*","*","*"
+"New Haven School District","=""0930011""","Hyde School of Health, Science and Sports Medicine","=""0936811""","Not Eligible For Lunch","*","*","*"
+"New Haven School District","=""0930011""","James Hillhouse High School","=""0936211""","Eligible For Free Lunch",196,131,66.8
+"New Haven School District","=""0930011""","James Hillhouse High School","=""0936211""","Eligible For Reduced Lunch",25,16,64.0
+"New Haven School District","=""0930011""","James Hillhouse High School","=""0936211""","Not Eligible For Lunch",32,19,59.4
+"New Haven School District","=""0930011""","Metropolitan Business Academy","=""0936011""","Eligible For Free Lunch",65,53,81.5
+"New Haven School District","=""0930011""","Metropolitan Business Academy","=""0936011""","Eligible For Reduced Lunch",17,"*","*"
+"New Haven School District","=""0930011""","Metropolitan Business Academy","=""0936011""","Not Eligible For Lunch",14,"*","*"
+"New Haven School District","=""0930011""","New Haven Academy","=""0937011""","Eligible For Free Lunch",47,32,68.1
+"New Haven School District","=""0930011""","New Haven Academy","=""0937011""","Eligible For Reduced Lunch",17,"*","*"
+"New Haven School District","=""0930011""","New Haven Academy","=""0937011""","Not Eligible For Lunch",10,"*","*"
+"New Haven School District","=""0930011""","Sound School","=""0936711""","Eligible For Free Lunch",32,"*","*"
+"New Haven School District","=""0930011""","Sound School","=""0936711""","Eligible For Reduced Lunch",17,"*","*"
+"New Haven School District","=""0930011""","Sound School","=""0936711""","Not Eligible For Lunch",30,"*","*"
+"New Haven School District","=""0930011""","Wilbur Cross High School","=""0936111""","Eligible For Free Lunch",225,156,69.3
+"New Haven School District","=""0930011""","Wilbur Cross High School","=""0936111""","Eligible For Reduced Lunch",32,28,87.5
+"New Haven School District","=""0930011""","Wilbur Cross High School","=""0936111""","Not Eligible For Lunch",44,35,79.5
+"New London School District","=""0950011""","New London High School","=""0956111""","Eligible For Free Lunch",241,172,71.4
+"New London School District","=""0950011""","New London High School","=""0956111""","Eligible For Reduced Lunch","*","*","*"
+"New London School District","=""0950011""","New London High School","=""0956111""","Not Eligible For Lunch","*","*","*"
+"New Milford School District","=""0960011""","New Milford High School","=""0966111""","Eligible For Free Lunch",38,"*","*"
+"New Milford School District","=""0960011""","New Milford High School","=""0966111""","Eligible For Reduced Lunch",24,"*","*"
+"New Milford School District","=""0960011""","New Milford High School","=""0966111""","Not Eligible For Lunch",318,294,92.5
+"Newington School District","=""0940011""","Newington High School","=""0946111""","Eligible For Free Lunch",59,"*","*"
+"Newington School District","=""0940011""","Newington High School","=""0946111""","Eligible For Reduced Lunch",34,"*","*"
+"Newington School District","=""0940011""","Newington High School","=""0946111""","Not Eligible For Lunch",280,263,93.9
+"Newtown School District","=""0970011""","Newtown High School","=""0976111""","Eligible For Free Lunch",21,"*","*"
+"Newtown School District","=""0970011""","Newtown High School","=""0976111""","Eligible For Reduced Lunch",14,"*","*"
+"Newtown School District","=""0970011""","Newtown High School","=""0976111""","Not Eligible For Lunch",431,418,97.0
+"North Branford School District","=""0990011""","North Branford High School","=""0996111""","Eligible For Free Lunch",20,"*","*"
+"North Branford School District","=""0990011""","North Branford High School","=""0996111""","Eligible For Reduced Lunch",12,"*","*"
+"North Branford School District","=""0990011""","North Branford High School","=""0996111""","Not Eligible For Lunch",137,137,100.0
+"North Haven School District","=""1010011""","North Haven High School","=""1016111""","Eligible For Free Lunch",49,35,71.4
+"North Haven School District","=""1010011""","North Haven High School","=""1016111""","Eligible For Reduced Lunch",17,17,"*"
+"North Haven School District","=""1010011""","North Haven High School","=""1016111""","Not Eligible For Lunch",238,229,96.2
+"North Stonington School District","=""1020011""","Wheeler High School","=""1026111""","Eligible For Free Lunch","*","*","*"
+"North Stonington School District","=""1020011""","Wheeler High School","=""1026111""","Eligible For Reduced Lunch","*","*","*"
+"North Stonington School District","=""1020011""","Wheeler High School","=""1026111""","Not Eligible For Lunch",37,"*","*"
+"Norwalk School District","=""1030011""","Brien McMahon High School","=""1036211""","Eligible For Free Lunch",153,"*","*"
+"Norwalk School District","=""1030011""","Brien McMahon High School","=""1036211""","Eligible For Reduced Lunch",42,"*","*"
+"Norwalk School District","=""1030011""","Brien McMahon High School","=""1036211""","Not Eligible For Lunch",191,179,93.7
+"Norwalk School District","=""1030011""","Norwalk High School","=""1036111""","Eligible For Free Lunch",92,"*","*"
+"Norwalk School District","=""1030011""","Norwalk High School","=""1036111""","Eligible For Reduced Lunch",37,"*","*"
+"Norwalk School District","=""1030011""","Norwalk High School","=""1036111""","Not Eligible For Lunch",220,208,94.5
+"Norwalk School District","=""1030011""","Norwalk Pathways Academy at Briggs","=""1036311""","Eligible For Free Lunch",24,7,29.2
+"Norwalk School District","=""1030011""","Norwalk Pathways Academy at Briggs","=""1036311""","Eligible For Reduced Lunch",7,"*","*"
+"Norwalk School District","=""1030011""","Norwalk Pathways Academy at Briggs","=""1036311""","Not Eligible For Lunch",7,"*","*"
+"Norwich Free Academy District","=""9010022""","Norwich Free Academy","=""9016122""","Eligible For Free Lunch",165,"*","*"
+"Norwich Free Academy District","=""9010022""","Norwich Free Academy","=""9016122""","Eligible For Reduced Lunch",39,"*","*"
+"Norwich Free Academy District","=""9010022""","Norwich Free Academy","=""9016122""","Not Eligible For Lunch",359,334,93.0
+"Old Saybrook School District","=""1060011""","Old Saybrook Senior High School","=""1066111""","Eligible For Free Lunch",13,"*","*"
+"Old Saybrook School District","=""1060011""","Old Saybrook Senior High School","=""1066111""","Eligible For Reduced Lunch",8,8,"*"
+"Old Saybrook School District","=""1060011""","Old Saybrook Senior High School","=""1066111""","Not Eligible For Lunch",114,"*","*"
+"Oxford School District","=""1080011""","Oxford High School","=""1086011""","Eligible For Free Lunch","*","*","*"
+"Oxford School District","=""1080011""","Oxford High School","=""1086011""","Eligible For Reduced Lunch","*","*","*"
+"Oxford School District","=""1080011""","Oxford High School","=""1086011""","Not Eligible For Lunch",140,"*","*"
+"Plainfield School District","=""1090011""","Plainfield High School","=""1096111""","Eligible For Free Lunch",48,"*","*"
+"Plainfield School District","=""1090011""","Plainfield High School","=""1096111""","Eligible For Reduced Lunch",23,"*","*"
+"Plainfield School District","=""1090011""","Plainfield High School","=""1096111""","Not Eligible For Lunch",126,116,92.1
+"Plainville School District","=""1100011""","Plainville High School","=""1106111""","Eligible For Free Lunch",51,45,88.2
+"Plainville School District","=""1100011""","Plainville High School","=""1106111""","Eligible For Reduced Lunch",10,8,"*"
+"Plainville School District","=""1100011""","Plainville High School","=""1106111""","Not Eligible For Lunch",141,132,93.6
+"Plymouth School District","=""1110011""","Terryville High School","=""1116111""","Eligible For Free Lunch",26,22,84.6
+"Plymouth School District","=""1110011""","Terryville High School","=""1116111""","Eligible For Reduced Lunch",10,"*","*"
+"Plymouth School District","=""1110011""","Terryville High School","=""1116111""","Not Eligible For Lunch",84,"*","*"
+"Portland School District","=""1130011""","Portland High School","=""1136111""","Eligible For Free Lunch","*","*","*"
+"Portland School District","=""1130011""","Portland High School","=""1136111""","Eligible For Reduced Lunch","*","*","*"
+"Portland School District","=""1130011""","Portland High School","=""1136111""","Not Eligible For Lunch",75,"*","*"
+"Putnam School District","=""1160011""","Putnam High School","=""1166111""","Eligible For Free Lunch",37,"*","*"
+"Putnam School District","=""1160011""","Putnam High School","=""1166111""","Eligible For Reduced Lunch",10,10,"*"
+"Putnam School District","=""1160011""","Putnam High School","=""1166111""","Not Eligible For Lunch",45,"*","*"
+"Regional School District 01","=""2010012""","Housatonic Valley Regional High School","=""2016112""","Eligible For Free Lunch",13,"*","*"
+"Regional School District 01","=""2010012""","Housatonic Valley Regional High School","=""2016112""","Eligible For Reduced Lunch",16,"*","*"
+"Regional School District 01","=""2010012""","Housatonic Valley Regional High School","=""2016112""","Not Eligible For Lunch",79,"*","*"
+"Regional School District 04","=""2040012""","Valley Regional High School","=""2046112""","Eligible For Free Lunch",17,14,"*"
+"Regional School District 04","=""2040012""","Valley Regional High School","=""2046112""","Eligible For Reduced Lunch",8,"*","*"
+"Regional School District 04","=""2040012""","Valley Regional High School","=""2046112""","Not Eligible For Lunch",137,"*","*"
+"Regional School District 05","=""2050012""","Amity Regional High School","=""2056112""","Eligible For Free Lunch",10,"*","*"
+"Regional School District 05","=""2050012""","Amity Regional High School","=""2056112""","Eligible For Reduced Lunch",8,"*","*"
+"Regional School District 05","=""2050012""","Amity Regional High School","=""2056112""","Not Eligible For Lunch",373,363,97.3
+"Regional School District 06","=""2060012""","Wamogo Regional High School","=""2066112""","Eligible For Free Lunch","*","*","*"
+"Regional School District 06","=""2060012""","Wamogo Regional High School","=""2066112""","Eligible For Reduced Lunch","*","*","*"
+"Regional School District 06","=""2060012""","Wamogo Regional High School","=""2066112""","Not Eligible For Lunch",86,"*","*"
+"Regional School District 07","=""2070012""","Northwestern Regional High School","=""2076112""","Eligible For Free Lunch","*","*","*"
+"Regional School District 07","=""2070012""","Northwestern Regional High School","=""2076112""","Eligible For Reduced Lunch","*","*","*"
+"Regional School District 07","=""2070012""","Northwestern Regional High School","=""2076112""","Not Eligible For Lunch",162,160,98.8
+"Regional School District 08","=""2080012""","RHAM High School","=""2086112""","Eligible For Free Lunch",12,"*","*"
+"Regional School District 08","=""2080012""","RHAM High School","=""2086112""","Eligible For Reduced Lunch",10,"*","*"
+"Regional School District 08","=""2080012""","RHAM High School","=""2086112""","Not Eligible For Lunch",249,239,96.0
+"Regional School District 08","=""2080012""","Region Alternative High School","=""2086212""","Eligible For Free Lunch","*","*","*"
+"Regional School District 08","=""2080012""","Region Alternative High School","=""2086212""","Eligible For Reduced Lunch","*","*","*"
+"Regional School District 08","=""2080012""","Region Alternative High School","=""2086212""","Not Eligible For Lunch",6,"*","*"
+"Regional School District 09","=""2090012""","Joel Barlow High School","=""2096112""","Eligible For Free Lunch","*","*","*"
+"Regional School District 09","=""2090012""","Joel Barlow High School","=""2096112""","Eligible For Reduced Lunch","*","*","*"
+"Regional School District 09","=""2090012""","Joel Barlow High School","=""2096112""","Not Eligible For Lunch",224,218,97.3
+"Regional School District 10","=""2100012""","Lewis S. Mills High School","=""2106112""","Eligible For Free Lunch","*","*","*"
+"Regional School District 10","=""2100012""","Lewis S. Mills High School","=""2106112""","Eligible For Reduced Lunch","*","*","*"
+"Regional School District 10","=""2100012""","Lewis S. Mills High School","=""2106112""","Not Eligible For Lunch",177,170,96.0
+"Regional School District 11","=""2110012""","Parish Hill High School","=""2116112""","Eligible For Free Lunch","*","*","*"
+"Regional School District 11","=""2110012""","Parish Hill High School","=""2116112""","Eligible For Reduced Lunch","*","*","*"
+"Regional School District 11","=""2110012""","Parish Hill High School","=""2116112""","Not Eligible For Lunch",28,"*","*"
+"Regional School District 12","=""2120012""","Shepaug Valley High School","=""2126112""","Eligible For Free Lunch","*","*","*"
+"Regional School District 12","=""2120012""","Shepaug Valley High School","=""2126112""","Eligible For Reduced Lunch","*","*","*"
+"Regional School District 12","=""2120012""","Shepaug Valley High School","=""2126112""","Not Eligible For Lunch",78,"*","*"
+"Regional School District 13","=""2130012""","Coginchaug Regional High School","=""2136112""","Eligible For Free Lunch","*","*","*"
+"Regional School District 13","=""2130012""","Coginchaug Regional High School","=""2136112""","Eligible For Reduced Lunch","*","*","*"
+"Regional School District 13","=""2130012""","Coginchaug Regional High School","=""2136112""","Not Eligible For Lunch",142,"*","*"
+"Regional School District 14","=""2140012""","Nonnewaug High School","=""2146112""","Eligible For Free Lunch",12,"*","*"
+"Regional School District 14","=""2140012""","Nonnewaug High School","=""2146112""","Eligible For Reduced Lunch",11,"*","*"
+"Regional School District 14","=""2140012""","Nonnewaug High School","=""2146112""","Not Eligible For Lunch",172,"*","*"
+"Regional School District 15","=""2150012""","Pomperaug Regional High School","=""2156212""","Eligible For Free Lunch",11,9,"*"
+"Regional School District 15","=""2150012""","Pomperaug Regional High School","=""2156212""","Eligible For Reduced Lunch",6,6,"*"
+"Regional School District 15","=""2150012""","Pomperaug Regional High School","=""2156212""","Not Eligible For Lunch",300,294,98.0
+"Regional School District 16","=""2160012""","Woodland Regional High School","=""2166012""","Eligible For Free Lunch",26,"*","*"
+"Regional School District 16","=""2160012""","Woodland Regional High School","=""2166012""","Eligible For Reduced Lunch",15,"*","*"
+"Regional School District 16","=""2160012""","Woodland Regional High School","=""2166012""","Not Eligible For Lunch",143,139,97.2
+"Regional School District 17","=""2170012""","Haddam-Killingworth High School","=""2176112""","Eligible For Free Lunch","*","*","*"
+"Regional School District 17","=""2170012""","Haddam-Killingworth High School","=""2176112""","Eligible For Reduced Lunch","*","*","*"
+"Regional School District 17","=""2170012""","Haddam-Killingworth High School","=""2176112""","Not Eligible For Lunch",151,148,98.0
+"Regional School District 18","=""2180012""","Lyme-Old Lyme High School","=""2186112""","Eligible For Free Lunch","*","*","*"
+"Regional School District 18","=""2180012""","Lyme-Old Lyme High School","=""2186112""","Eligible For Reduced Lunch","*","*","*"
+"Regional School District 18","=""2180012""","Lyme-Old Lyme High School","=""2186112""","Not Eligible For Lunch",101,"*","*"
+"Regional School District 19","=""2190012""","E. O. Smith High School","=""2196112""","Eligible For Free Lunch",46,"*","*"
+"Regional School District 19","=""2190012""","E. O. Smith High School","=""2196112""","Eligible For Reduced Lunch",17,"*","*"
+"Regional School District 19","=""2190012""","E. O. Smith High School","=""2196112""","Not Eligible For Lunch",246,234,95.1
+"Ridgefield School District","=""1180011""","Ridgefield High School","=""1186111""","Eligible For Free Lunch","*","*","*"
+"Ridgefield School District","=""1180011""","Ridgefield High School","=""1186111""","Eligible For Reduced Lunch","*","*","*"
+"Ridgefield School District","=""1180011""","Ridgefield High School","=""1186111""","Not Eligible For Lunch",394,"*","*"
+"Rocky Hill School District","=""1190011""","Rocky Hill High School","=""1196111""","Eligible For Free Lunch",12,"*","*"
+"Rocky Hill School District","=""1190011""","Rocky Hill High School","=""1196111""","Eligible For Reduced Lunch",8,"*","*"
+"Rocky Hill School District","=""1190011""","Rocky Hill High School","=""1196111""","Not Eligible For Lunch",155,149,96.1
+"Seymour School District","=""1240011""","Seymour High School","=""1246111""","Eligible For Free Lunch",37,27,73.0
+"Seymour School District","=""1240011""","Seymour High School","=""1246111""","Eligible For Reduced Lunch",18,13,"*"
+"Seymour School District","=""1240011""","Seymour High School","=""1246111""","Not Eligible For Lunch",122,119,97.5
+"Shelton School District","=""1260011""","Shelton High School","=""1266111""","Eligible For Free Lunch",71,"*","*"
+"Shelton School District","=""1260011""","Shelton High School","=""1266111""","Eligible For Reduced Lunch",32,"*","*"
+"Shelton School District","=""1260011""","Shelton High School","=""1266111""","Not Eligible For Lunch",288,282,97.9
+"Simsbury School District","=""1280011""","Simsbury High School","=""1286111""","Eligible For Free Lunch",22,"*","*"
+"Simsbury School District","=""1280011""","Simsbury High School","=""1286111""","Eligible For Reduced Lunch",11,11,"*"
+"Simsbury School District","=""1280011""","Simsbury High School","=""1286111""","Not Eligible For Lunch",362,"*","*"
+"Somers School District","=""1290011""","Somers High School","=""1296111""","Eligible For Free Lunch","*","*","*"
+"Somers School District","=""1290011""","Somers High School","=""1296111""","Eligible For Reduced Lunch","*","*","*"
+"Somers School District","=""1290011""","Somers High School","=""1296111""","Not Eligible For Lunch",137,"*","*"
+"South Windsor School District","=""1320011""","South Windsor High School","=""1326211""","Eligible For Free Lunch",29,"*","*"
+"South Windsor School District","=""1320011""","South Windsor High School","=""1326211""","Eligible For Reduced Lunch",8,"*","*"
+"South Windsor School District","=""1320011""","South Windsor High School","=""1326211""","Not Eligible For Lunch",338,332,98.2
+"Southington School District","=""1310011""","Southington High School","=""1316211""","Eligible For Free Lunch",41,"*","*"
+"Southington School District","=""1310011""","Southington High School","=""1316211""","Eligible For Reduced Lunch",21,"*","*"
+"Southington School District","=""1310011""","Southington High School","=""1316211""","Not Eligible For Lunch",424,413,97.4
+"Stafford School District","=""1340011""","Stafford High School","=""1346111""","Eligible For Free Lunch",24,"*","*"
+"Stafford School District","=""1340011""","Stafford High School","=""1346111""","Eligible For Reduced Lunch",14,"*","*"
+"Stafford School District","=""1340011""","Stafford High School","=""1346111""","Not Eligible For Lunch",89,84,94.4
+"Stamford Academy District","=""2820013""","Stamford Academy","=""2826013""","Eligible For Free Lunch",31,18,58.1
+"Stamford Academy District","=""2820013""","Stamford Academy","=""2826013""","Eligible For Reduced Lunch","*","*","*"
+"Stamford Academy District","=""2820013""","Stamford Academy","=""2826013""","Not Eligible For Lunch","*","*","*"
+"Stamford School District","=""1350011""","Stamford High School","=""1356111""","Eligible For Free Lunch",219,187,85.4
+"Stamford School District","=""1350011""","Stamford High School","=""1356111""","Eligible For Reduced Lunch",52,45,86.5
+"Stamford School District","=""1350011""","Stamford High School","=""1356111""","Not Eligible For Lunch",229,221,96.5
+"Stamford School District","=""1350011""","The Academy of Information Technology","=""1356411""","Eligible For Free Lunch",29,29,100.0
+"Stamford School District","=""1350011""","The Academy of Information Technology","=""1356411""","Eligible For Reduced Lunch",12,"*","*"
+"Stamford School District","=""1350011""","The Academy of Information Technology","=""1356411""","Not Eligible For Lunch",123,"*","*"
+"Stamford School District","=""1350011""","Westhill High School","=""1356311""","Eligible For Free Lunch",223,"*","*"
+"Stamford School District","=""1350011""","Westhill High School","=""1356311""","Eligible For Reduced Lunch",52,"*","*"
+"Stamford School District","=""1350011""","Westhill High School","=""1356311""","Not Eligible For Lunch",265,247,93.2
+"Stonington School District","=""1370011""","Stonington High School","=""1376111""","Eligible For Free Lunch","*","*","*"
+"Stonington School District","=""1370011""","Stonington High School","=""1376111""","Eligible For Reduced Lunch","*","*","*"
+"Stonington School District","=""1370011""","Stonington High School","=""1376111""","Not Eligible For Lunch",171,"*","*"
+"Stratford School District","=""1380011""","Bunnell High School","=""1386211""","Eligible For Free Lunch",71,63,88.7
+"Stratford School District","=""1380011""","Bunnell High School","=""1386211""","Eligible For Reduced Lunch",35,"*","*"
+"Stratford School District","=""1380011""","Bunnell High School","=""1386211""","Not Eligible For Lunch",176,"*","*"
+"Stratford School District","=""1380011""","Stratford High School","=""1386111""","Eligible For Free Lunch",72,"*","*"
+"Stratford School District","=""1380011""","Stratford High School","=""1386111""","Eligible For Reduced Lunch",46,"*","*"
+"Stratford School District","=""1380011""","Stratford High School","=""1386111""","Not Eligible For Lunch",133,126,94.7
+"Suffield School District","=""1390011""","Suffield High School","=""1396111""","Eligible For Free Lunch",17,"*","*"
+"Suffield School District","=""1390011""","Suffield High School","=""1396111""","Eligible For Reduced Lunch",17,"*","*"
+"Suffield School District","=""1390011""","Suffield High School","=""1396111""","Not Eligible For Lunch",184,"*","*"
+"The Bridge Academy District","=""2690013""","The Bridge Academy","=""2696113""","Eligible For Free Lunch",25,25,100.0
+"The Bridge Academy District","=""2690013""","The Bridge Academy","=""2696113""","Eligible For Reduced Lunch","*","*","*"
+"The Bridge Academy District","=""2690013""","The Bridge Academy","=""2696113""","Not Eligible For Lunch","*","*","*"
+"The Gilbert School District","=""9020022""","The Gilbert School","=""9026122""","Eligible For Free Lunch",23,16,69.6
+"The Gilbert School District","=""9020022""","The Gilbert School","=""9026122""","Eligible For Reduced Lunch",12,"*","*"
+"The Gilbert School District","=""9020022""","The Gilbert School","=""9026122""","Not Eligible For Lunch",50,"*","*"
+"Thomaston School District","=""1400011""","Thomaston High School","=""1406211""","Eligible For Free Lunch",12,"*","*"
+"Thomaston School District","=""1400011""","Thomaston High School","=""1406211""","Eligible For Reduced Lunch",9,9,"*"
+"Thomaston School District","=""1400011""","Thomaston High School","=""1406211""","Not Eligible For Lunch",55,"*","*"
+"Thompson School District","=""1410011""","Tourtellotte Memorial High School","=""1416111""","Eligible For Free Lunch",14,"*","*"
+"Thompson School District","=""1410011""","Tourtellotte Memorial High School","=""1416111""","Eligible For Reduced Lunch",13,"*","*"
+"Thompson School District","=""1410011""","Tourtellotte Memorial High School","=""1416111""","Not Eligible For Lunch",56,56,100.0
+"Tolland School District","=""1420011""","Tolland High School","=""1426111""","Eligible For Free Lunch",13,"*","*"
+"Tolland School District","=""1420011""","Tolland High School","=""1426111""","Eligible For Reduced Lunch",7,"*","*"
+"Tolland School District","=""1420011""","Tolland High School","=""1426111""","Not Eligible For Lunch",222,213,95.9
+"Torrington School District","=""1430011""","Torrington High School","=""1436111""","Eligible For Free Lunch",81,68,84.0
+"Torrington School District","=""1430011""","Torrington High School","=""1436111""","Eligible For Reduced Lunch",34,28,82.4
+"Torrington School District","=""1430011""","Torrington High School","=""1436111""","Not Eligible For Lunch",153,147,96.1
+"Trumbull School District","=""1440011""","Trumbull High School","=""1446111""","Eligible For Free Lunch",48,"*","*"
+"Trumbull School District","=""1440011""","Trumbull High School","=""1446111""","Eligible For Reduced Lunch",22,22,100.0
+"Trumbull School District","=""1440011""","Trumbull High School","=""1446111""","Not Eligible For Lunch",476,"*","*"
+"Vernon School District","=""1460011""","Rockville High School","=""1466111""","Eligible For Free Lunch",71,51,71.8
+"Vernon School District","=""1460011""","Rockville High School","=""1466111""","Eligible For Reduced Lunch",21,21,100.0
+"Vernon School District","=""1460011""","Rockville High School","=""1466111""","Not Eligible For Lunch",139,127,91.4
+"Wallingford School District","=""1480011""","Lyman Hall High School","=""1486111""","Eligible For Free Lunch",39,"*","*"
+"Wallingford School District","=""1480011""","Lyman Hall High School","=""1486111""","Eligible For Reduced Lunch",18,"*","*"
+"Wallingford School District","=""1480011""","Lyman Hall High School","=""1486111""","Not Eligible For Lunch",229,218,95.2
+"Wallingford School District","=""1480011""","Mark T. Sheehan High School","=""1486211""","Eligible For Free Lunch",16,"*","*"
+"Wallingford School District","=""1480011""","Mark T. Sheehan High School","=""1486211""","Eligible For Reduced Lunch",9,"*","*"
+"Wallingford School District","=""1480011""","Mark T. Sheehan High School","=""1486211""","Not Eligible For Lunch",208,199,95.7
+"Waterbury School District","=""1510011""","Crosby High School","=""1516211""","Eligible For Free Lunch",270,171,63.3
+"Waterbury School District","=""1510011""","Crosby High School","=""1516211""","Eligible For Reduced Lunch",49,"*","*"
+"Waterbury School District","=""1510011""","Crosby High School","=""1516211""","Not Eligible For Lunch",36,"*","*"
+"Waterbury School District","=""1510011""","John F. Kennedy High School","=""1516411""","Eligible For Free Lunch",266,176,66.2
+"Waterbury School District","=""1510011""","John F. Kennedy High School","=""1516411""","Eligible For Reduced Lunch",34,"*","*"
+"Waterbury School District","=""1510011""","John F. Kennedy High School","=""1516411""","Not Eligible For Lunch",81,"*","*"
+"Waterbury School District","=""1510011""","Waterbury Arts Magnet School (High)","=""1516011""","Eligible For Free Lunch",52,"*","*"
+"Waterbury School District","=""1510011""","Waterbury Arts Magnet School (High)","=""1516011""","Eligible For Reduced Lunch",15,"*","*"
+"Waterbury School District","=""1510011""","Waterbury Arts Magnet School (High)","=""1516011""","Not Eligible For Lunch",38,"*","*"
+"Waterbury School District","=""1510011""","Wilby High School","=""1516311""","Eligible For Free Lunch",274,202,73.7
+"Waterbury School District","=""1510011""","Wilby High School","=""1516311""","Eligible For Reduced Lunch",42,"*","*"
+"Waterbury School District","=""1510011""","Wilby High School","=""1516311""","Not Eligible For Lunch",41,"*","*"
+"Waterford School District","=""1520011""","Waterford High School","=""1526111""","Eligible For Free Lunch",30,"*","*"
+"Waterford School District","=""1520011""","Waterford High School","=""1526111""","Eligible For Reduced Lunch",14,14,"*"
+"Waterford School District","=""1520011""","Waterford High School","=""1526111""","Not Eligible For Lunch",191,"*","*"
+"Watertown School District","=""1530011""","Watertown High School","=""1536111""","Eligible For Free Lunch",37,"*","*"
+"Watertown School District","=""1530011""","Watertown High School","=""1536111""","Eligible For Reduced Lunch",26,"*","*"
+"Watertown School District","=""1530011""","Watertown High School","=""1536111""","Not Eligible For Lunch",206,197,95.6
+"West Hartford School District","=""1550011""","Conard High School","=""1556111""","Eligible For Free Lunch",83,73,88.0
+"West Hartford School District","=""1550011""","Conard High School","=""1556111""","Eligible For Reduced Lunch",36,"*","*"
+"West Hartford School District","=""1550011""","Conard High School","=""1556111""","Not Eligible For Lunch",298,"*","*"
+"West Hartford School District","=""1550011""","Hall High School","=""1556211""","Eligible For Free Lunch",56,"*","*"
+"West Hartford School District","=""1550011""","Hall High School","=""1556211""","Eligible For Reduced Lunch",28,28,100.0
+"West Hartford School District","=""1550011""","Hall High School","=""1556211""","Not Eligible For Lunch",302,"*","*"
+"West Haven School District","=""1560011""","West Haven High School","=""1566111""","Eligible For Free Lunch",221,140,63.3
+"West Haven School District","=""1560011""","West Haven High School","=""1566111""","Eligible For Reduced Lunch",69,53,76.8
+"West Haven School District","=""1560011""","West Haven High School","=""1566111""","Not Eligible For Lunch",138,120,87.0
+"Westbrook School District","=""1540011""","Westbrook High School","=""1546111""","Eligible For Free Lunch","*","*","*"
+"Westbrook School District","=""1540011""","Westbrook High School","=""1546111""","Eligible For Reduced Lunch","*","*","*"
+"Westbrook School District","=""1540011""","Westbrook High School","=""1546111""","Not Eligible For Lunch",68,"*","*"
+"Weston School District","=""1570011""","Weston High School","=""1576111""","Eligible For Free Lunch","*","*","*"
+"Weston School District","=""1570011""","Weston High School","=""1576111""","Eligible For Reduced Lunch","*","*","*"
+"Weston School District","=""1570011""","Weston High School","=""1576111""","Not Eligible For Lunch",200,"*","*"
+"Westport School District","=""1580011""","Staples High School","=""1586111""","Eligible For Free Lunch","*","*","*"
+"Westport School District","=""1580011""","Staples High School","=""1586111""","Eligible For Reduced Lunch","*","*","*"
+"Westport School District","=""1580011""","Staples High School","=""1586111""","Not Eligible For Lunch",453,"*","*"
+"Wethersfield School District","=""1590011""","Wethersfield High School","=""1596111""","Eligible For Free Lunch",31,"*","*"
+"Wethersfield School District","=""1590011""","Wethersfield High School","=""1596111""","Eligible For Reduced Lunch",17,"*","*"
+"Wethersfield School District","=""1590011""","Wethersfield High School","=""1596111""","Not Eligible For Lunch",215,209,97.2
+"Wilton School District","=""1610011""","Wilton High School","=""1616111""","Eligible For Free Lunch","*","*","*"
+"Wilton School District","=""1610011""","Wilton High School","=""1616111""","Eligible For Reduced Lunch","*","*","*"
+"Wilton School District","=""1610011""","Wilton High School","=""1616111""","Not Eligible For Lunch",304,300,98.7
+"Windham School District","=""1630011""","Windham High School","=""1636111""","Eligible For Free Lunch",89,70,78.7
+"Windham School District","=""1630011""","Windham High School","=""1636111""","Eligible For Reduced Lunch",30,"*","*"
+"Windham School District","=""1630011""","Windham High School","=""1636111""","Not Eligible For Lunch",67,"*","*"
+"Windsor Locks School District","=""1650011""","Windsor Locks High School","=""1656111""","Eligible For Free Lunch",33,27,81.8
+"Windsor Locks School District","=""1650011""","Windsor Locks High School","=""1656111""","Eligible For Reduced Lunch",18,"*","*"
+"Windsor Locks School District","=""1650011""","Windsor Locks High School","=""1656111""","Not Eligible For Lunch",85,"*","*"
+"Windsor School District","=""1640011""","Windsor High School","=""1646111""","Eligible For Free Lunch",79,"*","*"
+"Windsor School District","=""1640011""","Windsor High School","=""1646111""","Eligible For Reduced Lunch",46,"*","*"
+"Windsor School District","=""1640011""","Windsor High School","=""1646111""","Not Eligible For Lunch",217,203,93.5
+"Wolcott School District","=""1660011""","Wolcott High School","=""1666111""","Eligible For Free Lunch",21,"*","*"
+"Wolcott School District","=""1660011""","Wolcott High School","=""1666111""","Eligible For Reduced Lunch",19,"*","*"
+"Wolcott School District","=""1660011""","Wolcott High School","=""1666111""","Not Eligible For Lunch",178,173,97.2
+"Woodstock Academy District","=""9030022""","Woodstock Academy","=""9036122""","Eligible For Free Lunch","*","*","*"
+"Woodstock Academy District","=""9030022""","Woodstock Academy","=""9036122""","Eligible For Reduced Lunch","*","*","*"
+"Woodstock Academy District","=""9030022""","Woodstock Academy","=""9036122""","Not Eligible For Lunch",255,249,97.6
+

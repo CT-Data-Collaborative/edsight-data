@@ -191,7 +191,7 @@
 ,="South Street School",="Special Education - Teachers and Instructors",="Certified",2.2
 ,="Stadley Rough School",="Special Education - Teachers and Instructors",="Certified",2.0
 ,="Western CT Academy of International Studies Elementary Magnet School",="Special Education - Teachers and Instructors",="Certified",0.8
-="Darien School District",="Darien High School",="Special Education - Teachers and Instructors",="Certified",12.3
+="Darien School District",="Darien High School",="Special Education - Teachers and Instructors",="Certified",13.3
 ,="Hindley Elementary School",="Special Education - Teachers and Instructors",="Certified",5.9
 ,="Holmes Elementary School",="Special Education - Teachers and Instructors",="Certified",4.0
 ,="Middlesex Middle School",="Special Education - Teachers and Instructors",="Certified",11.3
@@ -227,7 +227,7 @@
 ,="Robert J. O'Brien School",="Special Education - Teachers and Instructors",="Certified",2.0
 ,="Silver Lane School",="Special Education - Teachers and Instructors",="Certified",1.0
 ,="Stevens Alternate High School",="Special Education - Teachers and Instructors",="Certified",1.0
-,="Sunset Ridge School Elementary Academy for Arts and World Languages",="Special Education - Teachers and Instructors",="Certified",5.0
+,="Sunset Ridge Middle School",="Special Education - Teachers and Instructors",="Certified",5.0
 ,="Willowbrook Early Childhood",="Special Education - Teachers and Instructors",="Certified",6.0
 ,="Woodland School",="Special Education - Teachers and Instructors",="Certified",15.0
 ="East Haven School District",="Carbone School/East Haven Academy",="Special Education - Teachers and Instructors",="Certified",1.0
@@ -365,9 +365,10 @@
 ,="Spring Glen School",="Special Education - Teachers and Instructors",="Certified",4.0
 ,="West Woods School",="Special Education - Teachers and Instructors",="Certified",3.0
 ="Hampton School District",="Hampton Elementary School",="Special Education - Teachers and Instructors",="Certified",1.0
-="Hartford School District",="Asian Studies Academy",="Special Education - Teachers and Instructors",="Certified",4.0
+="Hartford School District",="Asian Studies Academy at Bellizzi School",="Special Education - Teachers and Instructors",="Certified",4.0
 ,="Barnard-Brown School",="Special Education - Teachers and Instructors",="Certified",3.8
 ,="Batchelder School",="Special Education - Teachers and Instructors",="Certified",6.0
+,="Betances Early Reading Lab Magnet School",="Special Education - Teachers and Instructors",="Certified",3.0
 ,="Breakthrough Magnet School",="Special Education - Teachers and Instructors",="Certified",2.0
 ,="Bulkeley High School Lower School",="Special Education - Teachers and Instructors",="Certified",18.0
 ,="Burns Latino Studies Academy",="Special Education - Teachers and Instructors",="Certified",6.5
@@ -376,7 +377,6 @@
 ,="Clark School",="Special Education - Teachers and Instructors",="Certified",7.0
 ,="Classical Magnet School",="Special Education - Teachers and Instructors",="Certified",0.8
 ,="Dr. Joseph Bellizzi Middle School",="Special Education - Teachers and Instructors",="Certified",7.0
-,="Dr. Ramon E. Betances Early Reading Lab",="Special Education - Teachers and Instructors",="Certified",3.0
 ,="Environmental Sciences Magnet at Hooker School",="Special Education - Teachers and Instructors",="Certified",3.0
 ,="Expeditionary Learning Academy at Moylan School",="Special Education - Teachers and Instructors",="Certified",7.0
 ,="Fox Middle School",="Special Education - Teachers and Instructors",="Certified",9.0
@@ -385,6 +385,7 @@
 ,="Hartford Transitional Learning Academy (Elementary)",="Special Education - Teachers and Instructors",="Certified",7.0
 ,="Hartford Transitional Learning Academy (Secondary)",="Special Education - Teachers and Instructors",="Certified",8.0
 ,="Kennelly School",="Special Education - Teachers and Instructors",="Certified",5.0
+,="Kinsella Magnet School of Performing Arts",="Special Education - Teachers and Instructors",="Certified",6.0
 ,="M. D. Fox School",="Special Education - Teachers and Instructors",="Certified",7.0
 ,="M. L. King, Jr. School",="Special Education - Teachers and Instructors",="Certified",7.0
 ,="McDonough Middle School",="Special Education - Teachers and Instructors",="Certified",3.5
@@ -393,7 +394,6 @@
 ,="Parkville Community School",="Special Education - Teachers and Instructors",="Certified",5.0
 ,="Pathways Academy of Technology and Design",="Special Education - Teachers and Instructors",="Certified",2.5
 ,="Quirk Middle School",="Special Education - Teachers and Instructors",="Certified",12.0
-,="R.J. Kinsella Magnet School of Performing Arts",="Special Education - Teachers and Instructors",="Certified",6.0
 ,="Rawson School",="Special Education - Teachers and Instructors",="Certified",4.0
 ,="SAND School",="Special Education - Teachers and Instructors",="Certified",6.0
 ,="STEM Magnet at Fisher School",="Special Education - Teachers and Instructors",="Certified",4.6
@@ -401,7 +401,7 @@
 ,="Simpson-Waverly School",="Special Education - Teachers and Instructors",="Certified",10.5
 ,="Sports and Medical Sciences Academy",="Special Education - Teachers and Instructors",="Certified",2.5
 ,="Twain School",="Special Education - Teachers and Instructors",="Certified",1.5
-,="University High of Science and Engineering",="Special Education - Teachers and Instructors",="Certified",1.0
+,="University High School of Science and Engineering",="Special Education - Teachers and Instructors",="Certified",1.0
 ,="Weaver High School",="Special Education - Teachers and Instructors",="Certified",19.0
 ,="Webster Micro Society Magnet School",="Special Education - Teachers and Instructors",="Certified",4.0
 ,="West Middle School",="Special Education - Teachers and Instructors",="Certified",4.0
@@ -455,7 +455,7 @@
 ,="Washington School",="Special Education - Teachers and Instructors",="Certified",3.0
 ="Mansfield School District",="Annie E. Vinton School",="Special Education - Teachers and Instructors",="Certified",2.0
 ,="Dorothy C. Goodwin School",="Special Education - Teachers and Instructors",="Certified",2.0
-,="Mansfield Middle School School",="Special Education - Teachers and Instructors",="Certified",9.0
+,="Mansfield Middle School",="Special Education - Teachers and Instructors",="Certified",9.0
 ,="Southeast Elementary School",="Special Education - Teachers and Instructors",="Certified",2.0
 ="Marlborough School District",="Elmer Thienes-Mary Hall Elementary School",="Special Education - Teachers and Instructors",="Certified",5.0
 ="Meriden School District",="Nathan Hale School",="Special Education - Teachers and Instructors",="Certified",5.9
@@ -472,7 +472,7 @@
 ,="Washington Middle School",="Special Education - Teachers and Instructors",="Certified",12.6
 ="Middletown School District",="Bielefield School",="Special Education - Teachers and Instructors",="Certified",2.0
 ,="Farm Hill School",="Special Education - Teachers and Instructors",="Certified",2.0
-,="Keigwin Middle School",="Special Education - Teachers and Instructors",="Certified",4.0
+,="Keigwin Middle School",="Special Education - Teachers and Instructors",="Certified",5.2
 ,="Lawrence School",="Special Education - Teachers and Instructors",="Certified",7.0
 ,="MacDonough School",="Special Education - Teachers and Instructors",="Certified",1.4
 ,="Middletown High School",="Special Education - Teachers and Instructors",="Certified",7.8
@@ -503,8 +503,8 @@
 ,="Monroe Elementary School",="Special Education - Teachers and Instructors",="Certified",3.2
 ,="Stepney Elementary School",="Special Education - Teachers and Instructors",="Certified",3.5
 ="Montville School District",="Dr. Charles E. Murphy School",="Special Education - Teachers and Instructors",="Certified",5.0
-,="Leonard J. Tyl Middle School",="Special Education - Teachers and Instructors",="Certified",8.1
-,="Mohegan School",="Special Education - Teachers and Instructors",="Certified",4.0
+,="Leonard J. Tyl Middle School",="Special Education - Teachers and Instructors",="Certified",9.1
+,="Mohegan School",="Special Education - Teachers and Instructors",="Certified",5.0
 ,="Montville High School",="Special Education - Teachers and Instructors",="Certified",7.6
 ,="Oakdale School",="Special Education - Teachers and Instructors",="Certified",8.0
 ,="Palmer Academy",="Special Education - Teachers and Instructors",="Certified",4.1
@@ -552,10 +552,9 @@
 ,="Beecher School",="Special Education - Teachers and Instructors",="Certified",2.0
 ,="Benjamin Jepson Magnet School",="Special Education - Teachers and Instructors",="Certified",6.1
 ,="Betsy Ross Arts Magnet School",="Special Education - Teachers and Instructors",="Certified",5.0
-,="Bishop Woods School",="Special Education - Teachers and Instructors",="Certified",5.0
+,="Bishop Woods Architecture and Design Magnet School",="Special Education - Teachers and Instructors",="Certified",5.0
 ,="Celentano BioTech, Health and Medical Magnet School",="Special Education - Teachers and Instructors",="Certified",9.0
 ,="Clarence Rogers School",="Special Education - Teachers and Instructors",="Certified",3.0
-,="Clemente Leadership Academy",="Special Education - Teachers and Instructors",="Certified",2.0
 ,="Clinton Avenue School",="Special Education - Teachers and Instructors",="Certified",3.0
 ,="Columbus Family Academy",="Special Education - Teachers and Instructors",="Certified",2.0
 ,="Conte/West Hills Magnet School",="Special Education - Teachers and Instructors",="Certified",2.0
@@ -572,7 +571,7 @@
 ,="Hill Regional Career High School",="Special Education - Teachers and Instructors",="Certified",3.6
 ,="James Hillhouse High School",="Special Education - Teachers and Instructors",="Certified",9.2
 ,="John C. Daniels",="Special Education - Teachers and Instructors",="Certified",3.0
-,="John S. Martinez School",="Special Education - Teachers and Instructors",="Certified",3.0
+,="John S. Martinez Sea and Sky STEM School",="Special Education - Teachers and Instructors",="Certified",3.0
 ,="Katherine Brennan School",="Special Education - Teachers and Instructors",="Certified",4.0
 ,="King/Robinson Magnet School",="Special Education - Teachers and Instructors",="Certified",5.0
 ,="Lincoln-Bassett School",="Special Education - Teachers and Instructors",="Certified",2.1
@@ -580,6 +579,7 @@
 ,="New Haven Academy",="Special Education - Teachers and Instructors",="Certified",1.0
 ,="Polly T. McCabe Center",="Special Education - Teachers and Instructors",="Certified",1.6
 ,="Riverside Education Academy",="Special Education - Teachers and Instructors",="Certified",8.0
+,="Roberto Clemente Leadership Academy for Global Awareness",="Special Education - Teachers and Instructors",="Certified",2.0
 ,="Ross/Woodward School",="Special Education - Teachers and Instructors",="Certified",4.2
 ,="Sheridan Communications and Technology Magnet School",="Special Education - Teachers and Instructors",="Certified",3.0
 ,="Sound School",="Special Education - Teachers and Instructors",="Certified",3.0
@@ -592,7 +592,7 @@
 ,="Wilbur Cross High School",="Special Education - Teachers and Instructors",="Certified",19.0
 ,="Worthington Hooker School",="Special Education - Teachers and Instructors",="Certified",3.0
 ="New London School District",="Jennings School",="Special Education - Teachers and Instructors",="Certified",4.0
-,="Bennie Dover Jackson Middle School",="Special Education - Teachers and Instructors",="Certified",10.0
+,="Bennie Dover Jackson Middle School",="Special Education - Teachers and Instructors",="Certified",11.0
 ,="Harbor School",="Special Education - Teachers and Instructors",="Certified",6.0
 ,="Nathan Hale Arts Magnet School",="Special Education - Teachers and Instructors",="Certified",6.0
 ,="New London High School",="Special Education - Teachers and Instructors",="Certified",11.8
@@ -648,7 +648,7 @@
 ,="Ponus Ridge Middle School",="Special Education - Teachers and Instructors",="Certified",7.0
 ,="Roton Middle School",="Special Education - Teachers and Instructors",="Certified",4.0
 ,="Rowayton School",="Special Education - Teachers and Instructors",="Certified",4.5
-,="Silvermine Elementary School",="Special Education - Teachers and Instructors",="Certified",2.0
+,="Silvermine Elementary School",="Special Education - Teachers and Instructors",="Certified",3.0
 ,="Tracey School",="Special Education - Teachers and Instructors",="Certified",3.0
 ,="West Rocks Middle School",="Special Education - Teachers and Instructors",="Certified",5.0
 ,="Wolfpit School",="Special Education - Teachers and Instructors",="Certified",4.5
@@ -744,7 +744,7 @@
 ="Regional School District 14",="Bethlehem Elementary School",="Special Education - Teachers and Instructors",="Certified",4.0
 ,="Integrated Star Preschool Program",="Special Education - Teachers and Instructors",="Certified",1.0
 ,="Mitchell Elementary School",="Special Education - Teachers and Instructors",="Certified",6.1
-,="Nonnewaug High School",="Special Education - Teachers and Instructors",="Certified",5.8
+,="Nonnewaug High School",="Special Education - Teachers and Instructors",="Certified",7.0
 ,="Woodbury Middle School",="Special Education - Teachers and Instructors",="Certified",4.6
 ="Regional School District 15",="Gainfield Elementary School",="Special Education - Teachers and Instructors",="Certified",4.0
 ,="Long Meadow Elementary School",="Special Education - Teachers and Instructors",="Certified",9.4
@@ -835,7 +835,8 @@
 ,="Stafford Middle School",="Special Education - Teachers and Instructors",="Certified",6.0
 ,="Staffordville School",="Special Education - Teachers and Instructors",="Certified",1.0
 ,="West Stafford School",="Special Education - Teachers and Instructors",="Certified",2.0
-="Stamford School District",="Cloonan School",="Special Education - Teachers and Instructors",="Certified",10.0
+="Stamford School District",="CLC William Pitt",="Special Education - Teachers and Instructors",="Certified",3.0
+,="Cloonan School",="Special Education - Teachers and Instructors",="Certified",11.0
 ,="Davenport Ridge School",="Special Education - Teachers and Instructors",="Certified",6.0
 ,="Dolan School",="Special Education - Teachers and Instructors",="Certified",6.0
 ,="Hart School",="Special Education - Teachers and Instructors",="Certified",2.0
@@ -856,7 +857,6 @@
 ,="Turn of River School",="Special Education - Teachers and Instructors",="Certified",5.0
 ,="Westhill High School",="Special Education - Teachers and Instructors",="Certified",16.0
 ,="Westover School",="Special Education - Teachers and Instructors",="Certified",5.0
-,="William Pitt Child Development Center",="Special Education - Teachers and Instructors",="Certified",3.0
 ="Sterling School District",="Sterling Community School",="Special Education - Teachers and Instructors",="Certified",5.0
 ="Stonington School District",="Deans Mill School",="Special Education - Teachers and Instructors",="Certified",5.5
 ,="Mystic Middle School",="Special Education - Teachers and Instructors",="Certified",5.0
@@ -873,10 +873,10 @@
 ,="Harry B. Flood Middle School",="Special Education - Teachers and Instructors",="Certified",5.0
 ,="Lordship School",="Special Education - Teachers and Instructors",="Certified",1.0
 ,="Nichols School",="Special Education - Teachers and Instructors",="Certified",2.0
-,="STRIVE-Stratford",="Special Education - Teachers and Instructors",="Certified",1.5
 ,="Second Hill Lane School",="Special Education - Teachers and Instructors",="Certified",11.0
 ,="Stratford Academy - Johnson House",="Special Education - Teachers and Instructors",="Certified",6.0
 ,="Stratford High School",="Special Education - Teachers and Instructors",="Certified",8.6
+,="Strive-Stratford",="Special Education - Teachers and Instructors",="Certified",1.5
 ,="Wilcoxson School",="Special Education - Teachers and Instructors",="Certified",2.0
 ="Suffield School District",="Prekindergarten Program",="Special Education - Teachers and Instructors",="Certified",1.0
 ,="A. Ward Spaulding School",="Special Education - Teachers and Instructors",="Certified",3.0
@@ -1016,7 +1016,7 @@
 ,="Whiting Lane School",="Special Education - Teachers and Instructors",="Certified",13.8
 ,="Wolcott School",="Special Education - Teachers and Instructors",="Certified",3.0
 ="West Haven School District",="Washington School",="Special Education - Teachers and Instructors",="Certified",3.0
-,="Alma E. Pagels School",="Special Education - Teachers and Instructors",="Certified",8.0
+,="Alma E. Pagels School",="Special Education - Teachers and Instructors",="Certified",9.1
 ,="Anna V. Molloy School",="Special Education - Teachers and Instructors",="Certified",2.0
 ,="Carrigan 5/6 Intermediate School",="Special Education - Teachers and Instructors",="Certified",10.0
 ,="Clarence E. Thompson School",="Special Education - Teachers and Instructors",="Certified",3.6

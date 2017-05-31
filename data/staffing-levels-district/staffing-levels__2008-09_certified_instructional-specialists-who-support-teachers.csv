@@ -1,160 +1,181 @@
+"FTE Staffing Report for 2008-09"
 
-
-
-
-
-
-
-
-
-<!DOCTYPE html>
-
-
-
-
-
-<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
-    
-
-
-<head>
-    <meta charset="UTF-8" />
-    <title>
-    	
-    		
-    		
-    			SAS&reg; Logon Manager
-    		
-    	
-    </title>
-    <link type="text/css" rel="stylesheet" href="themes/default/css/bootstrap.css" />
-    <link type="text/css" rel="stylesheet" href="themes/default/css/sas.css" />
-</head>
-
-
-
-<body id="cas">
-	<div id="page">
-		
-
-<div class="banner row">
-    <div class="about">
-        <ul class="unstyled"><li>
-            <a href="#about-modal" data-toggle="modal">
-                About
-            </a>
-        </li></ul>
-    </div>
-    <div id="about-modal" class="modal hide fade">
-        <div class="modal-header">
-            <a href="#" class="close" data-dismiss="modal">&times;</a>
-            <h3>About</h3>
-        </div>
-        <div class="modal-body">
-            <p>Version: 9.4</p>
-            <h4>Copyright Information</h4>
-            <p align="center">
-Copyright (c) 2002 - 2013 by SAS Institute Inc., Cary, NC, USA<br/>
-All rights reserved.<br/>
-<br/>
-This software is protected by copyright laws and international treaties.<br/>
-<br/>
-U.S. GOVERNMENT RESTRICTED RIGHTS<br/>
-Use, duplication, or disclosure of this software and related<br/>
-documentation by the U.S. government is subject to the<br/>
-Agreement with SAS Institute and the restrictions set forth<br/>
-in FAR 52.227-19, Commercial Computer Software<br/>
-- Restricted Rights (June 1987).
-            </p>
-        </div>
-    </div>
-    <div class="header">
-        <div class="title">
-        	<h1>
-        		
-		    		
-		    		
-		    			Sign In to SAS<sup>&reg;</sup>
-		    		
-    			
-        	</h1>
-       	</div>
-        <div class="logo"><img src="themes/default/images/logo.png" /></div>
-    </div>
-</div>
-
-
-		<div class="content row">
-			
-                <form id="fm1" class="form-stacked" onSubmit="return setSubmitUrl(this);" action="/SASLogon/login;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=84CBAA195B5319FCD84D39621BAF19A6.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1?service=http://edsight.ct.gov/SASStoredProcess/j_spring_cas_security_check" method="post">
-				<fieldset>
-					
-					
-					
-                        <legend>Sign In to SAS<sup>&reg;</sup></legend>
-					<div class="clearfix">
-                            <label for="username"><span class="accesskey">U</span>ser ID:</label>
-						
-							
-							
-                                    
-                                    <input id="username" name="username" class="required" tabindex="1" accesskey="u" type="text" value="" size="25" autocomplete="off"/>
-							
-						
-					</div>
-					<div class="clearfix">
-                            <label for="password"><span class="accesskey">P</span>assword:</label>
-						
-                            
-                            <input id="password" name="password" class="required" tabindex="2" accesskey="p" type="password" value="" size="25" autocomplete="off"/>
-					</div>
-				</fieldset>
-				<input type="hidden" name="lt" value="LT-4189-WCqSYmEmp77p7foRvgfZXLKYcfX7fD" />
-				<input type="hidden" name="execution" value="e1s1" />
-				<input type="hidden" name="_eventId" value="submit" />
-                    <div class="submitb"><input id="Logon" type="submit" value="Sign In" onClick="this.disabled=true;this.form.submit();" tabindex="3" /></div>
-			</form>
-			
-				<div class="customizations" id="custom-logon-message">
-                  	
-
-
-<p>
-
-</p>
-
-
- 
- 
-				</div>
-			
-
-			<div class="copyright">
-				Copyright &copy; 2002 - 2013 by SAS Institute Inc., Cary, NC USA
-			</div>
-		</div>
-	</div>
-	
-<script type="text/javascript" src="/SASLogon/js/jquery.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=84CBAA195B5319FCD84D39621BAF19A6.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-<script type="text/javascript" src="/SASLogon/js/bootstrap-modal.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=84CBAA195B5319FCD84D39621BAF19A6.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-
-	<script type="text/javascript">
-            $("#username").focus();
-            
-            function setSubmitUrl(form)
-            {
-            	var urlHash = decodeURIComponent(window.location.hash);
-            	
-            	if (urlHash && urlHash.indexOf("#") === -1)
-            		urlHash = "#" + urlHash;
-            	
-            	form.action = form.action + urlHash;
-            	return true;
-            }
-    </script>
-</body>
-
-</html>
-
-
+"District","Assignment Category","Educator Type","FTE Count"
+"Andover School District","Instructional Specialists Who Support Teachers","Certified",1.4
+="Ansonia School District",="Instructional Specialists Who Support Teachers",="Certified",9.0
+="Area Cooperative Educational Services",="Instructional Specialists Who Support Teachers",="Certified",14.3
+="Ashford School District",="Instructional Specialists Who Support Teachers",="Certified",1.9
+="Avon School District",="Instructional Specialists Who Support Teachers",="Certified",11.2
+="Barkhamsted School District",="Instructional Specialists Who Support Teachers",="Certified",0.7
+="Berlin School District",="Instructional Specialists Who Support Teachers",="Certified",11.3
+="Bethany School District",="Instructional Specialists Who Support Teachers",="Certified",1.0
+="Bethel School District",="Instructional Specialists Who Support Teachers",="Certified",6.9
+="Bloomfield School District",="Instructional Specialists Who Support Teachers",="Certified",11.7
+="Bolton School District",="Instructional Specialists Who Support Teachers",="Certified",4.0
+="Bozrah School District",="Instructional Specialists Who Support Teachers",="Certified",1.0
+="Branford School District",="Instructional Specialists Who Support Teachers",="Certified",7.9
+="Bridgeport School District",="Instructional Specialists Who Support Teachers",="Certified",77.9
+="Bristol School District",="Instructional Specialists Who Support Teachers",="Certified",35.4
+="Brookfield School District",="Instructional Specialists Who Support Teachers",="Certified",7.3
+="Brooklyn School District",="Instructional Specialists Who Support Teachers",="Certified",3.0
+="Canaan School District",="Instructional Specialists Who Support Teachers",="Certified",0.4
+="Canterbury School District",="Instructional Specialists Who Support Teachers",="Certified",1.0
+="Canton School District",="Instructional Specialists Who Support Teachers",="Certified",5.6
+="Capitol Region Education Council",="Instructional Specialists Who Support Teachers",="Certified",27.1
+="Chaplin School District",="Instructional Specialists Who Support Teachers",="Certified",2.0
+="Cheshire School District",="Instructional Specialists Who Support Teachers",="Certified",11.7
+="Chester School District",="Instructional Specialists Who Support Teachers",="Certified",0.9
+="Clinton School District",="Instructional Specialists Who Support Teachers",="Certified",7.0
+="Colchester School District",="Instructional Specialists Who Support Teachers",="Certified",14.6
+="Colebrook School District",="Instructional Specialists Who Support Teachers",="Certified",1.6
+="Columbia School District",="Instructional Specialists Who Support Teachers",="Certified",3.0
+="Connecticut Technical High School System",="Instructional Specialists Who Support Teachers",="Certified",1.0
+="Cooperative Educational Services",="Instructional Specialists Who Support Teachers",="Certified",10.7
+="Cornwall School District",="Instructional Specialists Who Support Teachers",="Certified",0.4
+="Coventry School District",="Instructional Specialists Who Support Teachers",="Certified",5.5
+="Cromwell School District",="Instructional Specialists Who Support Teachers",="Certified",9.0
+="Danbury School District",="Instructional Specialists Who Support Teachers",="Certified",36.3
+="Darien School District",="Instructional Specialists Who Support Teachers",="Certified",30.6
+="Deep River School District",="Instructional Specialists Who Support Teachers",="Certified",3.1
+="Derby School District",="Instructional Specialists Who Support Teachers",="Certified",3.0
+="East Granby School District",="Instructional Specialists Who Support Teachers",="Certified",1.0
+="East Haddam School District",="Instructional Specialists Who Support Teachers",="Certified",4.0
+="East Hampton School District",="Instructional Specialists Who Support Teachers",="Certified",6.0
+="East Hartford School District",="Instructional Specialists Who Support Teachers",="Certified",27.6
+="East Haven School District",="Instructional Specialists Who Support Teachers",="Certified",13.8
+="East Lyme School District",="Instructional Specialists Who Support Teachers",="Certified",5.3
+="East Windsor School District",="Instructional Specialists Who Support Teachers",="Certified",4.4
+="Eastern Connecticut Regional Educational Service Center (EASTCONN)",="Instructional Specialists Who Support Teachers",="Certified",1.5
+="Easton School District",="Instructional Specialists Who Support Teachers",="Certified",7.4
+="EdAdvance",="Instructional Specialists Who Support Teachers",="Certified",0.3
+="Ellington School District",="Instructional Specialists Who Support Teachers",="Certified",11.1
+="Elm City College Preparatory School",="Instructional Specialists Who Support Teachers",="Certified",1.0
+="Enfield School District",="Instructional Specialists Who Support Teachers",="Certified",10.6
+="Essex School District",="Instructional Specialists Who Support Teachers",="Certified",3.7
+="Fairfield School District",="Instructional Specialists Who Support Teachers",="Certified",59.8
+="Farmington School District",="Instructional Specialists Who Support Teachers",="Certified",11.8
+="Franklin School District",="Instructional Specialists Who Support Teachers",="Certified",0.8
+="Glastonbury School District",="Instructional Specialists Who Support Teachers",="Certified",12.3
+="Granby School District",="Instructional Specialists Who Support Teachers",="Certified",8.5
+="Greenwich School District",="Instructional Specialists Who Support Teachers",="Certified",43.6
+="Griswold School District",="Instructional Specialists Who Support Teachers",="Certified",3.8
+="Groton School District",="Instructional Specialists Who Support Teachers",="Certified",13.7
+="Guilford School District",="Instructional Specialists Who Support Teachers",="Certified",8.0
+="Hamden School District",="Instructional Specialists Who Support Teachers",="Certified",25.3
+="Hampton School District",="Instructional Specialists Who Support Teachers",="Certified",0.7
+="Hartford School District",="Instructional Specialists Who Support Teachers",="Certified",110.7
+="Hartland School District",="Instructional Specialists Who Support Teachers",="Certified",0.4
+="Hebron School District",="Instructional Specialists Who Support Teachers",="Certified",6.9
+="Highville Charter School District",="Instructional Specialists Who Support Teachers",="Certified",1.0
+="Integrated Day Charter School District",="Instructional Specialists Who Support Teachers",="Certified",1.0
+="Kent School District",="Instructional Specialists Who Support Teachers",="Certified",1.0
+="Killingly School District",="Instructional Specialists Who Support Teachers",="Certified",10.1
+="Learn",="Instructional Specialists Who Support Teachers",="Certified",7.8
+="Lebanon School District",="Instructional Specialists Who Support Teachers",="Certified",3.0
+="Ledyard School District",="Instructional Specialists Who Support Teachers",="Certified",9.1
+="Lisbon School District",="Instructional Specialists Who Support Teachers",="Certified",1.6
+="Litchfield School District",="Instructional Specialists Who Support Teachers",="Certified",3.0
+="Madison School District",="Instructional Specialists Who Support Teachers",="Certified",8.0
+="Manchester School District",="Instructional Specialists Who Support Teachers",="Certified",30.3
+="Mansfield School District",="Instructional Specialists Who Support Teachers",="Certified",7.0
+="Marlborough School District",="Instructional Specialists Who Support Teachers",="Certified",4.3
+="Meriden School District",="Instructional Specialists Who Support Teachers",="Certified",21.0
+="Middletown School District",="Instructional Specialists Who Support Teachers",="Certified",17.0
+="Milford School District",="Instructional Specialists Who Support Teachers",="Certified",31.0
+="Monroe School District",="Instructional Specialists Who Support Teachers",="Certified",9.3
+="Montville School District",="Instructional Specialists Who Support Teachers",="Certified",9.8
+="Naugatuck School District",="Instructional Specialists Who Support Teachers",="Certified",12.0
+="New Beginnings Inc Family Academy District",="Instructional Specialists Who Support Teachers",="Certified",1.0
+="New Britain School District",="Instructional Specialists Who Support Teachers",="Certified",29.7
+="New Canaan School District",="Instructional Specialists Who Support Teachers",="Certified",20.8
+="New Fairfield School District",="Instructional Specialists Who Support Teachers",="Certified",6.4
+="New Hartford School District",="Instructional Specialists Who Support Teachers",="Certified",2.0
+="New Haven School District",="Instructional Specialists Who Support Teachers",="Certified",88.0
+="New London School District",="Instructional Specialists Who Support Teachers",="Certified",11.3
+="New Milford School District",="Instructional Specialists Who Support Teachers",="Certified",11.8
+="Newington School District",="Instructional Specialists Who Support Teachers",="Certified",14.6
+="Newtown School District",="Instructional Specialists Who Support Teachers",="Certified",20.4
+="Norfolk School District",="Instructional Specialists Who Support Teachers",="Certified",1.1
+="North Branford School District",="Instructional Specialists Who Support Teachers",="Certified",7.6
+="North Haven School District",="Instructional Specialists Who Support Teachers",="Certified",9.1
+="North Stonington School District",="Instructional Specialists Who Support Teachers",="Certified",2.0
+="Norwalk School District",="Instructional Specialists Who Support Teachers",="Certified",26.0
+="Norwich School District",="Instructional Specialists Who Support Teachers",="Certified",10.2
+="Office of Early Childhood (OEC)",="Instructional Specialists Who Support Teachers",="Certified",2.0
+="Old Saybrook School District",="Instructional Specialists Who Support Teachers",="Certified",3.0
+="Orange School District",="Instructional Specialists Who Support Teachers",="Certified",6.5
+="Oxford School District",="Instructional Specialists Who Support Teachers",="Certified",3.5
+="Plainfield School District",="Instructional Specialists Who Support Teachers",="Certified",4.0
+="Plainville School District",="Instructional Specialists Who Support Teachers",="Certified",5.0
+="Plymouth School District",="Instructional Specialists Who Support Teachers",="Certified",2.4
+="Pomfret School District",="Instructional Specialists Who Support Teachers",="Certified",1.0
+="Portland School District",="Instructional Specialists Who Support Teachers",="Certified",3.0
+="Preston School District",="Instructional Specialists Who Support Teachers",="Certified",1.6
+="Putnam School District",="Instructional Specialists Who Support Teachers",="Certified",4.8
+="Redding School District",="Instructional Specialists Who Support Teachers",="Certified",8.9
+="Regional School District 01",="Instructional Specialists Who Support Teachers",="Certified",0.2
+="Regional School District 04",="Instructional Specialists Who Support Teachers",="Certified",0.2
+="Regional School District 05",="Instructional Specialists Who Support Teachers",="Certified",10.0
+="Regional School District 06",="Instructional Specialists Who Support Teachers",="Certified",3.0
+="Regional School District 07",="Instructional Specialists Who Support Teachers",="Certified",1.2
+="Regional School District 08",="Instructional Specialists Who Support Teachers",="Certified",1.0
+="Regional School District 09",="Instructional Specialists Who Support Teachers",="Certified",4.9
+="Regional School District 10",="Instructional Specialists Who Support Teachers",="Certified",9.5
+="Regional School District 11",="Instructional Specialists Who Support Teachers",="Certified",1.0
+="Regional School District 12",="Instructional Specialists Who Support Teachers",="Certified",2.0
+="Regional School District 13",="Instructional Specialists Who Support Teachers",="Certified",5.8
+="Regional School District 14",="Instructional Specialists Who Support Teachers",="Certified",6.9
+="Regional School District 15",="Instructional Specialists Who Support Teachers",="Certified",16.3
+="Regional School District 16",="Instructional Specialists Who Support Teachers",="Certified",7.5
+="Regional School District 17",="Instructional Specialists Who Support Teachers",="Certified",2.0
+="Regional School District 18",="Instructional Specialists Who Support Teachers",="Certified",4.2
+="Regional School District 19",="Instructional Specialists Who Support Teachers",="Certified",1.0
+="Ridgefield School District",="Instructional Specialists Who Support Teachers",="Certified",12.1
+="Rocky Hill School District",="Instructional Specialists Who Support Teachers",="Certified",6.5
+="Salem School District",="Instructional Specialists Who Support Teachers",="Certified",3.5
+="Salisbury School District",="Instructional Specialists Who Support Teachers",="Certified",0.8
+="Scotland School District",="Instructional Specialists Who Support Teachers",="Certified",1.0
+="Seymour School District",="Instructional Specialists Who Support Teachers",="Certified",4.0
+="Sharon School District",="Instructional Specialists Who Support Teachers",="Certified",2.2
+="Shelton School District",="Instructional Specialists Who Support Teachers",="Certified",13.0
+="Sherman School District",="Instructional Specialists Who Support Teachers",="Certified",1.3
+="Simsbury School District",="Instructional Specialists Who Support Teachers",="Certified",27.9
+="Somers School District",="Instructional Specialists Who Support Teachers",="Certified",5.5
+="South Windsor School District",="Instructional Specialists Who Support Teachers",="Certified",11.6
+="Southington School District",="Instructional Specialists Who Support Teachers",="Certified",14.7
+="Stafford School District",="Instructional Specialists Who Support Teachers",="Certified",7.0
+="Stamford Academy District",="Instructional Specialists Who Support Teachers",="Certified",3.0
+="Stamford School District",="Instructional Specialists Who Support Teachers",="Certified",54.4
+="Sterling School District",="Instructional Specialists Who Support Teachers",="Certified",1.0
+="Stonington School District",="Instructional Specialists Who Support Teachers",="Certified",5.2
+="Stratford School District",="Instructional Specialists Who Support Teachers",="Certified",24.0
+="Suffield School District",="Instructional Specialists Who Support Teachers",="Certified",9.3
+="Thomaston School District",="Instructional Specialists Who Support Teachers",="Certified",1.0
+="Thompson School District",="Instructional Specialists Who Support Teachers",="Certified",3.0
+="Tolland School District",="Instructional Specialists Who Support Teachers",="Certified",8.0
+="Torrington School District",="Instructional Specialists Who Support Teachers",="Certified",15.8
+="Trailblazers Academy District",="Instructional Specialists Who Support Teachers",="Certified",1.0
+="Trumbull School District",="Instructional Specialists Who Support Teachers",="Certified",23.4
+="Unified School District #2",="Instructional Specialists Who Support Teachers",="Certified",2.0
+="Vernon School District",="Instructional Specialists Who Support Teachers",="Certified",11.0
+="Voluntown School District",="Instructional Specialists Who Support Teachers",="Certified",2.0
+="Wallingford School District",="Instructional Specialists Who Support Teachers",="Certified",18.0
+="Waterbury School District",="Instructional Specialists Who Support Teachers",="Certified",70.0
+="Waterford School District",="Instructional Specialists Who Support Teachers",="Certified",9.5
+="Watertown School District",="Instructional Specialists Who Support Teachers",="Certified",6.2
+="West Hartford School District",="Instructional Specialists Who Support Teachers",="Certified",36.7
+="West Haven School District",="Instructional Specialists Who Support Teachers",="Certified",22.1
+="Westbrook School District",="Instructional Specialists Who Support Teachers",="Certified",2.6
+="Weston School District",="Instructional Specialists Who Support Teachers",="Certified",6.0
+="Westport School District",="Instructional Specialists Who Support Teachers",="Certified",12.4
+="Wethersfield School District",="Instructional Specialists Who Support Teachers",="Certified",21.6
+="Willington School District",="Instructional Specialists Who Support Teachers",="Certified",2.0
+="Wilton School District",="Instructional Specialists Who Support Teachers",="Certified",15.6
+="Winchester School District",="Instructional Specialists Who Support Teachers",="Certified",2.0
+="Windham School District",="Instructional Specialists Who Support Teachers",="Certified",14.8
+="Windsor Locks School District",="Instructional Specialists Who Support Teachers",="Certified",7.5
+="Windsor School District",="Instructional Specialists Who Support Teachers",="Certified",29.5
+="Wolcott School District",="Instructional Specialists Who Support Teachers",="Certified",6.0
+="Woodbridge School District",="Instructional Specialists Who Support Teachers",="Certified",2.0
+="Woodstock School District",="Instructional Specialists Who Support Teachers",="Certified",4.0
 

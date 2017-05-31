@@ -1,121 +1,1012 @@
+"FTE Staffing Report for 2012-13"
 
-
-
-
-
-<!DOCTYPE html>
-
-
-
-
-
-<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
-    
-    
-
-<head>
-    <meta charset="UTF-8" />
-    <title>
-    	
-    		
-    		
-    			SAS&reg; Logon Manager
-    		
-    	
-    </title>
-    <link type="text/css" rel="stylesheet" href="themes/default/css/bootstrap.css" />
-    <link type="text/css" rel="stylesheet" href="themes/default/css/sas.css" />
-</head>
-
-
-
-    <body id="cas">
-        <div id="page">
-            
-
-<div class="banner row">
-    <div class="about">
-        <ul class="unstyled"><li>
-            <a href="#about-modal" data-toggle="modal">
-                About
-            </a>
-        </li></ul>
-    </div>
-    <div id="about-modal" class="modal hide fade">
-        <div class="modal-header">
-            <a href="#" class="close" data-dismiss="modal">&times;</a>
-            <h3>About</h3>
-        </div>
-        <div class="modal-body">
-            <p>Version: 9.4</p>
-            <h4>Copyright Information</h4>
-            <p align="center">
-Copyright (c) 2002 - 2013 by SAS Institute Inc., Cary, NC, USA<br/>
-All rights reserved.<br/>
-<br/>
-This software is protected by copyright laws and international treaties.<br/>
-<br/>
-U.S. GOVERNMENT RESTRICTED RIGHTS<br/>
-Use, duplication, or disclosure of this software and related<br/>
-documentation by the U.S. government is subject to the<br/>
-Agreement with SAS Institute and the restrictions set forth<br/>
-in FAR 52.227-19, Commercial Computer Software<br/>
-- Restricted Rights (June 1987).
-            </p>
-        </div>
-    </div>
-    <div class="header">
-        <div class="title">
-        	<h1>
-        		
-		    		
-		    		
-		    			Sign In to SAS<sup>&reg;</sup>
-		    		
-    			
-        	</h1>
-       	</div>
-        <div class="logo"><img src="themes/default/images/logo.png" /></div>
-    </div>
-</div>
-
-
-            <div class="content row">
-                <div id="msg" class="alert-message message-box success">
-                	
-                		
-                			<h2>Public access has been denied.</h2>
-		                    <p>Public users are not allowed to access this SAS application. The current user has been signed out.</p>
-                		
-                		
-                		
-                    
-                    
-           				<p>For increased security, close your browser.</p>
-           			
-                </div>
-                
-	            	<div class="customizations" id="custom-logoff-message">
-	               		
-
-
-<p>
-</p>
-
-
- 
-
-	                </div>
-	            
-	            
-            </div>
-        </div>
-        
-<script type="text/javascript" src="/SASLogon/js/jquery.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=41619E3FD19FF3080A2299AF4465EAFD.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-<script type="text/javascript" src="/SASLogon/js/bootstrap-modal.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=41619E3FD19FF3080A2299AF4465EAFD.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-
-    </body>
-
-</html>
-
+"District","School","Assignment Category","Educator Type","FTE Count"
+"Achievement First Hartford Academy Inc. District","Achievement First Hartford Academy Inc.","Library/Media - Support Staff","Non-Certified",0.0
+="Amistad Academy District",="Amistad Academy",="Library/Media - Support Staff",="Non-Certified",1.0
+="Andover School District",="Andover Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Ansonia School District",="Ansonia High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Ansonia Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Mead School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Prendergast School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Area Cooperative Educational Services",="Thomas Edison Magnet Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Wintergreen Interdistrict Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Ashford School District",="Ashford School",="Library/Media - Support Staff",="Non-Certified",0.5
+="Avon School District",="Avon High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Avon Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Pine Grove School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Roaring Brook School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Thompson Brook School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Barkhamsted School District",="Barkhamsted Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Berlin School District",="Berlin High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Catherine M. McGee Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Emma Hart Willard School",="Library/Media - Support Staff",="Non-Certified",0.9
+,="Mary E. Griswold School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Richard D. Hubbard School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Bethany School District",="Bethany Community School",="Library/Media - Support Staff",="Non-Certified",0.4
+="Bethel School District",="Anna H. Rockwell School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Bethel High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Bethel Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Frank A. Berry School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Ralph M. T. Johnson School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Bloomfield School District",="Bloomfield High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Carmen Arace Intermediate School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Carmen Arace Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Global Experience Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Laurel School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Metacomet School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Wintonbury Early Childhood Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Bolton School District",="Bolton Center School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Bolton High School",="Library/Media - Support Staff",="Non-Certified",2.0
+="Bozrah School District",="Fields Memorial School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Branford School District",="Branford High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Francis Walsh Intermediate School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="John B. Sliney School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Mary R. Tisko School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Mary T. Murphy School",="Library/Media - Support Staff",="Non-Certified",0.5
+="Bridgeport Achievement First District",="Achievement First Bridgeport Academy",="Library/Media - Support Staff",="Non-Certified",0.0
+="Bridgeport School District",="Barnum School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Bassick High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Beardsley School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Black Rock School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Blackham School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Bryant School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Central High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Cesar Batalla School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Classical Studies Academy",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Columbus School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Cross School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Curiale School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Dunbar School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Edison School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Geraldine Johnson School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Hall School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Hallen School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Harding High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="High Horizons Magnet School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Hooker School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Interdistrict Discovery Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Jettie S. Tisdale School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Luis Munoz Marin School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Madison School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Multicultural Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Park City Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Read School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Roosevelt School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Skane Center",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Waltersville School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Winthrop School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Bristol School District",="Bristol Central High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Bristol Eastern High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Chippens Hill Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Edgewood School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Ellen P. Hubbell School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Greene-Hills School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Ivy Drive School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Mountain View School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Northeast Middle School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="South Side School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Stafford School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="West Bristol School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Brookfield School District",="Brookfield High School",="Library/Media - Support Staff",="Non-Certified",1.5
+,="Center Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Huckleberry Hill Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Whisconier Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Brooklyn School District",="Brooklyn Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Brooklyn Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Canaan School District",="Lee H. Kellogg School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Canterbury School District",="Canterbury Elementary School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Dr. Helen Baldwin Middle School",="Library/Media - Support Staff",="Non-Certified",0.6
+="Canton School District",="Canton High School",="Library/Media - Support Staff",="Non-Certified",1.6
+,="Canton Intermediate School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Canton Middle School",="Library/Media - Support Staff",="Non-Certified",1.2
+,="Cherry Brook Primary School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Capitol Region Education Council",="Academy of Aerospace and Engineering",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Academy of Science and Innovation",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Ana Grace Academy of the Arts Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Discovery Academy",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Glastonbury/East Hartford Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Greater Hartford Academy of the Arts High School - Full Time",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Greater Hartford Academy of the Arts Magnet Middle",="Library/Media - Support Staff",="Non-Certified",0.0
+,="International Magnet School for Global Citizenship",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Metropolitan Learning Center for Global and International Studies",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Montessori Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Museum Academy",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Public Safety Academy",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Reggio Magnet School of the Arts",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Two Rivers Magnet High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Two Rivers Magnet Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="University of Hartford Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Chaplin School District",="Chaplin Elementary School",="Library/Media - Support Staff",="Non-Certified",2.0
+="Cheshire School District",="Chapman School",="Library/Media - Support Staff",="Non-Certified",0.8
+,="Cheshire High School",="Library/Media - Support Staff",="Non-Certified",2.0
+,="Darcey School",="Library/Media - Support Staff",="Non-Certified",0.9
+,="Dodd Middle School",="Library/Media - Support Staff",="Non-Certified",2.0
+,="Doolittle School",="Library/Media - Support Staff",="Non-Certified",1.8
+,="Highland School",="Library/Media - Support Staff",="Non-Certified",2.0
+,="Norton School",="Library/Media - Support Staff",="Non-Certified",1.5
+="Chester School District",="Chester Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Clinton School District",="Abraham Pierson School",="Library/Media - Support Staff",="Non-Certified",0.7
+,="Jared Eliot School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Lewin G. Joel Jr. School",="Library/Media - Support Staff",="Non-Certified",0.7
+,="The Morgan School",="Library/Media - Support Staff",="Non-Certified",0.3
+="Colchester School District",="Bacon Academy",="Library/Media - Support Staff",="Non-Certified",1.5
+,="Colchester Elementary School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Jack Jackter Intermediate School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="William J. Johnston Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Colebrook School District",="Colebrook Consolidated School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Columbia School District",="Horace W. Porter School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Common Ground High School District",="Common Ground High School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Connecticut Technical High School System",="A. I. Prince Technical High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Bullard-Havens Technical High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="E. C. Goodwin Technical High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Eli Whitney Technical High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Ella T. Grasso Southeastern Technical High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Emmett O'Brien Technical High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="H. C. Wilcox Technical High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="H. H. Ellis Technical High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Henry Abbott Technical High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Howell Cheney Technical High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Norwich Technical High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Oliver Wolcott Technical High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Platt Technical High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Vinal Technical High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="W. F. Kaynor Technical High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Windham Technical High School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Cooperative Educational Services",="Six-Six Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Cornwall School District",="Cornwall Consolidated School",="Library/Media - Support Staff",="Non-Certified",0.8
+="Coventry School District",="Capt. Nathan Hale School",="Library/Media - Support Staff",="Non-Certified",0.4
+,="Coventry Grammar School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Coventry High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="George Hersey Robertson School",="Library/Media - Support Staff",="Non-Certified",1.1
+="Cromwell School District",="Cromwell High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Cromwell Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Edna C. Stevens School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Woodside Intermediate School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Danbury School District",="Alternative Center For Excellence",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Broadview Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Danbury High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Ellsworth Avenue School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Great Plain School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Hayestown Avenue School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="King Street Intermediate School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="King Street Primary School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Mill Ridge Primary School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Morris Street School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Park Avenue School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Pembroke School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Rogers Park Middle School",="Library/Media - Support Staff",="Non-Certified",2.0
+,="Shelter Rock School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="South Street School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Stadley Rough School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Western CT Academy of International Studies Elementary Magnet School",="Library/Media - Support Staff",="Non-Certified",0.6
+="Darien School District",="Darien High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Hindley Elementary School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Holmes Elementary School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Middlesex Middle School",="Library/Media - Support Staff",="Non-Certified",2.0
+,="Ox Ridge Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Royle Elementary School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Tokeneke Elementary School",="Library/Media - Support Staff",="Non-Certified",0.5
+="Deep River School District",="Deep River Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Derby School District",="Bradley School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Derby High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Derby Middle School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Irving School",="Library/Media - Support Staff",="Non-Certified",0.5
+="East Granby School District",="Allgrove School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="East Granby High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="East Granby Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="R. Dudley Seymour School",="Library/Media - Support Staff",="Non-Certified",0.0
+="East Haddam School District",="East Haddam Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Nathan Hale-Ray High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Nathan Hale-Ray Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+="East Hampton School District",="Center School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="East Hampton High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="East Hampton Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Memorial School",="Library/Media - Support Staff",="Non-Certified",0.0
+="East Hartford School District",="Anna E. Norris School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Connecticut IB Academy",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Dr. Franklin H. Mayberry School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Dr. John A. Langford School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Dr. Thomas S. O'Connell School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="East Hartford High School",="Library/Media - Support Staff",="Non-Certified",2.0
+,="East Hartford Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Governor William Pitkin School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Hockanum School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Joseph O. Goodwin School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Robert J. O'Brien School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Silver Lane School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Stevens Alternate High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Sunset Ridge Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
+="East Haven School District",="Carbone School/East Haven Academy",="Library/Media - Support Staff",="Non-Certified",0.5
+,="D. C. Moore School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Deer Run School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Dominick H. Ferrara School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="East Haven High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Grove J. Tuttle School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Joseph Melillo Middle School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Momauguin School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Overbrook Elementary School",="Library/Media - Support Staff",="Non-Certified",0.5
+="East Lyme School District",="East Lyme High School",="Library/Media - Support Staff",="Non-Certified",2.0
+,="East Lyme Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Flanders School",="Library/Media - Support Staff",="Non-Certified",0.4
+,="Lillie B. Haynes School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Niantic Center School",="Library/Media - Support Staff",="Non-Certified",0.0
+="East Windsor School District",="Broad Brook Elementary School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="East Windsor High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="East Windsor Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Eastern Connecticut Regional Educational Service Center (EASTCONN)",="Arts at the Capitol Theater Magnet School (ACT)",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Quinebaug Middle College",="Library/Media - Support Staff",="Non-Certified",0.0
+="Eastford School District",="Eastford Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Easton School District",="Helen Keller Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Samuel Staples Elementary School",="Library/Media - Support Staff",="Non-Certified",0.7
+="Ellington School District",="Center School",="Library/Media - Support Staff",="Non-Certified",0.9
+,="Crystal Lake School",="Library/Media - Support Staff",="Non-Certified",0.9
+,="Ellington High School",="Library/Media - Support Staff",="Non-Certified",0.2
+,="Ellington Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Windermere Intermediate School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Windermere School",="Library/Media - Support Staff",="Non-Certified",0.5
+="Elm City College Preparatory School District",="Elm City College Preparatory School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Enfield School District",="Edgar H. Parkman School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Eli Whitney School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Enfield High School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Enfield Street School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Enrico Fermi High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Hazardville Memorial School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Henry Barnard School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="John F. Kennedy Middle School",="Library/Media - Support Staff",="Non-Certified",2.0
+,="Nathan Hale School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Prudence Crandall School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Essex School District",="Essex Elementary School",="Library/Media - Support Staff",="Non-Certified",0.5
+="Explorations District",="Explorations",="Library/Media - Support Staff",="Non-Certified",0.0
+="Fairfield School District",="Burr Elementary School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Dwight Elementary School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Fairfield Ludlowe High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Fairfield Warde High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Fairfield Woods Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Holland Hill School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Jennings School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="McKinley School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Mill Hill School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="North Stratfield School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Osborn Hill School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Riverfield School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Roger Ludlowe Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Sherman School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Stratfield School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Tomlinson Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Farmington School District",="East Farms School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Farmington High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Irving A. Robbins Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Noah Wallace School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Union School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="West District School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="West Woods Upper Elementary School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Franklin School District",="Franklin Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Glastonbury School District",="Buttonball Lane School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Eastbury School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Gideon Welles School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Glastonbury High School",="Library/Media - Support Staff",="Non-Certified",3.4
+,="Hebron Avenue School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Hopewell School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Naubuc School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Nayaug Elementary School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Smith Middle School",="Library/Media - Support Staff",="Non-Certified",2.0
+="Granby School District",="Frank M. Kearns Primary School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Granby Memorial High School",="Library/Media - Support Staff",="Non-Certified",1.6
+,="Granby Memorial Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Kelly Lane Primary School",="Library/Media - Support Staff",="Non-Certified",1.6
+,="Wells Road Intermediate School",="Library/Media - Support Staff",="Non-Certified",1.6
+="Greenwich School District",="Central Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Cos Cob School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Eastern Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Glenville School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Greenwich High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Hamilton Avenue School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="International School At Dundee",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Julian Curtiss School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="New Lebanon School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="North Mianus School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="North Street School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Old Greenwich School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Parkway School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Riverside School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Western Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Griswold School District",="Griswold Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Griswold High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Griswold Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Groton School District",="Carl C. Cutler Middle School",="Library/Media - Support Staff",="Non-Certified",0.6
+,="Catherine Kolnaski Magnet School",="Library/Media - Support Staff",="Non-Certified",0.6
+,="Charles Barnum School",="Library/Media - Support Staff",="Non-Certified",0.6
+,="Claude Chester School",="Library/Media - Support Staff",="Non-Certified",0.8
+,="Mary Morrisson School",="Library/Media - Support Staff",="Non-Certified",0.6
+,="Northeast Academy Elementary School",="Library/Media - Support Staff",="Non-Certified",0.6
+,="Pleasant Valley School",="Library/Media - Support Staff",="Non-Certified",0.4
+,="Robert E. Fitch High School",="Library/Media - Support Staff",="Non-Certified",0.6
+,="S. B. Butler School",="Library/Media - Support Staff",="Non-Certified",0.4
+,="West Side Middle School",="Library/Media - Support Staff",="Non-Certified",0.6
+="Guilford School District",="A. Baldwin Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="A. W. Cox School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Calvin Leete School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="E. C. Adams Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Guilford High School",="Library/Media - Support Staff",="Non-Certified",2.0
+,="Guilford Lakes School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Melissa Jones School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Hamden School District",="Bear Path School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Church Street School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Dunbar Hill School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Hamden High School",="Library/Media - Support Staff",="Non-Certified",2.0
+,="Hamden Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Helen Street School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Ridge Hill School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Shepherd Glen School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Spring Glen School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="West Woods School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Hampton School District",="Hampton Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Hartford School District",="Asian Studies Academy at Bellizzi School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Batchelder School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Betances Early Reading Lab Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Betances STEM Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Breakthrough II Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Breakthrough Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Bulkeley High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Bulkeley High School Lower School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Burns Latino Studies Academy",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Burr School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Capital Preparatory Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Clark School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Classical Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Culinary Arts Academy at Weaver High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Dr. Joseph Bellizzi Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Environmental Sciences Magnet at Hooker School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Expeditionary Learning Academy at Moylan School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Global Communications Academy",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Great Path Academy at MCC",="Library/Media - Support Staff",="Non-Certified",0.0
+,="HPHS Engineering and Green Technology Academy",="Library/Media - Support Staff",="Non-Certified",0.0
+,="HPHS Law and Government Academy",="Library/Media - Support Staff",="Non-Certified",0.0
+,="HPHS Nursing and Health Sciences Academy",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Hartford Magnet Trinity College Academy",="Library/Media - Support Staff",="Non-Certified",0.0
+,="High School, Inc.",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Journalism and Media Academy Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Kennelly School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Kinsella Magnet School of Performing Arts",="Library/Media - Support Staff",="Non-Certified",0.0
+,="M. D. Fox School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="M. L. King, Jr. School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="McDonough Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Milner School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Montessori Magnet at Fisher School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Naylor/CCSU Leadership Academy",="Library/Media - Support Staff",="Non-Certified",0.0
+,="OPPortunity High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Parkville Community School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Pathways Academy of Technology and Design",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Rawson School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Renzulli Gifted and Talented Academy",="Library/Media - Support Staff",="Non-Certified",0.0
+,="SAND School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="STEM Magnet at Fisher School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Sanchez School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Simpson-Waverly School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Sports and Medical Sciences Academy",="Library/Media - Support Staff",="Non-Certified",0.0
+,="University High School of Science and Engineering",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Webster Micro Society Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="West Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Wish Museum School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Hartland School District",="Hartland School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Hebron School District",="Gilead Hill School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Hebron Elementary School",="Library/Media - Support Staff",="Non-Certified",0.5
+="Integrated Day Charter School District",="Integrated Day Charter School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Interdistrict School for Arts and Comm District",="Interdistrict School For Arts And Communication",="Library/Media - Support Staff",="Non-Certified",0.0
+="Jumoke Academy District",="Jumoke Academy",="Library/Media - Support Staff",="Non-Certified",1.0
+="Kent School District",="Kent Center School",="Library/Media - Support Staff",="Non-Certified",0.8
+="Killingly School District",="Killingly Central School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Killingly High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Killingly Intermediate School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Killingly Memorial School",="Library/Media - Support Staff",="Non-Certified",0.5
+="Learn",="Connecticut River Academy",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Dual Language & Arts Magnet Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Marine Science Magnet High School of Southeastern Connecticut",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Regional Multicultural Magnet School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="The Friendship School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Three Rivers Middle College Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Lebanon School District",="Lebanon Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Lebanon Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Lyman Memorial High School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Ledyard School District",="Gales Ferry School",="Library/Media - Support Staff",="Non-Certified",0.4
+,="Gallup Hill School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Juliet W. Long School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Ledyard Center School",="Library/Media - Support Staff",="Non-Certified",0.4
+,="Ledyard High School",="Library/Media - Support Staff",="Non-Certified",2.1
+,="Ledyard Middle School",="Library/Media - Support Staff",="Non-Certified",0.4
+="Lisbon School District",="Community Connection - The Big Picture High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Lisbon Central School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Litchfield School District",="Center School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Litchfield High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Litchfield Intermediate School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Madison School District",="Daniel Hand High School",="Library/Media - Support Staff",="Non-Certified",2.0
+,="Dr. Robert H. Brown Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Island Avenue Elementary School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="J. Milton Jeffrey Elementary School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Kathleen H. Ryerson Elementary School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Walter C. Polson Upper Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Manchester School District",="Bowers School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Buckley School",="Library/Media - Support Staff",="Non-Certified",0.6
+,="Elisabeth M. Bennet Academy",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Highland Park School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Illing Middle School",="Library/Media - Support Staff",="Non-Certified",2.0
+,="Keeney School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Manchester High School",="Library/Media - Support Staff",="Non-Certified",2.0
+,="Martin School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Robertson School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Verplanck School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Waddell School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Washington School",="Library/Media - Support Staff",="Non-Certified",1.5
+="Mansfield School District",="Annie E. Vinton School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Dorothy C. Goodwin School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Mansfield Middle School",="Library/Media - Support Staff",="Non-Certified",2.0
+,="Southeast Elementary School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Marlborough School District",="Elmer Thienes-Mary Hall Elementary School",="Library/Media - Support Staff",="Non-Certified",0.6
+="Meriden School District",="Nathan Hale School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Benjamin Franklin School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Casimir Pulaski School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Francis T. Maloney High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Hanover School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Israel Putnam School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="John Barry School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Lincoln Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Orville H. Platt High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Roger Sherman School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Thomas Hooker School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Washington Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Middletown School District",="Bielefield School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Farm Hill School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Keigwin Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Lawrence School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="MacDonough School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Middletown High School",="Library/Media - Support Staff",="Non-Certified",3.0
+,="Moody School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Snow School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Spencer School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Wesley School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Woodrow Wilson Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Milford School District",="Calf Pen Meadow School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="East Shore Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Harborside Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="J. F. Kennedy School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Jonathan Law High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Joseph A. Foran High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Live Oaks School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Mathewson School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Meadowside School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Orange Avenue School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Orchard Hills School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Pumpkin Delight School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="West Shore Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Monroe School District",="Fawn Hollow Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Jockey Hollow School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Masuk High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Monroe Elementary School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Stepney Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Montville School District",="Dr. Charles E. Murphy School",="Library/Media - Support Staff",="Non-Certified",0.7
+,="Leonard J. Tyl Middle School",="Library/Media - Support Staff",="Non-Certified",1.2
+,="Mohegan School",="Library/Media - Support Staff",="Non-Certified",0.7
+,="Montville High School",="Library/Media - Support Staff",="Non-Certified",1.4
+,="Oakdale School",="Library/Media - Support Staff",="Non-Certified",0.7
+="Naugatuck School District",="Andrew Avenue School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="City Hill Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Cross Street Intermediate School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Hillside Intermediate School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Hop Brook Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Maple Hill School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Naugatuck High School",="Library/Media - Support Staff",="Non-Certified",1.5
+,="Salem School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Western School",="Library/Media - Support Staff",="Non-Certified",0.0
+="New Beginnings Inc Family Academy District",="New Beginnings Inc Family Academy",="Library/Media - Support Staff",="Non-Certified",1.0
+="New Britain School District",="Chamberlain Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Frank J. DiLoreto School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Gaffney School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Holmes School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="House of Arts Letters and Science (HALS) Academy",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Jefferson School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Lincoln School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="New Britain High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Northend School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Pulaski Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Roosevelt Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Slade Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Smalley Academy",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Smith School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Vance School",="Library/Media - Support Staff",="Non-Certified",0.0
+="New Canaan School District",="East School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="New Canaan High School",="Library/Media - Support Staff",="Non-Certified",2.0
+,="Saxe Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="South School",="Library/Media - Support Staff",="Non-Certified",0.6
+,="West School",="Library/Media - Support Staff",="Non-Certified",0.5
+="New Fairfield School District",="Consolidated School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Meeting House Hill School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="New Fairfield High School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="New Fairfield Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
+="New Hartford School District",="Ann Antolini School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Bakerville Consolidated School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="New Hartford Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+="New Haven School District",="Edgewood School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Nathan Hale School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Augusta Lewis Troup School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Barnard Environmental Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Beecher School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Benjamin Jepson Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Betsy Ross Arts Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Bishop Woods Architecture and Design Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Brennan Rogers School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Celentano BioTech, Health and Medical Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Clinton Avenue School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Columbus Family Academy",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Conte/West Hills Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Cooperative High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Cortlandt V.R. Creed Health and Sport Sciences High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Davis 21st Century Magnet Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="East Rock Community Magnet School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Engineering - Science University Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Fair Haven School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="High School In The Community",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Hill Central Music Academy",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Hill Regional Career High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="James Hillhouse High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="John C. Daniels",="Library/Media - Support Staff",="Non-Certified",0.0
+,="John S. Martinez Sea and Sky STEM School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="King/Robinson Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Lincoln-Bassett School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Mauro-Sheridan Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Metropolitan Business Academy",="Library/Media - Support Staff",="Non-Certified",0.0
+,="New Haven Academy",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Quinnipiac Real World Math STEM School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Roberto Clemente Leadership Academy for Global Awareness",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Ross/Woodward School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Sound School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Strong 21st Century Communications Magnet and SCSU Lab School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Truman School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="West Rock Authors Academy",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Wexler/Grant Community School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Wilbur Cross High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Worthington Hooker School",="Library/Media - Support Staff",="Non-Certified",0.0
+="New London School District",="Jennings School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Bennie Dover Jackson Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Nathan Hale Arts Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="New London High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Winthrop STEM Elementary Magnet School",="Library/Media - Support Staff",="Non-Certified",1.0
+="New Milford School District",="Hill And Plain School",="Library/Media - Support Staff",="Non-Certified",0.7
+,="John Pettibone School",="Library/Media - Support Staff",="Non-Certified",0.7
+,="New Milford High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Northville Elementary School",="Library/Media - Support Staff",="Non-Certified",0.7
+,="Sarah Noble Intermediate School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Schaghticoke Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Newington School District",="Anna Reynolds School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Elizabeth Green School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="John Paterson School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="John Wallace Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Martin Kellogg Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Newington High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Ruth Chaffee School",="Library/Media - Support Staff",="Non-Certified",0.5
+="Newtown School District",="Hawley Elementary School",="Library/Media - Support Staff",="Non-Certified",0.7
+,="Head O'Meadow Elementary School",="Library/Media - Support Staff",="Non-Certified",0.3
+,="Middle Gate Elementary School",="Library/Media - Support Staff",="Non-Certified",0.6
+,="Newtown High School",="Library/Media - Support Staff",="Non-Certified",0.8
+,="Newtown Middle School",="Library/Media - Support Staff",="Non-Certified",0.8
+,="Reed Intermediate School",="Library/Media - Support Staff",="Non-Certified",0.6
+,="Sandy Hook Elementary School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Norfolk School District",="Botelle Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+="North Branford School District",="Jerome Harrison School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="North Branford High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="North Branford Intermediate School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Totoket Valley Elementary School",="Library/Media - Support Staff",="Non-Certified",1.0
+="North Canaan School District",="North Canaan Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+="North Haven School District",="Clintonville Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Green Acres Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Montowese Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="North Haven High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="North Haven Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Ridge Road Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+="North Stonington School District",="North Stonington Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Wheeler High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Wheeler Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Norwich Free Academy District",="Norwich Free Academy",="Library/Media - Support Staff",="Non-Certified",3.0
+="Norwich School District",="John B. Stanton Network School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Kelly Middle School",="Library/Media - Support Staff",="Non-Certified",0.6
+,="Moriarty Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Samuel Huntington School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Teachers' Memorial Middle School",="Library/Media - Support Staff",="Non-Certified",0.4
+,="Thomas W. Mahan School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Uncas Network School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Veterans' Memorial School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Wequonnoc Magnet School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Odyssey Community School District",="Odyssey Community School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Old Saybrook School District",="Kathleen E. Goodwin School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Old Saybrook Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Old Saybrook Senior High School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Orange School District",="Mary L. Tracy School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Peck Place School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Race Brook School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Turkey Hill School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Oxford School District",="Great Oak School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Oxford Center School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Oxford High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Quaker Farms School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Park City Prep Charter School District",="Park City Prep Charter School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Plainfield School District",="Moosup Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Plainfield Central School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Plainfield High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Plainfield Memorial School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Shepard Hill Elementary School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Plainville School District",="Frank T. Wheeler School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Linden Street School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Louis Toffolon School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Middle School of Plainville",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Plainville High School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Plymouth School District",="Eli Terry Jr. Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Harry S. Fisher Elementary School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Plymouth Center School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Terryville High School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Pomfret School District",="Pomfret Community School",="Library/Media - Support Staff",="Non-Certified",0.5
+="Portland School District",="Brownstone Intermediate School",="Library/Media - Support Staff",="Non-Certified",0.8
+,="Gildersleeve School",="Library/Media - Support Staff",="Non-Certified",0.8
+,="Portland High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Portland Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Valley View School",="Library/Media - Support Staff",="Non-Certified",1.8
+="Preston School District",="Preston Plains School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Preston Veterans' Memorial School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Putnam School District",="Putnam Elementary School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Putnam High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Putnam Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Redding School District",="John Read Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Redding Elementary School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Regional School District 01",="Housatonic Valley Regional High School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Regional School District 04",="John Winthrop Middle School",="Library/Media - Support Staff",="Non-Certified",0.9
+,="Valley Regional High School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Regional School District 05",="Amity Middle School: Bethany",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Amity Middle School: Orange",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Amity Regional High School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Regional School District 06",="Goshen Center School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="James Morris School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Wamogo Regional High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Warren Elementary School",="Library/Media - Support Staff",="Non-Certified",0.5
+="Regional School District 07",="Northwestern Regional High School",="Library/Media - Support Staff",="Non-Certified",1.2
+,="Northwestern Regional Middle School",="Library/Media - Support Staff",="Non-Certified",0.6
+="Regional School District 08",="RHAM High School",="Library/Media - Support Staff",="Non-Certified",2.0
+,="RHAM Middle School",="Library/Media - Support Staff",="Non-Certified",2.0
+="Regional School District 09",="Joel Barlow High School",="Library/Media - Support Staff",="Non-Certified",3.0
+="Regional School District 10",="Har-Bur Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Harwinton Consolidated School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Lake Garda Elementary School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Lewis S. Mills High School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Regional School District 11",="Parish Hill High School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Regional School District 12",="Booth Free School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Shepaug Valley High School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Shepaug Valley Middle School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="The Burnham School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Washington Primary School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Regional School District 13",="Coginchaug Regional High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Francis E. Korn School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Frank Ward Strong School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Frederick Brewster School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="John Lyman School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Middlefield Memorial School",="Library/Media - Support Staff",="Non-Certified",0.5
+="Regional School District 14",="Bethlehem Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Mitchell Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Nonnewaug High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Woodbury Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Regional School District 15",="Gainfield Elementary School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Long Meadow Elementary School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Memorial Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Middlebury Elementary School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Pomperaug Regional High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Pomperaug School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Rochambeau Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Regional School District 16",="Algonquin School",="Library/Media - Support Staff",="Non-Certified",1.5
+,="Community School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Laurel Ledge School",="Library/Media - Support Staff",="Non-Certified",2.0
+,="Long River Middle School",="Library/Media - Support Staff",="Non-Certified",1.3
+,="Woodland Regional High School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Regional School District 17",="Burr District Elementary School",="Library/Media - Support Staff",="Non-Certified",1.5
+,="Haddam Elementary School",="Library/Media - Support Staff",="Non-Certified",2.0
+,="Haddam-Killingworth High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Haddam-Killingworth Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Killingworth Elementary School",="Library/Media - Support Staff",="Non-Certified",2.5
+="Regional School District 18",="Center School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Lyme Consolidated School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Lyme-Old Lyme High School",="Library/Media - Support Staff",="Non-Certified",0.8
+,="Lyme-Old Lyme Middle School",="Library/Media - Support Staff",="Non-Certified",0.8
+,="Mile Creek School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Regional School District 19",="E. O. Smith High School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Ridgefield School District",="Barlow Mountain Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Branchville Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="East Ridge Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Farmingville Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Ridgebury Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Ridgefield High School",="Library/Media - Support Staff",="Non-Certified",2.0
+,="Scotland Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Scotts Ridge Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Veterans Park Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Rocky Hill School District",="Albert D. Griswold Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Myrtle H. Stevens School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Rocky Hill High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="West Hill School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Salem School District",="Salem Elementary School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Salisbury School District",="Salisbury Central School",="Library/Media - Support Staff",="Non-Certified",0.9
+="Scotland School District",="Scotland Elementary School",="Library/Media - Support Staff",="Non-Certified",1.6
+="Seymour School District",="Bungay School",="Library/Media - Support Staff",="Non-Certified",0.4
+,="Paul E. Chatfield School",="Library/Media - Support Staff",="Non-Certified",0.4
+,="Seymour High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Seymour Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Sharon School District",="Sharon Center School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Shelton School District",="Mohegan School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Booth Hill School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Elizabeth Shelton School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Intermediate School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Long Hill School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Perry Hill Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Shelton High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Sunnyside School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Sherman School District",="Sherman School",="Library/Media - Support Staff",="Non-Certified",0.4
+="Side By Side Charter School District",="Side By Side Charter School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Simsbury School District",="Central School",="Library/Media - Support Staff",="Non-Certified",0.8
+,="Henry James Memorial School",="Library/Media - Support Staff",="Non-Certified",0.9
+,="Latimer Lane School",="Library/Media - Support Staff",="Non-Certified",0.7
+,="Simsbury High School",="Library/Media - Support Staff",="Non-Certified",1.6
+,="Squadron Line School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Tariffville School",="Library/Media - Support Staff",="Non-Certified",0.4
+,="Tootin' Hills School",="Library/Media - Support Staff",="Non-Certified",0.6
+="Somers School District",="Mabelle B. Avery Middle School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Somers Elementary School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Somers High School",="Library/Media - Support Staff",="Non-Certified",1.0
+="South Windsor School District",="Pleasant Valley School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Eli Terry School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Orchard Hill School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Philip R. Smith School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="South Windsor High School",="Library/Media - Support Staff",="Non-Certified",2.0
+,="Timothy Edwards School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Wapping Elementary School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Southington School District",="John F. Kennedy Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Derynoski Elementary School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Flanders Elementary School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Hatton Elementary School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Joseph A. Depaolo Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Plantsville Elementary School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="South End Elementary School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Southington High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Strong Elementary School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Thalberg Elementary School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Urbin T. Kelley School",="Library/Media - Support Staff",="Non-Certified",0.5
+="Sprague School District",="Sayles School",="Library/Media - Support Staff",="Non-Certified",1.5
+="Stafford School District",="Stafford Elementary School",="Library/Media - Support Staff",="Non-Certified",2.0
+,="Stafford High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Stafford Middle School",="Library/Media - Support Staff",="Non-Certified",2.0
+,="Staffordville School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="West Stafford School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Stamford Academy District",="Stamford Academy",="Library/Media - Support Staff",="Non-Certified",0.0
+="Stamford School District",="Cloonan School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Davenport Ridge School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Hart School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Julia A. Stark School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="K. T. Murphy School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Newfield School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Northeast School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Rippowam Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Roxbury School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Scofield Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Springdale School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Stamford High School",="Library/Media - Support Staff",="Non-Certified",2.0
+,="Stillmeadow School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="The Academy of Information Technology",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Toquam Magnet School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Turn of River School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Westhill High School",="Library/Media - Support Staff",="Non-Certified",2.0
+,="Westover School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Sterling School District",="Sterling Community School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Stonington School District",="Deans Mill School",="Library/Media - Support Staff",="Non-Certified",1.5
+,="Mystic Middle School",="Library/Media - Support Staff",="Non-Certified",1.2
+,="Pawcatuck Middle School",="Library/Media - Support Staff",="Non-Certified",1.1
+,="Stonington High School",="Library/Media - Support Staff",="Non-Certified",3.3
+,="West Broad Street School",="Library/Media - Support Staff",="Non-Certified",1.2
+,="West Vine Street School",="Library/Media - Support Staff",="Non-Certified",1.3
+="Stratford School District",="Eli Whitney School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Bunnell High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Chapel School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="David Wooster Middle School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Franklin School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Harry B. Flood Middle School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Honeyspot School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Lordship School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Nichols School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Second Hill Lane School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Stratford Academy - Johnson House",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Stratford High School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Wilcoxson School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Suffield School District",="A. Ward Spaulding School",="Library/Media - Support Staff",="Non-Certified",0.4
+,="McAlister Intermediate School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Suffield High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Suffield Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+="The Bridge Academy District",="The Bridge Academy",="Library/Media - Support Staff",="Non-Certified",0.0
+="The Gilbert School District",="The Gilbert School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Thomaston School District",="Black Rock School",="Library/Media - Support Staff",="Non-Certified",0.6
+,="Thomaston Center School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Thomaston High School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Thompson School District",="Mary R. Fisher Elementary School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Thompson Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Tourtellotte Memorial High School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Tolland School District",="Birch Grove Primary School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Tolland High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Tolland Intermediate School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Tolland Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Torrington School District",="East School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Forbes School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Southwest School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Torringford School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Torrington High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Torrington Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Vogel-Wetmore School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Trailblazers Academy District",="Trailblazers Academy",="Library/Media - Support Staff",="Non-Certified",0.0
+="Trumbull School District",="Booth Hill School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Daniels Farm School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Frenchtown Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Head Start",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Hillcrest Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Jane Ryan School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Madison Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Middlebrook School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Tashua School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Trumbull High School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Unified School District #1",="Bridgeport Correctional Center",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Brooklyn Correctional Institution",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Cheshire Correctional Institution",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Corrigan/Radgowski Correctional Institution",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Enfield Correctional Institution",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Garner Correctional Institution",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Hartford Correctional Center",="Library/Media - Support Staff",="Non-Certified",0.0
+,="MacDougall/Walker Correctional Institution",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Manson Youth Institution",="Library/Media - Support Staff",="Non-Certified",0.0
+,="New Haven Correctional Center",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Northern Correctional Institution",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Osborn Correctional Institution",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Robinson Correctional Institution",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Webster Correctional Institution",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Willard/Cybulski Correctional Institution",="Library/Media - Support Staff",="Non-Certified",0.0
+,="York Correctional Institution",="Library/Media - Support Staff",="Non-Certified",0.0
+="Unified School District #2",="Children's Place School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Riverview School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Walter G. Cady School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Vernon School District",="Northeast School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Center Road School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Lake Street School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Maple Street School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Rockville High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Skinner Road School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Vernon Center Middle School",="Library/Media - Support Staff",="Non-Certified",2.0
+="Voluntown School District",="Voluntown Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Wallingford School District",="Highland School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Cook Hill School",="Library/Media - Support Staff",="Non-Certified",0.7
+,="Dag Hammarskjold Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Evarts C. Stevens School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="James H. Moran Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Lyman Hall High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Mark T. Sheehan High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Moses Y. Beach School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Parker Farms School",="Library/Media - Support Staff",="Non-Certified",0.6
+,="Pond Hill School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Rock Hill School",="Library/Media - Support Staff",="Non-Certified",0.7
+,="Yalesville School",="Library/Media - Support Staff",="Non-Certified",0.5
+="Waterbury School District",="West Side Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Washington School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="B. W. Tinker School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Bucks Hill School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Bunker Hill School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Carrington School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Crosby High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Driggs School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Duggan School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="F. J. Kingsbury School",="Library/Media - Support Staff",="Non-Certified",0.8
+,="Gilmartin School",="Library/Media - Support Staff",="Non-Certified",0.4
+,="H. S. Chase School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Hopeville School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="John F. Kennedy High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Maloney Interdistrict Magnet School",="Library/Media - Support Staff",="Non-Certified",1.5
+,="Margaret M. Generali Elementary School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Michael F. Wallace Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="North End Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Reed School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Regan School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Rotella Interdistrict Magnet School",="Library/Media - Support Staff",="Non-Certified",1.5
+,="Sprague School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Walsh School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Waterbury Arts Magnet School (High)",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Waterbury Arts Magnet School (Middle)",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Wendell L. Cross School",="Library/Media - Support Staff",="Non-Certified",0.6
+,="Wilby High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Woodrow Wilson School",="Library/Media - Support Staff",="Non-Certified",0.5
+="Waterford School District",="Clark Lane Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Great Neck Elementary School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Oswegatchie Elementary School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Quaker Hill Elementary School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Waterford High School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Watertown School District",="Fletcher W. Judson School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="John Trumbull Primary School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Polk School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Swift Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Watertown High School",="Library/Media - Support Staff",="Non-Certified",1.0
+="West Hartford School District",="Smith School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Aiken School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Braeburn School",="Library/Media - Support Staff",="Non-Certified",0.4
+,="Bristow Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Bugbee School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Charter Oak International Academy",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Conard High School",="Library/Media - Support Staff",="Non-Certified",2.0
+,="Duffy School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Hall High School",="Library/Media - Support Staff",="Non-Certified",2.0
+,="King Philip Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Morley School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Norfeldt School",="Library/Media - Support Staff",="Non-Certified",0.4
+,="Sedgwick Middle School",="Library/Media - Support Staff",="Non-Certified",2.0
+,="Webster Hill School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Whiting Lane School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Wolcott School",="Library/Media - Support Staff",="Non-Certified",0.5
+="West Haven School District",="Washington School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Alma E. Pagels School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Carrigan 5/6 Intermediate School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Edith E. Mackrille School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Forest School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Harry M. Bailey Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Savin Rock Community School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Seth G. Haley School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="West Haven High School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Westbrook School District",="Daisy Ingraham School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Westbrook High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Westbrook Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Weston School District",="Hurlbutt Elementary School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Weston High School",="Library/Media - Support Staff",="Non-Certified",1.1
+,="Weston Intermediate School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Weston Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Westport School District",="Bedford Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Coleytown Elementary School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Coleytown Middle School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Green's Farms School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="King's Highway Elementary School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Long Lots School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Saugatuck Elementary School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Staples High School",="Library/Media - Support Staff",="Non-Certified",3.0
+="Wethersfield School District",="Alfred W. Hanmer School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Charles Wright School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Emerson-Williams School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Highcrest School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Samuel B. Webb Elementary School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Silas Deane Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Wethersfield High School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Willington School District",="Center School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Hall Memorial School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Wilton School District",="Middlebrook School",="Library/Media - Support Staff",="Non-Certified",2.0
+,="Cider Mill School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Miller-Driscoll School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Wilton High School",="Library/Media - Support Staff",="Non-Certified",5.6
+="Winchester School District",="Batcheller Early Education Center",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Mary P. Hinsdale School",="Library/Media - Support Staff",="Non-Certified",0.5
+,="Pearson Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Windham School District",="Natchaug School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="North Windham School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="W. B. Sweeney School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Windham Center School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Windham High School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Windham Middle School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Windsor Locks School District",="North Street School",="Library/Media - Support Staff",="Non-Certified",0.4
+,="South Elementary School",="Library/Media - Support Staff",="Non-Certified",0.9
+,="Windsor Locks High School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Windsor Locks Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Windsor School District",="Clover Street School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="John F. Kennedy School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Oliver Ellsworth School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Poquonock Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Sage Park Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Windsor High School",="Library/Media - Support Staff",="Non-Certified",2.0
+="Wolcott School District",="Alcott School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Frisbie School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Tyrrell Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Wakelee School",="Library/Media - Support Staff",="Non-Certified",1.0
+,="Wolcott High School",="Library/Media - Support Staff",="Non-Certified",1.0
+="Woodbridge School District",="Beecher Road School",="Library/Media - Support Staff",="Non-Certified",2.0
+="Woodstock Academy District",="Woodstock Academy",="Library/Media - Support Staff",="Non-Certified",1.0
+="Woodstock School District",="Woodstock Elementary School",="Library/Media - Support Staff",="Non-Certified",0.0
+,="Woodstock Middle School",="Library/Media - Support Staff",="Non-Certified",1.0
 

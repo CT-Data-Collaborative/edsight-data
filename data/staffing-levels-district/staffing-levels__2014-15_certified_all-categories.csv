@@ -1,121 +1,1304 @@
+"FTE Staffing Report for 2014-15"
 
-
-
-
-
-<!DOCTYPE html>
-
-
-
-
-
-<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
-    
-    
-
-<head>
-    <meta charset="UTF-8" />
-    <title>
-    	
-    		
-    		
-    			SAS&reg; Logon Manager
-    		
-    	
-    </title>
-    <link type="text/css" rel="stylesheet" href="themes/default/css/bootstrap.css" />
-    <link type="text/css" rel="stylesheet" href="themes/default/css/sas.css" />
-</head>
-
-
-
-    <body id="cas">
-        <div id="page">
-            
-
-<div class="banner row">
-    <div class="about">
-        <ul class="unstyled"><li>
-            <a href="#about-modal" data-toggle="modal">
-                About
-            </a>
-        </li></ul>
-    </div>
-    <div id="about-modal" class="modal hide fade">
-        <div class="modal-header">
-            <a href="#" class="close" data-dismiss="modal">&times;</a>
-            <h3>About</h3>
-        </div>
-        <div class="modal-body">
-            <p>Version: 9.4</p>
-            <h4>Copyright Information</h4>
-            <p align="center">
-Copyright (c) 2002 - 2013 by SAS Institute Inc., Cary, NC, USA<br/>
-All rights reserved.<br/>
-<br/>
-This software is protected by copyright laws and international treaties.<br/>
-<br/>
-U.S. GOVERNMENT RESTRICTED RIGHTS<br/>
-Use, duplication, or disclosure of this software and related<br/>
-documentation by the U.S. government is subject to the<br/>
-Agreement with SAS Institute and the restrictions set forth<br/>
-in FAR 52.227-19, Commercial Computer Software<br/>
-- Restricted Rights (June 1987).
-            </p>
-        </div>
-    </div>
-    <div class="header">
-        <div class="title">
-        	<h1>
-        		
-		    		
-		    		
-		    			Sign In to SAS<sup>&reg;</sup>
-		    		
-    			
-        	</h1>
-       	</div>
-        <div class="logo"><img src="themes/default/images/logo.png" /></div>
-    </div>
-</div>
-
-
-            <div class="content row">
-                <div id="msg" class="alert-message message-box success">
-                	
-                		
-                			<h2>Public access has been denied.</h2>
-		                    <p>Public users are not allowed to access this SAS application. The current user has been signed out.</p>
-                		
-                		
-                		
-                    
-                    
-           				<p>For increased security, close your browser.</p>
-           			
-                </div>
-                
-	            	<div class="customizations" id="custom-logoff-message">
-	               		
-
-
-<p>
-</p>
-
-
- 
-
-	                </div>
-	            
-	            
-            </div>
-        </div>
-        
-<script type="text/javascript" src="/SASLogon/js/jquery.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=E6D162B7C895418BE853B12627F6917E.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-<script type="text/javascript" src="/SASLogon/js/bootstrap-modal.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=E6D162B7C895418BE853B12627F6917E.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-
-    </body>
-
-</html>
-
+"District","Assignment Category","Educator Type","FTE Count"
+"Achievement First Hartford Academy Inc. District","Administrators  Coordinators and Department Chairs - District Central Office","Certified",12.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",3.0
+,="General Education - Teachers and Instructors",="Certified",79.0
+,="Special Education - Teachers and Instructors",="Certified",10.0
+="Amistad Academy District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",11.6
+,="Counselors  Social Workers  and School Psychologists",="Certified",3.8
+,="General Education - Teachers and Instructors",="Certified",84.2
+,="Special Education - Teachers and Instructors",="Certified",5.8
+="Andover School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.6
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+,="General Education - Teachers and Instructors",="Certified",19.7
+,="Special Education - Teachers and Instructors",="Certified",3.0
+,="Instructional Specialists Who Support Teachers",="Certified",1.4
+,="Library/Media - Specialists (Certified)",="Certified",1.0
+="Ansonia School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",6.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",8.3
+,="Counselors  Social Workers  and School Psychologists",="Certified",13.0
+,="General Education - Teachers and Instructors",="Certified",148.2
+,="Special Education - Teachers and Instructors",="Certified",21.0
+,="Instructional Specialists Who Support Teachers",="Certified",5.0
+,="Library/Media - Specialists (Certified)",="Certified",1.0
+="Area Cooperative Educational Services",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",9.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",13.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",28.0
+,="General Education - Teachers and Instructors",="Certified",114.3
+,="Special Education - Teachers and Instructors",="Certified",87.5
+,="Instructional Specialists Who Support Teachers",="Certified",15.3
+,="Library/Media - Specialists (Certified)",="Certified",3.0
+="Ashford School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.6
+,="Counselors  Social Workers  and School Psychologists",="Certified",2.0
+,="General Education - Teachers and Instructors",="Certified",39.0
+,="Special Education - Teachers and Instructors",="Certified",4.0
+,="Instructional Specialists Who Support Teachers",="Certified",1.0
+="Avon School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",5.1
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",12.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",17.9
+,="General Education - Teachers and Instructors",="Certified",210.3
+,="Special Education - Teachers and Instructors",="Certified",31.6
+,="Instructional Specialists Who Support Teachers",="Certified",9.1
+,="Library/Media - Specialists (Certified)",="Certified",5.0
+="Barkhamsted School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.4
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+,="General Education - Teachers and Instructors",="Certified",21.7
+,="Special Education - Teachers and Instructors",="Certified",1.0
+,="Instructional Specialists Who Support Teachers",="Certified",0.5
+,="Library/Media - Specialists (Certified)",="Certified",1.0
+="Berlin School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",7.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",14.8
+,="Counselors  Social Workers  and School Psychologists",="Certified",17.0
+,="General Education - Teachers and Instructors",="Certified",210.4
+,="Special Education - Teachers and Instructors",="Certified",34.3
+,="Instructional Specialists Who Support Teachers",="Certified",10.2
+,="Library/Media - Specialists (Certified)",="Certified",4.6
+="Bethany School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",2.4
+,="General Education - Teachers and Instructors",="Certified",33.6
+,="Special Education - Teachers and Instructors",="Certified",6.0
+,="Instructional Specialists Who Support Teachers",="Certified",1.6
+,="Library/Media - Specialists (Certified)",="Certified",1.0
+="Bethel School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.5
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",9.8
+,="Counselors  Social Workers  and School Psychologists",="Certified",16.9
+,="General Education - Teachers and Instructors",="Certified",193.3
+,="Special Education - Teachers and Instructors",="Certified",34.9
+,="Instructional Specialists Who Support Teachers",="Certified",8.8
+,="Library/Media - Specialists (Certified)",="Certified",4.0
+="Bloomfield School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",6.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",9.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",21.0
+,="General Education - Teachers and Instructors",="Certified",171.5
+,="Special Education - Teachers and Instructors",="Certified",22.0
+,="Instructional Specialists Who Support Teachers",="Certified",15.0
+,="Library/Media - Specialists (Certified)",="Certified",1.0
+="Bolton School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",6.7
+,="General Education - Teachers and Instructors",="Certified",61.8
+,="Special Education - Teachers and Instructors",="Certified",10.0
+,="Instructional Specialists Who Support Teachers",="Certified",3.0
+,="Library/Media - Specialists (Certified)",="Certified",2.0
+="Booker T. Washington Academy District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.0
+,="General Education - Teachers and Instructors",="Certified",9.3
+="Bozrah School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.4
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.2
+,="Counselors  Social Workers  and School Psychologists",="Certified",0.9
+,="General Education - Teachers and Instructors",="Certified",19.0
+,="Special Education - Teachers and Instructors",="Certified",3.0
+,="Instructional Specialists Who Support Teachers",="Certified",1.0
+="Branford School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",6.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",14.1
+,="Counselors  Social Workers  and School Psychologists",="Certified",15.4
+,="General Education - Teachers and Instructors",="Certified",225.4
+,="Special Education - Teachers and Instructors",="Certified",28.7
+,="Instructional Specialists Who Support Teachers",="Certified",6.0
+,="Library/Media - Specialists (Certified)",="Certified",5.0
+="Brass City Charter School District",="General Education - Teachers and Instructors",="Certified",13.9
+="Bridgeport Achievement First District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",10.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",1.0
+,="General Education - Teachers and Instructors",="Certified",50.5
+,="Special Education - Teachers and Instructors",="Certified",8.0
+="Bridgeport School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",23.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",70.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",117.6
+,="General Education - Teachers and Instructors",="Certified",1125.6
+,="Special Education - Teachers and Instructors",="Certified",202.9
+,="Instructional Specialists Who Support Teachers",="Certified",72.2
+,="Library/Media - Specialists (Certified)",="Certified",17.0
+="Bristol School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",15.5
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",27.8
+,="Counselors  Social Workers  and School Psychologists",="Certified",35.2
+,="General Education - Teachers and Instructors",="Certified",476.0
+,="Special Education - Teachers and Instructors",="Certified",84.2
+,="Instructional Specialists Who Support Teachers",="Certified",29.5
+,="Library/Media - Specialists (Certified)",="Certified",4.8
+="Brookfield School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",14.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",16.0
+,="General Education - Teachers and Instructors",="Certified",180.1
+,="Special Education - Teachers and Instructors",="Certified",21.9
+,="Instructional Specialists Who Support Teachers",="Certified",5.0
+,="Library/Media - Specialists (Certified)",="Certified",5.0
+="Brooklyn School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",2.0
+,="General Education - Teachers and Instructors",="Certified",57.7
+,="Special Education - Teachers and Instructors",="Certified",7.0
+,="Instructional Specialists Who Support Teachers",="Certified",2.0
+,="Library/Media - Specialists (Certified)",="Certified",2.0
+="Canaan School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.5
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",0.5
+,="General Education - Teachers and Instructors",="Certified",10.5
+,="Special Education - Teachers and Instructors",="Certified",1.0
+,="Instructional Specialists Who Support Teachers",="Certified",0.5
+="Canterbury School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",2.2
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",2.0
+,="General Education - Teachers and Instructors",="Certified",37.6
+,="Special Education - Teachers and Instructors",="Certified",4.0
+,="Instructional Specialists Who Support Teachers",="Certified",1.0
+="Canton School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",8.2
+,="Counselors  Social Workers  and School Psychologists",="Certified",9.1
+,="General Education - Teachers and Instructors",="Certified",99.5
+,="Special Education - Teachers and Instructors",="Certified",16.0
+,="Instructional Specialists Who Support Teachers",="Certified",6.9
+,="Library/Media - Specialists (Certified)",="Certified",2.0
+="Capitol Region Education Council",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",25.8
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",57.2
+,="Counselors  Social Workers  and School Psychologists",="Certified",64.4
+,="General Education - Teachers and Instructors",="Certified",578.8
+,="Special Education - Teachers and Instructors",="Certified",146.6
+,="Instructional Specialists Who Support Teachers",="Certified",56.7
+,="Library/Media - Specialists (Certified)",="Certified",8.0
+="Chaplin School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.3
+,="Counselors  Social Workers  and School Psychologists",="Certified",1.0
+,="General Education - Teachers and Instructors",="Certified",17.1
+,="Special Education - Teachers and Instructors",="Certified",2.0
+,="Instructional Specialists Who Support Teachers",="Certified",2.0
+="Cheshire School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",20.1
+,="Counselors  Social Workers  and School Psychologists",="Certified",22.6
+,="General Education - Teachers and Instructors",="Certified",277.7
+,="Special Education - Teachers and Instructors",="Certified",48.2
+,="Instructional Specialists Who Support Teachers",="Certified",14.9
+,="Library/Media - Specialists (Certified)",="Certified",7.0
+="Chester School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",1.3
+,="General Education - Teachers and Instructors",="Certified",19.1
+,="Special Education - Teachers and Instructors",="Certified",3.8
+,="Instructional Specialists Who Support Teachers",="Certified",0.9
+,="Library/Media - Specialists (Certified)",="Certified",1.0
+="Clinton School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",5.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",7.9
+,="Counselors  Social Workers  and School Psychologists",="Certified",12.0
+,="General Education - Teachers and Instructors",="Certified",142.9
+,="Special Education - Teachers and Instructors",="Certified",27.0
+,="Instructional Specialists Who Support Teachers",="Certified",7.6
+,="Library/Media - Specialists (Certified)",="Certified",4.0
+="Colchester School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",9.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",15.2
+,="General Education - Teachers and Instructors",="Certified",175.8
+,="Special Education - Teachers and Instructors",="Certified",24.0
+,="Instructional Specialists Who Support Teachers",="Certified",12.0
+,="Library/Media - Specialists (Certified)",="Certified",3.0
+="Colebrook School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.2
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.2
+,="General Education - Teachers and Instructors",="Certified",7.4
+,="Special Education - Teachers and Instructors",="Certified",1.0
+,="Instructional Specialists Who Support Teachers",="Certified",1.0
+="Columbia School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",3.0
+,="General Education - Teachers and Instructors",="Certified",32.9
+,="Special Education - Teachers and Instructors",="Certified",6.0
+,="Instructional Specialists Who Support Teachers",="Certified",4.4
+,="Library/Media - Specialists (Certified)",="Certified",1.0
+="Common Ground High School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",0.8
+,="General Education - Teachers and Instructors",="Certified",15.8
+,="Special Education - Teachers and Instructors",="Certified",1.0
+="Connecticut Technical High School System",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",14.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",145.1
+,="Counselors  Social Workers  and School Psychologists",="Certified",93.8
+,="General Education - Teachers and Instructors",="Certified",916.4
+,="Special Education - Teachers and Instructors",="Certified",67.1
+,="Library/Media - Specialists (Certified)",="Certified",16.0
+="Cooperative Educational Services",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",7.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",7.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",18.7
+,="General Education - Teachers and Instructors",="Certified",40.0
+,="Special Education - Teachers and Instructors",="Certified",59.8
+,="Instructional Specialists Who Support Teachers",="Certified",15.3
+,="Library/Media - Specialists (Certified)",="Certified",1.0
+="Cornwall School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.5
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",0.5
+,="General Education - Teachers and Instructors",="Certified",15.2
+,="Special Education - Teachers and Instructors",="Certified",1.0
+,="Instructional Specialists Who Support Teachers",="Certified",0.5
+="Coventry School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",5.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",7.5
+,="Counselors  Social Workers  and School Psychologists",="Certified",12.0
+,="General Education - Teachers and Instructors",="Certified",122.1
+,="Special Education - Teachers and Instructors",="Certified",22.0
+,="Instructional Specialists Who Support Teachers",="Certified",7.4
+,="Library/Media - Specialists (Certified)",="Certified",2.0
+="Cromwell School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",5.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",7.4
+,="Counselors  Social Workers  and School Psychologists",="Certified",10.0
+,="General Education - Teachers and Instructors",="Certified",128.0
+,="Special Education - Teachers and Instructors",="Certified",24.0
+,="Instructional Specialists Who Support Teachers",="Certified",8.0
+,="Library/Media - Specialists (Certified)",="Certified",4.0
+="Danbury School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",6.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",48.4
+,="Counselors  Social Workers  and School Psychologists",="Certified",56.3
+,="General Education - Teachers and Instructors",="Certified",645.8
+,="Special Education - Teachers and Instructors",="Certified",98.6
+,="Instructional Specialists Who Support Teachers",="Certified",48.3
+,="Library/Media - Specialists (Certified)",="Certified",21.0
+="Darien School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",5.7
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",21.4
+,="Counselors  Social Workers  and School Psychologists",="Certified",28.0
+,="General Education - Teachers and Instructors",="Certified",351.7
+,="Special Education - Teachers and Instructors",="Certified",64.1
+,="Instructional Specialists Who Support Teachers",="Certified",29.1
+,="Library/Media - Specialists (Certified)",="Certified",9.0
+="Deep River School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",1.5
+,="General Education - Teachers and Instructors",="Certified",25.2
+,="Special Education - Teachers and Instructors",="Certified",3.3
+,="Instructional Specialists Who Support Teachers",="Certified",1.0
+,="Library/Media - Specialists (Certified)",="Certified",1.0
+="Department of Mental Health and Addiction Services",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.0
+,="Special Education - Teachers and Instructors",="Certified",1.0
+="Department of Rehabilitation Services",="Special Education - Teachers and Instructors",="Certified",1.0
+="Derby School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",6.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",9.0
+,="General Education - Teachers and Instructors",="Certified",93.3
+,="Special Education - Teachers and Instructors",="Certified",15.6
+,="Instructional Specialists Who Support Teachers",="Certified",3.0
+,="Library/Media - Specialists (Certified)",="Certified",1.0
+="East Granby School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",6.2
+,="Counselors  Social Workers  and School Psychologists",="Certified",4.0
+,="General Education - Teachers and Instructors",="Certified",62.4
+,="Special Education - Teachers and Instructors",="Certified",10.1
+,="Instructional Specialists Who Support Teachers",="Certified",1.4
+,="Library/Media - Specialists (Certified)",="Certified",4.0
+="East Haddam School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",2.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",5.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",7.0
+,="General Education - Teachers and Instructors",="Certified",83.0
+,="Special Education - Teachers and Instructors",="Certified",12.0
+,="Instructional Specialists Who Support Teachers",="Certified",4.0
+,="Library/Media - Specialists (Certified)",="Certified",3.0
+="East Hampton School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",2.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",7.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",10.8
+,="General Education - Teachers and Instructors",="Certified",120.2
+,="Special Education - Teachers and Instructors",="Certified",23.8
+,="Instructional Specialists Who Support Teachers",="Certified",4.4
+,="Library/Media - Specialists (Certified)",="Certified",3.0
+="East Hartford School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",19.3
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",26.5
+,="Counselors  Social Workers  and School Psychologists",="Certified",43.0
+,="General Education - Teachers and Instructors",="Certified",443.1
+,="Special Education - Teachers and Instructors",="Certified",80.0
+,="Instructional Specialists Who Support Teachers",="Certified",49.4
+,="Library/Media - Specialists (Certified)",="Certified",4.0
+="East Haven School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",5.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",16.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",22.9
+,="General Education - Teachers and Instructors",="Certified",201.0
+,="Special Education - Teachers and Instructors",="Certified",34.0
+,="Instructional Specialists Who Support Teachers",="Certified",15.8
+,="Library/Media - Specialists (Certified)",="Certified",3.0
+="East Lyme School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",6.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",9.5
+,="Counselors  Social Workers  and School Psychologists",="Certified",15.5
+,="General Education - Teachers and Instructors",="Certified",208.2
+,="Special Education - Teachers and Instructors",="Certified",39.0
+,="Instructional Specialists Who Support Teachers",="Certified",4.0
+,="Library/Media - Specialists (Certified)",="Certified",5.0
+="East Windsor School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",6.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",10.0
+,="General Education - Teachers and Instructors",="Certified",90.0
+,="Special Education - Teachers and Instructors",="Certified",17.0
+,="Instructional Specialists Who Support Teachers",="Certified",5.0
+,="Library/Media - Specialists (Certified)",="Certified",2.0
+="Eastern Connecticut Regional Educational Service Center (EASTCONN)",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",5.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",9.8
+,="Counselors  Social Workers  and School Psychologists",="Certified",14.3
+,="General Education - Teachers and Instructors",="Certified",28.1
+,="Special Education - Teachers and Instructors",="Certified",20.0
+,="Instructional Specialists Who Support Teachers",="Certified",3.7
+,="Library/Media - Specialists (Certified)",="Certified",1.0
+="Eastford School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.5
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+,="General Education - Teachers and Instructors",="Certified",13.3
+,="Special Education - Teachers and Instructors",="Certified",2.0
+,="Library/Media - Specialists (Certified)",="Certified",0.2
+="Easton School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",4.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",6.5
+,="General Education - Teachers and Instructors",="Certified",65.8
+,="Special Education - Teachers and Instructors",="Certified",13.0
+,="Instructional Specialists Who Support Teachers",="Certified",6.6
+,="Library/Media - Specialists (Certified)",="Certified",2.0
+="EdAdvance",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.6
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.4
+,="Counselors  Social Workers  and School Psychologists",="Certified",1.0
+,="General Education - Teachers and Instructors",="Certified",4.0
+,="Special Education - Teachers and Instructors",="Certified",7.5
+="Ellington School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",7.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",9.6
+,="Counselors  Social Workers  and School Psychologists",="Certified",14.0
+,="General Education - Teachers and Instructors",="Certified",166.7
+,="Special Education - Teachers and Instructors",="Certified",24.7
+,="Instructional Specialists Who Support Teachers",="Certified",12.2
+,="Library/Media - Specialists (Certified)",="Certified",3.6
+="Elm City College Preparatory School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",9.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",2.0
+,="General Education - Teachers and Instructors",="Certified",38.0
+,="Special Education - Teachers and Instructors",="Certified",1.0
+="Enfield School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",8.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",27.8
+,="Counselors  Social Workers  and School Psychologists",="Certified",29.6
+,="General Education - Teachers and Instructors",="Certified",356.7
+,="Special Education - Teachers and Instructors",="Certified",53.2
+,="Instructional Specialists Who Support Teachers",="Certified",15.1
+,="Library/Media - Specialists (Certified)",="Certified",2.0
+="Essex School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.2
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",2.0
+,="General Education - Teachers and Instructors",="Certified",33.6
+,="Special Education - Teachers and Instructors",="Certified",9.0
+,="Instructional Specialists Who Support Teachers",="Certified",5.1
+,="Library/Media - Specialists (Certified)",="Certified",1.0
+="Explorations District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+,="General Education - Teachers and Instructors",="Certified",7.8
+,="Special Education - Teachers and Instructors",="Certified",2.0
+="Fairfield School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",14.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",40.8
+,="Counselors  Social Workers  and School Psychologists",="Certified",61.7
+,="General Education - Teachers and Instructors",="Certified",686.9
+,="Special Education - Teachers and Instructors",="Certified",103.0
+,="Instructional Specialists Who Support Teachers",="Certified",69.4
+,="Library/Media - Specialists (Certified)",="Certified",19.0
+="Farmington School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",6.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",18.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",21.3
+,="General Education - Teachers and Instructors",="Certified",272.3
+,="Special Education - Teachers and Instructors",="Certified",37.6
+,="Instructional Specialists Who Support Teachers",="Certified",19.9
+,="Library/Media - Specialists (Certified)",="Certified",6.4
+="Franklin School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.2
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",0.6
+,="Counselors  Social Workers  and School Psychologists",="Certified",0.6
+,="General Education - Teachers and Instructors",="Certified",12.0
+,="Special Education - Teachers and Instructors",="Certified",1.6
+,="Instructional Specialists Who Support Teachers",="Certified",0.8
+="Glastonbury School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",13.6
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",25.5
+,="Counselors  Social Workers  and School Psychologists",="Certified",29.0
+,="General Education - Teachers and Instructors",="Certified",399.3
+,="Special Education - Teachers and Instructors",="Certified",46.5
+,="Instructional Specialists Who Support Teachers",="Certified",12.8
+,="Library/Media - Specialists (Certified)",="Certified",10.0
+="Granby School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",5.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",8.1
+,="Counselors  Social Workers  and School Psychologists",="Certified",13.0
+,="General Education - Teachers and Instructors",="Certified",129.6
+,="Special Education - Teachers and Instructors",="Certified",21.0
+,="Instructional Specialists Who Support Teachers",="Certified",10.7
+,="Library/Media - Specialists (Certified)",="Certified",4.0
+="Great Oaks Charter School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+,="General Education - Teachers and Instructors",="Certified",4.0
+,="Special Education - Teachers and Instructors",="Certified",1.0
+="Greenwich School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",15.3
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",45.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",65.2
+,="General Education - Teachers and Instructors",="Certified",649.9
+,="Special Education - Teachers and Instructors",="Certified",96.5
+,="Instructional Specialists Who Support Teachers",="Certified",47.9
+,="Library/Media - Specialists (Certified)",="Certified",19.4
+="Griswold School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",6.2
+,="Counselors  Social Workers  and School Psychologists",="Certified",12.0
+,="General Education - Teachers and Instructors",="Certified",119.7
+,="Special Education - Teachers and Instructors",="Certified",27.3
+,="Instructional Specialists Who Support Teachers",="Certified",8.5
+,="Library/Media - Specialists (Certified)",="Certified",3.0
+="Groton School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",9.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",21.2
+,="Counselors  Social Workers  and School Psychologists",="Certified",27.4
+,="General Education - Teachers and Instructors",="Certified",331.1
+,="Special Education - Teachers and Instructors",="Certified",52.3
+,="Instructional Specialists Who Support Teachers",="Certified",12.0
+,="Library/Media - Specialists (Certified)",="Certified",10.0
+="Guilford School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",6.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",17.9
+,="Counselors  Social Workers  and School Psychologists",="Certified",22.4
+,="General Education - Teachers and Instructors",="Certified",239.3
+,="Special Education - Teachers and Instructors",="Certified",41.5
+,="Instructional Specialists Who Support Teachers",="Certified",15.0
+,="Library/Media - Specialists (Certified)",="Certified",7.0
+="Hamden School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",13.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",24.5
+,="Counselors  Social Workers  and School Psychologists",="Certified",46.9
+,="General Education - Teachers and Instructors",="Certified",401.1
+,="Special Education - Teachers and Instructors",="Certified",64.0
+,="Instructional Specialists Who Support Teachers",="Certified",33.9
+,="Library/Media - Specialists (Certified)",="Certified",11.0
+="Hampton School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.5
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",0.8
+,="Counselors  Social Workers  and School Psychologists",="Certified",0.9
+,="General Education - Teachers and Instructors",="Certified",11.2
+,="Special Education - Teachers and Instructors",="Certified",1.0
+,="Library/Media - Specialists (Certified)",="Certified",0.6
+="Hartford School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",28.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",135.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",118.9
+,="General Education - Teachers and Instructors",="Certified",1300.8
+,="Special Education - Teachers and Instructors",="Certified",209.9
+,="Instructional Specialists Who Support Teachers",="Certified",166.4
+,="Library/Media - Specialists (Certified)",="Certified",17.0
+="Hartland School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.4
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+,="General Education - Teachers and Instructors",="Certified",17.9
+,="Library/Media - Specialists (Certified)",="Certified",1.0
+="Hebron School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",2.5
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.5
+,="Counselors  Social Workers  and School Psychologists",="Certified",2.0
+,="General Education - Teachers and Instructors",="Certified",55.2
+,="Special Education - Teachers and Instructors",="Certified",10.5
+,="Instructional Specialists Who Support Teachers",="Certified",6.0
+,="Library/Media - Specialists (Certified)",="Certified",1.0
+="Highville Charter School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",5.3
+,="General Education - Teachers and Instructors",="Certified",23.8
+,="Instructional Specialists Who Support Teachers",="Certified",1.0
+="Integrated Day Charter School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",1.0
+,="General Education - Teachers and Instructors",="Certified",17.0
+,="Special Education - Teachers and Instructors",="Certified",2.0
+,="Instructional Specialists Who Support Teachers",="Certified",4.0
+="Interdistrict School for Arts and Comm District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",2.2
+,="General Education - Teachers and Instructors",="Certified",17.0
+,="Special Education - Teachers and Instructors",="Certified",6.0
+,="Instructional Specialists Who Support Teachers",="Certified",0.8
+="Jumoke Academy District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",4.0
+,="General Education - Teachers and Instructors",="Certified",39.0
+,="Special Education - Teachers and Instructors",="Certified",4.4
+,="Instructional Specialists Who Support Teachers",="Certified",1.0
+="Kent School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.5
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",1.0
+,="General Education - Teachers and Instructors",="Certified",26.5
+,="Special Education - Teachers and Instructors",="Certified",3.5
+,="Instructional Specialists Who Support Teachers",="Certified",1.0
+,="Library/Media - Specialists (Certified)",="Certified",1.0
+="Killingly School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",12.1
+,="Counselors  Social Workers  and School Psychologists",="Certified",16.8
+,="General Education - Teachers and Instructors",="Certified",168.6
+,="Special Education - Teachers and Instructors",="Certified",26.0
+,="Instructional Specialists Who Support Teachers",="Certified",7.1
+,="Library/Media - Specialists (Certified)",="Certified",3.0
+="Learn",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.4
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",13.4
+,="Counselors  Social Workers  and School Psychologists",="Certified",13.4
+,="General Education - Teachers and Instructors",="Certified",146.2
+,="Special Education - Teachers and Instructors",="Certified",34.7
+,="Instructional Specialists Who Support Teachers",="Certified",23.2
+,="Library/Media - Specialists (Certified)",="Certified",2.8
+="Lebanon School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",4.4
+,="Counselors  Social Workers  and School Psychologists",="Certified",6.0
+,="General Education - Teachers and Instructors",="Certified",79.6
+,="Special Education - Teachers and Instructors",="Certified",12.6
+,="Instructional Specialists Who Support Teachers",="Certified",2.2
+,="Library/Media - Specialists (Certified)",="Certified",2.0
+="Ledyard School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",12.7
+,="Counselors  Social Workers  and School Psychologists",="Certified",13.8
+,="General Education - Teachers and Instructors",="Certified",159.1
+,="Special Education - Teachers and Instructors",="Certified",25.0
+,="Instructional Specialists Who Support Teachers",="Certified",9.0
+,="Library/Media - Specialists (Certified)",="Certified",2.0
+="Lisbon School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",2.4
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",1.8
+,="General Education - Teachers and Instructors",="Certified",29.1
+,="Special Education - Teachers and Instructors",="Certified",6.3
+,="Instructional Specialists Who Support Teachers",="Certified",1.6
+,="Library/Media - Specialists (Certified)",="Certified",1.0
+="Litchfield School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",4.2
+,="Counselors  Social Workers  and School Psychologists",="Certified",6.9
+,="General Education - Teachers and Instructors",="Certified",79.2
+,="Special Education - Teachers and Instructors",="Certified",10.0
+,="Instructional Specialists Who Support Teachers",="Certified",3.0
+,="Library/Media - Specialists (Certified)",="Certified",3.0
+="Madison School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",5.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",16.8
+,="Counselors  Social Workers  and School Psychologists",="Certified",19.0
+,="General Education - Teachers and Instructors",="Certified",223.0
+,="Special Education - Teachers and Instructors",="Certified",37.2
+,="Instructional Specialists Who Support Teachers",="Certified",13.5
+,="Library/Media - Specialists (Certified)",="Certified",6.0
+="Manchester School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",11.5
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",28.6
+,="Counselors  Social Workers  and School Psychologists",="Certified",49.1
+,="General Education - Teachers and Instructors",="Certified",457.2
+,="Special Education - Teachers and Instructors",="Certified",69.0
+,="Instructional Specialists Who Support Teachers",="Certified",42.6
+,="Library/Media - Specialists (Certified)",="Certified",14.0
+="Mansfield School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.3
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",5.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",6.0
+,="General Education - Teachers and Instructors",="Certified",97.2
+,="Special Education - Teachers and Instructors",="Certified",15.5
+,="Instructional Specialists Who Support Teachers",="Certified",6.5
+,="Library/Media - Specialists (Certified)",="Certified",1.0
+="Marlborough School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.5
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",2.0
+,="General Education - Teachers and Instructors",="Certified",35.0
+,="Special Education - Teachers and Instructors",="Certified",4.0
+,="Instructional Specialists Who Support Teachers",="Certified",3.0
+,="Library/Media - Specialists (Certified)",="Certified",1.0
+="Meriden School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",15.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",32.5
+,="Counselors  Social Workers  and School Psychologists",="Certified",41.6
+,="General Education - Teachers and Instructors",="Certified",480.1
+,="Special Education - Teachers and Instructors",="Certified",88.4
+,="Instructional Specialists Who Support Teachers",="Certified",21.5
+,="Library/Media - Specialists (Certified)",="Certified",3.0
+="Middletown School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",10.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",20.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",33.0
+,="General Education - Teachers and Instructors",="Certified",306.5
+,="Special Education - Teachers and Instructors",="Certified",49.4
+,="Instructional Specialists Who Support Teachers",="Certified",21.5
+,="Library/Media - Specialists (Certified)",="Certified",4.6
+="Milford School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",14.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",28.5
+,="Counselors  Social Workers  and School Psychologists",="Certified",38.5
+,="General Education - Teachers and Instructors",="Certified",421.2
+,="Special Education - Teachers and Instructors",="Certified",89.4
+,="Instructional Specialists Who Support Teachers",="Certified",41.8
+,="Library/Media - Specialists (Certified)",="Certified",13.0
+="Monroe School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",6.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",18.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",17.6
+,="General Education - Teachers and Instructors",="Certified",204.4
+,="Special Education - Teachers and Instructors",="Certified",32.3
+,="Instructional Specialists Who Support Teachers",="Certified",12.7
+,="Library/Media - Specialists (Certified)",="Certified",5.0
+="Montville School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",13.6
+,="Counselors  Social Workers  and School Psychologists",="Certified",13.4
+,="General Education - Teachers and Instructors",="Certified",171.7
+,="Special Education - Teachers and Instructors",="Certified",31.5
+,="Instructional Specialists Who Support Teachers",="Certified",7.9
+,="Library/Media - Specialists (Certified)",="Certified",4.0
+="Naugatuck School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",16.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",31.5
+,="General Education - Teachers and Instructors",="Certified",232.5
+,="Special Education - Teachers and Instructors",="Certified",42.5
+,="Instructional Specialists Who Support Teachers",="Certified",13.5
+,="Library/Media - Specialists (Certified)",="Certified",6.0
+="New Beginnings Inc Family Academy District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",1.0
+,="General Education - Teachers and Instructors",="Certified",32.0
+,="Special Education - Teachers and Instructors",="Certified",2.0
+,="Instructional Specialists Who Support Teachers",="Certified",1.0
+,="Library/Media - Specialists (Certified)",="Certified",1.0
+="New Britain School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",8.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",32.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",56.0
+,="General Education - Teachers and Instructors",="Certified",559.9
+,="Special Education - Teachers and Instructors",="Certified",96.5
+,="Instructional Specialists Who Support Teachers",="Certified",19.0
+,="Library/Media - Specialists (Certified)",="Certified",9.0
+="New Canaan School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",8.9
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",18.3
+,="Counselors  Social Workers  and School Psychologists",="Certified",28.1
+,="General Education - Teachers and Instructors",="Certified",300.5
+,="Special Education - Teachers and Instructors",="Certified",38.2
+,="Instructional Specialists Who Support Teachers",="Certified",24.3
+,="Library/Media - Specialists (Certified)",="Certified",6.6
+="New Fairfield School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",5.2
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",13.3
+,="Counselors  Social Workers  and School Psychologists",="Certified",16.8
+,="General Education - Teachers and Instructors",="Certified",172.5
+,="Special Education - Teachers and Instructors",="Certified",24.0
+,="Instructional Specialists Who Support Teachers",="Certified",8.0
+,="Library/Media - Specialists (Certified)",="Certified",3.6
+="New Hartford School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",2.0
+,="General Education - Teachers and Instructors",="Certified",32.0
+,="Special Education - Teachers and Instructors",="Certified",5.8
+,="Instructional Specialists Who Support Teachers",="Certified",1.0
+="New Haven School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",27.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",118.4
+,="Counselors  Social Workers  and School Psychologists",="Certified",117.0
+,="General Education - Teachers and Instructors",="Certified",1381.1
+,="Special Education - Teachers and Instructors",="Certified",209.0
+,="Instructional Specialists Who Support Teachers",="Certified",127.0
+,="Library/Media - Specialists (Certified)",="Certified",33.0
+="New London School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",6.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",20.7
+,="Counselors  Social Workers  and School Psychologists",="Certified",19.0
+,="General Education - Teachers and Instructors",="Certified",189.8
+,="Special Education - Teachers and Instructors",="Certified",38.4
+,="Instructional Specialists Who Support Teachers",="Certified",11.4
+,="Library/Media - Specialists (Certified)",="Certified",0.5
+="New Milford School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",20.3
+,="Counselors  Social Workers  and School Psychologists",="Certified",21.5
+,="General Education - Teachers and Instructors",="Certified",270.5
+,="Special Education - Teachers and Instructors",="Certified",50.2
+,="Instructional Specialists Who Support Teachers",="Certified",18.0
+,="Library/Media - Specialists (Certified)",="Certified",6.0
+="Newington School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",7.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",22.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",25.0
+,="General Education - Teachers and Instructors",="Certified",273.7
+,="Special Education - Teachers and Instructors",="Certified",33.0
+,="Instructional Specialists Who Support Teachers",="Certified",19.2
+,="Library/Media - Specialists (Certified)",="Certified",8.0
+="Newtown School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",6.7
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",20.6
+,="Counselors  Social Workers  and School Psychologists",="Certified",33.7
+,="General Education - Teachers and Instructors",="Certified",320.4
+,="Special Education - Teachers and Instructors",="Certified",36.9
+,="Instructional Specialists Who Support Teachers",="Certified",18.1
+,="Library/Media - Specialists (Certified)",="Certified",8.0
+="Norfolk School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.5
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+,="General Education - Teachers and Instructors",="Certified",9.7
+,="Special Education - Teachers and Instructors",="Certified",2.0
+,="Instructional Specialists Who Support Teachers",="Certified",0.7
+,="Library/Media - Specialists (Certified)",="Certified",0.5
+="North Branford School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",5.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",8.6
+,="Counselors  Social Workers  and School Psychologists",="Certified",12.7
+,="General Education - Teachers and Instructors",="Certified",132.0
+,="Special Education - Teachers and Instructors",="Certified",23.5
+,="Instructional Specialists Who Support Teachers",="Certified",5.4
+,="Library/Media - Specialists (Certified)",="Certified",3.0
+="North Canaan School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.5
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+,="General Education - Teachers and Instructors",="Certified",27.7
+,="Special Education - Teachers and Instructors",="Certified",5.0
+,="Instructional Specialists Who Support Teachers",="Certified",1.0
+,="Library/Media - Specialists (Certified)",="Certified",1.0
+="North Haven School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",5.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",18.6
+,="Counselors  Social Workers  and School Psychologists",="Certified",20.2
+,="General Education - Teachers and Instructors",="Certified",221.8
+,="Special Education - Teachers and Instructors",="Certified",29.0
+,="Instructional Specialists Who Support Teachers",="Certified",11.6
+,="Library/Media - Specialists (Certified)",="Certified",6.0
+="North Stonington School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.8
+,="Counselors  Social Workers  and School Psychologists",="Certified",5.0
+,="General Education - Teachers and Instructors",="Certified",64.8
+,="Special Education - Teachers and Instructors",="Certified",9.0
+,="Instructional Specialists Who Support Teachers",="Certified",2.4
+,="Library/Media - Specialists (Certified)",="Certified",2.0
+="Norwalk School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",17.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",45.6
+,="Counselors  Social Workers  and School Psychologists",="Certified",56.8
+,="General Education - Teachers and Instructors",="Certified",688.6
+,="Special Education - Teachers and Instructors",="Certified",80.5
+,="Instructional Specialists Who Support Teachers",="Certified",21.0
+,="Library/Media - Specialists (Certified)",="Certified",2.0
+="Norwich Free Academy District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",13.4
+,="Counselors  Social Workers  and School Psychologists",="Certified",19.6
+,="General Education - Teachers and Instructors",="Certified",142.2
+,="Special Education - Teachers and Instructors",="Certified",21.0
+,="Instructional Specialists Who Support Teachers",="Certified",0.3
+,="Library/Media - Specialists (Certified)",="Certified",2.0
+="Norwich School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.4
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",14.6
+,="Counselors  Social Workers  and School Psychologists",="Certified",19.0
+,="General Education - Teachers and Instructors",="Certified",192.5
+,="Special Education - Teachers and Instructors",="Certified",39.8
+,="Instructional Specialists Who Support Teachers",="Certified",17.0
+,="Library/Media - Specialists (Certified)",="Certified",4.0
+="Odyssey Community School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+,="General Education - Teachers and Instructors",="Certified",27.0
+,="Special Education - Teachers and Instructors",="Certified",3.0
+="Old Saybrook School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",5.4
+,="Counselors  Social Workers  and School Psychologists",="Certified",9.7
+,="General Education - Teachers and Instructors",="Certified",112.3
+,="Special Education - Teachers and Instructors",="Certified",23.0
+,="Instructional Specialists Who Support Teachers",="Certified",5.0
+,="Library/Media - Specialists (Certified)",="Certified",3.0
+="Orange School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.5
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",4.5
+,="General Education - Teachers and Instructors",="Certified",78.9
+,="Special Education - Teachers and Instructors",="Certified",11.0
+,="Instructional Specialists Who Support Teachers",="Certified",10.8
+,="Library/Media - Specialists (Certified)",="Certified",3.0
+="Oxford School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",7.2
+,="Counselors  Social Workers  and School Psychologists",="Certified",7.8
+,="General Education - Teachers and Instructors",="Certified",119.6
+,="Special Education - Teachers and Instructors",="Certified",18.1
+,="Instructional Specialists Who Support Teachers",="Certified",4.8
+,="Library/Media - Specialists (Certified)",="Certified",3.0
+="Park City Prep Charter School District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",2.1
+,="General Education - Teachers and Instructors",="Certified",23.0
+,="Special Education - Teachers and Instructors",="Certified",1.6
+="Path Academy District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+,="General Education - Teachers and Instructors",="Certified",5.0
+,="Special Education - Teachers and Instructors",="Certified",1.0
+="Plainfield School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",5.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",9.4
+,="Counselors  Social Workers  and School Psychologists",="Certified",16.5
+,="General Education - Teachers and Instructors",="Certified",146.2
+,="Special Education - Teachers and Instructors",="Certified",32.0
+,="Instructional Specialists Who Support Teachers",="Certified",3.0
+,="Library/Media - Specialists (Certified)",="Certified",1.0
+="Plainville School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",7.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",9.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",15.4
+,="General Education - Teachers and Instructors",="Certified",165.5
+,="Special Education - Teachers and Instructors",="Certified",32.0
+,="Instructional Specialists Who Support Teachers",="Certified",13.0
+,="Library/Media - Specialists (Certified)",="Certified",5.0
+="Plymouth School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",5.3
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",5.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",10.0
+,="General Education - Teachers and Instructors",="Certified",95.3
+,="Special Education - Teachers and Instructors",="Certified",16.0
+,="Instructional Specialists Who Support Teachers",="Certified",13.2
+,="Library/Media - Specialists (Certified)",="Certified",2.0
+="Pomfret School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.6
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.6
+,="Counselors  Social Workers  and School Psychologists",="Certified",2.0
+,="General Education - Teachers and Instructors",="Certified",33.0
+,="Special Education - Teachers and Instructors",="Certified",4.0
+,="Instructional Specialists Who Support Teachers",="Certified",1.0
+,="Library/Media - Specialists (Certified)",="Certified",1.0
+="Portland School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",2.3
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",7.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",7.0
+,="General Education - Teachers and Instructors",="Certified",90.8
+,="Special Education - Teachers and Instructors",="Certified",11.0
+,="Instructional Specialists Who Support Teachers",="Certified",3.0
+,="Library/Media - Specialists (Certified)",="Certified",2.0
+="Preston School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",1.8
+,="General Education - Teachers and Instructors",="Certified",29.0
+,="Special Education - Teachers and Instructors",="Certified",5.0
+,="Instructional Specialists Who Support Teachers",="Certified",2.4
+,="Library/Media - Specialists (Certified)",="Certified",1.0
+="Putnam School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",5.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",10.0
+,="General Education - Teachers and Instructors",="Certified",82.4
+,="Special Education - Teachers and Instructors",="Certified",17.0
+,="Instructional Specialists Who Support Teachers",="Certified",5.6
+,="Library/Media - Specialists (Certified)",="Certified",3.0
+="Redding School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",4.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",6.4
+,="General Education - Teachers and Instructors",="Certified",68.9
+,="Special Education - Teachers and Instructors",="Certified",13.4
+,="Instructional Specialists Who Support Teachers",="Certified",12.6
+,="Library/Media - Specialists (Certified)",="Certified",2.0
+="Regional School District 01",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",2.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.6
+,="Counselors  Social Workers  and School Psychologists",="Certified",4.8
+,="General Education - Teachers and Instructors",="Certified",36.7
+,="Special Education - Teachers and Instructors",="Certified",4.8
+,="Instructional Specialists Who Support Teachers",="Certified",0.2
+,="Library/Media - Specialists (Certified)",="Certified",1.0
+="Regional School District 04",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.9
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",4.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",8.0
+,="General Education - Teachers and Instructors",="Certified",69.8
+,="Special Education - Teachers and Instructors",="Certified",11.0
+,="Instructional Specialists Who Support Teachers",="Certified",1.4
+,="Library/Media - Specialists (Certified)",="Certified",2.0
+="Regional School District 05",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",5.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",13.2
+,="Counselors  Social Workers  and School Psychologists",="Certified",18.0
+,="General Education - Teachers and Instructors",="Certified",175.2
+,="Special Education - Teachers and Instructors",="Certified",17.5
+,="Instructional Specialists Who Support Teachers",="Certified",4.2
+,="Library/Media - Specialists (Certified)",="Certified",4.0
+="Regional School District 06",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",2.6
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",4.8
+,="Counselors  Social Workers  and School Psychologists",="Certified",6.0
+,="General Education - Teachers and Instructors",="Certified",69.8
+,="Special Education - Teachers and Instructors",="Certified",10.7
+,="Instructional Specialists Who Support Teachers",="Certified",7.6
+,="Library/Media - Specialists (Certified)",="Certified",0.6
+="Regional School District 07",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",5.8
+,="Counselors  Social Workers  and School Psychologists",="Certified",4.8
+,="General Education - Teachers and Instructors",="Certified",77.0
+,="Special Education - Teachers and Instructors",="Certified",11.4
+,="Library/Media - Specialists (Certified)",="Certified",1.0
+="Regional School District 08",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",9.4
+,="Counselors  Social Workers  and School Psychologists",="Certified",11.6
+,="General Education - Teachers and Instructors",="Certified",126.0
+,="Special Education - Teachers and Instructors",="Certified",24.4
+,="Instructional Specialists Who Support Teachers",="Certified",1.2
+,="Library/Media - Specialists (Certified)",="Certified",2.0
+="Regional School District 09",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",2.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",9.1
+,="Counselors  Social Workers  and School Psychologists",="Certified",8.5
+,="General Education - Teachers and Instructors",="Certified",67.8
+,="Special Education - Teachers and Instructors",="Certified",7.4
+,="Instructional Specialists Who Support Teachers",="Certified",4.1
+,="Library/Media - Specialists (Certified)",="Certified",1.0
+="Regional School District 10",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",16.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",12.5
+,="General Education - Teachers and Instructors",="Certified",169.7
+,="Special Education - Teachers and Instructors",="Certified",22.9
+,="Instructional Specialists Who Support Teachers",="Certified",9.8
+,="Library/Media - Specialists (Certified)",="Certified",4.0
+="Regional School District 11",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.7
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.7
+,="Counselors  Social Workers  and School Psychologists",="Certified",4.0
+,="General Education - Teachers and Instructors",="Certified",24.8
+,="Special Education - Teachers and Instructors",="Certified",5.0
+,="Instructional Specialists Who Support Teachers",="Certified",1.0
+,="Library/Media - Specialists (Certified)",="Certified",1.0
+="Regional School District 12",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",5.4
+,="Counselors  Social Workers  and School Psychologists",="Certified",6.3
+,="General Education - Teachers and Instructors",="Certified",69.8
+,="Special Education - Teachers and Instructors",="Certified",14.9
+,="Instructional Specialists Who Support Teachers",="Certified",3.0
+,="Library/Media - Specialists (Certified)",="Certified",0.8
+="Regional School District 13",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",5.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",7.8
+,="Counselors  Social Workers  and School Psychologists",="Certified",12.0
+,="General Education - Teachers and Instructors",="Certified",141.1
+,="Special Education - Teachers and Instructors",="Certified",19.2
+,="Instructional Specialists Who Support Teachers",="Certified",7.6
+,="Library/Media - Specialists (Certified)",="Certified",4.0
+="Regional School District 14",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",5.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",6.4
+,="Counselors  Social Workers  and School Psychologists",="Certified",14.0
+,="General Education - Teachers and Instructors",="Certified",130.9
+,="Special Education - Teachers and Instructors",="Certified",19.8
+,="Instructional Specialists Who Support Teachers",="Certified",8.2
+,="Library/Media - Specialists (Certified)",="Certified",3.0
+="Regional School District 15",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",5.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",17.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",22.0
+,="General Education - Teachers and Instructors",="Certified",246.7
+,="Special Education - Teachers and Instructors",="Certified",40.0
+,="Instructional Specialists Who Support Teachers",="Certified",18.8
+,="Library/Media - Specialists (Certified)",="Certified",8.0
+="Regional School District 16",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.4
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",11.6
+,="Counselors  Social Workers  and School Psychologists",="Certified",16.2
+,="General Education - Teachers and Instructors",="Certified",148.4
+,="Special Education - Teachers and Instructors",="Certified",16.3
+,="Instructional Specialists Who Support Teachers",="Certified",7.0
+,="Library/Media - Specialists (Certified)",="Certified",2.0
+="Regional School District 17",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",7.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",14.0
+,="General Education - Teachers and Instructors",="Certified",165.2
+,="Special Education - Teachers and Instructors",="Certified",24.0
+,="Instructional Specialists Who Support Teachers",="Certified",7.0
+,="Library/Media - Specialists (Certified)",="Certified",4.0
+="Regional School District 18",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",7.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",8.6
+,="General Education - Teachers and Instructors",="Certified",101.7
+,="Special Education - Teachers and Instructors",="Certified",21.0
+,="Instructional Specialists Who Support Teachers",="Certified",8.0
+,="Library/Media - Specialists (Certified)",="Certified",4.0
+="Regional School District 19",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",6.8
+,="Counselors  Social Workers  and School Psychologists",="Certified",9.8
+,="General Education - Teachers and Instructors",="Certified",93.2
+,="Special Education - Teachers and Instructors",="Certified",14.8
+,="Instructional Specialists Who Support Teachers",="Certified",1.0
+,="Library/Media - Specialists (Certified)",="Certified",1.0
+="Ridgefield School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",6.8
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",20.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",29.6
+,="General Education - Teachers and Instructors",="Certified",342.3
+,="Special Education - Teachers and Instructors",="Certified",44.6
+,="Instructional Specialists Who Support Teachers",="Certified",9.3
+,="Library/Media - Specialists (Certified)",="Certified",9.0
+="Rocky Hill School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",7.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",7.2
+,="Counselors  Social Workers  and School Psychologists",="Certified",11.9
+,="General Education - Teachers and Instructors",="Certified",173.1
+,="Special Education - Teachers and Instructors",="Certified",23.5
+,="Instructional Specialists Who Support Teachers",="Certified",9.6
+,="Library/Media - Specialists (Certified)",="Certified",4.0
+="Salem School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.1
+,="Counselors  Social Workers  and School Psychologists",="Certified",2.0
+,="General Education - Teachers and Instructors",="Certified",25.0
+,="Special Education - Teachers and Instructors",="Certified",5.0
+,="Instructional Specialists Who Support Teachers",="Certified",2.0
+,="Library/Media - Specialists (Certified)",="Certified",0.6
+="Salisbury School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.5
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",2.0
+,="General Education - Teachers and Instructors",="Certified",31.2
+,="Special Education - Teachers and Instructors",="Certified",2.0
+,="Instructional Specialists Who Support Teachers",="Certified",0.8
+,="Library/Media - Specialists (Certified)",="Certified",1.0
+="Scotland School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.4
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",1.0
+,="General Education - Teachers and Instructors",="Certified",12.1
+,="Special Education - Teachers and Instructors",="Certified",2.0
+,="Instructional Specialists Who Support Teachers",="Certified",1.0
+="Seymour School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",10.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",15.0
+,="General Education - Teachers and Instructors",="Certified",147.0
+,="Special Education - Teachers and Instructors",="Certified",19.5
+,="Instructional Specialists Who Support Teachers",="Certified",7.0
+,="Library/Media - Specialists (Certified)",="Certified",3.0
+="Shared Services",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.3
+,="Counselors  Social Workers  and School Psychologists",="Certified",6.5
+,="General Education - Teachers and Instructors",="Certified",0.2
+,="Special Education - Teachers and Instructors",="Certified",7.0
+,="Instructional Specialists Who Support Teachers",="Certified",2.6
+="Sharon School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.5
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",2.0
+,="General Education - Teachers and Instructors",="Certified",21.0
+,="Special Education - Teachers and Instructors",="Certified",3.5
+,="Instructional Specialists Who Support Teachers",="Certified",1.0
+,="Library/Media - Specialists (Certified)",="Certified",1.0
+="Shelton School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",7.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",22.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",23.6
+,="General Education - Teachers and Instructors",="Certified",300.0
+,="Special Education - Teachers and Instructors",="Certified",48.2
+,="Instructional Specialists Who Support Teachers",="Certified",14.1
+,="Library/Media - Specialists (Certified)",="Certified",6.1
+="Sherman School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",2.6
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",0.5
+,="Counselors  Social Workers  and School Psychologists",="Certified",1.6
+,="General Education - Teachers and Instructors",="Certified",29.0
+,="Special Education - Teachers and Instructors",="Certified",5.9
+,="Instructional Specialists Who Support Teachers",="Certified",1.0
+,="Library/Media - Specialists (Certified)",="Certified",0.5
+="Side By Side Charter School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",1.0
+,="General Education - Teachers and Instructors",="Certified",12.5
+,="Special Education - Teachers and Instructors",="Certified",1.0
+="Simsbury School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",6.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",23.4
+,="Counselors  Social Workers  and School Psychologists",="Certified",24.3
+,="General Education - Teachers and Instructors",="Certified",274.7
+,="Special Education - Teachers and Instructors",="Certified",40.0
+,="Instructional Specialists Who Support Teachers",="Certified",19.0
+,="Library/Media - Specialists (Certified)",="Certified",7.8
+="Somers School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",6.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",9.0
+,="General Education - Teachers and Instructors",="Certified",105.5
+,="Special Education - Teachers and Instructors",="Certified",16.5
+,="Instructional Specialists Who Support Teachers",="Certified",3.5
+,="Library/Media - Specialists (Certified)",="Certified",3.3
+="South Windsor School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",8.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",21.1
+,="Counselors  Social Workers  and School Psychologists",="Certified",22.6
+,="General Education - Teachers and Instructors",="Certified",297.0
+,="Special Education - Teachers and Instructors",="Certified",46.5
+,="Instructional Specialists Who Support Teachers",="Certified",13.8
+,="Library/Media - Specialists (Certified)",="Certified",2.0
+="Southington School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",13.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",23.8
+,="Counselors  Social Workers  and School Psychologists",="Certified",40.9
+,="General Education - Teachers and Instructors",="Certified",428.4
+,="Special Education - Teachers and Instructors",="Certified",66.8
+,="Instructional Specialists Who Support Teachers",="Certified",15.5
+,="Library/Media - Specialists (Certified)",="Certified",6.6
+="Sprague School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",2.0
+,="General Education - Teachers and Instructors",="Certified",25.8
+,="Special Education - Teachers and Instructors",="Certified",4.0
+="Stafford School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",7.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",12.0
+,="General Education - Teachers and Instructors",="Certified",115.2
+,="Special Education - Teachers and Instructors",="Certified",20.0
+,="Instructional Specialists Who Support Teachers",="Certified",7.0
+,="Library/Media - Specialists (Certified)",="Certified",2.0
+="Stamford Academy District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.5
+,="General Education - Teachers and Instructors",="Certified",12.5
+,="Special Education - Teachers and Instructors",="Certified",1.0
+,="Instructional Specialists Who Support Teachers",="Certified",1.0
+="Stamford School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",15.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",64.5
+,="Counselors  Social Workers  and School Psychologists",="Certified",100.6
+,="General Education - Teachers and Instructors",="Certified",1115.2
+,="Special Education - Teachers and Instructors",="Certified",137.5
+,="Instructional Specialists Who Support Teachers",="Certified",43.0
+,="Library/Media - Specialists (Certified)",="Certified",22.0
+="Sterling School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.8
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",1.0
+,="General Education - Teachers and Instructors",="Certified",29.8
+,="Special Education - Teachers and Instructors",="Certified",6.0
+,="Instructional Specialists Who Support Teachers",="Certified",1.8
+,="Library/Media - Specialists (Certified)",="Certified",1.0
+="Stonington School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",10.3
+,="Counselors  Social Workers  and School Psychologists",="Certified",16.6
+,="General Education - Teachers and Instructors",="Certified",149.9
+,="Special Education - Teachers and Instructors",="Certified",31.8
+,="Instructional Specialists Who Support Teachers",="Certified",5.6
+,="Library/Media - Specialists (Certified)",="Certified",4.0
+="Stratford School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",13.6
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",31.5
+,="Counselors  Social Workers  and School Psychologists",="Certified",41.3
+,="General Education - Teachers and Instructors",="Certified",437.5
+,="Special Education - Teachers and Instructors",="Certified",60.0
+,="Instructional Specialists Who Support Teachers",="Certified",13.0
+,="Library/Media - Specialists (Certified)",="Certified",12.0
+="Suffield School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",11.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",11.0
+,="General Education - Teachers and Instructors",="Certified",162.4
+,="Special Education - Teachers and Instructors",="Certified",20.5
+,="Instructional Specialists Who Support Teachers",="Certified",8.0
+,="Library/Media - Specialists (Certified)",="Certified",4.0
+="The Bridge Academy District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.5
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",0.8
+,="Counselors  Social Workers  and School Psychologists",="Certified",1.8
+,="General Education - Teachers and Instructors",="Certified",15.7
+,="Instructional Specialists Who Support Teachers",="Certified",1.5
+="The Gilbert School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",4.4
+,="Counselors  Social Workers  and School Psychologists",="Certified",3.8
+,="General Education - Teachers and Instructors",="Certified",46.8
+,="Library/Media - Specialists (Certified)",="Certified",1.0
+="Thomaston School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.4
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",4.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",7.0
+,="General Education - Teachers and Instructors",="Certified",61.8
+,="Special Education - Teachers and Instructors",="Certified",11.0
+,="Instructional Specialists Who Support Teachers",="Certified",1.0
+,="Library/Media - Specialists (Certified)",="Certified",2.0
+="Thompson School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",4.6
+,="Counselors  Social Workers  and School Psychologists",="Certified",6.0
+,="General Education - Teachers and Instructors",="Certified",76.6
+,="Special Education - Teachers and Instructors",="Certified",8.2
+,="Instructional Specialists Who Support Teachers",="Certified",2.0
+,="Library/Media - Specialists (Certified)",="Certified",0.9
+="Tolland School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",5.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",9.9
+,="Counselors  Social Workers  and School Psychologists",="Certified",11.0
+,="General Education - Teachers and Instructors",="Certified",169.5
+,="Special Education - Teachers and Instructors",="Certified",26.3
+,="Instructional Specialists Who Support Teachers",="Certified",5.0
+,="Library/Media - Specialists (Certified)",="Certified",4.0
+="Torrington School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",5.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",17.4
+,="Counselors  Social Workers  and School Psychologists",="Certified",26.0
+,="General Education - Teachers and Instructors",="Certified",285.4
+,="Special Education - Teachers and Instructors",="Certified",48.4
+,="Instructional Specialists Who Support Teachers",="Certified",15.0
+,="Library/Media - Specialists (Certified)",="Certified",5.0
+="Trailblazers Academy District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.5
+,="General Education - Teachers and Instructors",="Certified",13.0
+,="Special Education - Teachers and Instructors",="Certified",1.0
+,="Instructional Specialists Who Support Teachers",="Certified",1.5
+="Trumbull School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",9.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",24.7
+,="Counselors  Social Workers  and School Psychologists",="Certified",47.7
+,="General Education - Teachers and Instructors",="Certified",406.3
+,="Special Education - Teachers and Instructors",="Certified",69.3
+,="Instructional Specialists Who Support Teachers",="Certified",31.5
+,="Library/Media - Specialists (Certified)",="Certified",10.0
+="Unified School District #1",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",12.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",18.0
+,="General Education - Teachers and Instructors",="Certified",106.0
+,="Special Education - Teachers and Instructors",="Certified",25.0
+,="Library/Media - Specialists (Certified)",="Certified",4.0
+="Unified School District #2",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",7.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",17.0
+,="General Education - Teachers and Instructors",="Certified",31.0
+,="Special Education - Teachers and Instructors",="Certified",35.0
+,="Instructional Specialists Who Support Teachers",="Certified",2.0
+,="Library/Media - Specialists (Certified)",="Certified",1.0
+="Union School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.2
+,="General Education - Teachers and Instructors",="Certified",7.3
+,="Special Education - Teachers and Instructors",="Certified",1.4
+="Vernon School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",7.5
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",18.9
+,="Counselors  Social Workers  and School Psychologists",="Certified",24.6
+,="General Education - Teachers and Instructors",="Certified",242.6
+,="Special Education - Teachers and Instructors",="Certified",47.5
+,="Instructional Specialists Who Support Teachers",="Certified",15.1
+,="Library/Media - Specialists (Certified)",="Certified",0.8
+="Voluntown School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",0.4
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",1.6
+,="General Education - Teachers and Instructors",="Certified",25.0
+,="Special Education - Teachers and Instructors",="Certified",4.0
+,="Instructional Specialists Who Support Teachers",="Certified",1.8
+="Wallingford School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",10.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",23.2
+,="Counselors  Social Workers  and School Psychologists",="Certified",44.2
+,="General Education - Teachers and Instructors",="Certified",430.5
+,="Special Education - Teachers and Instructors",="Certified",52.3
+,="Instructional Specialists Who Support Teachers",="Certified",23.7
+,="Library/Media - Specialists (Certified)",="Certified",12.0
+="Waterbury School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",25.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",80.8
+,="Counselors  Social Workers  and School Psychologists",="Certified",104.6
+,="General Education - Teachers and Instructors",="Certified",1163.2
+,="Special Education - Teachers and Instructors",="Certified",218.8
+,="Instructional Specialists Who Support Teachers",="Certified",71.9
+,="Library/Media - Specialists (Certified)",="Certified",22.0
+="Waterford School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.5
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",11.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",17.4
+,="General Education - Teachers and Instructors",="Certified",178.3
+,="Special Education - Teachers and Instructors",="Certified",28.8
+,="Instructional Specialists Who Support Teachers",="Certified",13.6
+,="Library/Media - Specialists (Certified)",="Certified",1.0
+="Watertown School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",5.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",8.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",14.8
+,="General Education - Teachers and Instructors",="Certified",161.6
+,="Special Education - Teachers and Instructors",="Certified",27.3
+,="Instructional Specialists Who Support Teachers",="Certified",5.5
+,="Library/Media - Specialists (Certified)",="Certified",2.0
+="West Hartford School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",15.3
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",40.6
+,="Counselors  Social Workers  and School Psychologists",="Certified",60.5
+,="General Education - Teachers and Instructors",="Certified",669.5
+,="Special Education - Teachers and Instructors",="Certified",90.0
+,="Instructional Specialists Who Support Teachers",="Certified",39.4
+,="Library/Media - Specialists (Certified)",="Certified",17.0
+="West Haven School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",10.5
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",24.3
+,="Counselors  Social Workers  and School Psychologists",="Certified",34.5
+,="General Education - Teachers and Instructors",="Certified",382.2
+,="Special Education - Teachers and Instructors",="Certified",75.0
+,="Instructional Specialists Who Support Teachers",="Certified",32.4
+,="Library/Media - Specialists (Certified)",="Certified",6.0
+="Westbrook School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",3.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.6
+,="Counselors  Social Workers  and School Psychologists",="Certified",6.8
+,="General Education - Teachers and Instructors",="Certified",81.8
+,="Special Education - Teachers and Instructors",="Certified",13.9
+,="Instructional Specialists Who Support Teachers",="Certified",2.0
+,="Library/Media - Specialists (Certified)",="Certified",2.8
+="Weston School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",5.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",10.2
+,="Counselors  Social Workers  and School Psychologists",="Certified",17.0
+,="General Education - Teachers and Instructors",="Certified",159.7
+,="Special Education - Teachers and Instructors",="Certified",23.4
+,="Instructional Specialists Who Support Teachers",="Certified",13.2
+,="Library/Media - Specialists (Certified)",="Certified",4.0
+="Westport School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",8.9
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",34.6
+,="Counselors  Social Workers  and School Psychologists",="Certified",34.6
+,="General Education - Teachers and Instructors",="Certified",431.0
+,="Special Education - Teachers and Instructors",="Certified",46.0
+,="Instructional Specialists Who Support Teachers",="Certified",12.6
+,="Library/Media - Specialists (Certified)",="Certified",11.0
+="Wethersfield School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",7.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",11.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",21.0
+,="General Education - Teachers and Instructors",="Certified",236.0
+,="Special Education - Teachers and Instructors",="Certified",27.0
+,="Instructional Specialists Who Support Teachers",="Certified",12.0
+,="Library/Media - Specialists (Certified)",="Certified",2.0
+="Willington School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",2.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",2.0
+,="General Education - Teachers and Instructors",="Certified",38.6
+,="Special Education - Teachers and Instructors",="Certified",5.0
+,="Instructional Specialists Who Support Teachers",="Certified",3.0
+,="Library/Media - Specialists (Certified)",="Certified",1.0
+="Wilton School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",6.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",17.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",27.8
+,="General Education - Teachers and Instructors",="Certified",286.7
+,="Special Education - Teachers and Instructors",="Certified",36.0
+,="Instructional Specialists Who Support Teachers",="Certified",14.4
+,="Library/Media - Specialists (Certified)",="Certified",4.8
+="Winchester School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",1.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",4.5
+,="General Education - Teachers and Instructors",="Certified",38.0
+,="Special Education - Teachers and Instructors",="Certified",17.0
+,="Instructional Specialists Who Support Teachers",="Certified",4.0
+,="Library/Media - Specialists (Certified)",="Certified",1.0
+="Windham School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",8.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",21.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",18.4
+,="General Education - Teachers and Instructors",="Certified",238.7
+,="Special Education - Teachers and Instructors",="Certified",38.6
+,="Instructional Specialists Who Support Teachers",="Certified",23.0
+,="Library/Media - Specialists (Certified)",="Certified",2.0
+="Windsor Locks School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",4.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",6.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",15.0
+,="General Education - Teachers and Instructors",="Certified",131.4
+,="Special Education - Teachers and Instructors",="Certified",20.0
+,="Instructional Specialists Who Support Teachers",="Certified",2.7
+,="Library/Media - Specialists (Certified)",="Certified",3.0
+="Windsor School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",13.5
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",16.6
+,="Counselors  Social Workers  and School Psychologists",="Certified",27.3
+,="General Education - Teachers and Instructors",="Certified",262.9
+,="Special Education - Teachers and Instructors",="Certified",48.0
+,="Instructional Specialists Who Support Teachers",="Certified",23.4
+,="Library/Media - Specialists (Certified)",="Certified",8.0
+="Wolcott School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",5.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",10.2
+,="Counselors  Social Workers  and School Psychologists",="Certified",15.8
+,="General Education - Teachers and Instructors",="Certified",174.2
+,="Special Education - Teachers and Instructors",="Certified",23.0
+,="Instructional Specialists Who Support Teachers",="Certified",4.0
+,="Library/Media - Specialists (Certified)",="Certified",1.0
+="Woodbridge School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",5.0
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+,="Counselors  Social Workers  and School Psychologists",="Certified",2.5
+,="General Education - Teachers and Instructors",="Certified",61.0
+,="Special Education - Teachers and Instructors",="Certified",8.0
+,="Instructional Specialists Who Support Teachers",="Certified",2.0
+,="Library/Media - Specialists (Certified)",="Certified",1.0
+="Woodstock Academy District",="Administrators  Coordinators and Department Chairs - School Level",="Certified",10.6
+,="Counselors  Social Workers  and School Psychologists",="Certified",8.4
+,="General Education - Teachers and Instructors",="Certified",72.0
+,="Special Education - Teachers and Instructors",="Certified",5.0
+,="Library/Media - Specialists (Certified)",="Certified",1.0
+="Woodstock School District",="Administrators  Coordinators and Department Chairs - District Central Office",="Certified",2.6
+,="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.5
+,="Counselors  Social Workers  and School Psychologists",="Certified",3.4
+,="General Education - Teachers and Instructors",="Certified",56.0
+,="Special Education - Teachers and Instructors",="Certified",6.0
+,="Instructional Specialists Who Support Teachers",="Certified",2.5
+,="Library/Media - Specialists (Certified)",="Certified",1.0
 

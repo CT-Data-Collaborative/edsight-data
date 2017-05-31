@@ -202,7 +202,7 @@
 ,="Joseph O. Goodwin School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.0
 ,="Robert J. O'Brien School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.0
 ,="Silver Lane School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.0
-,="Sunset Ridge School Elementary Academy for Arts and World Languages",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.0
+,="Sunset Ridge Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.0
 ="East Haven School District",="Carbone School/East Haven Academy",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",3.9
 ,="D. C. Moore School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.0
 ,="Deer Run School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",4.5
@@ -328,9 +328,10 @@
 ,="Spring Glen School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
 ,="West Woods School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.0
 ="Hampton School District",="Hampton Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.4
-="Hartford School District",="Asian Studies Academy",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",14.0
+="Hartford School District",="Asian Studies Academy at Bellizzi School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",14.0
 ,="Barnard-Brown School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.0
 ,="Batchelder School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",3.0
+,="Betances Early Reading Lab Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",311.0
 ,="Breakthrough Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.0
 ,="Bulkeley High School Lower School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",53.0
 ,="Burns Latino Studies Academy",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",18.0
@@ -338,7 +339,6 @@
 ,="Clark School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",16.0
 ,="Classical Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",35.0
 ,="Dr. Joseph Bellizzi Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",18.0
-,="Dr. Ramon E. Betances Early Reading Lab",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",311.0
 ,="Environmental Sciences Magnet at Hooker School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.0
 ,="Expeditionary Learning Academy at Moylan School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",17.0
 ,="Fox Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",31.0
@@ -346,6 +346,7 @@
 ,="Hartford Public High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",44.0
 ,="Hartford Transitional Learning Academy (Elementary)",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",1.0
 ,="Kennelly School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.0
+,="Kinsella Magnet School of Performing Arts",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",211.0
 ,="M. D. Fox School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",15.0
 ,="M. L. King, Jr. School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",16.0
 ,="McDonough Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.0
@@ -353,7 +354,6 @@
 ,="Naylor/CCSU Leadership Academy",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.0
 ,="Parkville Community School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.0
 ,="Quirk Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",33.0
-,="R.J. Kinsella Magnet School of Performing Arts",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",211.0
 ,="Rawson School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.0
 ,="SAND School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.0
 ,="STEM Magnet at Fisher School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",15.0
@@ -409,7 +409,7 @@
 ,="Washington School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
 ="Mansfield School District",="Annie E. Vinton School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.5
 ,="Dorothy C. Goodwin School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.5
-,="Mansfield Middle School School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",16.5
+,="Mansfield Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",16.5
 ,="Southeast Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.5
 ="Marlborough School District",="Elmer Thienes-Mary Hall Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.4
 ="Meriden School District",="Nathan Hale School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.5
@@ -504,7 +504,7 @@
 ,="Beecher School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.8
 ,="Benjamin Jepson Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.8
 ,="Betsy Ross Arts Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",22.1
-,="Bishop Woods School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.2
+,="Bishop Woods Architecture and Design Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.2
 ,="Clarence Rogers School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.0
 ,="Clinton Avenue School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.9
 ,="Columbus Family Academy",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.6
@@ -776,6 +776,7 @@
 ,="Staffordville School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",4.8
 ,="West Stafford School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",4.7
 ="Stamford School District",="Newfield School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.0
+,="CLC William Pitt",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",4.0
 ,="Cloonan School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.0
 ,="Davenport Ridge School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.0
 ,="Dolan School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.0
@@ -795,7 +796,6 @@
 ,="Turn of River School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.0
 ,="Westhill High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",32.2
 ,="Westover School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
-,="William Pitt Child Development Center",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",4.0
 ="Sterling School District",="Sterling Memorial School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
 ="Stonington School District",="Deans Mill School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.7
 ,="Mystic Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.7

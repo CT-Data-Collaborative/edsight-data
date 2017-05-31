@@ -112,6 +112,7 @@
 ,="Canton Middle School",="Counselors  Social Workers  and School Psychologists",="Certified",1.8
 ,="Cherry Brook Primary School",="Counselors  Social Workers  and School Psychologists",="Certified",1.0
 ="Capitol Region Education Council",="Academy of Aerospace and Engineering",="Counselors  Social Workers  and School Psychologists",="Certified",3.0
+,="Academy of Science and Innovation",="Counselors  Social Workers  and School Psychologists",="Certified",2.0
 ,="Discovery Academy",="Counselors  Social Workers  and School Psychologists",="Certified",1.0
 ,="Great Path Academy at MCC",="Counselors  Social Workers  and School Psychologists",="Certified",2.7
 ,="Greater Hartford Academy of Math and Science",="Counselors  Social Workers  and School Psychologists",="Certified",0.6
@@ -119,7 +120,6 @@
 ,="International Magnet School for Global Citizenship",="Counselors  Social Workers  and School Psychologists",="Certified",1.0
 ,="John J. Allison Polaris Center",="Counselors  Social Workers  and School Psychologists",="Certified",5.0
 ,="Lincoln Academy Regional Interdistrict Collaborative",="Counselors  Social Workers  and School Psychologists",="Certified",1.0
-,="Medical Professions and Teacher Preparation Academy",="Counselors  Social Workers  and School Psychologists",="Certified",2.0
 ,="Metropolitan Learning Center for Global and International Studies",="Counselors  Social Workers  and School Psychologists",="Certified",6.0
 ,="Montessori Magnet School",="Counselors  Social Workers  and School Psychologists",="Certified",1.0
 ,="Museum Academy",="Counselors  Social Workers  and School Psychologists",="Certified",1.0
@@ -167,7 +167,7 @@
 ,="Vinal Technical High School",="Counselors  Social Workers  and School Psychologists",="Certified",5.7
 ,="W. F. Kaynor Technical High School",="Counselors  Social Workers  and School Psychologists",="Certified",5.0
 ,="Windham Technical High School",="Counselors  Social Workers  and School Psychologists",="Certified",4.0
-="Cooperative Educational Services",="C. E. S. Special Education",="Counselors  Social Workers  and School Psychologists",="Certified",17.7
+="Cooperative Educational Services",="C. E. S. Special Education",="Counselors  Social Workers  and School Psychologists",="Certified",18.7
 ,="Six-Six Magnet School",="Counselors  Social Workers  and School Psychologists",="Certified",2.0
 ="Cornwall School District",="Cornwall Consolidated School",="Counselors  Social Workers  and School Psychologists",="Certified",0.9
 ="Coventry School District",="Capt. Nathan Hale School",="Counselors  Social Workers  and School Psychologists",="Certified",3.8
@@ -233,7 +233,7 @@
 ,="Robert J. O'Brien School",="Counselors  Social Workers  and School Psychologists",="Certified",1.5
 ,="Silver Lane School",="Counselors  Social Workers  and School Psychologists",="Certified",1.5
 ,="Stevens Alternate High School",="Counselors  Social Workers  and School Psychologists",="Certified",1.8
-,="Sunset Ridge School Elementary Academy for Arts and World Languages",="Counselors  Social Workers  and School Psychologists",="Certified",1.0
+,="Sunset Ridge Middle School",="Counselors  Social Workers  and School Psychologists",="Certified",1.0
 ,="Willowbrook Early Childhood",="Counselors  Social Workers  and School Psychologists",="Certified",1.0
 ,="Woodland School",="Counselors  Social Workers  and School Psychologists",="Certified",3.7
 ="East Haven School District",="Carbone School/East Haven Academy",="Counselors  Social Workers  and School Psychologists",="Certified",0.8
@@ -259,7 +259,7 @@
 ="Eastford School District",="Eastford Elementary School",="Counselors  Social Workers  and School Psychologists",="Certified",0.5
 ="Easton School District",="Helen Keller Middle School",="Counselors  Social Workers  and School Psychologists",="Certified",2.5
 ,="Samuel Staples Elementary School",="Counselors  Social Workers  and School Psychologists",="Certified",1.0
-="EdAdvance",="GFLC/ACCESS School",="Counselors  Social Workers  and School Psychologists",="Certified",1.5
+="EdAdvance",="The ACCESS School at The Danuta M. Thibodeau Education Center",="Counselors  Social Workers  and School Psychologists",="Certified",1.5
 ="Ellington School District",="Center School",="Counselors  Social Workers  and School Psychologists",="Certified",1.5
 ,="Crystal Lake School",="Counselors  Social Workers  and School Psychologists",="Certified",0.5
 ,="Ellington High School",="Counselors  Social Workers  and School Psychologists",="Certified",4.4
@@ -297,7 +297,7 @@
 ,="Stratfield School",="Counselors  Social Workers  and School Psychologists",="Certified",1.4
 ,="Tomlinson Middle School",="Counselors  Social Workers  and School Psychologists",="Certified",4.5
 ="Farmington School District",="East Farms School",="Counselors  Social Workers  and School Psychologists",="Certified",0.8
-,="Farmington High School",="Counselors  Social Workers  and School Psychologists",="Certified",9.4
+,="Farmington High School",="Counselors  Social Workers  and School Psychologists",="Certified",10.4
 ,="Irving A. Robbins Middle School",="Counselors  Social Workers  and School Psychologists",="Certified",4.0
 ,="Noah Wallace School",="Counselors  Social Workers  and School Psychologists",="Certified",0.8
 ,="Union School",="Counselors  Social Workers  and School Psychologists",="Certified",0.8
@@ -305,13 +305,13 @@
 ,="West Woods Upper Elementary School",="Counselors  Social Workers  and School Psychologists",="Certified",2.5
 ="Franklin School District",="Franklin Elementary School",="Counselors  Social Workers  and School Psychologists",="Certified",0.6
 ="Glastonbury School District",="Buttonball Lane School",="Counselors  Social Workers  and School Psychologists",="Certified",1.0
-,="Eastbury School",="Counselors  Social Workers  and School Psychologists",="Certified",0.8
+,="Eastbury School",="Counselors  Social Workers  and School Psychologists",="Certified",1.5
 ,="Gideon Welles School",="Counselors  Social Workers  and School Psychologists",="Certified",2.0
 ,="Glastonbury High School",="Counselors  Social Workers  and School Psychologists",="Certified",15.0
 ,="Hebron Avenue School",="Counselors  Social Workers  and School Psychologists",="Certified",1.0
 ,="Hopewell School",="Counselors  Social Workers  and School Psychologists",="Certified",1.0
 ,="Naubuc School",="Counselors  Social Workers  and School Psychologists",="Certified",1.0
-,="Nayaug Elementary School",="Counselors  Social Workers  and School Psychologists",="Certified",1.3
+,="Nayaug Elementary School",="Counselors  Social Workers  and School Psychologists",="Certified",1.5
 ,="Smith Middle School",="Counselors  Social Workers  and School Psychologists",="Certified",6.0
 ="Granby School District",="Frank M. Kearns Primary School",="Counselors  Social Workers  and School Psychologists",="Certified",0.3
 ,="Granby Memorial High School",="Counselors  Social Workers  and School Psychologists",="Certified",6.0
@@ -366,8 +366,9 @@
 ,="Spring Glen School",="Counselors  Social Workers  and School Psychologists",="Certified",2.0
 ,="West Woods School",="Counselors  Social Workers  and School Psychologists",="Certified",2.0
 ="Hampton School District",="Hampton Elementary School",="Counselors  Social Workers  and School Psychologists",="Certified",1.0
-="Hartford School District",="Asian Studies Academy",="Counselors  Social Workers  and School Psychologists",="Certified",1.0
+="Hartford School District",="Asian Studies Academy at Bellizzi School",="Counselors  Social Workers  and School Psychologists",="Certified",1.0
 ,="Batchelder School",="Counselors  Social Workers  and School Psychologists",="Certified",1.6
+,="Betances Early Reading Lab Magnet School",="Counselors  Social Workers  and School Psychologists",="Certified",1.0
 ,="Bulkeley High School",="Counselors  Social Workers  and School Psychologists",="Certified",3.6
 ,="Bulkeley High School Lower School",="Counselors  Social Workers  and School Psychologists",="Certified",5.0
 ,="Burns Latino Studies Academy",="Counselors  Social Workers  and School Psychologists",="Certified",1.5
@@ -377,7 +378,6 @@
 ,="Classical Magnet School",="Counselors  Social Workers  and School Psychologists",="Certified",5.0
 ,="Culinary Arts Academy at Weaver High School",="Counselors  Social Workers  and School Psychologists",="Certified",2.0
 ,="Dr. Joseph Bellizzi Middle School",="Counselors  Social Workers  and School Psychologists",="Certified",1.4
-,="Dr. Ramon E. Betances Early Reading Lab",="Counselors  Social Workers  and School Psychologists",="Certified",1.0
 ,="Environmental Sciences Magnet at Hooker School",="Counselors  Social Workers  and School Psychologists",="Certified",1.2
 ,="Expeditionary Learning Academy at Moylan School",="Counselors  Social Workers  and School Psychologists",="Certified",1.5
 ,="Global Communications Academy",="Counselors  Social Workers  and School Psychologists",="Certified",2.5
@@ -387,9 +387,10 @@
 ,="HPHS Nursing and Health Sciences Academy",="Counselors  Social Workers  and School Psychologists",="Certified",2.0
 ,="Hartford Magnet Trinity College Academy",="Counselors  Social Workers  and School Psychologists",="Certified",2.0
 ,="Hartford Transitional Learning Academy (Elementary)",="Counselors  Social Workers  and School Psychologists",="Certified",1.8
-,="High School Inc.",="Counselors  Social Workers  and School Psychologists",="Certified",1.7
+,="High School, Inc.",="Counselors  Social Workers  and School Psychologists",="Certified",1.7
 ,="Journalism and Media Academy Magnet School",="Counselors  Social Workers  and School Psychologists",="Certified",2.0
 ,="Kennelly School",="Counselors  Social Workers  and School Psychologists",="Certified",1.0
+,="Kinsella Magnet School of Performing Arts",="Counselors  Social Workers  and School Psychologists",="Certified",3.0
 ,="M. D. Fox School",="Counselors  Social Workers  and School Psychologists",="Certified",3.2
 ,="M. L. King, Jr. School",="Counselors  Social Workers  and School Psychologists",="Certified",2.1
 ,="McDonough Middle School",="Counselors  Social Workers  and School Psychologists",="Certified",2.4
@@ -398,7 +399,6 @@
 ,="OPPortunity High School",="Counselors  Social Workers  and School Psychologists",="Certified",1.7
 ,="Parkville Community School",="Counselors  Social Workers  and School Psychologists",="Certified",2.0
 ,="Pathways Academy of Technology and Design",="Counselors  Social Workers  and School Psychologists",="Certified",2.2
-,="R.J. Kinsella Magnet School of Performing Arts",="Counselors  Social Workers  and School Psychologists",="Certified",2.0
 ,="Rawson School",="Counselors  Social Workers  and School Psychologists",="Certified",0.5
 ,="SAND School",="Counselors  Social Workers  and School Psychologists",="Certified",1.5
 ,="STEM Magnet at Fisher School",="Counselors  Social Workers  and School Psychologists",="Certified",1.5
@@ -406,7 +406,7 @@
 ,="Sarah J Rawson Middle Grades Academy",="Counselors  Social Workers  and School Psychologists",="Certified",1.0
 ,="Simpson-Waverly School",="Counselors  Social Workers  and School Psychologists",="Certified",1.0
 ,="Sports and Medical Sciences Academy",="Counselors  Social Workers  and School Psychologists",="Certified",5.2
-,="University High of Science and Engineering",="Counselors  Social Workers  and School Psychologists",="Certified",3.0
+,="University High School of Science and Engineering",="Counselors  Social Workers  and School Psychologists",="Certified",3.0
 ,="Weaver High School",="Counselors  Social Workers  and School Psychologists",="Certified",0.6
 ,="Webster Micro Society Magnet School",="Counselors  Social Workers  and School Psychologists",="Certified",1.8
 ,="West Middle School",="Counselors  Social Workers  and School Psychologists",="Certified",1.2
@@ -434,13 +434,13 @@
 ,="Gallup Hill School",="Counselors  Social Workers  and School Psychologists",="Certified",1.2
 ,="Juliet W. Long School",="Counselors  Social Workers  and School Psychologists",="Certified",0.2
 ,="Ledyard Center School",="Counselors  Social Workers  and School Psychologists",="Certified",1.2
-,="Ledyard High School",="Counselors  Social Workers  and School Psychologists",="Certified",8.0
+,="Ledyard High School",="Counselors  Social Workers  and School Psychologists",="Certified",9.0
 ,="Ledyard Middle School",="Counselors  Social Workers  and School Psychologists",="Certified",3.2
 ="Lisbon School District",="Community Connection - The Big Picture High School",="Counselors  Social Workers  and School Psychologists",="Certified",0.1
 ,="Lisbon Central School",="Counselors  Social Workers  and School Psychologists",="Certified",1.7
-="Litchfield School District",="Center School",="Counselors  Social Workers  and School Psychologists",="Certified",1.6
+="Litchfield School District",="Center School",="Counselors  Social Workers  and School Psychologists",="Certified",2.4
 ,="Litchfield High School",="Counselors  Social Workers  and School Psychologists",="Certified",4.2
-,="Litchfield Intermediate School",="Counselors  Social Workers  and School Psychologists",="Certified",1.6
+,="Litchfield Intermediate School",="Counselors  Social Workers  and School Psychologists",="Certified",2.8
 ="Madison School District",="Daniel Hand High School",="Counselors  Social Workers  and School Psychologists",="Certified",7.2
 ,="Dr. Robert H. Brown Middle School",="Counselors  Social Workers  and School Psychologists",="Certified",3.5
 ,="Island Avenue Elementary School",="Counselors  Social Workers  and School Psychologists",="Certified",0.8
@@ -461,7 +461,7 @@
 ,="Washington School",="Counselors  Social Workers  and School Psychologists",="Certified",1.4
 ="Mansfield School District",="Annie E. Vinton School",="Counselors  Social Workers  and School Psychologists",="Certified",1.0
 ,="Dorothy C. Goodwin School",="Counselors  Social Workers  and School Psychologists",="Certified",1.0
-,="Mansfield Middle School School",="Counselors  Social Workers  and School Psychologists",="Certified",3.0
+,="Mansfield Middle School",="Counselors  Social Workers  and School Psychologists",="Certified",3.0
 ,="Southeast Elementary School",="Counselors  Social Workers  and School Psychologists",="Certified",1.0
 ="Marlborough School District",="Elmer Thienes-Mary Hall Elementary School",="Counselors  Social Workers  and School Psychologists",="Certified",3.0
 ="Meriden School District",="Nathan Hale School",="Counselors  Social Workers  and School Psychologists",="Certified",2.0
@@ -523,8 +523,8 @@
 ,="Naugatuck High School",="Counselors  Social Workers  and School Psychologists",="Certified",8.6
 ,="Salem School",="Counselors  Social Workers  and School Psychologists",="Certified",1.0
 ,="Western School",="Counselors  Social Workers  and School Psychologists",="Certified",0.5
-="New Beginnings Inc Family Academy District",="New Beginnings Inc., Family Academy",="Counselors  Social Workers  and School Psychologists",="Certified",1.0
-="New Britain School District",="Alternative Center School",="Counselors  Social Workers  and School Psychologists",="Certified",1.0
+="New Beginnings Inc Family Academy District",="New Beginnings Inc Family Academy",="Counselors  Social Workers  and School Psychologists",="Certified",1.0
+="New Britain School District",="Brook Side School",="Counselors  Social Workers  and School Psychologists",="Certified",1.0
 ,="Chamberlain Elementary School",="Counselors  Social Workers  and School Psychologists",="Certified",3.0
 ,="Frank J. DiLoreto School",="Counselors  Social Workers  and School Psychologists",="Certified",2.2
 ,="Gaffney School",="Counselors  Social Workers  and School Psychologists",="Certified",3.5
@@ -560,10 +560,9 @@
 ,="Beecher School",="Counselors  Social Workers  and School Psychologists",="Certified",2.8
 ,="Benjamin Jepson Magnet School",="Counselors  Social Workers  and School Psychologists",="Certified",1.6
 ,="Betsy Ross Arts Magnet School",="Counselors  Social Workers  and School Psychologists",="Certified",3.1
-,="Bishop Woods School",="Counselors  Social Workers  and School Psychologists",="Certified",2.0
+,="Bishop Woods Architecture and Design Magnet School",="Counselors  Social Workers  and School Psychologists",="Certified",2.0
 ,="Brennan Rogers School",="Counselors  Social Workers  and School Psychologists",="Certified",3.0
 ,="Celentano BioTech, Health and Medical Magnet School",="Counselors  Social Workers  and School Psychologists",="Certified",2.3
-,="Clemente Leadership Academy",="Counselors  Social Workers  and School Psychologists",="Certified",2.7
 ,="Clinton Avenue School",="Counselors  Social Workers  and School Psychologists",="Certified",2.2
 ,="Columbus Family Academy",="Counselors  Social Workers  and School Psychologists",="Certified",1.4
 ,="Conte/West Hills Magnet School",="Counselors  Social Workers  and School Psychologists",="Certified",2.6
@@ -580,7 +579,7 @@
 ,="Hill Regional Career High School",="Counselors  Social Workers  and School Psychologists",="Certified",4.0
 ,="James Hillhouse High School",="Counselors  Social Workers  and School Psychologists",="Certified",8.3
 ,="John C. Daniels",="Counselors  Social Workers  and School Psychologists",="Certified",1.8
-,="John S. Martinez School",="Counselors  Social Workers  and School Psychologists",="Certified",2.3
+,="John S. Martinez Sea and Sky STEM School",="Counselors  Social Workers  and School Psychologists",="Certified",2.3
 ,="King/Robinson Magnet School",="Counselors  Social Workers  and School Psychologists",="Certified",2.1
 ,="Lincoln-Bassett School",="Counselors  Social Workers  and School Psychologists",="Certified",1.7
 ,="Mauro-Sheridan Magnet School",="Counselors  Social Workers  and School Psychologists",="Certified",2.8
@@ -588,6 +587,7 @@
 ,="New Haven Academy",="Counselors  Social Workers  and School Psychologists",="Certified",2.2
 ,="Polly T. McCabe Center",="Counselors  Social Workers  and School Psychologists",="Certified",0.2
 ,="Riverside Education Academy",="Counselors  Social Workers  and School Psychologists",="Certified",1.7
+,="Roberto Clemente Leadership Academy for Global Awareness",="Counselors  Social Workers  and School Psychologists",="Certified",2.7
 ,="Ross/Woodward School",="Counselors  Social Workers  and School Psychologists",="Certified",2.3
 ,="Sound School",="Counselors  Social Workers  and School Psychologists",="Certified",1.7
 ,="Strong 21st Century Communications Magnet and SCSU Lab School",="Counselors  Social Workers  and School Psychologists",="Certified",0.6
@@ -602,7 +602,7 @@
 ,="Nathan Hale Arts Magnet School",="Counselors  Social Workers  and School Psychologists",="Certified",1.5
 ,="New London Clinical Day Program",="Counselors  Social Workers  and School Psychologists",="Certified",1.0
 ,="New London High School",="Counselors  Social Workers  and School Psychologists",="Certified",6.1
-,="Winthrop STEM Elementary Magnet School",="Counselors  Social Workers  and School Psychologists",="Certified",2.0
+,="Winthrop STEM Elementary Magnet School",="Counselors  Social Workers  and School Psychologists",="Certified",3.0
 ="New Milford School District",="Hill And Plain School",="Counselors  Social Workers  and School Psychologists",="Certified",1.2
 ,="John Pettibone School",="Counselors  Social Workers  and School Psychologists",="Certified",1.2
 ,="New Milford High School",="Counselors  Social Workers  and School Psychologists",="Certified",9.3
@@ -965,7 +965,7 @@
 ,="Maloney Interdistrict Magnet School",="Counselors  Social Workers  and School Psychologists",="Certified",2.6
 ,="Margaret M. Generali Elementary School",="Counselors  Social Workers  and School Psychologists",="Certified",1.3
 ,="Michael F. Wallace Middle School",="Counselors  Social Workers  and School Psychologists",="Certified",5.5
-,="North End Middle School",="Counselors  Social Workers  and School Psychologists",="Certified",5.5
+,="North End Middle School",="Counselors  Social Workers  and School Psychologists",="Certified",6.5
 ,="Regan School",="Counselors  Social Workers  and School Psychologists",="Certified",0.4
 ,="Rotella Interdistrict Magnet School",="Counselors  Social Workers  and School Psychologists",="Certified",0.9
 ,="Special Education Preschool",="Counselors  Social Workers  and School Psychologists",="Certified",2.0

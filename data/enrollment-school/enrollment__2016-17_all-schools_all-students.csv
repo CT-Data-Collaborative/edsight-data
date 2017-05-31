@@ -294,7 +294,7 @@
 "East Hartford School District","=""0430011""","Robert J. O'Brien School","=""0431811""",430
 "East Hartford School District","=""0430011""","Silver Lane School","=""0431211""",276
 "East Hartford School District","=""0430011""","Stevens Alternate High School","=""0436411""",87
-"East Hartford School District","=""0430011""","Sunset Ridge School Elementary Academy for Arts and World Languages","=""0432411""",307
+"East Hartford School District","=""0430011""","Sunset Ridge Middle School","=""0432411""",307
 "East Hartford School District","=""0430011""","Woodland School","=""0439011""",170
 "East Haven School District","=""0440011""","Carbone School/East Haven Academy","=""0441711""",353
 "East Haven School District","=""0440011""","Deer Run School","=""0440111""",253
@@ -304,6 +304,7 @@
 "East Haven School District","=""0440011""","Joseph Melillo Middle School","=""0445111""",557
 "East Haven School District","=""0440011""","Momauguin School","=""0440711""",291
 "East Haven School District","=""0440011""","Overbrook Elementary School","=""0441811""",130
+"East Lyme School District","=""0450011""","Abilities in Motion (AIM) Program","=""0450511""",13
 "East Lyme School District","=""0450011""","Coastal Connections","=""0450611""",22
 "East Lyme School District","=""0450011""","East Lyme High School","=""0456111""",1019
 "East Lyme School District","=""0450011""","East Lyme Middle School","=""0455111""",832
@@ -312,7 +313,6 @@
 "East Lyme School District","=""0450011""","Lillie B. Haynes School","=""0450411""",305
 "East Lyme School District","=""0450011""","Medically Fragile Program (WAVES)","=""0450711""","*"
 "East Lyme School District","=""0450011""","Niantic Center School","=""0450211""",169
-"East Lyme School District","=""0450011""","Post High School Transition Program","=""0450511""",13
 "East Windsor School District","=""0470011""","Broad Brook Elementary School","=""0470111""",430
 "East Windsor School District","=""0470011""","East Windsor High School","=""0476111""",303
 "East Windsor School District","=""0470011""","East Windsor Middle School","=""0475411""",303
@@ -422,10 +422,9 @@
 "Griswold School District","=""0580011""","Griswold High School","=""0586211""",568
 "Griswold School District","=""0580011""","Griswold Middle School","=""0585111""",538
 "Groton School District","=""0590011""","Carl C. Cutler Middle School","=""0595311""",497
-"Groton School District","=""0590011""","Catherine Kolnaski Magnet School","=""0590311""",338
-"Groton School District","=""0590011""","Claude Chester School","=""0590311""",298
-"Groton School District","=""0590011""","Catherine Kolnaski Magnet School","=""0592011""",338
+"Groton School District","=""0590011""","Catherine Kolnaski Magnet School","=""0592011""",377
 "Groton School District","=""0590011""","Charles Barnum School","=""0591811""",375
+"Groton School District","=""0590011""","Claude Chester School","=""0590311""",298
 "Groton School District","=""0590011""","Mary Morrisson School","=""0591711""",363
 "Groton School District","=""0590011""","New Beginnings Alternative Program","=""0590211""",24
 "Groton School District","=""0590011""","Northeast Academy Elementary School","=""0591911""",390
@@ -539,7 +538,7 @@
 "Learn","=""2450014""","Dual Language & Arts Magnet Middle School","=""2455014""",147
 "Learn","=""2450014""","Learn ABA Program at Center School","=""2451214""",8
 "Learn","=""2450014""","Learn Haynes Elementary Intensive Program","=""2451114""",16
-"Learn","=""2450014""","Learn High School ABA at MS","=""2450614""","*"
+"Learn","=""2450014""","Learn High School ABA","=""2450614""","*"
 "Learn","=""2450014""","Learn Ledyard RICHES Program","=""2450714""","*"
 "Learn","=""2450014""","Learn Pathways Program","=""2450514""","*"
 "Learn","=""2450014""","Learn SAILS Middle School Program","=""2450814""","*"
@@ -592,7 +591,7 @@
 "Manchester School District","=""0770011""","Washington School","=""0771411""",344
 "Mansfield School District","=""0780011""","Annie E. Vinton School","=""0780411""",254
 "Mansfield School District","=""0780011""","Dorothy C. Goodwin School","=""0780211""",200
-"Mansfield School District","=""0780011""","Mansfield Middle School School","=""0785111""",533
+"Mansfield School District","=""0780011""","Mansfield Middle School","=""0785111""",533
 "Mansfield School District","=""0780011""","Southeast Elementary School","=""0780511""",227
 "Marlborough School District","=""0790011""","Elmer Thienes-Mary Hall Elementary School","=""0790111""",535
 "Meriden School District","=""0800011""","Benjamin Franklin School","=""0800111""",345
@@ -677,8 +676,9 @@
 "Naugatuck School District","=""0880011""","Naugatuck High School","=""0886111""",1218
 "Naugatuck School District","=""0880011""","Salem School","=""0880611""",268
 "Naugatuck School District","=""0880011""","Western School","=""0880711""",256
-"New Britain School District","=""0890011""","Alternative Center School","=""0899111""",54
-"New Britain School District","=""0890011""","Behavior Support","=""0891011""",10
+"New Beginnings Inc Family Academy District","=""2800013""","New Beginnings Inc Family Academy","=""2800113""",499
+"New Britain School District","=""0890011""","Behavior Support (Holmes)","=""0891011""",10
+"New Britain School District","=""0890011""","Brook Side School","=""0899111""",54
 "New Britain School District","=""0890011""","CLIMB","=""0899411""",22
 "New Britain School District","=""0890011""","Chamberlain  Elementary School","=""0890311""",493
 "New Britain School District","=""0890011""","Frank J. DiLoreto School","=""0891111""",850
@@ -686,20 +686,20 @@
 "New Britain School District","=""0890011""","Holmes School","=""0890611""",494
 "New Britain School District","=""0890011""","House of Arts Letters and Science (HALS)  Academy","=""0895411""",147
 "New Britain School District","=""0890011""","Jefferson School","=""0890711""",455
-"New Britain School District","=""0890011""","KEY Elementary","=""0891611""",43
-"New Britain School District","=""0890011""","KEY Middle","=""0891711""",14
+"New Britain School District","=""0890011""","KEY Elementary (Gaffney)","=""0891611""",43
+"New Britain School District","=""0890011""","KEY Middle (Slade)","=""0891711""",14
 "New Britain School District","=""0890011""","Lincoln School","=""0890811""",669
 "New Britain School District","=""0890011""","New Britain High School","=""0896111""",2198
 "New Britain School District","=""0890011""","New Britain Transition Center","=""0899011""",51
 "New Britain School District","=""0890011""","Northend School","=""0890911""",254
-"New Britain School District","=""0890011""","Preschool at Roosevelt","=""0890111""",165
 "New Britain School District","=""0890011""","Pulaski Middle School","=""0895311""",791
+"New Britain School District","=""0890011""","Roosevelt Early Learning Center","=""0890111""",165
 "New Britain School District","=""0890011""","Satellite Careers Academy","=""0899511""",157
 "New Britain School District","=""0890011""","Slade Middle School","=""0895211""",807
 "New Britain School District","=""0890011""","Smalley Academy","=""0891211""",685
 "New Britain School District","=""0890011""","Smith School","=""0891311""",566
-"New Britain School District","=""0890011""","Sunrise Intermediate","=""0890411""",7
-"New Britain School District","=""0890011""","Sunrise Primary","=""0890211""",24
+"New Britain School District","=""0890011""","Sunrise Intermediate (Holmes)","=""0890411""",7
+"New Britain School District","=""0890011""","Sunrise Primary (Chamberlain)","=""0890211""",24
 "New Britain School District","=""0890011""","Vance School","=""0891511""",515
 "New Canaan School District","=""0900011""","East School","=""0900411""",547
 "New Canaan School District","=""0900011""","New Canaan High School","=""0906111""",1266
@@ -720,13 +720,12 @@
 "New Haven School District","=""0930011""","Benjamin Jepson Head Start","=""0933411""",12
 "New Haven School District","=""0930011""","Benjamin Jepson Magnet School","=""0931811""",515
 "New Haven School District","=""0930011""","Betsy Ross Arts Magnet School","=""0935511""",448
-"New Haven School District","=""0930011""","Bishop Woods School","=""0934311""",493
+"New Haven School District","=""0930011""","Bishop Woods Architecture and Design Magnet School","=""0934311""",493
 "New Haven School District","=""0930011""","Bishop Woods Self Contained Autism","=""0937911""",11
 "New Haven School District","=""0930011""","Brennan Rogers School","=""0932111""",542
 "New Haven School District","=""0930011""","Brennan Rogers Self Contained Autism","=""0937211""",21
 "New Haven School District","=""0930011""","Celentano BioTech, Health and Medical Magnet School","=""0934811""",389
 "New Haven School District","=""0930011""","Celentano Self Contained ID","=""0937411""",11
-"New Haven School District","=""0930011""","Clemente Leadership Academy","=""0934211""",480
 "New Haven School District","=""0930011""","Clinton Avenue School","=""0930611""",518
 "New Haven School District","=""0930011""","Clinton Self Contained ID","=""0937811""",10
 "New Haven School District","=""0930011""","Columbus Family Academy","=""0934111""",487
@@ -749,7 +748,7 @@
 "New Haven School District","=""0930011""","Hill Regional Career High School","=""0936311""",648
 "New Haven School District","=""0930011""","James Hillhouse High School","=""0936211""",913
 "New Haven School District","=""0930011""","John C. Daniels","=""0931311""",525
-"New Haven School District","=""0930011""","John S. Martinez School","=""0930811""",537
+"New Haven School District","=""0930011""","John S. Martinez Sea and Sky STEM School","=""0930811""",537
 "New Haven School District","=""0930011""","King/Robinson Magnet School","=""0933011""",536
 "New Haven School District","=""0930011""","Lincoln-Bassett School","=""0932011""",382
 "New Haven School District","=""0930011""","Mauro-Sheridan Magnet School","=""0931911""",537
@@ -762,6 +761,7 @@
 "New Haven School District","=""0930011""","Off-Campus Classroom Program (OCC)","=""0937311""",45
 "New Haven School District","=""0930011""","Quinnipiac Real World Math STEM School","=""0933511""",330
 "New Haven School District","=""0930011""","Riverside Education Academy","=""0939111""",86
+"New Haven School District","=""0930011""","Roberto Clemente Leadership Academy for Global Awareness","=""0934211""",480
 "New Haven School District","=""0930011""","Ross/Woodward School","=""0931011""",689
 "New Haven School District","=""0930011""","Sound School","=""0936711""",333
 "New Haven School District","=""0930011""","Strong 21st Century Communications Magnet and SCSU Lab School","=""0932811""",344
@@ -1136,8 +1136,8 @@
 "Stratford School District","=""1380011""","Nichols School","=""1380911""",412
 "Stratford School District","=""1380011""","Second Hill Lane School","=""1381011""",625
 "Stratford School District","=""1380011""","Steps K-2 Nichols","=""1382611""","*"
-"Stratford School District","=""1380011""","Straford Academy - Victoria Soto School","=""1382211""",276
 "Stratford School District","=""1380011""","Stratford Academy - Johnson House","=""1381511""",401
+"Stratford School District","=""1380011""","Stratford Academy - Victoria Soto School","=""1382211""",276
 "Stratford School District","=""1380011""","Stratford High School","=""1386111""",920
 "Stratford School District","=""1380011""","Strive-Stratford","=""1389011""",19
 "Stratford School District","=""1380011""","Wilcoxson School","=""1381411""",354
@@ -1233,8 +1233,8 @@
 "Wallingford School District","=""1480011""","Yalesville School","=""1480811""",321
 "Waterbury School District","=""1510011""","B. W. Tinker School","=""1512111""",595
 "Waterbury School District","=""1510011""","B.W. Tinker BDLC","=""1510411""",17
+"Waterbury School District","=""1510011""","Bucks Hill Autism","=""1514611""",9
 "Waterbury School District","=""1510011""","Bucks Hill Bilingual","=""1514311""",152
-"Waterbury School District","=""1510011""","Bucks Hill CBL","=""1514611""",9
 "Waterbury School District","=""1510011""","Bucks Hill School","=""1510511""",453
 "Waterbury School District","=""1510011""","Bunker Hill BDLC","=""1510111""",22
 "Waterbury School District","=""1510011""","Bunker Hill School","=""1510611""",490

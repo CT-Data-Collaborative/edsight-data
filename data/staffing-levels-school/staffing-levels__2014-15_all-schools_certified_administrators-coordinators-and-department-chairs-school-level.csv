@@ -116,6 +116,7 @@
 ,="Cherry Brook Primary School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.5
 ="Capitol Region Education Council",="Academy of Aerospace and Engineering",="Administrators  Coordinators and Department Chairs - School Level",="Certified",6.0
 ,="Academy of Aerospace and Engineering Elementary",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+,="Academy of Science and Innovation",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
 ,="Ana Grace Academy of the Arts Elementary School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
 ,="Discovery Academy",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
 ,="Farmington Valley Regional Diagnostic Center",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
@@ -126,7 +127,6 @@
 ,="Integrated Program Models",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
 ,="International Magnet School for Global Citizenship",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
 ,="John J. Allison Polaris Center",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
-,="Medical Professions and Teacher Preparation Academy",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
 ,="Metropolitan Learning Center for Global and International Studies",="Administrators  Coordinators and Department Chairs - School Level",="Certified",4.5
 ,="Montessori Magnet School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
 ,="Museum Academy",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
@@ -245,7 +245,7 @@
 ,="Robert J. O'Brien School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
 ,="Silver Lane School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
 ,="Stevens Alternate High School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
-,="Sunset Ridge School Elementary Academy for Arts and World Languages",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+,="Sunset Ridge Middle School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
 ,="Willowbrook Early Childhood",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
 ,="Woodland School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
 ="East Haven School District",="Carbone School/East Haven Academy",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
@@ -272,7 +272,7 @@
 ="Eastford School District",="Eastford Elementary School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
 ="Easton School District",="Helen Keller Middle School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
 ,="Samuel Staples Elementary School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
-="EdAdvance",="GFLC/ACCESS School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.4
+="EdAdvance",="The ACCESS School at The Danuta M. Thibodeau Education Center",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.4
 ="Ellington School District",="Center School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.2
 ,="Crystal Lake School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.2
 ,="Ellington High School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.8
@@ -385,10 +385,11 @@
 ,="West Woods School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
 ="Hampton School District",="Hampton Elementary School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",0.8
 ="Hartford School District",="Other",="Administrators  Coordinators and Department Chairs - School Level",="Certified",16.0
-,="Asian Studies Academy",="Administrators  Coordinators and Department Chairs - School Level",="Certified",4.0
+,="Asian Studies Academy at Bellizzi School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",4.0
 ,="Batchelder School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+,="Betances Early Reading Lab Magnet School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
 ,="Betances STEM Magnet School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
-,="Breakthrough II Elementary School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+,="Breakthrough II Magnet School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
 ,="Breakthrough Magnet School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
 ,="Bulkeley High School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
 ,="Bulkeley High School Lower School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",5.0
@@ -399,31 +400,30 @@
 ,="Clark School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
 ,="Classical Magnet School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
 ,="Culinary Arts Academy at Weaver High School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
-,="Dr. Ramon E. Betances Early Reading Lab",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
 ,="Environmental Sciences Magnet at Hooker School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
 ,="Expeditionary Learning Academy at Moylan School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
 ,="Global Communications Academy",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
-,="Great Path Academy High School at MCC",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+,="Great Path Academy at MCC",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
 ,="HPHS Engineering and Green Technology Academy",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.3
 ,="HPHS Law and Government Academy",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.3
 ,="HPHS Nursing and Health Sciences Academy",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.3
 ,="Hartford Magnet Trinity College Academy",="Administrators  Coordinators and Department Chairs - School Level",="Certified",5.0
 ,="Hartford PreKindergarten Magnet School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
-,="High School Inc.",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+,="High School, Inc.",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
 ,="Journalism and Media Academy Magnet School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
 ,="Kennelly School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
+,="Kinsella Magnet School of Performing Arts",="Administrators  Coordinators and Department Chairs - School Level",="Certified",4.0
 ,="M. D. Fox School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",4.0
 ,="M. L. King, Jr. School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
 ,="McDonough Middle School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
 ,="Milner School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
-,="Montessori Magnet School at Annie Fisher",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+,="Montessori Magnet at Fisher School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
 ,="Montessori Magnet at Moylan School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
 ,="Naylor/CCSU Leadership Academy",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
 ,="New Visions Program",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
 ,="OPPortunity High School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
 ,="Parkville Community School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
 ,="Pathways Academy of Technology and Design",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
-,="R.J. Kinsella Magnet School of Performing Arts",="Administrators  Coordinators and Department Chairs - School Level",="Certified",4.0
 ,="Rawson School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
 ,="Renzulli Gifted and Talented Academy",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
 ,="SAND School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
@@ -431,7 +431,7 @@
 ,="Sanchez School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
 ,="Simpson-Waverly School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.5
 ,="Sports and Medical Sciences Academy",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
-,="University High of Science and Engineering",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
+,="University High School of Science and Engineering",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
 ,="Webster Micro Society Magnet School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
 ,="West Middle School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
 ,="Wish Museum School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.5
@@ -493,7 +493,7 @@
 ,="Washington School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.6
 ="Mansfield School District",="Annie E. Vinton School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
 ,="Dorothy C. Goodwin School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
-,="Mansfield Middle School School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+,="Mansfield Middle School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
 ,="Southeast Elementary School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
 ="Marlborough School District",="Elmer Thienes-Mary Hall Elementary School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
 ="Meriden School District",="Nathan Hale School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
@@ -555,8 +555,8 @@
 ,="Naugatuck High School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",4.0
 ,="Salem School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
 ,="Western School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
-="New Beginnings Inc Family Academy District",="New Beginnings Inc., Family Academy",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
-="New Britain School District",="Alternative Center School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+="New Beginnings Inc Family Academy District",="New Beginnings Inc Family Academy",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
+="New Britain School District",="Brook Side School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
 ,="Chamberlain Elementary School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
 ,="Frank J. DiLoreto School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
 ,="Gaffney School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
@@ -590,10 +590,9 @@
 ,="Beecher School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
 ,="Benjamin Jepson Magnet School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
 ,="Betsy Ross Arts Magnet School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
-,="Bishop Woods School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+,="Bishop Woods Architecture and Design Magnet School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
 ,="Brennan Rogers School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
 ,="Celentano BioTech, Health and Medical Magnet School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
-,="Clemente Leadership Academy",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
 ,="Clinton Avenue School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
 ,="Columbus Family Academy",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
 ,="Conte/West Hills Magnet School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
@@ -609,7 +608,7 @@
 ,="Hill Regional Career High School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",6.0
 ,="James Hillhouse High School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",6.0
 ,="John C. Daniels",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
-,="John S. Martinez School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
+,="John S. Martinez Sea and Sky STEM School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
 ,="King/Robinson Magnet School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0
 ,="Lincoln-Bassett School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",4.0
 ,="Mauro-Sheridan Magnet School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
@@ -621,6 +620,7 @@
 ,="Polly T. McCabe Center",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
 ,="Quinnipiac Real World Math STEM School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
 ,="Riverside Education Academy",="Administrators  Coordinators and Department Chairs - School Level",="Certified",1.0
+,="Roberto Clemente Leadership Academy for Global Awareness",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
 ,="Ross/Woodward School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
 ,="Sound School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",3.0
 ,="Strong 21st Century Communications Magnet and SCSU Lab School",="Administrators  Coordinators and Department Chairs - School Level",="Certified",2.0

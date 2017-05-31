@@ -1,121 +1,382 @@
+"Four-Year Graduation Rates, 2010-11"
+"All Districts, All Schools, High Needs Status"
 
-
-
-
-
-<!DOCTYPE html>
-
-
-
-
-
-<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
-    
-    
-
-<head>
-    <meta charset="UTF-8" />
-    <title>
-    	
-    		
-    		
-    			SAS&reg; Logon Manager
-    		
-    	
-    </title>
-    <link type="text/css" rel="stylesheet" href="themes/default/css/bootstrap.css" />
-    <link type="text/css" rel="stylesheet" href="themes/default/css/sas.css" />
-</head>
-
-
-
-    <body id="cas">
-        <div id="page">
-            
-
-<div class="banner row">
-    <div class="about">
-        <ul class="unstyled"><li>
-            <a href="#about-modal" data-toggle="modal">
-                About
-            </a>
-        </li></ul>
-    </div>
-    <div id="about-modal" class="modal hide fade">
-        <div class="modal-header">
-            <a href="#" class="close" data-dismiss="modal">&times;</a>
-            <h3>About</h3>
-        </div>
-        <div class="modal-body">
-            <p>Version: 9.4</p>
-            <h4>Copyright Information</h4>
-            <p align="center">
-Copyright (c) 2002 - 2013 by SAS Institute Inc., Cary, NC, USA<br/>
-All rights reserved.<br/>
-<br/>
-This software is protected by copyright laws and international treaties.<br/>
-<br/>
-U.S. GOVERNMENT RESTRICTED RIGHTS<br/>
-Use, duplication, or disclosure of this software and related<br/>
-documentation by the U.S. government is subject to the<br/>
-Agreement with SAS Institute and the restrictions set forth<br/>
-in FAR 52.227-19, Commercial Computer Software<br/>
-- Restricted Rights (June 1987).
-            </p>
-        </div>
-    </div>
-    <div class="header">
-        <div class="title">
-        	<h1>
-        		
-		    		
-		    		
-		    			Sign In to SAS<sup>&reg;</sup>
-		    		
-    			
-        	</h1>
-       	</div>
-        <div class="logo"><img src="themes/default/images/logo.png" /></div>
-    </div>
-</div>
-
-
-            <div class="content row">
-                <div id="msg" class="alert-message message-box success">
-                	
-                		
-                			<h2>Public access has been denied.</h2>
-		                    <p>Public users are not allowed to access this SAS application. The current user has been signed out.</p>
-                		
-                		
-                		
-                    
-                    
-           				<p>For increased security, close your browser.</p>
-           			
-                </div>
-                
-	            	<div class="customizations" id="custom-logoff-message">
-	               		
-
-
-<p>
-</p>
-
-
- 
-
-	                </div>
-	            
-	            
-            </div>
-        </div>
-        
-<script type="text/javascript" src="/SASLogon/js/jquery.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=9EE3360E1B515981EFF7E7652ADB00B6.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-<script type="text/javascript" src="/SASLogon/js/bootstrap-modal.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=9EE3360E1B515981EFF7E7652ADB00B6.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-
-    </body>
-
-</html>
-
+"",,,,,,"Graduates",
+"District","District Code","School","School Code","High Needs Status","Four-Year Cohort Count","Graduation Count","Graduation Rate"
+"Amistad Academy District","=""2790013""","Amistad Academy","=""2795113""","High Needs",16,"*","*"
+"Amistad Academy District","=""2790013""","Amistad Academy","=""2795113""","Non-High Needs",13,"*","*"
+"Ansonia School District","=""0020011""","Ansonia High School","=""0026111""","High Needs",99,57,57.6
+"Ansonia School District","=""0020011""","Ansonia High School","=""0026111""","Non-High Needs",84,72,85.7
+"Avon School District","=""0040011""","Avon High School","=""0046111""","High Needs",32,27,84.4
+"Avon School District","=""0040011""","Avon High School","=""0046111""","Non-High Needs",222,216,97.3
+"Berlin School District","=""0070011""","Berlin High School","=""0076111""","High Needs",43,37,86.0
+"Berlin School District","=""0070011""","Berlin High School","=""0076111""","Non-High Needs",217,207,95.4
+"Bethel School District","=""0090011""","Bethel High School","=""0096111""","High Needs",42,33,78.6
+"Bethel School District","=""0090011""","Bethel High School","=""0096111""","Non-High Needs",203,198,97.5
+"Bloomfield School District","=""0110011""","Bloomfield High School","=""0116111""","High Needs",72,48,66.7
+"Bloomfield School District","=""0110011""","Bloomfield High School","=""0116111""","Non-High Needs",99,79,79.8
+"Bloomfield School District","=""0110011""","The Big Picture High School","=""0116211""","High Needs","*","*","*"
+"Bloomfield School District","=""0110011""","The Big Picture High School","=""0116211""","Non-High Needs","*","*","*"
+"Bolton School District","=""0120011""","Bolton High School","=""0126111""","High Needs",9,"*","*"
+"Bolton School District","=""0120011""","Bolton High School","=""0126111""","Non-High Needs",64,"*","*"
+"Branford School District","=""0140011""","Branford High School","=""0146111""","High Needs",62,51,82.3
+"Branford School District","=""0140011""","Branford High School","=""0146111""","Non-High Needs",212,209,98.6
+"Bridgeport School District","=""0150011""","Bassick High School","=""0156111""","High Needs",332,"*","*"
+"Bridgeport School District","=""0150011""","Bassick High School","=""0156111""","Non-High Needs",9,"*","*"
+"Bridgeport School District","=""0150011""","Central High School","=""0156211""","High Needs",554,411,74.2
+"Bridgeport School District","=""0150011""","Central High School","=""0156211""","Non-High Needs",49,34,69.4
+"Bridgeport School District","=""0150011""","Harding High School","=""0156311""","High Needs",413,"*","*"
+"Bridgeport School District","=""0150011""","Harding High School","=""0156311""","Non-High Needs",22,"*","*"
+"Bristol School District","=""0170011""","Bristol Central High School","=""0176111""","High Needs",122,69,56.6
+"Bristol School District","=""0170011""","Bristol Central High School","=""0176111""","Non-High Needs",210,176,83.8
+"Bristol School District","=""0170011""","Bristol Eastern High School","=""0176211""","High Needs",112,78,69.6
+"Bristol School District","=""0170011""","Bristol Eastern High School","=""0176211""","Non-High Needs",256,219,85.5
+"Brookfield School District","=""0180011""","Brookfield High School","=""0186111""","High Needs",18,16,"*"
+"Brookfield School District","=""0180011""","Brookfield High School","=""0186111""","Non-High Needs",245,235,95.9
+"Canton School District","=""0230011""","Canton High School","=""0236111""","High Needs",18,"*","*"
+"Canton School District","=""0230011""","Canton High School","=""0236111""","Non-High Needs",100,"*","*"
+"Capitol Region Education Council","=""2410014""","Great Path Academy at MCC","=""2416314""","High Needs",69,"*","*"
+"Capitol Region Education Council","=""2410014""","Great Path Academy at MCC","=""2416314""","Non-High Needs",49,"*","*"
+"Capitol Region Education Council","=""2410014""","Greater Hartford Academy of  the Arts High School - Full Time","=""2416414""","High Needs",23,15,65.2
+"Capitol Region Education Council","=""2410014""","Greater Hartford Academy of  the Arts High School - Full Time","=""2416414""","Non-High Needs",39,34,87.2
+"Capitol Region Education Council","=""2410014""","Metropolitan Learning Center for Global and International Studies","=""2416114""","High Needs",24,21,87.5
+"Capitol Region Education Council","=""2410014""","Metropolitan Learning Center for Global and International Studies","=""2416114""","Non-High Needs",79,72,91.1
+"Cheshire School District","=""0250011""","Cheshire High School","=""0256111""","High Needs",49,39,79.6
+"Cheshire School District","=""0250011""","Cheshire High School","=""0256111""","Non-High Needs",316,311,98.4
+"Clinton School District","=""0270011""","The Morgan School","=""0276111""","High Needs",35,31,88.6
+"Clinton School District","=""0270011""","The Morgan School","=""0276111""","Non-High Needs",109,102,93.6
+"Colchester School District","=""0280011""","Bacon Academy","=""0286111""","High Needs",41,35,85.4
+"Colchester School District","=""0280011""","Bacon Academy","=""0286111""","Non-High Needs",208,196,94.2
+"Common Ground High School District","=""2680013""","Common Ground High School","=""2686113""","High Needs",27,22,81.5
+"Common Ground High School District","=""2680013""","Common Ground High School","=""2686113""","Non-High Needs",11,11,"*"
+"Connecticut Technical High School System","=""9000016""","A. I. Prince Technical High School","=""9001516""","High Needs",41,"*","*"
+"Connecticut Technical High School System","=""9000016""","A. I. Prince Technical High School","=""9001516""","Non-High Needs",110,"*","*"
+"Connecticut Technical High School System","=""9000016""","Bullard-Havens Technical High School","=""9001116""","High Needs",66,"*","*"
+"Connecticut Technical High School System","=""9000016""","Bullard-Havens Technical High School","=""9001116""","Non-High Needs",127,"*","*"
+"Connecticut Technical High School System","=""9000016""","E. C. Goodwin Technical High School","=""9001916""","High Needs",28,"*","*"
+"Connecticut Technical High School System","=""9000016""","E. C. Goodwin Technical High School","=""9001916""","Non-High Needs",74,"*","*"
+"Connecticut Technical High School System","=""9000016""","Eli Whitney Technical High School","=""9001416""","High Needs",39,28,71.8
+"Connecticut Technical High School System","=""9000016""","Eli Whitney Technical High School","=""9001416""","Non-High Needs",84,72,85.7
+"Connecticut Technical High School System","=""9000016""","Ella T. Grasso Southeastern Technical High School","=""9002716""","High Needs",36,"*","*"
+"Connecticut Technical High School System","=""9000016""","Ella T. Grasso Southeastern Technical High School","=""9002716""","Non-High Needs",89,"*","*"
+"Connecticut Technical High School System","=""9000016""","Emmett O'Brien Technical High School","=""9002516""","High Needs",14,"*","*"
+"Connecticut Technical High School System","=""9000016""","Emmett O'Brien Technical High School","=""9002516""","Non-High Needs",107,"*","*"
+"Connecticut Technical High School System","=""9000016""","H. C. Wilcox Technical High School","=""9001716""","High Needs",35,"*","*"
+"Connecticut Technical High School System","=""9000016""","H. C. Wilcox Technical High School","=""9001716""","Non-High Needs",147,"*","*"
+"Connecticut Technical High School System","=""9000016""","H. H. Ellis Technical High School","=""9001316""","High Needs",18,"*","*"
+"Connecticut Technical High School System","=""9000016""","H. H. Ellis Technical High School","=""9001316""","Non-High Needs",111,"*","*"
+"Connecticut Technical High School System","=""9000016""","Henry Abbott Technical High School","=""9001216""","High Needs",50,"*","*"
+"Connecticut Technical High School System","=""9000016""","Henry Abbott Technical High School","=""9001216""","Non-High Needs",110,"*","*"
+"Connecticut Technical High School System","=""9000016""","Howell Cheney Technical High School","=""9001616""","High Needs",13,"*","*"
+"Connecticut Technical High School System","=""9000016""","Howell Cheney Technical High School","=""9001616""","Non-High Needs",122,"*","*"
+"Connecticut Technical High School System","=""9000016""","Norwich Technical High School","=""9002016""","High Needs",18,18,"*"
+"Connecticut Technical High School System","=""9000016""","Norwich Technical High School","=""9002016""","Non-High Needs",93,91,97.8
+"Connecticut Technical High School System","=""9000016""","Oliver Wolcott Technical High School","=""9002216""","High Needs",22,"*","*"
+"Connecticut Technical High School System","=""9000016""","Oliver Wolcott Technical High School","=""9002216""","Non-High Needs",169,"*","*"
+"Connecticut Technical High School System","=""9000016""","Platt Technical High School","=""9002616""","High Needs",34,"*","*"
+"Connecticut Technical High School System","=""9000016""","Platt Technical High School","=""9002616""","Non-High Needs",166,"*","*"
+"Connecticut Technical High School System","=""9000016""","Vinal Technical High School","=""9001816""","High Needs",26,"*","*"
+"Connecticut Technical High School System","=""9000016""","Vinal Technical High School","=""9001816""","Non-High Needs",109,"*","*"
+"Connecticut Technical High School System","=""9000016""","W. F. Kaynor Technical High School","=""9002316""","High Needs",26,"*","*"
+"Connecticut Technical High School System","=""9000016""","W. F. Kaynor Technical High School","=""9002316""","Non-High Needs",128,"*","*"
+"Connecticut Technical High School System","=""9000016""","Windham Technical High School","=""9002416""","High Needs",17,"*","*"
+"Connecticut Technical High School System","=""9000016""","Windham Technical High School","=""9002416""","Non-High Needs",109,"*","*"
+"Coventry School District","=""0320011""","Coventry High School","=""0326111""","High Needs",27,19,70.4
+"Coventry School District","=""0320011""","Coventry High School","=""0326111""","Non-High Needs",125,118,94.4
+"Cromwell School District","=""0330011""","Cromwell High School","=""0336111""","High Needs",32,"*","*"
+"Cromwell School District","=""0330011""","Cromwell High School","=""0336111""","Non-High Needs",135,"*","*"
+"Danbury School District","=""0340011""","Danbury High School","=""0346111""","High Needs",302,199,65.9
+"Danbury School District","=""0340011""","Danbury High School","=""0346111""","Non-High Needs",417,373,89.4
+"Darien School District","=""0350011""","Darien High School","=""0356111""","High Needs",40,36,90.0
+"Darien School District","=""0350011""","Darien High School","=""0356111""","Non-High Needs",286,277,96.9
+"Derby School District","=""0370011""","Derby High School","=""0376111""","High Needs",53,32,60.4
+"Derby School District","=""0370011""","Derby High School","=""0376111""","Non-High Needs",69,55,79.7
+"East Granby School District","=""0400011""","East Granby High School","=""0406111""","High Needs",7,"*","*"
+"East Granby School District","=""0400011""","East Granby High School","=""0406111""","Non-High Needs",69,"*","*"
+"East Haddam School District","=""0410011""","Nathan Hale-Ray High School","=""0416111""","High Needs",10,"*","*"
+"East Haddam School District","=""0410011""","Nathan Hale-Ray High School","=""0416111""","Non-High Needs",83,"*","*"
+"East Hampton School District","=""0420011""","East Hampton High School","=""0426111""","High Needs",17,15,"*"
+"East Hampton School District","=""0420011""","East Hampton High School","=""0426111""","Non-High Needs",119,112,94.1
+"East Hartford School District","=""0430011""","Connecticut IB Academy","=""0436311""","High Needs",9,9,"*"
+"East Hartford School District","=""0430011""","Connecticut IB Academy","=""0436311""","Non-High Needs",24,24,100.0
+"East Hartford School District","=""0430011""","East Hartford High School","=""0436211""","High Needs",320,246,76.9
+"East Hartford School District","=""0430011""","East Hartford High School","=""0436211""","Non-High Needs",217,184,84.8
+"East Haven School District","=""0440011""","East Haven High School","=""0446111""","High Needs",88,66,75.0
+"East Haven School District","=""0440011""","East Haven High School","=""0446111""","Non-High Needs",202,187,92.6
+"East Lyme School District","=""0450011""","East Lyme High School","=""0456111""","High Needs",44,"*","*"
+"East Lyme School District","=""0450011""","East Lyme High School","=""0456111""","Non-High Needs",280,"*","*"
+"East Windsor School District","=""0470011""","East Windsor High School","=""0476111""","High Needs",37,27,73.0
+"East Windsor School District","=""0470011""","East Windsor High School","=""0476111""","Non-High Needs",56,49,87.5
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Arts at the Capitol Theater Magnet School (ACT)","=""2536014""","High Needs","*","*","*"
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Arts at the Capitol Theater Magnet School (ACT)","=""2536014""","Non-High Needs","*","*","*"
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Quinebaug Middle College","=""2536114""","High Needs",15,11,"*"
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Quinebaug Middle College","=""2536114""","Non-High Needs",25,19,76.0
+"Ellington School District","=""0480011""","Ellington High School","=""0486111""","High Needs",25,22,88.0
+"Ellington School District","=""0480011""","Ellington High School","=""0486111""","Non-High Needs",156,149,95.5
+"Enfield School District","=""0490011""","Enfield High School","=""0496111""","High Needs",73,42,57.5
+"Enfield School District","=""0490011""","Enfield High School","=""0496111""","Non-High Needs",169,152,89.9
+"Enfield School District","=""0490011""","Enrico Fermi High School","=""0496211""","High Needs",52,38,73.1
+"Enfield School District","=""0490011""","Enrico Fermi High School","=""0496211""","Non-High Needs",224,194,86.6
+"Explorations District","=""2720013""","Explorations","=""2726113""","High Needs",18,8,"*"
+"Explorations District","=""2720013""","Explorations","=""2726113""","Non-High Needs",16,10,"*"
+"Fairfield School District","=""0510011""","Fairfield Ludlowe High School","=""0516011""","High Needs",48,38,79.2
+"Fairfield School District","=""0510011""","Fairfield Ludlowe High School","=""0516011""","Non-High Needs",303,292,96.4
+"Fairfield School District","=""0510011""","Fairfield Warde High School","=""0516211""","High Needs",50,36,72.0
+"Fairfield School District","=""0510011""","Fairfield Warde High School","=""0516211""","Non-High Needs",251,246,98.0
+"Farmington School District","=""0520011""","Farmington High School","=""0526111""","High Needs",50,41,82.0
+"Farmington School District","=""0520011""","Farmington High School","=""0526111""","Non-High Needs",286,278,97.2
+"Glastonbury School District","=""0540011""","Glastonbury High School","=""0546111""","High Needs",84,75,89.3
+"Glastonbury School District","=""0540011""","Glastonbury High School","=""0546111""","Non-High Needs",458,454,99.1
+"Granby School District","=""0560011""","Granby Memorial High School","=""0566111""","High Needs",19,17,"*"
+"Granby School District","=""0560011""","Granby Memorial High School","=""0566111""","Non-High Needs",175,171,97.7
+"Greenwich School District","=""0570011""","Greenwich High School","=""0576111""","High Needs",135,113,83.7
+"Greenwich School District","=""0570011""","Greenwich High School","=""0576111""","Non-High Needs",496,484,97.6
+"Griswold School District","=""0580011""","Griswold High School","=""0586211""","High Needs",49,27,55.1
+"Griswold School District","=""0580011""","Griswold High School","=""0586211""","Non-High Needs",148,135,91.2
+"Groton School District","=""0590011""","Robert E. Fitch High School","=""0596111""","High Needs",116,75,64.7
+"Groton School District","=""0590011""","Robert E. Fitch High School","=""0596111""","Non-High Needs",214,194,90.7
+"Guilford School District","=""0600011""","Guilford High School","=""0606111""","High Needs",37,33,89.2
+"Guilford School District","=""0600011""","Guilford High School","=""0606111""","Non-High Needs",229,221,96.5
+"Hamden School District","=""0620011""","Hamden High School","=""0626111""","High Needs",184,132,71.7
+"Hamden School District","=""0620011""","Hamden High School","=""0626111""","Non-High Needs",388,352,90.7
+"Hartford School District","=""0640011""","Bulkeley High School Upper School","=""0647111""","High Needs",266,199,74.8
+"Hartford School District","=""0640011""","Bulkeley High School Upper School","=""0647111""","Non-High Needs",12,12,"*"
+"Hartford School District","=""0640011""","Capital Preparatory Magnet School","=""0646911""","High Needs",16,"*","*"
+"Hartford School District","=""0640011""","Capital Preparatory Magnet School","=""0646911""","Non-High Needs",15,"*","*"
+"Hartford School District","=""0640011""","Classical Magnet School","=""0646411""","High Needs",48,42,87.5
+"Hartford School District","=""0640011""","Classical Magnet School","=""0646411""","Non-High Needs",41,41,100.0
+"Hartford School District","=""0640011""","Culinary Arts Academy","=""0646011""","High Needs","*","*","*"
+"Hartford School District","=""0640011""","Culinary Arts Academy","=""0646011""","Non-High Needs","*","*","*"
+"Hartford School District","=""0640011""","HPHS Academy of Engineering and Green Technology","=""0647211""","High Needs",129,92,71.3
+"Hartford School District","=""0640011""","HPHS Academy of Nursing and Health Science","=""0647511""","High Needs","*","*","*"
+"Hartford School District","=""0640011""","HPHS Academy of Nursing and Health Science","=""0647511""","Non-High Needs","*","*","*"
+"Hartford School District","=""0640011""","HPHS Law and Government Academy","=""0647411""","High Needs","*","*","*"
+"Hartford School District","=""0640011""","HPHS Law and Government Academy","=""0647411""","Non-High Needs","*","*","*"
+"Hartford School District","=""0640011""","OPPortunity High School","=""0647811""","High Needs",46,"*","*"
+"Hartford School District","=""0640011""","OPPortunity High School","=""0647811""","Non-High Needs",7,"*","*"
+"Hartford School District","=""0640011""","Pathways Academy of Technology and Design","=""0646611""","High Needs",90,"*","*"
+"Hartford School District","=""0640011""","Pathways Academy of Technology and Design","=""0646611""","Non-High Needs",7,"*","*"
+"Hartford School District","=""0640011""","Sports and Medical Sciences Academy","=""0646511""","High Needs","*","*","*"
+"Hartford School District","=""0640011""","Sports and Medical Sciences Academy","=""0646511""","Non-High Needs","*","*","*"
+"Hartford School District","=""0640011""","University High of Science and Engineering","=""0646711""","High Needs",36,"*","*"
+"Hartford School District","=""0640011""","University High of Science and Engineering","=""0646711""","Non-High Needs",37,"*","*"
+"Hartford School District","=""0640011""","Weaver High School","=""0646311""","High Needs",170,"*","*"
+"Hartford School District","=""0640011""","Weaver High School","=""0646311""","Non-High Needs",9,"*","*"
+"Killingly School District","=""0690011""","Killingly High School","=""0696111""","High Needs",70,38,54.3
+"Killingly School District","=""0690011""","Killingly High School","=""0696111""","Non-High Needs",126,102,81.0
+"Lebanon School District","=""0710011""","Lyman Memorial High School","=""0716211""","High Needs",30,"*","*"
+"Lebanon School District","=""0710011""","Lyman Memorial High School","=""0716211""","Non-High Needs",128,"*","*"
+"Ledyard School District","=""0720011""","Ledyard High School","=""0726111""","High Needs",52,43,82.7
+"Ledyard School District","=""0720011""","Ledyard High School","=""0726111""","Non-High Needs",177,165,93.2
+"Lisbon School District","=""0730011""","Community Connection - The Big Picture High School","=""0736011""","High Needs","*","*","*"
+"Litchfield School District","=""0740011""","Litchfield High School","=""0746111""","High Needs",10,8,"*"
+"Litchfield School District","=""0740011""","Litchfield High School","=""0746111""","Non-High Needs",82,79,96.3
+"Madison School District","=""0760011""","Daniel Hand High School","=""0766111""","High Needs",35,"*","*"
+"Madison School District","=""0760011""","Daniel Hand High School","=""0766111""","Non-High Needs",280,"*","*"
+"Manchester School District","=""0770011""","Manchester High School","=""0776111""","High Needs",217,124,57.1
+"Manchester School District","=""0770011""","Manchester High School","=""0776111""","Non-High Needs",279,243,87.1
+"Meriden School District","=""0800011""","Francis T. Maloney High School","=""0806111""","High Needs",178,105,59.0
+"Meriden School District","=""0800011""","Francis T. Maloney High School","=""0806111""","Non-High Needs",140,123,87.9
+"Meriden School District","=""0800011""","Orville H. Platt High School","=""0806211""","High Needs",194,115,59.3
+"Meriden School District","=""0800011""","Orville H. Platt High School","=""0806211""","Non-High Needs",106,94,88.7
+"Middletown School District","=""0830011""","Middletown High School","=""0836211""","High Needs",133,80,60.2
+"Middletown School District","=""0830011""","Middletown High School","=""0836211""","Non-High Needs",209,187,89.5
+"Milford School District","=""0840011""","Jonathan Law High School","=""0846211""","High Needs",63,45,71.4
+"Milford School District","=""0840011""","Jonathan Law High School","=""0846211""","Non-High Needs",160,144,90.0
+"Milford School District","=""0840011""","Joseph A. Foran High School","=""0846311""","High Needs",63,49,77.8
+"Milford School District","=""0840011""","Joseph A. Foran High School","=""0846311""","Non-High Needs",202,192,95.0
+"Monroe School District","=""0850011""","Masuk High School","=""0856111""","High Needs",35,"*","*"
+"Monroe School District","=""0850011""","Masuk High School","=""0856111""","Non-High Needs",330,"*","*"
+"Montville School District","=""0860011""","Montville High School","=""0866111""","High Needs",48,40,83.3
+"Montville School District","=""0860011""","Montville High School","=""0866111""","Non-High Needs",147,129,87.8
+"Naugatuck School District","=""0880011""","Naugatuck High School","=""0886111""","High Needs",150,106,70.7
+"Naugatuck School District","=""0880011""","Naugatuck High School","=""0886111""","Non-High Needs",220,200,90.9
+"New Britain School District","=""0890011""","New Britain High School","=""0896111""","High Needs",526,248,47.1
+"New Britain School District","=""0890011""","New Britain High School","=""0896111""","Non-High Needs",203,133,65.5
+"New Canaan School District","=""0900011""","New Canaan High School","=""0906111""","High Needs",32,"*","*"
+"New Canaan School District","=""0900011""","New Canaan High School","=""0906111""","Non-High Needs",278,"*","*"
+"New Fairfield School District","=""0910011""","New Fairfield High School","=""0916111""","High Needs",33,25,75.8
+"New Fairfield School District","=""0910011""","New Fairfield High School","=""0916111""","Non-High Needs",208,194,93.3
+"New Haven School District","=""0930011""","Cooperative High School","=""0936411""","High Needs",67,52,77.6
+"New Haven School District","=""0930011""","Cooperative High School","=""0936411""","Non-High Needs",42,39,92.9
+"New Haven School District","=""0930011""","High School In The Community","=""0936611""","High Needs",49,29,59.2
+"New Haven School District","=""0930011""","High School In The Community","=""0936611""","Non-High Needs",27,17,63.0
+"New Haven School District","=""0930011""","Hill Regional Career High School","=""0936311""","High Needs",112,92,82.1
+"New Haven School District","=""0930011""","Hill Regional Career High School","=""0936311""","Non-High Needs",61,56,91.8
+"New Haven School District","=""0930011""","Hyde School of Health, Science and Sports Medicine","=""0936811""","High Needs",31,"*","*"
+"New Haven School District","=""0930011""","Hyde School of Health, Science and Sports Medicine","=""0936811""","Non-High Needs",9,"*","*"
+"New Haven School District","=""0930011""","James Hillhouse High School","=""0936211""","High Needs",245,123,50.2
+"New Haven School District","=""0930011""","James Hillhouse High School","=""0936211""","Non-High Needs",66,37,56.1
+"New Haven School District","=""0930011""","Metropolitan Business Academy","=""0936011""","High Needs",26,"*","*"
+"New Haven School District","=""0930011""","Metropolitan Business Academy","=""0936011""","Non-High Needs",7,"*","*"
+"New Haven School District","=""0930011""","New Haven Academy","=""0937011""","High Needs",50,30,60.0
+"New Haven School District","=""0930011""","New Haven Academy","=""0937011""","Non-High Needs",18,13,"*"
+"New Haven School District","=""0930011""","Sound School","=""0936711""","High Needs",28,24,85.7
+"New Haven School District","=""0930011""","Sound School","=""0936711""","Non-High Needs",35,31,88.6
+"New Haven School District","=""0930011""","Wilbur Cross High School","=""0936111""","High Needs",392,217,55.4
+"New Haven School District","=""0930011""","Wilbur Cross High School","=""0936111""","Non-High Needs",85,60,70.6
+"New London School District","=""0950011""","New London High School","=""0956111""","High Needs",183,104,56.8
+"New London School District","=""0950011""","New London High School","=""0956111""","Non-High Needs",72,59,81.9
+"New Milford School District","=""0960011""","New Milford High School","=""0966111""","High Needs",79,55,69.6
+"New Milford School District","=""0960011""","New Milford High School","=""0966111""","Non-High Needs",314,291,92.7
+"Newington School District","=""0940011""","Newington High School","=""0946111""","High Needs",95,64,67.4
+"Newington School District","=""0940011""","Newington High School","=""0946111""","Non-High Needs",314,282,89.8
+"Newtown School District","=""0970011""","Newtown High School","=""0976111""","High Needs",55,47,85.5
+"Newtown School District","=""0970011""","Newtown High School","=""0976111""","Non-High Needs",389,371,95.4
+"North Branford School District","=""0990011""","North Branford High School","=""0996111""","High Needs",41,"*","*"
+"North Branford School District","=""0990011""","North Branford High School","=""0996111""","Non-High Needs",153,"*","*"
+"North Haven School District","=""1010011""","North Haven High School","=""1016111""","High Needs",58,49,84.5
+"North Haven School District","=""1010011""","North Haven High School","=""1016111""","Non-High Needs",245,218,89.0
+"North Stonington School District","=""1020011""","Wheeler High School","=""1026111""","High Needs",18,"*","*"
+"North Stonington School District","=""1020011""","Wheeler High School","=""1026111""","Non-High Needs",49,"*","*"
+"Norwalk School District","=""1030011""","Brien McMahon High School","=""1036211""","High Needs",196,154,78.6
+"Norwalk School District","=""1030011""","Brien McMahon High School","=""1036211""","Non-High Needs",255,240,94.1
+"Norwalk School District","=""1030011""","Norwalk High School","=""1036111""","High Needs",139,109,78.4
+"Norwalk School District","=""1030011""","Norwalk High School","=""1036111""","Non-High Needs",250,223,89.2
+"Norwalk School District","=""1030011""","Norwalk Pathways Academy at Briggs","=""1036311""","High Needs",31,18,58.1
+"Norwalk School District","=""1030011""","Norwalk Pathways Academy at Briggs","=""1036311""","Non-High Needs",21,11,52.4
+"Norwich Free Academy District","=""9010022""","Norwich Free Academy","=""9016122""","High Needs",216,162,75.0
+"Norwich Free Academy District","=""9010022""","Norwich Free Academy","=""9016122""","Non-High Needs",400,350,87.5
+"Norwich School District","=""1040011""","Thames River Academy","=""1046111""","High Needs",16,"*","*"
+"Norwich School District","=""1040011""","Thames River Academy","=""1046111""","Non-High Needs",9,"*","*"
+"Old Saybrook School District","=""1060011""","Old Saybrook Senior High School","=""1066111""","High Needs",15,11,"*"
+"Old Saybrook School District","=""1060011""","Old Saybrook Senior High School","=""1066111""","Non-High Needs",106,103,97.2
+"Oxford School District","=""1080011""","Oxford High School","=""1086011""","High Needs",15,13,"*"
+"Oxford School District","=""1080011""","Oxford High School","=""1086011""","Non-High Needs",139,134,96.4
+"Plainfield School District","=""1090011""","Plainfield High School","=""1096111""","High Needs",68,51,75.0
+"Plainfield School District","=""1090011""","Plainfield High School","=""1096111""","Non-High Needs",158,145,91.8
+"Plainville School District","=""1100011""","Plainville High School","=""1106111""","High Needs",52,40,76.9
+"Plainville School District","=""1100011""","Plainville High School","=""1106111""","Non-High Needs",180,166,92.2
+"Plymouth School District","=""1110011""","Terryville High School","=""1116111""","High Needs",22,16,72.7
+"Plymouth School District","=""1110011""","Terryville High School","=""1116111""","Non-High Needs",113,108,95.6
+"Portland School District","=""1130011""","Portland High School","=""1136111""","High Needs",19,12,"*"
+"Portland School District","=""1130011""","Portland High School","=""1136111""","Non-High Needs",78,69,88.5
+"Putnam School District","=""1160011""","Putnam High School","=""1166111""","High Needs",37,27,73.0
+"Putnam School District","=""1160011""","Putnam High School","=""1166111""","Non-High Needs",37,32,86.5
+"Regional School District 01","=""2010012""","Housatonic Valley Regional High School","=""2016112""","High Needs",30,22,73.3
+"Regional School District 01","=""2010012""","Housatonic Valley Regional High School","=""2016112""","Non-High Needs",107,92,86.0
+"Regional School District 04","=""2040012""","Valley Regional High School","=""2046112""","High Needs",32,21,65.6
+"Regional School District 04","=""2040012""","Valley Regional High School","=""2046112""","Non-High Needs",137,129,94.2
+"Regional School District 05","=""2050012""","Amity Regional High School","=""2056112""","High Needs",55,44,80.0
+"Regional School District 05","=""2050012""","Amity Regional High School","=""2056112""","Non-High Needs",351,334,95.2
+"Regional School District 06","=""2060012""","Wamogo Regional High School","=""2066112""","High Needs",25,22,88.0
+"Regional School District 06","=""2060012""","Wamogo Regional High School","=""2066112""","Non-High Needs",78,69,88.5
+"Regional School District 07","=""2070012""","Northwestern Regional High School","=""2076112""","High Needs",28,"*","*"
+"Regional School District 07","=""2070012""","Northwestern Regional High School","=""2076112""","Non-High Needs",162,"*","*"
+"Regional School District 08","=""2080012""","RHAM High School","=""2086112""","High Needs",36,20,55.6
+"Regional School District 08","=""2080012""","RHAM High School","=""2086112""","Non-High Needs",230,205,89.1
+"Regional School District 09","=""2090012""","Joel Barlow High School","=""2096112""","High Needs",39,"*","*"
+"Regional School District 09","=""2090012""","Joel Barlow High School","=""2096112""","Non-High Needs",181,"*","*"
+"Regional School District 10","=""2100012""","Lewis S. Mills High School","=""2106112""","High Needs",21,17,81.0
+"Regional School District 10","=""2100012""","Lewis S. Mills High School","=""2106112""","Non-High Needs",154,152,98.7
+"Regional School District 11","=""2110012""","Parish Hill High School","=""2116112""","High Needs",7,"*","*"
+"Regional School District 11","=""2110012""","Parish Hill High School","=""2116112""","Non-High Needs",28,"*","*"
+"Regional School District 12","=""2120012""","Shepaug Valley High School","=""2126112""","High Needs",14,12,"*"
+"Regional School District 12","=""2120012""","Shepaug Valley High School","=""2126112""","Non-High Needs",79,68,86.1
+"Regional School District 13","=""2130012""","Coginchaug Regional High School","=""2136112""","High Needs",19,15,"*"
+"Regional School District 13","=""2130012""","Coginchaug Regional High School","=""2136112""","Non-High Needs",120,115,95.8
+"Regional School District 14","=""2140012""","Nonnewaug High School","=""2146112""","High Needs",33,28,84.8
+"Regional School District 14","=""2140012""","Nonnewaug High School","=""2146112""","Non-High Needs",184,178,96.7
+"Regional School District 15","=""2150012""","Pomperaug Regional High School","=""2156212""","High Needs",53,41,77.4
+"Regional School District 15","=""2150012""","Pomperaug Regional High School","=""2156212""","Non-High Needs",335,316,94.3
+"Regional School District 16","=""2160012""","Woodland Regional High School","=""2166012""","High Needs",35,23,65.7
+"Regional School District 16","=""2160012""","Woodland Regional High School","=""2166012""","Non-High Needs",161,150,93.2
+"Regional School District 17","=""2170012""","Haddam-Killingworth High School","=""2176112""","High Needs",25,"*","*"
+"Regional School District 17","=""2170012""","Haddam-Killingworth High School","=""2176112""","Non-High Needs",156,"*","*"
+"Regional School District 18","=""2180012""","Lyme-Old Lyme High School","=""2186112""","High Needs",16,"*","*"
+"Regional School District 18","=""2180012""","Lyme-Old Lyme High School","=""2186112""","Non-High Needs",117,"*","*"
+"Regional School District 19","=""2190012""","E. O. Smith High School","=""2196112""","High Needs",52,30,57.7
+"Regional School District 19","=""2190012""","E. O. Smith High School","=""2196112""","Non-High Needs",231,205,88.7
+"Ridgefield School District","=""1180011""","Ridgefield High School","=""1186111""","High Needs",54,48,88.9
+"Ridgefield School District","=""1180011""","Ridgefield High School","=""1186111""","Non-High Needs",376,367,97.6
+"Rocky Hill School District","=""1190011""","Rocky Hill High School","=""1196111""","High Needs",17,"*","*"
+"Rocky Hill School District","=""1190011""","Rocky Hill High School","=""1196111""","Non-High Needs",159,"*","*"
+"Seymour School District","=""1240011""","Seymour High School","=""1246111""","High Needs",45,27,60.0
+"Seymour School District","=""1240011""","Seymour High School","=""1246111""","Non-High Needs",143,129,90.2
+"Shelton School District","=""1260011""","Shelton High School","=""1266111""","High Needs",84,62,73.8
+"Shelton School District","=""1260011""","Shelton High School","=""1266111""","Non-High Needs",312,289,92.6
+"Simsbury School District","=""1280011""","Simsbury High School","=""1286111""","High Needs",49,44,89.8
+"Simsbury School District","=""1280011""","Simsbury High School","=""1286111""","Non-High Needs",307,295,96.1
+"Somers School District","=""1290011""","Somers High School","=""1296111""","High Needs",17,14,"*"
+"Somers School District","=""1290011""","Somers High School","=""1296111""","Non-High Needs",127,123,96.9
+"South Windsor School District","=""1320011""","South Windsor High School","=""1326211""","High Needs",63,49,77.8
+"South Windsor School District","=""1320011""","South Windsor High School","=""1326211""","Non-High Needs",352,332,94.3
+"Southington School District","=""1310011""","Southington High School","=""1316211""","High Needs",89,72,80.9
+"Southington School District","=""1310011""","Southington High School","=""1316211""","Non-High Needs",451,422,93.6
+"Stafford School District","=""1340011""","Stafford High School","=""1346111""","High Needs",33,19,57.6
+"Stafford School District","=""1340011""","Stafford High School","=""1346111""","Non-High Needs",102,83,81.4
+"Stamford Academy District","=""2820013""","Stamford Academy","=""2826013""","High Needs",46,"*","*"
+"Stamford Academy District","=""2820013""","Stamford Academy","=""2826013""","Non-High Needs",9,"*","*"
+"Stamford School District","=""1350011""","Stamford High School","=""1356111""","High Needs",212,170,80.2
+"Stamford School District","=""1350011""","Stamford High School","=""1356111""","Non-High Needs",228,206,90.4
+"Stamford School District","=""1350011""","The Academy of Information Technology","=""1356411""","High Needs",45,41,91.1
+"Stamford School District","=""1350011""","The Academy of Information Technology","=""1356411""","Non-High Needs",98,93,94.9
+"Stamford School District","=""1350011""","Westhill High School","=""1356311""","High Needs",303,234,77.2
+"Stamford School District","=""1350011""","Westhill High School","=""1356311""","Non-High Needs",289,266,92.0
+"Stonington School District","=""1370011""","Stonington High School","=""1376111""","High Needs",41,"*","*"
+"Stonington School District","=""1370011""","Stonington High School","=""1376111""","Non-High Needs",169,"*","*"
+"Stratford School District","=""1380011""","Bunnell High School","=""1386211""","High Needs",101,76,75.2
+"Stratford School District","=""1380011""","Bunnell High School","=""1386211""","Non-High Needs",228,215,94.3
+"Stratford School District","=""1380011""","Stratford High School","=""1386111""","High Needs",117,103,88.0
+"Stratford School District","=""1380011""","Stratford High School","=""1386111""","Non-High Needs",126,114,90.5
+"Suffield School District","=""1390011""","Suffield High School","=""1396111""","High Needs",22,20,90.9
+"Suffield School District","=""1390011""","Suffield High School","=""1396111""","Non-High Needs",192,184,95.8
+"The Bridge Academy District","=""2690013""","The Bridge Academy","=""2696113""","High Needs","*","*","*"
+"The Bridge Academy District","=""2690013""","The Bridge Academy","=""2696113""","Non-High Needs","*","*","*"
+"The Gilbert School District","=""9020022""","The Gilbert School","=""9026122""","High Needs",23,16,69.6
+"The Gilbert School District","=""9020022""","The Gilbert School","=""9026122""","Non-High Needs",47,42,89.4
+"Thomaston School District","=""1400011""","Thomaston High School","=""1406211""","High Needs",33,28,84.8
+"Thomaston School District","=""1400011""","Thomaston High School","=""1406211""","Non-High Needs",70,67,95.7
+"Thompson School District","=""1410011""","Tourtellotte Memorial High School","=""1416111""","High Needs",19,12,"*"
+"Thompson School District","=""1410011""","Tourtellotte Memorial High School","=""1416111""","Non-High Needs",75,71,94.7
+"Tolland School District","=""1420011""","Tolland High School","=""1426111""","High Needs",16,"*","*"
+"Tolland School District","=""1420011""","Tolland High School","=""1426111""","Non-High Needs",206,"*","*"
+"Torrington School District","=""1430011""","Torrington High School","=""1436111""","High Needs",91,50,54.9
+"Torrington School District","=""1430011""","Torrington High School","=""1436111""","Non-High Needs",187,167,89.3
+"Trumbull School District","=""1440011""","Trumbull High School","=""1446111""","High Needs",57,"*","*"
+"Trumbull School District","=""1440011""","Trumbull High School","=""1446111""","Non-High Needs",445,"*","*"
+"Vernon School District","=""1460011""","Rockville High School","=""1466111""","High Needs",83,56,67.5
+"Vernon School District","=""1460011""","Rockville High School","=""1466111""","Non-High Needs",203,181,89.2
+"Wallingford School District","=""1480011""","Lyman Hall High School","=""1486111""","High Needs",72,57,79.2
+"Wallingford School District","=""1480011""","Lyman Hall High School","=""1486111""","Non-High Needs",228,207,90.8
+"Wallingford School District","=""1480011""","Mark T. Sheehan High School","=""1486211""","High Needs",37,24,64.9
+"Wallingford School District","=""1480011""","Mark T. Sheehan High School","=""1486211""","Non-High Needs",218,198,90.8
+"Waterbury School District","=""1510011""","Crosby High School","=""1516211""","High Needs",334,199,59.6
+"Waterbury School District","=""1510011""","Crosby High School","=""1516211""","Non-High Needs",88,58,65.9
+"Waterbury School District","=""1510011""","John F. Kennedy High School","=""1516411""","High Needs",239,157,65.7
+"Waterbury School District","=""1510011""","John F. Kennedy High School","=""1516411""","Non-High Needs",120,104,86.7
+"Waterbury School District","=""1510011""","Waterbury Arts Magnet School (High)","=""1516011""","High Needs",59,57,96.6
+"Waterbury School District","=""1510011""","Waterbury Arts Magnet School (High)","=""1516011""","Non-High Needs",57,55,96.5
+"Waterbury School District","=""1510011""","Wilby High School","=""1516311""","High Needs",265,161,60.8
+"Waterbury School District","=""1510011""","Wilby High School","=""1516311""","Non-High Needs",75,51,68.0
+"Waterford School District","=""1520011""","Waterford High School","=""1526111""","High Needs",33,27,81.8
+"Waterford School District","=""1520011""","Waterford High School","=""1526111""","Non-High Needs",237,221,93.2
+"Watertown School District","=""1530011""","Watertown High School","=""1536111""","High Needs",51,35,68.6
+"Watertown School District","=""1530011""","Watertown High School","=""1536111""","Non-High Needs",195,181,92.8
+"West Hartford School District","=""1550011""","Conard High School","=""1556111""","High Needs",105,73,69.5
+"West Hartford School District","=""1550011""","Conard High School","=""1556111""","Non-High Needs",302,287,95.0
+"West Hartford School District","=""1550011""","Hall High School","=""1556211""","High Needs",98,83,84.7
+"West Hartford School District","=""1550011""","Hall High School","=""1556211""","Non-High Needs",308,303,98.4
+"West Haven School District","=""1560011""","West Haven High School","=""1566111""","High Needs",223,134,60.1
+"West Haven School District","=""1560011""","West Haven High School","=""1566111""","Non-High Needs",228,179,78.5
+"Westbrook School District","=""1540011""","Westbrook High School","=""1546111""","High Needs",10,"*","*"
+"Westbrook School District","=""1540011""","Westbrook High School","=""1546111""","Non-High Needs",65,"*","*"
+"Weston School District","=""1570011""","Weston High School","=""1576111""","High Needs",12,"*","*"
+"Weston School District","=""1570011""","Weston High School","=""1576111""","Non-High Needs",180,"*","*"
+"Westport School District","=""1580011""","Staples High School","=""1586111""","High Needs",53,50,94.3
+"Westport School District","=""1580011""","Staples High School","=""1586111""","Non-High Needs",410,405,98.8
+"Wethersfield School District","=""1590011""","Wethersfield High School","=""1596111""","High Needs",59,45,76.3
+"Wethersfield School District","=""1590011""","Wethersfield High School","=""1596111""","Non-High Needs",242,232,95.9
+"Wilton School District","=""1610011""","Wilton High School","=""1616111""","High Needs",27,"*","*"
+"Wilton School District","=""1610011""","Wilton High School","=""1616111""","Non-High Needs",276,"*","*"
+"Windham School District","=""1630011""","Windham High School","=""1636111""","High Needs",155,73,47.1
+"Windham School District","=""1630011""","Windham High School","=""1636111""","Non-High Needs",98,85,86.7
+"Windsor Locks School District","=""1650011""","Windsor Locks High School","=""1656111""","High Needs",34,24,70.6
+"Windsor Locks School District","=""1650011""","Windsor Locks High School","=""1656111""","Non-High Needs",100,91,91.0
+"Windsor School District","=""1640011""","Windsor High School","=""1646111""","High Needs",120,90,75.0
+"Windsor School District","=""1640011""","Windsor High School","=""1646111""","Non-High Needs",228,203,89.0
+"Wolcott School District","=""1660011""","Wolcott High School","=""1666111""","High Needs",50,41,82.0
+"Wolcott School District","=""1660011""","Wolcott High School","=""1666111""","Non-High Needs",174,168,96.6
+"Woodstock Academy District","=""9030022""","Woodstock Academy","=""9036122""","High Needs",35,33,94.3
+"Woodstock Academy District","=""9030022""","Woodstock Academy","=""9036122""","Non-High Needs",264,249,94.3
 

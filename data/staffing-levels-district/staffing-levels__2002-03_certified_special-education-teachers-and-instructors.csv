@@ -1,160 +1,187 @@
+"FTE Staffing Report for 2002-03"
 
-
-
-
-
-
-
-
-
-<!DOCTYPE html>
-
-
-
-
-
-<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
-    
-
-
-<head>
-    <meta charset="UTF-8" />
-    <title>
-    	
-    		
-    		
-    			SAS&reg; Logon Manager
-    		
-    	
-    </title>
-    <link type="text/css" rel="stylesheet" href="themes/default/css/bootstrap.css" />
-    <link type="text/css" rel="stylesheet" href="themes/default/css/sas.css" />
-</head>
-
-
-
-<body id="cas">
-	<div id="page">
-		
-
-<div class="banner row">
-    <div class="about">
-        <ul class="unstyled"><li>
-            <a href="#about-modal" data-toggle="modal">
-                About
-            </a>
-        </li></ul>
-    </div>
-    <div id="about-modal" class="modal hide fade">
-        <div class="modal-header">
-            <a href="#" class="close" data-dismiss="modal">&times;</a>
-            <h3>About</h3>
-        </div>
-        <div class="modal-body">
-            <p>Version: 9.4</p>
-            <h4>Copyright Information</h4>
-            <p align="center">
-Copyright (c) 2002 - 2013 by SAS Institute Inc., Cary, NC, USA<br/>
-All rights reserved.<br/>
-<br/>
-This software is protected by copyright laws and international treaties.<br/>
-<br/>
-U.S. GOVERNMENT RESTRICTED RIGHTS<br/>
-Use, duplication, or disclosure of this software and related<br/>
-documentation by the U.S. government is subject to the<br/>
-Agreement with SAS Institute and the restrictions set forth<br/>
-in FAR 52.227-19, Commercial Computer Software<br/>
-- Restricted Rights (June 1987).
-            </p>
-        </div>
-    </div>
-    <div class="header">
-        <div class="title">
-        	<h1>
-        		
-		    		
-		    		
-		    			Sign In to SAS<sup>&reg;</sup>
-		    		
-    			
-        	</h1>
-       	</div>
-        <div class="logo"><img src="themes/default/images/logo.png" /></div>
-    </div>
-</div>
-
-
-		<div class="content row">
-			
-                <form id="fm1" class="form-stacked" onSubmit="return setSubmitUrl(this);" action="/SASLogon/login;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=CA4A93311664F6E899373E457043C494.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1?service=http://edsight.ct.gov/SASStoredProcess/j_spring_cas_security_check" method="post">
-				<fieldset>
-					
-					
-					
-                        <legend>Sign In to SAS<sup>&reg;</sup></legend>
-					<div class="clearfix">
-                            <label for="username"><span class="accesskey">U</span>ser ID:</label>
-						
-							
-							
-                                    
-                                    <input id="username" name="username" class="required" tabindex="1" accesskey="u" type="text" value="" size="25" autocomplete="off"/>
-							
-						
-					</div>
-					<div class="clearfix">
-                            <label for="password"><span class="accesskey">P</span>assword:</label>
-						
-                            
-                            <input id="password" name="password" class="required" tabindex="2" accesskey="p" type="password" value="" size="25" autocomplete="off"/>
-					</div>
-				</fieldset>
-				<input type="hidden" name="lt" value="LT-4252-5BCiYCDwdg09xv3peUFyljTBBfnpvd" />
-				<input type="hidden" name="execution" value="e1s1" />
-				<input type="hidden" name="_eventId" value="submit" />
-                    <div class="submitb"><input id="Logon" type="submit" value="Sign In" onClick="this.disabled=true;this.form.submit();" tabindex="3" /></div>
-			</form>
-			
-				<div class="customizations" id="custom-logon-message">
-                  	
-
-
-<p>
-
-</p>
-
-
- 
- 
-				</div>
-			
-
-			<div class="copyright">
-				Copyright &copy; 2002 - 2013 by SAS Institute Inc., Cary, NC USA
-			</div>
-		</div>
-	</div>
-	
-<script type="text/javascript" src="/SASLogon/js/jquery.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=CA4A93311664F6E899373E457043C494.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-<script type="text/javascript" src="/SASLogon/js/bootstrap-modal.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=CA4A93311664F6E899373E457043C494.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-
-	<script type="text/javascript">
-            $("#username").focus();
-            
-            function setSubmitUrl(form)
-            {
-            	var urlHash = decodeURIComponent(window.location.hash);
-            	
-            	if (urlHash && urlHash.indexOf("#") === -1)
-            		urlHash = "#" + urlHash;
-            	
-            	form.action = form.action + urlHash;
-            	return true;
-            }
-    </script>
-</body>
-
-</html>
-
-
+"District","Assignment Category","Educator Type","FTE Count"
+"Amistad Academy District","Special Education - Teachers and Instructors","Certified",1.0
+="Andover School District",="Special Education - Teachers and Instructors",="Certified",3.0
+="Ansonia School District",="Special Education - Teachers and Instructors",="Certified",18.0
+="Area Cooperative Educational Services",="Special Education - Teachers and Instructors",="Certified",90.4
+="Ashford School District",="Special Education - Teachers and Instructors",="Certified",6.0
+="Avon School District",="Special Education - Teachers and Instructors",="Certified",17.0
+="Barkhamsted School District",="Special Education - Teachers and Instructors",="Certified",2.0
+="Berlin School District",="Special Education - Teachers and Instructors",="Certified",27.2
+="Bethany School District",="Special Education - Teachers and Instructors",="Certified",3.0
+="Bethel School District",="Special Education - Teachers and Instructors",="Certified",27.7
+="Bloomfield School District",="Special Education - Teachers and Instructors",="Certified",30.5
+="Bolton School District",="Special Education - Teachers and Instructors",="Certified",6.0
+="Bozrah School District",="Special Education - Teachers and Instructors",="Certified",3.5
+="Branford School District",="Special Education - Teachers and Instructors",="Certified",31.8
+="Bridgeport School District",="Special Education - Teachers and Instructors",="Certified",216.0
+="Bristol School District",="Special Education - Teachers and Instructors",="Certified",67.7
+="Brookfield School District",="Special Education - Teachers and Instructors",="Certified",17.8
+="Brooklyn School District",="Special Education - Teachers and Instructors",="Certified",7.0
+="Canaan School District",="Special Education - Teachers and Instructors",="Certified",1.0
+="Canterbury School District",="Special Education - Teachers and Instructors",="Certified",5.0
+="Canton School District",="Special Education - Teachers and Instructors",="Certified",10.0
+="Capitol Region Education Council",="Special Education - Teachers and Instructors",="Certified",71.3
+="Chaplin School District",="Special Education - Teachers and Instructors",="Certified",2.8
+="Cheshire School District",="Special Education - Teachers and Instructors",="Certified",45.2
+="Chester School District",="Special Education - Teachers and Instructors",="Certified",4.6
+="Clinton School District",="Special Education - Teachers and Instructors",="Certified",25.4
+="Colchester School District",="Special Education - Teachers and Instructors",="Certified",26.0
+="Colebrook School District",="Special Education - Teachers and Instructors",="Certified",1.0
+="Columbia School District",="Special Education - Teachers and Instructors",="Certified",5.0
+="Connecticut Technical High School System",="Special Education - Teachers and Instructors",="Certified",70.1
+="Cooperative Educational Services",="Special Education - Teachers and Instructors",="Certified",44.3
+="Cornwall School District",="Special Education - Teachers and Instructors",="Certified",2.0
+="Coventry School District",="Special Education - Teachers and Instructors",="Certified",18.0
+="Cromwell School District",="Special Education - Teachers and Instructors",="Certified",20.0
+="Danbury School District",="Special Education - Teachers and Instructors",="Certified",89.4
+="Darien School District",="Special Education - Teachers and Instructors",="Certified",35.3
+="Deep River School District",="Special Education - Teachers and Instructors",="Certified",5.0
+="Derby School District",="Special Education - Teachers and Instructors",="Certified",11.0
+="East Granby School District",="Special Education - Teachers and Instructors",="Certified",6.0
+="East Haddam School District",="Special Education - Teachers and Instructors",="Certified",14.0
+="East Hampton School District",="Special Education - Teachers and Instructors",="Certified",22.1
+="East Hartford School District",="Special Education - Teachers and Instructors",="Certified",74.6
+="East Haven School District",="Special Education - Teachers and Instructors",="Certified",23.6
+="East Lyme School District",="Special Education - Teachers and Instructors",="Certified",28.3
+="East Windsor School District",="Special Education - Teachers and Instructors",="Certified",9.0
+="Eastern Connecticut Regional Educational Service Center (EASTCONN)",="Special Education - Teachers and Instructors",="Certified",17.4
+="Eastford School District",="Special Education - Teachers and Instructors",="Certified",2.0
+="Easton School District",="Special Education - Teachers and Instructors",="Certified",8.6
+="EdAdvance",="Special Education - Teachers and Instructors",="Certified",9.0
+="Ellington School District",="Special Education - Teachers and Instructors",="Certified",20.7
+="Enfield School District",="Special Education - Teachers and Instructors",="Certified",60.8
+="Essex School District",="Special Education - Teachers and Instructors",="Certified",4.0
+="Fairfield School District",="Special Education - Teachers and Instructors",="Certified",89.9
+="Farmington School District",="Special Education - Teachers and Instructors",="Certified",20.2
+="Franklin School District",="Special Education - Teachers and Instructors",="Certified",3.0
+="Glastonbury School District",="Special Education - Teachers and Instructors",="Certified",44.8
+="Granby School District",="Special Education - Teachers and Instructors",="Certified",18.0
+="Greenwich School District",="Special Education - Teachers and Instructors",="Certified",81.2
+="Griswold School District",="Special Education - Teachers and Instructors",="Certified",22.0
+="Groton School District",="Special Education - Teachers and Instructors",="Certified",53.2
+="Guilford School District",="Special Education - Teachers and Instructors",="Certified",33.2
+="Hamden School District",="Special Education - Teachers and Instructors",="Certified",54.0
+="Hampton School District",="Special Education - Teachers and Instructors",="Certified",1.0
+="Hartford School District",="Special Education - Teachers and Instructors",="Certified",282.9
+="Hartland School District",="Special Education - Teachers and Instructors",="Certified",2.5
+="Hebron School District",="Special Education - Teachers and Instructors",="Certified",6.9
+="Integrated Day Charter School District",="Special Education - Teachers and Instructors",="Certified",1.0
+="Interdistrict School for Arts and Comm District",="Special Education - Teachers and Instructors",="Certified",2.0
+="Jumoke Academy District",="Special Education - Teachers and Instructors",="Certified",0.8
+="Kent School District",="Special Education - Teachers and Instructors",="Certified",3.0
+="Killingly School District",="Special Education - Teachers and Instructors",="Certified",24.0
+="Learn",="Special Education - Teachers and Instructors",="Certified",22.0
+="Lebanon School District",="Special Education - Teachers and Instructors",="Certified",11.0
+="Ledyard School District",="Special Education - Teachers and Instructors",="Certified",24.2
+="Lisbon School District",="Special Education - Teachers and Instructors",="Certified",4.9
+="Litchfield School District",="Special Education - Teachers and Instructors",="Certified",8.0
+="Madison School District",="Special Education - Teachers and Instructors",="Certified",14.5
+="Manchester School District",="Special Education - Teachers and Instructors",="Certified",67.6
+="Mansfield School District",="Special Education - Teachers and Instructors",="Certified",16.0
+="Marlborough School District",="Special Education - Teachers and Instructors",="Certified",5.0
+="Meriden School District",="Special Education - Teachers and Instructors",="Certified",80.4
+="Middletown School District",="Special Education - Teachers and Instructors",="Certified",50.7
+="Milford School District",="Special Education - Teachers and Instructors",="Certified",76.3
+="Monroe School District",="Special Education - Teachers and Instructors",="Certified",33.0
+="Montville School District",="Special Education - Teachers and Instructors",="Certified",34.6
+="Naugatuck School District",="Special Education - Teachers and Instructors",="Certified",42.2
+="New Britain School District",="Special Education - Teachers and Instructors",="Certified",122.5
+="New Canaan School District",="Special Education - Teachers and Instructors",="Certified",28.3
+="New Fairfield School District",="Special Education - Teachers and Instructors",="Certified",26.8
+="New Hartford School District",="Special Education - Teachers and Instructors",="Certified",4.5
+="New Haven School District",="Special Education - Teachers and Instructors",="Certified",195.6
+="New London School District",="Special Education - Teachers and Instructors",="Certified",46.0
+="New Milford School District",="Special Education - Teachers and Instructors",="Certified",41.5
+="Newington School District",="Special Education - Teachers and Instructors",="Certified",29.5
+="Newtown School District",="Special Education - Teachers and Instructors",="Certified",26.0
+="Norfolk School District",="Special Education - Teachers and Instructors",="Certified",1.0
+="North Branford School District",="Special Education - Teachers and Instructors",="Certified",17.6
+="North Canaan School District",="Special Education - Teachers and Instructors",="Certified",4.0
+="North Haven School District",="Special Education - Teachers and Instructors",="Certified",30.4
+="North Stonington School District",="Special Education - Teachers and Instructors",="Certified",11.0
+="Norwalk School District",="Special Education - Teachers and Instructors",="Certified",89.1
+="Norwich Free Academy District",="Special Education - Teachers and Instructors",="Certified",21.0
+="Norwich School District",="Special Education - Teachers and Instructors",="Certified",34.0
+="Odyssey Community School District",="Special Education - Teachers and Instructors",="Certified",1.0
+="Office of Early Childhood (OEC)",="Special Education - Teachers and Instructors",="Certified",62.6
+="Old Saybrook School District",="Special Education - Teachers and Instructors",="Certified",16.8
+="Orange School District",="Special Education - Teachers and Instructors",="Certified",9.5
+="Oxford School District",="Special Education - Teachers and Instructors",="Certified",10.0
+="Plainfield School District",="Special Education - Teachers and Instructors",="Certified",26.0
+="Plainville School District",="Special Education - Teachers and Instructors",="Certified",21.5
+="Plymouth School District",="Special Education - Teachers and Instructors",="Certified",17.0
+="Pomfret School District",="Special Education - Teachers and Instructors",="Certified",3.9
+="Portland School District",="Special Education - Teachers and Instructors",="Certified",13.0
+="Preston School District",="Special Education - Teachers and Instructors",="Certified",4.0
+="Putnam School District",="Special Education - Teachers and Instructors",="Certified",16.0
+="Redding School District",="Special Education - Teachers and Instructors",="Certified",9.3
+="Regional School District 01",="Special Education - Teachers and Instructors",="Certified",6.0
+="Regional School District 04",="Special Education - Teachers and Instructors",="Certified",8.0
+="Regional School District 05",="Special Education - Teachers and Instructors",="Certified",14.6
+="Regional School District 06",="Special Education - Teachers and Instructors",="Certified",8.0
+="Regional School District 07",="Special Education - Teachers and Instructors",="Certified",15.1
+="Regional School District 08",="Special Education - Teachers and Instructors",="Certified",15.0
+="Regional School District 09",="Special Education - Teachers and Instructors",="Certified",6.7
+="Regional School District 10",="Special Education - Teachers and Instructors",="Certified",22.5
+="Regional School District 11",="Special Education - Teachers and Instructors",="Certified",7.0
+="Regional School District 12",="Special Education - Teachers and Instructors",="Certified",11.4
+="Regional School District 13",="Special Education - Teachers and Instructors",="Certified",18.2
+="Regional School District 14",="Special Education - Teachers and Instructors",="Certified",17.4
+="Regional School District 15",="Special Education - Teachers and Instructors",="Certified",39.0
+="Regional School District 16",="Special Education - Teachers and Instructors",="Certified",14.0
+="Regional School District 17",="Special Education - Teachers and Instructors",="Certified",22.7
+="Regional School District 18",="Special Education - Teachers and Instructors",="Certified",17.6
+="Regional School District 19",="Special Education - Teachers and Instructors",="Certified",12.5
+="Ridgefield School District",="Special Education - Teachers and Instructors",="Certified",30.0
+="Rocky Hill School District",="Special Education - Teachers and Instructors",="Certified",18.5
+="Salem School District",="Special Education - Teachers and Instructors",="Certified",6.0
+="Salisbury School District",="Special Education - Teachers and Instructors",="Certified",3.0
+="Scotland School District",="Special Education - Teachers and Instructors",="Certified",2.6
+="Seymour School District",="Special Education - Teachers and Instructors",="Certified",25.0
+="Sharon School District",="Special Education - Teachers and Instructors",="Certified",3.0
+="Shelton School District",="Special Education - Teachers and Instructors",="Certified",42.7
+="Sherman School District",="Special Education - Teachers and Instructors",="Certified",4.4
+="Simsbury School District",="Special Education - Teachers and Instructors",="Certified",36.2
+="Somers School District",="Special Education - Teachers and Instructors",="Certified",15.0
+="South Windsor School District",="Special Education - Teachers and Instructors",="Certified",37.7
+="Southington School District",="Special Education - Teachers and Instructors",="Certified",57.2
+="Sprague School District",="Special Education - Teachers and Instructors",="Certified",6.0
+="Stafford School District",="Special Education - Teachers and Instructors",="Certified",20.8
+="Stamford School District",="Special Education - Teachers and Instructors",="Certified",143.6
+="Sterling School District",="Special Education - Teachers and Instructors",="Certified",4.0
+="Stonington School District",="Special Education - Teachers and Instructors",="Certified",25.4
+="Stratford School District",="Special Education - Teachers and Instructors",="Certified",56.7
+="Suffield School District",="Special Education - Teachers and Instructors",="Certified",16.5
+="The Gilbert School District",="Special Education - Teachers and Instructors",="Certified",4.5
+="Thomaston School District",="Special Education - Teachers and Instructors",="Certified",12.0
+="Thompson School District",="Special Education - Teachers and Instructors",="Certified",9.8
+="Tolland School District",="Special Education - Teachers and Instructors",="Certified",24.5
+="Torrington School District",="Special Education - Teachers and Instructors",="Certified",37.5
+="Trumbull School District",="Special Education - Teachers and Instructors",="Certified",41.7
+="Unified School District #1",="Special Education - Teachers and Instructors",="Certified",36.5
+="Unified School District #2",="Special Education - Teachers and Instructors",="Certified",58.7
+="Union School District",="Special Education - Teachers and Instructors",="Certified",1.0
+="Vernon School District",="Special Education - Teachers and Instructors",="Certified",39.8
+="Voluntown School District",="Special Education - Teachers and Instructors",="Certified",2.0
+="Wallingford School District",="Special Education - Teachers and Instructors",="Certified",51.0
+="Waterbury School District",="Special Education - Teachers and Instructors",="Certified",183.6
+="Waterford School District",="Special Education - Teachers and Instructors",="Certified",24.5
+="Watertown School District",="Special Education - Teachers and Instructors",="Certified",29.0
+="West Hartford School District",="Special Education - Teachers and Instructors",="Certified",89.8
+="West Haven School District",="Special Education - Teachers and Instructors",="Certified",66.0
+="Westbrook School District",="Special Education - Teachers and Instructors",="Certified",9.0
+="Weston School District",="Special Education - Teachers and Instructors",="Certified",23.3
+="Westport School District",="Special Education - Teachers and Instructors",="Certified",44.1
+="Wethersfield School District",="Special Education - Teachers and Instructors",="Certified",23.5
+="Willington School District",="Special Education - Teachers and Instructors",="Certified",7.0
+="Wilton School District",="Special Education - Teachers and Instructors",="Certified",27.5
+="Winchester School District",="Special Education - Teachers and Instructors",="Certified",18.0
+="Windham School District",="Special Education - Teachers and Instructors",="Certified",47.9
+="Windsor Locks School District",="Special Education - Teachers and Instructors",="Certified",18.8
+="Windsor School District",="Special Education - Teachers and Instructors",="Certified",47.0
+="Wolcott School District",="Special Education - Teachers and Instructors",="Certified",20.1
+="Woodbridge School District",="Special Education - Teachers and Instructors",="Certified",12.0
+="Woodstock School District",="Special Education - Teachers and Instructors",="Certified",5.7
 

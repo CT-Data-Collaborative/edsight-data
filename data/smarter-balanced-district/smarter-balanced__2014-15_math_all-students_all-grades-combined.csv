@@ -1,160 +1,202 @@
+"Smarter Balanced Assessments, 2014-15"
+"All Districts, Math, All Grades Combined, All Students"
 
-
-
-
-
-
-
-
-
-<!DOCTYPE html>
-
-
-
-
-
-<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
-    
-
-
-<head>
-    <meta charset="UTF-8" />
-    <title>
-    	
-    		
-    		
-    			SAS&reg; Logon Manager
-    		
-    	
-    </title>
-    <link type="text/css" rel="stylesheet" href="themes/default/css/bootstrap.css" />
-    <link type="text/css" rel="stylesheet" href="themes/default/css/sas.css" />
-</head>
-
-
-
-<body id="cas">
-	<div id="page">
-		
-
-<div class="banner row">
-    <div class="about">
-        <ul class="unstyled"><li>
-            <a href="#about-modal" data-toggle="modal">
-                About
-            </a>
-        </li></ul>
-    </div>
-    <div id="about-modal" class="modal hide fade">
-        <div class="modal-header">
-            <a href="#" class="close" data-dismiss="modal">&times;</a>
-            <h3>About</h3>
-        </div>
-        <div class="modal-body">
-            <p>Version: 9.4</p>
-            <h4>Copyright Information</h4>
-            <p align="center">
-Copyright (c) 2002 - 2013 by SAS Institute Inc., Cary, NC, USA<br/>
-All rights reserved.<br/>
-<br/>
-This software is protected by copyright laws and international treaties.<br/>
-<br/>
-U.S. GOVERNMENT RESTRICTED RIGHTS<br/>
-Use, duplication, or disclosure of this software and related<br/>
-documentation by the U.S. government is subject to the<br/>
-Agreement with SAS Institute and the restrictions set forth<br/>
-in FAR 52.227-19, Commercial Computer Software<br/>
-- Restricted Rights (June 1987).
-            </p>
-        </div>
-    </div>
-    <div class="header">
-        <div class="title">
-        	<h1>
-        		
-		    		
-		    		
-		    			Sign In to SAS<sup>&reg;</sup>
-		    		
-    			
-        	</h1>
-       	</div>
-        <div class="logo"><img src="themes/default/images/logo.png" /></div>
-    </div>
-</div>
-
-
-		<div class="content row">
-			
-                <form id="fm1" class="form-stacked" onSubmit="return setSubmitUrl(this);" action="/SASLogon/login;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=2A588FCC8BD15AE2621813388D4AA407.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1?service=http://edsight.ct.gov/SASStoredProcess/j_spring_cas_security_check" method="post">
-				<fieldset>
-					
-					
-					
-                        <legend>Sign In to SAS<sup>&reg;</sup></legend>
-					<div class="clearfix">
-                            <label for="username"><span class="accesskey">U</span>ser ID:</label>
-						
-							
-							
-                                    
-                                    <input id="username" name="username" class="required" tabindex="1" accesskey="u" type="text" value="" size="25" autocomplete="off"/>
-							
-						
-					</div>
-					<div class="clearfix">
-                            <label for="password"><span class="accesskey">P</span>assword:</label>
-						
-                            
-                            <input id="password" name="password" class="required" tabindex="2" accesskey="p" type="password" value="" size="25" autocomplete="off"/>
-					</div>
-				</fieldset>
-				<input type="hidden" name="lt" value="LT-11833-dgjgd42exFexKiIU1oXsXnXkiVe0Tg" />
-				<input type="hidden" name="execution" value="e1s1" />
-				<input type="hidden" name="_eventId" value="submit" />
-                    <div class="submitb"><input id="Logon" type="submit" value="Sign In" onClick="this.disabled=true;this.form.submit();" tabindex="3" /></div>
-			</form>
-			
-				<div class="customizations" id="custom-logon-message">
-                  	
-
-
-<p>
-
-</p>
-
-
- 
- 
-				</div>
-			
-
-			<div class="copyright">
-				Copyright &copy; 2002 - 2013 by SAS Institute Inc., Cary, NC USA
-			</div>
-		</div>
-	</div>
-	
-<script type="text/javascript" src="/SASLogon/js/jquery.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=2A588FCC8BD15AE2621813388D4AA407.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-<script type="text/javascript" src="/SASLogon/js/bootstrap-modal.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=2A588FCC8BD15AE2621813388D4AA407.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-
-	<script type="text/javascript">
-            $("#username").focus();
-            
-            function setSubmitUrl(form)
-            {
-            	var urlHash = decodeURIComponent(window.location.hash);
-            	
-            	if (urlHash && urlHash.indexOf("#") === -1)
-            		urlHash = "#" + urlHash;
-            	
-            	form.action = form.action + urlHash;
-            	return true;
-            }
-    </script>
-</body>
-
-</html>
-
-
+"",,,,,,"Level 1Not Met",,"Level 2Approaching",,"Level 3Met",,"Level 4Exceeded",,"Level 3&4Met or Exceeded",
+"District","District Code","Total Numberof Students","Total NumberTested","Smarter BalancedParticipationRate","Total Number with Scored Tests","Level 1 Not Met  Count","%","Level 2 Approaching  Count","%","Level 3 Met  Count","%","Level 4 Exceeded  Count","%","Level 3&4 Met or Exceeded Count","%"
+"Achievement First Hartford Academy Inc. District","=""2880013""",551,547,99.3,546,242,44.3,163,29.9,108,19.8,33,6.0,141,25.8
+"Amistad Academy District","=""2790013""",544,540,99.3,540,169,31.3,185,34.3,117,21.7,69,12.8,186,34.4
+"Andover School District","=""0010011""",167,165,98.8,165,9,5.5,41,24.8,48,29.1,67,40.6,115,69.7
+"Ansonia School District","=""0020011""",1226,1207,98.5,1207,533,44.2,439,36.4,166,13.8,69,5.7,235,19.5
+"Area Cooperative Educational Services","=""2440014""",1298,1275,98.2,1272,657,51.7,372,29.2,171,13.4,72,5.7,243,19.1
+"Ashford School District","=""0030011""",253,249,98.4,248,69,27.8,73,29.4,68,27.4,38,15.3,106,42.7
+"Avon School District","=""0040011""",1841,1823,99.0,1823,149,8.2,354,19.4,563,30.9,757,41.5,1320,72.4
+"Barkhamsted School District","=""0050011""",205,197,96.1,197,46,23.4,69,35.0,57,28.9,25,12.7,82,41.6
+"Berlin School District","=""0070011""",1606,1594,99.3,1575,311,19.7,516,32.8,452,28.7,296,18.8,748,47.5
+"Bethany School District","=""0080011""",240,234,97.5,234,31,13.2,64,27.4,76,32.5,63,26.9,139,59.4
+"Bethel School District","=""0090011""",1526,1512,99.1,1511,361,23.9,525,34.7,395,26.1,230,15.2,625,41.4
+"Bloomfield School District","=""0110011""",906,881,97.2,881,387,43.9,311,35.3,151,17.1,32,3.6,183,20.8
+"Bolton School District","=""0120011""",449,444,98.9,444,80,18.0,124,27.9,119,26.8,121,27.3,240,54.1
+"Bozrah School District","=""0130011""",129,129,100.0,129,46,35.7,33,25.6,37,28.7,13,10.1,50,38.8
+"Branford School District","=""0140011""",1612,1569,97.3,1567,460,29.4,400,25.5,400,25.5,307,19.6,707,45.1
+"Bridgeport Achievement First District","=""2850013""",564,562,99.6,562,255,45.4,152,27.0,108,19.2,47,8.4,155,27.6
+"Bridgeport School District","=""0150011""",10462,10109,96.6,10102,6860,67.9,2345,23.2,723,7.2,174,1.7,897,8.9
+"Bristol School District","=""0170011""",4210,4161,98.8,4160,1483,35.6,1320,31.7,933,22.4,424,10.2,1357,32.6
+"Brookfield School District","=""0180011""",1510,1456,96.4,1454,231,15.9,399,27.4,458,31.5,366,25.2,824,56.7
+"Brooklyn School District","=""0190011""",545,538,98.7,537,147,27.4,205,38.2,120,22.3,65,12.1,185,34.5
+"Canaan School District","=""0210011""",53,53,100.0,53,9,17.0,18,34.0,20,37.7,6,11.3,26,49.1
+"Canterbury School District","=""0220011""",312,309,99.0,309,87,28.2,104,33.7,82,26.5,36,11.7,118,38.2
+"Canton School District","=""0230011""",903,895,99.1,895,132,14.7,255,28.5,263,29.4,245,27.4,508,56.8
+"Capitol Region Education Council","=""2410014""",3501,3354,95.8,3341,1334,39.9,974,29.2,607,18.2,426,12.8,1033,30.9
+"Chaplin School District","=""0240011""",75,58,77.3,58,17,29.3,25,43.1,"*","*","*","*",16,27.6
+"Cheshire School District","=""0250011""",2523,2486,98.5,2486,379,15.2,652,26.2,754,30.3,701,28.2,1455,58.5
+"Chester School District","=""0260011""",138,138,100.0,138,8,5.8,38,27.5,52,37.7,40,29.0,92,66.7
+"Clinton School District","=""0270011""",1056,1035,98.0,1034,213,20.6,279,27.0,319,30.9,223,21.6,542,52.4
+"Colchester School District","=""0280011""",1422,1400,98.5,1399,258,18.4,424,30.3,399,28.5,318,22.7,717,51.3
+"Colebrook School District","=""0290011""",52,48,92.3,48,6,12.5,15,31.3,10,20.8,17,35.4,27,56.3
+"Columbia School District","=""0300011""",296,287,97.0,286,61,21.3,89,31.1,89,31.1,47,16.4,136,47.6
+"Common Ground High School District","=""2680013""",32,32,100.0,32,14,43.8,8,25.0,"*","*","*","*",10,31.3
+"Connecticut Technical High School System","=""9000016""",2522,2428,96.3,2428,1507,62.1,699,28.8,200,8.2,22,0.9,222,9.1
+"Cooperative Educational Services","=""2430014""",358,355,99.2,355,141,39.7,111,31.3,73,20.6,30,8.5,103,29.0
+"Cornwall School District","=""0310011""",65,61,93.8,61,11,18.0,13,21.3,24,39.3,13,21.3,37,60.7
+"Coventry School District","=""0320011""",882,837,94.9,837,181,21.6,281,33.6,240,28.7,135,16.1,375,44.8
+"Cromwell School District","=""0330011""",1070,1066,99.6,1066,282,26.5,318,29.8,287,26.9,179,16.8,466,43.7
+"Danbury School District","=""0340011""",5607,4848,86.5,4839,1814,37.5,1616,33.4,979,20.2,430,8.9,1409,29.1
+"Darien School District","=""0350011""",2623,2528,96.4,2513,186,7.4,418,16.6,786,31.3,1123,44.7,1909,76.0
+"Deep River School District","=""0360011""",199,199,100.0,199,35,17.6,53,26.6,75,37.7,36,18.1,111,55.8
+"Derby School District","=""0370011""",778,764,98.2,763,334,43.8,251,32.9,139,18.2,39,5.1,178,23.3
+"East Granby School District","=""0400011""",469,466,99.4,466,69,14.8,124,26.6,135,29.0,138,29.6,273,58.6
+"East Haddam School District","=""0410011""",601,582,96.8,582,125,21.5,174,29.9,164,28.2,119,20.4,283,48.6
+"East Hampton School District","=""0420011""",1020,987,96.8,987,219,22.2,339,34.3,291,29.5,138,14.0,429,43.5
+"East Hartford School District","=""0430011""",3451,3391,98.3,3387,1846,54.5,975,28.8,436,12.9,130,3.8,566,16.7
+"East Haven School District","=""0440011""",1571,1550,98.7,1549,686,44.3,502,32.4,278,17.9,83,5.4,361,23.3
+"East Lyme School District","=""0450011""",1467,1434,97.8,1434,207,14.4,353,24.6,427,29.8,447,31.2,874,60.9
+"East Windsor School District","=""0470011""",539,537,99.6,535,190,35.5,183,34.2,103,19.3,59,11.0,162,30.3
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""",116,95,81.9,93,83,89.2,7,7.5,"*","*","*","*","*","*"
+"Eastford School District","=""0390011""",84,84,100.0,84,12,14.3,25,29.8,26,31.0,21,25.0,47,56.0
+"Easton School District","=""0460011""",635,628,98.9,627,59,9.4,173,27.6,199,31.7,196,31.3,395,63.0
+"Education Connection","=""2420014""",13,8,"*",8,"*","*","*","*","*","*","*","*","*","*"
+"Ellington School District","=""0480011""",1455,1435,98.6,1415,223,15.8,370,26.1,444,31.4,378,26.7,822,58.1
+"Elm City College Preparatory School District","=""2890013""",356,356,100.0,356,86,24.2,120,33.7,99,27.8,51,14.3,150,42.1
+"Enfield School District","=""0490011""",2584,2542,98.4,2537,706,27.8,946,37.3,639,25.2,246,9.7,885,34.9
+"Essex School District","=""0500011""",267,260,97.4,260,36,13.8,82,31.5,73,28.1,69,26.5,142,54.6
+"Explorations District","=""2720013""",16,16,"*",16,"*","*","*","*","*","*","*","*","*","*"
+"Fairfield School District","=""0510011""",5584,5402,96.7,5400,745,13.8,1425,26.4,1766,32.7,1464,27.1,3230,59.8
+"Farmington School District","=""0520011""",2173,2104,96.8,2100,273,13.0,487,23.2,591,28.1,749,35.7,1340,63.8
+"Franklin School District","=""0530011""",111,108,97.3,108,26,24.1,34,31.5,32,29.6,16,14.8,48,44.4
+"Glastonbury School District","=""0540011""",3442,3407,99.0,3407,390,11.4,735,21.6,1009,29.6,1273,37.4,2282,67.0
+"Granby School District","=""0560011""",1086,1009,92.9,1008,122,12.1,274,27.2,342,33.9,270,26.8,612,60.7
+"Great Oaks Charter School District","=""2940013""",116,114,98.3,114,77,67.5,"*","*","*","*",0,0.0,"*","*"
+"Greenwich School District","=""0570011""",4604,4581,99.5,4579,669,14.6,990,21.6,1242,27.1,1678,36.6,2920,63.8
+"Griswold School District","=""0580011""",947,931,98.3,931,266,28.6,299,32.1,240,25.8,126,13.5,366,39.3
+"Groton School District","=""0590011""",2226,2059,92.5,2058,597,29.0,666,32.4,492,23.9,303,14.7,795,38.6
+"Guilford School District","=""0600011""",1870,1860,99.5,1860,208,11.2,466,25.1,562,30.2,624,33.5,1186,63.8
+"Hamden School District","=""0620011""",2843,2716,95.5,2712,970,35.8,763,28.1,582,21.5,397,14.6,979,36.1
+"Hampton School District","=""0630011""",47,43,91.5,43,11,25.6,13,30.2,9,20.9,10,23.3,19,44.2
+"Hartford School District","=""0640011""",10576,9934,93.9,9911,6078,61.3,2446,24.7,950,9.6,437,4.4,1387,14.0
+"Hartland School District","=""0650011""",137,135,98.5,135,33,24.4,44,32.6,46,34.1,12,8.9,58,43.0
+"Hebron School District","=""0670011""",493,492,99.8,492,84,17.1,167,33.9,167,33.9,74,15.0,241,49.0
+"Highville Charter School District","=""2860013""",212,212,100.0,212,110,51.9,78,36.8,"*","*","*","*",24,11.3
+"Integrated Day Charter School District","=""2640013""",198,198,100.0,195,75,38.5,62,31.8,34,17.4,24,12.3,58,29.7
+"Interdistrict School for Arts and Comm District","=""2650013""",253,252,99.6,251,139,55.4,66,26.3,38,15.1,8,3.2,46,18.3
+"Jumoke Academy District","=""2610013""",427,425,99.5,425,191,44.9,165,38.8,56,13.2,13,3.1,69,16.2
+"Kent School District","=""0680011""",164,162,98.8,162,16,9.9,36,22.2,77,47.5,33,20.4,110,67.9
+"Killingly School District","=""0690011""",1217,1195,98.2,1194,401,33.6,454,38.0,269,22.5,70,5.9,339,28.4
+"Learn","=""2450014""",582,570,97.9,568,225,39.6,189,33.3,105,18.5,49,8.6,154,27.1
+"Lebanon School District","=""0710011""",577,551,95.5,551,117,21.2,178,32.3,150,27.2,106,19.2,256,46.5
+"Ledyard School District","=""0720011""",1269,1244,98.0,1241,285,23.0,409,33.0,322,25.9,225,18.1,547,44.1
+"Lisbon School District","=""0730011""",258,255,98.8,255,80,31.4,114,44.7,47,18.4,14,5.5,61,23.9
+"Litchfield School District","=""0740011""",565,557,98.6,557,89,16.0,131,23.5,177,31.8,160,28.7,337,60.5
+"Madison School District","=""0760011""",1715,1325,77.3,1324,168,12.7,364,27.5,415,31.3,377,28.5,792,59.8
+"Manchester School District","=""0770011""",3042,2804,92.2,2799,1166,41.7,856,30.6,527,18.8,250,8.9,777,27.8
+"Mansfield School District","=""0780011""",784,735,93.8,733,70,9.5,165,22.5,183,25.0,315,43.0,498,67.9
+"Marlborough School District","=""0790011""",367,366,99.7,366,32,8.7,87,23.8,126,34.4,121,33.1,247,67.5
+"Meriden School District","=""0800011""",3853,3756,97.5,3749,1988,53.0,1087,29.0,505,13.5,169,4.5,674,18.0
+"Middletown School District","=""0830011""",2445,2422,99.1,2421,889,36.7,726,30.0,489,20.2,317,13.1,806,33.3
+"Milford School District","=""0840011""",3315,3224,97.3,3221,743,23.1,1048,32.5,858,26.6,572,17.8,1430,44.4
+"Monroe School District","=""0850011""",1738,1712,98.5,1711,250,14.6,440,25.7,561,32.8,460,26.9,1021,59.7
+"Montville School District","=""0860011""",1239,1223,98.7,1223,347,28.4,436,35.7,284,23.2,156,12.8,440,36.0
+"Naugatuck School District","=""0880011""",2265,2226,98.3,2224,831,37.4,745,33.5,466,21.0,182,8.2,648,29.1
+"New Beginnings Inc., Family Academy District","=""2800013""",242,242,100.0,242,111,45.9,89,36.8,"*","*","*","*",42,17.4
+"New Britain School District","=""0890011""",4821,4749,98.5,4743,2928,61.7,1135,23.9,498,10.5,182,3.8,680,14.3
+"New Canaan School District","=""0900011""",2249,2196,97.6,2196,163,7.4,406,18.5,628,28.6,999,45.5,1627,74.1
+"New Fairfield School District","=""0910011""",1381,1179,85.4,1177,263,22.3,370,31.4,319,27.1,225,19.1,544,46.2
+"New Hartford School District","=""0920011""",305,288,94.4,288,43,14.9,84,29.2,108,37.5,53,18.4,161,55.9
+"New Haven School District","=""0930011""",10061,9497,94.4,9471,5675,59.9,2528,26.7,894,9.4,374,3.9,1268,13.4
+"New London School District","=""0950011""",1591,1562,98.2,1553,818,52.7,451,29.0,213,13.7,71,4.6,284,18.3
+"New Milford School District","=""0960011""",2301,2133,92.7,2120,542,25.6,731,34.5,551,26.0,296,14.0,847,40.0
+"Newington School District","=""0940011""",2201,2162,98.2,2157,445,20.6,674,31.2,609,28.2,429,19.9,1038,48.1
+"Newtown School District","=""0970011""",2597,2436,93.8,2435,331,13.6,652,26.8,764,31.4,688,28.3,1452,59.6
+"Norfolk School District","=""0980011""",63,63,100.0,63,12,19.0,20,31.7,18,28.6,13,20.6,31,49.2
+"North Branford School District","=""0990011""",1077,1040,96.6,1039,325,31.3,340,32.7,243,23.4,131,12.6,374,36.0
+"North Canaan School District","=""1000011""",161,154,95.7,154,42,27.3,49,31.8,46,29.9,17,11.0,63,40.9
+"North Haven School District","=""1010011""",1744,1427,81.8,1426,338,23.7,526,36.9,363,25.5,199,14.0,562,39.4
+"North Stonington School District","=""1020011""",381,374,98.2,374,65,17.4,100,26.7,100,26.7,109,29.1,209,55.9
+"Norwalk School District","=""1030011""",5739,5639,98.3,5633,2350,41.7,1668,29.6,1055,18.7,560,9.9,1615,28.7
+"Norwich Free Academy District","=""9010022""",549,494,90.0,490,251,51.2,122,24.9,81,16.5,36,7.3,117,23.9
+"Norwich School District","=""1040011""",2251,2208,98.1,2204,1161,52.7,678,30.8,260,11.8,105,4.8,365,16.6
+"Odyssey Community School District","=""2630013""",214,210,98.1,210,55,26.2,79,37.6,49,23.3,27,12.9,76,36.2
+"Old Saybrook School District","=""1060011""",752,732,97.3,728,136,18.7,231,31.7,214,29.4,147,20.2,361,49.6
+"Orange School District","=""1070011""",710,700,98.6,699,47,6.7,198,28.3,229,32.8,225,32.2,454,64.9
+"Oxford School District","=""1080011""",1126,1102,97.9,1102,249,22.6,365,33.1,327,29.7,161,14.6,488,44.3
+"Park City Prep Charter School District","=""2830013""",346,344,99.4,344,178,51.7,119,34.6,33,9.6,14,4.1,47,13.7
+"Path Academy District","=""2930013""",18,7,"*",7,"*","*","*","*","*","*","*","*","*","*"
+"Plainfield School District","=""1090011""",1235,1196,96.8,1195,437,36.6,443,37.1,250,20.9,65,5.4,315,26.4
+"Plainville School District","=""1100011""",1255,1247,99.4,1247,402,32.2,387,31.0,312,25.0,146,11.7,458,36.7
+"Plymouth School District","=""1110011""",797,772,96.9,769,262,34.1,233,30.3,200,26.0,74,9.6,274,35.6
+"Pomfret School District","=""1120011""",293,293,100.0,289,33,11.4,80,27.7,92,31.8,84,29.1,176,60.9
+"Portland School District","=""1130011""",734,696,94.8,696,95,13.6,187,26.9,225,32.3,189,27.2,414,59.5
+"Preston School District","=""1140011""",282,262,92.9,262,39,14.9,86,32.8,82,31.3,55,21.0,137,52.3
+"Putnam School District","=""1160011""",630,619,98.3,611,242,39.6,215,35.2,105,17.2,49,8.0,154,25.2
+"Redding School District","=""1170011""",695,629,90.5,628,69,11.0,135,21.5,192,30.6,232,36.9,424,67.5
+"Regional School District 01","=""2010012""",112,105,93.8,103,34,33.0,35,34.0,26,25.2,8,7.8,34,33.0
+"Regional School District 04","=""2040012""",481,470,97.7,470,96,20.4,151,32.1,147,31.3,76,16.2,223,47.4
+"Regional School District 05","=""2050012""",1158,1101,95.1,1099,236,21.5,253,23.0,265,24.1,345,31.4,610,55.5
+"Regional School District 06","=""2060012""",446,401,89.9,401,114,28.4,129,32.2,102,25.4,56,14.0,158,39.4
+"Regional School District 07","=""2070012""",524,498,95.0,496,127,25.6,111,22.4,140,28.2,118,23.8,258,52.0
+"Regional School District 08","=""2080012""",821,814,99.1,808,178,22.0,204,25.2,220,27.2,206,25.5,426,52.7
+"Regional School District 09","=""2090012""",251,92,36.7,92,12,13.0,17,18.5,31,33.7,32,34.8,63,68.5
+"Regional School District 10","=""2100012""",1358,1335,98.3,1335,163,12.2,377,28.2,426,31.9,369,27.6,795,59.6
+"Regional School District 11","=""2110012""",143,139,97.2,139,70,50.4,48,34.5,"*","*","*","*",21,15.1
+"Regional School District 12","=""2120012""",413,407,98.5,403,70,17.4,122,30.3,116,28.8,95,23.6,211,52.4
+"Regional School District 13","=""2130012""",1009,992,98.3,992,214,21.6,332,33.5,266,26.8,180,18.1,446,45.0
+"Regional School District 14","=""2140012""",899,877,97.6,877,197,22.5,296,33.8,233,26.6,151,17.2,384,43.8
+"Regional School District 15","=""2150012""",2170,2122,97.8,2121,258,12.2,604,28.5,659,31.1,600,28.3,1259,59.4
+"Regional School District 16","=""2160012""",1260,1194,94.8,1193,301,25.2,368,30.8,341,28.6,183,15.3,524,43.9
+"Regional School District 17","=""2170012""",1248,1239,99.3,1239,233,18.8,366,29.5,328,26.5,312,25.2,640,51.7
+"Regional School District 18","=""2180012""",755,729,96.6,728,79,10.9,156,21.4,219,30.1,274,37.6,493,67.7
+"Regional School District 19","=""2190012""",277,52,18.8,52,21,40.4,14,26.9,11,21.2,6,11.5,17,32.7
+"Ridgefield School District","=""1180011""",2837,2522,88.9,2522,243,9.6,608,24.1,823,32.6,848,33.6,1671,66.3
+"Rocky Hill School District","=""1190011""",1314,1210,92.1,1210,216,17.9,348,28.8,343,28.3,303,25.0,646,53.4
+"Salem School District","=""1210011""",266,266,100.0,266,27,10.2,49,18.4,96,36.1,94,35.3,190,71.4
+"Salisbury School District","=""1220011""",165,163,98.8,163,21,12.9,40,24.5,51,31.3,51,31.3,102,62.6
+"Scotland School District","=""1230011""",68,67,98.5,67,12,17.9,21,31.3,17,25.4,17,25.4,34,50.7
+"Seymour School District","=""1240011""",1261,1240,98.3,1238,356,28.8,377,30.5,282,22.8,223,18.0,505,40.8
+"Sharon School District","=""1250011""",109,87,79.8,87,25,28.7,33,37.9,22,25.3,7,8.0,29,33.3
+"Shelton School District","=""1260011""",2735,2705,98.9,2704,531,19.6,839,31.0,771,28.5,563,20.8,1334,49.3
+"Sherman School District","=""1270011""",224,120,53.6,117,22,18.8,35,29.9,39,33.3,21,17.9,60,51.3
+"Side By Side Charter School District","=""2700013""",129,129,100.0,129,26,20.2,47,36.4,37,28.7,19,14.7,56,43.4
+"Simsbury School District","=""1280011""",2332,2301,98.7,2299,289,12.6,520,22.6,690,30.0,800,34.8,1490,64.8
+"Somers School District","=""1290011""",832,827,99.4,826,172,20.8,266,32.2,239,28.9,149,18.0,388,47.0
+"South Windsor School District","=""1320011""",2208,2016,91.3,2015,285,14.1,492,24.4,546,27.1,692,34.3,1238,61.4
+"Southington School District","=""1310011""",3542,3501,98.8,3498,574,16.4,1000,28.6,1172,33.5,752,21.5,1924,55.0
+"Sprague School District","=""1330011""",231,230,99.6,230,61,26.5,97,42.2,48,20.9,24,10.4,72,31.3
+"Stafford School District","=""1340011""",815,802,98.4,802,159,19.8,268,33.4,250,31.2,125,15.6,375,46.8
+"Stamford Academy District","=""2820013""",34,21,61.8,21,"*","*","*","*",0,0.0,0,0.0,0,0.0
+"Stamford School District","=""1350011""",8057,7850,97.4,7842,2869,36.6,2080,26.5,1661,21.2,1232,15.7,2893,36.9
+"Sterling School District","=""1360011""",315,310,98.4,310,128,41.3,122,39.4,50,16.1,10,3.2,60,19.4
+"Stonington School District","=""1370011""",1195,1001,83.8,1000,183,18.3,252,25.2,299,29.9,266,26.6,565,56.5
+"Stratford School District","=""1380011""",3771,3701,98.1,3698,1618,43.8,1221,33.0,617,16.7,242,6.5,859,23.2
+"Suffield School District","=""1390011""",1273,1227,96.4,1227,238,19.4,403,32.8,375,30.6,211,17.2,586,47.8
+"The Bridge Academy District","=""2690013""",136,135,99.3,135,71,52.6,52,38.5,"*","*","*","*",12,8.9
+"The Gilbert School District","=""9020022""",285,237,83.2,237,124,52.3,71,30.0,31,13.1,11,4.6,42,17.7
+"Thomaston School District","=""1400011""",508,505,99.4,503,120,23.9,168,33.4,138,27.4,77,15.3,215,42.7
+"Thompson School District","=""1410011""",575,548,95.3,547,216,39.5,200,36.6,99,18.1,32,5.9,131,23.9
+"Tolland School District","=""1420011""",1470,1426,97.0,1424,152,10.7,383,26.9,511,35.9,378,26.5,889,62.4
+"Torrington School District","=""1430011""",2334,2153,92.2,2150,873,40.6,759,35.3,406,18.9,112,5.2,518,24.1
+"Trailblazers Academy District","=""2780013""",133,131,98.5,131,108,82.4,16,12.2,"*","*","*","*",7,5.3
+"Trumbull School District","=""1440011""",3566,3168,88.8,3167,455,14.4,800,25.3,944,29.8,968,30.6,1912,60.4
+"Unified School District #2","=""3470015""",73,56,76.7,51,"*","*","*","*",0,0.0,0,0.0,0,0.0
+"Union School District","=""1450011""",54,54,100.0,54,9,16.7,16,29.6,18,33.3,11,20.4,29,53.7
+"Vernon School District","=""1460011""",1603,1552,96.8,1552,586,37.8,529,34.1,323,20.8,114,7.3,437,28.2
+"Voluntown School District","=""1470011""",195,194,99.5,194,38,19.6,60,30.9,66,34.0,30,15.5,96,49.5
+"Wallingford School District","=""1480011""",3258,3194,98.0,3194,775,24.3,1078,33.8,829,26.0,512,16.0,1341,42.0
+"Waterbury School District","=""1510011""",9492,9344,98.4,9338,5858,62.7,2258,24.2,973,10.4,249,2.7,1222,13.1
+"Waterford School District","=""1520011""",1406,1395,99.2,1395,354,25.4,461,33.0,347,24.9,233,16.7,580,41.6
+"Watertown School District","=""1530011""",1526,1373,90.0,1373,402,29.3,475,34.6,332,24.2,164,11.9,496,36.1
+"West Hartford School District","=""1550011""",5224,4955,94.9,4949,935,18.9,1309,26.4,1425,28.8,1280,25.9,2705,54.7
+"West Haven School District","=""1560011""",3076,3014,98.0,3012,1283,42.6,999,33.2,533,17.7,197,6.5,730,24.2
+"Westbrook School District","=""1540011""",398,337,84.7,337,35,10.4,97,28.8,112,33.2,93,27.6,205,60.8
+"Weston School District","=""1570011""",1350,1237,91.6,1235,104,8.4,267,21.6,398,32.2,466,37.7,864,70.0
+"Westport School District","=""1580011""",3178,2784,87.6,2784,251,9.0,506,18.2,799,28.7,1228,44.1,2027,72.8
+"Wethersfield School District","=""1590011""",1932,1804,93.4,1803,466,25.8,567,31.4,483,26.8,287,15.9,770,42.7
+"Willington School District","=""1600011""",282,275,97.5,274,54,19.7,93,33.9,83,30.3,44,16.1,127,46.4
+"Wilton School District","=""1610011""",2370,2316,97.7,2315,315,13.6,674,29.1,725,31.3,601,26.0,1326,57.3
+"Winchester School District","=""1620011""",314,313,99.7,310,129,41.6,89,28.7,61,19.7,31,10.0,92,29.7
+"Windham School District","=""1630011""",1581,1544,97.7,1538,835,54.3,428,27.8,192,12.5,83,5.4,275,17.9
+"Windsor Locks School District","=""1650011""",880,867,98.5,864,308,35.6,313,36.2,185,21.4,58,6.7,243,28.1
+"Windsor School District","=""1640011""",1605,1437,89.5,1433,535,37.3,424,29.6,288,20.1,186,13.0,474,33.1
+"Wolcott School District","=""1660011""",1337,1333,99.7,1332,272,20.4,447,33.6,386,29.0,227,17.0,613,46.0
+"Woodbridge School District","=""1670011""",446,422,94.6,422,53,12.6,111,26.3,109,25.8,149,35.3,258,61.1
+"Woodstock Academy District","=""9030022""",242,54,22.3,53,9,17.0,13,24.5,14,26.4,17,32.1,31,58.5
+"Woodstock School District","=""1690011""",597,582,97.5,581,108,18.6,197,33.9,165,28.4,111,19.1,276,47.5
 

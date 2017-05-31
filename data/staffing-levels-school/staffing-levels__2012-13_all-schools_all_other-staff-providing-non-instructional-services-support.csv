@@ -1,160 +1,1013 @@
+"FTE Staffing Report for 2012-13"
 
-
-
-
-
-
-
-
-
-<!DOCTYPE html>
-
-
-
-
-
-<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
-    
-
-
-<head>
-    <meta charset="UTF-8" />
-    <title>
-    	
-    		
-    		
-    			SAS&reg; Logon Manager
-    		
-    	
-    </title>
-    <link type="text/css" rel="stylesheet" href="themes/default/css/bootstrap.css" />
-    <link type="text/css" rel="stylesheet" href="themes/default/css/sas.css" />
-</head>
-
-
-
-<body id="cas">
-	<div id="page">
-		
-
-<div class="banner row">
-    <div class="about">
-        <ul class="unstyled"><li>
-            <a href="#about-modal" data-toggle="modal">
-                About
-            </a>
-        </li></ul>
-    </div>
-    <div id="about-modal" class="modal hide fade">
-        <div class="modal-header">
-            <a href="#" class="close" data-dismiss="modal">&times;</a>
-            <h3>About</h3>
-        </div>
-        <div class="modal-body">
-            <p>Version: 9.4</p>
-            <h4>Copyright Information</h4>
-            <p align="center">
-Copyright (c) 2002 - 2013 by SAS Institute Inc., Cary, NC, USA<br/>
-All rights reserved.<br/>
-<br/>
-This software is protected by copyright laws and international treaties.<br/>
-<br/>
-U.S. GOVERNMENT RESTRICTED RIGHTS<br/>
-Use, duplication, or disclosure of this software and related<br/>
-documentation by the U.S. government is subject to the<br/>
-Agreement with SAS Institute and the restrictions set forth<br/>
-in FAR 52.227-19, Commercial Computer Software<br/>
-- Restricted Rights (June 1987).
-            </p>
-        </div>
-    </div>
-    <div class="header">
-        <div class="title">
-        	<h1>
-        		
-		    		
-		    		
-		    			Sign In to SAS<sup>&reg;</sup>
-		    		
-    			
-        	</h1>
-       	</div>
-        <div class="logo"><img src="themes/default/images/logo.png" /></div>
-    </div>
-</div>
-
-
-		<div class="content row">
-			
-                <form id="fm1" class="form-stacked" onSubmit="return setSubmitUrl(this);" action="/SASLogon/login;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=007FD362A26551F6AB1319D6B9A43B80.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1?service=http://edsight.ct.gov/SASStoredProcess/j_spring_cas_security_check" method="post">
-				<fieldset>
-					
-					
-					
-                        <legend>Sign In to SAS<sup>&reg;</sup></legend>
-					<div class="clearfix">
-                            <label for="username"><span class="accesskey">U</span>ser ID:</label>
-						
-							
-							
-                                    
-                                    <input id="username" name="username" class="required" tabindex="1" accesskey="u" type="text" value="" size="25" autocomplete="off"/>
-							
-						
-					</div>
-					<div class="clearfix">
-                            <label for="password"><span class="accesskey">P</span>assword:</label>
-						
-                            
-                            <input id="password" name="password" class="required" tabindex="2" accesskey="p" type="password" value="" size="25" autocomplete="off"/>
-					</div>
-				</fieldset>
-				<input type="hidden" name="lt" value="LT-7541-56GXwEZZdTRVL66hBrxlzkuWocy0dX" />
-				<input type="hidden" name="execution" value="e1s1" />
-				<input type="hidden" name="_eventId" value="submit" />
-                    <div class="submitb"><input id="Logon" type="submit" value="Sign In" onClick="this.disabled=true;this.form.submit();" tabindex="3" /></div>
-			</form>
-			
-				<div class="customizations" id="custom-logon-message">
-                  	
-
-
-<p>
-
-</p>
-
-
- 
- 
-				</div>
-			
-
-			<div class="copyright">
-				Copyright &copy; 2002 - 2013 by SAS Institute Inc., Cary, NC USA
-			</div>
-		</div>
-	</div>
-	
-<script type="text/javascript" src="/SASLogon/js/jquery.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=007FD362A26551F6AB1319D6B9A43B80.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-<script type="text/javascript" src="/SASLogon/js/bootstrap-modal.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=007FD362A26551F6AB1319D6B9A43B80.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-
-	<script type="text/javascript">
-            $("#username").focus();
-            
-            function setSubmitUrl(form)
-            {
-            	var urlHash = decodeURIComponent(window.location.hash);
-            	
-            	if (urlHash && urlHash.indexOf("#") === -1)
-            		urlHash = "#" + urlHash;
-            	
-            	form.action = form.action + urlHash;
-            	return true;
-            }
-    </script>
-</body>
-
-</html>
-
-
+"District","School","Assignment Category","Educator Type","FTE Count"
+"Achievement First Hartford Academy Inc. District","Achievement First Hartford Academy Inc.","Other Staff Providing Non-Instructional Services/Support","Certified/Non-Certified",1025.0
+="Amistad Academy District",="Amistad Academy",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",41.0
+="Andover School District",="Andover Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",15.4
+="Ansonia School District",="Ansonia High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",22.0
+,="Ansonia Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.1
+,="Mead School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.3
+,="Prendergast School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
+="Area Cooperative Educational Services",="Thomas Edison Magnet Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.0
+,="Wintergreen Interdistrict Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.1
+="Ashford School District",="Ashford School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",21.8
+="Avon School District",="Avon High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",26.4
+,="Avon Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",14.1
+,="Pine Grove School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.3
+,="Roaring Brook School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.5
+,="Thompson Brook School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.8
+="Barkhamsted School District",="Barkhamsted Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.3
+="Berlin School District",="Berlin High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",31.9
+,="Catherine M. McGee Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",19.0
+,="Emma Hart Willard School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.6
+,="Mary E. Griswold School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.6
+,="Richard D. Hubbard School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.4
+="Bethany School District",="Bethany Community School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.5
+="Bethel School District",="Anna H. Rockwell School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.0
+,="Bethel High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",22.6
+,="Bethel Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",16.6
+,="Frank A. Berry School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.6
+,="Ralph M. T. Johnson School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.6
+="Bloomfield School District",="Bloomfield High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",20.3
+,="Carmen Arace Intermediate School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.3
+,="Carmen Arace Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.3
+,="Global Experience Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",4.5
+,="Laurel School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.3
+,="Metacomet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.0
+,="Wintonbury Early Childhood Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.8
+="Bolton School District",="Bolton Center School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",15.9
+,="Bolton High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",15.0
+="Bozrah School District",="Fields Memorial School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.4
+="Branford School District",="Branford High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",35.3
+,="Francis Walsh Intermediate School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",18.0
+,="John B. Sliney School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.3
+,="Mary R. Tisko School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.4
+,="Mary T. Murphy School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.9
+="Bridgeport Achievement First District",="Achievement First Bridgeport Academy",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",30.5
+="Bridgeport School District",="Barnum School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",16.0
+,="Bassick High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",42.0
+,="Beardsley School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.2
+,="Black Rock School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.5
+,="Blackham School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",18.0
+,="Bryant School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.6
+,="Central High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",52.0
+,="Cesar Batalla School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",22.0
+,="Classical Studies Academy",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.0
+,="Columbus School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",16.0
+,="Cross School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.5
+,="Curiale School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.0
+,="Dunbar School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.4
+,="Edison School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.6
+,="Geraldine Johnson School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.0
+,="Hall School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.5
+,="Hallen School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.0
+,="Harding High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",42.0
+,="High Horizons Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.4
+,="Hooker School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.0
+,="Interdistrict Discovery Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.5
+,="Jettie S. Tisdale School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",15.0
+,="Luis Munoz Marin School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",14.0
+,="Madison School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
+,="Multicultural Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",3.6
+,="Park City Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.6
+,="Read School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.0
+,="Roosevelt School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",15.0
+,="Skane Center",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.4
+,="Waltersville School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
+,="Winthrop School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.0
+="Bristol School District",="Bristol Central High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",35.0
+,="Bristol Eastern High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",33.0
+,="Chippens Hill Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",23.0
+,="Edgewood School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.1
+,="Ellen P. Hubbell School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.1
+,="Greene-Hills School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",18.5
+,="Ivy Drive School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.0
+,="Mountain View School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.6
+,="Northeast Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.1
+,="South Side School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.1
+,="Stafford School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.1
+,="West Bristol School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",25.4
+="Brookfield School District",="Brookfield High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",24.5
+,="Center Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.5
+,="Huckleberry Hill Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.3
+,="Whisconier Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",19.8
+="Brooklyn School District",="Brooklyn Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.5
+,="Brooklyn Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.5
+="Canaan School District",="Lee H. Kellogg School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",2.6
+="Canterbury School District",="Canterbury Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.8
+,="Dr. Helen Baldwin Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.2
+="Canton School District",="Canton High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",19.0
+,="Canton Intermediate School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.5
+,="Canton Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.3
+,="Cherry Brook Primary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.1
+="Capitol Region Education Council",="Academy of Aerospace and Engineering",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.6
+,="Academy of Science and Innovation",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.0
+,="Ana Grace Academy of the Arts Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",4.8
+,="Discovery Academy",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.0
+,="Glastonbury/East Hartford Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.5
+,="Greater Hartford Academy of the Arts High School - Full Time",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",4.3
+,="Greater Hartford Academy of the Arts Magnet Middle",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.9
+,="International Magnet School for Global Citizenship",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",14.0
+,="Metropolitan Learning Center for Global and International Studies",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",20.9
+,="Montessori Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.0
+,="Museum Academy",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.0
+,="Public Safety Academy",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.9
+,="Reggio Magnet School of the Arts",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.0
+,="Two Rivers Magnet High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",4.0
+,="Two Rivers Magnet Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",18.9
+,="University of Hartford Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",16.2
+="Chaplin School District",="Chaplin Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
+="Cheshire School District",="Chapman School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.0
+,="Cheshire High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",37.5
+,="Darcey School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",4.5
+,="Dodd Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",15.0
+,="Doolittle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",14.5
+,="Highland School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",21.5
+,="Norton School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",14.5
+="Chester School District",="Chester Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.0
+="Clinton School District",="Abraham Pierson School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.2
+,="Jared Eliot School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.5
+,="Lewin G. Joel Jr. School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.2
+,="The Morgan School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",15.7
+="Colchester School District",="Bacon Academy",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",23.5
+,="Colchester Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",16.3
+,="Jack Jackter Intermediate School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",16.0
+,="William J. Johnston Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",18.0
+="Colebrook School District",="Colebrook Consolidated School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",3.9
+="Columbia School District",="Horace W. Porter School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.0
+="Common Ground High School District",="Common Ground High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.3
+="Connecticut Technical High School System",="A. I. Prince Technical High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",23.1
+,="Bullard-Havens Technical High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",29.9
+,="E. C. Goodwin Technical High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",17.3
+,="Eli Whitney Technical High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",23.1
+,="Ella T. Grasso Southeastern Technical High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",19.4
+,="Emmett O'Brien Technical High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",17.0
+,="H. C. Wilcox Technical High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",17.4
+,="H. H. Ellis Technical High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",20.1
+,="Henry Abbott Technical High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",18.4
+,="Howell Cheney Technical High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",21.4
+,="Norwich Technical High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",20.4
+,="Oliver Wolcott Technical High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",18.4
+,="Platt Technical High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",21.2
+,="Vinal Technical High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",21.9
+,="W. F. Kaynor Technical High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",20.4
+,="Windham Technical High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",17.6
+="Cooperative Educational Services",="Six-Six Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.0
+="Cornwall School District",="Cornwall Consolidated School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",4.9
+="Coventry School District",="Capt. Nathan Hale School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.1
+,="Coventry Grammar School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.4
+,="Coventry High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",14.1
+,="George Hersey Robertson School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.4
+="Cromwell School District",="Cromwell High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",18.5
+,="Cromwell Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.5
+,="Edna C. Stevens School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",15.5
+,="Woodside Intermediate School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",15.5
+="Danbury School District",="Alternative Center For Excellence",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",1.7
+,="Broadview Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",18.7
+,="Danbury High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",57.0
+,="Ellsworth Avenue School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.0
+,="Great Plain School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.5
+,="Hayestown Avenue School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.9
+,="King Street Intermediate School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.5
+,="King Street Primary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.2
+,="Mill Ridge Primary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.7
+,="Morris Street School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.2
+,="Park Avenue School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.0
+,="Pembroke School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.1
+,="Rogers Park Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",22.5
+,="Shelter Rock School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.1
+,="South Street School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",4.2
+,="Stadley Rough School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.9
+,="Western CT Academy of International Studies Elementary Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.7
+="Darien School District",="Darien High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",31.5
+,="Hindley Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",2.8
+,="Holmes Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.8
+,="Middlesex Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",19.5
+,="Ox Ridge Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",2.8
+,="Royle Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.3
+,="Tokeneke Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.8
+="Deep River School District",="Deep River Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.5
+="Derby School District",="Bradley School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.1
+,="Derby High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.3
+,="Derby Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.6
+,="Irving School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.4
+="East Granby School District",="Allgrove School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",3.9
+,="East Granby High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.3
+,="East Granby Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",3.1
+,="R. Dudley Seymour School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",2.4
+="East Haddam School District",="East Haddam Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.0
+,="Nathan Hale-Ray High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",17.0
+,="Nathan Hale-Ray Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.0
+="East Hampton School District",="Center School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.8
+,="East Hampton High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",15.8
+,="East Hampton Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.8
+,="Memorial School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.0
+="East Hartford School District",="Anna E. Norris School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",4.0
+,="Connecticut IB Academy",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",3.0
+,="Dr. Franklin H. Mayberry School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.0
+,="Dr. John A. Langford School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.0
+,="Dr. Thomas S. O'Connell School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.0
+,="East Hartford High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",48.0
+,="East Hartford Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",28.0
+,="Governor William Pitkin School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",4.5
+,="Hockanum School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.5
+,="Joseph O. Goodwin School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.0
+,="Robert J. O'Brien School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",4.5
+,="Silver Lane School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.5
+,="Stevens Alternate High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.0
+,="Sunset Ridge Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.0
+="East Haven School District",="Carbone School/East Haven Academy",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",3.0
+,="D. C. Moore School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",3.5
+,="Deer Run School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",3.5
+,="Dominick H. Ferrara School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",3.0
+,="East Haven High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",20.5
+,="Grove J. Tuttle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",4.0
+,="Joseph Melillo Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.0
+,="Momauguin School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",4.5
+,="Overbrook Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",3.0
+="East Lyme School District",="East Lyme High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",21.6
+,="East Lyme Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",15.7
+,="Flanders School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.3
+,="Lillie B. Haynes School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.6
+,="Niantic Center School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.3
+="East Windsor School District",="Broad Brook Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.0
+,="East Windsor High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
+,="East Windsor Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.0
+="Eastern Connecticut Regional Educational Service Center (EASTCONN)",="Arts at the Capitol Theater Magnet School (ACT)",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",1.0
+,="Quinebaug Middle College",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",1.0
+="Eastford School District",="Eastford Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.0
+="Easton School District",="Helen Keller Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.1
+,="Samuel Staples Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",15.5
+="EdAdvance",="EdAdvance Headstart",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",0.8
+="Ellington School District",="Center School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.3
+,="Crystal Lake School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.2
+,="Ellington High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",18.7
+,="Ellington Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.2
+,="Windermere Intermediate School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.8
+,="Windermere School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.8
+="Elm City College Preparatory School District",="Elm City College Preparatory School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",19.0
+="Enfield School District",="Edgar H. Parkman School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",3.1
+,="Eli Whitney School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",3.1
+,="Enfield High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",24.5
+,="Enfield Street School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.0
+,="Enrico Fermi High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",26.0
+,="Hazardville Memorial School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.5
+,="Henry Barnard School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.1
+,="John F. Kennedy Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",15.0
+,="Nathan Hale School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.1
+,="Prudence Crandall School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",3.1
+="Essex School District",="Essex Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.3
+="Explorations District",="Explorations",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",1.5
+="Fairfield School District",="Burr Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.3
+,="Dwight Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.3
+,="Fairfield Ludlowe High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",36.6
+,="Fairfield Warde High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",38.8
+,="Fairfield Woods Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",17.6
+,="Holland Hill School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.3
+,="Jennings School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.3
+,="McKinley School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.2
+,="Mill Hill School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.8
+,="North Stratfield School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.1
+,="Osborn Hill School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.8
+,="Riverfield School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.3
+,="Roger Ludlowe Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",20.2
+,="Sherman School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.0
+,="Stratfield School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.3
+,="Tomlinson Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",18.7
+="Farmington School District",="East Farms School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.5
+,="Farmington High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",50.1
+,="Irving A. Robbins Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",17.3
+,="Noah Wallace School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.3
+,="Union School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.5
+,="West District School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.4
+,="West Woods Upper Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",14.7
+="Franklin School District",="Franklin Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.5
+="Glastonbury School District",="Buttonball Lane School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.6
+,="Eastbury School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.4
+,="Gideon Welles School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",25.8
+,="Glastonbury High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",65.5
+,="Hebron Avenue School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.0
+,="Hopewell School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.5
+,="Naubuc School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.1
+,="Nayaug Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",14.3
+,="Smith Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",29.9
+="Granby School District",="Frank M. Kearns Primary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.1
+,="Granby Memorial High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",16.5
+,="Granby Memorial Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
+,="Kelly Lane Primary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.4
+,="Wells Road Intermediate School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.3
+="Greenwich School District",="Central Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.9
+,="Cos Cob School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.9
+,="Eastern Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",15.0
+,="Glenville School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.5
+,="Greenwich High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",97.6
+,="Hamilton Avenue School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.1
+,="International School At Dundee",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.3
+,="Julian Curtiss School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.6
+,="New Lebanon School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.5
+,="North Mianus School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.0
+,="North Street School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.0
+,="Old Greenwich School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.3
+,="Parkway School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.5
+,="Riverside School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
+,="Western Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.5
+="Griswold School District",="Griswold Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",17.6
+,="Griswold High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",24.7
+,="Griswold Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",14.3
+="Groton School District",="Carl C. Cutler Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.2
+,="Catherine Kolnaski Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.7
+,="Charles Barnum School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.0
+,="Claude Chester School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.0
+,="Mary Morrisson School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.2
+,="Northeast Academy Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.5
+,="Pleasant Valley School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.9
+,="Robert E. Fitch High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",35.0
+,="S. B. Butler School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.9
+,="West Side Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.8
+="Guilford School District",="A. Baldwin Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",14.3
+,="A. W. Cox School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.0
+,="Calvin Leete School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.8
+,="E. C. Adams Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.4
+,="Guilford High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",27.2
+,="Guilford Lakes School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.7
+,="Melissa Jones School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.1
+="Hamden School District",="Bear Path School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",15.0
+,="Church Street School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.5
+,="Dunbar Hill School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.0
+,="Hamden High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",61.5
+,="Hamden Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",28.0
+,="Helen Street School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.5
+,="Ridge Hill School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.5
+,="Shepherd Glen School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
+,="Spring Glen School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.9
+,="West Woods School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.0
+="Hampton School District",="Hampton Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",4.9
+="Hartford School District",="Asian Studies Academy at Bellizzi School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.0
+,="Batchelder School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.0
+,="Betances Early Reading Lab Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.0
+,="Betances STEM Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",2.0
+,="Breakthrough II Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.7
+,="Breakthrough Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.0
+,="Bulkeley High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",22.0
+,="Bulkeley High School Lower School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",23.1
+,="Burns Latino Studies Academy",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",27.9
+,="Burr School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.0
+,="Capital Preparatory Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",30.0
+,="Clark School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",14.0
+,="Classical Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",21.0
+,="Culinary Arts Academy at Weaver High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.0
+,="Dr. Joseph Bellizzi Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.0
+,="Environmental Sciences Magnet at Hooker School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",22.0
+,="Expeditionary Learning Academy at Moylan School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",20.0
+,="Global Communications Academy",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.5
+,="Great Path Academy at MCC",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",4.0
+,="HPHS Engineering and Green Technology Academy",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.8
+,="HPHS Law and Government Academy",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",16.3
+,="HPHS Nursing and Health Sciences Academy",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",17.9
+,="Hartford Magnet Trinity College Academy",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",24.5
+,="High School, Inc.",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.0
+,="Journalism and Media Academy Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
+,="Kennelly School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",17.0
+,="Kinsella Magnet School of Performing Arts",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",24.0
+,="M. D. Fox School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.5
+,="M. L. King, Jr. School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",20.4
+,="McDonough Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.0
+,="Milner School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",27.0
+,="Montessori Magnet at Fisher School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.5
+,="Naylor/CCSU Leadership Academy",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.0
+,="OPPortunity High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.0
+,="Parkville Community School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",17.0
+,="Pathways Academy of Technology and Design",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.0
+,="Rawson School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",14.0
+,="Renzulli Gifted and Talented Academy",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",4.0
+,="SAND School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",14.0
+,="STEM Magnet at Fisher School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.5
+,="Sanchez School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",16.0
+,="Simpson-Waverly School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.0
+,="Sports and Medical Sciences Academy",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",19.0
+,="University High School of Science and Engineering",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.8
+,="Webster Micro Society Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",27.0
+,="West Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",15.0
+,="Wish Museum School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
+="Hartland School District",="Hartland School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.2
+="Hebron School District",="Gilead Hill School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.5
+,="Hebron Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.0
+="Integrated Day Charter School District",="Integrated Day Charter School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.2
+="Interdistrict School for Arts and Comm District",="Interdistrict School For Arts And Communication",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.7
+="Jumoke Academy District",="Jumoke Academy",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",23.0
+="Kent School District",="Kent Center School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.5
+="Killingly School District",="Killingly Central School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.0
+,="Killingly High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",23.0
+,="Killingly Intermediate School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.5
+,="Killingly Memorial School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.0
+="Learn",="Connecticut River Academy",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.0
+,="Dual Language & Arts Magnet Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.0
+,="Marine Science Magnet High School of Southeastern Connecticut",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.5
+,="Regional Multicultural Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.0
+,="The Friendship School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.4
+,="Three Rivers Middle College Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",1.0
+="Lebanon School District",="Lebanon Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.0
+,="Lebanon Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.7
+,="Lyman Memorial High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",14.3
+="Ledyard School District",="Gales Ferry School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.8
+,="Gallup Hill School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.5
+,="Juliet W. Long School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.4
+,="Ledyard Center School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.9
+,="Ledyard High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",22.4
+,="Ledyard Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.1
+="Lisbon School District",="Community Connection - The Big Picture High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",2.3
+,="Lisbon Central School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",18.5
+="Litchfield School District",="Center School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.3
+,="Litchfield High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.3
+,="Litchfield Intermediate School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.3
+="Madison School District",="Daniel Hand High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",30.4
+,="Dr. Robert H. Brown Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.8
+,="Island Avenue Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.4
+,="J. Milton Jeffrey Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.1
+,="Kathleen H. Ryerson Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.4
+,="Walter C. Polson Upper Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.7
+="Manchester School District",="Bowers School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.5
+,="Buckley School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.0
+,="Elisabeth M. Bennet Academy",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",23.0
+,="Highland Park School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
+,="Illing Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",27.0
+,="Keeney School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.0
+,="Manchester High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",61.6
+,="Martin School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.5
+,="Robertson School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.0
+,="Verplanck School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",14.0
+,="Waddell School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.0
+,="Washington School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.0
+="Mansfield School District",="Annie E. Vinton School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.8
+,="Dorothy C. Goodwin School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.8
+,="Mansfield Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",14.0
+,="Southeast Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.8
+="Marlborough School District",="Elmer Thienes-Mary Hall Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
+="Meriden School District",="Nathan Hale School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
+,="Benjamin Franklin School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.5
+,="Casimir Pulaski School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.8
+,="Francis T. Maloney High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",28.0
+,="Hanover School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.5
+,="Israel Putnam School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
+,="John Barry School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.5
+,="Lincoln Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",15.0
+,="Orville H. Platt High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",26.0
+,="Roger Sherman School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.0
+,="Thomas Hooker School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.2
+,="Washington Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",19.5
+="Middletown School District",="Bielefield School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.6
+,="Farm Hill School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.5
+,="Keigwin Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.8
+,="Lawrence School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.5
+,="MacDonough School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.4
+,="Middletown High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",34.3
+,="Moody School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.7
+,="Snow School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.7
+,="Spencer School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.2
+,="Wesley School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.5
+,="Woodrow Wilson Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.9
+="Milford School District",="Calf Pen Meadow School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.0
+,="East Shore Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.5
+,="Harborside Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.0
+,="J. F. Kennedy School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.8
+,="Jonathan Law High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",34.5
+,="Joseph A. Foran High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",32.5
+,="Live Oaks School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.5
+,="Mathewson School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.8
+,="Meadowside School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.0
+,="Orange Avenue School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.8
+,="Orchard Hills School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.5
+,="Pumpkin Delight School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.5
+,="West Shore Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.0
+="Monroe School District",="Fawn Hollow Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.5
+,="Jockey Hollow School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",14.0
+,="Masuk High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",37.5
+,="Monroe Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
+,="Stepney Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.0
+="Montville School District",="Dr. Charles E. Murphy School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.0
+,="Leonard J. Tyl Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",18.7
+,="Mohegan School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.9
+,="Montville High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",23.3
+,="Oakdale School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.0
+="Naugatuck School District",="Andrew Avenue School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",2.5
+,="City Hill Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.5
+,="Cross Street Intermediate School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.0
+,="Hillside Intermediate School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.5
+,="Hop Brook Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.0
+,="Maple Hill School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.5
+,="Naugatuck High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",41.0
+,="Salem School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",4.5
+,="Western School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",4.5
+="New Beginnings Inc Family Academy District",="New Beginnings Inc Family Academy",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
+="New Britain School District",="Chamberlain Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.0
+,="Frank J. DiLoreto School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",22.0
+,="Gaffney School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.0
+,="Holmes School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.0
+,="House of Arts Letters and Science (HALS) Academy",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",2.0
+,="Jefferson School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.0
+,="Lincoln School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",14.0
+,="New Britain High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",52.0
+,="Northend School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.0
+,="Pulaski Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",14.0
+,="Roosevelt Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.0
+,="Slade Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",29.0
+,="Smalley Academy",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",15.0
+,="Smith School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",17.0
+,="Vance School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",15.0
+="New Canaan School District",="East School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.2
+,="New Canaan High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",47.4
+,="Saxe Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",27.7
+,="South School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.7
+,="West School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.6
+="New Fairfield School District",="Consolidated School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.3
+,="Meeting House Hill School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.2
+,="New Fairfield High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",14.7
+,="New Fairfield Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.7
+="New Hartford School District",="Ann Antolini School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.4
+,="Bakerville Consolidated School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",4.0
+,="New Hartford Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",4.3
+="New Haven School District",="Edgewood School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.0
+,="Nathan Hale School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.0
+,="Augusta Lewis Troup School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.0
+,="Barnard Environmental Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.6
+,="Beecher School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.4
+,="Benjamin Jepson Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",14.0
+,="Betsy Ross Arts Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
+,="Bishop Woods Architecture and Design Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.4
+,="Brennan Rogers School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.0
+,="Celentano BioTech, Health and Medical Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.0
+,="Clinton Avenue School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.6
+,="Columbus Family Academy",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.0
+,="Conte/West Hills Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.0
+,="Cooperative High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",15.0
+,="Cortlandt V.R. Creed Health and Sport Sciences High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
+,="Davis 21st Century Magnet Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.0
+,="East Rock Community Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",3.0
+,="Engineering - Science University Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.0
+,="Fair Haven School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",14.0
+,="High School In The Community",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.0
+,="Hill Central Music Academy",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",4.0
+,="Hill Regional Career High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",18.0
+,="James Hillhouse High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",21.0
+,="John C. Daniels",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
+,="John S. Martinez Sea and Sky STEM School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.6
+,="King/Robinson Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.0
+,="Lincoln-Bassett School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.0
+,="Mauro-Sheridan Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.0
+,="Metropolitan Business Academy",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.0
+,="New Haven Academy",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
+,="Quinnipiac Real World Math STEM School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",2.0
+,="Roberto Clemente Leadership Academy for Global Awareness",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
+,="Ross/Woodward School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.4
+,="Sound School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
+,="Strong 21st Century Communications Magnet and SCSU Lab School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",4.4
+,="Truman School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.0
+,="West Rock Authors Academy",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.0
+,="Wexler/Grant Community School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.6
+,="Wilbur Cross High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",26.0
+,="Worthington Hooker School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.0
+="New London School District",="Jennings School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.4
+,="Bennie Dover Jackson Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",17.7
+,="Nathan Hale Arts Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.9
+,="New London High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",30.2
+,="Winthrop STEM Elementary Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.8
+="New Milford School District",="Hill And Plain School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",19.0
+,="John Pettibone School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.2
+,="New Milford High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",46.1
+,="Northville Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",17.4
+,="Sarah Noble Intermediate School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",29.0
+,="Schaghticoke Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",22.0
+="Newington School District",="Anna Reynolds School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.1
+,="Elizabeth Green School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.1
+,="John Paterson School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.4
+,="John Wallace Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.5
+,="Martin Kellogg Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.6
+,="Newington High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",48.8
+,="Ruth Chaffee School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.1
+="Newtown School District",="Hawley Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.3
+,="Head O'Meadow Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.7
+,="Middle Gate Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.4
+,="Newtown High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",52.2
+,="Newtown Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",21.5
+,="Reed Intermediate School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",23.1
+,="Sandy Hook Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",14.8
+="Norfolk School District",="Botelle Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",4.1
+="North Branford School District",="Jerome Harrison School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.0
+,="North Branford High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",19.0
+,="North Branford Intermediate School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",18.5
+,="Totoket Valley Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.7
+="North Canaan School District",="North Canaan Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.0
+="North Haven School District",="Clintonville Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.3
+,="Green Acres Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.3
+,="Montowese Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.3
+,="North Haven High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",21.0
+,="North Haven Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.5
+,="Ridge Road Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.3
+="North Stonington School District",="North Stonington Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.7
+,="Wheeler High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.6
+,="Wheeler Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.4
+="Norwich Free Academy District",="Norwich Free Academy",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",89.2
+="Norwich School District",="John B. Stanton Network School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.0
+,="Kelly Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",17.0
+,="Moriarty Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.5
+,="Samuel Huntington School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.7
+,="Teachers' Memorial Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.5
+,="Thomas W. Mahan School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.0
+,="Uncas Network School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.0
+,="Veterans' Memorial School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.0
+,="Wequonnoc Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.5
+="Odyssey Community School District",="Odyssey Community School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.0
+="Old Saybrook School District",="Kathleen E. Goodwin School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.0
+,="Old Saybrook Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",16.0
+,="Old Saybrook Senior High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",17.0
+="Orange School District",="Mary L. Tracy School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.6
+,="Peck Place School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.1
+,="Race Brook School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.7
+,="Turkey Hill School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.5
+="Oxford School District",="Great Oak School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.6
+,="Oxford Center School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.7
+,="Oxford High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",17.1
+,="Quaker Farms School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.1
+="Park City Prep Charter School District",="Park City Prep Charter School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",4.0
+="Plainfield School District",="Moosup Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.0
+,="Plainfield Central School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.0
+,="Plainfield High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",24.0
+,="Plainfield Memorial School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.7
+,="Shepard Hill Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.0
+="Plainville School District",="Frank T. Wheeler School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.8
+,="Linden Street School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.4
+,="Louis Toffolon School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.6
+,="Middle School of Plainville",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.4
+,="Plainville High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",23.4
+="Plymouth School District",="Eli Terry Jr. Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",15.6
+,="Harry S. Fisher Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.3
+,="Plymouth Center School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.3
+,="Terryville High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",20.5
+="Pomfret School District",="Pomfret Community School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",21.4
+="Portland School District",="Brownstone Intermediate School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",4.0
+,="Gildersleeve School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.3
+,="Portland High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.8
+,="Portland Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.5
+,="Valley View School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.0
+="Preston School District",="Preston Plains School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",4.7
+,="Preston Veterans' Memorial School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.9
+="Putnam School District",="Putnam Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.9
+,="Putnam High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.0
+,="Putnam Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.2
+="Redding School District",="John Read Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",14.5
+,="Redding Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",15.5
+="Regional School District 01",="Housatonic Valley Regional High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",18.1
+="Regional School District 04",="John Winthrop Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.0
+,="Valley Regional High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",19.4
+="Regional School District 05",="Amity Middle School: Bethany",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.1
+,="Amity Middle School: Orange",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.1
+,="Amity Regional High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",34.9
+="Regional School District 06",="Goshen Center School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",4.2
+,="James Morris School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",4.6
+,="Wamogo Regional High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",14.8
+,="Warren Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",3.8
+="Regional School District 07",="Northwestern Regional High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",39.9
+,="Northwestern Regional Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",17.4
+="Regional School District 08",="RHAM High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",30.5
+,="RHAM Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",18.1
+="Regional School District 09",="Joel Barlow High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",35.0
+="Regional School District 10",="Har-Bur Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",20.5
+,="Harwinton Consolidated School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.6
+,="Lake Garda Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",14.0
+,="Lewis S. Mills High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",25.2
+="Regional School District 11",="Parish Hill High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",15.0
+="Regional School District 12",="Booth Free School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",3.1
+,="Shepaug Valley High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.0
+,="Shepaug Valley Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.0
+,="The Burnham School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",3.1
+,="Washington Primary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",4.8
+="Regional School District 13",="Coginchaug Regional High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",17.5
+,="Francis E. Korn School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.5
+,="Frank Ward Strong School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.3
+,="Frederick Brewster School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.3
+,="John Lyman School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.5
+,="Middlefield Memorial School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.5
+="Regional School District 14",="Bethlehem Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.4
+,="Mitchell Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.3
+,="Nonnewaug High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",20.9
+,="Woodbury Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.1
+="Regional School District 15",="Gainfield Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.9
+,="Long Meadow Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.8
+,="Memorial Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.2
+,="Middlebury Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.3
+,="Pomperaug Regional High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",38.8
+,="Pomperaug School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.8
+,="Rochambeau Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.4
+="Regional School District 16",="Algonquin School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.3
+,="Community School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.8
+,="Laurel Ledge School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.5
+,="Long River Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",16.5
+,="Woodland Regional High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",27.5
+="Regional School District 17",="Burr District Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.5
+,="Haddam Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.5
+,="Haddam-Killingworth High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",27.2
+,="Haddam-Killingworth Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",17.5
+,="Killingworth Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.0
+="Regional School District 18",="Center School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.7
+,="Lyme Consolidated School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.7
+,="Lyme-Old Lyme High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.6
+,="Lyme-Old Lyme Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.3
+,="Mile Creek School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.5
+="Regional School District 19",="E. O. Smith High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",32.5
+="Ridgefield School District",="Barlow Mountain Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.6
+,="Branchville Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.9
+,="East Ridge Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",17.5
+,="Farmingville Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.8
+,="Ridgebury Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.0
+,="Ridgefield High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",40.8
+,="Scotland Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
+,="Scotts Ridge Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",14.7
+,="Veterans Park Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.8
+="Rocky Hill School District",="Albert D. Griswold Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.7
+,="Myrtle H. Stevens School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.1
+,="Rocky Hill High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",24.2
+,="West Hill School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.1
+="Salem School District",="Salem Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",15.5
+="Salisbury School District",="Salisbury Central School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.0
+="Scotland School District",="Scotland Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.9
+="Seymour School District",="Bungay School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.8
+,="Paul E. Chatfield School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",16.1
+,="Seymour High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",22.7
+,="Seymour Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",20.7
+="Sharon School District",="Sharon Center School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.0
+="Shelton School District",="Mohegan School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.5
+,="Booth Hill School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.5
+,="Elizabeth Shelton School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.5
+,="Intermediate School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",25.0
+,="Long Hill School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.5
+,="Perry Hill Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",19.0
+,="Shelton High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",45.5
+,="Sunnyside School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.5
+="Sherman School District",="Sherman School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.0
+="Side By Side Charter School District",="Side By Side Charter School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.5
+="Simsbury School District",="Central School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.6
+,="Henry James Memorial School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",16.7
+,="Latimer Lane School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.3
+,="Simsbury High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",50.6
+,="Squadron Line School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",16.0
+,="Tariffville School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.7
+,="Tootin' Hills School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.5
+="Somers School District",="Mabelle B. Avery Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.0
+,="Somers Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.9
+,="Somers High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.5
+="South Windsor School District",="Pleasant Valley School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.2
+,="Eli Terry School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.8
+,="Orchard Hill School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.2
+,="Philip R. Smith School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.8
+,="South Windsor High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",42.7
+,="Timothy Edwards School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",30.1
+,="Wapping Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.8
+="Southington School District",="John F. Kennedy Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.8
+,="Derynoski Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.8
+,="Flanders Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.9
+,="Hatton Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.6
+,="Joseph A. Depaolo Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.7
+,="Plantsville Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.6
+,="South End Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.6
+,="Southington High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",42.2
+,="Strong Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.7
+,="Thalberg Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.7
+,="Urbin T. Kelley School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.0
+="Sprague School District",="Sayles School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.1
+="Stafford School District",="Stafford Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.5
+,="Stafford High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.9
+,="Stafford Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
+,="Staffordville School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",4.1
+,="West Stafford School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.2
+="Stamford Academy District",="Stamford Academy",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.5
+="Stamford School District",="Cloonan School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",16.0
+,="Davenport Ridge School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.0
+,="Hart School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
+,="Julia A. Stark School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
+,="K. T. Murphy School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
+,="Newfield School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
+,="Northeast School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.0
+,="Rippowam Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",17.0
+,="Roxbury School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.0
+,="Scofield Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.0
+,="Springdale School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.0
+,="Stamford High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",36.0
+,="Stillmeadow School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
+,="The Academy of Information Technology",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.0
+,="Toquam Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
+,="Turn of River School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",14.0
+,="Westhill High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",44.0
+,="Westover School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.0
+="Sterling School District",="Sterling Community School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.0
+="Stonington School District",="Deans Mill School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
+,="Mystic Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.1
+,="Pawcatuck Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.3
+,="Stonington High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",24.6
+,="West Broad Street School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.6
+,="West Vine Street School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.2
+="Stratford School District",="Eli Whitney School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.7
+,="Bunnell High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",26.0
+,="Chapel School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.8
+,="David Wooster Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",14.5
+,="Franklin School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.7
+,="Harry B. Flood Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.5
+,="Honeyspot School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.0
+,="Lordship School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",4.5
+,="Nichols School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.9
+,="Second Hill Lane School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.3
+,="Stratford Academy - Johnson House",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.4
+,="Stratford High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",24.5
+,="Wilcoxson School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.2
+="Suffield School District",="A. Ward Spaulding School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.4
+,="McAlister Intermediate School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.2
+,="Suffield High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",16.0
+,="Suffield Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.5
+="The Bridge Academy District",="The Bridge Academy",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.4
+="The Gilbert School District",="The Gilbert School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",22.5
+="Thomaston School District",="Black Rock School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.2
+,="Thomaston Center School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.5
+,="Thomaston High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.5
+="Thompson School District",="Mary R. Fisher Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",14.0
+,="Thompson Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.8
+,="Tourtellotte Memorial High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.3
+="Tolland School District",="Birch Grove Primary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.2
+,="Tolland High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",27.1
+,="Tolland Intermediate School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.7
+,="Tolland Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",15.2
+="Torrington School District",="East School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.8
+,="Forbes School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.3
+,="Southwest School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.4
+,="Torringford School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.6
+,="Torrington High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",27.6
+,="Torrington Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",21.1
+,="Vogel-Wetmore School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.5
+="Trailblazers Academy District",="Trailblazers Academy",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",3.0
+="Trumbull School District",="Booth Hill School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.0
+,="Daniels Farm School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.5
+,="Frenchtown Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.3
+,="Head Start",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",1.6
+,="Hillcrest Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",16.0
+,="Jane Ryan School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
+,="Madison Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",20.0
+,="Middlebrook School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
+,="Tashua School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
+,="Trumbull High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",80.5
+="Unified School District #1",="Bridgeport Correctional Center",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",1.0
+,="Brooklyn Correctional Institution",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",0.5
+,="Cheshire Correctional Institution",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",1.0
+,="Corrigan/Radgowski Correctional Institution",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",2.0
+,="Enfield Correctional Institution",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",1.0
+,="Garner Correctional Institution",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",0.5
+,="Hartford Correctional Center",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",0.5
+,="MacDougall/Walker Correctional Institution",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",2.5
+,="Manson Youth Institution",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",2.5
+,="New Haven Correctional Center",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",1.0
+,="Northern Correctional Institution",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",0.0
+,="Osborn Correctional Institution",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",1.0
+,="Robinson Correctional Institution",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",1.0
+,="Webster Correctional Institution",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",0.0
+,="Willard/Cybulski Correctional Institution",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",1.0
+,="York Correctional Institution",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",1.5
+="Unified School District #2",="Children's Place School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",0.0
+,="Riverview School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",0.0
+,="Walter G. Cady School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",1.0
+="Vernon School District",="Northeast School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.5
+,="Center Road School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.7
+,="Lake Street School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",4.6
+,="Maple Street School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.8
+,="Rockville High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",36.8
+,="Skinner Road School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.5
+,="Vernon Center Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",19.3
+="Voluntown School District",="Voluntown Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",18.8
+="Wallingford School District",="Highland School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",4.0
+,="Cook Hill School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.9
+,="Dag Hammarskjold Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",17.5
+,="Evarts C. Stevens School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.2
+,="James H. Moran Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",18.0
+,="Lyman Hall High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",22.5
+,="Mark T. Sheehan High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",22.8
+,="Moses Y. Beach School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.5
+,="Parker Farms School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.1
+,="Pond Hill School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.0
+,="Rock Hill School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.7
+,="Yalesville School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.0
+="Waterbury School District",="West Side Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",23.5
+,="Washington School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.5
+,="B. W. Tinker School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
+,="Bucks Hill School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",14.5
+,="Bunker Hill School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
+,="Carrington School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",5.2
+,="Crosby High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",41.0
+,="Driggs School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",14.6
+,="Duggan School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",15.7
+,="F. J. Kingsbury School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.0
+,="Gilmartin School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",14.3
+,="H. S. Chase School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",16.0
+,="Hopeville School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.0
+,="John F. Kennedy High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",39.0
+,="Maloney Interdistrict Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",15.5
+,="Margaret M. Generali Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.7
+,="Michael F. Wallace Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",31.0
+,="North End Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",30.5
+,="Reed School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.0
+,="Regan School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.7
+,="Rotella Interdistrict Magnet School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",15.2
+,="Sprague School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.8
+,="Walsh School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",15.2
+,="Waterbury Arts Magnet School (High)",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",15.5
+,="Waterbury Arts Magnet School (Middle)",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",15.0
+,="Wendell L. Cross School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.4
+,="Wilby High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",1.0
+,="Woodrow Wilson School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.0
+="Waterford School District",="Clark Lane Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",18.4
+,="Great Neck Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.5
+,="Oswegatchie Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.7
+,="Quaker Hill Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.2
+,="Waterford High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",26.3
+="Watertown School District",="Fletcher W. Judson School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.0
+,="John Trumbull Primary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.5
+,="Polk School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.5
+,="Swift Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",21.0
+,="Watertown High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",28.0
+="West Hartford School District",="Smith School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.5
+,="Aiken School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.2
+,="Braeburn School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.0
+,="Bristow Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.6
+,="Bugbee School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.5
+,="Charter Oak International Academy",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.0
+,="Conard High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",45.0
+,="Duffy School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.0
+,="Hall High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",50.3
+,="King Philip Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",22.8
+,="Morley School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.0
+,="Norfeldt School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.0
+,="Sedgwick Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",22.5
+,="Webster Hill School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
+,="Whiting Lane School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.5
+,="Wolcott School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.5
+="West Haven School District",="Washington School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.8
+,="Alma E. Pagels School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.4
+,="Carrigan 5/6 Intermediate School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.0
+,="Edith E. Mackrille School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.3
+,="Forest School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.3
+,="Harry M. Bailey Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",19.6
+,="Savin Rock Community School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.1
+,="Seth G. Haley School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.4
+,="West Haven High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",43.0
+="Westbrook School District",="Daisy Ingraham School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.6
+,="Westbrook High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.3
+,="Westbrook Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.6
+="Weston School District",="Hurlbutt Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.4
+,="Weston High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.1
+,="Weston Intermediate School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.7
+,="Weston Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.3
+="Westport School District",="Bedford Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",22.5
+,="Coleytown Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.4
+,="Coleytown Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",15.5
+,="Green's Farms School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.0
+,="King's Highway Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.6
+,="Long Lots School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.9
+,="Saugatuck Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.8
+,="Staples High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",55.0
+="Wethersfield School District",="Alfred W. Hanmer School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.4
+,="Charles Wright School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.7
+,="Emerson-Williams School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.3
+,="Highcrest School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.0
+,="Samuel B. Webb Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.5
+,="Silas Deane Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",15.5
+,="Wethersfield High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",40.7
+="Willington School District",="Center School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.1
+,="Hall Memorial School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.7
+="Wilton School District",="Middlebrook School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",17.3
+,="Cider Mill School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.1
+,="Miller-Driscoll School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.9
+,="Wilton High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",34.6
+="Winchester School District",="Batcheller Early Education Center",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",6.3
+,="Mary P. Hinsdale School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.3
+,="Pearson Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.3
+="Windham School District",="Natchaug School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.4
+,="North Windham School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.4
+,="W. B. Sweeney School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.9
+,="Windham Center School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.9
+,="Windham High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",32.0
+,="Windham Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",20.0
+="Windsor Locks School District",="North Street School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.3
+,="South Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.8
+,="Windsor Locks High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",16.6
+,="Windsor Locks Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.6
+="Windsor School District",="Clover Street School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.3
+,="John F. Kennedy School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",11.5
+,="Oliver Ellsworth School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",12.3
+,="Poquonock Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.3
+,="Sage Park Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",21.5
+,="Windsor High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",41.0
+="Wolcott School District",="Alcott School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.9
+,="Frisbie School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",9.5
+,="Tyrrell Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",16.7
+,="Wakelee School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",10.3
+,="Wolcott High School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",27.0
+="Woodbridge School District",="Beecher Road School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",13.9
+="Woodstock Academy District",="Woodstock Academy",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",48.5
+="Woodstock School District",="Woodstock Elementary School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",8.6
+,="Woodstock Middle School",="Other Staff Providing Non-Instructional Services/Support",="Certified/Non-Certified",7.9
 

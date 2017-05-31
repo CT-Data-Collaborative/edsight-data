@@ -1,498 +1,194 @@
-<html><head><title>VMware vFabric tc Runtime 2.8.0.RELEASE/7.0.30.A.RELEASE - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 500 - Unable to find local session...</h1><HR size="1" noshade="noshade"><p><b>type</b> Exception report</p><p><b>message</b> <u>Unable to find local session...</u></p><p><b>description</b> <u>The server encountered an internal error that prevented it from fulfilling this request.</u></p><p><b>exception</b> <pre>java.lang.IllegalStateException: Unable to find local session...
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:187)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:218)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:206)
-	com.sas.svcs.webapp.servlet.filters.LocalPlatformServicesFilter.onDoFilter(LocalPlatformServicesFilter.java:96)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:311)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:116)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.TgtKeepAliveFilter.doFilterInternal(TgtKeepAliveFilter.java:59)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:45)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.SessionIdentifierFilter.doFilterInternal(SessionIdentifierFilter.java:38)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:182)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.session.jasig.SingleSignOutFilter.doFilterInternal(SingleSignOutFilter.java:60)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.RevokableTokenLogoutFilter.doFilter(RevokableTokenLogoutFilter.java:38)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.CsrfRefererCheckerFilter.doFilterInternal(CsrfRefererCheckerFilter.java:469)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.framework.webapp.servlet.ApplicationNameFilter.onDoFilter(ApplicationNameFilter.java:46)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:173)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.services.storedprocess.webapp.SPFilter.onDoFilter(SPFilter.java:268)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.servlet.filters.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:62)
-	com.sas.framework.webapp.servlet.SanitizingRequestFilter.onDoFilter(SanitizingRequestFilter.java:86)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-</pre></p><p><b>root cause</b> <pre>com.sas.svcs.authentication.helper.TrustedAuthenticationException: com.sas.svcs.authentication.helper.TrustedAuthenticationException: javax.security.auth.login.LoginException: The application could not log on to the server &quot;sdemeta.sys.services.ct.gov:8561&quot;.
-	com.sas.svcs.authentication.helper.TrustedUserFactory.create(TrustedUserFactory.java:97)
-	com.sas.svcs.authentication.helper.UserSessionFactory.createAndLockLocalSession(UserSessionFactory.java:386)
-	com.sas.svcs.authentication.helper.UserSessionFactory.createLockAndSaveLocalSession(UserSessionFactory.java:354)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:176)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:218)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:206)
-	com.sas.svcs.webapp.servlet.filters.LocalPlatformServicesFilter.onDoFilter(LocalPlatformServicesFilter.java:96)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:311)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:116)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.TgtKeepAliveFilter.doFilterInternal(TgtKeepAliveFilter.java:59)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:45)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.SessionIdentifierFilter.doFilterInternal(SessionIdentifierFilter.java:38)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:182)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.session.jasig.SingleSignOutFilter.doFilterInternal(SingleSignOutFilter.java:60)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.RevokableTokenLogoutFilter.doFilter(RevokableTokenLogoutFilter.java:38)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.CsrfRefererCheckerFilter.doFilterInternal(CsrfRefererCheckerFilter.java:469)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.framework.webapp.servlet.ApplicationNameFilter.onDoFilter(ApplicationNameFilter.java:46)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:173)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.services.storedprocess.webapp.SPFilter.onDoFilter(SPFilter.java:268)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.servlet.filters.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:62)
-	com.sas.framework.webapp.servlet.SanitizingRequestFilter.onDoFilter(SanitizingRequestFilter.java:86)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-</pre></p><p><b>root cause</b> <pre>com.sas.svcs.authentication.helper.TrustedAuthenticationException: javax.security.auth.login.LoginException: The application could not log on to the server &quot;sdemeta.sys.services.ct.gov:8561&quot;.
-	com.sas.svcs.authentication.helper.TrustedSubjectFactory.create(TrustedSubjectFactory.java:54)
-	com.sas.svcs.authentication.helper.TrustedUserFactory.create(TrustedUserFactory.java:84)
-	com.sas.svcs.authentication.helper.UserSessionFactory.createAndLockLocalSession(UserSessionFactory.java:386)
-	com.sas.svcs.authentication.helper.UserSessionFactory.createLockAndSaveLocalSession(UserSessionFactory.java:354)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:176)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:218)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:206)
-	com.sas.svcs.webapp.servlet.filters.LocalPlatformServicesFilter.onDoFilter(LocalPlatformServicesFilter.java:96)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:311)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:116)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.TgtKeepAliveFilter.doFilterInternal(TgtKeepAliveFilter.java:59)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:45)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.SessionIdentifierFilter.doFilterInternal(SessionIdentifierFilter.java:38)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:182)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.session.jasig.SingleSignOutFilter.doFilterInternal(SingleSignOutFilter.java:60)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.RevokableTokenLogoutFilter.doFilter(RevokableTokenLogoutFilter.java:38)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.CsrfRefererCheckerFilter.doFilterInternal(CsrfRefererCheckerFilter.java:469)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.framework.webapp.servlet.ApplicationNameFilter.onDoFilter(ApplicationNameFilter.java:46)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:173)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.services.storedprocess.webapp.SPFilter.onDoFilter(SPFilter.java:268)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.servlet.filters.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:62)
-	com.sas.framework.webapp.servlet.SanitizingRequestFilter.onDoFilter(SanitizingRequestFilter.java:86)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-</pre></p><p><b>root cause</b> <pre>javax.security.auth.login.LoginException: The application could not log on to the server &quot;sdemeta.sys.services.ct.gov:8561&quot;.
-	com.sas.services.security.login.SasLoginModule.attemptConnection(SasLoginModule.java:816)
-	com.sas.services.security.login.SasLoginModule.attemptConnection(SasLoginModule.java:675)
-	com.sas.services.security.login.TrustedLoginModule.doLogin(TrustedLoginModule.java:167)
-	com.sas.services.security.login.TrustedLoginModule.login(TrustedLoginModule.java:126)
-	sun.reflect.GeneratedMethodAccessor742.invoke(Unknown Source)
-	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	java.lang.reflect.Method.invoke(Method.java:606)
-	javax.security.auth.login.LoginContext.invoke(LoginContext.java:762)
-	javax.security.auth.login.LoginContext.access$000(LoginContext.java:203)
-	javax.security.auth.login.LoginContext$4.run(LoginContext.java:690)
-	javax.security.auth.login.LoginContext$4.run(LoginContext.java:688)
-	java.security.AccessController.doPrivileged(Native Method)
-	javax.security.auth.login.LoginContext.invokePriv(LoginContext.java:687)
-	javax.security.auth.login.LoginContext.login(LoginContext.java:595)
-	com.sas.svcs.authentication.helper.TrustedSubjectFactory.create(TrustedSubjectFactory.java:49)
-	com.sas.svcs.authentication.helper.TrustedUserFactory.create(TrustedUserFactory.java:84)
-	com.sas.svcs.authentication.helper.UserSessionFactory.createAndLockLocalSession(UserSessionFactory.java:386)
-	com.sas.svcs.authentication.helper.UserSessionFactory.createLockAndSaveLocalSession(UserSessionFactory.java:354)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:176)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:218)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:206)
-	com.sas.svcs.webapp.servlet.filters.LocalPlatformServicesFilter.onDoFilter(LocalPlatformServicesFilter.java:96)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:311)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:116)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.TgtKeepAliveFilter.doFilterInternal(TgtKeepAliveFilter.java:59)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:45)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.SessionIdentifierFilter.doFilterInternal(SessionIdentifierFilter.java:38)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:182)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.session.jasig.SingleSignOutFilter.doFilterInternal(SingleSignOutFilter.java:60)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.RevokableTokenLogoutFilter.doFilter(RevokableTokenLogoutFilter.java:38)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.CsrfRefererCheckerFilter.doFilterInternal(CsrfRefererCheckerFilter.java:469)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.framework.webapp.servlet.ApplicationNameFilter.onDoFilter(ApplicationNameFilter.java:46)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:173)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.services.storedprocess.webapp.SPFilter.onDoFilter(SPFilter.java:268)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.servlet.filters.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:62)
-	com.sas.framework.webapp.servlet.SanitizingRequestFilter.onDoFilter(SanitizingRequestFilter.java:86)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-</pre></p><p><b>root cause</b> <pre>com.sas.services.connection.FatalConnectionFactoryException: The application could not log on to the server &quot;sdemeta.sys.services.ct.gov:8561&quot;.
-	com.sas.services.connection.ClusterEnvelope.getConnection(ClusterEnvelope.java:240)
-	com.sas.services.connection.AggregationKernel.doGetConnection(AggregationKernel.java:242)
-	com.sas.services.connection.ConnectionFactoryKernel.getConnection(ConnectionFactoryKernel.java:325)
-	com.sas.services.connection.ConnectionFactoryShell.getConnection(ConnectionFactoryShell.java:69)
-	com.sas.services.connection.ConnectionFactoryShell.getConnection(ConnectionFactoryShell.java:51)
-	com.sas.services.security.login.SasLoginModule.attemptConnection(SasLoginModule.java:703)
-	com.sas.services.security.login.SasLoginModule.attemptConnection(SasLoginModule.java:675)
-	com.sas.services.security.login.TrustedLoginModule.doLogin(TrustedLoginModule.java:167)
-	com.sas.services.security.login.TrustedLoginModule.login(TrustedLoginModule.java:126)
-	sun.reflect.GeneratedMethodAccessor742.invoke(Unknown Source)
-	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	java.lang.reflect.Method.invoke(Method.java:606)
-	javax.security.auth.login.LoginContext.invoke(LoginContext.java:762)
-	javax.security.auth.login.LoginContext.access$000(LoginContext.java:203)
-	javax.security.auth.login.LoginContext$4.run(LoginContext.java:690)
-	javax.security.auth.login.LoginContext$4.run(LoginContext.java:688)
-	java.security.AccessController.doPrivileged(Native Method)
-	javax.security.auth.login.LoginContext.invokePriv(LoginContext.java:687)
-	javax.security.auth.login.LoginContext.login(LoginContext.java:595)
-	com.sas.svcs.authentication.helper.TrustedSubjectFactory.create(TrustedSubjectFactory.java:49)
-	com.sas.svcs.authentication.helper.TrustedUserFactory.create(TrustedUserFactory.java:84)
-	com.sas.svcs.authentication.helper.UserSessionFactory.createAndLockLocalSession(UserSessionFactory.java:386)
-	com.sas.svcs.authentication.helper.UserSessionFactory.createLockAndSaveLocalSession(UserSessionFactory.java:354)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:176)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:218)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:206)
-	com.sas.svcs.webapp.servlet.filters.LocalPlatformServicesFilter.onDoFilter(LocalPlatformServicesFilter.java:96)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:311)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:116)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.TgtKeepAliveFilter.doFilterInternal(TgtKeepAliveFilter.java:59)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:45)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.SessionIdentifierFilter.doFilterInternal(SessionIdentifierFilter.java:38)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:182)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.session.jasig.SingleSignOutFilter.doFilterInternal(SingleSignOutFilter.java:60)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.RevokableTokenLogoutFilter.doFilter(RevokableTokenLogoutFilter.java:38)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.CsrfRefererCheckerFilter.doFilterInternal(CsrfRefererCheckerFilter.java:469)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.framework.webapp.servlet.ApplicationNameFilter.onDoFilter(ApplicationNameFilter.java:46)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:173)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.services.storedprocess.webapp.SPFilter.onDoFilter(SPFilter.java:268)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.servlet.filters.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:62)
-	com.sas.framework.webapp.servlet.SanitizingRequestFilter.onDoFilter(SanitizingRequestFilter.java:86)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-</pre></p><p><b>root cause</b> <pre>org.omg.CORBA.COMM_FAILURE: The application could not log on to the server &quot;sdemeta.sys.services.ct.gov:8561&quot;.  vmcid: 0x0  minor code: 1  completed: No
-	com.sas.iom.orb.brg.Engine$5.run(Engine.java:3736)
-	java.security.AccessController.doPrivileged(Native Method)
-	com.sas.iom.orb.brg.Engine.flowConnect(Engine.java:3757)
-	com.sas.iom.orb.brg.Engine.flow(Engine.java:697)
-	com.sas.iom.orb.brg.Engine.initClient(Engine.java:661)
-	com.sas.iom.orb.brg.ORBImpl.uri_to_object(ORBImpl.java:119)
-	com.sas.services.connection.ClusterEnvelope.createObject(ClusterEnvelope.java:293)
-	com.sas.services.connection.ClusterEnvelope.getConnection(ClusterEnvelope.java:78)
-	com.sas.services.connection.AggregationKernel.doGetConnection(AggregationKernel.java:242)
-	com.sas.services.connection.ConnectionFactoryKernel.getConnection(ConnectionFactoryKernel.java:325)
-	com.sas.services.connection.ConnectionFactoryShell.getConnection(ConnectionFactoryShell.java:69)
-	com.sas.services.connection.ConnectionFactoryShell.getConnection(ConnectionFactoryShell.java:51)
-	com.sas.services.security.login.SasLoginModule.attemptConnection(SasLoginModule.java:703)
-	com.sas.services.security.login.SasLoginModule.attemptConnection(SasLoginModule.java:675)
-	com.sas.services.security.login.TrustedLoginModule.doLogin(TrustedLoginModule.java:167)
-	com.sas.services.security.login.TrustedLoginModule.login(TrustedLoginModule.java:126)
-	sun.reflect.GeneratedMethodAccessor742.invoke(Unknown Source)
-	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	java.lang.reflect.Method.invoke(Method.java:606)
-	javax.security.auth.login.LoginContext.invoke(LoginContext.java:762)
-	javax.security.auth.login.LoginContext.access$000(LoginContext.java:203)
-	javax.security.auth.login.LoginContext$4.run(LoginContext.java:690)
-	javax.security.auth.login.LoginContext$4.run(LoginContext.java:688)
-	java.security.AccessController.doPrivileged(Native Method)
-	javax.security.auth.login.LoginContext.invokePriv(LoginContext.java:687)
-	javax.security.auth.login.LoginContext.login(LoginContext.java:595)
-	com.sas.svcs.authentication.helper.TrustedSubjectFactory.create(TrustedSubjectFactory.java:49)
-	com.sas.svcs.authentication.helper.TrustedUserFactory.create(TrustedUserFactory.java:84)
-	com.sas.svcs.authentication.helper.UserSessionFactory.createAndLockLocalSession(UserSessionFactory.java:386)
-	com.sas.svcs.authentication.helper.UserSessionFactory.createLockAndSaveLocalSession(UserSessionFactory.java:354)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:176)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:218)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:206)
-	com.sas.svcs.webapp.servlet.filters.LocalPlatformServicesFilter.onDoFilter(LocalPlatformServicesFilter.java:96)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:311)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:116)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.TgtKeepAliveFilter.doFilterInternal(TgtKeepAliveFilter.java:59)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:45)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.SessionIdentifierFilter.doFilterInternal(SessionIdentifierFilter.java:38)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:182)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.session.jasig.SingleSignOutFilter.doFilterInternal(SingleSignOutFilter.java:60)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.RevokableTokenLogoutFilter.doFilter(RevokableTokenLogoutFilter.java:38)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.CsrfRefererCheckerFilter.doFilterInternal(CsrfRefererCheckerFilter.java:469)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.framework.webapp.servlet.ApplicationNameFilter.onDoFilter(ApplicationNameFilter.java:46)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:173)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.services.storedprocess.webapp.SPFilter.onDoFilter(SPFilter.java:268)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.servlet.filters.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:62)
-	com.sas.framework.webapp.servlet.SanitizingRequestFilter.onDoFilter(SanitizingRequestFilter.java:86)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-</pre></p><p><b>root cause</b> <pre>java.net.BindException: Address already in use: connect
-	sun.nio.ch.Net.connect0(Native Method)
-	sun.nio.ch.Net.connect(Net.java:465)
-	sun.nio.ch.Net.connect(Net.java:457)
-	sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:670)
-	com.sas.iom.orb.brg.Engine$5.run(Engine.java:3688)
-	java.security.AccessController.doPrivileged(Native Method)
-	com.sas.iom.orb.brg.Engine.flowConnect(Engine.java:3757)
-	com.sas.iom.orb.brg.Engine.flow(Engine.java:697)
-	com.sas.iom.orb.brg.Engine.initClient(Engine.java:661)
-	com.sas.iom.orb.brg.ORBImpl.uri_to_object(ORBImpl.java:119)
-	com.sas.services.connection.ClusterEnvelope.createObject(ClusterEnvelope.java:293)
-	com.sas.services.connection.ClusterEnvelope.getConnection(ClusterEnvelope.java:78)
-	com.sas.services.connection.AggregationKernel.doGetConnection(AggregationKernel.java:242)
-	com.sas.services.connection.ConnectionFactoryKernel.getConnection(ConnectionFactoryKernel.java:325)
-	com.sas.services.connection.ConnectionFactoryShell.getConnection(ConnectionFactoryShell.java:69)
-	com.sas.services.connection.ConnectionFactoryShell.getConnection(ConnectionFactoryShell.java:51)
-	com.sas.services.security.login.SasLoginModule.attemptConnection(SasLoginModule.java:703)
-	com.sas.services.security.login.SasLoginModule.attemptConnection(SasLoginModule.java:675)
-	com.sas.services.security.login.TrustedLoginModule.doLogin(TrustedLoginModule.java:167)
-	com.sas.services.security.login.TrustedLoginModule.login(TrustedLoginModule.java:126)
-	sun.reflect.GeneratedMethodAccessor742.invoke(Unknown Source)
-	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	java.lang.reflect.Method.invoke(Method.java:606)
-	javax.security.auth.login.LoginContext.invoke(LoginContext.java:762)
-	javax.security.auth.login.LoginContext.access$000(LoginContext.java:203)
-	javax.security.auth.login.LoginContext$4.run(LoginContext.java:690)
-	javax.security.auth.login.LoginContext$4.run(LoginContext.java:688)
-	java.security.AccessController.doPrivileged(Native Method)
-	javax.security.auth.login.LoginContext.invokePriv(LoginContext.java:687)
-	javax.security.auth.login.LoginContext.login(LoginContext.java:595)
-	com.sas.svcs.authentication.helper.TrustedSubjectFactory.create(TrustedSubjectFactory.java:49)
-	com.sas.svcs.authentication.helper.TrustedUserFactory.create(TrustedUserFactory.java:84)
-	com.sas.svcs.authentication.helper.UserSessionFactory.createAndLockLocalSession(UserSessionFactory.java:386)
-	com.sas.svcs.authentication.helper.UserSessionFactory.createLockAndSaveLocalSession(UserSessionFactory.java:354)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:176)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:218)
-	com.sas.svcs.authentication.helper.UserSessionFactory.getLocalSession(UserSessionFactory.java:206)
-	com.sas.svcs.webapp.servlet.filters.LocalPlatformServicesFilter.onDoFilter(LocalPlatformServicesFilter.java:96)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:311)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:116)
-	org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.TgtKeepAliveFilter.doFilterInternal(TgtKeepAliveFilter.java:59)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:45)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.SessionIdentifierFilter.doFilterInternal(SessionIdentifierFilter.java:38)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:182)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.session.jasig.SingleSignOutFilter.doFilterInternal(SingleSignOutFilter.java:60)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.RevokableTokenLogoutFilter.doFilter(RevokableTokenLogoutFilter.java:38)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.svcs.security.authentication.web.filters.CsrfRefererCheckerFilter.doFilterInternal(CsrfRefererCheckerFilter.java:469)
-	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	com.sas.framework.webapp.servlet.ApplicationNameFilter.onDoFilter(ApplicationNameFilter.java:46)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:323)
-	org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:173)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.services.storedprocess.webapp.SPFilter.onDoFilter(SPFilter.java:268)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-	com.sas.servlet.filters.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:62)
-	com.sas.framework.webapp.servlet.SanitizingRequestFilter.onDoFilter(SanitizingRequestFilter.java:86)
-	com.sas.framework.webapp.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:74)
-	org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
-	org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
-</pre></p><p><b>note</b> <u>The full stack trace of the root cause is available in the VMware vFabric tc Runtime 2.8.0.RELEASE/7.0.30.A.RELEASE logs.</u></p><HR size="1" noshade="noshade"><h3>VMware vFabric tc Runtime 2.8.0.RELEASE/7.0.30.A.RELEASE</h3></body></html>
+"Six-Year Graduation Rates, 2010-11"
+"All Districts, All Schools, All Students"
+
+"",,,,,"Non-Graduates",,,
+"District","District Code","School","School Code","Six-Year Cohort Count","Still Enrolled Count","Still Enrolled Rate","Other Count","Other Rate"
+"Amistad Academy District","=""2790013""","Amistad Academy","=""2795113""",26,0,0.0,8,30.8
+"Ansonia School District","=""0020011""","Ansonia High School","=""0026111""",182,"*","*","*","*"
+"Avon School District","=""0040011""","Avon High School","=""0046111""",254,0,0.0,"*","*"
+"Berlin School District","=""0070011""","Berlin High School","=""0076111""",261,0,0.0,13,5.0
+"Bethel School District","=""0090011""","Bethel High School","=""0096111""",246,"*","*","*","*"
+"Bloomfield School District","=""0110011""","Bloomfield High School","=""0116111""",165,"*","*","*","*"
+"Bloomfield School District","=""0110011""","The Big Picture High School","=""0116211""",14,0,"*","*","*"
+"Bolton School District","=""0120011""","Bolton High School","=""0126111""",72,0,0.0,"*","*"
+"Branford School District","=""0140011""","Branford High School","=""0146111""",274,"*","*","*","*"
+"Bridgeport School District","=""0150011""","Bassick High School","=""0156111""",334,"*","*","*","*"
+"Bridgeport School District","=""0150011""","Central High School","=""0156211""",591,7,1.2,113,19.1
+"Bridgeport School District","=""0150011""","Harding High School","=""0156311""",426,6,1.4,208,48.8
+"Bristol School District","=""0170011""","Bristol Central High School","=""0176111""",329,"*","*","*","*"
+"Bristol School District","=""0170011""","Bristol Eastern High School","=""0176211""",365,"*","*","*","*"
+"Brookfield School District","=""0180011""","Brookfield High School","=""0186111""",263,0,0.0,9,3.4
+"Canton School District","=""0230011""","Canton High School","=""0236111""",117,"*","*","*","*"
+"Capitol Region Education Council","=""2410014""","Great Path Academy at MCC","=""2416314""",116,0,0.0,11,9.5
+"Capitol Region Education Council","=""2410014""","Greater Hartford Academy of  the Arts High School - Full Time","=""2416414""",61,0,0.0,10,16.4
+"Capitol Region Education Council","=""2410014""","Metropolitan Learning Center for Global and International Studies","=""2416114""",102,0,0.0,8,7.8
+"Cheshire School District","=""0250011""","Cheshire High School","=""0256111""",364,"*","*","*","*"
+"Clinton School District","=""0270011""","The Morgan School","=""0276111""",144,0,0.0,6,4.2
+"Colchester School District","=""0280011""","Bacon Academy","=""0286111""",249,"*","*","*","*"
+"Common Ground High School District","=""2680013""","Common Ground High School","=""2686113""",38,"*","*","*","*"
+"Connecticut Technical High School System","=""9000016""","A. I. Prince Technical High School","=""9001516""",151,0,0.0,11,7.3
+"Connecticut Technical High School System","=""9000016""","Bullard-Havens Technical High School","=""9001116""",190,0,0.0,8,4.2
+"Connecticut Technical High School System","=""9000016""","E. C. Goodwin Technical High School","=""9001916""",101,0,0.0,"*","*"
+"Connecticut Technical High School System","=""9000016""","Eli Whitney Technical High School","=""9001416""",122,0,0.0,22,18.0
+"Connecticut Technical High School System","=""9000016""","Ella T. Grasso Southeastern Technical High School","=""9002716""",125,0,0.0,"*","*"
+"Connecticut Technical High School System","=""9000016""","Emmett O'Brien Technical High School","=""9002516""",119,0,0.0,6,5.0
+"Connecticut Technical High School System","=""9000016""","H. C. Wilcox Technical High School","=""9001716""",182,0,0.0,"*","*"
+"Connecticut Technical High School System","=""9000016""","H. H. Ellis Technical High School","=""9001316""",129,0,0.0,14,10.9
+"Connecticut Technical High School System","=""9000016""","Henry Abbott Technical High School","=""9001216""",157,0,0.0,10,6.4
+"Connecticut Technical High School System","=""9000016""","Howell Cheney Technical High School","=""9001616""",135,0,0.0,"*","*"
+"Connecticut Technical High School System","=""9000016""","Norwich Technical High School","=""9002016""",111,"*","*","*","*"
+"Connecticut Technical High School System","=""9000016""","Oliver Wolcott Technical High School","=""9002216""",192,0,0.0,13,6.8
+"Connecticut Technical High School System","=""9000016""","Platt Technical High School","=""9002616""",199,0,0.0,6,3.0
+"Connecticut Technical High School System","=""9000016""","Vinal Technical High School","=""9001816""",134,0,0.0,9,6.7
+"Connecticut Technical High School System","=""9000016""","W. F. Kaynor Technical High School","=""9002316""",152,0,0.0,"*","*"
+"Connecticut Technical High School System","=""9000016""","Windham Technical High School","=""9002416""",126,0,0.0,"*","*"
+"Coventry School District","=""0320011""","Coventry High School","=""0326111""",152,"*","*","*","*"
+"Cromwell School District","=""0330011""","Cromwell High School","=""0336111""",166,"*","*","*","*"
+"Danbury School District","=""0340011""","Danbury High School","=""0346111""",710,"*","*","*","*"
+"Darien School District","=""0350011""","Darien High School","=""0356111""",326,"*","*","*","*"
+"Derby School District","=""0370011""","Derby High School","=""0376111""",120,"*","*","*","*"
+"East Granby School District","=""0400011""","East Granby High School","=""0406111""",76,0,0.0,"*","*"
+"East Haddam School District","=""0410011""","Nathan Hale-Ray High School","=""0416111""",93,0,0.0,7,7.5
+"East Hampton School District","=""0420011""","East Hampton High School","=""0426111""",136,"*","*","*","*"
+"East Hartford School District","=""0430011""","Connecticut IB Academy","=""0436311""",33,0,0.0,0,0.0
+"East Hartford School District","=""0430011""","East Hartford High School","=""0436211""",497,"*","*","*","*"
+"East Haven School District","=""0440011""","East Haven High School","=""0446111""",292,"*","*","*","*"
+"East Lyme School District","=""0450011""","East Lyme High School","=""0456111""",324,0,0.0,7,2.2
+"East Windsor School District","=""0470011""","East Windsor High School","=""0476111""",89,0,0.0,8,9.0
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Arts at the Capitol Theater Magnet School (ACT)","=""2536014""",17,0,"*","*","*"
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Quinebaug Middle College","=""2536114""",43,0,0.0,9,20.9
+"Ellington School District","=""0480011""","Ellington High School","=""0486111""",180,0,0.0,7,3.9
+"Enfield School District","=""0490011""","Enfield High School","=""0496111""",237,"*","*","*","*"
+"Enfield School District","=""0490011""","Enrico Fermi High School","=""0496211""",272,0,0.0,28,10.3
+"Explorations District","=""2720013""","Explorations","=""2726113""",30,0,0.0,9,30.0
+"Fairfield School District","=""0510011""","Fairfield Ludlowe High School","=""0516011""",350,"*","*","*","*"
+"Fairfield School District","=""0510011""","Fairfield Warde High School","=""0516211""",299,"*","*","*","*"
+"Farmington School District","=""0520011""","Farmington High School","=""0526111""",333,"*","*","*","*"
+"Glastonbury School District","=""0540011""","Glastonbury High School","=""0546111""",542,"*","*","*","*"
+"Granby School District","=""0560011""","Granby Memorial High School","=""0566111""",192,0,0.0,"*","*"
+"Greenwich School District","=""0570011""","Greenwich High School","=""0576111""",631,"*","*","*","*"
+"Griswold School District","=""0580011""","Griswold High School","=""0586211""",196,0,0.0,29,14.8
+"Groton School District","=""0590011""","Robert E. Fitch High School","=""0596111""",325,"*","*","*","*"
+"Guilford School District","=""0600011""","Guilford High School","=""0606111""",266,0,0.0,9,3.4
+"Hamden School District","=""0620011""","Hamden High School","=""0626111""",567,0,0.0,61,10.8
+"Hartford School District","=""0640011""","Bulkeley High School Upper School","=""0647111""",275,"*","*","*","*"
+"Hartford School District","=""0640011""","Capital Preparatory Magnet School","=""0646911""",31,0,0.0,"*","*"
+"Hartford School District","=""0640011""","Classical Magnet School","=""0646411""",88,0,0.0,"*","*"
+"Hartford School District","=""0640011""","Culinary Arts Academy","=""0646011""",95,"*","*","*","*"
+"Hartford School District","=""0640011""","HPHS Academy of Engineering and Green Technology","=""0647211""",129,0,0.0,24,18.6
+"Hartford School District","=""0640011""","HPHS Academy of Nursing and Health Science","=""0647511""",133,"*","*","*","*"
+"Hartford School District","=""0640011""","HPHS Law and Government Academy","=""0647411""",103,"*","*","*","*"
+"Hartford School District","=""0640011""","OPPortunity High School","=""0647811""",53,0,0.0,27,50.9
+"Hartford School District","=""0640011""","Pathways Academy of Technology and Design","=""0646611""",97,0,0.0,14,14.4
+"Hartford School District","=""0640011""","Sports and Medical Sciences Academy","=""0646511""",106,0,0.0,7,6.6
+"Hartford School District","=""0640011""","University High of Science and Engineering","=""0646711""",72,0,0.0,"*","*"
+"Killingly School District","=""0690011""","Killingly High School","=""0696111""",191,"*","*","*","*"
+"Lebanon School District","=""0710011""","Lyman Memorial High School","=""0716211""",158,0,0.0,9,5.7
+"Ledyard School District","=""0720011""","Ledyard High School","=""0726111""",225,"*","*","*","*"
+"Lisbon School District","=""0730011""","Community Connection - The Big Picture High School","=""0736011""","*","*","*","*","*"
+"Litchfield School District","=""0740011""","Litchfield High School","=""0746111""",91,0,0.0,"*","*"
+"Madison School District","=""0760011""","Daniel Hand High School","=""0766111""",315,0,0.0,7,2.2
+"Manchester School District","=""0770011""","Manchester High School","=""0776111""",486,"*","*","*","*"
+"Meriden School District","=""0800011""","Francis T. Maloney High School","=""0806111""",311,6,1.9,58,18.6
+"Meriden School District","=""0800011""","Orville H. Platt High School","=""0806211""",299,0,0.0,79,26.4
+"Middletown School District","=""0830011""","Middletown High School","=""0836211""",336,11,3.3,48,14.3
+"Milford School District","=""0840011""","Jonathan Law High School","=""0846211""",221,"*","*","*","*"
+"Milford School District","=""0840011""","Joseph A. Foran High School","=""0846311""",266,"*","*","*","*"
+"Monroe School District","=""0850011""","Masuk High School","=""0856111""",363,"*","*","*","*"
+"Montville School District","=""0860011""","Montville High School","=""0866111""",195,"*","*","*","*"
+"Naugatuck School District","=""0880011""","Naugatuck High School","=""0886111""",368,"*","*","*","*"
+"New Britain School District","=""0890011""","New Britain High School","=""0896111""",711,"*","*","*","*"
+"New Canaan School District","=""0900011""","New Canaan High School","=""0906111""",310,"*","*","*","*"
+"New Fairfield School District","=""0910011""","New Fairfield High School","=""0916111""",238,0,0.0,13,5.5
+"New Haven School District","=""0930011""","Cooperative High School","=""0936411""",109,0,0.0,17,15.6
+"New Haven School District","=""0930011""","High School In The Community","=""0936611""",77,0,0.0,26,33.8
+"New Haven School District","=""0930011""","Hill Regional Career High School","=""0936311""",170,"*","*","*","*"
+"New Haven School District","=""0930011""","Hyde School of Health, Science and Sports Medicine","=""0936811""",40,"*","*","*","*"
+"New Haven School District","=""0930011""","James Hillhouse High School","=""0936211""",306,"*","*","*","*"
+"New Haven School District","=""0930011""","Metropolitan Business Academy","=""0936011""",33,0,0.0,"*","*"
+"New Haven School District","=""0930011""","New Haven Academy","=""0937011""",61,"*","*","*","*"
+"New Haven School District","=""0930011""","Sound School","=""0936711""",61,0,0.0,"*","*"
+"New Haven School District","=""0930011""","Wilbur Cross High School","=""0936111""",472,6,1.3,169,35.8
+"New London School District","=""0950011""","New London High School","=""0956111""",259,"*","*","*","*"
+"New Milford School District","=""0960011""","New Milford High School","=""0966111""",391,"*","*","*","*"
+"Newington School District","=""0940011""","Newington High School","=""0946111""",409,8,2.0,33,8.1
+"Newtown School District","=""0970011""","Newtown High School","=""0976111""",443,0,0.0,17,3.8
+"North Branford School District","=""0990011""","North Branford High School","=""0996111""",195,0,0.0,10,5.1
+"North Haven School District","=""1010011""","North Haven High School","=""1016111""",303,"*","*","*","*"
+"North Stonington School District","=""1020011""","Wheeler High School","=""1026111""",67,0,0.0,6,9.0
+"Norwalk School District","=""1030011""","Brien McMahon High School","=""1036211""",440,0,0.0,33,7.5
+"Norwalk School District","=""1030011""","Norwalk High School","=""1036111""",378,0,0.0,38,10.1
+"Norwalk School District","=""1030011""","Norwalk Pathways Academy at Briggs","=""1036311""",67,0,0.0,34,50.7
+"Norwich Free Academy District","=""9010022""","Norwich Free Academy","=""9016122""",607,"*","*","*","*"
+"Norwich School District","=""1040011""","Thames River Academy","=""1046111""",24,0,0.0,18,75.0
+"Old Saybrook School District","=""1060011""","Old Saybrook Senior High School","=""1066111""",120,"*","*","*","*"
+"Oxford School District","=""1080011""","Oxford High School","=""1086011""",154,"*","*","*","*"
+"Plainfield School District","=""1090011""","Plainfield High School","=""1096111""",225,"*","*","*","*"
+"Plainville School District","=""1100011""","Plainville High School","=""1106111""",230,0,0.0,21,9.1
+"Plymouth School District","=""1110011""","Terryville High School","=""1116111""",136,0,0.0,"*","*"
+"Portland School District","=""1130011""","Portland High School","=""1136111""",96,0,0.0,14,14.6
+"Putnam School District","=""1160011""","Putnam High School","=""1166111""",73,"*","*","*","*"
+"Regional School District 01","=""2010012""","Housatonic Valley Regional High School","=""2016112""",137,0,0.0,18,13.1
+"Regional School District 04","=""2040012""","Valley Regional High School","=""2046112""",169,"*","*","*","*"
+"Regional School District 05","=""2050012""","Amity Regional High School","=""2056112""",403,0,0.0,22,5.5
+"Regional School District 06","=""2060012""","Wamogo Regional High School","=""2066112""",103,0,0.0,11,10.7
+"Regional School District 07","=""2070012""","Northwestern Regional High School","=""2076112""",185,0,0.0,"*","*"
+"Regional School District 08","=""2080012""","RHAM High School","=""2086112""",262,"*","*","*","*"
+"Regional School District 09","=""2090012""","Joel Barlow High School","=""2096112""",218,"*","*","*","*"
+"Regional School District 10","=""2100012""","Lewis S. Mills High School","=""2106112""",174,"*","*","*","*"
+"Regional School District 11","=""2110012""","Parish Hill High School","=""2116112""",36,0,0.0,9,25.0
+"Regional School District 12","=""2120012""","Shepaug Valley High School","=""2126112""",93,0,0.0,12,12.9
+"Regional School District 13","=""2130012""","Coginchaug Regional High School","=""2136112""",139,"*","*","*","*"
+"Regional School District 14","=""2140012""","Nonnewaug High School","=""2146112""",217,"*","*","*","*"
+"Regional School District 15","=""2150012""","Pomperaug Regional High School","=""2156212""",387,"*","*","*","*"
+"Regional School District 16","=""2160012""","Woodland Regional High School","=""2166012""",198,"*","*","*","*"
+"Regional School District 17","=""2170012""","Haddam-Killingworth High School","=""2176112""",179,0,0.0,10,5.6
+"Regional School District 18","=""2180012""","Lyme-Old Lyme High School","=""2186112""",133,"*","*","*","*"
+"Regional School District 19","=""2190012""","E. O. Smith High School","=""2196112""",283,"*","*","*","*"
+"Ridgefield School District","=""1180011""","Ridgefield High School","=""1186111""",427,"*","*","*","*"
+"Rocky Hill School District","=""1190011""","Rocky Hill High School","=""1196111""",176,0,0.0,13,7.4
+"Seymour School District","=""1240011""","Seymour High School","=""1246111""",187,0,0.0,25,13.4
+"Shelton School District","=""1260011""","Shelton High School","=""1266111""",393,"*","*","*","*"
+"Simsbury School District","=""1280011""","Simsbury High School","=""1286111""",356,"*","*","*","*"
+"Somers School District","=""1290011""","Somers High School","=""1296111""",143,0,0.0,"*","*"
+"South Windsor School District","=""1320011""","South Windsor High School","=""1326211""",415,"*","*","*","*"
+"Southington School District","=""1310011""","Southington High School","=""1316211""",535,"*","*","*","*"
+"Stafford School District","=""1340011""","Stafford High School","=""1346111""",134,0,0.0,18,13.4
+"Stamford Academy District","=""2820013""","Stamford Academy","=""2826013""",51,"*","*","*","*"
+"Stamford School District","=""1350011""","Stamford High School","=""1356111""",441,"*","*","*","*"
+"Stamford School District","=""1350011""","The Academy of Information Technology","=""1356411""",141,0,0.0,7,5.0
+"Stamford School District","=""1350011""","Westhill High School","=""1356311""",593,"*","*","*","*"
+"Stonington School District","=""1370011""","Stonington High School","=""1376111""",207,"*","*","*","*"
+"Stratford School District","=""1380011""","Bunnell High School","=""1386211""",320,"*","*","*","*"
+"Stratford School District","=""1380011""","Stratford High School","=""1386111""",241,"*","*","*","*"
+"Suffield School District","=""1390011""","Suffield High School","=""1396111""",213,0,0.0,"*","*"
+"The Bridge Academy District","=""2690013""","The Bridge Academy","=""2696113""",28,0,0.0,"*","*"
+"The Gilbert School District","=""9020022""","The Gilbert School","=""9026122""",69,0,0.0,9,13.0
+"Thomaston School District","=""1400011""","Thomaston High School","=""1406211""",102,"*","*","*","*"
+"Thompson School District","=""1410011""","Tourtellotte Memorial High School","=""1416111""",94,0,0.0,10,10.6
+"Tolland School District","=""1420011""","Tolland High School","=""1426111""",221,"*","*","*","*"
+"Torrington School District","=""1430011""","Torrington High School","=""1436111""",277,"*","*","*","*"
+"Trumbull School District","=""1440011""","Trumbull High School","=""1446111""",502,"*","*","*","*"
+"Vernon School District","=""1460011""","Rockville High School","=""1466111""",286,"*","*","*","*"
+"Wallingford School District","=""1480011""","Lyman Hall High School","=""1486111""",296,"*","*","*","*"
+"Wallingford School District","=""1480011""","Mark T. Sheehan High School","=""1486211""",252,"*","*","*","*"
+"Waterbury School District","=""1510011""","Crosby High School","=""1516211""",416,"*","*","*","*"
+"Waterbury School District","=""1510011""","John F. Kennedy High School","=""1516411""",359,"*","*","*","*"
+"Waterbury School District","=""1510011""","Waterbury Arts Magnet School (High)","=""1516011""",114,0,0.0,"*","*"
+"Waterbury School District","=""1510011""","Wilby High School","=""1516311""",343,0,0.0,114,33.2
+"Waterford School District","=""1520011""","Waterford High School","=""1526111""",269,0,0.0,18,6.7
+"Watertown School District","=""1530011""","Watertown High School","=""1536111""",245,"*","*","*","*"
+"West Hartford School District","=""1550011""","Conard High School","=""1556111""",408,"*","*","*","*"
+"West Hartford School District","=""1550011""","Hall High School","=""1556211""",403,"*","*","*","*"
+"West Haven School District","=""1560011""","West Haven High School","=""1566111""",452,0,0.0,124,27.4
+"Westbrook School District","=""1540011""","Westbrook High School","=""1546111""",75,0,0.0,"*","*"
+"Weston School District","=""1570011""","Weston High School","=""1576111""",192,0,0.0,0,0.0
+"Westport School District","=""1580011""","Staples High School","=""1586111""",463,0,0.0,"*","*"
+"Wethersfield School District","=""1590011""","Wethersfield High School","=""1596111""",300,"*","*","*","*"
+"Wilton School District","=""1610011""","Wilton High School","=""1616111""",303,0,0.0,"*","*"
+"Windham School District","=""1630011""","Windham High School","=""1636111""",248,"*","*","*","*"
+"Windsor Locks School District","=""1650011""","Windsor Locks High School","=""1656111""",132,"*","*","*","*"
+"Windsor School District","=""1640011""","Windsor High School","=""1646111""",346,"*","*","*","*"
+"Wolcott School District","=""1660011""","Wolcott High School","=""1666111""",224,0,0.0,10,4.5
+"Woodstock Academy District","=""9030022""","Woodstock Academy","=""9036122""",299,0,0.0,15,5.0
+

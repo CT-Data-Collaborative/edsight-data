@@ -1,160 +1,277 @@
+"Six-Year Graduation Rates, 2011-12"
+"All Districts, High Needs Status"
 
-
-
-
-
-
-
-
-
-<!DOCTYPE html>
-
-
-
-
-
-<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
-    
-
-
-<head>
-    <meta charset="UTF-8" />
-    <title>
-    	
-    		
-    		
-    			SAS&reg; Logon Manager
-    		
-    	
-    </title>
-    <link type="text/css" rel="stylesheet" href="themes/default/css/bootstrap.css" />
-    <link type="text/css" rel="stylesheet" href="themes/default/css/sas.css" />
-</head>
-
-
-
-<body id="cas">
-	<div id="page">
-		
-
-<div class="banner row">
-    <div class="about">
-        <ul class="unstyled"><li>
-            <a href="#about-modal" data-toggle="modal">
-                About
-            </a>
-        </li></ul>
-    </div>
-    <div id="about-modal" class="modal hide fade">
-        <div class="modal-header">
-            <a href="#" class="close" data-dismiss="modal">&times;</a>
-            <h3>About</h3>
-        </div>
-        <div class="modal-body">
-            <p>Version: 9.4</p>
-            <h4>Copyright Information</h4>
-            <p align="center">
-Copyright (c) 2002 - 2013 by SAS Institute Inc., Cary, NC, USA<br/>
-All rights reserved.<br/>
-<br/>
-This software is protected by copyright laws and international treaties.<br/>
-<br/>
-U.S. GOVERNMENT RESTRICTED RIGHTS<br/>
-Use, duplication, or disclosure of this software and related<br/>
-documentation by the U.S. government is subject to the<br/>
-Agreement with SAS Institute and the restrictions set forth<br/>
-in FAR 52.227-19, Commercial Computer Software<br/>
-- Restricted Rights (June 1987).
-            </p>
-        </div>
-    </div>
-    <div class="header">
-        <div class="title">
-        	<h1>
-        		
-		    		
-		    		
-		    			Sign In to SAS<sup>&reg;</sup>
-		    		
-    			
-        	</h1>
-       	</div>
-        <div class="logo"><img src="themes/default/images/logo.png" /></div>
-    </div>
-</div>
-
-
-		<div class="content row">
-			
-                <form id="fm1" class="form-stacked" onSubmit="return setSubmitUrl(this);" action="/SASLogon/login;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=8D096E878ACE835660E0F00EB0E69E25.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1?service=http://edsight.ct.gov/SASStoredProcess/j_spring_cas_security_check" method="post">
-				<fieldset>
-					
-					
-					
-                        <legend>Sign In to SAS<sup>&reg;</sup></legend>
-					<div class="clearfix">
-                            <label for="username"><span class="accesskey">U</span>ser ID:</label>
-						
-							
-							
-                                    
-                                    <input id="username" name="username" class="required" tabindex="1" accesskey="u" type="text" value="" size="25" autocomplete="off"/>
-							
-						
-					</div>
-					<div class="clearfix">
-                            <label for="password"><span class="accesskey">P</span>assword:</label>
-						
-                            
-                            <input id="password" name="password" class="required" tabindex="2" accesskey="p" type="password" value="" size="25" autocomplete="off"/>
-					</div>
-				</fieldset>
-				<input type="hidden" name="lt" value="LT-10656-KXtZmbeVVTrpCIUxh6dM9zwQEhd6Af" />
-				<input type="hidden" name="execution" value="e1s1" />
-				<input type="hidden" name="_eventId" value="submit" />
-                    <div class="submitb"><input id="Logon" type="submit" value="Sign In" onClick="this.disabled=true;this.form.submit();" tabindex="3" /></div>
-			</form>
-			
-				<div class="customizations" id="custom-logon-message">
-                  	
-
-
-<p>
-
-</p>
-
-
- 
- 
-				</div>
-			
-
-			<div class="copyright">
-				Copyright &copy; 2002 - 2013 by SAS Institute Inc., Cary, NC USA
-			</div>
-		</div>
-	</div>
-	
-<script type="text/javascript" src="/SASLogon/js/jquery.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=8D096E878ACE835660E0F00EB0E69E25.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-<script type="text/javascript" src="/SASLogon/js/bootstrap-modal.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=8D096E878ACE835660E0F00EB0E69E25.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-
-	<script type="text/javascript">
-            $("#username").focus();
-            
-            function setSubmitUrl(form)
-            {
-            	var urlHash = decodeURIComponent(window.location.hash);
-            	
-            	if (urlHash && urlHash.indexOf("#") === -1)
-            		urlHash = "#" + urlHash;
-            	
-            	form.action = form.action + urlHash;
-            	return true;
-            }
-    </script>
-</body>
-
-</html>
-
-
+"",,,,"Graduates",
+"District","District Code","High Needs Status","Six-Year Cohort Count","Graduation Count","Graduation Rate"
+"Amistad Academy District","=""2790013""","High Needs","*","*","*"
+"Amistad Academy District","=""2790013""","Non-High Needs","*","*","*"
+"Ansonia School District","=""0020011""","High Needs",138,"*","*"
+"Ansonia School District","=""0020011""","Non-High Needs",62,"*","*"
+"Avon School District","=""0040011""","High Needs",44,"*","*"
+"Avon School District","=""0040011""","Non-High Needs",239,"*","*"
+"Berlin School District","=""0070011""","High Needs",62,"*","*"
+"Berlin School District","=""0070011""","Non-High Needs",195,"*","*"
+"Bethel School District","=""0090011""","High Needs",56,"*","*"
+"Bethel School District","=""0090011""","Non-High Needs",180,"*","*"
+"Bloomfield School District","=""0110011""","High Needs",120,"*","*"
+"Bloomfield School District","=""0110011""","Non-High Needs",73,"*","*"
+"Bolton School District","=""0120011""","High Needs",13,"*","*"
+"Bolton School District","=""0120011""","Non-High Needs",57,"*","*"
+"Branford School District","=""0140011""","High Needs",87,81,93.1
+"Branford School District","=""0140011""","Non-High Needs",172,165,95.9
+"Bridgeport School District","=""0150011""","High Needs","*","*","*"
+"Bridgeport School District","=""0150011""","Non-High Needs","*","*","*"
+"Bristol School District","=""0170011""","High Needs",289,239,82.7
+"Bristol School District","=""0170011""","Non-High Needs",340,323,95.0
+"Brookfield School District","=""0180011""","High Needs",31,28,90.3
+"Brookfield School District","=""0180011""","Non-High Needs",222,222,100.0
+"Canton School District","=""0230011""","High Needs",17,"*","*"
+"Canton School District","=""0230011""","Non-High Needs",101,"*","*"
+"Capitol Region Education Council","=""2410014""","High Needs",220,178,80.9
+"Capitol Region Education Council","=""2410014""","Non-High Needs",111,98,88.3
+"Cheshire School District","=""0250011""","High Needs",83,"*","*"
+"Cheshire School District","=""0250011""","Non-High Needs",324,"*","*"
+"Clinton School District","=""0270011""","High Needs",32,"*","*"
+"Clinton School District","=""0270011""","Non-High Needs",89,"*","*"
+"Colchester School District","=""0280011""","High Needs",64,"*","*"
+"Colchester School District","=""0280011""","Non-High Needs",179,"*","*"
+"Common Ground High School District","=""2680013""","High Needs",24,"*","*"
+"Common Ground High School District","=""2680013""","Non-High Needs",6,"*","*"
+"Connecticut Technical High School System","=""9000016""","High Needs",1546,1484,96.0
+"Connecticut Technical High School System","=""9000016""","Non-High Needs",984,961,97.7
+"Coventry School District","=""0320011""","High Needs",47,"*","*"
+"Coventry School District","=""0320011""","Non-High Needs",103,"*","*"
+"Cromwell School District","=""0330011""","High Needs",48,"*","*"
+"Cromwell School District","=""0330011""","Non-High Needs",103,"*","*"
+"Danbury School District","=""0340011""","High Needs",403,321,79.7
+"Danbury School District","=""0340011""","Non-High Needs",351,326,92.9
+"Darien School District","=""0350011""","High Needs",52,"*","*"
+"Darien School District","=""0350011""","Non-High Needs",259,"*","*"
+"Derby School District","=""0370011""","High Needs",72,"*","*"
+"Derby School District","=""0370011""","Non-High Needs",40,"*","*"
+"East Granby School District","=""0400011""","High Needs",11,"*","*"
+"East Granby School District","=""0400011""","Non-High Needs",49,"*","*"
+"East Haddam School District","=""0410011""","High Needs",27,"*","*"
+"East Haddam School District","=""0410011""","Non-High Needs",76,"*","*"
+"East Hampton School District","=""0420011""","High Needs",30,"*","*"
+"East Hampton School District","=""0420011""","Non-High Needs",134,"*","*"
+"East Hartford School District","=""0430011""","High Needs",433,354,81.8
+"East Hartford School District","=""0430011""","Non-High Needs",146,136,93.2
+"East Haven School District","=""0440011""","High Needs",134,94,70.1
+"East Haven School District","=""0440011""","Non-High Needs",92,80,87.0
+"East Lyme School District","=""0450011""","High Needs",81,71,87.7
+"East Lyme School District","=""0450011""","Non-High Needs",221,214,96.8
+"East Windsor School District","=""0470011""","High Needs",37,"*","*"
+"East Windsor School District","=""0470011""","Non-High Needs",51,"*","*"
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","High Needs",45,"*","*"
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Non-High Needs",40,"*","*"
+"Ellington School District","=""0480011""","High Needs",37,"*","*"
+"Ellington School District","=""0480011""","Non-High Needs",163,"*","*"
+"Elm City College Preparatory School District","=""2890013""","High Needs","*","*","*"
+"Elm City College Preparatory School District","=""2890013""","Non-High Needs","*","*","*"
+"Enfield School District","=""0490011""","High Needs",193,143,74.1
+"Enfield School District","=""0490011""","Non-High Needs",320,308,96.3
+"Explorations District","=""2720013""","High Needs",19,"*","*"
+"Explorations District","=""2720013""","Non-High Needs",9,"*","*"
+"Fairfield School District","=""0510011""","High Needs",163,147,90.2
+"Fairfield School District","=""0510011""","Non-High Needs",529,521,98.5
+"Farmington School District","=""0520011""","High Needs",62,"*","*"
+"Farmington School District","=""0520011""","Non-High Needs",243,"*","*"
+"Glastonbury School District","=""0540011""","High Needs",99,"*","*"
+"Glastonbury School District","=""0540011""","Non-High Needs",414,"*","*"
+"Granby School District","=""0560011""","High Needs",29,"*","*"
+"Granby School District","=""0560011""","Non-High Needs",159,"*","*"
+"Greenwich School District","=""0570011""","High Needs",190,177,93.2
+"Greenwich School District","=""0570011""","Non-High Needs",451,437,96.9
+"Griswold School District","=""0580011""","High Needs",83,"*","*"
+"Griswold School District","=""0580011""","Non-High Needs",103,"*","*"
+"Groton School District","=""0590011""","High Needs",163,122,74.8
+"Groton School District","=""0590011""","Non-High Needs",184,166,90.2
+"Guilford School District","=""0600011""","High Needs",60,55,91.7
+"Guilford School District","=""0600011""","Non-High Needs",227,227,100.0
+"Hamden School District","=""0620011""","High Needs",265,227,85.7
+"Hamden School District","=""0620011""","Non-High Needs",250,239,95.6
+"Hartford School District","=""0640011""","High Needs",1294,"*","*"
+"Hartford School District","=""0640011""","Non-High Needs",96,"*","*"
+"Killingly School District","=""0690011""","High Needs",101,79,78.2
+"Killingly School District","=""0690011""","Non-High Needs",84,78,92.9
+"Lebanon School District","=""0710011""","High Needs",27,23,85.2
+"Lebanon School District","=""0710011""","Non-High Needs",102,95,93.1
+"Ledyard School District","=""0720011""","High Needs",54,47,87.0
+"Ledyard School District","=""0720011""","Non-High Needs",156,150,96.2
+"Lisbon School District","=""0730011""","High Needs","*","*","*"
+"Lisbon School District","=""0730011""","Non-High Needs","*","*","*"
+"Litchfield School District","=""0740011""","High Needs",19,"*","*"
+"Litchfield School District","=""0740011""","Non-High Needs",84,"*","*"
+"Madison School District","=""0760011""","High Needs",59,"*","*"
+"Madison School District","=""0760011""","Non-High Needs",277,"*","*"
+"Manchester School District","=""0770011""","High Needs",323,240,74.3
+"Manchester School District","=""0770011""","Non-High Needs",187,171,91.4
+"Meriden School District","=""0800011""","High Needs",439,302,68.8
+"Meriden School District","=""0800011""","Non-High Needs",183,166,90.7
+"Middletown School District","=""0830011""","High Needs",185,144,77.8
+"Middletown School District","=""0830011""","Non-High Needs",157,146,93.0
+"Milford School District","=""0840011""","High Needs",209,"*","*"
+"Milford School District","=""0840011""","Non-High Needs",302,"*","*"
+"Monroe School District","=""0850011""","High Needs",47,"*","*"
+"Monroe School District","=""0850011""","Non-High Needs",291,"*","*"
+"Montville School District","=""0860011""","High Needs",93,"*","*"
+"Montville School District","=""0860011""","Non-High Needs",128,"*","*"
+"Naugatuck School District","=""0880011""","High Needs",181,141,77.9
+"Naugatuck School District","=""0880011""","Non-High Needs",188,178,94.7
+"New Britain School District","=""0890011""","High Needs",539,342,63.5
+"New Britain School District","=""0890011""","Non-High Needs",129,117,90.7
+"New Canaan School District","=""0900011""","High Needs",50,48,96.0
+"New Canaan School District","=""0900011""","Non-High Needs",280,280,100.0
+"New Fairfield School District","=""0910011""","High Needs",55,"*","*"
+"New Fairfield School District","=""0910011""","Non-High Needs",177,"*","*"
+"New Haven School District","=""0930011""","High Needs",1193,904,75.8
+"New Haven School District","=""0930011""","Non-High Needs",130,107,82.3
+"New London School District","=""0950011""","High Needs","*","*","*"
+"New London School District","=""0950011""","Non-High Needs","*","*","*"
+"New Milford School District","=""0960011""","High Needs",108,92,85.2
+"New Milford School District","=""0960011""","Non-High Needs",283,272,96.1
+"Newington School District","=""0940011""","High Needs",103,90,87.4
+"Newington School District","=""0940011""","Non-High Needs",232,222,95.7
+"Newtown School District","=""0970011""","High Needs",60,54,90.0
+"Newtown School District","=""0970011""","Non-High Needs",344,335,97.4
+"North Branford School District","=""0990011""","High Needs",34,"*","*"
+"North Branford School District","=""0990011""","Non-High Needs",128,"*","*"
+"North Haven School District","=""1010011""","High Needs",69,"*","*"
+"North Haven School District","=""1010011""","Non-High Needs",221,"*","*"
+"North Stonington School District","=""1020011""","High Needs",15,"*","*"
+"North Stonington School District","=""1020011""","Non-High Needs",39,"*","*"
+"Norwalk School District","=""1030011""","High Needs",439,361,82.2
+"Norwalk School District","=""1030011""","Non-High Needs",432,406,94.0
+"Norwich Free Academy District","=""9010022""","High Needs",248,197,79.4
+"Norwich Free Academy District","=""9010022""","Non-High Needs",389,362,93.1
+"Norwich School District","=""1040011""","High Needs",62,"*","*"
+"Norwich School District","=""1040011""","Non-High Needs",6,"*","*"
+"Old Saybrook School District","=""1060011""","High Needs",33,"*","*"
+"Old Saybrook School District","=""1060011""","Non-High Needs",111,"*","*"
+"Oxford School District","=""1080011""","High Needs",23,"*","*"
+"Oxford School District","=""1080011""","Non-High Needs",123,"*","*"
+"Plainfield School District","=""1090011""","High Needs",95,"*","*"
+"Plainfield School District","=""1090011""","Non-High Needs",106,"*","*"
+"Plainville School District","=""1100011""","High Needs",78,"*","*"
+"Plainville School District","=""1100011""","Non-High Needs",126,"*","*"
+"Plymouth School District","=""1110011""","High Needs",57,"*","*"
+"Plymouth School District","=""1110011""","Non-High Needs",82,"*","*"
+"Portland School District","=""1130011""","High Needs",26,"*","*"
+"Portland School District","=""1130011""","Non-High Needs",64,"*","*"
+"Putnam School District","=""1160011""","High Needs",43,37,86.0
+"Putnam School District","=""1160011""","Non-High Needs",26,26,100.0
+"Regional School District 01","=""2010012""","High Needs",48,"*","*"
+"Regional School District 01","=""2010012""","Non-High Needs",92,"*","*"
+"Regional School District 04","=""2040012""","High Needs",34,30,88.2
+"Regional School District 04","=""2040012""","Non-High Needs",125,118,94.4
+"Regional School District 05","=""2050012""","High Needs",69,"*","*"
+"Regional School District 05","=""2050012""","Non-High Needs",365,"*","*"
+"Regional School District 06","=""2060012""","High Needs",21,"*","*"
+"Regional School District 06","=""2060012""","Non-High Needs",66,"*","*"
+"Regional School District 07","=""2070012""","High Needs",49,"*","*"
+"Regional School District 07","=""2070012""","Non-High Needs",154,"*","*"
+"Regional School District 08","=""2080012""","High Needs",55,45,81.8
+"Regional School District 08","=""2080012""","Non-High Needs",241,235,97.5
+"Regional School District 09","=""2090012""","High Needs",37,"*","*"
+"Regional School District 09","=""2090012""","Non-High Needs",202,"*","*"
+"Regional School District 10","=""2100012""","High Needs",33,"*","*"
+"Regional School District 10","=""2100012""","Non-High Needs",196,"*","*"
+"Regional School District 11","=""2110012""","High Needs",24,"*","*"
+"Regional School District 11","=""2110012""","Non-High Needs",19,"*","*"
+"Regional School District 12","=""2120012""","High Needs",20,"*","*"
+"Regional School District 12","=""2120012""","Non-High Needs",54,"*","*"
+"Regional School District 13","=""2130012""","High Needs",28,"*","*"
+"Regional School District 13","=""2130012""","Non-High Needs",114,"*","*"
+"Regional School District 14","=""2140012""","High Needs",34,31,91.2
+"Regional School District 14","=""2140012""","Non-High Needs",162,162,100.0
+"Regional School District 15","=""2150012""","High Needs",63,"*","*"
+"Regional School District 15","=""2150012""","Non-High Needs",264,"*","*"
+"Regional School District 16","=""2160012""","High Needs",54,"*","*"
+"Regional School District 16","=""2160012""","Non-High Needs",140,"*","*"
+"Regional School District 17","=""2170012""","High Needs",42,"*","*"
+"Regional School District 17","=""2170012""","Non-High Needs",147,"*","*"
+"Regional School District 18","=""2180012""","High Needs",21,"*","*"
+"Regional School District 18","=""2180012""","Non-High Needs",83,"*","*"
+"Regional School District 19","=""2190012""","High Needs",87,76,87.4
+"Regional School District 19","=""2190012""","Non-High Needs",213,203,95.3
+"Ridgefield School District","=""1180011""","High Needs",69,"*","*"
+"Ridgefield School District","=""1180011""","Non-High Needs",374,"*","*"
+"Rocky Hill School District","=""1190011""","High Needs",45,"*","*"
+"Rocky Hill School District","=""1190011""","Non-High Needs",164,"*","*"
+"Seymour School District","=""1240011""","High Needs",51,"*","*"
+"Seymour School District","=""1240011""","Non-High Needs",102,"*","*"
+"Shelton School District","=""1260011""","High Needs",102,86,84.3
+"Shelton School District","=""1260011""","Non-High Needs",324,316,97.5
+"Simsbury School District","=""1280011""","High Needs",74,"*","*"
+"Simsbury School District","=""1280011""","Non-High Needs",333,"*","*"
+"Somers School District","=""1290011""","High Needs",21,"*","*"
+"Somers School District","=""1290011""","Non-High Needs",120,"*","*"
+"South Windsor School District","=""1320011""","High Needs",82,"*","*"
+"South Windsor School District","=""1320011""","Non-High Needs",303,"*","*"
+"Southington School District","=""1310011""","High Needs",139,127,91.4
+"Southington School District","=""1310011""","Non-High Needs",355,349,98.3
+"Stafford School District","=""1340011""","High Needs",55,49,89.1
+"Stafford School District","=""1340011""","Non-High Needs",85,77,90.6
+"Stamford Academy District","=""2820013""","High Needs","*","*","*"
+"Stamford Academy District","=""2820013""","Non-High Needs","*","*","*"
+"Stamford School District","=""1350011""","High Needs",697,601,86.2
+"Stamford School District","=""1350011""","Non-High Needs",477,456,95.6
+"Stonington School District","=""1370011""","High Needs",44,"*","*"
+"Stonington School District","=""1370011""","Non-High Needs",137,"*","*"
+"Stratford School District","=""1380011""","High Needs",279,231,82.8
+"Stratford School District","=""1380011""","Non-High Needs",301,290,96.3
+"Suffield School District","=""1390011""","High Needs",42,"*","*"
+"Suffield School District","=""1390011""","Non-High Needs",164,"*","*"
+"The Bridge Academy District","=""2690013""","High Needs",41,33,80.5
+"The Gilbert School District","=""9020022""","High Needs",37,"*","*"
+"The Gilbert School District","=""9020022""","Non-High Needs",52,"*","*"
+"Thomaston School District","=""1400011""","High Needs",39,"*","*"
+"Thomaston School District","=""1400011""","Non-High Needs",54,"*","*"
+"Thompson School District","=""1410011""","High Needs",37,"*","*"
+"Thompson School District","=""1410011""","Non-High Needs",64,"*","*"
+"Tolland School District","=""1420011""","High Needs",32,"*","*"
+"Tolland School District","=""1420011""","Non-High Needs",199,"*","*"
+"Torrington School District","=""1430011""","High Needs",148,108,73.0
+"Torrington School District","=""1430011""","Non-High Needs",154,145,94.2
+"Trumbull School District","=""1440011""","High Needs",97,"*","*"
+"Trumbull School District","=""1440011""","Non-High Needs",445,"*","*"
+"Unified School District #1","=""3360015""","High Needs",727,23,3.2
+"Unified School District #1","=""3360015""","Non-High Needs",20,0,0.0
+"Unified School District #2","=""3470015""","High Needs","*","*","*"
+"Unified School District #2","=""3470015""","Non-High Needs","*","*","*"
+"Vernon School District","=""1460011""","High Needs",108,83,76.9
+"Vernon School District","=""1460011""","Non-High Needs",153,142,92.8
+"Wallingford School District","=""1480011""","High Needs",151,118,78.1
+"Wallingford School District","=""1480011""","Non-High Needs",388,382,98.5
+"Waterbury School District","=""1510011""","High Needs",1089,718,65.9
+"Waterbury School District","=""1510011""","Non-High Needs",176,137,77.8
+"Waterford School District","=""1520011""","High Needs",68,"*","*"
+"Waterford School District","=""1520011""","Non-High Needs",174,"*","*"
+"Watertown School District","=""1530011""","High Needs",76,"*","*"
+"Watertown School District","=""1530011""","Non-High Needs",157,"*","*"
+"West Hartford School District","=""1550011""","High Needs",241,217,90.0
+"West Hartford School District","=""1550011""","Non-High Needs",511,504,98.6
+"West Haven School District","=""1560011""","High Needs",255,182,71.4
+"West Haven School District","=""1560011""","Non-High Needs",130,111,85.4
+"Westbrook School District","=""1540011""","High Needs",18,"*","*"
+"Westbrook School District","=""1540011""","Non-High Needs",64,"*","*"
+"Weston School District","=""1570011""","High Needs",28,28,100.0
+"Weston School District","=""1570011""","Non-High Needs",162,162,100.0
+"Westport School District","=""1580011""","High Needs",78,"*","*"
+"Westport School District","=""1580011""","Non-High Needs",349,"*","*"
+"Wethersfield School District","=""1590011""","High Needs",81,69,85.2
+"Wethersfield School District","=""1590011""","Non-High Needs",210,203,96.7
+"Wilton School District","=""1610011""","High Needs",36,"*","*"
+"Wilton School District","=""1610011""","Non-High Needs",276,"*","*"
+"Windham School District","=""1630011""","High Needs",134,"*","*"
+"Windham School District","=""1630011""","Non-High Needs",48,"*","*"
+"Windsor Locks School District","=""1650011""","High Needs",62,"*","*"
+"Windsor Locks School District","=""1650011""","Non-High Needs",86,"*","*"
+"Windsor School District","=""1640011""","High Needs",128,107,83.6
+"Windsor School District","=""1640011""","Non-High Needs",189,181,95.8
+"Wolcott School District","=""1660011""","High Needs",79,"*","*"
+"Wolcott School District","=""1660011""","Non-High Needs",140,"*","*"
+"Woodstock Academy District","=""9030022""","High Needs",52,"*","*"
+"Woodstock Academy District","=""9030022""","Non-High Needs",234,"*","*"
 

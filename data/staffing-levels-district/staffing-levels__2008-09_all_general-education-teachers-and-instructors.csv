@@ -1,160 +1,201 @@
+"FTE Staffing Report for 2008-09"
 
-
-
-
-
-
-
-
-
-<!DOCTYPE html>
-
-
-
-
-
-<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
-    
-
-
-<head>
-    <meta charset="UTF-8" />
-    <title>
-    	
-    		
-    		
-    			SAS&reg; Logon Manager
-    		
-    	
-    </title>
-    <link type="text/css" rel="stylesheet" href="themes/default/css/bootstrap.css" />
-    <link type="text/css" rel="stylesheet" href="themes/default/css/sas.css" />
-</head>
-
-
-
-<body id="cas">
-	<div id="page">
-		
-
-<div class="banner row">
-    <div class="about">
-        <ul class="unstyled"><li>
-            <a href="#about-modal" data-toggle="modal">
-                About
-            </a>
-        </li></ul>
-    </div>
-    <div id="about-modal" class="modal hide fade">
-        <div class="modal-header">
-            <a href="#" class="close" data-dismiss="modal">&times;</a>
-            <h3>About</h3>
-        </div>
-        <div class="modal-body">
-            <p>Version: 9.4</p>
-            <h4>Copyright Information</h4>
-            <p align="center">
-Copyright (c) 2002 - 2013 by SAS Institute Inc., Cary, NC, USA<br/>
-All rights reserved.<br/>
-<br/>
-This software is protected by copyright laws and international treaties.<br/>
-<br/>
-U.S. GOVERNMENT RESTRICTED RIGHTS<br/>
-Use, duplication, or disclosure of this software and related<br/>
-documentation by the U.S. government is subject to the<br/>
-Agreement with SAS Institute and the restrictions set forth<br/>
-in FAR 52.227-19, Commercial Computer Software<br/>
-- Restricted Rights (June 1987).
-            </p>
-        </div>
-    </div>
-    <div class="header">
-        <div class="title">
-        	<h1>
-        		
-		    		
-		    		
-		    			Sign In to SAS<sup>&reg;</sup>
-		    		
-    			
-        	</h1>
-       	</div>
-        <div class="logo"><img src="themes/default/images/logo.png" /></div>
-    </div>
-</div>
-
-
-		<div class="content row">
-			
-                <form id="fm1" class="form-stacked" onSubmit="return setSubmitUrl(this);" action="/SASLogon/login;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=521C498565ED05DA016E4898F97CA41C.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1?service=http://edsight.ct.gov/SASStoredProcess/j_spring_cas_security_check" method="post">
-				<fieldset>
-					
-					
-					
-                        <legend>Sign In to SAS<sup>&reg;</sup></legend>
-					<div class="clearfix">
-                            <label for="username"><span class="accesskey">U</span>ser ID:</label>
-						
-							
-							
-                                    
-                                    <input id="username" name="username" class="required" tabindex="1" accesskey="u" type="text" value="" size="25" autocomplete="off"/>
-							
-						
-					</div>
-					<div class="clearfix">
-                            <label for="password"><span class="accesskey">P</span>assword:</label>
-						
-                            
-                            <input id="password" name="password" class="required" tabindex="2" accesskey="p" type="password" value="" size="25" autocomplete="off"/>
-					</div>
-				</fieldset>
-				<input type="hidden" name="lt" value="LT-4285-kVWhRPt54wyufagK3zwZUvdSB6sEfF" />
-				<input type="hidden" name="execution" value="e1s1" />
-				<input type="hidden" name="_eventId" value="submit" />
-                    <div class="submitb"><input id="Logon" type="submit" value="Sign In" onClick="this.disabled=true;this.form.submit();" tabindex="3" /></div>
-			</form>
-			
-				<div class="customizations" id="custom-logon-message">
-                  	
-
-
-<p>
-
-</p>
-
-
- 
- 
-				</div>
-			
-
-			<div class="copyright">
-				Copyright &copy; 2002 - 2013 by SAS Institute Inc., Cary, NC USA
-			</div>
-		</div>
-	</div>
-	
-<script type="text/javascript" src="/SASLogon/js/jquery.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=521C498565ED05DA016E4898F97CA41C.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-<script type="text/javascript" src="/SASLogon/js/bootstrap-modal.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=521C498565ED05DA016E4898F97CA41C.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-
-	<script type="text/javascript">
-            $("#username").focus();
-            
-            function setSubmitUrl(form)
-            {
-            	var urlHash = decodeURIComponent(window.location.hash);
-            	
-            	if (urlHash && urlHash.indexOf("#") === -1)
-            		urlHash = "#" + urlHash;
-            	
-            	form.action = form.action + urlHash;
-            	return true;
-            }
-    </script>
-</body>
-
-</html>
-
-
+"District","Assignment Category","Educator Type","FTE Count"
+"Achievement First Hartford Academy Inc. District","General Education - Teachers and Instructors","Certified",20.0
+="Amistad Academy District",="General Education - Teachers and Instructors",="Certified",51.0
+="Andover School District",="General Education - Teachers and Instructors",="Certified",25.3
+="Ansonia School District",="General Education - Teachers and Instructors",="Certified",152.0
+="Area Cooperative Educational Services",="General Education - Teachers and Instructors",="Certified",136.0
+="Ashford School District",="General Education - Teachers and Instructors",="Certified",39.6
+="Avon School District",="General Education - Teachers and Instructors",="Certified",216.6
+="Barkhamsted School District",="General Education - Teachers and Instructors",="Certified",21.2
+="Berlin School District",="General Education - Teachers and Instructors",="Certified",203.7
+="Bethany School District",="General Education - Teachers and Instructors",="Certified",38.9
+="Bethel School District",="General Education - Teachers and Instructors",="Certified",207.8
+="Bloomfield School District",="General Education - Teachers and Instructors",="Certified",170.8
+="Bolton School District",="General Education - Teachers and Instructors",="Certified",67.4
+="Bozrah School District",="General Education - Teachers and Instructors",="Certified",18.5
+="Branford School District",="General Education - Teachers and Instructors",="Certified",245.5
+="Bridgeport Achievement First District",="General Education - Teachers and Instructors",="Certified",11.0
+="Bridgeport School District",="General Education - Teachers and Instructors",="Certified",1204.1
+="Bristol School District",="General Education - Teachers and Instructors",="Certified",521.3
+="Brookfield School District",="General Education - Teachers and Instructors",="Certified",182.1
+="Brooklyn School District",="General Education - Teachers and Instructors",="Certified",61.4
+="Canaan School District",="General Education - Teachers and Instructors",="Certified",11.6
+="Canterbury School District",="General Education - Teachers and Instructors",="Certified",40.5
+="Canton School District",="General Education - Teachers and Instructors",="Certified",102.5
+="Capitol Region Education Council",="General Education - Teachers and Instructors",="Certified",235.5
+="Chaplin School District",="General Education - Teachers and Instructors",="Certified",18.5
+="Charter School for Young Children on Asylum Hill District",="General Education - Teachers and Instructors",="Certified",8.0
+="Cheshire School District",="General Education - Teachers and Instructors",="Certified",299.0
+="Chester School District",="General Education - Teachers and Instructors",="Certified",25.4
+="Clinton School District",="General Education - Teachers and Instructors",="Certified",150.9
+="Colchester School District",="General Education - Teachers and Instructors",="Certified",205.1
+="Colebrook School District",="General Education - Teachers and Instructors",="Certified",8.2
+="Columbia School District",="General Education - Teachers and Instructors",="Certified",47.0
+="Common Ground High School District",="General Education - Teachers and Instructors",="Certified",12.8
+="Connecticut Technical High School System",="General Education - Teachers and Instructors",="Certified",1040.6
+="Cooperative Educational Services",="General Education - Teachers and Instructors",="Certified",40.9
+="Cornwall School District",="General Education - Teachers and Instructors",="Certified",13.7
+="Coventry School District",="General Education - Teachers and Instructors",="Certified",126.4
+="Cromwell School District",="General Education - Teachers and Instructors",="Certified",131.9
+="Danbury School District",="General Education - Teachers and Instructors",="Certified",606.1
+="Darien School District",="General Education - Teachers and Instructors",="Certified",329.9
+="Deep River School District",="General Education - Teachers and Instructors",="Certified",26.7
+="Derby School District",="General Education - Teachers and Instructors",="Certified",92.2
+="East Granby School District",="General Education - Teachers and Instructors",="Certified",59.4
+="East Haddam School District",="General Education - Teachers and Instructors",="Certified",92.4
+="East Hampton School District",="General Education - Teachers and Instructors",="Certified",125.0
+="East Hartford School District",="General Education - Teachers and Instructors",="Certified",494.0
+="East Haven School District",="General Education - Teachers and Instructors",="Certified",238.3
+="East Lyme School District",="General Education - Teachers and Instructors",="Certified",206.4
+="East Windsor School District",="General Education - Teachers and Instructors",="Certified",96.7
+="Eastern Connecticut Regional Educational Service Center (EASTCONN)",="General Education - Teachers and Instructors",="Certified",13.2
+="Eastford School District",="General Education - Teachers and Instructors",="Certified",13.5
+="Easton School District",="General Education - Teachers and Instructors",="Certified",71.9
+="EdAdvance",="General Education - Teachers and Instructors",="Certified",5.0
+="Ellington School District",="General Education - Teachers and Instructors",="Certified",153.2
+="Elm City College Preparatory School",="General Education - Teachers and Instructors",="Certified",42.0
+="Enfield School District",="General Education - Teachers and Instructors",="Certified",424.7
+="Essex School District",="General Education - Teachers and Instructors",="Certified",39.4
+="Explorations District",="General Education - Teachers and Instructors",="Certified",5.8
+="Fairfield School District",="General Education - Teachers and Instructors",="Certified",691.6
+="Farmington School District",="General Education - Teachers and Instructors",="Certified",285.2
+="Franklin School District",="General Education - Teachers and Instructors",="Certified",16.5
+="Glastonbury School District",="General Education - Teachers and Instructors",="Certified",426.5
+="Granby School District",="General Education - Teachers and Instructors",="Certified",133.7
+="Greenwich School District",="General Education - Teachers and Instructors",="Certified",633.0
+="Griswold School District",="General Education - Teachers and Instructors",="Certified",133.4
+="Groton School District",="General Education - Teachers and Instructors",="Certified",358.5
+="Guilford School District",="General Education - Teachers and Instructors",="Certified",252.6
+="Hamden School District",="General Education - Teachers and Instructors",="Certified",396.3
+="Hampton School District",="General Education - Teachers and Instructors",="Certified",12.4
+="Hartford School District",="General Education - Teachers and Instructors",="Certified",1410.6
+="Hartland School District",="General Education - Teachers and Instructors",="Certified",18.1
+="Hebron School District",="General Education - Teachers and Instructors",="Certified",70.2
+="Highville Charter School District",="General Education - Teachers and Instructors",="Certified",20.0
+="Integrated Day Charter School District",="General Education - Teachers and Instructors",="Certified",18.2
+="Interdistrict School for Arts and Comm District",="General Education - Teachers and Instructors",="Certified",14.0
+="Jumoke Academy District",="General Education - Teachers and Instructors",="Certified",25.0
+="Kent School District",="General Education - Teachers and Instructors",="Certified",24.6
+="Killingly School District",="General Education - Teachers and Instructors",="Certified",188.2
+="Learn",="General Education - Teachers and Instructors",="Certified",65.5
+="Lebanon School District",="General Education - Teachers and Instructors",="Certified",103.9
+="Ledyard School District",="General Education - Teachers and Instructors",="Certified",179.7
+="Lisbon School District",="General Education - Teachers and Instructors",="Certified",35.5
+="Litchfield School District",="General Education - Teachers and Instructors",="Certified",91.4
+="Madison School District",="General Education - Teachers and Instructors",="Certified",244.1
+="Manchester School District",="General Education - Teachers and Instructors",="Certified",460.8
+="Mansfield School District",="General Education - Teachers and Instructors",="Certified",100.3
+="Marlborough School District",="General Education - Teachers and Instructors",="Certified",41.0
+="Meriden School District",="General Education - Teachers and Instructors",="Certified",516.3
+="Middletown School District",="General Education - Teachers and Instructors",="Certified",335.9
+="Milford School District",="General Education - Teachers and Instructors",="Certified",500.9
+="Monroe School District",="General Education - Teachers and Instructors",="Certified",245.1
+="Montville School District",="General Education - Teachers and Instructors",="Certified",184.2
+="Naugatuck School District",="General Education - Teachers and Instructors",="Certified",296.9
+="New Beginnings Inc Family Academy District",="General Education - Teachers and Instructors",="Certified",25.6
+="New Britain School District",="General Education - Teachers and Instructors",="Certified",577.3
+="New Canaan School District",="General Education - Teachers and Instructors",="Certified",288.4
+="New Fairfield School District",="General Education - Teachers and Instructors",="Certified",179.8
+="New Hartford School District",="General Education - Teachers and Instructors",="Certified",38.1
+="New Haven School District",="General Education - Teachers and Instructors",="Certified",1284.1
+="New London School District",="General Education - Teachers and Instructors",="Certified",189.0
+="New Milford School District",="General Education - Teachers and Instructors",="Certified",293.2
+="Newington School District",="General Education - Teachers and Instructors",="Certified",290.0
+="Newtown School District",="General Education - Teachers and Instructors",="Certified",343.0
+="Norfolk School District",="General Education - Teachers and Instructors",="Certified",11.1
+="North Branford School District",="General Education - Teachers and Instructors",="Certified",141.1
+="North Canaan School District",="General Education - Teachers and Instructors",="Certified",29.6
+="North Haven School District",="General Education - Teachers and Instructors",="Certified",240.6
+="North Stonington School District",="General Education - Teachers and Instructors",="Certified",64.8
+="Norwalk School District",="General Education - Teachers and Instructors",="Certified",714.8
+="Norwich Free Academy District",="General Education - Teachers and Instructors",="Certified",147.5
+="Norwich School District",="General Education - Teachers and Instructors",="Certified",233.7
+="Odyssey Community School District",="General Education - Teachers and Instructors",="Certified",13.8
+="Old Saybrook School District",="General Education - Teachers and Instructors",="Certified",112.2
+="Orange School District",="General Education - Teachers and Instructors",="Certified",95.7
+="Oxford School District",="General Education - Teachers and Instructors",="Certified",115.8
+="Park City Prep Charter School District",="General Education - Teachers and Instructors",="Certified",13.0
+="Plainfield School District",="General Education - Teachers and Instructors",="Certified",154.2
+="Plainville School District",="General Education - Teachers and Instructors",="Certified",178.7
+="Plymouth School District",="General Education - Teachers and Instructors",="Certified",114.0
+="Pomfret School District",="General Education - Teachers and Instructors",="Certified",38.6
+="Portland School District",="General Education - Teachers and Instructors",="Certified",91.5
+="Preston School District",="General Education - Teachers and Instructors",="Certified",31.4
+="Project Oceanology",="General Education - Teachers and Instructors",="Certified",5.5
+="Putnam School District",="General Education - Teachers and Instructors",="Certified",81.0
+="Redding School District",="General Education - Teachers and Instructors",="Certified",88.2
+="Regional School District 01",="General Education - Teachers and Instructors",="Certified",45.4
+="Regional School District 04",="General Education - Teachers and Instructors",="Certified",75.2
+="Regional School District 05",="General Education - Teachers and Instructors",="Certified",175.2
+="Regional School District 06",="General Education - Teachers and Instructors",="Certified",78.7
+="Regional School District 07",="General Education - Teachers and Instructors",="Certified",78.8
+="Regional School District 08",="General Education - Teachers and Instructors",="Certified",121.3
+="Regional School District 09",="General Education - Teachers and Instructors",="Certified",71.5
+="Regional School District 10",="General Education - Teachers and Instructors",="Certified",178.6
+="Regional School District 11",="General Education - Teachers and Instructors",="Certified",26.8
+="Regional School District 12",="General Education - Teachers and Instructors",="Certified",84.7
+="Regional School District 13",="General Education - Teachers and Instructors",="Certified",150.2
+="Regional School District 14",="General Education - Teachers and Instructors",="Certified",139.3
+="Regional School District 15",="General Education - Teachers and Instructors",="Certified",266.6
+="Regional School District 16",="General Education - Teachers and Instructors",="Certified",168.5
+="Regional School District 17",="General Education - Teachers and Instructors",="Certified",170.8
+="Regional School District 18",="General Education - Teachers and Instructors",="Certified",117.8
+="Regional School District 19",="General Education - Teachers and Instructors",="Certified",90.6
+="Ridgefield School District",="General Education - Teachers and Instructors",="Certified",333.8
+="Rocky Hill School District",="General Education - Teachers and Instructors",="Certified",169.8
+="Salem School District",="General Education - Teachers and Instructors",="Certified",37.1
+="Salisbury School District",="General Education - Teachers and Instructors",="Certified",33.1
+="Scotland School District",="General Education - Teachers and Instructors",="Certified",12.3
+="Seymour School District",="General Education - Teachers and Instructors",="Certified",155.7
+="Sharon School District",="General Education - Teachers and Instructors",="Certified",22.9
+="Shelton School District",="General Education - Teachers and Instructors",="Certified",318.8
+="Sherman School District",="General Education - Teachers and Instructors",="Certified",33.5
+="Side By Side Charter School District",="General Education - Teachers and Instructors",="Certified",14.0
+="Simsbury School District",="General Education - Teachers and Instructors",="Certified",287.6
+="Somers School District",="General Education - Teachers and Instructors",="Certified",110.8
+="South Windsor School District",="General Education - Teachers and Instructors",="Certified",299.2
+="Southington School District",="General Education - Teachers and Instructors",="Certified",433.9
+="Sprague School District",="General Education - Teachers and Instructors",="Certified",25.9
+="Stafford School District",="General Education - Teachers and Instructors",="Certified",130.0
+="Stamford Academy District",="General Education - Teachers and Instructors",="Certified",11.0
+="Stamford School District",="General Education - Teachers and Instructors",="Certified",1066.1
+="Sterling School District",="General Education - Teachers and Instructors",="Certified",30.0
+="Stonington School District",="General Education - Teachers and Instructors",="Certified",156.3
+="Stratford School District",="General Education - Teachers and Instructors",="Certified",440.7
+="Suffield School District",="General Education - Teachers and Instructors",="Certified",170.7
+="The Bridge Academy District",="General Education - Teachers and Instructors",="Certified",18.8
+="The Gilbert School District",="General Education - Teachers and Instructors",="Certified",32.2
+="Thomaston School District",="General Education - Teachers and Instructors",="Certified",80.0
+="Thompson School District",="General Education - Teachers and Instructors",="Certified",93.8
+="Tolland School District",="General Education - Teachers and Instructors",="Certified",190.3
+="Torrington School District",="General Education - Teachers and Instructors",="Certified",290.5
+="Trailblazers Academy District",="General Education - Teachers and Instructors",="Certified",18.0
+="Trumbull School District",="General Education - Teachers and Instructors",="Certified",412.9
+="Unified School District #1",="General Education - Teachers and Instructors",="Certified",131.5
+="Unified School District #2",="General Education - Teachers and Instructors",="Certified",29.0
+="Union School District",="General Education - Teachers and Instructors",="Certified",5.4
+="Vernon School District",="General Education - Teachers and Instructors",="Certified",252.2
+="Voluntown School District",="General Education - Teachers and Instructors",="Certified",25.0
+="Wallingford School District",="General Education - Teachers and Instructors",="Certified",457.5
+="Waterbury School District",="General Education - Teachers and Instructors",="Certified",1130.5
+="Waterford School District",="General Education - Teachers and Instructors",="Certified",196.7
+="Watertown School District",="General Education - Teachers and Instructors",="Certified",195.1
+="West Hartford School District",="General Education - Teachers and Instructors",="Certified",654.5
+="West Haven School District",="General Education - Teachers and Instructors",="Certified",399.9
+="Westbrook School District",="General Education - Teachers and Instructors",="Certified",81.1
+="Weston School District",="General Education - Teachers and Instructors",="Certified",178.2
+="Westport School District",="General Education - Teachers and Instructors",="Certified",442.9
+="Wethersfield School District",="General Education - Teachers and Instructors",="Certified",234.0
+="Willington School District",="General Education - Teachers and Instructors",="Certified",46.8
+="Wilton School District",="General Education - Teachers and Instructors",="Certified",286.6
+="Winchester School District",="General Education - Teachers and Instructors",="Certified",71.5
+="Windham School District",="General Education - Teachers and Instructors",="Certified",234.7
+="Windsor Locks School District",="General Education - Teachers and Instructors",="Certified",135.0
+="Windsor School District",="General Education - Teachers and Instructors",="Certified",286.1
+="Wolcott School District",="General Education - Teachers and Instructors",="Certified",187.7
+="Woodbridge School District",="General Education - Teachers and Instructors",="Certified",57.5
+="Woodstock Academy District",="General Education - Teachers and Instructors",="Certified",78.6
+="Woodstock School District",="General Education - Teachers and Instructors",="Certified",56.0
 

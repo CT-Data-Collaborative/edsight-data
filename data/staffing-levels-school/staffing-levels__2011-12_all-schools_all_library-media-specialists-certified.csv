@@ -145,7 +145,7 @@
 ,="Dr. John A. Langford School",="Library/Media - Specialists (Certified)",="Certified",0.1
 ,="East Hartford High School",="Library/Media - Specialists (Certified)",="Certified",1.0
 ,="East Hartford Middle School",="Library/Media - Specialists (Certified)",="Certified",1.1
-,="Sunset Ridge School Elementary Academy for Arts and World Languages",="Library/Media - Specialists (Certified)",="Certified",1.0
+,="Sunset Ridge Middle School",="Library/Media - Specialists (Certified)",="Certified",1.0
 ="East Haven School District",="East Haven High School",="Library/Media - Specialists (Certified)",="Certified",1.0
 ,="Joseph Melillo Middle School",="Library/Media - Specialists (Certified)",="Certified",1.0
 ="East Lyme School District",="East Lyme High School",="Library/Media - Specialists (Certified)",="Certified",0.8
@@ -170,7 +170,7 @@
 ="Essex School District",="Essex Elementary School",="Library/Media - Specialists (Certified)",="Certified",1.0
 ="Fairfield School District",="Burr Elementary School",="Library/Media - Specialists (Certified)",="Certified",1.0
 ,="Dwight Elementary School",="Library/Media - Specialists (Certified)",="Certified",1.0
-,="Fairfield Ludlowe High School",="Library/Media - Specialists (Certified)",="Certified",2.5
+,="Fairfield Ludlowe High School",="Library/Media - Specialists (Certified)",="Certified",3.5
 ,="Fairfield Warde High School",="Library/Media - Specialists (Certified)",="Certified",2.5
 ,="Fairfield Woods Middle School",="Library/Media - Specialists (Certified)",="Certified",1.0
 ,="Holland Hill School",="Library/Media - Specialists (Certified)",="Certified",1.0
@@ -250,7 +250,7 @@
 ,="Spring Glen School",="Library/Media - Specialists (Certified)",="Certified",1.0
 ,="West Woods School",="Library/Media - Specialists (Certified)",="Certified",1.0
 ="Hampton School District",="Hampton Elementary School",="Library/Media - Specialists (Certified)",="Certified",0.7
-="Hartford School District",="Asian Studies Academy",="Library/Media - Specialists (Certified)",="Certified",1.0
+="Hartford School District",="Asian Studies Academy at Bellizzi School",="Library/Media - Specialists (Certified)",="Certified",1.0
 ,="Batchelder School",="Library/Media - Specialists (Certified)",="Certified",1.0
 ,="Bulkeley High School Lower School",="Library/Media - Specialists (Certified)",="Certified",1.0
 ,="Burns Latino Studies Academy",="Library/Media - Specialists (Certified)",="Certified",1.0
@@ -262,16 +262,16 @@
 ,="HPHS Engineering and Green Technology Academy",="Library/Media - Specialists (Certified)",="Certified",1.0
 ,="Journalism and Media Academy Magnet School",="Library/Media - Specialists (Certified)",="Certified",0.3
 ,="Kennelly School",="Library/Media - Specialists (Certified)",="Certified",1.0
+,="Kinsella Magnet School of Performing Arts",="Library/Media - Specialists (Certified)",="Certified",1.0
 ,="M. L. King, Jr. School",="Library/Media - Specialists (Certified)",="Certified",0.5
 ,="McDonough Middle School",="Library/Media - Specialists (Certified)",="Certified",1.0
 ,="Milner School",="Library/Media - Specialists (Certified)",="Certified",0.5
-,="Montessori Magnet School at Annie Fisher",="Library/Media - Specialists (Certified)",="Certified",0.2
+,="Montessori Magnet at Fisher School",="Library/Media - Specialists (Certified)",="Certified",0.2
 ,="Naylor/CCSU Leadership Academy",="Library/Media - Specialists (Certified)",="Certified",1.0
-,="R.J. Kinsella Magnet School of Performing Arts",="Library/Media - Specialists (Certified)",="Certified",1.0
 ,="STEM Magnet at Fisher School",="Library/Media - Specialists (Certified)",="Certified",0.4
 ,="Sanchez School",="Library/Media - Specialists (Certified)",="Certified",0.5
 ,="Sports and Medical Sciences Academy",="Library/Media - Specialists (Certified)",="Certified",1.0
-,="University High of Science and Engineering",="Library/Media - Specialists (Certified)",="Certified",0.5
+,="University High School of Science and Engineering",="Library/Media - Specialists (Certified)",="Certified",0.5
 ,="Webster Micro Society Magnet School",="Library/Media - Specialists (Certified)",="Certified",1.0
 ,="West Middle School",="Library/Media - Specialists (Certified)",="Certified",1.0
 ,="Wish Museum School",="Library/Media - Specialists (Certified)",="Certified",1.0
@@ -293,7 +293,7 @@
 ,="Ledyard High School",="Library/Media - Specialists (Certified)",="Certified",1.0
 ="Litchfield School District",="Center School",="Library/Media - Specialists (Certified)",="Certified",1.0
 ,="Litchfield High School",="Library/Media - Specialists (Certified)",="Certified",1.0
-,="Litchfield Intermediate School",="Library/Media - Specialists (Certified)",="Certified",1.0
+,="Litchfield Intermediate School",="Library/Media - Specialists (Certified)",="Certified",2.0
 ="Madison School District",="Daniel Hand High School",="Library/Media - Specialists (Certified)",="Certified",1.0
 ,="Dr. Robert H. Brown Middle School",="Library/Media - Specialists (Certified)",="Certified",1.0
 ,="Island Avenue Elementary School",="Library/Media - Specialists (Certified)",="Certified",1.0
@@ -389,10 +389,9 @@
 ,="Beecher School",="Library/Media - Specialists (Certified)",="Certified",1.0
 ,="Benjamin Jepson Magnet School",="Library/Media - Specialists (Certified)",="Certified",1.0
 ,="Betsy Ross Arts Magnet School",="Library/Media - Specialists (Certified)",="Certified",1.0
-,="Bishop Woods School",="Library/Media - Specialists (Certified)",="Certified",1.0
+,="Bishop Woods Architecture and Design Magnet School",="Library/Media - Specialists (Certified)",="Certified",1.0
 ,="Brennan Rogers School",="Library/Media - Specialists (Certified)",="Certified",1.0
 ,="Celentano BioTech, Health and Medical Magnet School",="Library/Media - Specialists (Certified)",="Certified",1.0
-,="Clemente Leadership Academy",="Library/Media - Specialists (Certified)",="Certified",1.0
 ,="Clinton Avenue School",="Library/Media - Specialists (Certified)",="Certified",1.0
 ,="Columbus Family Academy",="Library/Media - Specialists (Certified)",="Certified",1.0
 ,="Conte/West Hills Magnet School",="Library/Media - Specialists (Certified)",="Certified",1.0
@@ -405,13 +404,14 @@
 ,="Hill Regional Career High School",="Library/Media - Specialists (Certified)",="Certified",1.0
 ,="James Hillhouse High School",="Library/Media - Specialists (Certified)",="Certified",1.0
 ,="John C. Daniels",="Library/Media - Specialists (Certified)",="Certified",1.0
-,="John S. Martinez School",="Library/Media - Specialists (Certified)",="Certified",1.0
+,="John S. Martinez Sea and Sky STEM School",="Library/Media - Specialists (Certified)",="Certified",1.0
 ,="King/Robinson Magnet School",="Library/Media - Specialists (Certified)",="Certified",1.0
 ,="Lincoln-Bassett School",="Library/Media - Specialists (Certified)",="Certified",1.0
 ,="Mauro-Sheridan Magnet School",="Library/Media - Specialists (Certified)",="Certified",1.0
 ,="Metropolitan Business Academy",="Library/Media - Specialists (Certified)",="Certified",1.0
 ,="New Haven Academy",="Library/Media - Specialists (Certified)",="Certified",1.0
 ,="Riverside Education Academy",="Library/Media - Specialists (Certified)",="Certified",1.0
+,="Roberto Clemente Leadership Academy for Global Awareness",="Library/Media - Specialists (Certified)",="Certified",1.0
 ,="Ross/Woodward School",="Library/Media - Specialists (Certified)",="Certified",1.0
 ,="Sound School",="Library/Media - Specialists (Certified)",="Certified",1.0
 ,="West Rock Authors Academy",="Library/Media - Specialists (Certified)",="Certified",1.0

@@ -119,7 +119,8 @@
 "Canton School District","=""0230011""","Canton Middle School","=""0235111""",258
 "Canton School District","=""0230011""","Cherry Brook Primary School","=""0230211""",550
 "Capitol Region Education Council","=""2410014""","Academy of Aerospace and Engineering","=""2415114""",390
-"Capitol Region Education Council","=""2410014""","CREC Discovery Academy","=""2418114""",150
+"Capitol Region Education Council","=""2410014""","Academy of Science and Innovation","=""2416514""",278
+"Capitol Region Education Council","=""2410014""","Discovery Academy","=""2418114""",150
 "Capitol Region Education Council","=""2410014""","Farmington Valley Regional Diagnostic Center","=""2419214""",24
 "Capitol Region Education Council","=""2410014""","Glastonbury/East Hartford Magnet School","=""2410114""",259
 "Capitol Region Education Council","=""2410014""","Great Path Academy at MCC","=""2416314""",246
@@ -128,7 +129,6 @@
 "Capitol Region Education Council","=""2410014""","International Magnet School for Global Citizenship","=""2410414""",311
 "Capitol Region Education Council","=""2410014""","John J. Allison Polaris Center","=""2419014""",47
 "Capitol Region Education Council","=""2410014""","Lincoln Academy Regional Interdistrict Collaborative","=""2419614""",8
-"Capitol Region Education Council","=""2410014""","Medical Professions and Teacher Preparation Academy","=""2416514""",278
 "Capitol Region Education Council","=""2410014""","Metropolitan Learning Center for Global and International Studies","=""2416114""",719
 "Capitol Region Education Council","=""2410014""","Montessori Magnet School","=""2413114""",350
 "Capitol Region Education Council","=""2410014""","Museum Academy","=""2410514""",271
@@ -247,8 +247,8 @@
 "East Hartford School District","=""0430011""","Joseph O. Goodwin School","=""0430411""",348
 "East Hartford School District","=""0430011""","Robert J. O'Brien School","=""0431811""",547
 "East Hartford School District","=""0430011""","Silver Lane School","=""0431211""",287
-"East Hartford School District","=""0430011""","Stevens Alternate High school","=""0436411""",151
-"East Hartford School District","=""0430011""","Sunset Ridge School Elementary Academy for Arts and World Languages","=""0432411""",404
+"East Hartford School District","=""0430011""","Stevens Alternate High School","=""0436411""",151
+"East Hartford School District","=""0430011""","Sunset Ridge Middle School","=""0432411""",404
 "East Hartford School District","=""0430011""","Willowbrook Early Childhood","=""0438011""",233
 "East Hartford School District","=""0430011""","Woodland School","=""0439011""",186
 "East Haven School District","=""0440011""","Carbone School/East Haven Academy","=""0441711""",285
@@ -271,13 +271,13 @@
 "East Windsor School District","=""0470011""","East Windsor High School","=""0476111""",374
 "East Windsor School District","=""0470011""","East Windsor Middle School","=""0475411""",378
 "Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Arts at the Capitol Theater Magnet School (ACT)","=""2536014""",126
-"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","EASTCONN Special Education","=""2539014""",59
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","EastConn Special Education","=""2539014""",59
 "Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Quinebaug Middle College","=""2536114""",110
 "Eastford School District","=""0390011""","Eastford Elementary School","=""0390111""",176
 "Easton School District","=""0460011""","Helen Keller Middle School","=""0465111""",391
 "Easton School District","=""0460011""","Samuel Staples Elementary School","=""0460111""",666
-"Education Connection","=""2420014""","Education Connection Headstart","=""2428014""",197
-"Education Connection","=""2420014""","Education Connection Special Education","=""2429014""",24
+"EdAdvance","=""2420014""","EdAdvance Headstart","=""2428014""",197
+"EdAdvance","=""2420014""","The ACCESS School at The Danuta M. Thibodeau Education Center","=""2429014""",24
 "Ellington School District","=""0480011""","Center School","=""0480111""",448
 "Ellington School District","=""0480011""","Crystal Lake School","=""0480211""",217
 "Ellington School District","=""0480011""","Ellington High School","=""0486111""",800
@@ -337,7 +337,7 @@
 "Granby School District","=""0560011""","Frank M. Kearns Primary School","=""0560111""",392
 "Granby School District","=""0560011""","Granby Memorial High School","=""0566111""",756
 "Granby School District","=""0560011""","Granby Memorial Middle School","=""0565111""",356
-"Granby School District","=""0560011""","Kelly Lane Intermediate School","=""0560411""",327
+"Granby School District","=""0560011""","Kelly Lane Primary School","=""0560411""",327
 "Granby School District","=""0560011""","Wells Road Intermediate School","=""0560311""",327
 "Greenwich School District","=""0570011""","Central Middle School","=""0575111""",604
 "Greenwich School District","=""0570011""","Cos Cob School","=""0570211""",402
@@ -358,9 +358,9 @@
 "Griswold School District","=""0580011""","Griswold High School","=""0586211""",652
 "Griswold School District","=""0580011""","Griswold Middle School","=""0585111""",586
 "Groton School District","=""0590011""","Carl C. Cutler Middle School","=""0595311""",355
-"Groton School District","=""0590011""","Catherine Kolnaski Magnet School","=""0590311""",410
-"Groton School District","=""0590011""","Catherine Kolnaski Magnet School","=""0592011""",410
+"Groton School District","=""0590011""","Catherine Kolnaski Magnet School","=""0592011""",486
 "Groton School District","=""0590011""","Charles Barnum School","=""0591811""",392
+"Groton School District","=""0590011""","Claude Chester School","=""0590311""",334
 "Groton School District","=""0590011""","Fitch Middle School","=""0595111""",407
 "Groton School District","=""0590011""","Mary Morrisson School","=""0591711""",373
 "Groton School District","=""0590011""","Northeast Academy Elementary School","=""0591911""",425
@@ -387,54 +387,54 @@
 "Hamden School District","=""0620011""","Spring Glen School","=""0621011""",394
 "Hamden School District","=""0620011""","West Woods School","=""0621411""",476
 "Hampton School District","=""0630011""","Hampton Elementary School","=""0630111""",126
-"Hartford School District","=""0640011""","Asian Studies Academy","=""0640711""",449
+"Hartford School District","=""0640011""","Asian Studies Academy at Bellizzi School","=""0640711""",449
 "Hartford School District","=""0640011""","Batchelder School","=""0640411""",565
-"Hartford School District","=""0640011""","Breakthrough II Elementary School","=""0643511""",171
+"Hartford School District","=""0640011""","Betances Early Reading Lab Magnet School","=""0642811""",315
+"Hartford School District","=""0640011""","Breakthrough II Magnet School","=""0643511""",171
 "Hartford School District","=""0640011""","Breakthrough Magnet School","=""0643311""",355
+"Hartford School District","=""0640011""","Bulkeley High School","=""0647111""",399
 "Hartford School District","=""0640011""","Bulkeley High School Lower School","=""0646111""",625
-"Hartford School District","=""0640011""","Bulkeley High School Upper School","=""0647111""",399
 "Hartford School District","=""0640011""","Burns Latino Studies Academy","=""0640611""",596
 "Hartford School District","=""0640011""","Burr School","=""0642311""",807
 "Hartford School District","=""0640011""","Capital Preparatory Magnet School","=""0646911""",521
 "Hartford School District","=""0640011""","Clark School","=""0642411""",397
 "Hartford School District","=""0640011""","Classical Magnet School","=""0646411""",714
-"Hartford School District","=""0640011""","Culinary Arts Academy","=""0646011""",297
-"Hartford School District","=""0640011""","Dr. James H Naylor/CCSU Leadership Academy","=""0641411""",704
+"Hartford School District","=""0640011""","Culinary Arts Academy at Weaver High School","=""0646011""",297
 "Hartford School District","=""0640011""","Dr. Joseph Bellizzi Middle School","=""0645311""",146
-"Hartford School District","=""0640011""","Dr. Ramon E. Betances Early Reading Lab","=""0642811""",315
-"Hartford School District","=""0640011""","Environmental Sciences Magnet School at Mary M Hooker","=""0640911""",358
+"Hartford School District","=""0640011""","Environmental Sciences Magnet at Hooker School","=""0640911""",358
 "Hartford School District","=""0640011""","Expeditionary Learning Academy at Moylan School","=""0643211""",749
-"Hartford School District","=""0640011""","Fred D. Wish Museum School","=""0642211""",392
 "Hartford School District","=""0640011""","Global Communications Academy","=""0643611""",417
-"Hartford School District","=""0640011""","HPHS Academy of Engineering and Green Technology","=""0647211""",433
-"Hartford School District","=""0640011""","HPHS Academy of Nursing and Health Science","=""0647511""",378
+"Hartford School District","=""0640011""","HPHS Engineering and Green Technology Academy","=""0647211""",433
 "Hartford School District","=""0640011""","HPHS Freshmen Academy","=""0647311""",221
 "Hartford School District","=""0640011""","HPHS Law and Government Academy","=""0647411""",396
+"Hartford School District","=""0640011""","HPHS Nursing and Health Sciences Academy","=""0647511""",378
 "Hartford School District","=""0640011""","Hartford Magnet Trinity College Academy","=""0645411""",716
 "Hartford School District","=""0640011""","Hartford Transitional Learning Academy (Elementary)","=""0649011""",32
-"Hartford School District","=""0640011""","High School Inc.","=""0647611""",321
+"Hartford School District","=""0640011""","High School, Inc.","=""0647611""",321
 "Hartford School District","=""0640011""","Journalism and Media Academy Magnet School","=""0647711""",317
 "Hartford School District","=""0640011""","Kennelly School","=""0641011""",799
-"Hartford School District","=""0640011""","M. D. Fox Elementary School","=""0640811""",479
-"Hartford School District","=""0640011""","M. L. King School","=""0641611""",401
-"Hartford School District","=""0640011""","McDonough Expeditionary Learning School","=""0641211""",451
-"Hartford School District","=""0640011""","Milner Elementary School","=""0641911""",422
-"Hartford School District","=""0640011""","Montessori Magnet School at Annie Fisher","=""0643711""",240
-"Hartford School District","=""0640011""","Noah Webster Micro Society School","=""0642011""",582
+"Hartford School District","=""0640011""","Kinsella Magnet School of Performing Arts","=""0641111""",690
+"Hartford School District","=""0640011""","M. D. Fox School","=""0640811""",479
+"Hartford School District","=""0640011""","M. L. King, Jr. School","=""0641611""",401
+"Hartford School District","=""0640011""","McDonough Middle School","=""0641211""",451
+"Hartford School District","=""0640011""","Milner School","=""0641911""",422
+"Hartford School District","=""0640011""","Montessori Magnet at Fisher School","=""0643711""",240
+"Hartford School District","=""0640011""","Naylor/CCSU Leadership Academy","=""0641411""",704
 "Hartford School District","=""0640011""","OPPortunity High School","=""0647811""",116
 "Hartford School District","=""0640011""","Parkville Community School","=""0641511""",531
 "Hartford School District","=""0640011""","Pathways Academy of Technology and Design","=""0646611""",327
-"Hartford School District","=""0640011""","R.J. Kinsella Magnet School of Performing Arts","=""0641111""",690
-"Hartford School District","=""0640011""","Renzulli Academy","=""0644011""",105
+"Hartford School District","=""0640011""","Rawson School","=""0641711""",452
+"Hartford School District","=""0640011""","Renzulli Gifted and Talented Academy","=""0644011""",105
 "Hartford School District","=""0640011""","SAND School","=""0640111""",471
-"Hartford School District","=""0640011""","STEM Magnet School at Annie Fisher","=""0642511""",344
+"Hartford School District","=""0640011""","STEM Magnet at Fisher School","=""0642511""",344
 "Hartford School District","=""0640011""","Sanchez School","=""0643011""",469
 "Hartford School District","=""0640011""","Sarah J Rawson Middle Grades Academy","=""0645611""",202
-"Hartford School District","=""0640011""","Sarah J. Rawson Elementary School","=""0641711""",452
 "Hartford School District","=""0640011""","Simpson-Waverly School","=""0642611""",347
 "Hartford School District","=""0640011""","Sports and Medical Sciences Academy","=""0646511""",637
-"Hartford School District","=""0640011""","University High of Science and Engineering","=""0646711""",389
+"Hartford School District","=""0640011""","University High School of Science and Engineering","=""0646711""",389
+"Hartford School District","=""0640011""","Webster Micro Society Magnet School","=""0642011""",582
 "Hartford School District","=""0640011""","West Middle School","=""0642111""",657
+"Hartford School District","=""0640011""","Wish Museum School","=""0642211""",392
 "Hartland School District","=""0650011""","Hartland School","=""0650111""",225
 "Hebron School District","=""0670011""","Gilead Hill School","=""0670211""",400
 "Hebron School District","=""0670011""","Hebron Elementary School","=""0670111""",648
@@ -492,7 +492,7 @@
 "Manchester School District","=""0770011""","Washington School","=""0771411""",302
 "Mansfield School District","=""0780011""","Annie E. Vinton School","=""0780411""",269
 "Mansfield School District","=""0780011""","Dorothy C. Goodwin School","=""0780211""",223
-"Mansfield School District","=""0780011""","Mansfield Middle School School","=""0785111""",575
+"Mansfield School District","=""0780011""","Mansfield Middle School","=""0785111""",575
 "Mansfield School District","=""0780011""","Southeast Elementary School","=""0780511""",257
 "Marlborough School District","=""0790011""","Elmer Thienes-Mary Hall Elementary School","=""0790111""",672
 "Meriden School District","=""0800011""","Benjamin Franklin School","=""0800111""",495
@@ -555,8 +555,8 @@
 "Naugatuck School District","=""0880011""","Naugatuck High School","=""0886111""",1344
 "Naugatuck School District","=""0880011""","Salem School","=""0880611""",229
 "Naugatuck School District","=""0880011""","Western School","=""0880711""",292
-"New Beginnings Inc., Family Academy District","=""2800013""","New Beginnings Inc., Family Academy","=""2800113""",361
-"New Britain School District","=""0890011""","Alternative Center School","=""0899111""",39
+"New Beginnings Inc Family Academy District","=""2800013""","New Beginnings Inc Family Academy","=""2800113""",361
+"New Britain School District","=""0890011""","Brook Side School","=""0899111""",39
 "New Britain School District","=""0890011""","CLIMB","=""0899411""",30
 "New Britain School District","=""0890011""","Chamberlain  Elementary School","=""0890311""",528
 "New Britain School District","=""0890011""","Frank J. DiLoreto School","=""0891111""",923
@@ -591,13 +591,14 @@
 "New Haven School District","=""0930011""","Beecher School","=""0930311""",470
 "New Haven School District","=""0930011""","Benjamin Jepson Magnet School","=""0931811""",562
 "New Haven School District","=""0930011""","Betsy Ross Arts Magnet School","=""0935511""",489
-"New Haven School District","=""0930011""","Bishop Woods School","=""0934311""",497
+"New Haven School District","=""0930011""","Bishop Woods Architecture and Design Magnet School","=""0934311""",497
+"New Haven School District","=""0930011""","Brennan Rogers School","=""0932111""",344
 "New Haven School District","=""0930011""","Celentano BioTech, Health and Medical Magnet School","=""0934811""",444
-"New Haven School District","=""0930011""","Christopher Columbus Academy","=""0934111""",473
-"New Haven School District","=""0930011""","Clemente Leadership Academy","=""0934211""",535
 "New Haven School District","=""0930011""","Clinton Avenue School","=""0930611""",562
+"New Haven School District","=""0930011""","Columbus Family Academy","=""0934111""",473
 "New Haven School District","=""0930011""","Conte/West Hills Magnet School","=""0933111""",601
 "New Haven School District","=""0930011""","Cooperative High School","=""0936411""",655
+"New Haven School District","=""0930011""","Cortlandt V.R. Creed Health and Sport Sciences High School","=""0936811""",209
 "New Haven School District","=""0930011""","Davis 21st Century Magnet Elementary School","=""0930911""",514
 "New Haven School District","=""0930011""","Domus Academy","=""0935611""",33
 "New Haven School District","=""0930011""","Dwight Early Childhood Program","=""0938211""",48
@@ -607,15 +608,13 @@
 "New Haven School District","=""0930011""","Engineering - Science University Magnet School","=""0931711""",320
 "New Haven School District","=""0930011""","Fair Haven School","=""0931611""",690
 "New Haven School District","=""0930011""","Headstart","=""0938011""",386
-"New Haven School District","=""0930011""","Helene Grant Headstart","=""0938311""",263
+"New Haven School District","=""0930011""","Helene Grant HeadStart","=""0938311""",263
 "New Haven School District","=""0930011""","High School In The Community","=""0936611""",273
 "New Haven School District","=""0930011""","Hill Central Music Academy","=""0930711""",392
 "New Haven School District","=""0930011""","Hill Regional Career High School","=""0936311""",703
-"New Haven School District","=""0930011""","Hyde School of Health, Science and Sports Medicine","=""0936811""",209
 "New Haven School District","=""0930011""","James Hillhouse High School","=""0936211""",980
 "New Haven School District","=""0930011""","John C. Daniels","=""0931311""",541
-"New Haven School District","=""0930011""","John S. Martinez School","=""0930811""",527
-"New Haven School District","=""0930011""","Katherine Brennan/Clarence Rogers School","=""0932111""",344
+"New Haven School District","=""0930011""","John S. Martinez Sea and Sky STEM School","=""0930811""",527
 "New Haven School District","=""0930011""","King/Robinson Magnet School","=""0933011""",579
 "New Haven School District","=""0930011""","Lincoln-Bassett School","=""0932011""",359
 "New Haven School District","=""0930011""","Mauro-Sheridan Magnet School","=""0931911""",563
@@ -624,6 +623,7 @@
 "New Haven School District","=""0930011""","New Haven Academy","=""0937011""",262
 "New Haven School District","=""0930011""","Polly T. McCabe Center","=""0939211""",26
 "New Haven School District","=""0930011""","Riverside Education Academy","=""0939111""",128
+"New Haven School District","=""0930011""","Roberto Clemente Leadership Academy for Global Awareness","=""0934211""",535
 "New Haven School District","=""0930011""","Ross/Woodward School","=""0931011""",575
 "New Haven School District","=""0930011""","Sound School","=""0936711""",337
 "New Haven School District","=""0930011""","Strong 21st Century Communications Magnet and SCSU Lab School","=""0932811""",422
@@ -640,8 +640,7 @@
 "New London School District","=""0950011""","New London High School","=""0956111""",934
 "New London School District","=""0950011""","Winthrop STEM Elementary Magnet School","=""0950811""",319
 "New Milford School District","=""0960011""","Hill And Plain School","=""0960511""",458
-"New Milford School District","=""0960011""","John Pettibone School","=""0960511""",447
-"New Milford School District","=""0960011""","John Pettibone School","=""0960711""",447
+"New Milford School District","=""0960011""","John Pettibone School","=""0960711""",435
 "New Milford School District","=""0960011""","Litchfield Hills Transition Center","=""0969011""","*"
 "New Milford School District","=""0960011""","New Milford High School","=""0966111""",1511
 "New Milford School District","=""0960011""","Northville Elementary School","=""0960811""",524
@@ -768,7 +767,7 @@
 "Regional School District 07","=""2070012""","AIM","=""2079112""",15
 "Regional School District 07","=""2070012""","FLEX","=""2079012""","*"
 "Regional School District 07","=""2070012""","Intensive Learning Program","=""2079412""",9
-"Regional School District 07","=""2070012""","LINKS","=""2079212""",12
+"Regional School District 07","=""2070012""","Links","=""2079212""",12
 "Regional School District 07","=""2070012""","Northwestern Regional High School","=""2076112""",715
 "Regional School District 07","=""2070012""","Northwestern Regional Middle School","=""2075112""",369
 "Regional School District 07","=""2070012""","STEP","=""2079312""",26
@@ -825,8 +824,8 @@
 "Ridgefield School District","=""1180011""","East Ridge Middle School","=""1185111""",767
 "Ridgefield School District","=""1180011""","Farmingville Elementary School","=""1180411""",340
 "Ridgefield School District","=""1180011""","Ridgebury Elementary School","=""1180311""",408
+"Ridgefield School District","=""1180011""","Ridgefield 18-21 Transition Program","=""1189011""","*"
 "Ridgefield School District","=""1180011""","Ridgefield High School","=""1186111""",1771
-"Ridgefield School District","=""1180011""","Ridgefield Transition Program","=""1189011""","*"
 "Ridgefield School District","=""1180011""","Scotland Elementary School","=""1180511""",385
 "Ridgefield School District","=""1180011""","Scotts Ridge Middle School","=""1185211""",538
 "Ridgefield School District","=""1180011""","Veterans Park Elementary School","=""1180211""",349
@@ -839,7 +838,7 @@
 "Scotland School District","=""1230011""","Scotland Elementary School","=""1230111""",132
 "Seymour School District","=""1240011""","Anna L. Lopresti School","=""1240311""",290
 "Seymour School District","=""1240011""","Bungay School","=""1240111""",546
-"Seymour School District","=""1240011""","Paul Chatfield School","=""1240411""",279
+"Seymour School District","=""1240011""","Paul E. Chatfield School","=""1240411""",279
 "Seymour School District","=""1240011""","Seymour High School","=""1246111""",596
 "Seymour School District","=""1240011""","Seymour Middle School","=""1245111""",588
 "Sharon School District","=""1250011""","Sharon Center School","=""1250111""",191
@@ -980,7 +979,7 @@
 "Unified School District #1","=""3360015""","Robinson Correctional Institution","=""3361315""",20
 "Unified School District #1","=""3360015""","Willard/Cybulski Correctional Institution","=""3361515""",24
 "Unified School District #1","=""3360015""","York Correctional Institution","=""3362515""",29
-"Unified School District #2","=""3470015""","Children''s Place School","=""3470115""",25
+"Unified School District #2","=""3470015""","Children's Place School","=""3470115""",25
 "Unified School District #2","=""3470015""","Riverview School","=""3470315""",56
 "Unified School District #2","=""3470015""","Walter G. Cady School","=""3476715""",99
 "Union School District","=""1450011""","Union Elementary School","=""1450111""",73
@@ -995,7 +994,7 @@
 "Voluntown School District","=""1470011""","Voluntown Elementary School","=""1470111""",319
 "Wallingford School District","=""1480011""","A.R.T.S. Academy","=""1489011""",17
 "Wallingford School District","=""1480011""","Cook Hill School","=""1481011""",385
-"Wallingford School District","=""1480011""","Dag  Hammarskjold Middle School","=""1485211""",709
+"Wallingford School District","=""1480011""","Dag Hammarskjold Middle School","=""1485211""",709
 "Wallingford School District","=""1480011""","Evarts C. Stevens School","=""1480911""",384
 "Wallingford School District","=""1480011""","Harvest Park","=""1489211""",7
 "Wallingford School District","=""1480011""","Highland School","=""1480211""",324
@@ -1060,9 +1059,9 @@
 "West Hartford School District","=""1550011""","King Philip Middle School","=""1555111""",884
 "West Hartford School District","=""1550011""","Morley School","=""1550911""",356
 "West Hartford School District","=""1550011""","Norfeldt School","=""1551011""",425
-"West Hartford School District","=""1550011""","STRIVE-West Hartford","=""1559211""",26
 "West Hartford School District","=""1550011""","Sedgwick Middle School","=""1555211""",942
 "West Hartford School District","=""1550011""","Smith School","=""1551711""",337
+"West Hartford School District","=""1550011""","Strive-West Hartford","=""1559211""",26
 "West Hartford School District","=""1550011""","WAAVE (W Hartford Applied Academic/Voc'l Experience)","=""1559011""",12
 "West Hartford School District","=""1550011""","Webster Hill School","=""1551211""",472
 "West Hartford School District","=""1550011""","Whiting Lane School","=""1551311""",553
@@ -1109,7 +1108,7 @@
 "Winchester School District","=""1620011""","Batcheller Early Education Center","=""1620411""",197
 "Winchester School District","=""1620011""","Mary P. Hinsdale School","=""1620211""",273
 "Winchester School District","=""1620011""","Pearson Middle School","=""1625111""",214
-"Windham School District","=""1630011""","Early Headstart-Commerce Dr.","=""1638011""",31
+"Windham School District","=""1630011""","Early Headstart","=""1638011""",31
 "Windham School District","=""1630011""","Natchaug School","=""1630111""",235
 "Windham School District","=""1630011""","North Windham School","=""1630311""",425
 "Windham School District","=""1630011""","Partial Day Program","=""1638411""",6

@@ -101,13 +101,13 @@
 ,="Canton Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.6
 ,="Cherry Brook Primary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",12.8
 ="Capitol Region Education Council",="Academy of Aerospace and Engineering",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",11.7
+,="Academy of Science and Innovation",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.2
 ,="Ana Grace Academy of the Arts Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",14.2
 ,="Discovery Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",12.2
 ,="Glastonbury/East Hartford Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",14.8
 ,="Greater Hartford Academy of the Arts High School - Full Time",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.9
 ,="Greater Hartford Academy of the Arts Magnet Middle",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",13.0
 ,="International Magnet School for Global Citizenship",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",14.0
-,="Medical Professions and Teacher Preparation Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.2
 ,="Metropolitan Learning Center for Global and International Studies",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",13.0
 ,="Montessori Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",14.0
 ,="Museum Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",10.0
@@ -215,7 +215,7 @@
 ,="Robert J. O'Brien School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
 ,="Silver Lane School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
 ,="Stevens Alternate High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
-,="Sunset Ridge School Elementary Academy for Arts and World Languages",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+,="Sunset Ridge Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
 ="East Haven School District",="Carbone School/East Haven Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.5
 ,="D. C. Moore School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.5
 ,="Deer Run School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.5
@@ -341,10 +341,11 @@
 ,="Spring Glen School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.3
 ,="West Woods School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.5
 ="Hampton School District",="Hampton Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.7
-="Hartford School District",="Asian Studies Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+="Hartford School District",="Asian Studies Academy at Bellizzi School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
 ,="Batchelder School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Betances Early Reading Lab Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
 ,="Betances STEM Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
-,="Breakthrough II Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Breakthrough II Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
 ,="Breakthrough Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
 ,="Bulkeley High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
 ,="Bulkeley High School Lower School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
@@ -355,28 +356,27 @@
 ,="Classical Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
 ,="Culinary Arts Academy at Weaver High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
 ,="Dr. Joseph Bellizzi Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
-,="Dr. Ramon E. Betances Early Reading Lab",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
 ,="Environmental Sciences Magnet at Hooker School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
 ,="Expeditionary Learning Academy at Moylan School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.0
 ,="Global Communications Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
-,="Great Path Academy High School at MCC",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Great Path Academy at MCC",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
 ,="HPHS Engineering and Green Technology Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
 ,="HPHS Law and Government Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
 ,="HPHS Nursing and Health Sciences Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
 ,="Hartford Magnet Trinity College Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
-,="High School Inc.",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="High School, Inc.",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
 ,="Journalism and Media Academy Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
 ,="Kennelly School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Kinsella Magnet School of Performing Arts",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.5
 ,="M. D. Fox School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
 ,="M. L. King, Jr. School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
 ,="McDonough Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
 ,="Milner School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
-,="Montessori Magnet School at Annie Fisher",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",11.0
+,="Montessori Magnet at Fisher School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",11.0
 ,="Naylor/CCSU Leadership Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
 ,="OPPortunity High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
 ,="Parkville Community School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
 ,="Pathways Academy of Technology and Design",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
-,="R.J. Kinsella Magnet School of Performing Arts",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.5
 ,="Rawson School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.5
 ,="Renzulli Gifted and Talented Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
 ,="SAND School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
@@ -384,7 +384,7 @@
 ,="Sanchez School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
 ,="Simpson-Waverly School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.5
 ,="Sports and Medical Sciences Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
-,="University High of Science and Engineering",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="University High School of Science and Engineering",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
 ,="Webster Micro Society Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.5
 ,="West Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
 ,="Wish Museum School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
@@ -439,7 +439,7 @@
 ,="Washington School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
 ="Mansfield School District",="Annie E. Vinton School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.0
 ,="Dorothy C. Goodwin School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
-,="Mansfield Middle School School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.5
+,="Mansfield Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.5
 ,="Southeast Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.0
 ="Marlborough School District",="Elmer Thienes-Mary Hall Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.5
 ="Meriden School District",="Nathan Hale School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
@@ -497,7 +497,7 @@
 ,="Naugatuck High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
 ,="Salem School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
 ,="Western School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
-="New Beginnings Inc Family Academy District",="New Beginnings Inc., Family Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",12.0
+="New Beginnings Inc Family Academy District",="New Beginnings Inc Family Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",12.0
 ="New Britain School District",="Chamberlain Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.0
 ,="Frank J. DiLoreto School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",12.0
 ,="Gaffney School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",19.0
@@ -532,10 +532,9 @@
 ,="Beecher School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",11.0
 ,="Benjamin Jepson Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",10.0
 ,="Betsy Ross Arts Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
-,="Bishop Woods School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+,="Bishop Woods Architecture and Design Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
 ,="Brennan Rogers School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.0
 ,="Celentano BioTech, Health and Medical Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
-,="Clemente Leadership Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
 ,="Clinton Avenue School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
 ,="Columbus Family Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.0
 ,="Conte/West Hills Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.0
@@ -550,13 +549,14 @@
 ,="Hill Regional Career High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
 ,="James Hillhouse High School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
 ,="John C. Daniels",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",11.0
-,="John S. Martinez School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="John S. Martinez Sea and Sky STEM School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
 ,="King/Robinson Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",11.0
 ,="Lincoln-Bassett School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
 ,="Mauro-Sheridan Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",10.0
 ,="Metropolitan Business Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
 ,="New Haven Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
 ,="Quinnipiac Real World Math STEM School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",10.0
+,="Roberto Clemente Leadership Academy for Global Awareness",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
 ,="Ross/Woodward School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",11.0
 ,="Sound School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
 ,="Strong 21st Century Communications Magnet and SCSU Lab School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",13.0

@@ -401,6 +401,10 @@
 ,,="Library/Media - Support Staff",="Non-Certified",0.0
 ,,="School Nurses",="Non-Certified",1.5
 ,,="Special Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Academy of Science and Innovation",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.2
+,,="Library/Media - Support Staff",="Non-Certified",0.0
+,,="School Nurses",="Non-Certified",1.0
+,,="Special Education - Paraprofessional Instructional Assistants",="Non-Certified",1.5
 ,="Ana Grace Academy of the Arts Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",14.2
 ,,="Library/Media - Support Staff",="Non-Certified",0.0
 ,,="School Nurses",="Non-Certified",1.0
@@ -425,10 +429,6 @@
 ,,="Library/Media - Support Staff",="Non-Certified",0.0
 ,,="School Nurses",="Non-Certified",1.0
 ,,="Special Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
-,="Medical Professions and Teacher Preparation Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.2
-,,="Library/Media - Support Staff",="Non-Certified",0.0
-,,="School Nurses",="Non-Certified",1.0
-,,="Special Education - Paraprofessional Instructional Assistants",="Non-Certified",1.5
 ,="Metropolitan Learning Center for Global and International Studies",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",13.0
 ,,="Library/Media - Support Staff",="Non-Certified",0.0
 ,,="School Nurses",="Non-Certified",1.0
@@ -857,7 +857,7 @@
 ,,="Library/Media - Support Staff",="Non-Certified",0.0
 ,,="School Nurses",="Non-Certified",1.0
 ,,="Special Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
-,="Sunset Ridge School Elementary Academy for Arts and World Languages",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+,="Sunset Ridge Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
 ,,="Library/Media - Support Staff",="Non-Certified",0.0
 ,,="School Nurses",="Non-Certified",1.0
 ,,="Special Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
@@ -1361,7 +1361,7 @@
 ,,="Library/Media - Support Staff",="Non-Certified",0.0
 ,,="School Nurses",="Non-Certified",1.0
 ,,="Special Education - Paraprofessional Instructional Assistants",="Non-Certified",5.6
-="Hartford School District",="Asian Studies Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+="Hartford School District",="Asian Studies Academy at Bellizzi School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
 ,,="Library/Media - Support Staff",="Non-Certified",0.0
 ,,="School Nurses",="Non-Certified",1.0
 ,,="Special Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
@@ -1369,11 +1369,15 @@
 ,,="Library/Media - Support Staff",="Non-Certified",0.0
 ,,="School Nurses",="Non-Certified",2.0
 ,,="Special Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+,="Betances Early Reading Lab Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,,="Library/Media - Support Staff",="Non-Certified",0.0
+,,="School Nurses",="Non-Certified",1.0
+,,="Special Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
 ,="Betances STEM Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
 ,,="Library/Media - Support Staff",="Non-Certified",0.0
 ,,="School Nurses",="Non-Certified",1.0
 ,,="Special Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
-,="Breakthrough II Elementary School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+,="Breakthrough II Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
 ,,="Library/Media - Support Staff",="Non-Certified",0.0
 ,,="School Nurses",="Non-Certified",0.5
 ,,="Special Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
@@ -1417,10 +1421,6 @@
 ,,="Library/Media - Support Staff",="Non-Certified",0.0
 ,,="School Nurses",="Non-Certified",1.0
 ,,="Special Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
-,="Dr. Ramon E. Betances Early Reading Lab",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
-,,="Library/Media - Support Staff",="Non-Certified",0.0
-,,="School Nurses",="Non-Certified",1.0
-,,="Special Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
 ,="Environmental Sciences Magnet at Hooker School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
 ,,="Library/Media - Support Staff",="Non-Certified",0.0
 ,,="School Nurses",="Non-Certified",1.0
@@ -1433,7 +1433,7 @@
 ,,="Library/Media - Support Staff",="Non-Certified",0.0
 ,,="School Nurses",="Non-Certified",1.0
 ,,="Special Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
-,="Great Path Academy High School at MCC",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+,="Great Path Academy at MCC",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
 ,,="Library/Media - Support Staff",="Non-Certified",0.0
 ,,="School Nurses",="Non-Certified",1.0
 ,,="Special Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
@@ -1453,7 +1453,7 @@
 ,,="Library/Media - Support Staff",="Non-Certified",0.0
 ,,="School Nurses",="Non-Certified",1.0
 ,,="Special Education - Paraprofessional Instructional Assistants",="Non-Certified",8.0
-,="High School Inc.",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="High School, Inc.",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
 ,,="Library/Media - Support Staff",="Non-Certified",0.0
 ,,="School Nurses",="Non-Certified",1.0
 ,,="Special Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
@@ -1465,6 +1465,10 @@
 ,,="Library/Media - Support Staff",="Non-Certified",0.0
 ,,="School Nurses",="Non-Certified",2.0
 ,,="Special Education - Paraprofessional Instructional Assistants",="Non-Certified",8.0
+,="Kinsella Magnet School of Performing Arts",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.5
+,,="Library/Media - Support Staff",="Non-Certified",0.0
+,,="School Nurses",="Non-Certified",1.0
+,,="Special Education - Paraprofessional Instructional Assistants",="Non-Certified",11.0
 ,="M. D. Fox School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
 ,,="Library/Media - Support Staff",="Non-Certified",0.0
 ,,="School Nurses",="Non-Certified",1.5
@@ -1481,7 +1485,7 @@
 ,,="Library/Media - Support Staff",="Non-Certified",0.0
 ,,="School Nurses",="Non-Certified",1.0
 ,,="Special Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
-,="Montessori Magnet School at Annie Fisher",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",11.0
+,="Montessori Magnet at Fisher School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",11.0
 ,,="Library/Media - Support Staff",="Non-Certified",0.0
 ,,="School Nurses",="Non-Certified",0.4
 ,,="Special Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
@@ -1501,10 +1505,6 @@
 ,,="Library/Media - Support Staff",="Non-Certified",0.0
 ,,="School Nurses",="Non-Certified",1.0
 ,,="Special Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
-,="R.J. Kinsella Magnet School of Performing Arts",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.5
-,,="Library/Media - Support Staff",="Non-Certified",0.0
-,,="School Nurses",="Non-Certified",1.0
-,,="Special Education - Paraprofessional Instructional Assistants",="Non-Certified",11.0
 ,="Rawson School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.5
 ,,="Library/Media - Support Staff",="Non-Certified",0.0
 ,,="School Nurses",="Non-Certified",1.0
@@ -1533,7 +1533,7 @@
 ,,="Library/Media - Support Staff",="Non-Certified",0.0
 ,,="School Nurses",="Non-Certified",1.0
 ,,="Special Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
-,="University High of Science and Engineering",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="University High School of Science and Engineering",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
 ,,="Library/Media - Support Staff",="Non-Certified",0.0
 ,,="School Nurses",="Non-Certified",1.0
 ,,="Special Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
@@ -1753,7 +1753,7 @@
 ,,="Library/Media - Support Staff",="Non-Certified",1.0
 ,,="School Nurses",="Non-Certified",1.0
 ,,="Special Education - Paraprofessional Instructional Assistants",="Non-Certified",9.0
-,="Mansfield Middle School School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.5
+,="Mansfield Middle School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.5
 ,,="Library/Media - Support Staff",="Non-Certified",2.0
 ,,="School Nurses",="Non-Certified",1.0
 ,,="Special Education - Paraprofessional Instructional Assistants",="Non-Certified",12.0
@@ -1985,7 +1985,7 @@
 ,,="Library/Media - Support Staff",="Non-Certified",0.0
 ,,="School Nurses",="Non-Certified",1.0
 ,,="Special Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
-="New Beginnings Inc Family Academy District",="New Beginnings Inc., Family Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",12.0
+="New Beginnings Inc Family Academy District",="New Beginnings Inc Family Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",12.0
 ,,="Library/Media - Support Staff",="Non-Certified",1.0
 ,,="School Nurses",="Non-Certified",1.0
 ,,="Special Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
@@ -2125,7 +2125,7 @@
 ,,="Library/Media - Support Staff",="Non-Certified",0.0
 ,,="School Nurses",="Non-Certified",0.6
 ,,="Special Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
-,="Bishop Woods School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
+,="Bishop Woods Architecture and Design Magnet School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.0
 ,,="Library/Media - Support Staff",="Non-Certified",0.0
 ,,="School Nurses",="Non-Certified",0.5
 ,,="Special Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
@@ -2137,10 +2137,6 @@
 ,,="Library/Media - Support Staff",="Non-Certified",0.0
 ,,="School Nurses",="Non-Certified",1.0
 ,,="Special Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
-,="Clemente Leadership Academy",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
-,,="Library/Media - Support Staff",="Non-Certified",0.0
-,,="School Nurses",="Non-Certified",0.7
-,,="Special Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
 ,="Clinton Avenue School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
 ,,="Library/Media - Support Staff",="Non-Certified",0.0
 ,,="School Nurses",="Non-Certified",0.6
@@ -2197,7 +2193,7 @@
 ,,="Library/Media - Support Staff",="Non-Certified",0.0
 ,,="School Nurses",="Non-Certified",1.0
 ,,="Special Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
-,="John S. Martinez School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+,="John S. Martinez Sea and Sky STEM School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
 ,,="Library/Media - Support Staff",="Non-Certified",0.0
 ,,="School Nurses",="Non-Certified",0.8
 ,,="Special Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
@@ -2225,6 +2221,10 @@
 ,,="Library/Media - Support Staff",="Non-Certified",0.0
 ,,="School Nurses",="Non-Certified",0.6
 ,,="Special Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+,="Roberto Clemente Leadership Academy for Global Awareness",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+,,="Library/Media - Support Staff",="Non-Certified",0.0
+,,="School Nurses",="Non-Certified",0.7
+,,="Special Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
 ,="Ross/Woodward School",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",11.0
 ,,="Library/Media - Support Staff",="Non-Certified",0.0
 ,,="School Nurses",="Non-Certified",0.8

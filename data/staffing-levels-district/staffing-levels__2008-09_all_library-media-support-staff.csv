@@ -1,160 +1,199 @@
+"FTE Staffing Report for 2008-09"
 
-
-
-
-
-
-
-
-
-<!DOCTYPE html>
-
-
-
-
-
-<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
-    
-
-
-<head>
-    <meta charset="UTF-8" />
-    <title>
-    	
-    		
-    		
-    			SAS&reg; Logon Manager
-    		
-    	
-    </title>
-    <link type="text/css" rel="stylesheet" href="themes/default/css/bootstrap.css" />
-    <link type="text/css" rel="stylesheet" href="themes/default/css/sas.css" />
-</head>
-
-
-
-<body id="cas">
-	<div id="page">
-		
-
-<div class="banner row">
-    <div class="about">
-        <ul class="unstyled"><li>
-            <a href="#about-modal" data-toggle="modal">
-                About
-            </a>
-        </li></ul>
-    </div>
-    <div id="about-modal" class="modal hide fade">
-        <div class="modal-header">
-            <a href="#" class="close" data-dismiss="modal">&times;</a>
-            <h3>About</h3>
-        </div>
-        <div class="modal-body">
-            <p>Version: 9.4</p>
-            <h4>Copyright Information</h4>
-            <p align="center">
-Copyright (c) 2002 - 2013 by SAS Institute Inc., Cary, NC, USA<br/>
-All rights reserved.<br/>
-<br/>
-This software is protected by copyright laws and international treaties.<br/>
-<br/>
-U.S. GOVERNMENT RESTRICTED RIGHTS<br/>
-Use, duplication, or disclosure of this software and related<br/>
-documentation by the U.S. government is subject to the<br/>
-Agreement with SAS Institute and the restrictions set forth<br/>
-in FAR 52.227-19, Commercial Computer Software<br/>
-- Restricted Rights (June 1987).
-            </p>
-        </div>
-    </div>
-    <div class="header">
-        <div class="title">
-        	<h1>
-        		
-		    		
-		    		
-		    			Sign In to SAS<sup>&reg;</sup>
-		    		
-    			
-        	</h1>
-       	</div>
-        <div class="logo"><img src="themes/default/images/logo.png" /></div>
-    </div>
-</div>
-
-
-		<div class="content row">
-			
-                <form id="fm1" class="form-stacked" onSubmit="return setSubmitUrl(this);" action="/SASLogon/login;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=8E53CAA594F64CFEDD0008D293CCB019.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1?service=http://edsight.ct.gov/SASStoredProcess/j_spring_cas_security_check" method="post">
-				<fieldset>
-					
-					
-					
-                        <legend>Sign In to SAS<sup>&reg;</sup></legend>
-					<div class="clearfix">
-                            <label for="username"><span class="accesskey">U</span>ser ID:</label>
-						
-							
-							
-                                    
-                                    <input id="username" name="username" class="required" tabindex="1" accesskey="u" type="text" value="" size="25" autocomplete="off"/>
-							
-						
-					</div>
-					<div class="clearfix">
-                            <label for="password"><span class="accesskey">P</span>assword:</label>
-						
-                            
-                            <input id="password" name="password" class="required" tabindex="2" accesskey="p" type="password" value="" size="25" autocomplete="off"/>
-					</div>
-				</fieldset>
-				<input type="hidden" name="lt" value="LT-4281-HciXQEEZYQv62XWixCSekQa63z6k6j" />
-				<input type="hidden" name="execution" value="e1s1" />
-				<input type="hidden" name="_eventId" value="submit" />
-                    <div class="submitb"><input id="Logon" type="submit" value="Sign In" onClick="this.disabled=true;this.form.submit();" tabindex="3" /></div>
-			</form>
-			
-				<div class="customizations" id="custom-logon-message">
-                  	
-
-
-<p>
-
-</p>
-
-
- 
- 
-				</div>
-			
-
-			<div class="copyright">
-				Copyright &copy; 2002 - 2013 by SAS Institute Inc., Cary, NC USA
-			</div>
-		</div>
-	</div>
-	
-<script type="text/javascript" src="/SASLogon/js/jquery.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=8E53CAA594F64CFEDD0008D293CCB019.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-<script type="text/javascript" src="/SASLogon/js/bootstrap-modal.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=8E53CAA594F64CFEDD0008D293CCB019.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-
-	<script type="text/javascript">
-            $("#username").focus();
-            
-            function setSubmitUrl(form)
-            {
-            	var urlHash = decodeURIComponent(window.location.hash);
-            	
-            	if (urlHash && urlHash.indexOf("#") === -1)
-            		urlHash = "#" + urlHash;
-            	
-            	form.action = form.action + urlHash;
-            	return true;
-            }
-    </script>
-</body>
-
-</html>
-
-
+"District","Assignment Category","Educator Type","FTE Count"
+"Achievement First Hartford Academy Inc. District","Library/Media - Support Staff","Non-Certified",0.0
+="Amistad Academy District",="Library/Media - Support Staff",="Non-Certified",0.0
+="Andover School District",="Library/Media - Support Staff",="Non-Certified",0.0
+="Ansonia School District",="Library/Media - Support Staff",="Non-Certified",4.0
+="Area Cooperative Educational Services",="Library/Media - Support Staff",="Non-Certified",0.0
+="Ashford School District",="Library/Media - Support Staff",="Non-Certified",1.0
+="Avon School District",="Library/Media - Support Staff",="Non-Certified",2.0
+="Barkhamsted School District",="Library/Media - Support Staff",="Non-Certified",0.3
+="Berlin School District",="Library/Media - Support Staff",="Non-Certified",5.1
+="Bethany School District",="Library/Media - Support Staff",="Non-Certified",1.7
+="Bethel School District",="Library/Media - Support Staff",="Non-Certified",5.0
+="Bloomfield School District",="Library/Media - Support Staff",="Non-Certified",5.0
+="Bolton School District",="Library/Media - Support Staff",="Non-Certified",2.4
+="Bozrah School District",="Library/Media - Support Staff",="Non-Certified",1.0
+="Branford School District",="Library/Media - Support Staff",="Non-Certified",3.4
+="Bridgeport Achievement First District",="Library/Media - Support Staff",="Non-Certified",0.0
+="Bridgeport School District",="Library/Media - Support Staff",="Non-Certified",18.0
+="Bristol School District",="Library/Media - Support Staff",="Non-Certified",14.0
+="Brookfield School District",="Library/Media - Support Staff",="Non-Certified",4.0
+="Brooklyn School District",="Library/Media - Support Staff",="Non-Certified",1.1
+="Canaan School District",="Library/Media - Support Staff",="Non-Certified",0.0
+="Canterbury School District",="Library/Media - Support Staff",="Non-Certified",2.0
+="Canton School District",="Library/Media - Support Staff",="Non-Certified",4.6
+="Capitol Region Education Council",="Library/Media - Support Staff",="Non-Certified",1.0
+="Chaplin School District",="Library/Media - Support Staff",="Non-Certified",2.0
+="Charter School for Young Children on Asylum Hill District",="Library/Media - Support Staff",="Non-Certified",0.0
+="Cheshire School District",="Library/Media - Support Staff",="Non-Certified",12.5
+="Chester School District",="Library/Media - Support Staff",="Non-Certified",1.0
+="Clinton School District",="Library/Media - Support Staff",="Non-Certified",2.4
+="Colchester School District",="Library/Media - Support Staff",="Non-Certified",4.5
+="Colebrook School District",="Library/Media - Support Staff",="Non-Certified",1.0
+="Columbia School District",="Library/Media - Support Staff",="Non-Certified",1.0
+="Common Ground High School District",="Library/Media - Support Staff",="Non-Certified",0.0
+="Connecticut Technical High School System",="Library/Media - Support Staff",="Non-Certified",0.0
+="Cooperative Educational Services",="Library/Media - Support Staff",="Non-Certified",1.0
+="Cornwall School District",="Library/Media - Support Staff",="Non-Certified",0.0
+="Coventry School District",="Library/Media - Support Staff",="Non-Certified",3.0
+="Cromwell School District",="Library/Media - Support Staff",="Non-Certified",2.0
+="Danbury School District",="Library/Media - Support Staff",="Non-Certified",6.3
+="Darien School District",="Library/Media - Support Staff",="Non-Certified",9.5
+="Deep River School District",="Library/Media - Support Staff",="Non-Certified",0.9
+="Derby School District",="Library/Media - Support Staff",="Non-Certified",1.0
+="East Granby School District",="Library/Media - Support Staff",="Non-Certified",0.8
+="East Haddam School District",="Library/Media - Support Staff",="Non-Certified",3.0
+="East Hampton School District",="Library/Media - Support Staff",="Non-Certified",4.0
+="East Hartford School District",="Library/Media - Support Staff",="Non-Certified",12.0
+="East Haven School District",="Library/Media - Support Staff",="Non-Certified",4.7
+="East Lyme School District",="Library/Media - Support Staff",="Non-Certified",4.1
+="East Windsor School District",="Library/Media - Support Staff",="Non-Certified",4.0
+="Eastern Connecticut Regional Educational Service Center (EASTCONN)",="Library/Media - Support Staff",="Non-Certified",0.0
+="Eastford School District",="Library/Media - Support Staff",="Non-Certified",0.0
+="Easton School District",="Library/Media - Support Staff",="Non-Certified",3.2
+="EdAdvance",="Library/Media - Support Staff",="Non-Certified",0.0
+="Ellington School District",="Library/Media - Support Staff",="Non-Certified",3.8
+="Elm City College Preparatory School",="Library/Media - Support Staff",="Non-Certified",0.0
+="Enfield School District",="Library/Media - Support Staff",="Non-Certified",13.0
+="Essex School District",="Library/Media - Support Staff",="Non-Certified",1.0
+="Explorations District",="Library/Media - Support Staff",="Non-Certified",0.0
+="Fairfield School District",="Library/Media - Support Staff",="Non-Certified",16.0
+="Farmington School District",="Library/Media - Support Staff",="Non-Certified",3.0
+="Franklin School District",="Library/Media - Support Staff",="Non-Certified",1.0
+="Glastonbury School District",="Library/Media - Support Staff",="Non-Certified",12.4
+="Granby School District",="Library/Media - Support Staff",="Non-Certified",4.8
+="Greenwich School District",="Library/Media - Support Staff",="Non-Certified",17.0
+="Griswold School District",="Library/Media - Support Staff",="Non-Certified",1.0
+="Groton School District",="Library/Media - Support Staff",="Non-Certified",7.4
+="Guilford School District",="Library/Media - Support Staff",="Non-Certified",4.0
+="Hamden School District",="Library/Media - Support Staff",="Non-Certified",2.0
+="Hampton School District",="Library/Media - Support Staff",="Non-Certified",0.0
+="Hartford School District",="Library/Media - Support Staff",="Non-Certified",0.0
+="Hartland School District",="Library/Media - Support Staff",="Non-Certified",0.0
+="Hebron School District",="Library/Media - Support Staff",="Non-Certified",1.0
+="Highville Charter School District",="Library/Media - Support Staff",="Non-Certified",0.0
+="Integrated Day Charter School District",="Library/Media - Support Staff",="Non-Certified",1.5
+="Interdistrict School for Arts and Comm District",="Library/Media - Support Staff",="Non-Certified",0.0
+="Jumoke Academy District",="Library/Media - Support Staff",="Non-Certified",1.0
+="Kent School District",="Library/Media - Support Staff",="Non-Certified",0.8
+="Killingly School District",="Library/Media - Support Staff",="Non-Certified",4.0
+="Learn",="Library/Media - Support Staff",="Non-Certified",2.0
+="Lebanon School District",="Library/Media - Support Staff",="Non-Certified",0.0
+="Ledyard School District",="Library/Media - Support Staff",="Non-Certified",4.4
+="Lisbon School District",="Library/Media - Support Staff",="Non-Certified",1.0
+="Litchfield School District",="Library/Media - Support Staff",="Non-Certified",1.0
+="Madison School District",="Library/Media - Support Staff",="Non-Certified",7.0
+="Manchester School District",="Library/Media - Support Staff",="Non-Certified",9.4
+="Mansfield School District",="Library/Media - Support Staff",="Non-Certified",6.0
+="Marlborough School District",="Library/Media - Support Staff",="Non-Certified",0.5
+="Meriden School District",="Library/Media - Support Staff",="Non-Certified",3.0
+="Middletown School District",="Library/Media - Support Staff",="Non-Certified",8.0
+="Milford School District",="Library/Media - Support Staff",="Non-Certified",8.9
+="Monroe School District",="Library/Media - Support Staff",="Non-Certified",5.0
+="Montville School District",="Library/Media - Support Staff",="Non-Certified",4.1
+="Naugatuck School District",="Library/Media - Support Staff",="Non-Certified",3.0
+="New Beginnings Inc Family Academy District",="Library/Media - Support Staff",="Non-Certified",0.0
+="New Britain School District",="Library/Media - Support Staff",="Non-Certified",1.0
+="New Canaan School District",="Library/Media - Support Staff",="Non-Certified",2.6
+="New Fairfield School District",="Library/Media - Support Staff",="Non-Certified",2.0
+="New Hartford School District",="Library/Media - Support Staff",="Non-Certified",1.8
+="New Haven School District",="Library/Media - Support Staff",="Non-Certified",1.0
+="New London School District",="Library/Media - Support Staff",="Non-Certified",6.0
+="New Milford School District",="Library/Media - Support Staff",="Non-Certified",6.0
+="Newington School District",="Library/Media - Support Staff",="Non-Certified",3.0
+="Newtown School District",="Library/Media - Support Staff",="Non-Certified",7.7
+="Norfolk School District",="Library/Media - Support Staff",="Non-Certified",0.3
+="North Branford School District",="Library/Media - Support Staff",="Non-Certified",5.0
+="North Canaan School District",="Library/Media - Support Staff",="Non-Certified",0.0
+="North Haven School District",="Library/Media - Support Staff",="Non-Certified",3.0
+="North Stonington School District",="Library/Media - Support Staff",="Non-Certified",2.0
+="Norwalk School District",="Library/Media - Support Staff",="Non-Certified",16.4
+="Norwich Free Academy District",="Library/Media - Support Staff",="Non-Certified",3.5
+="Norwich School District",="Library/Media - Support Staff",="Non-Certified",10.0
+="Odyssey Community School District",="Library/Media - Support Staff",="Non-Certified",0.0
+="Office of Early Childhood (OEC)",="Library/Media - Support Staff",="Non-Certified",0.0
+="Old Saybrook School District",="Library/Media - Support Staff",="Non-Certified",3.0
+="Orange School District",="Library/Media - Support Staff",="Non-Certified",0.0
+="Oxford School District",="Library/Media - Support Staff",="Non-Certified",0.0
+="Park City Prep Charter School District",="Library/Media - Support Staff",="Non-Certified",0.0
+="Plainfield School District",="Library/Media - Support Staff",="Non-Certified",4.2
+="Plainville School District",="Library/Media - Support Staff",="Non-Certified",2.9
+="Plymouth School District",="Library/Media - Support Staff",="Non-Certified",4.0
+="Pomfret School District",="Library/Media - Support Staff",="Non-Certified",1.0
+="Portland School District",="Library/Media - Support Staff",="Non-Certified",5.4
+="Preston School District",="Library/Media - Support Staff",="Non-Certified",0.0
+="Putnam School District",="Library/Media - Support Staff",="Non-Certified",3.0
+="Redding School District",="Library/Media - Support Staff",="Non-Certified",2.0
+="Regional School District 01",="Library/Media - Support Staff",="Non-Certified",1.0
+="Regional School District 04",="Library/Media - Support Staff",="Non-Certified",1.9
+="Regional School District 05",="Library/Media - Support Staff",="Non-Certified",4.0
+="Regional School District 06",="Library/Media - Support Staff",="Non-Certified",2.0
+="Regional School District 07",="Library/Media - Support Staff",="Non-Certified",1.5
+="Regional School District 08",="Library/Media - Support Staff",="Non-Certified",4.0
+="Regional School District 09",="Library/Media - Support Staff",="Non-Certified",0.0
+="Regional School District 10",="Library/Media - Support Staff",="Non-Certified",5.0
+="Regional School District 11",="Library/Media - Support Staff",="Non-Certified",0.4
+="Regional School District 12",="Library/Media - Support Staff",="Non-Certified",3.5
+="Regional School District 13",="Library/Media - Support Staff",="Non-Certified",4.1
+="Regional School District 14",="Library/Media - Support Staff",="Non-Certified",3.0
+="Regional School District 15",="Library/Media - Support Staff",="Non-Certified",5.0
+="Regional School District 16",="Library/Media - Support Staff",="Non-Certified",8.2
+="Regional School District 17",="Library/Media - Support Staff",="Non-Certified",9.0
+="Regional School District 18",="Library/Media - Support Staff",="Non-Certified",1.6
+="Regional School District 19",="Library/Media - Support Staff",="Non-Certified",1.0
+="Ridgefield School District",="Library/Media - Support Staff",="Non-Certified",4.0
+="Rocky Hill School District",="Library/Media - Support Staff",="Non-Certified",4.0
+="Salem School District",="Library/Media - Support Staff",="Non-Certified",1.0
+="Salisbury School District",="Library/Media - Support Staff",="Non-Certified",0.9
+="Scotland School District",="Library/Media - Support Staff",="Non-Certified",2.0
+="Seymour School District",="Library/Media - Support Staff",="Non-Certified",2.3
+="Sharon School District",="Library/Media - Support Staff",="Non-Certified",1.0
+="Shelton School District",="Library/Media - Support Staff",="Non-Certified",6.0
+="Sherman School District",="Library/Media - Support Staff",="Non-Certified",1.0
+="Side By Side Charter School District",="Library/Media - Support Staff",="Non-Certified",0.5
+="Simsbury School District",="Library/Media - Support Staff",="Non-Certified",5.7
+="Somers School District",="Library/Media - Support Staff",="Non-Certified",2.5
+="South Windsor School District",="Library/Media - Support Staff",="Non-Certified",8.0
+="Southington School District",="Library/Media - Support Staff",="Non-Certified",5.0
+="Sprague School District",="Library/Media - Support Staff",="Non-Certified",1.5
+="Stafford School District",="Library/Media - Support Staff",="Non-Certified",6.0
+="Stamford Academy District",="Library/Media - Support Staff",="Non-Certified",0.0
+="Stamford School District",="Library/Media - Support Staff",="Non-Certified",24.0
+="Sterling School District",="Library/Media - Support Staff",="Non-Certified",0.0
+="Stonington School District",="Library/Media - Support Staff",="Non-Certified",7.6
+="Stratford School District",="Library/Media - Support Staff",="Non-Certified",3.5
+="Suffield School District",="Library/Media - Support Staff",="Non-Certified",3.4
+="The Bridge Academy District",="Library/Media - Support Staff",="Non-Certified",0.0
+="The Gilbert School District",="Library/Media - Support Staff",="Non-Certified",1.0
+="Thomaston School District",="Library/Media - Support Staff",="Non-Certified",1.7
+="Thompson School District",="Library/Media - Support Staff",="Non-Certified",2.1
+="Tolland School District",="Library/Media - Support Staff",="Non-Certified",1.5
+="Torrington School District",="Library/Media - Support Staff",="Non-Certified",7.0
+="Trailblazers Academy District",="Library/Media - Support Staff",="Non-Certified",0.0
+="Trumbull School District",="Library/Media - Support Staff",="Non-Certified",3.0
+="Union School District",="Library/Media - Support Staff",="Non-Certified",0.1
+="Vernon School District",="Library/Media - Support Staff",="Non-Certified",9.0
+="Voluntown School District",="Library/Media - Support Staff",="Non-Certified",0.0
+="Wallingford School District",="Library/Media - Support Staff",="Non-Certified",11.4
+="Waterbury School District",="Library/Media - Support Staff",="Non-Certified",19.7
+="Waterford School District",="Library/Media - Support Staff",="Non-Certified",7.0
+="Watertown School District",="Library/Media - Support Staff",="Non-Certified",5.0
+="West Hartford School District",="Library/Media - Support Staff",="Non-Certified",9.5
+="West Haven School District",="Library/Media - Support Staff",="Non-Certified",0.0
+="Westbrook School District",="Library/Media - Support Staff",="Non-Certified",0.0
+="Weston School District",="Library/Media - Support Staff",="Non-Certified",6.4
+="Westport School District",="Library/Media - Support Staff",="Non-Certified",11.0
+="Wethersfield School District",="Library/Media - Support Staff",="Non-Certified",7.0
+="Willington School District",="Library/Media - Support Staff",="Non-Certified",1.0
+="Wilton School District",="Library/Media - Support Staff",="Non-Certified",10.8
+="Winchester School District",="Library/Media - Support Staff",="Non-Certified",3.0
+="Windham School District",="Library/Media - Support Staff",="Non-Certified",2.0
+="Windsor Locks School District",="Library/Media - Support Staff",="Non-Certified",3.3
+="Windsor School District",="Library/Media - Support Staff",="Non-Certified",4.0
+="Wolcott School District",="Library/Media - Support Staff",="Non-Certified",5.0
+="Woodbridge School District",="Library/Media - Support Staff",="Non-Certified",2.0
+="Woodstock Academy District",="Library/Media - Support Staff",="Non-Certified",1.0
+="Woodstock School District",="Library/Media - Support Staff",="Non-Certified",2.0
 

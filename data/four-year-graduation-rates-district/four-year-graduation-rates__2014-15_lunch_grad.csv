@@ -1,121 +1,414 @@
+"Four-Year Graduation Rates, 2014-15"
+"All Districts, Free/Reduced Price Meal Eligibility"
 
-
-
-
-
-<!DOCTYPE html>
-
-
-
-
-
-<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
-    
-    
-
-<head>
-    <meta charset="UTF-8" />
-    <title>
-    	
-    		
-    		
-    			SAS&reg; Logon Manager
-    		
-    	
-    </title>
-    <link type="text/css" rel="stylesheet" href="themes/default/css/bootstrap.css" />
-    <link type="text/css" rel="stylesheet" href="themes/default/css/sas.css" />
-</head>
-
-
-
-    <body id="cas">
-        <div id="page">
-            
-
-<div class="banner row">
-    <div class="about">
-        <ul class="unstyled"><li>
-            <a href="#about-modal" data-toggle="modal">
-                About
-            </a>
-        </li></ul>
-    </div>
-    <div id="about-modal" class="modal hide fade">
-        <div class="modal-header">
-            <a href="#" class="close" data-dismiss="modal">&times;</a>
-            <h3>About</h3>
-        </div>
-        <div class="modal-body">
-            <p>Version: 9.4</p>
-            <h4>Copyright Information</h4>
-            <p align="center">
-Copyright (c) 2002 - 2013 by SAS Institute Inc., Cary, NC, USA<br/>
-All rights reserved.<br/>
-<br/>
-This software is protected by copyright laws and international treaties.<br/>
-<br/>
-U.S. GOVERNMENT RESTRICTED RIGHTS<br/>
-Use, duplication, or disclosure of this software and related<br/>
-documentation by the U.S. government is subject to the<br/>
-Agreement with SAS Institute and the restrictions set forth<br/>
-in FAR 52.227-19, Commercial Computer Software<br/>
-- Restricted Rights (June 1987).
-            </p>
-        </div>
-    </div>
-    <div class="header">
-        <div class="title">
-        	<h1>
-        		
-		    		
-		    		
-		    			Sign In to SAS<sup>&reg;</sup>
-		    		
-    			
-        	</h1>
-       	</div>
-        <div class="logo"><img src="themes/default/images/logo.png" /></div>
-    </div>
-</div>
-
-
-            <div class="content row">
-                <div id="msg" class="alert-message message-box success">
-                	
-                		
-                			<h2>Public access has been denied.</h2>
-		                    <p>Public users are not allowed to access this SAS application. The current user has been signed out.</p>
-                		
-                		
-                		
-                    
-                    
-           				<p>For increased security, close your browser.</p>
-           			
-                </div>
-                
-	            	<div class="customizations" id="custom-logoff-message">
-	               		
-
-
-<p>
-</p>
-
-
- 
-
-	                </div>
-	            
-	            
-            </div>
-        </div>
-        
-<script type="text/javascript" src="/SASLogon/js/jquery.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=FE261737CADDE71B6B6E22724DB4EACF.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-<script type="text/javascript" src="/SASLogon/js/bootstrap-modal.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=FE261737CADDE71B6B6E22724DB4EACF.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-
-    </body>
-
-</html>
-
+"",,,,"Graduates",
+"District","District Code","Free/Reduced Price Meal Eligibility","Four-Year Cohort Count","Graduation Count","Graduation Rate"
+"Amistad Academy District","=""2790013""","Eligible For Free Lunch",22,18,81.8
+"Amistad Academy District","=""2790013""","Eligible For Reduced Lunch","*","*","*"
+"Amistad Academy District","=""2790013""","Not Eligible For Lunch","*","*","*"
+"Ansonia School District","=""0020011""","Eligible For Free Lunch",98,77,78.6
+"Ansonia School District","=""0020011""","Eligible For Reduced Lunch",32,29,90.6
+"Ansonia School District","=""0020011""","Not Eligible For Lunch",42,38,90.5
+"Avon School District","=""0040011""","Eligible For Free Lunch",10,"*","*"
+"Avon School District","=""0040011""","Eligible For Reduced Lunch",9,"*","*"
+"Avon School District","=""0040011""","Not Eligible For Lunch",229,222,96.9
+"Berlin School District","=""0070011""","Eligible For Free Lunch",27,21,77.8
+"Berlin School District","=""0070011""","Eligible For Reduced Lunch",6,6,"*"
+"Berlin School District","=""0070011""","Not Eligible For Lunch",177,170,96.0
+"Bethel School District","=""0090011""","Eligible For Free Lunch",36,30,83.3
+"Bethel School District","=""0090011""","Eligible For Reduced Lunch",20,20,100.0
+"Bethel School District","=""0090011""","Not Eligible For Lunch",162,159,98.1
+"Bloomfield School District","=""0110011""","Eligible For Free Lunch",82,68,82.9
+"Bloomfield School District","=""0110011""","Eligible For Reduced Lunch",32,"*","*"
+"Bloomfield School District","=""0110011""","Not Eligible For Lunch",62,"*","*"
+"Bolton School District","=""0120011""","Eligible For Free Lunch","*","*","*"
+"Bolton School District","=""0120011""","Eligible For Reduced Lunch","*","*","*"
+"Bolton School District","=""0120011""","Not Eligible For Lunch",62,"*","*"
+"Branford School District","=""0140011""","Eligible For Free Lunch",42,32,76.2
+"Branford School District","=""0140011""","Eligible For Reduced Lunch",20,17,85.0
+"Branford School District","=""0140011""","Not Eligible For Lunch",191,179,93.7
+"Bridgeport Achievement First District","=""2850013""","Eligible For Free Lunch",24,22,91.7
+"Bridgeport Achievement First District","=""2850013""","Eligible For Reduced Lunch","*","*","*"
+"Bridgeport Achievement First District","=""2850013""","Not Eligible For Lunch","*","*","*"
+"Bridgeport School District","=""0150011""","Eligible For Free Lunch",1137,723,63.6
+"Bridgeport School District","=""0150011""","Eligible For Reduced Lunch","*","*","*"
+"Bridgeport School District","=""0150011""","Not Eligible For Lunch","*","*","*"
+"Bristol School District","=""0170011""","Eligible For Free Lunch",243,164,67.5
+"Bristol School District","=""0170011""","Eligible For Reduced Lunch",85,69,81.2
+"Bristol School District","=""0170011""","Not Eligible For Lunch",319,293,91.8
+"Brookfield School District","=""0180011""","Eligible For Free Lunch",15,"*","*"
+"Brookfield School District","=""0180011""","Eligible For Reduced Lunch",9,"*","*"
+"Brookfield School District","=""0180011""","Not Eligible For Lunch",211,201,95.3
+"Canton School District","=""0230011""","Eligible For Free Lunch","*","*","*"
+"Canton School District","=""0230011""","Eligible For Reduced Lunch","*","*","*"
+"Canton School District","=""0230011""","Not Eligible For Lunch",119,"*","*"
+"Capitol Region Education Council","=""2410014""","Eligible For Free Lunch",133,"*","*"
+"Capitol Region Education Council","=""2410014""","Eligible For Reduced Lunch",47,"*","*"
+"Capitol Region Education Council","=""2410014""","Not Eligible For Lunch",143,135,94.4
+"Cheshire School District","=""0250011""","Eligible For Free Lunch","*","*","*"
+"Cheshire School District","=""0250011""","Eligible For Reduced Lunch","*","*","*"
+"Cheshire School District","=""0250011""","Not Eligible For Lunch",353,345,97.7
+"Clinton School District","=""0270011""","Eligible For Free Lunch",33,24,72.7
+"Clinton School District","=""0270011""","Eligible For Reduced Lunch",10,7,"*"
+"Clinton School District","=""0270011""","Not Eligible For Lunch",119,115,96.6
+"Colchester School District","=""0280011""","Eligible For Free Lunch",32,"*","*"
+"Colchester School District","=""0280011""","Eligible For Reduced Lunch",12,"*","*"
+"Colchester School District","=""0280011""","Not Eligible For Lunch",184,176,95.7
+"Common Ground High School District","=""2680013""","Eligible For Free Lunch",21,21,100.0
+"Common Ground High School District","=""2680013""","Eligible For Reduced Lunch","*","*","*"
+"Common Ground High School District","=""2680013""","Not Eligible For Lunch","*","*","*"
+"Connecticut Technical High School System","=""9000016""","Eligible For Free Lunch",1157,1118,96.6
+"Connecticut Technical High School System","=""9000016""","Eligible For Reduced Lunch",327,323,98.8
+"Connecticut Technical High School System","=""9000016""","Not Eligible For Lunch",984,963,97.9
+"Coventry School District","=""0320011""","Eligible For Free Lunch",21,16,76.2
+"Coventry School District","=""0320011""","Eligible For Reduced Lunch",8,"*","*"
+"Coventry School District","=""0320011""","Not Eligible For Lunch",88,"*","*"
+"Cromwell School District","=""0330011""","Eligible For Free Lunch",18,15,"*"
+"Cromwell School District","=""0330011""","Eligible For Reduced Lunch",8,"*","*"
+"Cromwell School District","=""0330011""","Not Eligible For Lunch",102,"*","*"
+"Danbury School District","=""0340011""","Eligible For Free Lunch",351,235,67.0
+"Danbury School District","=""0340011""","Eligible For Reduced Lunch",96,68,70.8
+"Danbury School District","=""0340011""","Not Eligible For Lunch",325,292,89.8
+"Darien School District","=""0350011""","Eligible For Free Lunch","*","*","*"
+"Darien School District","=""0350011""","Eligible For Reduced Lunch","*","*","*"
+"Darien School District","=""0350011""","Not Eligible For Lunch",324,316,97.5
+"Derby School District","=""0370011""","Eligible For Free Lunch",55,40,72.7
+"Derby School District","=""0370011""","Eligible For Reduced Lunch",12,"*","*"
+"Derby School District","=""0370011""","Not Eligible For Lunch",35,"*","*"
+"East Granby School District","=""0400011""","Eligible For Free Lunch","*","*","*"
+"East Granby School District","=""0400011""","Eligible For Reduced Lunch","N/A","N/A","N/A"
+"East Granby School District","=""0400011""","Not Eligible For Lunch","*","*","*"
+"East Haddam School District","=""0410011""","Eligible For Free Lunch","*","*","*"
+"East Haddam School District","=""0410011""","Eligible For Reduced Lunch","*","*","*"
+"East Haddam School District","=""0410011""","Not Eligible For Lunch",89,84,94.4
+"East Hampton School District","=""0420011""","Eligible For Free Lunch",16,"*","*"
+"East Hampton School District","=""0420011""","Eligible For Reduced Lunch",8,"*","*"
+"East Hampton School District","=""0420011""","Not Eligible For Lunch",103,100,97.1
+"East Hartford School District","=""0430011""","Eligible For Free Lunch",341,286,83.9
+"East Hartford School District","=""0430011""","Eligible For Reduced Lunch",86,80,93.0
+"East Hartford School District","=""0430011""","Not Eligible For Lunch",139,132,95.0
+"East Haven School District","=""0440011""","Eligible For Free Lunch",89,56,62.9
+"East Haven School District","=""0440011""","Eligible For Reduced Lunch",49,34,69.4
+"East Haven School District","=""0440011""","Not Eligible For Lunch",106,94,88.7
+"East Lyme School District","=""0450011""","Eligible For Free Lunch",29,"*","*"
+"East Lyme School District","=""0450011""","Eligible For Reduced Lunch",11,"*","*"
+"East Lyme School District","=""0450011""","Not Eligible For Lunch",234,227,97.0
+"East Windsor School District","=""0470011""","Eligible For Free Lunch",34,30,88.2
+"East Windsor School District","=""0470011""","Eligible For Reduced Lunch",11,8,"*"
+"East Windsor School District","=""0470011""","Not Eligible For Lunch",45,40,88.9
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Eligible For Free Lunch",31,"*","*"
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Eligible For Reduced Lunch",9,"*","*"
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Not Eligible For Lunch",32,25,78.1
+"Ellington School District","=""0480011""","Eligible For Free Lunch","*","*","*"
+"Ellington School District","=""0480011""","Eligible For Reduced Lunch","*","*","*"
+"Ellington School District","=""0480011""","Not Eligible For Lunch",180,174,96.7
+"Elm City College Preparatory School District","=""2890013""","Eligible For Free Lunch",10,7,"*"
+"Elm City College Preparatory School District","=""2890013""","Eligible For Reduced Lunch","*","*","*"
+"Elm City College Preparatory School District","=""2890013""","Not Eligible For Lunch","*","*","*"
+"Enfield School District","=""0490011""","Eligible For Free Lunch",97,73,75.3
+"Enfield School District","=""0490011""","Eligible For Reduced Lunch",48,42,87.5
+"Enfield School District","=""0490011""","Not Eligible For Lunch",247,225,91.1
+"Explorations District","=""2720013""","Eligible For Free Lunch","*","*","*"
+"Explorations District","=""2720013""","Eligible For Reduced Lunch","*","*","*"
+"Explorations District","=""2720013""","Not Eligible For Lunch",12,12,"*"
+"Fairfield School District","=""0510011""","Eligible For Free Lunch",84,"*","*"
+"Fairfield School District","=""0510011""","Eligible For Reduced Lunch",28,"*","*"
+"Fairfield School District","=""0510011""","Not Eligible For Lunch",605,577,95.4
+"Farmington School District","=""0520011""","Eligible For Free Lunch",45,35,77.8
+"Farmington School District","=""0520011""","Eligible For Reduced Lunch",10,10,"*"
+"Farmington School District","=""0520011""","Not Eligible For Lunch",280,276,98.6
+"Glastonbury School District","=""0540011""","Eligible For Free Lunch",49,"*","*"
+"Glastonbury School District","=""0540011""","Eligible For Reduced Lunch",19,"*","*"
+"Glastonbury School District","=""0540011""","Not Eligible For Lunch",456,447,98.0
+"Granby School District","=""0560011""","Eligible For Free Lunch",10,"*","*"
+"Granby School District","=""0560011""","Eligible For Reduced Lunch",7,"*","*"
+"Granby School District","=""0560011""","Not Eligible For Lunch",148,146,98.6
+"Greenwich School District","=""0570011""","Eligible For Free Lunch",82,67,81.7
+"Greenwich School District","=""0570011""","Eligible For Reduced Lunch",39,31,79.5
+"Greenwich School District","=""0570011""","Not Eligible For Lunch",526,518,98.5
+"Griswold School District","=""0580011""","Eligible For Free Lunch",45,32,71.1
+"Griswold School District","=""0580011""","Eligible For Reduced Lunch",17,17,"*"
+"Griswold School District","=""0580011""","Not Eligible For Lunch",86,82,95.3
+"Groton School District","=""0590011""","Eligible For Free Lunch",100,"*","*"
+"Groton School District","=""0590011""","Eligible For Reduced Lunch",31,"*","*"
+"Groton School District","=""0590011""","Not Eligible For Lunch",141,129,91.5
+"Guilford School District","=""0600011""","Eligible For Free Lunch",28,23,82.1
+"Guilford School District","=""0600011""","Eligible For Reduced Lunch",11,11,"*"
+"Guilford School District","=""0600011""","Not Eligible For Lunch",235,226,96.2
+"Hamden School District","=""0620011""","Eligible For Free Lunch",182,144,79.1
+"Hamden School District","=""0620011""","Eligible For Reduced Lunch",51,45,88.2
+"Hamden School District","=""0620011""","Not Eligible For Lunch",232,222,95.7
+"Hartford School District","=""0640011""","Eligible For Free Lunch",1205,780,64.7
+"Hartford School District","=""0640011""","Eligible For Reduced Lunch",93,86,92.5
+"Hartford School District","=""0640011""","Not Eligible For Lunch",186,175,94.1
+"Killingly School District","=""0690011""","Eligible For Free Lunch",77,40,51.9
+"Killingly School District","=""0690011""","Eligible For Reduced Lunch",21,18,85.7
+"Killingly School District","=""0690011""","Not Eligible For Lunch",105,98,93.3
+"Learn","=""2450014""","Eligible For Free Lunch",76,"*","*"
+"Learn","=""2450014""","Eligible For Reduced Lunch",21,"*","*"
+"Learn","=""2450014""","Not Eligible For Lunch",79,69,87.3
+"Lebanon School District","=""0710011""","Eligible For Free Lunch",11,"*","*"
+"Lebanon School District","=""0710011""","Eligible For Reduced Lunch",6,"*","*"
+"Lebanon School District","=""0710011""","Not Eligible For Lunch",78,74,94.9
+"Ledyard School District","=""0720011""","Eligible For Free Lunch",53,48,90.6
+"Ledyard School District","=""0720011""","Eligible For Reduced Lunch",11,11,"*"
+"Ledyard School District","=""0720011""","Not Eligible For Lunch",169,157,92.9
+"Litchfield School District","=""0740011""","Eligible For Free Lunch","*","*","*"
+"Litchfield School District","=""0740011""","Eligible For Reduced Lunch","*","*","*"
+"Litchfield School District","=""0740011""","Not Eligible For Lunch",59,59,100.0
+"Madison School District","=""0760011""","Eligible For Free Lunch",15,"*","*"
+"Madison School District","=""0760011""","Eligible For Reduced Lunch",7,"*","*"
+"Madison School District","=""0760011""","Not Eligible For Lunch",287,284,99.0
+"Manchester School District","=""0770011""","Eligible For Free Lunch",226,159,70.4
+"Manchester School District","=""0770011""","Eligible For Reduced Lunch",57,50,87.7
+"Manchester School District","=""0770011""","Not Eligible For Lunch",171,158,92.4
+"Meriden School District","=""0800011""","Eligible For Free Lunch",389,260,66.8
+"Meriden School District","=""0800011""","Eligible For Reduced Lunch",74,62,83.8
+"Meriden School District","=""0800011""","Not Eligible For Lunch",163,141,86.5
+"Middletown School District","=""0830011""","Eligible For Free Lunch",125,"*","*"
+"Middletown School District","=""0830011""","Eligible For Reduced Lunch",39,"*","*"
+"Middletown School District","=""0830011""","Not Eligible For Lunch",151,141,93.4
+"Milford School District","=""0840011""","Eligible For Free Lunch",105,82,78.1
+"Milford School District","=""0840011""","Eligible For Reduced Lunch",31,28,90.3
+"Milford School District","=""0840011""","Not Eligible For Lunch",323,307,95.0
+"Monroe School District","=""0850011""","Eligible For Free Lunch",20,"*","*"
+"Monroe School District","=""0850011""","Eligible For Reduced Lunch",19,"*","*"
+"Monroe School District","=""0850011""","Not Eligible For Lunch",282,276,97.9
+"Montville School District","=""0860011""","Eligible For Free Lunch",37,"*","*"
+"Montville School District","=""0860011""","Eligible For Reduced Lunch",23,"*","*"
+"Montville School District","=""0860011""","Not Eligible For Lunch",119,113,95.0
+"Naugatuck School District","=""0880011""","Eligible For Free Lunch",151,121,80.1
+"Naugatuck School District","=""0880011""","Eligible For Reduced Lunch",49,44,89.8
+"Naugatuck School District","=""0880011""","Not Eligible For Lunch",137,123,89.8
+"New Britain School District","=""0890011""","Eligible For Free Lunch",494,316,64.0
+"New Britain School District","=""0890011""","Eligible For Reduced Lunch",69,54,78.3
+"New Britain School District","=""0890011""","Not Eligible For Lunch",97,83,85.6
+"New Canaan School District","=""0900011""","Eligible For Free Lunch","N/A","N/A","N/A"
+"New Canaan School District","=""0900011""","Eligible For Reduced Lunch","N/A","N/A","N/A"
+"New Canaan School District","=""0900011""","Not Eligible For Lunch",307,"*","*"
+"New Fairfield School District","=""0910011""","Eligible For Free Lunch",27,"*","*"
+"New Fairfield School District","=""0910011""","Eligible For Reduced Lunch",11,"*","*"
+"New Fairfield School District","=""0910011""","Not Eligible For Lunch",226,224,99.1
+"New Haven School District","=""0930011""","Eligible For Free Lunch",1089,787,72.3
+"New Haven School District","=""0930011""","Eligible For Reduced Lunch",152,134,88.2
+"New Haven School District","=""0930011""","Not Eligible For Lunch",244,194,79.5
+"New London School District","=""0950011""","Eligible For Free Lunch",189,141,74.6
+"New London School District","=""0950011""","Eligible For Reduced Lunch",6,"*","*"
+"New London School District","=""0950011""","Not Eligible For Lunch",7,"*","*"
+"New Milford School District","=""0960011""","Eligible For Free Lunch",54,"*","*"
+"New Milford School District","=""0960011""","Eligible For Reduced Lunch",23,"*","*"
+"New Milford School District","=""0960011""","Not Eligible For Lunch",294,274,93.2
+"Newington School District","=""0940011""","Eligible For Free Lunch",80,69,86.3
+"Newington School District","=""0940011""","Eligible For Reduced Lunch",28,25,89.3
+"Newington School District","=""0940011""","Not Eligible For Lunch",250,238,95.2
+"Newtown School District","=""0970011""","Eligible For Free Lunch",29,"*","*"
+"Newtown School District","=""0970011""","Eligible For Reduced Lunch",13,"*","*"
+"Newtown School District","=""0970011""","Not Eligible For Lunch",411,395,96.1
+"North Branford School District","=""0990011""","Eligible For Free Lunch",31,23,74.2
+"North Branford School District","=""0990011""","Eligible For Reduced Lunch",13,"*","*"
+"North Branford School District","=""0990011""","Not Eligible For Lunch",122,"*","*"
+"North Haven School District","=""1010011""","Eligible For Free Lunch",39,"*","*"
+"North Haven School District","=""1010011""","Eligible For Reduced Lunch",19,"*","*"
+"North Haven School District","=""1010011""","Not Eligible For Lunch",238,226,95.0
+"North Stonington School District","=""1020011""","Eligible For Free Lunch","*","*","*"
+"North Stonington School District","=""1020011""","Eligible For Reduced Lunch","*","*","*"
+"North Stonington School District","=""1020011""","Not Eligible For Lunch",41,"*","*"
+"Norwalk School District","=""1030011""","Eligible For Free Lunch",358,301,84.1
+"Norwalk School District","=""1030011""","Eligible For Reduced Lunch",81,71,87.7
+"Norwalk School District","=""1030011""","Not Eligible For Lunch",437,413,94.5
+"Norwich Free Academy District","=""9010022""","Eligible For Free Lunch",243,188,77.4
+"Norwich Free Academy District","=""9010022""","Eligible For Reduced Lunch",43,37,86.0
+"Norwich Free Academy District","=""9010022""","Not Eligible For Lunch",304,292,96.1
+"Old Saybrook School District","=""1060011""","Eligible For Free Lunch","*","*","*"
+"Old Saybrook School District","=""1060011""","Eligible For Reduced Lunch","*","*","*"
+"Old Saybrook School District","=""1060011""","Not Eligible For Lunch",109,106,97.2
+"Oxford School District","=""1080011""","Eligible For Free Lunch","*","*","*"
+"Oxford School District","=""1080011""","Eligible For Reduced Lunch","*","*","*"
+"Oxford School District","=""1080011""","Not Eligible For Lunch",110,106,96.4
+"Plainfield School District","=""1090011""","Eligible For Free Lunch",69,48,69.6
+"Plainfield School District","=""1090011""","Eligible For Reduced Lunch",18,14,"*"
+"Plainfield School District","=""1090011""","Not Eligible For Lunch",81,75,92.6
+"Plainville School District","=""1100011""","Eligible For Free Lunch",51,39,76.5
+"Plainville School District","=""1100011""","Eligible For Reduced Lunch",22,20,90.9
+"Plainville School District","=""1100011""","Not Eligible For Lunch",109,103,94.5
+"Plymouth School District","=""1110011""","Eligible For Free Lunch",34,26,76.5
+"Plymouth School District","=""1110011""","Eligible For Reduced Lunch",12,10,"*"
+"Plymouth School District","=""1110011""","Not Eligible For Lunch",75,70,93.3
+"Portland School District","=""1130011""","Eligible For Free Lunch","*","*","*"
+"Portland School District","=""1130011""","Eligible For Reduced Lunch","*","*","*"
+"Portland School District","=""1130011""","Not Eligible For Lunch",68,64,94.1
+"Putnam School District","=""1160011""","Eligible For Free Lunch",38,32,84.2
+"Putnam School District","=""1160011""","Eligible For Reduced Lunch",8,"*","*"
+"Putnam School District","=""1160011""","Not Eligible For Lunch",19,"*","*"
+"Regional School District 01","=""2010012""","Eligible For Free Lunch",13,"*","*"
+"Regional School District 01","=""2010012""","Eligible For Reduced Lunch",12,"*","*"
+"Regional School District 01","=""2010012""","Not Eligible For Lunch",62,60,96.8
+"Regional School District 04","=""2040012""","Eligible For Free Lunch",13,"*","*"
+"Regional School District 04","=""2040012""","Eligible For Reduced Lunch",7,"*","*"
+"Regional School District 04","=""2040012""","Not Eligible For Lunch",162,158,97.5
+"Regional School District 05","=""2050012""","Eligible For Free Lunch",20,18,90.0
+"Regional School District 05","=""2050012""","Eligible For Reduced Lunch",8,8,"*"
+"Regional School District 05","=""2050012""","Not Eligible For Lunch",389,376,96.7
+"Regional School District 06","=""2060012""","Eligible For Free Lunch","*","*","*"
+"Regional School District 06","=""2060012""","Eligible For Reduced Lunch","*","*","*"
+"Regional School District 06","=""2060012""","Not Eligible For Lunch",78,75,96.2
+"Regional School District 07","=""2070012""","Eligible For Free Lunch","*","*","*"
+"Regional School District 07","=""2070012""","Eligible For Reduced Lunch","*","*","*"
+"Regional School District 07","=""2070012""","Not Eligible For Lunch",125,"*","*"
+"Regional School District 08","=""2080012""","Eligible For Free Lunch",16,13,"*"
+"Regional School District 08","=""2080012""","Eligible For Reduced Lunch",13,11,"*"
+"Regional School District 08","=""2080012""","Not Eligible For Lunch",240,225,93.8
+"Regional School District 09","=""2090012""","Eligible For Free Lunch","*","*","*"
+"Regional School District 09","=""2090012""","Eligible For Reduced Lunch","*","*","*"
+"Regional School District 09","=""2090012""","Not Eligible For Lunch",241,231,95.9
+"Regional School District 10","=""2100012""","Eligible For Free Lunch",15,"*","*"
+"Regional School District 10","=""2100012""","Eligible For Reduced Lunch","N/A","N/A","N/A"
+"Regional School District 10","=""2100012""","Not Eligible For Lunch",176,"*","*"
+"Regional School District 11","=""2110012""","Eligible For Free Lunch",12,"*","*"
+"Regional School District 11","=""2110012""","Eligible For Reduced Lunch",6,"*","*"
+"Regional School District 11","=""2110012""","Not Eligible For Lunch",33,33,100.0
+"Regional School District 12","=""2120012""","Eligible For Free Lunch","*","*","*"
+"Regional School District 12","=""2120012""","Eligible For Reduced Lunch","*","*","*"
+"Regional School District 12","=""2120012""","Not Eligible For Lunch",65,65,100.0
+"Regional School District 13","=""2130012""","Eligible For Free Lunch",8,"*","*"
+"Regional School District 13","=""2130012""","Eligible For Reduced Lunch",10,"*","*"
+"Regional School District 13","=""2130012""","Not Eligible For Lunch",136,125,91.9
+"Regional School District 14","=""2140012""","Eligible For Free Lunch","*","*","*"
+"Regional School District 14","=""2140012""","Eligible For Reduced Lunch","*","*","*"
+"Regional School District 14","=""2140012""","Not Eligible For Lunch",164,161,98.2
+"Regional School District 15","=""2150012""","Eligible For Free Lunch",14,"*","*"
+"Regional School District 15","=""2150012""","Eligible For Reduced Lunch",8,"*","*"
+"Regional School District 15","=""2150012""","Not Eligible For Lunch",271,261,96.3
+"Regional School District 16","=""2160012""","Eligible For Free Lunch",16,"*","*"
+"Regional School District 16","=""2160012""","Eligible For Reduced Lunch",9,"*","*"
+"Regional School District 16","=""2160012""","Not Eligible For Lunch",142,135,95.1
+"Regional School District 17","=""2170012""","Eligible For Free Lunch","*","*","*"
+"Regional School District 17","=""2170012""","Eligible For Reduced Lunch","*","*","*"
+"Regional School District 17","=""2170012""","Not Eligible For Lunch",148,143,96.6
+"Regional School District 18","=""2180012""","Eligible For Free Lunch","*","*","*"
+"Regional School District 18","=""2180012""","Eligible For Reduced Lunch","*","*","*"
+"Regional School District 18","=""2180012""","Not Eligible For Lunch",76,74,97.4
+"Regional School District 19","=""2190012""","Eligible For Free Lunch",39,29,74.4
+"Regional School District 19","=""2190012""","Eligible For Reduced Lunch",20,20,100.0
+"Regional School District 19","=""2190012""","Not Eligible For Lunch",233,218,93.6
+"Ridgefield School District","=""1180011""","Eligible For Free Lunch","*","*","*"
+"Ridgefield School District","=""1180011""","Eligible For Reduced Lunch","*","*","*"
+"Ridgefield School District","=""1180011""","Not Eligible For Lunch",426,409,96.0
+"Rocky Hill School District","=""1190011""","Eligible For Free Lunch",30,23,76.7
+"Rocky Hill School District","=""1190011""","Eligible For Reduced Lunch",12,12,"*"
+"Rocky Hill School District","=""1190011""","Not Eligible For Lunch",154,146,94.8
+"Seymour School District","=""1240011""","Eligible For Free Lunch",40,31,77.5
+"Seymour School District","=""1240011""","Eligible For Reduced Lunch",16,13,"*"
+"Seymour School District","=""1240011""","Not Eligible For Lunch",92,88,95.7
+"Shelton School District","=""1260011""","Eligible For Free Lunch",75,"*","*"
+"Shelton School District","=""1260011""","Eligible For Reduced Lunch",38,"*","*"
+"Shelton School District","=""1260011""","Not Eligible For Lunch",257,247,96.1
+"Simsbury School District","=""1280011""","Eligible For Free Lunch",36,"*","*"
+"Simsbury School District","=""1280011""","Eligible For Reduced Lunch",12,"*","*"
+"Simsbury School District","=""1280011""","Not Eligible For Lunch",334,320,95.8
+"Somers School District","=""1290011""","Eligible For Free Lunch","*","*","*"
+"Somers School District","=""1290011""","Eligible For Reduced Lunch","*","*","*"
+"Somers School District","=""1290011""","Not Eligible For Lunch",118,113,95.8
+"South Windsor School District","=""1320011""","Eligible For Free Lunch",36,30,83.3
+"South Windsor School District","=""1320011""","Eligible For Reduced Lunch",10,10,"*"
+"South Windsor School District","=""1320011""","Not Eligible For Lunch",309,288,93.2
+"Southington School District","=""1310011""","Eligible For Free Lunch",78,"*","*"
+"Southington School District","=""1310011""","Eligible For Reduced Lunch",23,"*","*"
+"Southington School District","=""1310011""","Not Eligible For Lunch",418,402,96.2
+"Stafford School District","=""1340011""","Eligible For Free Lunch",19,15,"*"
+"Stafford School District","=""1340011""","Eligible For Reduced Lunch",8,8,"*"
+"Stafford School District","=""1340011""","Not Eligible For Lunch",65,62,95.4
+"Stamford Academy District","=""2820013""","Eligible For Free Lunch",41,"*","*"
+"Stamford Academy District","=""2820013""","Eligible For Reduced Lunch",7,"*","*"
+"Stamford Academy District","=""2820013""","Not Eligible For Lunch","N/A","N/A","N/A"
+"Stamford School District","=""1350011""","Eligible For Free Lunch",555,451,81.3
+"Stamford School District","=""1350011""","Eligible For Reduced Lunch",138,123,89.1
+"Stamford School District","=""1350011""","Not Eligible For Lunch",524,490,93.5
+"Stonington School District","=""1370011""","Eligible For Free Lunch",39,"*","*"
+"Stonington School District","=""1370011""","Eligible For Reduced Lunch",15,"*","*"
+"Stonington School District","=""1370011""","Not Eligible For Lunch",146,139,95.2
+"Stratford School District","=""1380011""","Eligible For Free Lunch",183,155,84.7
+"Stratford School District","=""1380011""","Eligible For Reduced Lunch",100,92,92.0
+"Stratford School District","=""1380011""","Not Eligible For Lunch",252,243,96.4
+"Suffield School District","=""1390011""","Eligible For Free Lunch",20,"*","*"
+"Suffield School District","=""1390011""","Eligible For Reduced Lunch",15,"*","*"
+"Suffield School District","=""1390011""","Not Eligible For Lunch",177,171,96.6
+"The Bridge Academy District","=""2690013""","Eligible For Free Lunch",26,24,92.3
+"The Bridge Academy District","=""2690013""","Eligible For Reduced Lunch","*","*","*"
+"The Bridge Academy District","=""2690013""","Not Eligible For Lunch","*","*","*"
+"The Gilbert School District","=""9020022""","Eligible For Free Lunch",34,"*","*"
+"The Gilbert School District","=""9020022""","Eligible For Reduced Lunch",10,"*","*"
+"The Gilbert School District","=""9020022""","Not Eligible For Lunch",46,43,93.5
+"Thomaston School District","=""1400011""","Eligible For Free Lunch","*","*","*"
+"Thomaston School District","=""1400011""","Eligible For Reduced Lunch","*","*","*"
+"Thomaston School District","=""1400011""","Not Eligible For Lunch",51,51,100.0
+"Thompson School District","=""1410011""","Eligible For Free Lunch","*","*","*"
+"Thompson School District","=""1410011""","Eligible For Reduced Lunch","*","*","*"
+"Thompson School District","=""1410011""","Not Eligible For Lunch",48,"*","*"
+"Tolland School District","=""1420011""","Eligible For Free Lunch",16,"*","*"
+"Tolland School District","=""1420011""","Eligible For Reduced Lunch",11,"*","*"
+"Tolland School District","=""1420011""","Not Eligible For Lunch",185,178,96.2
+"Torrington School District","=""1430011""","Eligible For Free Lunch",101,"*","*"
+"Torrington School District","=""1430011""","Eligible For Reduced Lunch",25,"*","*"
+"Torrington School District","=""1430011""","Not Eligible For Lunch",156,143,91.7
+"Trumbull School District","=""1440011""","Eligible For Free Lunch",39,"*","*"
+"Trumbull School District","=""1440011""","Eligible For Reduced Lunch",20,"*","*"
+"Trumbull School District","=""1440011""","Not Eligible For Lunch",475,469,98.7
+"Unified School District #1","=""3360015""","Eligible For Free Lunch",393,10,2.5
+"Unified School District #1","=""3360015""","Eligible For Reduced Lunch",12,0,"*"
+"Unified School District #1","=""3360015""","Not Eligible For Lunch",7,0,"*"
+"Unified School District #2","=""3470015""","Eligible For Free Lunch",39,"*","*"
+"Unified School District #2","=""3470015""","Eligible For Reduced Lunch","*","*","*"
+"Unified School District #2","=""3470015""","Not Eligible For Lunch","*","*","*"
+"Vernon School District","=""1460011""","Eligible For Free Lunch",84,63,75.0
+"Vernon School District","=""1460011""","Eligible For Reduced Lunch",16,14,"*"
+"Vernon School District","=""1460011""","Not Eligible For Lunch",144,129,89.6
+"Wallingford School District","=""1480011""","Eligible For Free Lunch",101,"*","*"
+"Wallingford School District","=""1480011""","Eligible For Reduced Lunch",26,"*","*"
+"Wallingford School District","=""1480011""","Not Eligible For Lunch",375,363,96.8
+"Waterbury School District","=""1510011""","Eligible For Free Lunch",1023,664,64.9
+"Waterbury School District","=""1510011""","Eligible For Reduced Lunch",129,102,79.1
+"Waterbury School District","=""1510011""","Not Eligible For Lunch",192,164,85.4
+"Waterford School District","=""1520011""","Eligible For Free Lunch",19,16,"*"
+"Waterford School District","=""1520011""","Eligible For Reduced Lunch",16,13,"*"
+"Waterford School District","=""1520011""","Not Eligible For Lunch",181,172,95.0
+"Watertown School District","=""1530011""","Eligible For Free Lunch",33,"*","*"
+"Watertown School District","=""1530011""","Eligible For Reduced Lunch",14,"*","*"
+"Watertown School District","=""1530011""","Not Eligible For Lunch",158,145,91.8
+"West Hartford School District","=""1550011""","Eligible For Free Lunch",163,"*","*"
+"West Hartford School District","=""1550011""","Eligible For Reduced Lunch",47,"*","*"
+"West Hartford School District","=""1550011""","Not Eligible For Lunch",528,506,95.8
+"West Haven School District","=""1560011""","Eligible For Free Lunch",237,168,70.9
+"West Haven School District","=""1560011""","Eligible For Reduced Lunch",58,49,84.5
+"West Haven School District","=""1560011""","Not Eligible For Lunch",129,112,86.8
+"Westbrook School District","=""1540011""","Eligible For Free Lunch","*","*","*"
+"Westbrook School District","=""1540011""","Eligible For Reduced Lunch","*","*","*"
+"Westbrook School District","=""1540011""","Not Eligible For Lunch",69,"*","*"
+"Weston School District","=""1570011""","Eligible For Free Lunch","*","*","*"
+"Weston School District","=""1570011""","Eligible For Reduced Lunch","*","*","*"
+"Weston School District","=""1570011""","Not Eligible For Lunch",161,155,96.3
+"Westport School District","=""1580011""","Eligible For Free Lunch","*","*","*"
+"Westport School District","=""1580011""","Eligible For Reduced Lunch","*","*","*"
+"Westport School District","=""1580011""","Not Eligible For Lunch",439,"*","*"
+"Wethersfield School District","=""1590011""","Eligible For Free Lunch",61,"*","*"
+"Wethersfield School District","=""1590011""","Eligible For Reduced Lunch",19,"*","*"
+"Wethersfield School District","=""1590011""","Not Eligible For Lunch",204,191,93.6
+"Wilton School District","=""1610011""","Eligible For Free Lunch",10,"*","*"
+"Wilton School District","=""1610011""","Eligible For Reduced Lunch",6,"*","*"
+"Wilton School District","=""1610011""","Not Eligible For Lunch",314,302,96.2
+"Windham School District","=""1630011""","Eligible For Free Lunch",84,63,75.0
+"Windham School District","=""1630011""","Eligible For Reduced Lunch",15,"*","*"
+"Windham School District","=""1630011""","Not Eligible For Lunch",31,"*","*"
+"Windsor Locks School District","=""1650011""","Eligible For Free Lunch",42,"*","*"
+"Windsor Locks School District","=""1650011""","Eligible For Reduced Lunch",16,"*","*"
+"Windsor Locks School District","=""1650011""","Not Eligible For Lunch",73,65,89.0
+"Windsor School District","=""1640011""","Eligible For Free Lunch",78,63,80.8
+"Windsor School District","=""1640011""","Eligible For Reduced Lunch",38,31,81.6
+"Windsor School District","=""1640011""","Not Eligible For Lunch",194,179,92.3
+"Wolcott School District","=""1660011""","Eligible For Free Lunch",35,"*","*"
+"Wolcott School District","=""1660011""","Eligible For Reduced Lunch",14,"*","*"
+"Wolcott School District","=""1660011""","Not Eligible For Lunch",131,128,97.7
+"Woodstock Academy District","=""9030022""","Eligible For Free Lunch",6,"*","*"
+"Woodstock Academy District","=""9030022""","Eligible For Reduced Lunch",12,"*","*"
+"Woodstock Academy District","=""9030022""","Not Eligible For Lunch",268,265,98.9
 

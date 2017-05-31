@@ -1,160 +1,958 @@
+"Four-Year Graduation Rates, 2014-15"
+"All Districts, Race/Ethnicity"
 
-
-
-
-
-
-
-
-
-<!DOCTYPE html>
-
-
-
-
-
-<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
-    
-
-
-<head>
-    <meta charset="UTF-8" />
-    <title>
-    	
-    		
-    		
-    			SAS&reg; Logon Manager
-    		
-    	
-    </title>
-    <link type="text/css" rel="stylesheet" href="themes/default/css/bootstrap.css" />
-    <link type="text/css" rel="stylesheet" href="themes/default/css/sas.css" />
-</head>
-
-
-
-<body id="cas">
-	<div id="page">
-		
-
-<div class="banner row">
-    <div class="about">
-        <ul class="unstyled"><li>
-            <a href="#about-modal" data-toggle="modal">
-                About
-            </a>
-        </li></ul>
-    </div>
-    <div id="about-modal" class="modal hide fade">
-        <div class="modal-header">
-            <a href="#" class="close" data-dismiss="modal">&times;</a>
-            <h3>About</h3>
-        </div>
-        <div class="modal-body">
-            <p>Version: 9.4</p>
-            <h4>Copyright Information</h4>
-            <p align="center">
-Copyright (c) 2002 - 2013 by SAS Institute Inc., Cary, NC, USA<br/>
-All rights reserved.<br/>
-<br/>
-This software is protected by copyright laws and international treaties.<br/>
-<br/>
-U.S. GOVERNMENT RESTRICTED RIGHTS<br/>
-Use, duplication, or disclosure of this software and related<br/>
-documentation by the U.S. government is subject to the<br/>
-Agreement with SAS Institute and the restrictions set forth<br/>
-in FAR 52.227-19, Commercial Computer Software<br/>
-- Restricted Rights (June 1987).
-            </p>
-        </div>
-    </div>
-    <div class="header">
-        <div class="title">
-        	<h1>
-        		
-		    		
-		    		
-		    			Sign In to SAS<sup>&reg;</sup>
-		    		
-    			
-        	</h1>
-       	</div>
-        <div class="logo"><img src="themes/default/images/logo.png" /></div>
-    </div>
-</div>
-
-
-		<div class="content row">
-			
-                <form id="fm1" class="form-stacked" onSubmit="return setSubmitUrl(this);" action="/SASLogon/login;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=6BD0B49EC22F055BEB43BDCDF1279065.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1?service=http://edsight.ct.gov/SASStoredProcess/j_spring_cas_security_check" method="post">
-				<fieldset>
-					
-					
-					
-                        <legend>Sign In to SAS<sup>&reg;</sup></legend>
-					<div class="clearfix">
-                            <label for="username"><span class="accesskey">U</span>ser ID:</label>
-						
-							
-							
-                                    
-                                    <input id="username" name="username" class="required" tabindex="1" accesskey="u" type="text" value="" size="25" autocomplete="off"/>
-							
-						
-					</div>
-					<div class="clearfix">
-                            <label for="password"><span class="accesskey">P</span>assword:</label>
-						
-                            
-                            <input id="password" name="password" class="required" tabindex="2" accesskey="p" type="password" value="" size="25" autocomplete="off"/>
-					</div>
-				</fieldset>
-				<input type="hidden" name="lt" value="LT-9881-wj4LfpoKiOTyKGJdS9mQeiHSL3ar6Z" />
-				<input type="hidden" name="execution" value="e1s1" />
-				<input type="hidden" name="_eventId" value="submit" />
-                    <div class="submitb"><input id="Logon" type="submit" value="Sign In" onClick="this.disabled=true;this.form.submit();" tabindex="3" /></div>
-			</form>
-			
-				<div class="customizations" id="custom-logon-message">
-                  	
-
-
-<p>
-
-</p>
-
-
- 
- 
-				</div>
-			
-
-			<div class="copyright">
-				Copyright &copy; 2002 - 2013 by SAS Institute Inc., Cary, NC USA
-			</div>
-		</div>
-	</div>
-	
-<script type="text/javascript" src="/SASLogon/js/jquery.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=6BD0B49EC22F055BEB43BDCDF1279065.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-<script type="text/javascript" src="/SASLogon/js/bootstrap-modal.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=6BD0B49EC22F055BEB43BDCDF1279065.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-
-	<script type="text/javascript">
-            $("#username").focus();
-            
-            function setSubmitUrl(form)
-            {
-            	var urlHash = decodeURIComponent(window.location.hash);
-            	
-            	if (urlHash && urlHash.indexOf("#") === -1)
-            		urlHash = "#" + urlHash;
-            	
-            	form.action = form.action + urlHash;
-            	return true;
-            }
-    </script>
-</body>
-
-</html>
-
-
+"",,,,"Graduates",
+"District","District Code","Race/Ethnicity","Four-Year Cohort Count","Graduation Count","Graduation Rate"
+"Amistad Academy District","=""2790013""","Asian","N/A","N/A","N/A"
+"Amistad Academy District","=""2790013""","Black",21,18,85.7
+"Amistad Academy District","=""2790013""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Amistad Academy District","=""2790013""","Hispanic",8,6,"*"
+"Amistad Academy District","=""2790013""","Indian or Alaska Native","N/A","N/A","N/A"
+"Amistad Academy District","=""2790013""","Two or More Races","N/A","N/A","N/A"
+"Amistad Academy District","=""2790013""","White","N/A","N/A","N/A"
+"Ansonia School District","=""0020011""","Asian","*","*","*"
+"Ansonia School District","=""0020011""","Black",37,31,83.8
+"Ansonia School District","=""0020011""","Hawaiian or Pacific Islander","*","*","*"
+"Ansonia School District","=""0020011""","Hispanic",48,40,83.3
+"Ansonia School District","=""0020011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Ansonia School District","=""0020011""","Two or More Races","*","*","*"
+"Ansonia School District","=""0020011""","White",82,69,84.1
+"Avon School District","=""0040011""","Asian",26,"*","*"
+"Avon School District","=""0040011""","Black","*","*","*"
+"Avon School District","=""0040011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Avon School District","=""0040011""","Hispanic",14,14,"*"
+"Avon School District","=""0040011""","Indian or Alaska Native","*","*","*"
+"Avon School District","=""0040011""","Two or More Races",12,"*","*"
+"Avon School District","=""0040011""","White",188,180,95.7
+"Berlin School District","=""0070011""","Asian",7,7,"*"
+"Berlin School District","=""0070011""","Black","*","*","*"
+"Berlin School District","=""0070011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Berlin School District","=""0070011""","Hispanic",16,13,"*"
+"Berlin School District","=""0070011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Berlin School District","=""0070011""","Two or More Races","*","*","*"
+"Berlin School District","=""0070011""","White",183,173,94.5
+"Bethel School District","=""0090011""","Asian",12,12,"*"
+"Bethel School District","=""0090011""","Black","*","*","*"
+"Bethel School District","=""0090011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Bethel School District","=""0090011""","Hispanic",25,"*","*"
+"Bethel School District","=""0090011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Bethel School District","=""0090011""","Two or More Races","*","*","*"
+"Bethel School District","=""0090011""","White",172,165,95.9
+"Bloomfield School District","=""0110011""","Asian","N/A","N/A","N/A"
+"Bloomfield School District","=""0110011""","Black",151,136,90.1
+"Bloomfield School District","=""0110011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Bloomfield School District","=""0110011""","Hispanic",12,9,"*"
+"Bloomfield School District","=""0110011""","Indian or Alaska Native","*","*","*"
+"Bloomfield School District","=""0110011""","Two or More Races","*","*","*"
+"Bloomfield School District","=""0110011""","White",10,7,"*"
+"Bolton School District","=""0120011""","Asian","*","*","*"
+"Bolton School District","=""0120011""","Black","*","*","*"
+"Bolton School District","=""0120011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Bolton School District","=""0120011""","Hispanic","*","*","*"
+"Bolton School District","=""0120011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Bolton School District","=""0120011""","Two or More Races","*","*","*"
+"Bolton School District","=""0120011""","White",64,"*","*"
+"Branford School District","=""0140011""","Asian",20,"*","*"
+"Branford School District","=""0140011""","Black","*","*","*"
+"Branford School District","=""0140011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Branford School District","=""0140011""","Hispanic",13,"*","*"
+"Branford School District","=""0140011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Branford School District","=""0140011""","Two or More Races","*","*","*"
+"Branford School District","=""0140011""","White",204,185,90.7
+"Bridgeport Achievement First District","=""2850013""","Asian","N/A","N/A","N/A"
+"Bridgeport Achievement First District","=""2850013""","Black",19,19,"*"
+"Bridgeport Achievement First District","=""2850013""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Bridgeport Achievement First District","=""2850013""","Hispanic",12,10,"*"
+"Bridgeport Achievement First District","=""2850013""","Indian or Alaska Native","N/A","N/A","N/A"
+"Bridgeport Achievement First District","=""2850013""","Two or More Races","N/A","N/A","N/A"
+"Bridgeport Achievement First District","=""2850013""","White","N/A","N/A","N/A"
+"Bridgeport School District","=""0150011""","Asian",27,23,85.2
+"Bridgeport School District","=""0150011""","Black",527,345,65.5
+"Bridgeport School District","=""0150011""","Hawaiian or Pacific Islander","*","*","*"
+"Bridgeport School District","=""0150011""","Hispanic",522,311,59.6
+"Bridgeport School District","=""0150011""","Indian or Alaska Native","*","*","*"
+"Bridgeport School District","=""0150011""","Two or More Races",6,"*","*"
+"Bridgeport School District","=""0150011""","White",101,70,69.3
+"Bristol School District","=""0170011""","Asian",16,16,"*"
+"Bristol School District","=""0170011""","Black",51,38,74.5
+"Bristol School District","=""0170011""","Hawaiian or Pacific Islander","*","*","*"
+"Bristol School District","=""0170011""","Hispanic",129,82,63.6
+"Bristol School District","=""0170011""","Indian or Alaska Native","*","*","*"
+"Bristol School District","=""0170011""","Two or More Races",10,8,"*"
+"Bristol School District","=""0170011""","White",439,381,86.8
+"Brookfield School District","=""0180011""","Asian",13,"*","*"
+"Brookfield School District","=""0180011""","Black","*","*","*"
+"Brookfield School District","=""0180011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Brookfield School District","=""0180011""","Hispanic",17,15,"*"
+"Brookfield School District","=""0180011""","Indian or Alaska Native","*","*","*"
+"Brookfield School District","=""0180011""","Two or More Races","N/A","N/A","N/A"
+"Brookfield School District","=""0180011""","White",199,191,96.0
+"Canton School District","=""0230011""","Asian","*","*","*"
+"Canton School District","=""0230011""","Black","*","*","*"
+"Canton School District","=""0230011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Canton School District","=""0230011""","Hispanic","*","*","*"
+"Canton School District","=""0230011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Canton School District","=""0230011""","Two or More Races","*","*","*"
+"Canton School District","=""0230011""","White",121,116,95.9
+"Capitol Region Education Council","=""2410014""","Asian",10,"*","*"
+"Capitol Region Education Council","=""2410014""","Black",116,102,87.9
+"Capitol Region Education Council","=""2410014""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Capitol Region Education Council","=""2410014""","Hispanic",82,74,90.2
+"Capitol Region Education Council","=""2410014""","Indian or Alaska Native","*","*","*"
+"Capitol Region Education Council","=""2410014""","Two or More Races","*","*","*"
+"Capitol Region Education Council","=""2410014""","White",107,100,93.5
+"Cheshire School District","=""0250011""","Asian",35,35,100.0
+"Cheshire School District","=""0250011""","Black",9,"*","*"
+"Cheshire School District","=""0250011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Cheshire School District","=""0250011""","Hispanic",9,"*","*"
+"Cheshire School District","=""0250011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Cheshire School District","=""0250011""","Two or More Races","N/A","N/A","N/A"
+"Cheshire School District","=""0250011""","White",339,330,97.3
+"Clinton School District","=""0270011""","Asian","*","*","*"
+"Clinton School District","=""0270011""","Black","*","*","*"
+"Clinton School District","=""0270011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Clinton School District","=""0270011""","Hispanic",11,8,"*"
+"Clinton School District","=""0270011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Clinton School District","=""0270011""","Two or More Races","*","*","*"
+"Clinton School District","=""0270011""","White",143,131,91.6
+"Colchester School District","=""0280011""","Asian",6,6,"*"
+"Colchester School District","=""0280011""","Black","*","*","*"
+"Colchester School District","=""0280011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Colchester School District","=""0280011""","Hispanic",15,15,"*"
+"Colchester School District","=""0280011""","Indian or Alaska Native","*","*","*"
+"Colchester School District","=""0280011""","Two or More Races","*","*","*"
+"Colchester School District","=""0280011""","White",196,179,91.3
+"Common Ground High School District","=""2680013""","Asian","N/A","N/A","N/A"
+"Common Ground High School District","=""2680013""","Black",10,10,"*"
+"Common Ground High School District","=""2680013""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Common Ground High School District","=""2680013""","Hispanic",16,16,"*"
+"Common Ground High School District","=""2680013""","Indian or Alaska Native","N/A","N/A","N/A"
+"Common Ground High School District","=""2680013""","Two or More Races","*","*","*"
+"Common Ground High School District","=""2680013""","White","*","*","*"
+"Connecticut Technical High School System","=""9000016""","Asian",19,19,"*"
+"Connecticut Technical High School System","=""9000016""","Black",304,293,96.4
+"Connecticut Technical High School System","=""9000016""","Hawaiian or Pacific Islander","*","*","*"
+"Connecticut Technical High School System","=""9000016""","Hispanic",803,777,96.8
+"Connecticut Technical High School System","=""9000016""","Indian or Alaska Native","*","*","*"
+"Connecticut Technical High School System","=""9000016""","Two or More Races",76,73,96.1
+"Connecticut Technical High School System","=""9000016""","White",1257,1233,98.1
+"Coventry School District","=""0320011""","Asian","N/A","N/A","N/A"
+"Coventry School District","=""0320011""","Black","N/A","N/A","N/A"
+"Coventry School District","=""0320011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Coventry School District","=""0320011""","Hispanic","*","*","*"
+"Coventry School District","=""0320011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Coventry School District","=""0320011""","Two or More Races","*","*","*"
+"Coventry School District","=""0320011""","White",107,100,93.5
+"Cromwell School District","=""0330011""","Asian",10,10,"*"
+"Cromwell School District","=""0330011""","Black",11,"*","*"
+"Cromwell School District","=""0330011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Cromwell School District","=""0330011""","Hispanic",6,"*","*"
+"Cromwell School District","=""0330011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Cromwell School District","=""0330011""","Two or More Races","N/A","N/A","N/A"
+"Cromwell School District","=""0330011""","White",101,97,96.0
+"Danbury School District","=""0340011""","Asian",59,54,91.5
+"Danbury School District","=""0340011""","Black",75,48,64.0
+"Danbury School District","=""0340011""","Hawaiian or Pacific Islander","*","*","*"
+"Danbury School District","=""0340011""","Hispanic",305,205,67.2
+"Danbury School District","=""0340011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Danbury School District","=""0340011""","Two or More Races","*","*","*"
+"Danbury School District","=""0340011""","White",322,281,87.3
+"Darien School District","=""0350011""","Asian",6,6,"*"
+"Darien School District","=""0350011""","Black","*","*","*"
+"Darien School District","=""0350011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Darien School District","=""0350011""","Hispanic",16,16,"*"
+"Darien School District","=""0350011""","Indian or Alaska Native","*","*","*"
+"Darien School District","=""0350011""","Two or More Races","*","*","*"
+"Darien School District","=""0350011""","White",306,295,96.4
+"Derby School District","=""0370011""","Asian","*","*","*"
+"Derby School District","=""0370011""","Black",24,"*","*"
+"Derby School District","=""0370011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Derby School District","=""0370011""","Hispanic","*","*","*"
+"Derby School District","=""0370011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Derby School District","=""0370011""","Two or More Races","N/A","N/A","N/A"
+"Derby School District","=""0370011""","White",54,48,88.9
+"East Granby School District","=""0400011""","Asian","*","*","*"
+"East Granby School District","=""0400011""","Black","*","*","*"
+"East Granby School District","=""0400011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"East Granby School District","=""0400011""","Hispanic","N/A","N/A","N/A"
+"East Granby School District","=""0400011""","Indian or Alaska Native","N/A","N/A","N/A"
+"East Granby School District","=""0400011""","Two or More Races","N/A","N/A","N/A"
+"East Granby School District","=""0400011""","White",58,58,100.0
+"East Haddam School District","=""0410011""","Asian","N/A","N/A","N/A"
+"East Haddam School District","=""0410011""","Black","N/A","N/A","N/A"
+"East Haddam School District","=""0410011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"East Haddam School District","=""0410011""","Hispanic","*","*","*"
+"East Haddam School District","=""0410011""","Indian or Alaska Native","N/A","N/A","N/A"
+"East Haddam School District","=""0410011""","Two or More Races","N/A","N/A","N/A"
+"East Haddam School District","=""0410011""","White","*","*","*"
+"East Hampton School District","=""0420011""","Asian","*","*","*"
+"East Hampton School District","=""0420011""","Black","N/A","N/A","N/A"
+"East Hampton School District","=""0420011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"East Hampton School District","=""0420011""","Hispanic","*","*","*"
+"East Hampton School District","=""0420011""","Indian or Alaska Native","N/A","N/A","N/A"
+"East Hampton School District","=""0420011""","Two or More Races","*","*","*"
+"East Hampton School District","=""0420011""","White",117,111,94.9
+"East Hartford School District","=""0430011""","Asian",28,28,100.0
+"East Hartford School District","=""0430011""","Black",203,181,89.2
+"East Hartford School District","=""0430011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"East Hartford School District","=""0430011""","Hispanic",245,204,83.3
+"East Hartford School District","=""0430011""","Indian or Alaska Native","*","*","*"
+"East Hartford School District","=""0430011""","Two or More Races","*","*","*"
+"East Hartford School District","=""0430011""","White",88,83,94.3
+"East Haven School District","=""0440011""","Asian",8,"*","*"
+"East Haven School District","=""0440011""","Black",9,"*","*"
+"East Haven School District","=""0440011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"East Haven School District","=""0440011""","Hispanic",46,35,76.1
+"East Haven School District","=""0440011""","Indian or Alaska Native","N/A","N/A","N/A"
+"East Haven School District","=""0440011""","Two or More Races","N/A","N/A","N/A"
+"East Haven School District","=""0440011""","White",181,139,76.8
+"East Lyme School District","=""0450011""","Asian",31,"*","*"
+"East Lyme School District","=""0450011""","Black",6,"*","*"
+"East Lyme School District","=""0450011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"East Lyme School District","=""0450011""","Hispanic",6,6,"*"
+"East Lyme School District","=""0450011""","Indian or Alaska Native","*","*","*"
+"East Lyme School District","=""0450011""","Two or More Races","*","*","*"
+"East Lyme School District","=""0450011""","White",228,216,94.7
+"East Windsor School District","=""0470011""","Asian","*","*","*"
+"East Windsor School District","=""0470011""","Black",16,"*","*"
+"East Windsor School District","=""0470011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"East Windsor School District","=""0470011""","Hispanic",10,7,"*"
+"East Windsor School District","=""0470011""","Indian or Alaska Native","N/A","N/A","N/A"
+"East Windsor School District","=""0470011""","Two or More Races","*","*","*"
+"East Windsor School District","=""0470011""","White",55,49,89.1
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Asian","N/A","N/A","N/A"
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Black","*","*","*"
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Hispanic",14,11,"*"
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Indian or Alaska Native","N/A","N/A","N/A"
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","Two or More Races","*","*","*"
+"Eastern Connecticut Regional Educational Service Center (EASTCONN)","=""2530014""","White",56,41,73.2
+"Ellington School District","=""0480011""","Asian",8,8,"*"
+"Ellington School District","=""0480011""","Black",6,6,"*"
+"Ellington School District","=""0480011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Ellington School District","=""0480011""","Hispanic",13,13,"*"
+"Ellington School District","=""0480011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Ellington School District","=""0480011""","Two or More Races",11,11,"*"
+"Ellington School District","=""0480011""","White",168,162,96.4
+"Elm City College Preparatory School District","=""2890013""","Asian","N/A","N/A","N/A"
+"Elm City College Preparatory School District","=""2890013""","Black",12,8,"*"
+"Elm City College Preparatory School District","=""2890013""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Elm City College Preparatory School District","=""2890013""","Hispanic","*","*","*"
+"Elm City College Preparatory School District","=""2890013""","Indian or Alaska Native","N/A","N/A","N/A"
+"Elm City College Preparatory School District","=""2890013""","Two or More Races","*","*","*"
+"Elm City College Preparatory School District","=""2890013""","White","N/A","N/A","N/A"
+"Enfield School District","=""0490011""","Asian",9,"*","*"
+"Enfield School District","=""0490011""","Black",29,26,89.7
+"Enfield School District","=""0490011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Enfield School District","=""0490011""","Hispanic",25,19,76.0
+"Enfield School District","=""0490011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Enfield School District","=""0490011""","Two or More Races",8,"*","*"
+"Enfield School District","=""0490011""","White",321,279,86.9
+"Explorations District","=""2720013""","Asian","N/A","N/A","N/A"
+"Explorations District","=""2720013""","Black","N/A","N/A","N/A"
+"Explorations District","=""2720013""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Explorations District","=""2720013""","Hispanic","N/A","N/A","N/A"
+"Explorations District","=""2720013""","Indian or Alaska Native","N/A","N/A","N/A"
+"Explorations District","=""2720013""","Two or More Races","*","*","*"
+"Explorations District","=""2720013""","White","*","*","*"
+"Fairfield School District","=""0510011""","Asian",33,33,100.0
+"Fairfield School District","=""0510011""","Black",27,24,88.9
+"Fairfield School District","=""0510011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Fairfield School District","=""0510011""","Hispanic",68,61,89.7
+"Fairfield School District","=""0510011""","Indian or Alaska Native","*","*","*"
+"Fairfield School District","=""0510011""","Two or More Races","*","*","*"
+"Fairfield School District","=""0510011""","White",577,546,94.6
+"Farmington School District","=""0520011""","Asian",39,"*","*"
+"Farmington School District","=""0520011""","Black",22,19,86.4
+"Farmington School District","=""0520011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Farmington School District","=""0520011""","Hispanic",20,16,80.0
+"Farmington School District","=""0520011""","Indian or Alaska Native","*","*","*"
+"Farmington School District","=""0520011""","Two or More Races","*","*","*"
+"Farmington School District","=""0520011""","White",252,246,97.6
+"Glastonbury School District","=""0540011""","Asian",45,"*","*"
+"Glastonbury School District","=""0540011""","Black",20,"*","*"
+"Glastonbury School District","=""0540011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Glastonbury School District","=""0540011""","Hispanic",38,36,94.7
+"Glastonbury School District","=""0540011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Glastonbury School District","=""0540011""","Two or More Races",11,11,"*"
+"Glastonbury School District","=""0540011""","White",410,402,98.0
+"Granby School District","=""0560011""","Asian","*","*","*"
+"Granby School District","=""0560011""","Black","*","*","*"
+"Granby School District","=""0560011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Granby School District","=""0560011""","Hispanic",8,8,"*"
+"Granby School District","=""0560011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Granby School District","=""0560011""","Two or More Races","*","*","*"
+"Granby School District","=""0560011""","White",148,144,97.3
+"Greenwich School District","=""0570011""","Asian",50,"*","*"
+"Greenwich School District","=""0570011""","Black",14,12,"*"
+"Greenwich School District","=""0570011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Greenwich School District","=""0570011""","Hispanic",117,100,85.5
+"Greenwich School District","=""0570011""","Indian or Alaska Native","*","*","*"
+"Greenwich School District","=""0570011""","Two or More Races","*","*","*"
+"Greenwich School District","=""0570011""","White",457,447,97.8
+"Griswold School District","=""0580011""","Asian","*","*","*"
+"Griswold School District","=""0580011""","Black","*","*","*"
+"Griswold School District","=""0580011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Griswold School District","=""0580011""","Hispanic",8,"*","*"
+"Griswold School District","=""0580011""","Indian or Alaska Native","*","*","*"
+"Griswold School District","=""0580011""","Two or More Races","*","*","*"
+"Griswold School District","=""0580011""","White",131,118,90.1
+"Groton School District","=""0590011""","Asian",20,"*","*"
+"Groton School District","=""0590011""","Black",28,25,89.3
+"Groton School District","=""0590011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Groton School District","=""0590011""","Hispanic",49,40,81.6
+"Groton School District","=""0590011""","Indian or Alaska Native","*","*","*"
+"Groton School District","=""0590011""","Two or More Races","*","*","*"
+"Groton School District","=""0590011""","White",160,144,90.0
+"Guilford School District","=""0600011""","Asian",14,14,"*"
+"Guilford School District","=""0600011""","Black","*","*","*"
+"Guilford School District","=""0600011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Guilford School District","=""0600011""","Hispanic",9,"*","*"
+"Guilford School District","=""0600011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Guilford School District","=""0600011""","Two or More Races","*","*","*"
+"Guilford School District","=""0600011""","White",245,232,94.7
+"Hamden School District","=""0620011""","Asian",22,"*","*"
+"Hamden School District","=""0620011""","Black",162,137,84.6
+"Hamden School District","=""0620011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Hamden School District","=""0620011""","Hispanic",84,70,83.3
+"Hamden School District","=""0620011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Hamden School District","=""0620011""","Two or More Races",8,"*","*"
+"Hamden School District","=""0620011""","White",189,177,93.7
+"Hartford School District","=""0640011""","Asian",39,31,79.5
+"Hartford School District","=""0640011""","Black",532,396,74.4
+"Hartford School District","=""0640011""","Hawaiian or Pacific Islander","*","*","*"
+"Hartford School District","=""0640011""","Hispanic",691,414,59.9
+"Hartford School District","=""0640011""","Indian or Alaska Native","*","*","*"
+"Hartford School District","=""0640011""","Two or More Races",50,45,90.0
+"Hartford School District","=""0640011""","White",164,149,90.9
+"Killingly School District","=""0690011""","Asian","*","*","*"
+"Killingly School District","=""0690011""","Black",6,6,"*"
+"Killingly School District","=""0690011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Killingly School District","=""0690011""","Hispanic","*","*","*"
+"Killingly School District","=""0690011""","Indian or Alaska Native","*","*","*"
+"Killingly School District","=""0690011""","Two or More Races",6,"*","*"
+"Killingly School District","=""0690011""","White",182,138,75.8
+"Learn","=""2450014""","Asian","*","*","*"
+"Learn","=""2450014""","Black",37,32,86.5
+"Learn","=""2450014""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Learn","=""2450014""","Hispanic",42,37,88.1
+"Learn","=""2450014""","Indian or Alaska Native","*","*","*"
+"Learn","=""2450014""","Two or More Races",11,"*","*"
+"Learn","=""2450014""","White",82,74,90.2
+"Lebanon School District","=""0710011""","Asian","*","*","*"
+"Lebanon School District","=""0710011""","Black","*","*","*"
+"Lebanon School District","=""0710011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Lebanon School District","=""0710011""","Hispanic","*","*","*"
+"Lebanon School District","=""0710011""","Indian or Alaska Native","*","*","*"
+"Lebanon School District","=""0710011""","Two or More Races","N/A","N/A","N/A"
+"Lebanon School District","=""0710011""","White",87,"*","*"
+"Ledyard School District","=""0720011""","Asian","*","*","*"
+"Ledyard School District","=""0720011""","Black",20,20,100.0
+"Ledyard School District","=""0720011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Ledyard School District","=""0720011""","Hispanic",18,18,"*"
+"Ledyard School District","=""0720011""","Indian or Alaska Native",12,12,"*"
+"Ledyard School District","=""0720011""","Two or More Races","*","*","*"
+"Ledyard School District","=""0720011""","White",171,154,90.1
+"Litchfield School District","=""0740011""","Asian","*","*","*"
+"Litchfield School District","=""0740011""","Black","N/A","N/A","N/A"
+"Litchfield School District","=""0740011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Litchfield School District","=""0740011""","Hispanic","*","*","*"
+"Litchfield School District","=""0740011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Litchfield School District","=""0740011""","Two or More Races","*","*","*"
+"Litchfield School District","=""0740011""","White",66,66,100.0
+"Madison School District","=""0760011""","Asian",9,9,"*"
+"Madison School District","=""0760011""","Black","*","*","*"
+"Madison School District","=""0760011""","Hawaiian or Pacific Islander","*","*","*"
+"Madison School District","=""0760011""","Hispanic","*","*","*"
+"Madison School District","=""0760011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Madison School District","=""0760011""","Two or More Races",7,"*","*"
+"Madison School District","=""0760011""","White",284,281,98.9
+"Manchester School District","=""0770011""","Asian",27,"*","*"
+"Manchester School District","=""0770011""","Black",92,78,84.8
+"Manchester School District","=""0770011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Manchester School District","=""0770011""","Hispanic",107,75,70.1
+"Manchester School District","=""0770011""","Indian or Alaska Native","*","*","*"
+"Manchester School District","=""0770011""","Two or More Races","*","*","*"
+"Manchester School District","=""0770011""","White",218,179,82.1
+"Meriden School District","=""0800011""","Asian","*","*","*"
+"Meriden School District","=""0800011""","Black",99,75,75.8
+"Meriden School District","=""0800011""","Hawaiian or Pacific Islander","*","*","*"
+"Meriden School District","=""0800011""","Hispanic",282,195,69.1
+"Meriden School District","=""0800011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Meriden School District","=""0800011""","Two or More Races",14,10,"*"
+"Meriden School District","=""0800011""","White",219,173,79.0
+"Middletown School District","=""0830011""","Asian",16,"*","*"
+"Middletown School District","=""0830011""","Black",84,73,86.9
+"Middletown School District","=""0830011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Middletown School District","=""0830011""","Hispanic",35,27,77.1
+"Middletown School District","=""0830011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Middletown School District","=""0830011""","Two or More Races",7,"*","*"
+"Middletown School District","=""0830011""","White",173,156,90.2
+"Milford School District","=""0840011""","Asian",27,27,100.0
+"Milford School District","=""0840011""","Black","*","*","*"
+"Milford School District","=""0840011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Milford School District","=""0840011""","Hispanic",40,34,85.0
+"Milford School District","=""0840011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Milford School District","=""0840011""","Two or More Races","*","*","*"
+"Milford School District","=""0840011""","White",374,342,91.4
+"Monroe School District","=""0850011""","Asian",12,12,"*"
+"Monroe School District","=""0850011""","Black",7,7,"*"
+"Monroe School District","=""0850011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Monroe School District","=""0850011""","Hispanic",29,27,93.1
+"Monroe School District","=""0850011""","Indian or Alaska Native","*","*","*"
+"Monroe School District","=""0850011""","Two or More Races","*","*","*"
+"Monroe School District","=""0850011""","White",270,264,97.8
+"Montville School District","=""0860011""","Asian",16,"*","*"
+"Montville School District","=""0860011""","Black",9,7,"*"
+"Montville School District","=""0860011""","Hawaiian or Pacific Islander","*","*","*"
+"Montville School District","=""0860011""","Hispanic",13,"*","*"
+"Montville School District","=""0860011""","Indian or Alaska Native","*","*","*"
+"Montville School District","=""0860011""","Two or More Races",6,6,"*"
+"Montville School District","=""0860011""","White",130,124,95.4
+"Naugatuck School District","=""0880011""","Asian",7,"*","*"
+"Naugatuck School District","=""0880011""","Black",29,"*","*"
+"Naugatuck School District","=""0880011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Naugatuck School District","=""0880011""","Hispanic",62,54,87.1
+"Naugatuck School District","=""0880011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Naugatuck School District","=""0880011""","Two or More Races",12,12,"*"
+"Naugatuck School District","=""0880011""","White",227,188,82.8
+"New Britain School District","=""0890011""","Asian",11,9,"*"
+"New Britain School District","=""0890011""","Black",120,88,73.3
+"New Britain School District","=""0890011""","Hawaiian or Pacific Islander","*","*","*"
+"New Britain School District","=""0890011""","Hispanic",385,246,63.9
+"New Britain School District","=""0890011""","Indian or Alaska Native","*","*","*"
+"New Britain School District","=""0890011""","Two or More Races",10,7,"*"
+"New Britain School District","=""0890011""","White",132,101,76.5
+"New Canaan School District","=""0900011""","Asian",10,"*","*"
+"New Canaan School District","=""0900011""","Black",6,6,"*"
+"New Canaan School District","=""0900011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"New Canaan School District","=""0900011""","Hispanic","*","*","*"
+"New Canaan School District","=""0900011""","Indian or Alaska Native","*","*","*"
+"New Canaan School District","=""0900011""","Two or More Races","*","*","*"
+"New Canaan School District","=""0900011""","White",282,"*","*"
+"New Fairfield School District","=""0910011""","Asian","*","*","*"
+"New Fairfield School District","=""0910011""","Black","*","*","*"
+"New Fairfield School District","=""0910011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"New Fairfield School District","=""0910011""","Hispanic",15,15,"*"
+"New Fairfield School District","=""0910011""","Indian or Alaska Native","N/A","N/A","N/A"
+"New Fairfield School District","=""0910011""","Two or More Races","*","*","*"
+"New Fairfield School District","=""0910011""","White",238,235,98.7
+"New Haven School District","=""0930011""","Asian",43,"*","*"
+"New Haven School District","=""0930011""","Black",689,530,76.9
+"New Haven School District","=""0930011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"New Haven School District","=""0930011""","Hispanic",504,333,66.1
+"New Haven School District","=""0930011""","Indian or Alaska Native","N/A","N/A","N/A"
+"New Haven School District","=""0930011""","Two or More Races",6,"*","*"
+"New Haven School District","=""0930011""","White",243,208,85.6
+"New London School District","=""0950011""","Asian","*","*","*"
+"New London School District","=""0950011""","Black",56,43,76.8
+"New London School District","=""0950011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"New London School District","=""0950011""","Hispanic",89,60,67.4
+"New London School District","=""0950011""","Indian or Alaska Native","*","*","*"
+"New London School District","=""0950011""","Two or More Races",14,"*","*"
+"New London School District","=""0950011""","White",36,27,75.0
+"New Milford School District","=""0960011""","Asian",14,14,"*"
+"New Milford School District","=""0960011""","Black","*","*","*"
+"New Milford School District","=""0960011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"New Milford School District","=""0960011""","Hispanic",29,26,89.7
+"New Milford School District","=""0960011""","Indian or Alaska Native","N/A","N/A","N/A"
+"New Milford School District","=""0960011""","Two or More Races","*","*","*"
+"New Milford School District","=""0960011""","White",315,285,90.5
+"Newington School District","=""0940011""","Asian",32,"*","*"
+"Newington School District","=""0940011""","Black",22,18,81.8
+"Newington School District","=""0940011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Newington School District","=""0940011""","Hispanic",53,49,92.5
+"Newington School District","=""0940011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Newington School District","=""0940011""","Two or More Races",12,"*","*"
+"Newington School District","=""0940011""","White",239,223,93.3
+"Newtown School District","=""0970011""","Asian",16,16,"*"
+"Newtown School District","=""0970011""","Black","*","*","*"
+"Newtown School District","=""0970011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Newtown School District","=""0970011""","Hispanic",25,"*","*"
+"Newtown School District","=""0970011""","Indian or Alaska Native","*","*","*"
+"Newtown School District","=""0970011""","Two or More Races",12,12,"*"
+"Newtown School District","=""0970011""","White",398,378,95.0
+"North Branford School District","=""0990011""","Asian",7,7,"*"
+"North Branford School District","=""0990011""","Black","*","*","*"
+"North Branford School District","=""0990011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"North Branford School District","=""0990011""","Hispanic","*","*","*"
+"North Branford School District","=""0990011""","Indian or Alaska Native","N/A","N/A","N/A"
+"North Branford School District","=""0990011""","Two or More Races","N/A","N/A","N/A"
+"North Branford School District","=""0990011""","White",150,140,93.3
+"North Haven School District","=""1010011""","Asian",19,"*","*"
+"North Haven School District","=""1010011""","Black",25,25,100.0
+"North Haven School District","=""1010011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"North Haven School District","=""1010011""","Hispanic",20,15,75.0
+"North Haven School District","=""1010011""","Indian or Alaska Native","N/A","N/A","N/A"
+"North Haven School District","=""1010011""","Two or More Races",6,"*","*"
+"North Haven School District","=""1010011""","White",226,208,92.0
+"North Stonington School District","=""1020011""","Asian","*","*","*"
+"North Stonington School District","=""1020011""","Black","*","*","*"
+"North Stonington School District","=""1020011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"North Stonington School District","=""1020011""","Hispanic","N/A","N/A","N/A"
+"North Stonington School District","=""1020011""","Indian or Alaska Native","N/A","N/A","N/A"
+"North Stonington School District","=""1020011""","Two or More Races","N/A","N/A","N/A"
+"North Stonington School District","=""1020011""","White",45,41,91.1
+"Norwalk School District","=""1030011""","Asian",41,38,92.7
+"Norwalk School District","=""1030011""","Black",203,179,88.2
+"Norwalk School District","=""1030011""","Hawaiian or Pacific Islander","*","*","*"
+"Norwalk School District","=""1030011""","Hispanic",287,243,84.7
+"Norwalk School District","=""1030011""","Indian or Alaska Native","*","*","*"
+"Norwalk School District","=""1030011""","Two or More Races",11,8,"*"
+"Norwalk School District","=""1030011""","White",332,315,94.9
+"Norwich Free Academy District","=""9010022""","Asian",50,46,92.0
+"Norwich Free Academy District","=""9010022""","Black",96,79,82.3
+"Norwich Free Academy District","=""9010022""","Hawaiian or Pacific Islander","*","*","*"
+"Norwich Free Academy District","=""9010022""","Hispanic",78,59,75.6
+"Norwich Free Academy District","=""9010022""","Indian or Alaska Native","*","*","*"
+"Norwich Free Academy District","=""9010022""","Two or More Races","N/A","N/A","N/A"
+"Norwich Free Academy District","=""9010022""","White",343,314,91.5
+"Old Saybrook School District","=""1060011""","Asian",14,14,"*"
+"Old Saybrook School District","=""1060011""","Black","*","*","*"
+"Old Saybrook School District","=""1060011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Old Saybrook School District","=""1060011""","Hispanic","*","*","*"
+"Old Saybrook School District","=""1060011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Old Saybrook School District","=""1060011""","Two or More Races","N/A","N/A","N/A"
+"Old Saybrook School District","=""1060011""","White",108,102,94.4
+"Oxford School District","=""1080011""","Asian","*","*","*"
+"Oxford School District","=""1080011""","Black","*","*","*"
+"Oxford School District","=""1080011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Oxford School District","=""1080011""","Hispanic",7,7,"*"
+"Oxford School District","=""1080011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Oxford School District","=""1080011""","Two or More Races","*","*","*"
+"Oxford School District","=""1080011""","White",113,104,92.0
+"Plainfield School District","=""1090011""","Asian",8,"*","*"
+"Plainfield School District","=""1090011""","Black",8,"*","*"
+"Plainfield School District","=""1090011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Plainfield School District","=""1090011""","Hispanic","*","*","*"
+"Plainfield School District","=""1090011""","Indian or Alaska Native","*","*","*"
+"Plainfield School District","=""1090011""","Two or More Races","N/A","N/A","N/A"
+"Plainfield School District","=""1090011""","White",148,122,82.4
+"Plainville School District","=""1100011""","Asian","*","*","*"
+"Plainville School District","=""1100011""","Black",8,6,"*"
+"Plainville School District","=""1100011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Plainville School District","=""1100011""","Hispanic",23,"*","*"
+"Plainville School District","=""1100011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Plainville School District","=""1100011""","Two or More Races","*","*","*"
+"Plainville School District","=""1100011""","White",141,128,90.8
+"Plymouth School District","=""1110011""","Asian","*","*","*"
+"Plymouth School District","=""1110011""","Black","*","*","*"
+"Plymouth School District","=""1110011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Plymouth School District","=""1110011""","Hispanic","*","*","*"
+"Plymouth School District","=""1110011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Plymouth School District","=""1110011""","Two or More Races","*","*","*"
+"Plymouth School District","=""1110011""","White",115,100,87.0
+"Portland School District","=""1130011""","Asian","N/A","N/A","N/A"
+"Portland School District","=""1130011""","Black","*","*","*"
+"Portland School District","=""1130011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Portland School District","=""1130011""","Hispanic",7,"*","*"
+"Portland School District","=""1130011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Portland School District","=""1130011""","Two or More Races","*","*","*"
+"Portland School District","=""1130011""","White",79,72,91.1
+"Putnam School District","=""1160011""","Asian","*","*","*"
+"Putnam School District","=""1160011""","Black","*","*","*"
+"Putnam School District","=""1160011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Putnam School District","=""1160011""","Hispanic","*","*","*"
+"Putnam School District","=""1160011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Putnam School District","=""1160011""","Two or More Races",6,"*","*"
+"Putnam School District","=""1160011""","White",54,47,87.0
+"Regional School District 01","=""2010012""","Asian","*","*","*"
+"Regional School District 01","=""2010012""","Black","*","*","*"
+"Regional School District 01","=""2010012""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Regional School District 01","=""2010012""","Hispanic",8,"*","*"
+"Regional School District 01","=""2010012""","Indian or Alaska Native","N/A","N/A","N/A"
+"Regional School District 01","=""2010012""","Two or More Races","N/A","N/A","N/A"
+"Regional School District 01","=""2010012""","White",75,71,94.7
+"Regional School District 04","=""2040012""","Asian","*","*","*"
+"Regional School District 04","=""2040012""","Black","*","*","*"
+"Regional School District 04","=""2040012""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Regional School District 04","=""2040012""","Hispanic",8,8,"*"
+"Regional School District 04","=""2040012""","Indian or Alaska Native","*","*","*"
+"Regional School District 04","=""2040012""","Two or More Races","*","*","*"
+"Regional School District 04","=""2040012""","White",164,159,97.0
+"Regional School District 05","=""2050012""","Asian",39,"*","*"
+"Regional School District 05","=""2050012""","Black",12,12,"*"
+"Regional School District 05","=""2050012""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Regional School District 05","=""2050012""","Hispanic",25,25,100.0
+"Regional School District 05","=""2050012""","Indian or Alaska Native","*","*","*"
+"Regional School District 05","=""2050012""","Two or More Races","*","*","*"
+"Regional School District 05","=""2050012""","White",337,323,95.8
+"Regional School District 06","=""2060012""","Asian","N/A","N/A","N/A"
+"Regional School District 06","=""2060012""","Black","N/A","N/A","N/A"
+"Regional School District 06","=""2060012""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Regional School District 06","=""2060012""","Hispanic","*","*","*"
+"Regional School District 06","=""2060012""","Indian or Alaska Native","N/A","N/A","N/A"
+"Regional School District 06","=""2060012""","Two or More Races","N/A","N/A","N/A"
+"Regional School District 06","=""2060012""","White","*","*","*"
+"Regional School District 07","=""2070012""","Asian","*","*","*"
+"Regional School District 07","=""2070012""","Black","*","*","*"
+"Regional School District 07","=""2070012""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Regional School District 07","=""2070012""","Hispanic","*","*","*"
+"Regional School District 07","=""2070012""","Indian or Alaska Native","N/A","N/A","N/A"
+"Regional School District 07","=""2070012""","Two or More Races","*","*","*"
+"Regional School District 07","=""2070012""","White",136,132,97.1
+"Regional School District 08","=""2080012""","Asian","*","*","*"
+"Regional School District 08","=""2080012""","Black","*","*","*"
+"Regional School District 08","=""2080012""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Regional School District 08","=""2080012""","Hispanic",7,7,"*"
+"Regional School District 08","=""2080012""","Indian or Alaska Native","N/A","N/A","N/A"
+"Regional School District 08","=""2080012""","Two or More Races","*","*","*"
+"Regional School District 08","=""2080012""","White",256,236,92.2
+"Regional School District 09","=""2090012""","Asian",9,9,"*"
+"Regional School District 09","=""2090012""","Black","*","*","*"
+"Regional School District 09","=""2090012""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Regional School District 09","=""2090012""","Hispanic",7,7,"*"
+"Regional School District 09","=""2090012""","Indian or Alaska Native","*","*","*"
+"Regional School District 09","=""2090012""","Two or More Races","*","*","*"
+"Regional School District 09","=""2090012""","White",231,222,96.1
+"Regional School District 10","=""2100012""","Asian","*","*","*"
+"Regional School District 10","=""2100012""","Black","*","*","*"
+"Regional School District 10","=""2100012""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Regional School District 10","=""2100012""","Hispanic","*","*","*"
+"Regional School District 10","=""2100012""","Indian or Alaska Native","N/A","N/A","N/A"
+"Regional School District 10","=""2100012""","Two or More Races","*","*","*"
+"Regional School District 10","=""2100012""","White",181,173,95.6
+"Regional School District 11","=""2110012""","Asian","N/A","N/A","N/A"
+"Regional School District 11","=""2110012""","Black","N/A","N/A","N/A"
+"Regional School District 11","=""2110012""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Regional School District 11","=""2110012""","Hispanic","*","*","*"
+"Regional School District 11","=""2110012""","Indian or Alaska Native","*","*","*"
+"Regional School District 11","=""2110012""","Two or More Races","N/A","N/A","N/A"
+"Regional School District 11","=""2110012""","White",48,"*","*"
+"Regional School District 12","=""2120012""","Asian","*","*","*"
+"Regional School District 12","=""2120012""","Black","*","*","*"
+"Regional School District 12","=""2120012""","Hawaiian or Pacific Islander","*","*","*"
+"Regional School District 12","=""2120012""","Hispanic","*","*","*"
+"Regional School District 12","=""2120012""","Indian or Alaska Native","N/A","N/A","N/A"
+"Regional School District 12","=""2120012""","Two or More Races","N/A","N/A","N/A"
+"Regional School District 12","=""2120012""","White",66,64,97.0
+"Regional School District 13","=""2130012""","Asian","*","*","*"
+"Regional School District 13","=""2130012""","Black","N/A","N/A","N/A"
+"Regional School District 13","=""2130012""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Regional School District 13","=""2130012""","Hispanic",8,8,"*"
+"Regional School District 13","=""2130012""","Indian or Alaska Native","N/A","N/A","N/A"
+"Regional School District 13","=""2130012""","Two or More Races","*","*","*"
+"Regional School District 13","=""2130012""","White",138,128,92.8
+"Regional School District 14","=""2140012""","Asian","*","*","*"
+"Regional School District 14","=""2140012""","Black","N/A","N/A","N/A"
+"Regional School District 14","=""2140012""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Regional School District 14","=""2140012""","Hispanic","*","*","*"
+"Regional School District 14","=""2140012""","Indian or Alaska Native","N/A","N/A","N/A"
+"Regional School District 14","=""2140012""","Two or More Races","N/A","N/A","N/A"
+"Regional School District 14","=""2140012""","White",183,180,98.4
+"Regional School District 15","=""2150012""","Asian",18,"*","*"
+"Regional School District 15","=""2150012""","Black","*","*","*"
+"Regional School District 15","=""2150012""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Regional School District 15","=""2150012""","Hispanic",24,"*","*"
+"Regional School District 15","=""2150012""","Indian or Alaska Native","N/A","N/A","N/A"
+"Regional School District 15","=""2150012""","Two or More Races","*","*","*"
+"Regional School District 15","=""2150012""","White",247,234,94.7
+"Regional School District 16","=""2160012""","Asian","*","*","*"
+"Regional School District 16","=""2160012""","Black","*","*","*"
+"Regional School District 16","=""2160012""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Regional School District 16","=""2160012""","Hispanic",6,"*","*"
+"Regional School District 16","=""2160012""","Indian or Alaska Native","N/A","N/A","N/A"
+"Regional School District 16","=""2160012""","Two or More Races","N/A","N/A","N/A"
+"Regional School District 16","=""2160012""","White",158,150,94.9
+"Regional School District 17","=""2170012""","Asian","*","*","*"
+"Regional School District 17","=""2170012""","Black","*","*","*"
+"Regional School District 17","=""2170012""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Regional School District 17","=""2170012""","Hispanic","*","*","*"
+"Regional School District 17","=""2170012""","Indian or Alaska Native","*","*","*"
+"Regional School District 17","=""2170012""","Two or More Races","*","*","*"
+"Regional School District 17","=""2170012""","White",157,151,96.2
+"Regional School District 18","=""2180012""","Asian","*","*","*"
+"Regional School District 18","=""2180012""","Black","*","*","*"
+"Regional School District 18","=""2180012""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Regional School District 18","=""2180012""","Hispanic","*","*","*"
+"Regional School District 18","=""2180012""","Indian or Alaska Native","N/A","N/A","N/A"
+"Regional School District 18","=""2180012""","Two or More Races","*","*","*"
+"Regional School District 18","=""2180012""","White",81,78,96.3
+"Regional School District 19","=""2190012""","Asian",13,13,"*"
+"Regional School District 19","=""2190012""","Black","*","*","*"
+"Regional School District 19","=""2190012""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Regional School District 19","=""2190012""","Hispanic",9,"*","*"
+"Regional School District 19","=""2190012""","Indian or Alaska Native","N/A","N/A","N/A"
+"Regional School District 19","=""2190012""","Two or More Races","*","*","*"
+"Regional School District 19","=""2190012""","White",262,239,91.2
+"Ridgefield School District","=""1180011""","Asian",28,24,85.7
+"Ridgefield School District","=""1180011""","Black","*","*","*"
+"Ridgefield School District","=""1180011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Ridgefield School District","=""1180011""","Hispanic",18,16,"*"
+"Ridgefield School District","=""1180011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Ridgefield School District","=""1180011""","Two or More Races","*","*","*"
+"Ridgefield School District","=""1180011""","White",396,385,97.2
+"Rocky Hill School District","=""1190011""","Asian","*","*","*"
+"Rocky Hill School District","=""1190011""","Black",14,"*","*"
+"Rocky Hill School District","=""1190011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Rocky Hill School District","=""1190011""","Hispanic",17,15,"*"
+"Rocky Hill School District","=""1190011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Rocky Hill School District","=""1190011""","Two or More Races","*","*","*"
+"Rocky Hill School District","=""1190011""","White",149,139,93.3
+"Seymour School District","=""1240011""","Asian","*","*","*"
+"Seymour School District","=""1240011""","Black","*","*","*"
+"Seymour School District","=""1240011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Seymour School District","=""1240011""","Hispanic",19,15,"*"
+"Seymour School District","=""1240011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Seymour School District","=""1240011""","Two or More Races","N/A","N/A","N/A"
+"Seymour School District","=""1240011""","White",114,103,90.4
+"Shelton School District","=""1260011""","Asian",16,16,"*"
+"Shelton School District","=""1260011""","Black",12,12,"*"
+"Shelton School District","=""1260011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Shelton School District","=""1260011""","Hispanic",22,19,86.4
+"Shelton School District","=""1260011""","Indian or Alaska Native","*","*","*"
+"Shelton School District","=""1260011""","Two or More Races","*","*","*"
+"Shelton School District","=""1260011""","White",318,299,94.0
+"Simsbury School District","=""1280011""","Asian","*","*","*"
+"Simsbury School District","=""1280011""","Black",26,"*","*"
+"Simsbury School District","=""1280011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Simsbury School District","=""1280011""","Hispanic",19,"*","*"
+"Simsbury School District","=""1280011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Simsbury School District","=""1280011""","Two or More Races","*","*","*"
+"Simsbury School District","=""1280011""","White",323,309,95.7
+"Somers School District","=""1290011""","Asian","*","*","*"
+"Somers School District","=""1290011""","Black","*","*","*"
+"Somers School District","=""1290011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Somers School District","=""1290011""","Hispanic",6,6,"*"
+"Somers School District","=""1290011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Somers School District","=""1290011""","Two or More Races","*","*","*"
+"Somers School District","=""1290011""","White",115,108,93.9
+"South Windsor School District","=""1320011""","Asian",36,"*","*"
+"South Windsor School District","=""1320011""","Black",24,"*","*"
+"South Windsor School District","=""1320011""","Hawaiian or Pacific Islander","*","*","*"
+"South Windsor School District","=""1320011""","Hispanic",23,20,87.0
+"South Windsor School District","=""1320011""","Indian or Alaska Native","*","*","*"
+"South Windsor School District","=""1320011""","Two or More Races","*","*","*"
+"South Windsor School District","=""1320011""","White",267,246,92.1
+"Southington School District","=""1310011""","Asian",11,11,"*"
+"Southington School District","=""1310011""","Black","*","*","*"
+"Southington School District","=""1310011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Southington School District","=""1310011""","Hispanic",34,29,85.3
+"Southington School District","=""1310011""","Indian or Alaska Native","*","*","*"
+"Southington School District","=""1310011""","Two or More Races",15,15,"*"
+"Southington School District","=""1310011""","White",451,422,93.6
+"Stafford School District","=""1340011""","Asian","*","*","*"
+"Stafford School District","=""1340011""","Black","*","*","*"
+"Stafford School District","=""1340011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Stafford School District","=""1340011""","Hispanic","*","*","*"
+"Stafford School District","=""1340011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Stafford School District","=""1340011""","Two or More Races","*","*","*"
+"Stafford School District","=""1340011""","White",87,81,93.1
+"Stamford Academy District","=""2820013""","Asian","N/A","N/A","N/A"
+"Stamford Academy District","=""2820013""","Black",29,11,37.9
+"Stamford Academy District","=""2820013""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Stamford Academy District","=""2820013""","Hispanic","*","*","*"
+"Stamford Academy District","=""2820013""","Indian or Alaska Native","N/A","N/A","N/A"
+"Stamford Academy District","=""2820013""","Two or More Races","N/A","N/A","N/A"
+"Stamford Academy District","=""2820013""","White","*","*","*"
+"Stamford School District","=""1350011""","Asian","*","*","*"
+"Stamford School District","=""1350011""","Black",280,237,84.6
+"Stamford School District","=""1350011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Stamford School District","=""1350011""","Hispanic",419,342,81.6
+"Stamford School District","=""1350011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Stamford School District","=""1350011""","Two or More Races","*","*","*"
+"Stamford School District","=""1350011""","White",440,410,93.2
+"Stonington School District","=""1370011""","Asian",9,9,"*"
+"Stonington School District","=""1370011""","Black","*","*","*"
+"Stonington School District","=""1370011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Stonington School District","=""1370011""","Hispanic","*","*","*"
+"Stonington School District","=""1370011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Stonington School District","=""1370011""","Two or More Races","N/A","N/A","N/A"
+"Stonington School District","=""1370011""","White",179,162,90.5
+"Stratford School District","=""1380011""","Asian",8,8,"*"
+"Stratford School District","=""1380011""","Black",120,109,90.8
+"Stratford School District","=""1380011""","Hawaiian or Pacific Islander","*","*","*"
+"Stratford School District","=""1380011""","Hispanic",157,141,89.8
+"Stratford School District","=""1380011""","Indian or Alaska Native","*","*","*"
+"Stratford School District","=""1380011""","Two or More Races",13,11,"*"
+"Stratford School District","=""1380011""","White",234,219,93.6
+"Suffield School District","=""1390011""","Asian","*","*","*"
+"Suffield School District","=""1390011""","Black",6,6,"*"
+"Suffield School District","=""1390011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Suffield School District","=""1390011""","Hispanic",7,"*","*"
+"Suffield School District","=""1390011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Suffield School District","=""1390011""","Two or More Races","*","*","*"
+"Suffield School District","=""1390011""","White",194,186,95.9
+"The Bridge Academy District","=""2690013""","Asian","*","*","*"
+"The Bridge Academy District","=""2690013""","Black",19,16,"*"
+"The Bridge Academy District","=""2690013""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"The Bridge Academy District","=""2690013""","Hispanic","*","*","*"
+"The Bridge Academy District","=""2690013""","Indian or Alaska Native","N/A","N/A","N/A"
+"The Bridge Academy District","=""2690013""","Two or More Races","N/A","N/A","N/A"
+"The Bridge Academy District","=""2690013""","White","N/A","N/A","N/A"
+"The Gilbert School District","=""9020022""","Asian",8,"*","*"
+"The Gilbert School District","=""9020022""","Black","*","*","*"
+"The Gilbert School District","=""9020022""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"The Gilbert School District","=""9020022""","Hispanic",11,"*","*"
+"The Gilbert School District","=""9020022""","Indian or Alaska Native","N/A","N/A","N/A"
+"The Gilbert School District","=""9020022""","Two or More Races","*","*","*"
+"The Gilbert School District","=""9020022""","White",66,59,89.4
+"Thomaston School District","=""1400011""","Asian","*","*","*"
+"Thomaston School District","=""1400011""","Black","N/A","N/A","N/A"
+"Thomaston School District","=""1400011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Thomaston School District","=""1400011""","Hispanic","*","*","*"
+"Thomaston School District","=""1400011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Thomaston School District","=""1400011""","Two or More Races","N/A","N/A","N/A"
+"Thomaston School District","=""1400011""","White",61,59,96.7
+"Thompson School District","=""1410011""","Asian","N/A","N/A","N/A"
+"Thompson School District","=""1410011""","Black","N/A","N/A","N/A"
+"Thompson School District","=""1410011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Thompson School District","=""1410011""","Hispanic","*","*","*"
+"Thompson School District","=""1410011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Thompson School District","=""1410011""","Two or More Races","*","*","*"
+"Thompson School District","=""1410011""","White",65,"*","*"
+"Tolland School District","=""1420011""","Asian",8,8,"*"
+"Tolland School District","=""1420011""","Black","*","*","*"
+"Tolland School District","=""1420011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Tolland School District","=""1420011""","Hispanic","*","*","*"
+"Tolland School District","=""1420011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Tolland School District","=""1420011""","Two or More Races","*","*","*"
+"Tolland School District","=""1420011""","White",198,188,94.9
+"Torrington School District","=""1430011""","Asian",6,6,"*"
+"Torrington School District","=""1430011""","Black",11,"*","*"
+"Torrington School District","=""1430011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Torrington School District","=""1430011""","Hispanic",59,45,76.3
+"Torrington School District","=""1430011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Torrington School District","=""1430011""","Two or More Races",11,"*","*"
+"Torrington School District","=""1430011""","White",195,166,85.1
+"Trumbull School District","=""1440011""","Asian",36,"*","*"
+"Trumbull School District","=""1440011""","Black",33,"*","*"
+"Trumbull School District","=""1440011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Trumbull School District","=""1440011""","Hispanic",49,46,93.9
+"Trumbull School District","=""1440011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Trumbull School District","=""1440011""","Two or More Races","N/A","N/A","N/A"
+"Trumbull School District","=""1440011""","White",416,411,98.8
+"Unified School District #1","=""3360015""","Asian","*","*","*"
+"Unified School District #1","=""3360015""","Black",197,6,3.0
+"Unified School District #1","=""3360015""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Unified School District #1","=""3360015""","Hispanic",152,"*","*"
+"Unified School District #1","=""3360015""","Indian or Alaska Native","N/A","N/A","N/A"
+"Unified School District #1","=""3360015""","Two or More Races","*","*","*"
+"Unified School District #1","=""3360015""","White",57,"*","*"
+"Unified School District #2","=""3470015""","Asian","*","*","*"
+"Unified School District #2","=""3470015""","Black",14,"*","*"
+"Unified School District #2","=""3470015""","Hawaiian or Pacific Islander","*","*","*"
+"Unified School District #2","=""3470015""","Hispanic",14,"*","*"
+"Unified School District #2","=""3470015""","Indian or Alaska Native","N/A","N/A","N/A"
+"Unified School District #2","=""3470015""","Two or More Races","N/A","N/A","N/A"
+"Unified School District #2","=""3470015""","White",12,"*","*"
+"Vernon School District","=""1460011""","Asian","*","*","*"
+"Vernon School District","=""1460011""","Black",30,21,70.0
+"Vernon School District","=""1460011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Vernon School District","=""1460011""","Hispanic",30,22,73.3
+"Vernon School District","=""1460011""","Indian or Alaska Native","*","*","*"
+"Vernon School District","=""1460011""","Two or More Races","*","*","*"
+"Vernon School District","=""1460011""","White",178,160,89.9
+"Wallingford School District","=""1480011""","Asian",20,"*","*"
+"Wallingford School District","=""1480011""","Black",17,14,"*"
+"Wallingford School District","=""1480011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Wallingford School District","=""1480011""","Hispanic",53,45,84.9
+"Wallingford School District","=""1480011""","Indian or Alaska Native","*","*","*"
+"Wallingford School District","=""1480011""","Two or More Races","*","*","*"
+"Wallingford School District","=""1480011""","White",408,386,94.6
+"Waterbury School District","=""1510011""","Asian",19,15,"*"
+"Waterbury School District","=""1510011""","Black",359,256,71.3
+"Waterbury School District","=""1510011""","Hawaiian or Pacific Islander","*","*","*"
+"Waterbury School District","=""1510011""","Hispanic",633,405,64.0
+"Waterbury School District","=""1510011""","Indian or Alaska Native","*","*","*"
+"Waterbury School District","=""1510011""","Two or More Races",36,27,75.0
+"Waterbury School District","=""1510011""","White",288,222,77.1
+"Waterford School District","=""1520011""","Asian",10,10,"*"
+"Waterford School District","=""1520011""","Black",8,8,"*"
+"Waterford School District","=""1520011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Waterford School District","=""1520011""","Hispanic",15,"*","*"
+"Waterford School District","=""1520011""","Indian or Alaska Native","*","*","*"
+"Waterford School District","=""1520011""","Two or More Races","*","*","*"
+"Waterford School District","=""1520011""","White",176,164,93.2
+"Watertown School District","=""1530011""","Asian",6,6,"*"
+"Watertown School District","=""1530011""","Black","*","*","*"
+"Watertown School District","=""1530011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Watertown School District","=""1530011""","Hispanic","*","*","*"
+"Watertown School District","=""1530011""","Indian or Alaska Native","*","*","*"
+"Watertown School District","=""1530011""","Two or More Races","*","*","*"
+"Watertown School District","=""1530011""","White",187,167,89.3
+"West Hartford School District","=""1550011""","Asian",75,71,94.7
+"West Hartford School District","=""1550011""","Black",86,77,89.5
+"West Hartford School District","=""1550011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"West Hartford School District","=""1550011""","Hispanic",132,115,87.1
+"West Hartford School District","=""1550011""","Indian or Alaska Native","*","*","*"
+"West Hartford School District","=""1550011""","Two or More Races","*","*","*"
+"West Hartford School District","=""1550011""","White",426,408,95.8
+"West Haven School District","=""1560011""","Asian",16,"*","*"
+"West Haven School District","=""1560011""","Black",107,82,76.6
+"West Haven School District","=""1560011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"West Haven School District","=""1560011""","Hispanic",130,101,77.7
+"West Haven School District","=""1560011""","Indian or Alaska Native","*","*","*"
+"West Haven School District","=""1560011""","Two or More Races","*","*","*"
+"West Haven School District","=""1560011""","White",160,123,76.9
+"Westbrook School District","=""1540011""","Asian","*","*","*"
+"Westbrook School District","=""1540011""","Black","N/A","N/A","N/A"
+"Westbrook School District","=""1540011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Westbrook School District","=""1540011""","Hispanic","*","*","*"
+"Westbrook School District","=""1540011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Westbrook School District","=""1540011""","Two or More Races","*","*","*"
+"Westbrook School District","=""1540011""","White",71,"*","*"
+"Weston School District","=""1570011""","Asian","*","*","*"
+"Weston School District","=""1570011""","Black","*","*","*"
+"Weston School District","=""1570011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Weston School District","=""1570011""","Hispanic","*","*","*"
+"Weston School District","=""1570011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Weston School District","=""1570011""","Two or More Races","*","*","*"
+"Weston School District","=""1570011""","White",156,151,96.8
+"Westport School District","=""1580011""","Asian",20,"*","*"
+"Westport School District","=""1580011""","Black",10,10,"*"
+"Westport School District","=""1580011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Westport School District","=""1580011""","Hispanic",19,19,"*"
+"Westport School District","=""1580011""","Indian or Alaska Native","*","*","*"
+"Westport School District","=""1580011""","Two or More Races","*","*","*"
+"Westport School District","=""1580011""","White",411,406,98.8
+"Wethersfield School District","=""1590011""","Asian",20,"*","*"
+"Wethersfield School District","=""1590011""","Black","*","*","*"
+"Wethersfield School District","=""1590011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Wethersfield School District","=""1590011""","Hispanic",44,37,84.1
+"Wethersfield School District","=""1590011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Wethersfield School District","=""1590011""","Two or More Races","*","*","*"
+"Wethersfield School District","=""1590011""","White",207,193,93.2
+"Wilton School District","=""1610011""","Asian",23,21,91.3
+"Wilton School District","=""1610011""","Black","*","*","*"
+"Wilton School District","=""1610011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Wilton School District","=""1610011""","Hispanic",9,9,"*"
+"Wilton School District","=""1610011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Wilton School District","=""1610011""","Two or More Races","*","*","*"
+"Wilton School District","=""1610011""","White",291,281,96.6
+"Windham School District","=""1630011""","Asian","*","*","*"
+"Windham School District","=""1630011""","Black",6,"*","*"
+"Windham School District","=""1630011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Windham School District","=""1630011""","Hispanic",80,63,78.8
+"Windham School District","=""1630011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Windham School District","=""1630011""","Two or More Races","*","*","*"
+"Windham School District","=""1630011""","White",37,"*","*"
+"Windsor Locks School District","=""1650011""","Asian","*","*","*"
+"Windsor Locks School District","=""1650011""","Black",11,"*","*"
+"Windsor Locks School District","=""1650011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Windsor Locks School District","=""1650011""","Hispanic",11,"*","*"
+"Windsor Locks School District","=""1650011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Windsor Locks School District","=""1650011""","Two or More Races","*","*","*"
+"Windsor Locks School District","=""1650011""","White",102,88,86.3
+"Windsor School District","=""1640011""","Asian",15,"*","*"
+"Windsor School District","=""1640011""","Black",157,139,88.5
+"Windsor School District","=""1640011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Windsor School District","=""1640011""","Hispanic",33,26,78.8
+"Windsor School District","=""1640011""","Indian or Alaska Native","N/A","N/A","N/A"
+"Windsor School District","=""1640011""","Two or More Races",9,"*","*"
+"Windsor School District","=""1640011""","White",96,87,90.6
+"Wolcott School District","=""1660011""","Asian","*","*","*"
+"Wolcott School District","=""1660011""","Black","*","*","*"
+"Wolcott School District","=""1660011""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Wolcott School District","=""1660011""","Hispanic",6,"*","*"
+"Wolcott School District","=""1660011""","Indian or Alaska Native","*","*","*"
+"Wolcott School District","=""1660011""","Two or More Races","*","*","*"
+"Wolcott School District","=""1660011""","White",166,161,97.0
+"Woodstock Academy District","=""9030022""","Asian",30,"*","*"
+"Woodstock Academy District","=""9030022""","Black","*","*","*"
+"Woodstock Academy District","=""9030022""","Hawaiian or Pacific Islander","N/A","N/A","N/A"
+"Woodstock Academy District","=""9030022""","Hispanic",9,9,"*"
+"Woodstock Academy District","=""9030022""","Indian or Alaska Native","*","*","*"
+"Woodstock Academy District","=""9030022""","Two or More Races","*","*","*"
+"Woodstock Academy District","=""9030022""","White",240,"*","*"
 

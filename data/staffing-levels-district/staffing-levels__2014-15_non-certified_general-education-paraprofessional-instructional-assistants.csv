@@ -1,160 +1,200 @@
+"FTE Staffing Report for 2014-15"
 
-
-
-
-
-
-
-
-
-<!DOCTYPE html>
-
-
-
-
-
-<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
-    
-
-
-<head>
-    <meta charset="UTF-8" />
-    <title>
-    	
-    		
-    		
-    			SAS&reg; Logon Manager
-    		
-    	
-    </title>
-    <link type="text/css" rel="stylesheet" href="themes/default/css/bootstrap.css" />
-    <link type="text/css" rel="stylesheet" href="themes/default/css/sas.css" />
-</head>
-
-
-
-<body id="cas">
-	<div id="page">
-		
-
-<div class="banner row">
-    <div class="about">
-        <ul class="unstyled"><li>
-            <a href="#about-modal" data-toggle="modal">
-                About
-            </a>
-        </li></ul>
-    </div>
-    <div id="about-modal" class="modal hide fade">
-        <div class="modal-header">
-            <a href="#" class="close" data-dismiss="modal">&times;</a>
-            <h3>About</h3>
-        </div>
-        <div class="modal-body">
-            <p>Version: 9.4</p>
-            <h4>Copyright Information</h4>
-            <p align="center">
-Copyright (c) 2002 - 2013 by SAS Institute Inc., Cary, NC, USA<br/>
-All rights reserved.<br/>
-<br/>
-This software is protected by copyright laws and international treaties.<br/>
-<br/>
-U.S. GOVERNMENT RESTRICTED RIGHTS<br/>
-Use, duplication, or disclosure of this software and related<br/>
-documentation by the U.S. government is subject to the<br/>
-Agreement with SAS Institute and the restrictions set forth<br/>
-in FAR 52.227-19, Commercial Computer Software<br/>
-- Restricted Rights (June 1987).
-            </p>
-        </div>
-    </div>
-    <div class="header">
-        <div class="title">
-        	<h1>
-        		
-		    		
-		    		
-		    			Sign In to SAS<sup>&reg;</sup>
-		    		
-    			
-        	</h1>
-       	</div>
-        <div class="logo"><img src="themes/default/images/logo.png" /></div>
-    </div>
-</div>
-
-
-		<div class="content row">
-			
-                <form id="fm1" class="form-stacked" onSubmit="return setSubmitUrl(this);" action="/SASLogon/login;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=40A9F973C2F079016DCA380B8F5769AC.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1?service=http://edsight.ct.gov/SASStoredProcess/j_spring_cas_security_check" method="post">
-				<fieldset>
-					
-					
-					
-                        <legend>Sign In to SAS<sup>&reg;</sup></legend>
-					<div class="clearfix">
-                            <label for="username"><span class="accesskey">U</span>ser ID:</label>
-						
-							
-							
-                                    
-                                    <input id="username" name="username" class="required" tabindex="1" accesskey="u" type="text" value="" size="25" autocomplete="off"/>
-							
-						
-					</div>
-					<div class="clearfix">
-                            <label for="password"><span class="accesskey">P</span>assword:</label>
-						
-                            
-                            <input id="password" name="password" class="required" tabindex="2" accesskey="p" type="password" value="" size="25" autocomplete="off"/>
-					</div>
-				</fieldset>
-				<input type="hidden" name="lt" value="LT-3008-EVMuWBGejRn6VJy3M55J7k3oHMHwnf" />
-				<input type="hidden" name="execution" value="e1s1" />
-				<input type="hidden" name="_eventId" value="submit" />
-                    <div class="submitb"><input id="Logon" type="submit" value="Sign In" onClick="this.disabled=true;this.form.submit();" tabindex="3" /></div>
-			</form>
-			
-				<div class="customizations" id="custom-logon-message">
-                  	
-
-
-<p>
-
-</p>
-
-
- 
- 
-				</div>
-			
-
-			<div class="copyright">
-				Copyright &copy; 2002 - 2013 by SAS Institute Inc., Cary, NC USA
-			</div>
-		</div>
-	</div>
-	
-<script type="text/javascript" src="/SASLogon/js/jquery.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=40A9F973C2F079016DCA380B8F5769AC.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-<script type="text/javascript" src="/SASLogon/js/bootstrap-modal.js;1fc2dae290ceccd1789c0e0db17caeed_Cluster1=40A9F973C2F079016DCA380B8F5769AC.1fc2dae290ceccd1789c0e0db17caeed_SASServer1_1"></script>
-
-	<script type="text/javascript">
-            $("#username").focus();
-            
-            function setSubmitUrl(form)
-            {
-            	var urlHash = decodeURIComponent(window.location.hash);
-            	
-            	if (urlHash && urlHash.indexOf("#") === -1)
-            		urlHash = "#" + urlHash;
-            	
-            	form.action = form.action + urlHash;
-            	return true;
-            }
-    </script>
-</body>
-
-</html>
-
-
+"District","Assignment Category","Educator Type","FTE Count"
+"Achievement First Hartford Academy Inc. District","General Education - Paraprofessional Instructional Assistants","Non-Certified",0.0
+="Amistad Academy District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",10.5
+="Andover School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+="Ansonia School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",28.5
+="Area Cooperative Educational Services",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",23.4
+="Ashford School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+="Avon School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",24.7
+="Barkhamsted School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.8
+="Berlin School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",21.8
+="Bethany School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.5
+="Bethel School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",16.0
+="Bloomfield School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",42.0
+="Bolton School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.5
+="Bozrah School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+="Branford School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",141.5
+="Brass City Charter School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.6
+="Bridgeport School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",105.5
+="Bristol School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",27.0
+="Brookfield School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",11.7
+="Brooklyn School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+="Canaan School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.1
+="Canterbury School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.8
+="Canton School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",16.9
+="Capitol Region Education Council",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",387.1
+="Chaplin School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.1
+="Cheshire School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",48.1
+="Chester School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.8
+="Clinton School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",13.8
+="Colchester School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",26.8
+="Colebrook School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.3
+="Columbia School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+="Common Ground High School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.9
+="Connecticut Technical High School System",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",11.3
+="Cooperative Educational Services",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",36.0
+="Cornwall School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.7
+="Coventry School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",13.7
+="Cromwell School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",10.0
+="Danbury School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",70.4
+="Darien School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",35.0
+="Deep River School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.8
+="Derby School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",10.3
+="East Granby School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.5
+="East Haddam School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.5
+="East Hampton School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",11.0
+="East Hartford School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",85.0
+="East Haven School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",19.0
+="East Lyme School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.0
+="East Windsor School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",21.0
+="Eastern Connecticut Regional Educational Service Center (EASTCONN)",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",52.5
+="Eastford School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.9
+="Easton School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",10.2
+="EdAdvance",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",27.8
+="Ellington School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.4
+="Elm City College Preparatory School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+="Elm City Montessori School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.0
+="Enfield School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",28.5
+="Essex School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.5
+="Explorations District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+="Fairfield School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",43.3
+="Farmington School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",27.7
+="Franklin School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.5
+="Glastonbury School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",61.5
+="Granby School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",14.0
+="Great Oaks Charter School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",14.0
+="Greenwich School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",50.1
+="Griswold School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+="Groton School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",34.5
+="Guilford School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.7
+="Hamden School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",50.5
+="Hampton School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.4
+="Hartford School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",120.0
+="Hartland School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.9
+="Hebron School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.0
+="Highville Charter School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+="Integrated Day Charter School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.5
+="Interdistrict School for Arts and Comm District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+="Jumoke Academy District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",31.5
+="Kent School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.9
+="Killingly School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",26.5
+="Learn",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",75.1
+="Lebanon School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+="Ledyard School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",22.7
+="Lisbon School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.8
+="Litchfield School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+="Madison School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",41.8
+="Manchester School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",81.4
+="Mansfield School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",26.5
+="Marlborough School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.5
+="Meriden School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",52.0
+="Middletown School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",46.7
+="Milford School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",38.0
+="Monroe School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",29.4
+="Montville School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",21.1
+="Naugatuck School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",36.0
+="New Beginnings Inc Family Academy District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",13.0
+="New Britain School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",84.0
+="New Canaan School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",30.3
+="New Fairfield School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",13.0
+="New Hartford School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.5
+="New Haven School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",714.3
+="New London School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",16.1
+="New Milford School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",18.4
+="Newington School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",19.0
+="Newtown School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",39.0
+="Norfolk School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.8
+="North Branford School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",37.0
+="North Canaan School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.1
+="North Haven School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",17.0
+="North Stonington School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+="Norwalk School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",90.3
+="Norwich Free Academy District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",12.4
+="Norwich School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",60.5
+="Odyssey Community School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",8.5
+="Old Saybrook School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",14.0
+="Orange School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",10.8
+="Oxford School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",16.6
+="Park City Prep Charter School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+="Plainfield School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",17.3
+="Plainville School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",32.4
+="Plymouth School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",21.1
+="Pomfret School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+="Portland School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",14.5
+="Preston School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+="Putnam School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",22.4
+="Redding School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",14.0
+="Regional School District 01",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.7
+="Regional School District 04",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+="Regional School District 05",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+="Regional School District 06",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+="Regional School District 07",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+="Regional School District 08",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.5
+="Regional School District 09",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+="Regional School District 10",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",14.0
+="Regional School District 11",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+="Regional School District 12",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",14.5
+="Regional School District 13",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",11.2
+="Regional School District 14",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.6
+="Regional School District 15",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",38.4
+="Regional School District 16",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.3
+="Regional School District 17",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",15.2
+="Regional School District 18",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",12.9
+="Regional School District 19",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+="Ridgefield School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",13.1
+="Rocky Hill School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",32.5
+="Salem School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.7
+="Salisbury School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+="Scotland School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+="Seymour School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",13.0
+="Sharon School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+="Shelton School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",44.0
+="Sherman School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+="Side By Side Charter School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",12.5
+="Simsbury School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",36.5
+="Somers School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.7
+="South Windsor School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",14.3
+="Southington School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",50.9
+="Sprague School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+="Stafford School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",26.5
+="Stamford Academy District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+="Stamford School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",133.0
+="Sterling School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+="Stonington School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",69.9
+="Stratford School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",13.7
+="Suffield School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",32.3
+="The Bridge Academy District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.6
+="The Gilbert School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+="Thomaston School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",3.0
+="Thompson School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.0
+="Tolland School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.0
+="Torrington School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",15.0
+="Trailblazers Academy District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+="Trumbull School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",35.3
+="Unified School District #1",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",4.0
+="Unified School District #2",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+="Union School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",2.0
+="Vernon School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",22.9
+="Voluntown School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+="Wallingford School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",46.0
+="Waterbury School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",83.2
+="Waterford School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",7.0
+="Watertown School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",20.0
+="West Hartford School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",70.7
+="West Haven School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",50.0
+="Westbrook School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",6.5
+="Weston School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",12.8
+="Westport School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",61.4
+="Wethersfield School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",14.5
+="Willington School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",1.0
+="Wilton School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",17.4
+="Winchester School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
+="Windham School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",61.0
+="Windsor Locks School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",29.7
+="Windsor School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",15.0
+="Wolcott School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",9.0
+="Woodstock Academy District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",0.0
+="Woodstock School District",="General Education - Paraprofessional Instructional Assistants",="Non-Certified",5.0
 
