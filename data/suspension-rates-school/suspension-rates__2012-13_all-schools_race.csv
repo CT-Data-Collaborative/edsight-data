@@ -1328,8 +1328,8 @@
 "East Hartford School District","=""0430011""","Hockanum School","=""0430511""","White","*","*"
 "East Hartford School District","=""0430011""","Joseph O. Goodwin School","=""0430411""","American Indian or Alaska Native","N/A","*"
 "East Hartford School District","=""0430011""","Joseph O. Goodwin School","=""0430411""","Asian","N/A","*"
-"East Hartford School District","=""0430011""","Joseph O. Goodwin School","=""0430411""","Black or African American",8,8.4
-"East Hartford School District","=""0430011""","Joseph O. Goodwin School","=""0430411""","Hispanic/Latino of any race","*","*"
+"East Hartford School District","=""0430011""","Joseph O. Goodwin School","=""0430411""","Black or African American","*","*"
+"East Hartford School District","=""0430011""","Joseph O. Goodwin School","=""0430411""","Hispanic/Latino of any race",8,7.3
 "East Hartford School District","=""0430011""","Joseph O. Goodwin School","=""0430411""","White","*","*"
 "East Hartford School District","=""0430011""","Robert J. O'Brien School","=""0431811""","American Indian or Alaska Native","*","*"
 "East Hartford School District","=""0430011""","Robert J. O'Brien School","=""0431811""","Asian","N/A","N/A"
@@ -1348,11 +1348,11 @@
 "East Hartford School District","=""0430011""","Stevens Alternate High school","=""0436411""","Black or African American",30,37.5
 "East Hartford School District","=""0430011""","Stevens Alternate High school","=""0436411""","Hispanic/Latino of any race",32,35.2
 "East Hartford School District","=""0430011""","Stevens Alternate High school","=""0436411""","White",12,31.6
+"East Hartford School District","=""0430011""","Sunset Ridge Middle School","=""0432411""","Two or More Races","*","*"
 "East Hartford School District","=""0430011""","Sunset Ridge School Elementary Academy for Arts and World Languages","=""0432411""","American Indian or Alaska Native","N/A","N/A"
 "East Hartford School District","=""0430011""","Sunset Ridge School Elementary Academy for Arts and World Languages","=""0432411""","Asian","N/A","*"
 "East Hartford School District","=""0430011""","Sunset Ridge School Elementary Academy for Arts and World Languages","=""0432411""","Black or African American",45,31.9
 "East Hartford School District","=""0430011""","Sunset Ridge School Elementary Academy for Arts and World Languages","=""0432411""","Hispanic/Latino of any race",21,19.4
-"East Hartford School District","=""0430011""","Sunset Ridge School Elementary Academy for Arts and World Languages","=""0432411""","Two or More Races","*","*"
 "East Hartford School District","=""0430011""","Sunset Ridge School Elementary Academy for Arts and World Languages","=""0432411""","White","*","*"
 "East Hartford School District","=""0430011""","Willowbrook Early Childhood","=""0438011""","Asian","N/A","*"
 "East Hartford School District","=""0430011""","Willowbrook Early Childhood","=""0438011""","Black or African American","N/A","N/A"
@@ -2380,10 +2380,10 @@
 "Hartford School District","=""0640011""","STEM Magnet School at Annie Fisher","=""0642511""","American Indian or Alaska Native","N/A","*"
 "Hartford School District","=""0640011""","STEM Magnet School at Annie Fisher","=""0642511""","Asian","N/A","N/A"
 "Hartford School District","=""0640011""","STEM Magnet School at Annie Fisher","=""0642511""","Black or African American",49,31.2
-"Hartford School District","=""0640011""","STEM Magnet School at Annie Fisher","=""0642511""","Hispanic/Latino of any race",9,18.8
+"Hartford School District","=""0640011""","STEM Magnet School at Annie Fisher","=""0642511""","Hispanic/Latino of any race","*","*"
 "Hartford School District","=""0640011""","STEM Magnet School at Annie Fisher","=""0642511""","Native Hawaiian or Other Pacific Islander","N/A","*"
 "Hartford School District","=""0640011""","STEM Magnet School at Annie Fisher","=""0642511""","Two or More Races","*","*"
-"Hartford School District","=""0640011""","STEM Magnet School at Annie Fisher","=""0642511""","White","*","*"
+"Hartford School District","=""0640011""","STEM Magnet School at Annie Fisher","=""0642511""","White",9,10.5
 "Hartford School District","=""0640011""","STEM Magnet School at Dwight","=""0643811""","American Indian or Alaska Native","N/A","*"
 "Hartford School District","=""0640011""","STEM Magnet School at Dwight","=""0643811""","Asian","N/A","*"
 "Hartford School District","=""0640011""","STEM Magnet School at Dwight","=""0643811""","Black or African American","*","*"
@@ -3337,7 +3337,6 @@
 "New Haven School District","=""0930011""","Christopher Columbus Academy","=""0934111""","Hispanic/Latino of any race","N/A","N/A"
 "New Haven School District","=""0930011""","Christopher Columbus Academy","=""0934111""","Two or More Races","N/A","*"
 "New Haven School District","=""0930011""","Christopher Columbus Academy","=""0934111""","White","N/A","*"
-"New Haven School District","=""0930011""","Clemente Leadership Academy","=""0934211""","American Indian or Alaska Native","*","*"
 "New Haven School District","=""0930011""","Clemente Leadership Academy","=""0934211""","Asian","N/A","*"
 "New Haven School District","=""0930011""","Clemente Leadership Academy","=""0934211""","Black or African American",27,11.1
 "New Haven School District","=""0930011""","Clemente Leadership Academy","=""0934211""","Hispanic/Latino of any race",24,9.1
@@ -3493,6 +3492,7 @@
 "New Haven School District","=""0930011""","Riverside Education Academy","=""0939111""","Hispanic/Latino of any race","*","*"
 "New Haven School District","=""0930011""","Riverside Education Academy","=""0939111""","Native Hawaiian or Other Pacific Islander","N/A","N/A"
 "New Haven School District","=""0930011""","Riverside Education Academy","=""0939111""","White","N/A","*"
+"New Haven School District","=""0930011""","Roberto Clemente Leadership Academy for Global Awareness","=""0934211""","American Indian or Alaska Native","*","*"
 "New Haven School District","=""0930011""","Ross/Woodward School","=""0931011""","American Indian or Alaska Native","N/A","*"
 "New Haven School District","=""0930011""","Ross/Woodward School","=""0931011""","Asian","N/A","N/A"
 "New Haven School District","=""0930011""","Ross/Woodward School","=""0931011""","Black or African American",22,11.3
@@ -4914,10 +4914,10 @@
 "Stamford Academy District","=""2820013""","Stamford Academy","=""2826013""","Two or More Races","N/A","N/A"
 "Stamford Academy District","=""2820013""","Stamford Academy","=""2826013""","White","N/A","*"
 "Stamford School District","=""1350011""","Cloonan School","=""1355611""","Asian","*","*"
-"Stamford School District","=""1350011""","Cloonan School","=""1355611""","Black or African American",6,3.7
+"Stamford School District","=""1350011""","Cloonan School","=""1355611""","Black or African American","*","*"
 "Stamford School District","=""1350011""","Cloonan School","=""1355611""","Hispanic/Latino of any race",7,3.6
 "Stamford School District","=""1350011""","Cloonan School","=""1355611""","Two or More Races","N/A","*"
-"Stamford School District","=""1350011""","Cloonan School","=""1355611""","White","*","*"
+"Stamford School District","=""1350011""","Cloonan School","=""1355611""","White",6,2.9
 "Stamford School District","=""1350011""","Davenport Ridge School","=""1352011""","Asian","N/A","N/A"
 "Stamford School District","=""1350011""","Davenport Ridge School","=""1352011""","Black or African American","*","*"
 "Stamford School District","=""1350011""","Davenport Ridge School","=""1352011""","Hispanic/Latino of any race","*","*"
@@ -5100,9 +5100,9 @@
 "Stratford School District","=""1380011""","Harry B. Flood Middle School","=""1385311""","American Indian or Alaska Native","N/A","*"
 "Stratford School District","=""1380011""","Harry B. Flood Middle School","=""1385311""","Asian","N/A","*"
 "Stratford School District","=""1380011""","Harry B. Flood Middle School","=""1385311""","Black or African American",19,16.4
-"Stratford School District","=""1380011""","Harry B. Flood Middle School","=""1385311""","Hispanic/Latino of any race",13,8.5
+"Stratford School District","=""1380011""","Harry B. Flood Middle School","=""1385311""","Hispanic/Latino of any race","*","*"
 "Stratford School District","=""1380011""","Harry B. Flood Middle School","=""1385311""","Two or More Races","*","*"
-"Stratford School District","=""1380011""","Harry B. Flood Middle School","=""1385311""","White","*","*"
+"Stratford School District","=""1380011""","Harry B. Flood Middle School","=""1385311""","White",13,5.0
 "Stratford School District","=""1380011""","Honeyspot School","=""1381611""","Asian","N/A","*"
 "Stratford School District","=""1380011""","Honeyspot School","=""1381611""","Black or African American","*","*"
 "Stratford School District","=""1380011""","Honeyspot School","=""1381611""","Hispanic/Latino of any race","*","*"
@@ -5588,8 +5588,8 @@
 "Waterbury School District","=""1510011""","Enlightenment School","=""1519111""","White",16,55.2
 "Waterbury School District","=""1510011""","F. J. Kingsbury School","=""1511411""","American Indian or Alaska Native","N/A","*"
 "Waterbury School District","=""1510011""","F. J. Kingsbury School","=""1511411""","Asian","N/A","*"
-"Waterbury School District","=""1510011""","F. J. Kingsbury School","=""1511411""","Black or African American",22,14.7
-"Waterbury School District","=""1510011""","F. J. Kingsbury School","=""1511411""","Hispanic/Latino of any race","*","*"
+"Waterbury School District","=""1510011""","F. J. Kingsbury School","=""1511411""","Black or African American","*","*"
+"Waterbury School District","=""1510011""","F. J. Kingsbury School","=""1511411""","Hispanic/Latino of any race",22,8.4
 "Waterbury School District","=""1510011""","F. J. Kingsbury School","=""1511411""","Two or More Races","N/A","*"
 "Waterbury School District","=""1510011""","F. J. Kingsbury School","=""1511411""","White","*","*"
 "Waterbury School District","=""1510011""","Gilmartin School","=""1512611""","American Indian or Alaska Native","N/A","*"

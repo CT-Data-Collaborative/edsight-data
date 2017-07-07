@@ -1,3 +1,383 @@
 "Bullying Counts, 2012-13"
 "All Districts, All Schools"
 
+"",,,,"Bullying Type",
+"District","District Code","School","School Code","Counts of Bullying Incidents","Students with at least 1 bullying incident"
+"Achievement First Hartford Academy Inc. District","=""2880013""","Achievement First Hartford Academy Inc.","=""2880113""",8,8
+"Amistad Academy District","=""2790013""","Amistad Academy","=""2795113""",12,15
+"Ansonia School District","=""0020011""","Ansonia High School","=""0026111""","*","*"
+"Ansonia School District","=""0020011""","Ansonia Middle School","=""0025111""","*","*"
+"Area Cooperative Educational Services","=""2440014""","Thomas Edison Magnet Middle School","=""2445114""","*","*"
+"Area Cooperative Educational Services","=""2440014""","Whitney High School North","=""2449114""","*","*"
+"Area Cooperative Educational Services","=""2440014""","Wintergreen Interdistrict  Magnet School","=""2440314""","*","*"
+"Ashford School District","=""0030011""","Ashford School","=""0030111""","*","*"
+"Avon School District","=""0040011""","Avon Middle School","=""0045111""","*","*"
+"Barkhamsted School District","=""0050011""","Barkhamsted Elementary School","=""0050111""","*","*"
+"Berlin School District","=""0070011""","Emma Hart Willard School","=""0070411""","*","*"
+"Berlin School District","=""0070011""","Mary E. Griswold School","=""0070511""","*","*"
+"Bethany School District","=""0080011""","Bethany Community School","=""0080111""","*","*"
+"Bethel School District","=""0090011""","Bethel High School","=""0096111""","*","*"
+"Bethel School District","=""0090011""","Bethel Middle School","=""0095111""","*",7
+"Bloomfield School District","=""0110011""","Carmen Arace Intermediate School","=""0110711""","*","*"
+"Bloomfield School District","=""0110011""","Carmen Arace Middle School","=""0115211""","*","*"
+"Branford School District","=""0140011""","Francis Walsh Intermediate School","=""0145111""","*","*"
+"Bridgeport Achievement First District","=""2850013""","Achievement First Bridgeport Academy","=""2850113""",14,14
+"Bridgeport School District","=""0150011""","Barnum School","=""0150111""","*","*"
+"Bridgeport School District","=""0150011""","Bassick High School","=""0156111""",8,12
+"Bridgeport School District","=""0150011""","Central High School","=""0156211""","*","*"
+"Bridgeport School District","=""0150011""","Cesar Batalla School","=""0151411""",7,8
+"Bridgeport School District","=""0150011""","Columbus School","=""0150511""","*","*"
+"Bridgeport School District","=""0150011""","Cross School","=""0153911""","*","*"
+"Bridgeport School District","=""0150011""","Curiale School","=""0154211""","*","*"
+"Bridgeport School District","=""0150011""","Dunbar School","=""0154111""",8,8
+"Bridgeport School District","=""0150011""","Geraldine Johnson School","=""0153211""","*","*"
+"Bridgeport School District","=""0150011""","Harding High School","=""0156311""","*","*"
+"Bridgeport School District","=""0150011""","Jettie S. Tisdale School","=""0152211""","*","*"
+"Bridgeport School District","=""0150011""","Luis Munoz Marin School","=""0151011""","*","*"
+"Bridgeport School District","=""0150011""","Read School","=""0152511""","*","*"
+"Bridgeport School District","=""0150011""","Roosevelt School","=""0152611""","*","*"
+"Bridgeport School District","=""0150011""","Waltersville School","=""0153011""",9,10
+"Bristol School District","=""0170011""","Bristol Central High School","=""0176111""","*","*"
+"Bristol School District","=""0170011""","Bristol Eastern High School","=""0176211""","*","*"
+"Bristol School District","=""0170011""","Chippens Hill Middle School","=""0175111""","*","*"
+"Bristol School District","=""0170011""","Mountain View School","=""0171711""","*","*"
+"Bristol School District","=""0170011""","South Side School","=""0171111""","*","*"
+"Brookfield School District","=""0180011""","Brookfield High School","=""0186111""",7,7
+"Brookfield School District","=""0180011""","Whisconier Middle School","=""0185311""","*","*"
+"Brooklyn School District","=""0190011""","Brooklyn Middle School","=""0195111""",6,8
+"Canaan School District","=""0210011""","Lee H. Kellogg School","=""0210111""","*","*"
+"Canterbury School District","=""0220011""","Dr. Helen Baldwin Middle School","=""0225111""","*","*"
+"Capitol Region Education Council","=""2410014""","Metropolitan Learning Center for Global and International Studies","=""2416114""","*","*"
+"Capitol Region Education Council","=""2410014""","Museum Academy","=""2410514""","*","*"
+"Capitol Region Education Council","=""2410014""","Public Safety Academy","=""2415214""","*","*"
+"Capitol Region Education Council","=""2410014""","Two Rivers Magnet Middle School","=""2415014""",13,17
+"Cheshire School District","=""0250011""","Chapman School","=""0250111""","*","*"
+"Cheshire School District","=""0250011""","Cheshire High School","=""0256111""","*","*"
+"Cheshire School District","=""0250011""","Dodd Middle School","=""0255111""","*","*"
+"Cheshire School District","=""0250011""","Highland School","=""0250411""","*","*"
+"Clinton School District","=""0270011""","Abraham Pierson School","=""0270111""","*","*"
+"Clinton School District","=""0270011""","The Morgan School","=""0276111""","*",11
+"Colchester School District","=""0280011""","Bacon Academy","=""0286111""",6,6
+"Colchester School District","=""0280011""","Colchester Elementary School","=""0280411""","*","*"
+"Colchester School District","=""0280011""","Jack Jackter Intermediate School","=""0280211""","*","*"
+"Colebrook School District","=""0290011""","Colebrook Consolidated School","=""0290111""","*","*"
+"Common Ground High School District","=""2680013""","Common Ground High School","=""2686113""","*","*"
+"Connecticut Technical High School System","=""9000016""","A. I. Prince Technical High School","=""9001516""","*","*"
+"Connecticut Technical High School System","=""9000016""","Bullard-Havens Technical High School","=""9001116""",10,13
+"Connecticut Technical High School System","=""9000016""","E. C. Goodwin Technical High School","=""9001916""",6,6
+"Connecticut Technical High School System","=""9000016""","Eli Whitney Technical High School","=""9001416""",7,7
+"Connecticut Technical High School System","=""9000016""","Ella T. Grasso Southeastern Technical High School","=""9002716""","*","*"
+"Connecticut Technical High School System","=""9000016""","Emmett O'Brien Technical High School","=""9002516""","*","*"
+"Connecticut Technical High School System","=""9000016""","H. C. Wilcox Technical High School","=""9001716""",6,7
+"Connecticut Technical High School System","=""9000016""","H. H. Ellis Technical High School","=""9001316""","*","*"
+"Connecticut Technical High School System","=""9000016""","Henry Abbott Technical High School","=""9001216""",7,9
+"Connecticut Technical High School System","=""9000016""","Howell Cheney Technical High School","=""9001616""",10,10
+"Connecticut Technical High School System","=""9000016""","Norwich Technical High School","=""9002016""",8,9
+"Connecticut Technical High School System","=""9000016""","Oliver Wolcott Technical High School","=""9002216""","*","*"
+"Connecticut Technical High School System","=""9000016""","Platt Technical High School","=""9002616""","*","*"
+"Connecticut Technical High School System","=""9000016""","Vinal Technical High School","=""9001816""",8,8
+"Connecticut Technical High School System","=""9000016""","W. F. Kaynor Technical High School","=""9002316""","*","*"
+"Connecticut Technical High School System","=""9000016""","Windham Technical High School","=""9002416""","*","*"
+"Cooperative Educational Services","=""2430014""","Six-Six Magnet School","=""2430114""","*","*"
+"Coventry School District","=""0320011""","Coventry High School","=""0326111""","*","*"
+"Cromwell School District","=""0330011""","Cromwell High School","=""0336111""","*","*"
+"Danbury School District","=""0340011""","Danbury High School","=""0346111""","*","*"
+"Danbury School District","=""0340011""","Morris Street School","=""0340611""","*","*"
+"Danbury School District","=""0340011""","Rogers Park Middle School","=""0345211""","*","*"
+"Darien School District","=""0350011""","Ox Ridge Elementary School","=""0351311""","*","*"
+"Deep River School District","=""0360011""","Deep River Elementary School","=""0360111""","*","*"
+"Derby School District","=""0370011""","Derby Middle School","=""0375011""","*","*"
+"East Granby School District","=""0400011""","East Granby High School","=""0406111""",7,7
+"East Hampton School District","=""0420011""","East Hampton High School","=""0426111""","*",6
+"East Hampton School District","=""0420011""","East Hampton Middle School","=""0425111""",16,17
+"East Hartford School District","=""0430011""","Dr. Franklin H. Mayberry School","=""0430611""","*","*"
+"East Hartford School District","=""0430011""","East Hartford High School","=""0436211""",14,14
+"East Hartford School District","=""0430011""","East Hartford Middle School","=""0435111""","*","*"
+"East Hartford School District","=""0430011""","Governor William Pitkin School","=""0432011""","*","*"
+"East Hartford School District","=""0430011""","Joseph O. Goodwin School","=""0430411""",6,6
+"East Hartford School District","=""0430011""","Robert J. O'Brien School","=""0431811""","*","*"
+"East Hartford School District","=""0430011""","Stevens Alternate High school","=""0436411""","*","*"
+"East Hartford School District","=""0430011""","Sunset Ridge School Elementary Academy for Arts and World Languages","=""0432411""",7,8
+"East Haven School District","=""0440011""","East Haven High School","=""0446111""","*","*"
+"East Haven School District","=""0440011""","Joseph Melillo Middle School","=""0445111""","*","*"
+"East Lyme School District","=""0450011""","East Lyme High School","=""0456111""","*","*"
+"East Lyme School District","=""0450011""","East Lyme Middle School","=""0455111""","*","*"
+"East Lyme School District","=""0450011""","Niantic Center School","=""0450211""","*","*"
+"East Windsor School District","=""0470011""","East Windsor High School","=""0476111""","*","*"
+"Eastford School District","=""0390011""","Eastford Elementary School","=""0390111""","*","*"
+"Ellington School District","=""0480011""","Ellington High School","=""0486111""","*","*"
+"Ellington School District","=""0480011""","Windermere Intermediate School","=""0480711""","*","*"
+"Elm City College Preparatory School District","=""2890013""","Elm City College Preparatory School","=""2890113""",6,6
+"Enfield School District","=""0490011""","Enfield High School","=""0496111""","*","*"
+"Enfield School District","=""0490011""","Enrico Fermi High School","=""0496211""","*","*"
+"Enfield School District","=""0490011""","John F. Kennedy Middle School","=""0495211""","*",6
+"Essex School District","=""0500011""","Essex Elementary School","=""0500111""","*","*"
+"Fairfield School District","=""0510011""","Fairfield Warde High School","=""0516211""","*","*"
+"Fairfield School District","=""0510011""","Roger Ludlowe Middle School","=""0515311""","*","*"
+"Fairfield School District","=""0510011""","Tomlinson Middle School","=""0515111""","*","*"
+"Farmington School District","=""0520011""","Farmington High School","=""0526111""","*","*"
+"Farmington School District","=""0520011""","Union School","=""0520111""","*","*"
+"Glastonbury School District","=""0540011""","Glastonbury High School","=""0546111""",6,6
+"Glastonbury School District","=""0540011""","Smith Middle School","=""0545211""","*","*"
+"Granby School District","=""0560011""","Frank M. Kearns Primary School","=""0560111""","*","*"
+"Granby School District","=""0560011""","Granby Memorial High School","=""0566111""","*","*"
+"Greenwich School District","=""0570011""","Greenwich High School","=""0576111""",7,7
+"Greenwich School District","=""0570011""","Julian Curtiss School","=""0570311""","*","*"
+"Greenwich School District","=""0570011""","Western Middle School","=""0575311""","*","*"
+"Griswold School District","=""0580011""","Griswold Elementary School","=""0580311""","*","*"
+"Griswold School District","=""0580011""","Griswold High School","=""0586211""","*","*"
+"Griswold School District","=""0580011""","Griswold Middle School","=""0585111""","*","*"
+"Groton School District","=""0590011""","Carl C. Cutler Middle School","=""0595311""","*","*"
+"Groton School District","=""0590011""","Catherine Kolnaski Magnet School","=""0592011""","*","*"
+"Groton School District","=""0590011""","Pleasant Valley School","=""0591211""","*","*"
+"Groton School District","=""0590011""","Robert E. Fitch High School","=""0596111""","*","*"
+"Guilford School District","=""0600011""","A. Baldwin Middle School","=""0600711""","*","*"
+"Guilford School District","=""0600011""","Guilford High School","=""0606111""","*","*"
+"Hamden School District","=""0620011""","Church Street School","=""0620211""","*","*"
+"Hamden School District","=""0620011""","Hamden Middle School","=""0625211""","*","*"
+"Hamden School District","=""0620011""","Ridge Hill School","=""0621111""","*","*"
+"Hamden School District","=""0620011""","Spring Glen School","=""0621011""","*","*"
+"Hartford School District","=""0640011""","Batchelder School","=""0640411""","*",6
+"Hartford School District","=""0640011""","Breakthrough Magnet School","=""0643311""","*","*"
+"Hartford School District","=""0640011""","Burns Latino Studies Academy","=""0640611""","*","*"
+"Hartford School District","=""0640011""","Burr School","=""0642311""",7,7
+"Hartford School District","=""0640011""","HPHS Academy of Engineering and Green Technology","=""0647211""","*","*"
+"Hartford School District","=""0640011""","HPHS Academy of Nursing and Health Science","=""0647511""","*","*"
+"Hartford School District","=""0640011""","HPHS Law and Government Academy","=""0647411""","*","*"
+"Hartford School District","=""0640011""","Hartford Magnet Trinity College Academy","=""0645411""","*","*"
+"Hartford School District","=""0640011""","High School Inc.","=""0647611""","*","*"
+"Hartford School District","=""0640011""","M. L. King School","=""0641611""","*","*"
+"Hartford School District","=""0640011""","Milner Elementary School","=""0641911""",8,8
+"Hartford School District","=""0640011""","Pathways Academy of Technology and Design","=""0646611""","*",6
+"Hartford School District","=""0640011""","STEM Magnet School at Annie Fisher","=""0642511""","*","*"
+"Hartford School District","=""0640011""","Simpson-Waverly School","=""0642611""","*","*"
+"Hartford School District","=""0640011""","Sports and Medical Sciences Academy","=""0646511""","*",7
+"Hartford School District","=""0640011""","University High of Science and Engineering","=""0646711""","*","*"
+"Hartford School District","=""0640011""","West Middle School","=""0642111""","*","*"
+"Hartland School District","=""0650011""","Hartland School","=""0650111""","*","*"
+"Hebron School District","=""0670011""","Gilead Hill School","=""0670211""","*","*"
+"Hebron School District","=""0670011""","Hebron Elementary School","=""0670111""","*","*"
+"Highville Charter School District","=""2860013""","Highville Charter School","=""2860113""","*","*"
+"Interdistrict School for Arts and Comm District","=""2650013""","Interdistrict School For Arts And Communication","=""2655113""",6,11
+"Jumoke Academy District","=""2610013""","Jumoke Academy","=""2610113""","*","*"
+"Killingly School District","=""0690011""","Killingly High School","=""0696111""",16,20
+"Killingly School District","=""0690011""","Killingly Intermediate School","=""0695211""",8,8
+"Learn","=""2450014""","Connecticut River Academy","=""2456014""","*","*"
+"Ledyard School District","=""0720011""","Gallup Hill School","=""0720411""","*","*"
+"Ledyard School District","=""0720011""","Juliet W. Long School","=""0720311""","*","*"
+"Ledyard School District","=""0720011""","Ledyard High School","=""0726111""","*","*"
+"Ledyard School District","=""0720011""","Ledyard Middle School","=""0725111""","*","*"
+"Litchfield School District","=""0740011""","Litchfield High School","=""0746111""","*","*"
+"Litchfield School District","=""0740011""","Litchfield Intermediate School","=""0740311""","*","*"
+"Madison School District","=""0760011""","Walter C. Polson Upper Middle School","=""0765211""","*","*"
+"Manchester School District","=""0770011""","Bowers School","=""0770111""","*","*"
+"Manchester School District","=""0770011""","Manchester High School","=""0776111""","*","*"
+"Manchester School District","=""0770011""","Robertson School","=""0771011""","*","*"
+"Manchester School District","=""0770011""","Washington School","=""0771411""","*","*"
+"Marlborough School District","=""0790011""","Elmer Thienes-Mary Hall Elementary School","=""0790111""","*","*"
+"Meriden School District","=""0800011""","Francis T. Maloney High School","=""0806111""","*","*"
+"Meriden School District","=""0800011""","Lincoln Middle School","=""0805211""",8,9
+"Meriden School District","=""0800011""","Orville H. Platt High School","=""0806211""","*","*"
+"Meriden School District","=""0800011""","Washington Middle School","=""0805411""","*","*"
+"Middletown School District","=""0830011""","MacDonough School","=""0830911""","*","*"
+"Middletown School District","=""0830011""","Woodrow Wilson Middle School","=""0835411""","*",6
+"Milford School District","=""0840011""","East Shore Middle School","=""0845111""","*","*"
+"Milford School District","=""0840011""","Harborside Middle School","=""0845211""","*","*"
+"Milford School District","=""0840011""","Jonathan Law High School","=""0846211""",9,10
+"Milford School District","=""0840011""","Joseph A. Foran High School","=""0846311""",8,8
+"Milford School District","=""0840011""","The Academy","=""0840311""","*","*"
+"Montville School District","=""0860011""","Leonard J. Tyl Middle School","=""0865111""","*","*"
+"Montville School District","=""0860011""","Montville High School","=""0866111""","*","*"
+"Naugatuck School District","=""0880011""","Hillside Intermediate School","=""0880411""","*","*"
+"Naugatuck School District","=""0880011""","Maple Hill School","=""0880311""","*","*"
+"Naugatuck School District","=""0880011""","Naugatuck High School","=""0886111""","*","*"
+"Naugatuck School District","=""0880011""","Western School","=""0880711""","*","*"
+"New Beginnings Inc., Family Academy District","=""2800013""","New Beginnings Inc., Family Academy","=""2800113""","*","*"
+"New Britain School District","=""0890011""","Chamberlain  Elementary School","=""0890311""","*","*"
+"New Britain School District","=""0890011""","Frank J. DiLoreto School","=""0891111""","*","*"
+"New Britain School District","=""0890011""","House of Arts Letters and Science (HALS)  Academy","=""0895411""","*","*"
+"New Britain School District","=""0890011""","Lincoln School","=""0890811""","*","*"
+"New Britain School District","=""0890011""","New Britain High School","=""0896111""","*","*"
+"New Britain School District","=""0890011""","Pulaski Middle School","=""0895311""","*","*"
+"New Britain School District","=""0890011""","Roosevelt Middle School","=""0895111""",10,10
+"New Britain School District","=""0890011""","Slade Middle School","=""0895211""",12,14
+"New Britain School District","=""0890011""","Smalley Academy","=""0891211""","*","*"
+"New Britain School District","=""0890011""","Smith School","=""0891311""","*","*"
+"New Britain School District","=""0890011""","Vance School","=""0891511""","*","*"
+"New Fairfield School District","=""0910011""","New Fairfield High School","=""0916111""",8,8
+"New Fairfield School District","=""0910011""","New Fairfield Middle School","=""0915211""","*","*"
+"New Hartford School District","=""0920011""","Ann Antolini School","=""0920311""","*","*"
+"New Haven School District","=""0930011""","Beecher School","=""0930311""","*","*"
+"New Haven School District","=""0930011""","Bishop Woods School","=""0934311""","*","*"
+"New Haven School District","=""0930011""","Edgewood School","=""0931211""","*","*"
+"New Haven School District","=""0930011""","Engineering - Science University Magnet School","=""0931711""","*","*"
+"New Haven School District","=""0930011""","High School In The Community","=""0936611""","*","*"
+"New Haven School District","=""0930011""","Hyde School of Health, Science and Sports Medicine","=""0936811""","*","*"
+"New Haven School District","=""0930011""","James Hillhouse High School","=""0936211""","*","*"
+"New Haven School District","=""0930011""","John C. Daniels","=""0931311""","*","*"
+"New Haven School District","=""0930011""","King/Robinson Magnet School","=""0933011""",16,19
+"New Haven School District","=""0930011""","Nathan Hale School","=""0931411""",7,8
+"New Haven School District","=""0930011""","Sound School","=""0936711""","*","*"
+"New Haven School District","=""0930011""","Truman School","=""0932911""",11,14
+"New Haven School District","=""0930011""","Wilbur Cross High School","=""0936111""","*","*"
+"New London School District","=""0950011""","Bennie Dover Jackson Middle School","=""0955111""",20,25
+"New London School District","=""0950011""","Jennings School","=""0950311""","*","*"
+"New London School District","=""0950011""","Nathan Hale Arts Magnet School","=""0950911""","*","*"
+"New London School District","=""0950011""","New London High School","=""0956111""",13,17
+"New London School District","=""0950011""","Winthrop STEM Elementary Magnet School","=""0950811""","*","*"
+"New Milford School District","=""0960011""","New Milford High School","=""0966111""",6,7
+"New Milford School District","=""0960011""","Sarah Noble Intermediate School","=""0960911""","*","*"
+"Newington School District","=""0940011""","Anna Reynolds School","=""0940611""","*","*"
+"Newington School District","=""0940011""","John Wallace Middle School","=""0945311""","*","*"
+"Newington School District","=""0940011""","Martin Kellogg Middle School","=""0945111""",7,10
+"Newington School District","=""0940011""","Newington High School","=""0946111""","*","*"
+"Newtown School District","=""0970011""","Newtown High School","=""0976111""","*","*"
+"North Branford School District","=""0990011""","Jerome Harrison School","=""0990411""","*","*"
+"North Branford School District","=""0990011""","North Branford High School","=""0996111""","*","*"
+"North Branford School District","=""0990011""","North Branford Intermediate School","=""0995111""","*","*"
+"North Canaan School District","=""1000011""","North Canaan Elementary School","=""1000111""","*","*"
+"North Haven School District","=""1010011""","North Haven High School","=""1016111""","*","*"
+"Norwalk School District","=""1030011""","Brien McMahon High School","=""1036211""","*","*"
+"Norwalk School District","=""1030011""","Nathan Hale Middle School","=""1035211""","*","*"
+"Norwalk School District","=""1030011""","Norwalk High School","=""1036111""","*","*"
+"Norwalk School District","=""1030011""","Norwalk Pathways Academy at Briggs","=""1036311""","*","*"
+"Norwalk School District","=""1030011""","Ponus Ridge Middle School","=""1035311""","*","*"
+"Norwalk School District","=""1030011""","West Rocks Middle School","=""1035411""",9,9
+"Norwich Free Academy District","=""9010022""","Norwich Free Academy","=""9016122""","*","*"
+"Norwich School District","=""1040011""","Deborah-Tennant Zinewicz  School","=""1049111""","*","*"
+"Norwich School District","=""1040011""","Kelly Middle School","=""1045111""","*","*"
+"Norwich School District","=""1040011""","Uncas Network School","=""1041911""","*","*"
+"Old Saybrook School District","=""1060011""","Old Saybrook Middle School","=""1065211""","*","*"
+"Park City Prep Charter School District","=""2830013""","Park City Prep Charter School","=""2835113""","*","*"
+"Plainfield School District","=""1090011""","Plainfield Central School","=""1095111""","*","*"
+"Plainfield School District","=""1090011""","Plainfield High School","=""1096111""",8,10
+"Plainville School District","=""1100011""","Linden Street School","=""1100211""","*","*"
+"Plainville School District","=""1100011""","Louis Toffolon School","=""1100511""","*","*"
+"Plymouth School District","=""1110011""","Eli Terry Jr. Middle School","=""1115111""",7,11
+"Putnam School District","=""1160011""","Putnam Elementary School","=""1160311""","*","*"
+"Putnam School District","=""1160011""","Putnam High School","=""1166111""","*","*"
+"Putnam School District","=""1160011""","Putnam Middle School","=""1165111""","*","*"
+"Redding School District","=""1170011""","John Read Middle School","=""1175111""",7,8
+"Regional School District 01","=""2010012""","Housatonic Valley Regional High School","=""2016112""","*","*"
+"Regional School District 05","=""2050012""","Amity Middle School: Bethany","=""2055112""","*","*"
+"Regional School District 05","=""2050012""","Amity Middle School: Orange","=""2055212""","*","*"
+"Regional School District 06","=""2060012""","Wamogo Regional High School","=""2066112""","*","*"
+"Regional School District 07","=""2070012""","Northwestern Regional Middle School","=""2075112""","*","*"
+"Regional School District 08","=""2080012""","RHAM High School","=""2086112""","*","*"
+"Regional School District 08","=""2080012""","RHAM Middle School","=""2085112""","*","*"
+"Regional School District 09","=""2090012""","Joel Barlow High School","=""2096112""","*","*"
+"Regional School District 10","=""2100012""","Har-Bur Middle School","=""2105112""","*","*"
+"Regional School District 10","=""2100012""","Lewis S. Mills High School","=""2106112""","*","*"
+"Regional School District 11","=""2110012""","Parish Hill High School","=""2116112""","*","*"
+"Regional School District 13","=""2130012""","Frank Ward Strong School","=""2135112""","*","*"
+"Regional School District 16","=""2160012""","Community School","=""2160212""","*","*"
+"Regional School District 17","=""2170012""","Haddam-Killingworth High School","=""2176112""",8,10
+"Regional School District 17","=""2170012""","Haddam-Killingworth Middle School","=""2175112""","*",7
+"Regional School District 18","=""2180012""","Lyme-Old Lyme High School","=""2186112""","*","*"
+"Regional School District 19","=""2190012""","E. O. Smith High School","=""2196112""","*","*"
+"Ridgefield School District","=""1180011""","Ridgefield High School","=""1186111""","*","*"
+"Seymour School District","=""1240011""","Bungay School","=""1240111""","*","*"
+"Seymour School District","=""1240011""","Seymour High School","=""1246111""","*","*"
+"Shelton School District","=""1260011""","Intermediate School","=""1265111""",7,8
+"Shelton School District","=""1260011""","Long Hill School","=""1260811""","*","*"
+"Side By Side Charter School District","=""2700013""","Side By Side Charter School","=""2700113""","*","*"
+"Simsbury School District","=""1280011""","Simsbury High School","=""1286111""","*","*"
+"Somers School District","=""1290011""","Somers High School","=""1296111""","*","*"
+"South Windsor School District","=""1320011""","Eli Terry School","=""1320711""","*","*"
+"South Windsor School District","=""1320011""","Orchard Hill School","=""1320611""","*","*"
+"South Windsor School District","=""1320011""","South Windsor High School","=""1326211""","*","*"
+"South Windsor School District","=""1320011""","Timothy Edwards School","=""1325111""",7,8
+"Southington School District","=""1310011""","John F. Kennedy Middle School","=""1315311""","*","*"
+"Southington School District","=""1310011""","Joseph A. Depaolo Middle School","=""1315111""","*","*"
+"Southington School District","=""1310011""","Strong Elementary School","=""1310811""","*","*"
+"Sprague School District","=""1330011""","Sayles School","=""1330111""","*","*"
+"Stafford School District","=""1340011""","Stafford High School","=""1346111""","*","*"
+"Stafford School District","=""1340011""","Stafford Middle School","=""1345211""","*","*"
+"Stamford School District","=""1350011""","Cloonan School","=""1355611""","*","*"
+"Stamford School District","=""1350011""","Rippowam Middle School","=""1355811""","*",12
+"Sterling School District","=""1360011""","Sterling Community School","=""1360311""","*","*"
+"Stonington School District","=""1370011""","Mystic Middle School","=""1375211""","*","*"
+"Stonington School District","=""1370011""","Pawcatuck Middle School","=""1375111""","*","*"
+"Stonington School District","=""1370011""","Stonington High School","=""1376111""","*","*"
+"Stratford School District","=""1380011""","Chapel School","=""1380311""","*","*"
+"Stratford School District","=""1380011""","David Wooster Middle School","=""1385211""","*","*"
+"Stratford School District","=""1380011""","Eli Whitney School","=""1381311""","*","*"
+"Stratford School District","=""1380011""","Harry B. Flood Middle School","=""1385311""","*","*"
+"Stratford School District","=""1380011""","Honeyspot School","=""1381611""","*","*"
+"Stratford School District","=""1380011""","Nichols School","=""1380911""","*","*"
+"Stratford School District","=""1380011""","Second Hill Lane School","=""1381011""","*","*"
+"Stratford School District","=""1380011""","Stratford High School","=""1386111""","*","*"
+"Stratford School District","=""1380011""","Wilcoxson School","=""1381411""","*","*"
+"Suffield School District","=""1390011""","McAlister Intermediate School","=""1390311""","*","*"
+"Suffield School District","=""1390011""","Suffield High School","=""1396111""","*","*"
+"Suffield School District","=""1390011""","Suffield Middle School","=""1395111""","*","*"
+"The Bridge Academy District","=""2690013""","The Bridge Academy","=""2696113""","*","*"
+"The Gilbert School District","=""9020022""","The Gilbert School","=""9026122""",28,35
+"Thompson School District","=""1410011""","Mary R. Fisher Elementary School","=""1410111""","*","*"
+"Thompson School District","=""1410011""","Tourtellotte Memorial High School","=""1416111""","*","*"
+"Tolland School District","=""1420011""","Tolland High School","=""1426111""","*","*"
+"Torrington School District","=""1430011""","Southwest School","=""1430811""","*","*"
+"Torrington School District","=""1430011""","Torrington High School","=""1436111""","*","*"
+"Torrington School District","=""1430011""","Torrington Middle School","=""1435111""","*",7
+"Trailblazers Academy District","=""2780013""","Trailblazers Academy","=""2785113""","*",7
+"Trumbull School District","=""1440011""","Frenchtown Elementary School","=""1441011""","*","*"
+"Trumbull School District","=""1440011""","Madison Middle School","=""1445111""","*","*"
+"Trumbull School District","=""1440011""","Middlebrook School","=""1440311""","*","*"
+"Trumbull School District","=""1440011""","Tashua School","=""1440911""","*","*"
+"Trumbull School District","=""1440011""","Trumbull High School","=""1446111""","*","*"
+"Vernon School District","=""1460011""","Center Road School","=""1461411""","*","*"
+"Vernon School District","=""1460011""","Northeast School","=""1460311""","*","*"
+"Vernon School District","=""1460011""","Rockville High School","=""1466111""","*","*"
+"Vernon School District","=""1460011""","Skinner Road School","=""1461011""","*","*"
+"Vernon School District","=""1460011""","Vernon Center Middle School","=""1465111""","*","*"
+"Wallingford School District","=""1480011""","Evarts C. Stevens School","=""1480911""","*","*"
+"Wallingford School District","=""1480011""","James H. Moran Middle School","=""1485311""","*","*"
+"Wallingford School District","=""1480011""","Lyman Hall High School","=""1486111""",12,13
+"Wallingford School District","=""1480011""","Mark T. Sheehan High School","=""1486211""",6,8
+"Wallingford School District","=""1480011""","Pond Hill School","=""1481211""","*","*"
+"Wallingford School District","=""1480011""","Rock Hill School","=""1480411""","*","*"
+"Wallingford School District","=""1480011""","Yalesville School","=""1480811""","*","*"
+"Waterbury School District","=""1510011""","B. W. Tinker School","=""1512111""","*","*"
+"Waterbury School District","=""1510011""","Bunker Hill School","=""1510611""","*","*"
+"Waterbury School District","=""1510011""","Crosby High School","=""1516211""","*","*"
+"Waterbury School District","=""1510011""","Gilmartin School","=""1512611""","*","*"
+"Waterbury School District","=""1510011""","H. S. Chase School","=""1510711""","*","*"
+"Waterbury School District","=""1510011""","John F. Kennedy High School","=""1516411""","*","*"
+"Waterbury School District","=""1510011""","Michael F. Wallace Middle School","=""1515111""","*","*"
+"Waterbury School District","=""1510011""","State Street School","=""1519011""","*","*"
+"Waterbury School District","=""1510011""","Walsh School","=""1512211""","*","*"
+"Waterbury School District","=""1510011""","Waterbury Arts Magnet School (High)","=""1516011""","*","*"
+"Waterbury School District","=""1510011""","West Side Middle School","=""1515211""",6,7
+"Waterbury School District","=""1510011""","Wilby High School","=""1516311""","*","*"
+"Waterbury School District","=""1510011""","Woodrow Wilson School","=""1513211""","*","*"
+"Waterford School District","=""1520011""","Quaker Hill Elementary School","=""1520711""","*","*"
+"Watertown School District","=""1530011""","Polk School","=""1530411""","*","*"
+"Watertown School District","=""1530011""","Swift Middle School","=""1535111""","*","*"
+"Watertown School District","=""1530011""","Watertown High School","=""1536111""","*","*"
+"West Hartford School District","=""1550011""","Aiken School","=""1551611""","*","*"
+"West Hartford School District","=""1550011""","Bristow Middle School","=""1555311""","*","*"
+"West Hartford School District","=""1550011""","Bugbee School","=""1550411""","*","*"
+"West Hartford School District","=""1550011""","Charter Oak International Academy","=""1550511""","*","*"
+"West Hartford School District","=""1550011""","Conard High School","=""1556111""","*","*"
+"West Hartford School District","=""1550011""","Hall High School","=""1556211""",6,6
+"West Hartford School District","=""1550011""","Sedgwick Middle School","=""1555211""",9,13
+"West Haven School District","=""1560011""","West Haven High School","=""1566111""","*","*"
+"Westbrook School District","=""1540011""","Westbrook Middle School","=""1545111""","*","*"
+"Weston School District","=""1570011""","Weston High School","=""1576111""","*","*"
+"Westport School District","=""1580011""","Coleytown Middle School","=""1585311""","*","*"
+"Wethersfield School District","=""1590011""","Emerson-Williams School","=""1590211""","*","*"
+"Wethersfield School District","=""1590011""","Wethersfield High School","=""1596111""","*","*"
+"Willington School District","=""1600011""","Hall Memorial School","=""1605111""","*","*"
+"Wilton School District","=""1610011""","Wilton High School","=""1616111""","*","*"
+"Winchester School District","=""1620011""","Pearson Middle School","=""1625111""","*","*"
+"Windham School District","=""1630011""","Windham Center School","=""1630511""","*","*"
+"Windham School District","=""1630011""","Windham Middle School","=""1635111""",10,17
+"Windsor Locks School District","=""1650011""","Windsor Locks High School","=""1656111""",16,17
+"Windsor Locks School District","=""1650011""","Windsor Locks Middle School","=""1655111""","*","*"
+"Windsor School District","=""1640011""","Sage Park Middle School","=""1645311""",8,8
+"Windsor School District","=""1640011""","Windsor High School","=""1646111""","*","*"
+"Wolcott School District","=""1660011""","Alcott School","=""1660611""","*","*"
+"Wolcott School District","=""1660011""","Tyrrell Middle School","=""1665111""","*","*"
+"Woodstock Academy District","=""9030022""","Woodstock Academy","=""9036122""","*","*"
+"Woodstock School District","=""1690011""","Woodstock Middle School","=""1695111""","*","*"
+

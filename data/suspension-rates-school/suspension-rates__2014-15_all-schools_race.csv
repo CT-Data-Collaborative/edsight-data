@@ -486,10 +486,10 @@
 "Bridgeport School District","=""0150011""","Madison School","=""0152011""","American Indian or Alaska Native","N/A","*"
 "Bridgeport School District","=""0150011""","Madison School","=""0152011""","Asian","N/A","*"
 "Bridgeport School District","=""0150011""","Madison School","=""0152011""","Black or African American",17,11.0
-"Bridgeport School District","=""0150011""","Madison School","=""0152011""","Hispanic/Latino of any race",8,3.1
+"Bridgeport School District","=""0150011""","Madison School","=""0152011""","Hispanic/Latino of any race","*","*"
 "Bridgeport School District","=""0150011""","Madison School","=""0152011""","Native Hawaiian or Other Pacific Islander","N/A","*"
 "Bridgeport School District","=""0150011""","Madison School","=""0152011""","Two or More Races","*","*"
-"Bridgeport School District","=""0150011""","Madison School","=""0152011""","White","*","*"
+"Bridgeport School District","=""0150011""","Madison School","=""0152011""","White",8,11.1
 "Bridgeport School District","=""0150011""","Multicultural Magnet School","=""0154611""","American Indian or Alaska Native","N/A","*"
 "Bridgeport School District","=""0150011""","Multicultural Magnet School","=""0154611""","Asian","N/A","*"
 "Bridgeport School District","=""0150011""","Multicultural Magnet School","=""0154611""","Black or African American","*","*"
@@ -2117,8 +2117,8 @@
 "Greenwich School District","=""0570011""","Riverside School","=""0571011""","White","N/A","N/A"
 "Greenwich School District","=""0570011""","Western Middle School","=""0575311""","American Indian or Alaska Native","N/A","*"
 "Greenwich School District","=""0570011""","Western Middle School","=""0575311""","Asian","N/A","N/A"
-"Greenwich School District","=""0570011""","Western Middle School","=""0575311""","Black or African American","*","*"
-"Greenwich School District","=""0570011""","Western Middle School","=""0575311""","Hispanic/Latino of any race",6,3.3
+"Greenwich School District","=""0570011""","Western Middle School","=""0575311""","Black or African American",6,19.4
+"Greenwich School District","=""0570011""","Western Middle School","=""0575311""","Hispanic/Latino of any race","*","*"
 "Greenwich School District","=""0570011""","Western Middle School","=""0575311""","Two or More Races","*","*"
 "Greenwich School District","=""0570011""","Western Middle School","=""0575311""","White",8,2.8
 "Griswold School District","=""0580011""","Griswold Alternative School","=""0580111""","Black or African American","*","*"
@@ -3023,7 +3023,7 @@
 "Mansfield School District","=""0780011""","Dorothy C. Goodwin School","=""0780211""","Hispanic/Latino of any race","N/A","N/A"
 "Mansfield School District","=""0780011""","Dorothy C. Goodwin School","=""0780211""","Two or More Races","N/A","*"
 "Mansfield School District","=""0780011""","Dorothy C. Goodwin School","=""0780211""","White","N/A","N/A"
-"Mansfield School District","=""0780011""","Mansfield Middle School School","=""0785111""","American Indian or Alaska Native","N/A","*"
+"Mansfield School District","=""0780011""","Mansfield Middle School","=""0785111""","American Indian or Alaska Native","N/A","*"
 "Mansfield School District","=""0780011""","Mansfield Middle School School","=""0785111""","Asian","*","*"
 "Mansfield School District","=""0780011""","Mansfield Middle School School","=""0785111""","Black or African American","*","*"
 "Mansfield School District","=""0780011""","Mansfield Middle School School","=""0785111""","Hispanic/Latino of any race","*","*"
@@ -3477,7 +3477,7 @@
 "New Britain School District","=""0890011""","Frank J. DiLoreto School","=""0891111""","Native Hawaiian or Other Pacific Islander","N/A","*"
 "New Britain School District","=""0890011""","Frank J. DiLoreto School","=""0891111""","Two or More Races","N/A","*"
 "New Britain School District","=""0890011""","Frank J. DiLoreto School","=""0891111""","White",9,9.4
-"New Britain School District","=""0890011""","Gaffney School","=""0890511""","American Indian or Alaska Native","N/A","*"
+"New Britain School District","=""0890011""","Gaffney Elementary School","=""0890511""","American Indian or Alaska Native","N/A","*"
 "New Britain School District","=""0890011""","Gaffney School","=""0890511""","Asian","*","*"
 "New Britain School District","=""0890011""","Gaffney School","=""0890511""","Black or African American","*","*"
 "New Britain School District","=""0890011""","Gaffney School","=""0890511""","Hispanic/Latino of any race",26,8.1
@@ -3546,7 +3546,7 @@
 "New Britain School District","=""0890011""","Smith School","=""0891311""","Two or More Races","*","*"
 "New Britain School District","=""0890011""","Smith School","=""0891311""","White","*","*"
 "New Britain School District","=""0890011""","Vance School","=""0891511""","Asian","N/A","*"
-"New Britain School District","=""0890011""","Vance School","=""0891511""","Black or African American",8,11.8
+"New Britain School District","=""0890011""","Vance School","=""0891511""","Black or African American","*","*"
 "New Britain School District","=""0890011""","Vance School","=""0891511""","Hispanic/Latino of any race",15,4.8
 "New Britain School District","=""0890011""","Vance School","=""0891511""","Native Hawaiian or Other Pacific Islander","N/A","*"
 "New Britain School District","=""0890011""","Vance School","=""0891511""","Two or More Races","N/A","*"
@@ -3792,7 +3792,7 @@
 "New Haven School District","=""0930011""","Mauro-Sheridan Magnet School","=""0931911""","American Indian or Alaska Native","N/A","*"
 "New Haven School District","=""0930011""","Mauro-Sheridan Magnet School","=""0931911""","Asian","N/A","*"
 "New Haven School District","=""0930011""","Mauro-Sheridan Magnet School","=""0931911""","Black or African American",36,14.3
-"New Haven School District","=""0930011""","Mauro-Sheridan Magnet School","=""0931911""","Hispanic/Latino of any race",17,10.3
+"New Haven School District","=""0930011""","Mauro-Sheridan Magnet School","=""0931911""","Hispanic/Latino of any race","*","*"
 "New Haven School District","=""0930011""","Mauro-Sheridan Magnet School","=""0931911""","Two or More Races","N/A","*"
 "New Haven School District","=""0930011""","Mauro-Sheridan Magnet School","=""0931911""","White",7,6.9
 "New Haven School District","=""0930011""","Metropolitan Business Academy","=""0936011""","Asian","N/A","*"
@@ -4992,8 +4992,8 @@
 "Rocky Hill School District","=""1190011""","Pathways","=""1190311""","White","*","*"
 "Rocky Hill School District","=""1190011""","Rocky Hill High School","=""1196111""","American Indian or Alaska Native","N/A","*"
 "Rocky Hill School District","=""1190011""","Rocky Hill High School","=""1196111""","Asian","*","*"
-"Rocky Hill School District","=""1190011""","Rocky Hill High School","=""1196111""","Black or African American","*","*"
-"Rocky Hill School District","=""1190011""","Rocky Hill High School","=""1196111""","Hispanic/Latino of any race",9,12.7
+"Rocky Hill School District","=""1190011""","Rocky Hill High School","=""1196111""","Black or African American",9,32.1
+"Rocky Hill School District","=""1190011""","Rocky Hill High School","=""1196111""","Hispanic/Latino of any race","*","*"
 "Rocky Hill School District","=""1190011""","Rocky Hill High School","=""1196111""","Two or More Races","N/A","*"
 "Rocky Hill School District","=""1190011""","Rocky Hill High School","=""1196111""","White",27,5.1
 "Rocky Hill School District","=""1190011""","West Hill School","=""1190511""","American Indian or Alaska Native","N/A","*"
@@ -5603,9 +5603,9 @@
 "Stratford School District","=""1380011""","Stratford High School","=""1386111""","American Indian or Alaska Native","N/A","*"
 "Stratford School District","=""1380011""","Stratford High School","=""1386111""","Asian","N/A","*"
 "Stratford School District","=""1380011""","Stratford High School","=""1386111""","Black or African American",49,19.6
-"Stratford School District","=""1380011""","Stratford High School","=""1386111""","Hispanic/Latino of any race",22,8.5
+"Stratford School District","=""1380011""","Stratford High School","=""1386111""","Hispanic/Latino of any race","*","*"
 "Stratford School District","=""1380011""","Stratford High School","=""1386111""","Two or More Races","*","*"
-"Stratford School District","=""1380011""","Stratford High School","=""1386111""","White","*","*"
+"Stratford School District","=""1380011""","Stratford High School","=""1386111""","White",22,5.2
 "Stratford School District","=""1380011""","Strive-Stratford","=""1389011""","American Indian or Alaska Native","N/A","*"
 "Stratford School District","=""1380011""","Strive-Stratford","=""1389011""","Black or African American","N/A","*"
 "Stratford School District","=""1380011""","Strive-Stratford","=""1389011""","Hispanic/Latino of any race","N/A","*"

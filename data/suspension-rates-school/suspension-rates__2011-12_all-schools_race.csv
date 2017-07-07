@@ -385,7 +385,7 @@
 "Bridgeport School District","=""0150011""","Hall School","=""0151111""","Two or More Races","N/A","*"
 "Bridgeport School District","=""0150011""","Hall School","=""0151111""","White","N/A","*"
 "Bridgeport School District","=""0150011""","Hallen School","=""0151211""","Asian","N/A","*"
-"Bridgeport School District","=""0150011""","Hallen School","=""0151211""","Black or African American",14,6.5
+"Bridgeport School District","=""0150011""","Hallen School","=""0151211""","Black or African American","*","*"
 "Bridgeport School District","=""0150011""","Hallen School","=""0151211""","Hispanic/Latino of any race","*","*"
 "Bridgeport School District","=""0150011""","Hallen School","=""0151211""","Two or More Races","N/A","*"
 "Bridgeport School District","=""0150011""","Hallen School","=""0151211""","White","N/A","N/A"
@@ -667,8 +667,8 @@
 "Capitol Region Education Council","=""2410014""","Great Path Academy at MCC","=""2416314""","White","*","*"
 "Capitol Region Education Council","=""2410014""","Greater Hartford Academy of  the Arts High School - Full Time","=""2416414""","American Indian or Alaska Native","N/A","*"
 "Capitol Region Education Council","=""2410014""","Greater Hartford Academy of  the Arts High School - Full Time","=""2416414""","Asian","N/A","*"
-"Capitol Region Education Council","=""2410014""","Greater Hartford Academy of  the Arts High School - Full Time","=""2416414""","Black or African American",10,10.0
-"Capitol Region Education Council","=""2410014""","Greater Hartford Academy of  the Arts High School - Full Time","=""2416414""","Hispanic/Latino of any race","*","*"
+"Capitol Region Education Council","=""2410014""","Greater Hartford Academy of  the Arts High School - Full Time","=""2416414""","Black or African American","*","*"
+"Capitol Region Education Council","=""2410014""","Greater Hartford Academy of  the Arts High School - Full Time","=""2416414""","Hispanic/Latino of any race",10,8.6
 "Capitol Region Education Council","=""2410014""","Greater Hartford Academy of  the Arts High School - Full Time","=""2416414""","Two or More Races","N/A","*"
 "Capitol Region Education Council","=""2410014""","Greater Hartford Academy of  the Arts High School - Full Time","=""2416414""","White","*","*"
 "Capitol Region Education Council","=""2410014""","Integrated Program Models","=""2419414""","White","N/A","*"
@@ -1340,10 +1340,10 @@
 "East Hartford School District","=""0430011""","Stevens Alternate High school","=""0436411""","Black or African American",32,45.1
 "East Hartford School District","=""0430011""","Stevens Alternate High school","=""0436411""","Hispanic/Latino of any race",36,40.4
 "East Hartford School District","=""0430011""","Stevens Alternate High school","=""0436411""","White",10,33.3
+"East Hartford School District","=""0430011""","Sunset Ridge Middle School","=""0432411""","Two or More Races","*","*"
 "East Hartford School District","=""0430011""","Sunset Ridge School Elementary Academy for Arts and World Languages","=""0432411""","Asian","*","*"
 "East Hartford School District","=""0430011""","Sunset Ridge School Elementary Academy for Arts and World Languages","=""0432411""","Black or African American",75,41.2
 "East Hartford School District","=""0430011""","Sunset Ridge School Elementary Academy for Arts and World Languages","=""0432411""","Hispanic/Latino of any race",30,21.7
-"East Hartford School District","=""0430011""","Sunset Ridge School Elementary Academy for Arts and World Languages","=""0432411""","Two or More Races","*","*"
 "East Hartford School District","=""0430011""","Sunset Ridge School Elementary Academy for Arts and World Languages","=""0432411""","White",12,21.1
 "East Hartford School District","=""0430011""","Willowbrook Early Childhood","=""0438011""","Asian","N/A","*"
 "East Hartford School District","=""0430011""","Willowbrook Early Childhood","=""0438011""","Black or African American","N/A","N/A"
@@ -1733,8 +1733,8 @@
 "Farmington School District","=""0520011""","Farmington Collaborative PK","=""0528011""","White","N/A","N/A"
 "Farmington School District","=""0520011""","Farmington High School","=""0526111""","American Indian or Alaska Native","N/A","*"
 "Farmington School District","=""0520011""","Farmington High School","=""0526111""","Asian","*","*"
-"Farmington School District","=""0520011""","Farmington High School","=""0526111""","Black or African American","*","*"
-"Farmington School District","=""0520011""","Farmington High School","=""0526111""","Hispanic/Latino of any race",7,10.8
+"Farmington School District","=""0520011""","Farmington High School","=""0526111""","Black or African American",7,10.9
+"Farmington School District","=""0520011""","Farmington High School","=""0526111""","Hispanic/Latino of any race","*","*"
 "Farmington School District","=""0520011""","Farmington High School","=""0526111""","Two or More Races","N/A","*"
 "Farmington School District","=""0520011""","Farmington High School","=""0526111""","White",25,2.4
 "Farmington School District","=""0520011""","Irving A. Robbins Middle School","=""0525111""","American Indian or Alaska Native","N/A","*"
@@ -3428,8 +3428,8 @@
 "New Haven School District","=""0930011""","John S. Martinez School","=""0930811""","Asian","N/A","*"
 "New Haven School District","=""0930011""","John S. Martinez School","=""0930811""","Black or African American",14,18.7
 "New Haven School District","=""0930011""","John S. Martinez School","=""0930811""","Hispanic/Latino of any race",13,3.0
-"New Haven School District","=""0930011""","John S. Martinez School","=""0930811""","Two or More Races","N/A","*"
 "New Haven School District","=""0930011""","John S. Martinez School","=""0930811""","White","N/A","*"
+"New Haven School District","=""0930011""","John S. Martinez Sea and Sky STEM School","=""0930811""","Two or More Races","N/A","*"
 "New Haven School District","=""0930011""","Katherine Brennan/Clarence Rogers School","=""0932111""","Asian","N/A","*"
 "New Haven School District","=""0930011""","Katherine Brennan/Clarence Rogers School","=""0932111""","Black or African American",35,14.5
 "New Haven School District","=""0930011""","Katherine Brennan/Clarence Rogers School","=""0932111""","Hispanic/Latino of any race",9,12.9
@@ -4832,8 +4832,8 @@
 "Southington School District","=""1310011""","South End Elementary School","=""1310711""","Two or More Races","N/A","*"
 "Southington School District","=""1310011""","South End Elementary School","=""1310711""","White","*","*"
 "Southington School District","=""1310011""","Southington High School","=""1316211""","Asian","N/A","N/A"
-"Southington School District","=""1310011""","Southington High School","=""1316211""","Black or African American","*","*"
-"Southington School District","=""1310011""","Southington High School","=""1316211""","Hispanic/Latino of any race",9,9.6
+"Southington School District","=""1310011""","Southington High School","=""1316211""","Black or African American",9,18.4
+"Southington School District","=""1310011""","Southington High School","=""1316211""","Hispanic/Latino of any race","*","*"
 "Southington School District","=""1310011""","Southington High School","=""1316211""","Two or More Races","*","*"
 "Southington School District","=""1310011""","Southington High School","=""1316211""","White",110,6.2
 "Southington School District","=""1310011""","Strong Elementary School","=""1310811""","Asian","N/A","*"
